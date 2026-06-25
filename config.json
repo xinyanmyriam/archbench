@@ -1,0 +1,25 @@
+{
+  "benchmark": "ArchBench",
+  "version": "1.0",
+  "description": "A multi-domain benchmark for evaluating LLM understanding of industrial software architecture",
+  "systems": [
+    {"name": "openfoam", "display": "OpenFOAM", "domain": "CFD simulation", "language": "C++", "modules": 69},
+    {"name": "nastran", "display": "NASTRAN-95", "domain": "structural analysis", "language": "Fortran", "modules": 6},
+    {"name": "salome", "display": "SALOME", "domain": "CAE platform", "language": "C++", "modules": 197},
+    {"name": "paraview", "display": "ParaView", "domain": "scientific visualization", "language": "C++", "modules": 143},
+    {"name": "kubernetes", "display": "Kubernetes", "domain": "container orchestration", "language": "Go", "modules": 90},
+    {"name": "linux", "display": "Linux Kernel", "domain": "operating system kernel", "language": "C", "modules": 411},
+    {"name": "hadoop", "display": "Apache Hadoop", "domain": "distributed computing", "language": "Java", "modules": 31},
+    {"name": "spring", "display": "Spring Framework", "domain": "enterprise Java", "language": "Java", "modules": 22},
+    {"name": "codeaster", "display": "Code_Aster", "domain": "finite element analysis", "language": "Mixed", "modules": 131},
+    {"name": "openmodelica", "display": "OpenModelica", "domain": "modeling and simulation", "language": "Mixed", "modules": 21},
+    {"name": "tensorflow", "display": "TensorFlow", "domain": "ML framework", "language": "Mixed", "modules": 133},
+    {"name": "pytorch", "display": "PyTorch", "domain": "ML framework", "language": "Mixed", "modules": 119}
+  ],
+  "tasks": [
+    {"name": "component_identification", "abbr": "CI", "description": "Given a full file path, identify its module (4-choice MCQ)"},
+    {"name": "component_identification_hard", "abbr": "CI-Hard", "description": "Given only a filename, identify its module (4-choice MCQ)"},
+    {"name": "dependency_prediction", "abbr": "DP", "description": "Given two modules, predict if dependency exists"},
+    {"name": "architecture_reconstruction", "abbr": "AR", "description": "Given a module, predict its dependencies"}
+  ]
+}
