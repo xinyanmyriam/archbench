@@ -1,7 +1,5 @@
 # ArchBench: A Multi-Domain Benchmark for Evaluating LLM Understanding of Industrial Software Architecture
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20825344.svg)](https://doi.org/10.5281/zenodo.20825344)
-
 ## Overview
 
 ArchBench is a benchmark for evaluating Large Language Model (LLM) understanding of industrial software architecture. It covers **12 industrial open-source systems** across 5 application domains and 8 programming languages, with **4 architecture understanding tasks**.
@@ -99,11 +97,9 @@ with open("systems/kubernetes/component_identification_hard.jsonl") as f:
 
 ```bibtex
 @misc{archbench2026,
-  author = {[Authors]},
+  author = {[Anonymous]},
   title = {ArchBench: A Multi-Domain Benchmark for Evaluating LLM Understanding of Industrial Software Architecture},
-  year = {2026},
-  doi = {10.5281/zenodo.20825344},
-  url = {https://doi.org/10.5281/zenodo.20825344}
+  year = {2026}
 }
 ```
 
