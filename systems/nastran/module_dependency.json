@@ -1,0 +1,27 @@
+{
+  "system": "nastran-95",
+  "total": 4,
+  "missing_target": 0,
+  "dependencies": [
+    {
+      "source_module": "bd",
+      "target_module": "mds",
+      "weight": 5
+    },
+    {
+      "source_module": "mds",
+      "target_module": "mis",
+      "weight": 14
+    },
+    {
+      "source_module": "mis",
+      "target_module": "mds",
+      "weight": 3050
+    },
+    {
+      "source_module": "utility",
+      "target_module": "mis",
+      "weight": 7
+    }
+  ]
+}

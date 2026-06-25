@@ -1,0 +1,6 @@
+{"module": "bd", "fan_in": 0, "fan_out": 1, "layer": "application", "dependencies": ["mds"], "dependents": []}
+{"module": "mds", "fan_in": 2, "fan_out": 1, "layer": "infrastructure", "dependencies": ["mis"], "dependents": ["mis", "bd"]}
+{"module": "mis", "fan_in": 2, "fan_out": 1, "layer": "infrastructure", "dependencies": ["mds"], "dependents": ["utility", "mds"]}
+{"module": "rf", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "um", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "utility", "fan_in": 0, "fan_out": 1, "layer": "application", "dependencies": ["mis"], "dependents": []}

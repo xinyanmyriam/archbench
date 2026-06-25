@@ -1,0 +1,21 @@
+{"module": "OMCompiler/3rdParty", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "OMCompiler/Compiler", "fan_in": 3, "fan_out": 1, "layer": "infrastructure", "dependencies": ["OMCompiler/SimulationRuntime"], "dependents": ["OMCompiler/Parser", "OMEdit/OMEditLIB", "OMNotebook/OMNotebook"]}
+{"module": "OMCompiler/Examples", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "OMCompiler/Parser", "fan_in": 0, "fan_out": 2, "layer": "application", "dependencies": ["OMCompiler/Compiler", "OMCompiler/SimulationRuntime"], "dependents": []}
+{"module": "OMCompiler/SimulationRuntime", "fan_in": 10, "fan_out": 1, "layer": "infrastructure", "dependencies": ["OMCompiler/tools"], "dependents": ["OMCompiler/Parser", "OMShell/mosh", "OMEdit/OMEditLIB", "OMEdit/Testsuite", "OMPlot/OMPlot", "OMCompiler/Compiler", "OMShell/OMShell", "OMParser/3rdParty", "OMEdit/OMEditGUI", "OMNotebook/OMNotebook"]}
+{"module": "OMCompiler/m4", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "OMCompiler/scripts", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "OMCompiler/toJulia", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "OMCompiler/tools", "fan_in": 2, "fan_out": 0, "layer": "infrastructure", "dependencies": [], "dependents": ["OMNotebook/OMNotebook", "OMCompiler/SimulationRuntime"]}
+{"module": "OMEdit/OMEditGUI", "fan_in": 0, "fan_out": 2, "layer": "application", "dependencies": ["OMEdit/OMEditLIB", "OMCompiler/SimulationRuntime"], "dependents": []}
+{"module": "OMEdit/OMEditLIB", "fan_in": 2, "fan_out": 5, "layer": "application", "dependencies": ["OMPlot/OMPlot", "OMPlot/qwt", "OMCompiler/Compiler", "OMParser/3rdParty", "OMCompiler/SimulationRuntime"], "dependents": ["OMEdit/OMEditGUI", "OMEdit/Testsuite"]}
+{"module": "OMEdit/Testsuite", "fan_in": 0, "fan_out": 2, "layer": "application", "dependencies": ["OMEdit/OMEditLIB", "OMCompiler/SimulationRuntime"], "dependents": []}
+{"module": "OMNotebook/DrControl", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "OMNotebook/DrModelica", "fan_in": 0, "fan_out": 0, "layer": "isolated", "dependencies": [], "dependents": []}
+{"module": "OMNotebook/OMNotebook", "fan_in": 0, "fan_out": 6, "layer": "application", "dependencies": ["OMCompiler/tools", "OMPlot/OMPlot", "OMPlot/qwt", "OMCompiler/Compiler", "OMShell/OMShell", "OMCompiler/SimulationRuntime"], "dependents": []}
+{"module": "OMParser/3rdParty", "fan_in": 2, "fan_out": 1, "layer": "infrastructure", "dependencies": ["OMCompiler/SimulationRuntime"], "dependents": ["OMEdit/OMEditLIB", "OMParser/test"]}
+{"module": "OMParser/test", "fan_in": 0, "fan_out": 1, "layer": "application", "dependencies": ["OMParser/3rdParty"], "dependents": []}
+{"module": "OMPlot/OMPlot", "fan_in": 2, "fan_out": 2, "layer": "service", "dependencies": ["OMPlot/qwt", "OMCompiler/SimulationRuntime"], "dependents": ["OMEdit/OMEditLIB", "OMNotebook/OMNotebook"]}
+{"module": "OMPlot/qwt", "fan_in": 3, "fan_out": 0, "layer": "infrastructure", "dependencies": [], "dependents": ["OMPlot/OMPlot", "OMEdit/OMEditLIB", "OMNotebook/OMNotebook"]}
+{"module": "OMShell/OMShell", "fan_in": 1, "fan_out": 1, "layer": "service", "dependencies": ["OMCompiler/SimulationRuntime"], "dependents": ["OMNotebook/OMNotebook"]}
+{"module": "OMShell/mosh", "fan_in": 0, "fan_out": 1, "layer": "application", "dependencies": ["OMCompiler/SimulationRuntime"], "dependents": []}
