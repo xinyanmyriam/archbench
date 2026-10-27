@@ -1,0 +1,2829 @@
+{
+ "accuracy": 0.85,
+ "precision": 0.6739130434782609,
+ "recall": 1.0,
+ "f1": 0.8051948051948052,
+ "tp": 62,
+ "fp": 30,
+ "tn": 108,
+ "fn": 0,
+ "total": 200,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 106137,
+  "completion_tokens": 19869,
+  "total_tokens": 126006
+ },
+ "results": [
+  {
+   "module_A": "cmd/import-boss",
+   "module_B": "staging/src/k8s.io/api",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 436,
+    "completion_tokens": 3,
+    "total_tokens": 439
+   },
+   "latency_ms": 1888.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/genswaggertypedocs",
+   "module_B": "staging/src/k8s.io/api",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 117,
+    "total_tokens": 441
+   },
+   "latency_ms": 2985.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubeadm",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 5,
+    "total_tokens": 639
+   },
+   "latency_ms": 2154.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genkubedocs",
+   "module_B": "pkg/serviceaccount",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 400,
+    "completion_tokens": 430,
+    "total_tokens": 830
+   },
+   "latency_ms": 6994.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/scheduler",
+   "module_B": "cmd/kubectl-convert",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 3,
+    "total_tokens": 622
+   },
+   "latency_ms": 2020.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-cli-plugin",
+   "module_B": "staging/src/k8s.io/cli-runtime",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 547,
+    "completion_tokens": 5,
+    "total_tokens": 552
+   },
+   "latency_ms": 2073.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/auth",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 435,
+    "completion_tokens": 94,
+    "total_tokens": 529
+   },
+   "latency_ms": 2927.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/import-boss",
+   "module_B": "pkg/api",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 411,
+    "completion_tokens": 3,
+    "total_tokens": 414
+   },
+   "latency_ms": 2085.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/probe",
+   "module_B": "pkg/credentialprovider",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 490,
+    "completion_tokens": 3,
+    "total_tokens": 493
+   },
+   "latency_ms": 2280.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/mount-utils",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 420,
+    "completion_tokens": 252,
+    "total_tokens": 672
+   },
+   "latency_ms": 5513.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/code-generator",
+   "module_B": "pkg/printers",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 645,
+    "completion_tokens": 3,
+    "total_tokens": 648
+   },
+   "latency_ms": 1973.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/kubemark",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 5,
+    "total_tokens": 691
+   },
+   "latency_ms": 2010.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/apimachinery",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 610,
+    "completion_tokens": 3,
+    "total_tokens": 613
+   },
+   "latency_ms": 2697.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/dependencycheck",
+   "module_B": "staging/src/k8s.io/kube-scheduler",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 350,
+    "completion_tokens": 3,
+    "total_tokens": 353
+   },
+   "latency_ms": 1981.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-scheduler",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 527,
+    "completion_tokens": 105,
+    "total_tokens": 632
+   },
+   "latency_ms": 3018.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/clicheck",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 359,
+    "completion_tokens": 220,
+    "total_tokens": 579
+   },
+   "latency_ms": 5580.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/kubeapiserver",
+   "module_B": "pkg/windows",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 542,
+    "completion_tokens": 121,
+    "total_tokens": 663
+   },
+   "latency_ms": 4595.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "cmd/dependencyverifier",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 564,
+    "completion_tokens": 3,
+    "total_tokens": 567
+   },
+   "latency_ms": 2208.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/auth",
+   "module_B": "staging/src/k8s.io/externaljwt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 3,
+    "total_tokens": 533
+   },
+   "latency_ms": 2016.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/serviceaccount",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 562,
+    "completion_tokens": 5,
+    "total_tokens": 567
+   },
+   "latency_ms": 1954.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/apis",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 597,
+    "total_tokens": 1283
+   },
+   "latency_ms": 8933.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genyaml",
+   "module_B": "staging/src/k8s.io/kube-aggregator",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 427,
+    "completion_tokens": 3,
+    "total_tokens": 430
+   },
+   "latency_ms": 2130.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/controller",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 625,
+    "completion_tokens": 5,
+    "total_tokens": 630
+   },
+   "latency_ms": 1871.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kubelet",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 447,
+    "completion_tokens": 378,
+    "total_tokens": 825
+   },
+   "latency_ms": 6625.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/generated",
+   "module_B": "staging/src/k8s.io/kube-controller-manager",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 499,
+    "completion_tokens": 580,
+    "total_tokens": 1079
+   },
+   "latency_ms": 8480.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/kubectl",
+   "module_B": "cmd/genyaml",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 3,
+    "total_tokens": 585
+   },
+   "latency_ms": 2180.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/auth",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 438,
+    "completion_tokens": 346,
+    "total_tokens": 784
+   },
+   "latency_ms": 5817.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/kube-aggregator",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 667,
+    "completion_tokens": 5,
+    "total_tokens": 672
+   },
+   "latency_ms": 2017.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/util",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 427,
+    "completion_tokens": 305,
+    "total_tokens": 732
+   },
+   "latency_ms": 5136.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/admission",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 3,
+    "total_tokens": 351
+   },
+   "latency_ms": 2097.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/admission",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 443,
+    "completion_tokens": 5,
+    "total_tokens": 448
+   },
+   "latency_ms": 2087.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kubeadm",
+   "module_B": "pkg/registry",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 598,
+    "completion_tokens": 3,
+    "total_tokens": 601
+   },
+   "latency_ms": 2102.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/registry",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 689,
+    "completion_tokens": 5,
+    "total_tokens": 694
+   },
+   "latency_ms": 2048.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/api",
+   "module_B": "staging/src/k8s.io/cloud-provider",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 209,
+    "total_tokens": 880
+   },
+   "latency_ms": 4426.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubelet",
+   "module_B": "pkg/generated",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 475,
+    "completion_tokens": 153,
+    "total_tokens": 628
+   },
+   "latency_ms": 3982.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/kubelet",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 515,
+    "completion_tokens": 257,
+    "total_tokens": 772
+   },
+   "latency_ms": 6146.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/kubelet",
+   "module_B": "pkg/quota",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 580,
+    "completion_tokens": 3,
+    "total_tokens": 583
+   },
+   "latency_ms": 2026.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/util",
+   "module_B": "staging/src/k8s.io/kube-proxy",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 523,
+    "completion_tokens": 196,
+    "total_tokens": 719
+   },
+   "latency_ms": 4651.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/cluster-bootstrap",
+   "module_B": "cmd/gotemplate",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 445,
+    "completion_tokens": 3,
+    "total_tokens": 448
+   },
+   "latency_ms": 2683.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubeadm",
+   "module_B": "staging/src/k8s.io/apiextensions-apiserver",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 638,
+    "completion_tokens": 150,
+    "total_tokens": 788
+   },
+   "latency_ms": 4646.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-scheduler",
+   "module_B": "cmd/kube-apiserver",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 586,
+    "completion_tokens": 3,
+    "total_tokens": 589
+   },
+   "latency_ms": 2356.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/cri-streaming",
+   "module_B": "staging/src/k8s.io/apiextensions-apiserver",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 613,
+    "completion_tokens": 3,
+    "total_tokens": 616
+   },
+   "latency_ms": 2753.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/kubelet",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 598,
+    "completion_tokens": 5,
+    "total_tokens": 603
+   },
+   "latency_ms": 1974.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/client",
+   "module_B": "pkg/quota",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 567,
+    "completion_tokens": 3,
+    "total_tokens": 570
+   },
+   "latency_ms": 2477.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/kubeapiserver",
+   "module_B": "staging/src/k8s.io/kube-openapi",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 545,
+    "completion_tokens": 269,
+    "total_tokens": 814
+   },
+   "latency_ms": 5015.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/cluster",
+   "module_B": "cmd/kube-scheduler",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 3,
+    "total_tokens": 287
+   },
+   "latency_ms": 2073.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/controller",
+   "module_B": "staging/src/k8s.io/component-helpers",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 637,
+    "completion_tokens": 5,
+    "total_tokens": 642
+   },
+   "latency_ms": 2092.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genswaggertypedocs",
+   "module_B": "staging/src/k8s.io/controller-manager",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 340,
+    "completion_tokens": 3,
+    "total_tokens": 343
+   },
+   "latency_ms": 2032.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/routes",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 452,
+    "total_tokens": 797
+   },
+   "latency_ms": 7043.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/cloud-provider",
+   "module_B": "staging/src/k8s.io/kubelet",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 315,
+    "total_tokens": 920
+   },
+   "latency_ms": 5525.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/dynamic-resource-allocation",
+   "module_B": "staging/src/k8s.io/metrics",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 3,
+    "total_tokens": 650
+   },
+   "latency_ms": 2001.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/kube-proxy",
+   "module_B": "pkg/kubeapiserver",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 421,
+    "completion_tokens": 3,
+    "total_tokens": 424
+   },
+   "latency_ms": 2036.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/credentialprovider",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 453,
+    "completion_tokens": 516,
+    "total_tokens": 969
+   },
+   "latency_ms": 8531.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/preferredimports",
+   "module_B": "staging/src/k8s.io/kubelet",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 386,
+    "completion_tokens": 3,
+    "total_tokens": 389
+   },
+   "latency_ms": 2129.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/kubectl",
+   "module_B": "staging/src/k8s.io/kubectl",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 5,
+    "total_tokens": 691
+   },
+   "latency_ms": 2167.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/kubeapiserver",
+   "module_B": "cmd/kubelet",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 3,
+    "total_tokens": 608
+   },
+   "latency_ms": 1945.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/apiserver",
+   "module_B": "staging/src/k8s.io/externaljwt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 161,
+    "total_tokens": 796
+   },
+   "latency_ms": 3935.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/controlplane",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 569,
+    "completion_tokens": 383,
+    "total_tokens": 952
+   },
+   "latency_ms": 6225.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/cli-runtime",
+   "module_B": "staging/src/k8s.io/cri-api",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 3,
+    "total_tokens": 656
+   },
+   "latency_ms": 23746.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/kubectl",
+   "module_B": "staging/src/k8s.io/metrics",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 662,
+    "completion_tokens": 5,
+    "total_tokens": 667
+   },
+   "latency_ms": 2198.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "staging/src/k8s.io/kube-openapi",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 556,
+    "completion_tokens": 224,
+    "total_tokens": 780
+   },
+   "latency_ms": 4571.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/clicheck",
+   "module_B": "staging/src/k8s.io/mount-utils",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 362,
+    "completion_tokens": 81,
+    "total_tokens": 443
+   },
+   "latency_ms": 2760.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/api",
+   "module_B": "cmd/kube-controller-manager",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 672,
+    "completion_tokens": 3,
+    "total_tokens": 675
+   },
+   "latency_ms": 3145.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/printers",
+   "module_B": "cmd/kubectl-convert",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 719,
+    "completion_tokens": 3,
+    "total_tokens": 722
+   },
+   "latency_ms": 1974.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/controller-manager",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 638,
+    "completion_tokens": 5,
+    "total_tokens": 643
+   },
+   "latency_ms": 2107.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/cluster",
+   "module_B": "staging/src/k8s.io/gengo",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 3,
+    "total_tokens": 226
+   },
+   "latency_ms": 2287.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/quota",
+   "module_B": "staging/src/k8s.io/cri-api",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 699,
+    "completion_tokens": 3,
+    "total_tokens": 702
+   },
+   "latency_ms": 2947.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/cloud-provider",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 606,
+    "completion_tokens": 5,
+    "total_tokens": 611
+   },
+   "latency_ms": 2754.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kube-scheduler",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 5,
+    "total_tokens": 624
+   },
+   "latency_ms": 2017.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/apis",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 603,
+    "completion_tokens": 305,
+    "total_tokens": 908
+   },
+   "latency_ms": 6531.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/cli-runtime",
+   "module_B": "pkg/certauthorization",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 561,
+    "completion_tokens": 3,
+    "total_tokens": 564
+   },
+   "latency_ms": 2139.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/serviceaccount",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 564,
+    "completion_tokens": 5,
+    "total_tokens": 569
+   },
+   "latency_ms": 2146.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 552,
+    "completion_tokens": 246,
+    "total_tokens": 798
+   },
+   "latency_ms": 5337.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/kubemark",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 603,
+    "completion_tokens": 249,
+    "total_tokens": 852
+   },
+   "latency_ms": 5069.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/serviceaccount",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 551,
+    "completion_tokens": 5,
+    "total_tokens": 556
+   },
+   "latency_ms": 1882.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 555,
+    "completion_tokens": 3,
+    "total_tokens": 558
+   },
+   "latency_ms": 2195.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-cli-plugin",
+   "module_B": "pkg/certauthorization",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 453,
+    "completion_tokens": 3,
+    "total_tokens": 456
+   },
+   "latency_ms": 1862.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/cloud-provider",
+   "module_B": "staging/src/k8s.io/kubectl",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 3,
+    "total_tokens": 608
+   },
+   "latency_ms": 2716.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-controller",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 562,
+    "completion_tokens": 299,
+    "total_tokens": 861
+   },
+   "latency_ms": 5610.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/securitycontext",
+   "module_B": "cmd/cloud-controller-manager",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 383,
+    "completion_tokens": 3,
+    "total_tokens": 386
+   },
+   "latency_ms": 2302.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-proxy",
+   "module_B": "staging/src/k8s.io/kube-proxy",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 575,
+    "completion_tokens": 123,
+    "total_tokens": 698
+   },
+   "latency_ms": 3266.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/importverifier",
+   "module_B": "cmd/fieldnamedocscheck",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 266,
+    "completion_tokens": 3,
+    "total_tokens": 269
+   },
+   "latency_ms": 2066.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/apimachinery",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 527,
+    "completion_tokens": 279,
+    "total_tokens": 806
+   },
+   "latency_ms": 5694.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/probe",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 430,
+    "completion_tokens": 247,
+    "total_tokens": 677
+   },
+   "latency_ms": 4859.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kube-scheduler",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 617,
+    "completion_tokens": 5,
+    "total_tokens": 622
+   },
+   "latency_ms": 2046.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genyaml",
+   "module_B": "staging/src/k8s.io/component-helpers",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 426,
+    "completion_tokens": 78,
+    "total_tokens": 504
+   },
+   "latency_ms": 3782.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubectl",
+   "module_B": "staging/src/k8s.io/dynamic-resource-allocation",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 391,
+    "completion_tokens": 3,
+    "total_tokens": 394
+   },
+   "latency_ms": 3414.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubectl-convert",
+   "module_B": "staging/src/k8s.io/sample-controller",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 406,
+    "completion_tokens": 3,
+    "total_tokens": 409
+   },
+   "latency_ms": 2060.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/kubelet",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 515,
+    "completion_tokens": 351,
+    "total_tokens": 866
+   },
+   "latency_ms": 6221.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/auth",
+   "module_B": "staging/src/k8s.io/kubectl",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 529,
+    "completion_tokens": 3,
+    "total_tokens": 532
+   },
+   "latency_ms": 2010.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/cloud-controller-manager",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 499,
+    "completion_tokens": 5,
+    "total_tokens": 504
+   },
+   "latency_ms": 2048.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/apiserver",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 249,
+    "total_tokens": 789
+   },
+   "latency_ms": 4958.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kube-controller-manager",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 5,
+    "total_tokens": 623
+   },
+   "latency_ms": 1885.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/kubelet",
+   "module_B": "staging/src/k8s.io/cri-client",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 609,
+    "completion_tokens": 5,
+    "total_tokens": 614
+   },
+   "latency_ms": 2174.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/cluster",
+   "module_B": "cmd/genfeaturegates",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 3,
+    "total_tokens": 231
+   },
+   "latency_ms": 2051.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/client",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 585,
+    "completion_tokens": 5,
+    "total_tokens": 590
+   },
+   "latency_ms": 2041.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/client-go",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 464,
+    "completion_tokens": 263,
+    "total_tokens": 727
+   },
+   "latency_ms": 5080.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-controller",
+   "module_B": "pkg/printers",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 3,
+    "total_tokens": 647
+   },
+   "latency_ms": 2105.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-apiserver",
+   "module_B": "pkg/capabilities",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 575,
+    "completion_tokens": 249,
+    "total_tokens": 824
+   },
+   "latency_ms": 4742.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-controller-manager",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 5,
+    "total_tokens": 610
+   },
+   "latency_ms": 2166.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/dependencyverifier",
+   "module_B": "staging/src/k8s.io/endpointslice",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 351,
+    "completion_tokens": 3,
+    "total_tokens": 354
+   },
+   "latency_ms": 2621.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/cloud-controller-manager",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 407,
+    "completion_tokens": 403,
+    "total_tokens": 810
+   },
+   "latency_ms": 6725.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/kubelet",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 610,
+    "completion_tokens": 5,
+    "total_tokens": 615
+   },
+   "latency_ms": 2060.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "pkg/cluster",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 554,
+    "completion_tokens": 3,
+    "total_tokens": 557
+   },
+   "latency_ms": 2273.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/fieldpath",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 400,
+    "completion_tokens": 5,
+    "total_tokens": 405
+   },
+   "latency_ms": 2142.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genswaggertypedocs",
+   "module_B": "staging/src/k8s.io/pod-security-admission",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 329,
+    "completion_tokens": 3,
+    "total_tokens": 332
+   },
+   "latency_ms": 2163.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/csi-translation-lib",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 439,
+    "completion_tokens": 232,
+    "total_tokens": 671
+   },
+   "latency_ms": 4786.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/client",
+   "module_B": "staging/src/k8s.io/streaming",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 583,
+    "completion_tokens": 127,
+    "total_tokens": 710
+   },
+   "latency_ms": 3428.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/kubelet",
+   "module_B": "staging/src/k8s.io/cri-api",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 609,
+    "completion_tokens": 5,
+    "total_tokens": 614
+   },
+   "latency_ms": 2120.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/code-generator",
+   "module_B": "pkg/security",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 603,
+    "completion_tokens": 3,
+    "total_tokens": 606
+   },
+   "latency_ms": 2115.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/cri-api",
+   "module_B": "staging/src/k8s.io/kubectl",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 482,
+    "completion_tokens": 3,
+    "total_tokens": 485
+   },
+   "latency_ms": 2026.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/admission",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 351,
+    "completion_tokens": 361,
+    "total_tokens": 712
+   },
+   "latency_ms": 6042.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/dynamic-resource-allocation",
+   "module_B": "cmd/dependencycheck",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 564,
+    "completion_tokens": 3,
+    "total_tokens": 567
+   },
+   "latency_ms": 2020.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubelet",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 539,
+    "completion_tokens": 5,
+    "total_tokens": 544
+   },
+   "latency_ms": 2118.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/quota",
+   "module_B": "staging/src/k8s.io/controller-manager",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 700,
+    "completion_tokens": 558,
+    "total_tokens": 1258
+   },
+   "latency_ms": 9082.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/auth",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 517,
+    "completion_tokens": 5,
+    "total_tokens": 522
+   },
+   "latency_ms": 2140.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/kube-proxy",
+   "module_B": "cmd/importverifier",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 364,
+    "completion_tokens": 3,
+    "total_tokens": 367
+   },
+   "latency_ms": 2044.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/component-helpers",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 554,
+    "completion_tokens": 240,
+    "total_tokens": 794
+   },
+   "latency_ms": 5254.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/credentialprovider",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 155,
+    "total_tokens": 698
+   },
+   "latency_ms": 3804.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kube-controller-manager",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 523,
+    "completion_tokens": 258,
+    "total_tokens": 781
+   },
+   "latency_ms": 5225.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/kms",
+   "module_B": "cmd/kubemark",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 485,
+    "completion_tokens": 3,
+    "total_tokens": 488
+   },
+   "latency_ms": 1985.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/scheduler",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 700,
+    "completion_tokens": 5,
+    "total_tokens": 705
+   },
+   "latency_ms": 2248.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/windows",
+   "module_B": "pkg/controlplane",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 357,
+    "completion_tokens": 3,
+    "total_tokens": 360
+   },
+   "latency_ms": 1920.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-cli-plugin",
+   "module_B": "cmd/genfeaturegates",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 457,
+    "completion_tokens": 3,
+    "total_tokens": 460
+   },
+   "latency_ms": 1973.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/code-generator",
+   "module_B": "staging/src/k8s.io/api",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 642,
+    "completion_tokens": 311,
+    "total_tokens": 953
+   },
+   "latency_ms": 7133.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/quota",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 687,
+    "completion_tokens": 5,
+    "total_tokens": 692
+   },
+   "latency_ms": 2642.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/serviceaccount",
+   "module_B": "pkg/client",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 547,
+    "completion_tokens": 3,
+    "total_tokens": 550
+   },
+   "latency_ms": 2188.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-cli-plugin",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 534,
+    "completion_tokens": 5,
+    "total_tokens": 539
+   },
+   "latency_ms": 2099.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/controller",
+   "module_B": "pkg/client",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 620,
+    "completion_tokens": 344,
+    "total_tokens": 964
+   },
+   "latency_ms": 6021.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-apiserver",
+   "module_B": "cmd/genman",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 696,
+    "completion_tokens": 3,
+    "total_tokens": 699
+   },
+   "latency_ms": 1938.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/genyaml",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 413,
+    "completion_tokens": 253,
+    "total_tokens": 666
+   },
+   "latency_ms": 5089.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubeadm",
+   "module_B": "staging/src/k8s.io/cli-runtime",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 153,
+    "total_tokens": 788
+   },
+   "latency_ms": 3889.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "staging/src/k8s.io/externaljwt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 159,
+    "total_tokens": 806
+   },
+   "latency_ms": 3921.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/controller",
+   "module_B": "staging/src/k8s.io/mount-utils",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 627,
+    "completion_tokens": 270,
+    "total_tokens": 897
+   },
+   "latency_ms": 4461.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/dynamic-resource-allocation",
+   "module_B": "staging/src/k8s.io/api",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 633,
+    "completion_tokens": 5,
+    "total_tokens": 638
+   },
+   "latency_ms": 3090.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/serviceaccount",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 552,
+    "completion_tokens": 106,
+    "total_tokens": 658
+   },
+   "latency_ms": 3903.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kubectl",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 383,
+    "completion_tokens": 5,
+    "total_tokens": 388
+   },
+   "latency_ms": 1998.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kubemark",
+   "module_B": "cmd/kubectl-convert",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 565,
+    "completion_tokens": 3,
+    "total_tokens": 568
+   },
+   "latency_ms": 1881.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/metrics",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 730,
+    "completion_tokens": 5,
+    "total_tokens": 735
+   },
+   "latency_ms": 1959.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/cri-client",
+   "module_B": "staging/src/k8s.io/streaming",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 584,
+    "completion_tokens": 325,
+    "total_tokens": 909
+   },
+   "latency_ms": 6394.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/api",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 690,
+    "completion_tokens": 5,
+    "total_tokens": 695
+   },
+   "latency_ms": 1977.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/controlplane",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 5,
+    "total_tokens": 653
+   },
+   "latency_ms": 2167.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/client-go",
+   "module_B": "staging/src/k8s.io/apiextensions-apiserver",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 563,
+    "completion_tokens": 3,
+    "total_tokens": 566
+   },
+   "latency_ms": 1963.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/cloud-provider",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 604,
+    "completion_tokens": 5,
+    "total_tokens": 609
+   },
+   "latency_ms": 2125.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/api",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 678,
+    "completion_tokens": 379,
+    "total_tokens": 1057
+   },
+   "latency_ms": 6285.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/kubeapiserver",
+   "module_B": "staging/src/k8s.io/kubelet",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 262,
+    "total_tokens": 897
+   },
+   "latency_ms": 5248.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/fieldpath",
+   "module_B": "cmd/clicheck",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 3,
+    "total_tokens": 318
+   },
+   "latency_ms": 1915.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/controlplane",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 659,
+    "completion_tokens": 5,
+    "total_tokens": 664
+   },
+   "latency_ms": 2165.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/util",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 522,
+    "completion_tokens": 5,
+    "total_tokens": 527
+   },
+   "latency_ms": 2488.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genutils",
+   "module_B": "staging/src/k8s.io/cloud-provider",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 3,
+    "total_tokens": 316
+   },
+   "latency_ms": 1932.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/features",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 447,
+    "completion_tokens": 5,
+    "total_tokens": 452
+   },
+   "latency_ms": 2058.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/security",
+   "module_B": "staging/src/k8s.io/sample-controller",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 402,
+    "completion_tokens": 3,
+    "total_tokens": 405
+   },
+   "latency_ms": 1905.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/certauthorization",
+   "module_B": "pkg/serviceaccount",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 355,
+    "completion_tokens": 3,
+    "total_tokens": 358
+   },
+   "latency_ms": 3175.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/capabilities",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 335,
+    "completion_tokens": 3,
+    "total_tokens": 338
+   },
+   "latency_ms": 3329.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/security",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 330,
+    "completion_tokens": 280,
+    "total_tokens": 610
+   },
+   "latency_ms": 5362.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/kubeapiserver",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 544,
+    "completion_tokens": 180,
+    "total_tokens": 724
+   },
+   "latency_ms": 4262.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/cluster-bootstrap",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 522,
+    "completion_tokens": 5,
+    "total_tokens": 527
+   },
+   "latency_ms": 1945.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/apis",
+   "module_B": "staging/src/k8s.io/kms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 695,
+    "completion_tokens": 121,
+    "total_tokens": 816
+   },
+   "latency_ms": 3209.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/kubectl",
+   "module_B": "cmd/genman",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 576,
+    "completion_tokens": 3,
+    "total_tokens": 579
+   },
+   "latency_ms": 1981.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "pkg/printers",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 3,
+    "total_tokens": 637
+   },
+   "latency_ms": 1964.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-proxy",
+   "module_B": "staging/src/k8s.io/metrics",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 572,
+    "completion_tokens": 3,
+    "total_tokens": 575
+   },
+   "latency_ms": 1862.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/auth",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 5,
+    "total_tokens": 535
+   },
+   "latency_ms": 2036.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/gendocs",
+   "module_B": "cmd/kubectl-convert",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 330,
+    "completion_tokens": 3,
+    "total_tokens": 333
+   },
+   "latency_ms": 2047.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/fieldnamedocscheck",
+   "module_B": "staging/src/k8s.io/code-generator",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 360,
+    "completion_tokens": 500,
+    "total_tokens": 860
+   },
+   "latency_ms": 6847.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-proxy",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 479,
+    "completion_tokens": 264,
+    "total_tokens": 743
+   },
+   "latency_ms": 5110.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/apis",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 606,
+    "completion_tokens": 3,
+    "total_tokens": 609
+   },
+   "latency_ms": 2038.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/client",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 573,
+    "completion_tokens": 5,
+    "total_tokens": 578
+   },
+   "latency_ms": 2279.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kube-controller-manager",
+   "module_B": "pkg/volume",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 5,
+    "total_tokens": 624
+   },
+   "latency_ms": 2011.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-apiserver",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 643,
+    "completion_tokens": 5,
+    "total_tokens": 648
+   },
+   "latency_ms": 2438.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genfeaturegates",
+   "module_B": "pkg/kubemark",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 307,
+    "completion_tokens": 3,
+    "total_tokens": 310
+   },
+   "latency_ms": 2408.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/controlplane",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 566,
+    "completion_tokens": 264,
+    "total_tokens": 830
+   },
+   "latency_ms": 5012.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/volume",
+   "module_B": "pkg/kubemark",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 520,
+    "completion_tokens": 3,
+    "total_tokens": 523
+   },
+   "latency_ms": 2100.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/metrics",
+   "module_B": "staging/src/k8s.io/api",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 726,
+    "completion_tokens": 5,
+    "total_tokens": 731
+   },
+   "latency_ms": 2620.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kube-scheduler",
+   "module_B": "staging/src/k8s.io/apiserver",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 606,
+    "completion_tokens": 5,
+    "total_tokens": 611
+   },
+   "latency_ms": 2425.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/printers",
+   "module_B": "staging/src/k8s.io/client-go",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 790,
+    "completion_tokens": 5,
+    "total_tokens": 795
+   },
+   "latency_ms": 3441.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/volume",
+   "module_B": "staging/src/k8s.io/cloud-provider",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 573,
+    "completion_tokens": 186,
+    "total_tokens": 759
+   },
+   "latency_ms": 5537.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/code-generator",
+   "module_B": "pkg/features",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 593,
+    "completion_tokens": 3,
+    "total_tokens": 596
+   },
+   "latency_ms": 2164.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/dependencycheck",
+   "module_B": "staging/src/k8s.io/endpointslice",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 3,
+    "total_tokens": 334
+   },
+   "latency_ms": 2055.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-cli-plugin",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 454,
+    "completion_tokens": 3,
+    "total_tokens": 457
+   },
+   "latency_ms": 1963.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/genfeaturegates",
+   "module_B": "staging/src/k8s.io/cri-api",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 378,
+    "completion_tokens": 3,
+    "total_tokens": 381
+   },
+   "latency_ms": 2454.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/client-go",
+   "module_B": "staging/src/k8s.io/mount-utils",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 549,
+    "completion_tokens": 3,
+    "total_tokens": 552
+   },
+   "latency_ms": 2079.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/code-generator",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 563,
+    "completion_tokens": 252,
+    "total_tokens": 815
+   },
+   "latency_ms": 5669.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/dynamic-resource-allocation",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 554,
+    "completion_tokens": 252,
+    "total_tokens": 806
+   },
+   "latency_ms": 5252.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/kube-scheduler",
+   "module_B": "staging/src/k8s.io/kubectl",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 201,
+    "total_tokens": 819
+   },
+   "latency_ms": 4922.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "staging/src/k8s.io/sample-apiserver",
+   "module_B": "staging/src/k8s.io/component-base",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 782,
+    "completion_tokens": 5,
+    "total_tokens": 787
+   },
+   "latency_ms": 2257.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/volume",
+   "module_B": "staging/src/k8s.io/mount-utils",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 5,
+    "total_tokens": 587
+   },
+   "latency_ms": 2127.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/pod-security-admission",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 5,
+    "total_tokens": 652
+   },
+   "latency_ms": 3422.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/cri-client",
+   "module_B": "staging/src/k8s.io/mount-utils",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 576,
+    "completion_tokens": 154,
+    "total_tokens": 730
+   },
+   "latency_ms": 111764.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kubelet",
+   "module_B": "staging/src/k8s.io/kubelet",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 5,
+    "total_tokens": 543
+   },
+   "latency_ms": 2260.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "pkg/auth",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 435,
+    "completion_tokens": 263,
+    "total_tokens": 698
+   },
+   "latency_ms": 7317.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/apiserver",
+   "module_B": "staging/src/k8s.io/api",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 5,
+    "total_tokens": 624
+   },
+   "latency_ms": 1928.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/component-base",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 464,
+    "completion_tokens": 310,
+    "total_tokens": 774
+   },
+   "latency_ms": 6139.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/genman",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 353,
+    "total_tokens": 664
+   },
+   "latency_ms": 6711.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/prune-junit-xml",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 382,
+    "completion_tokens": 190,
+    "total_tokens": 572
+   },
+   "latency_ms": 4314.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/code-generator",
+   "module_B": "staging/src/k8s.io/kube-proxy",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 659,
+    "completion_tokens": 3,
+    "total_tokens": 662
+   },
+   "latency_ms": 2831.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "pkg/proxy",
+   "module_B": "staging/src/k8s.io/kubernetes",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 515,
+    "completion_tokens": 106,
+    "total_tokens": 621
+   },
+   "latency_ms": 3285.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/dynamic-resource-allocation",
+   "module_B": "staging/src/k8s.io/klog",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 554,
+    "completion_tokens": 132,
+    "total_tokens": 686
+   },
+   "latency_ms": 3733.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "staging/src/k8s.io/component-helpers",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 554,
+    "completion_tokens": 268,
+    "total_tokens": 822
+   },
+   "latency_ms": 5124.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "cmd/preferredimports",
+   "module_B": "staging/src/k8s.io/apimachinery",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 387,
+    "completion_tokens": 3,
+    "total_tokens": 390
+   },
+   "latency_ms": 2588.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "cmd/kube-controller-manager",
+   "module_B": "staging/src/k8s.io/utils",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 523,
+    "completion_tokens": 364,
+    "total_tokens": 887
+   },
+   "latency_ms": 6806.7,
+   "label_v1": 1
+  }
+ ],
+ "timestamp": "2026-10-02T22:26:11.457511",
+ "model": "claude-opus-5.5",
+ "project": "kubernetes",
+ "task": "dp",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42,
+ "import_source": "dependency_raw",
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/level1/claude-opus-5.5_kubernetes_dp_l1.json"
+}

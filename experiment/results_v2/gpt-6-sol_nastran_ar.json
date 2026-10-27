@@ -1,0 +1,86 @@
+{
+ "precision_at_5": 0.2,
+ "recall_at_5": 1.0,
+ "total": 4,
+ "results": [
+  {
+   "source_module": "utility",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "um",
+    "mds",
+    "mis",
+    "bd",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "um\nmds\nmis\nbd\nrf",
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mds",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "utility",
+    "mis",
+    "bd",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "utility\nmis\nbd\num\nrf",
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mis",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "mds",
+    "utility",
+    "bd",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mds\nutility\nbd\num\nrf",
+   "true_targets_v1": [
+    "mds"
+   ]
+  },
+  {
+   "source_module": "bd",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "mis",
+    "utility",
+    "mds",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mis\nutility\nmds\num\nrf",
+   "true_targets_v1": [
+    "mds"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/gpt-6-sol_nastran_ar.json"
+}

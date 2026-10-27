@@ -1,0 +1,2278 @@
+{
+  "precision_at_5": 0.56,
+  "recall_at_5": 0.4908100233100233,
+  "total": 65,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 132548,
+    "completion_tokens": 1667147,
+    "total_tokens": 1799695
+  },
+  "results": [
+    {
+      "source_module": "tensorflow/python/distribute",
+      "true_targets": [
+        "tensorflow/c/eager",
+        "tensorflow/dtensor/python",
+        "tensorflow/python/client",
+        "tensorflow/python/layers",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/tpu",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/python/autograph",
+        "tensorflow/python/data",
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/trackable",
+        "tensorflow/python/types",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/eager",
+        "tensorflow/python/tpu",
+        "tensorflow/python/training",
+        "tensorflow/core/framework",
+        "tensorflow/python/compiler"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "tensorflow/python/eager\ntensorflow/python/tpu\ntensorflow/python/training\ntensorflow/core/framework\ntensorflow/python/compiler",
+      "usage": {
+        "prompt_tokens": 2054,
+        "completion_tokens": 8915,
+        "total_tokens": 10969
+      },
+      "latency_ms": 37866.3
+    },
+    {
+      "source_module": "tensorflow/lite/toco",
+      "true_targets": [
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/lite/c",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/python",
+        "tensorflow/lite/schema",
+        "tensorflow/lite/testing",
+        "tensorflow/python/lib"
+      ],
+      "shown_deps": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/lite/core",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/graph",
+        "tensorflow/core/grappler",
+        "tensorflow/core/kernels",
+        "tensorflow/core/platform",
+        "tensorflow/lite/tools"
+      ],
+      "precision": 0.2,
+      "recall": 0.125,
+      "raw_response": "tensorflow/core/graph\ntensorflow/core/grappler\ntensorflow/core/kernels\ntensorflow/core/platform\ntensorflow/lite/tools",
+      "usage": {
+        "prompt_tokens": 2042,
+        "completion_tokens": 35504,
+        "total_tokens": 37546
+      },
+      "latency_ms": 141409.4
+    },
+    {
+      "source_module": "tensorflow/python/compiler",
+      "true_targets": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform",
+        "tensorflow/python/profiler",
+        "tensorflow/python/summary",
+        "tensorflow/python/tpu"
+      ],
+      "shown_deps": [
+        "tensorflow/python/client",
+        "tensorflow/python/lib",
+        "tensorflow/python/trackable",
+        "tensorflow/python/training",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/eager",
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/saved_model",
+        "tensorflow/compiler/tf2tensorrt"
+      ],
+      "precision": 0.2,
+      "recall": 0.16666666666666666,
+      "raw_response": "tensorflow/python/eager\ntensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/saved_model\ntensorflow/compiler/tf2tensorrt",
+      "usage": {
+        "prompt_tokens": 2040,
+        "completion_tokens": 29791,
+        "total_tokens": 31831
+      },
+      "latency_ms": 113998.0
+    },
+    {
+      "source_module": "tensorflow/c/eager",
+      "true_targets": [
+        "tensorflow/core/config",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler"
+      ],
+      "shown_deps": [
+        "tensorflow/c/experimental",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/core/distributed_runtime"
+      ],
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/platform\ntensorflow/core/profiler\ntensorflow/core/distributed_runtime",
+      "usage": {
+        "prompt_tokens": 2040,
+        "completion_tokens": 7260,
+        "total_tokens": 9300
+      },
+      "latency_ms": 30326.8
+    },
+    {
+      "source_module": "tensorflow/compiler/mlir",
+      "true_targets": [
+        "tensorflow/c/eager",
+        "tensorflow/cc/saved_model",
+        "tensorflow/compiler/jit",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/framework",
+        "tensorflow/core/ir",
+        "tensorflow/core/kernels",
+        "tensorflow/core/platform",
+        "tensorflow/core/runtime_fallback",
+        "tensorflow/core/tfrt",
+        "tensorflow/core/transforms",
+        "tensorflow/core/util",
+        "tensorflow/lite/kernels",
+        "tensorflow/python/autograph",
+        "tensorflow/python/platform",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/framework",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/grappler",
+        "tensorflow/core/lib",
+        "tensorflow/core/public",
+        "tensorflow/core/tpu",
+        "tensorflow/lite/c",
+        "tensorflow/python/client",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops",
+        "tensorflow/python/trackable",
+        "tensorflow/python/training",
+        "tensorflow/python/types"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/compiler/jit",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/platform",
+        "tensorflow/core/util"
+      ],
+      "precision": 1.0,
+      "recall": 0.3125,
+      "raw_response": "tensorflow/core/framework\ntensorflow/compiler/jit\ntensorflow/compiler/tf2xla\ntensorflow/core/platform\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2075,
+        "completion_tokens": 18290,
+        "total_tokens": 20365
+      },
+      "latency_ms": 75826.1
+    },
+    {
+      "source_module": "tensorflow/python/keras",
+      "true_targets": [
+        "tensorflow/python/client",
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform",
+        "tensorflow/python/profiler",
+        "tensorflow/python/trackable",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/python/eager",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops",
+        "tensorflow/python/saved_model",
+        "tensorflow/python/summary",
+        "tensorflow/python/types",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/distribute",
+        "tensorflow/python/data",
+        "tensorflow/python/training",
+        "tensorflow/python/autograph"
+      ],
+      "precision": 0.6,
+      "recall": 0.42857142857142855,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/distribute\ntensorflow/python/data\ntensorflow/python/training\ntensorflow/python/autograph",
+      "usage": {
+        "prompt_tokens": 2052,
+        "completion_tokens": 10546,
+        "total_tokens": 12598
+      },
+      "latency_ms": 42168.5
+    },
+    {
+      "source_module": "tensorflow/python/data",
+      "true_targets": [
+        "tensorflow/core/platform",
+        "tensorflow/python/client",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/profiler",
+        "tensorflow/python/training",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/data",
+        "tensorflow/python/autograph",
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/trackable",
+        "tensorflow/python/types"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/python/training",
+        "tensorflow/python/debug"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "tensorflow/core/framework\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/python/training\ntensorflow/python/debug",
+      "usage": {
+        "prompt_tokens": 2035,
+        "completion_tokens": 37926,
+        "total_tokens": 39961
+      },
+      "latency_ms": 145459.0
+    },
+    {
+      "source_module": "tensorflow/core/transforms",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/ir",
+        "tensorflow/core/lib"
+      ],
+      "shown_deps": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/ir",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.8,
+      "recall": 0.8,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/ir\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/ops",
+      "usage": {
+        "prompt_tokens": 2037,
+        "completion_tokens": 33881,
+        "total_tokens": 35918
+      },
+      "latency_ms": 134395.8
+    },
+    {
+      "source_module": "tensorflow/python/framework",
+      "true_targets": [
+        "tensorflow/c/experimental",
+        "tensorflow/core/config",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/python/distribute",
+        "tensorflow/python/eager",
+        "tensorflow/python/ops",
+        "tensorflow/python/profiler",
+        "tensorflow/python/saved_model",
+        "tensorflow/python/training",
+        "tensorflow/python/types"
+      ],
+      "shown_deps": [
+        "tensorflow/c/eager",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/python/client",
+        "tensorflow/python/compat",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/eager",
+        "tensorflow/core/function",
+        "tensorflow/core/platform",
+        "tensorflow/core/ops",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.4,
+      "recall": 0.18181818181818182,
+      "raw_response": "tensorflow/python/eager\ntensorflow/core/function\ntensorflow/core/platform\ntensorflow/core/ops\ntensorflow/core/graph",
+      "usage": {
+        "prompt_tokens": 2055,
+        "completion_tokens": 36382,
+        "total_tokens": 38437
+      },
+      "latency_ms": 152429.7
+    },
+    {
+      "source_module": "tensorflow/dtensor/python",
+      "true_targets": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops",
+        "tensorflow/python/training",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/python/data",
+        "tensorflow/python/platform",
+        "tensorflow/python/tpu",
+        "tensorflow/python/trackable",
+        "tensorflow/python/types"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/core/framework",
+      "usage": {
+        "prompt_tokens": 2037,
+        "completion_tokens": 21270,
+        "total_tokens": 23307
+      },
+      "latency_ms": 89546.1
+    },
+    {
+      "source_module": "tensorflow/core/graph",
+      "true_targets": [
+        "tensorflow/core/config",
+        "tensorflow/core/framework",
+        "tensorflow/core/grappler",
+        "tensorflow/core/kernels",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/framework",
+        "tensorflow/cc/ops",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/util",
+        "tensorflow/core/ops",
+        "tensorflow/core/kernels",
+        "tensorflow/core/profiler"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/util\ntensorflow/core/ops\ntensorflow/core/kernels\ntensorflow/core/profiler",
+      "usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 52916,
+        "total_tokens": 54959
+      },
+      "latency_ms": 201660.4
+    },
+    {
+      "source_module": "tensorflow/tools/common",
+      "true_targets": [
+        "tensorflow/python/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/python/framework",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/util\ntensorflow/python/framework\ntensorflow/core/framework",
+      "usage": {
+        "prompt_tokens": 2012,
+        "completion_tokens": 6504,
+        "total_tokens": 8516
+      },
+      "latency_ms": 26855.5
+    },
+    {
+      "source_module": "tensorflow/python/tools",
+      "true_targets": [
+        "tensorflow/core/platform",
+        "tensorflow/python/compiler",
+        "tensorflow/python/lib",
+        "tensorflow/python/tpu",
+        "tensorflow/python/trackable",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/python/client",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform",
+        "tensorflow/python/summary",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/saved_model",
+        "tensorflow/python/training",
+        "tensorflow/tools/graph_transforms"
+      ],
+      "precision": 0.2,
+      "recall": 0.16666666666666666,
+      "raw_response": "tensorflow/core/framework\ntensorflow/python/ops\ntensorflow/python/saved_model\ntensorflow/python/training\ntensorflow/tools/graph_transforms",
+      "usage": {
+        "prompt_tokens": 2037,
+        "completion_tokens": 4559,
+        "total_tokens": 6596
+      },
+      "latency_ms": 17730.2
+    },
+    {
+      "source_module": "tensorflow/python/feature_column",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/python/client",
+        "tensorflow/python/layers",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/keras",
+        "tensorflow/python/training"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/keras\ntensorflow/python/training",
+      "usage": {
+        "prompt_tokens": 2027,
+        "completion_tokens": 3544,
+        "total_tokens": 5571
+      },
+      "latency_ms": 14359.4
+    },
+    {
+      "source_module": "tensorflow/core/ops",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/public",
+        "tensorflow/core/tpu",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/kernels",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/core/function",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/data"
+      ],
+      "precision": 0.6,
+      "recall": 0.6,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/util\ntensorflow/core/function\ntensorflow/core/common_runtime\ntensorflow/core/data",
+      "usage": {
+        "prompt_tokens": 2035,
+        "completion_tokens": 35901,
+        "total_tokens": 37936
+      },
+      "latency_ms": 135691.9
+    },
+    {
+      "source_module": "tensorflow/python/tpu",
+      "true_targets": [
+        "tensorflow/core/tpu",
+        "tensorflow/python/client",
+        "tensorflow/python/compiler",
+        "tensorflow/python/feature_column",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops",
+        "tensorflow/python/trackable"
+      ],
+      "shown_deps": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/layers",
+        "tensorflow/python/platform",
+        "tensorflow/python/profiler",
+        "tensorflow/python/summary",
+        "tensorflow/python/training",
+        "tensorflow/python/types",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/python/framework",
+        "tensorflow/python/eager",
+        "tensorflow/core/framework",
+        "tensorflow/python/data"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "tensorflow/python/ops\ntensorflow/python/framework\ntensorflow/python/eager\ntensorflow/core/framework\ntensorflow/python/data",
+      "usage": {
+        "prompt_tokens": 2059,
+        "completion_tokens": 41093,
+        "total_tokens": 43152
+      },
+      "latency_ms": 158534.3
+    },
+    {
+      "source_module": "tensorflow/lite/python",
+      "true_targets": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/tools",
+        "tensorflow/python/client",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops",
+        "tensorflow/python/saved_model",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/public",
+        "tensorflow/lite/core",
+        "tensorflow/lite/delegates",
+        "tensorflow/lite/schema",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/training"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/lite/kernels",
+        "tensorflow/compiler/mlir"
+      ],
+      "precision": 0.4,
+      "recall": 0.2222222222222222,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/lite/kernels\ntensorflow/compiler/mlir",
+      "usage": {
+        "prompt_tokens": 2059,
+        "completion_tokens": 39580,
+        "total_tokens": 41639
+      },
+      "latency_ms": 154434.9
+    },
+    {
+      "source_module": "tensorflow/core/grappler",
+      "true_targets": [
+        "tensorflow/cc/framework",
+        "tensorflow/cc/gradients",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/graph",
+        "tensorflow/core/ir",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/core/transforms",
+        "tensorflow/tools/graph_transforms"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/ops",
+        "tensorflow/cc/training",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/data",
+        "tensorflow/core/framework",
+        "tensorflow/core/kernels",
+        "tensorflow/core/lib",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/tpu",
+        "tensorflow/core/profiler",
+        "tensorflow/core/ops",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.4,
+      "recall": 0.2222222222222222,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/tpu\ntensorflow/core/profiler\ntensorflow/core/ops\ntensorflow/core/graph",
+      "usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 50757,
+        "total_tokens": 52800
+      },
+      "latency_ms": 192676.4
+    },
+    {
+      "source_module": "tensorflow/core/tfrt",
+      "true_targets": [
+        "tensorflow/cc/framework",
+        "tensorflow/cc/saved_model",
+        "tensorflow/compiler/jit",
+        "tensorflow/compiler/mlir",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/kernels",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/core/public",
+        "tensorflow/core/runtime_fallback",
+        "tensorflow/python/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/c/eager",
+        "tensorflow/cc/ops",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/grappler",
+        "tensorflow/core/tpu",
+        "tensorflow/core/util",
+        "tensorflow/python/client",
+        "tensorflow/python/eager",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/cc/framework",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/compiler/mlir"
+      ],
+      "precision": 1.0,
+      "recall": 0.4166666666666667,
+      "raw_response": "tensorflow/cc/framework\ntensorflow/compiler/jit\ntensorflow/core/lib\ntensorflow/core/platform\ntensorflow/compiler/mlir",
+      "usage": {
+        "prompt_tokens": 2055,
+        "completion_tokens": 26924,
+        "total_tokens": 28979
+      },
+      "latency_ms": 105865.4
+    },
+    {
+      "source_module": "tensorflow/core/profiler",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/kernels",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/util",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/tpu"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/graph\ntensorflow/core/util\ntensorflow/core/distributed_runtime\ntensorflow/core/tpu",
+      "usage": {
+        "prompt_tokens": 2038,
+        "completion_tokens": 24279,
+        "total_tokens": 26317
+      },
+      "latency_ms": 94657.8
+    },
+    {
+      "source_module": "tensorflow/compiler/jit",
+      "true_targets": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/lib",
+        "tensorflow/core/public",
+        "tensorflow/core/tpu",
+        "tensorflow/core/util",
+        "tensorflow/python/framework",
+        "tensorflow/tools/optimization"
+      ],
+      "shown_deps": [
+        "tensorflow/c/experimental",
+        "tensorflow/cc/framework",
+        "tensorflow/cc/ops",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/framework",
+        "tensorflow/core/kernels",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/core/tfrt"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/lib",
+        "tensorflow/core/util"
+      ],
+      "precision": 1.0,
+      "recall": 0.5555555555555556,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/graph\ntensorflow/compiler/mlir\ntensorflow/core/lib\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2076,
+        "completion_tokens": 21589,
+        "total_tokens": 23665
+      },
+      "latency_ms": 83626.8
+    },
+    {
+      "source_module": "tensorflow/python/summary",
+      "true_targets": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/python/client",
+        "tensorflow/python/platform",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/core/framework",
+        "tensorflow/core/util",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/core/framework\ntensorflow/core/util\ntensorflow/python/eager",
+      "usage": {
+        "prompt_tokens": 2026,
+        "completion_tokens": 10690,
+        "total_tokens": 12716
+      },
+      "latency_ms": 44236.2
+    },
+    {
+      "source_module": "tensorflow/core/platform",
+      "true_targets": [
+        "tensorflow/core/lib",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/core/util",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/framework",
+        "tensorflow/core/common_runtime",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/kernels"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/framework\ntensorflow/core/common_runtime\ntensorflow/compiler/mlir\ntensorflow/core/kernels",
+      "usage": {
+        "prompt_tokens": 2016,
+        "completion_tokens": 45288,
+        "total_tokens": 47304
+      },
+      "latency_ms": 176946.8
+    },
+    {
+      "source_module": "tensorflow/c/experimental",
+      "true_targets": [
+        "tensorflow/cc/saved_model",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/tfrt",
+        "tensorflow/python/framework"
+      ],
+      "shown_deps": [
+        "tensorflow/c/eager",
+        "tensorflow/core/framework",
+        "tensorflow/core/grappler",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/kernels",
+        "tensorflow/core/lib"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/distributed_runtime\ntensorflow/core/graph\ntensorflow/core/kernels\ntensorflow/core/lib",
+      "usage": {
+        "prompt_tokens": 2025,
+        "completion_tokens": 63455,
+        "total_tokens": 65480
+      },
+      "latency_ms": 249047.5
+    },
+    {
+      "source_module": "tensorflow/python/util",
+      "true_targets": [
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/graph",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/python/framework",
+        "tensorflow/python/ops"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/util",
+        "tensorflow/python/client",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/types",
+        "tensorflow/tools/graph_transforms"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/python/framework",
+        "tensorflow/python/eager",
+        "tensorflow/python/ops"
+      ],
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/lib\ntensorflow/python/framework\ntensorflow/python/eager\ntensorflow/python/ops",
+      "usage": {
+        "prompt_tokens": 2046,
+        "completion_tokens": 18038,
+        "total_tokens": 20084
+      },
+      "latency_ms": 68584.0
+    },
+    {
+      "source_module": "tensorflow/core/kernels",
+      "true_targets": [
+        "tensorflow/c/experimental",
+        "tensorflow/cc/ops",
+        "tensorflow/core/activity_watcher",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/debug",
+        "tensorflow/core/graph",
+        "tensorflow/core/grappler",
+        "tensorflow/core/lib",
+        "tensorflow/core/profiler",
+        "tensorflow/core/summary"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/client",
+        "tensorflow/cc/framework",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/data",
+        "tensorflow/core/framework",
+        "tensorflow/core/nccl",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/ops",
+        "tensorflow/core/profiler"
+      ],
+      "precision": 0.8,
+      "recall": 0.4,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/graph\ntensorflow/core/ops\ntensorflow/core/profiler",
+      "usage": {
+        "prompt_tokens": 2041,
+        "completion_tokens": 28952,
+        "total_tokens": 30993
+      },
+      "latency_ms": 108374.0
+    },
+    {
+      "source_module": "tensorflow/python/platform",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/platform",
+        "tensorflow/python/client",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/python/util",
+        "tensorflow/python/framework",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/python/util\ntensorflow/python/framework\ntensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2018,
+        "completion_tokens": 14250,
+        "total_tokens": 16268
+      },
+      "latency_ms": 56576.7
+    },
+    {
+      "source_module": "tensorflow/tools/proto_splitter",
+      "true_targets": [
+        "tensorflow/core/platform",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/python/util",
+        "tensorflow/python/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/python/util\ntensorflow/python/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2029,
+        "completion_tokens": 24550,
+        "total_tokens": 26579
+      },
+      "latency_ms": 98256.7
+    },
+    {
+      "source_module": "tensorflow/core/function",
+      "true_targets": [
+        "tensorflow/c/eager",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/python/autograph",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/ir",
+        "tensorflow/core/public",
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/types"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/c/eager",
+        "tensorflow/python/util"
+      ],
+      "precision": 1.0,
+      "recall": 0.5555555555555556,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/lib\ntensorflow/core/platform\ntensorflow/c/eager\ntensorflow/python/util",
+      "usage": {
+        "prompt_tokens": 2059,
+        "completion_tokens": 12183,
+        "total_tokens": 14242
+      },
+      "latency_ms": 52054.0
+    },
+    {
+      "source_module": "tensorflow/lite/kernels",
+      "true_targets": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/example",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/lite/c",
+        "tensorflow/lite/core",
+        "tensorflow/lite/delegates",
+        "tensorflow/lite/nnapi",
+        "tensorflow/lite/schema"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/kernels",
+        "tensorflow/core/util",
+        "tensorflow/lite/experimental",
+        "tensorflow/lite/profiling",
+        "tensorflow/lite/testing",
+        "tensorflow/lite/tools",
+        "tensorflow/lite/types",
+        "tensorflow/python/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/lite/core",
+        "tensorflow/lite/delegates",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.8,
+      "recall": 0.4444444444444444,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/platform\ntensorflow/lite/core\ntensorflow/lite/delegates\ntensorflow/core/common_runtime",
+      "usage": {
+        "prompt_tokens": 2049,
+        "completion_tokens": 22129,
+        "total_tokens": 24178
+      },
+      "latency_ms": 87767.0
+    },
+    {
+      "source_module": "tensorflow/lite/tools",
+      "true_targets": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/lite/experimental",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/profiling",
+        "tensorflow/lite/types",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/saved_model",
+        "tensorflow/core/framework",
+        "tensorflow/lite/acceleration",
+        "tensorflow/lite/c",
+        "tensorflow/lite/core",
+        "tensorflow/lite/delegates",
+        "tensorflow/lite/nnapi",
+        "tensorflow/lite/schema",
+        "tensorflow/lite/testing",
+        "tensorflow/python/client",
+        "tensorflow/python/framework"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/profiling"
+      ],
+      "precision": 1.0,
+      "recall": 0.4166666666666667,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/lite/kernels\ntensorflow/lite/profiling",
+      "usage": {
+        "prompt_tokens": 2060,
+        "completion_tokens": 35853,
+        "total_tokens": 37913
+      },
+      "latency_ms": 147215.6
+    },
+    {
+      "source_module": "tensorflow/tools/api",
+      "true_targets": [
+        "tensorflow/core/framework",
+        "tensorflow/python/platform",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/python/ops",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/core/framework\ntensorflow/python/framework\ntensorflow/python/util\ntensorflow/python/ops\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2025,
+        "completion_tokens": 32135,
+        "total_tokens": 34160
+      },
+      "latency_ms": 126905.8
+    },
+    {
+      "source_module": "tensorflow/lite/experimental",
+      "true_targets": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/lite/core",
+        "tensorflow/lite/nnapi",
+        "tensorflow/lite/schema",
+        "tensorflow/lite/tools",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/core/lib",
+        "tensorflow/lite/acceleration",
+        "tensorflow/lite/c",
+        "tensorflow/lite/delegates",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/testing",
+        "tensorflow/lite/types"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/lite/core",
+        "tensorflow/compiler/mlir"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/lite/core\ntensorflow/compiler/mlir",
+      "usage": {
+        "prompt_tokens": 2032,
+        "completion_tokens": 1641,
+        "total_tokens": 3673
+      },
+      "latency_ms": 7032.7
+    },
+    {
+      "source_module": "tensorflow/compiler/tf2xla",
+      "true_targets": [
+        "tensorflow/cc/framework",
+        "tensorflow/cc/ops",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/tpu",
+        "tensorflow/core/util",
+        "tensorflow/python/ops"
+      ],
+      "shown_deps": [
+        "tensorflow/compiler/aot",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/framework",
+        "tensorflow/core/kernels",
+        "tensorflow/core/lib",
+        "tensorflow/core/public",
+        "tensorflow/core/tfrt",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.8,
+      "recall": 0.4444444444444444,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/graph\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/core/ops",
+      "usage": {
+        "prompt_tokens": 2048,
+        "completion_tokens": 21005,
+        "total_tokens": 23053
+      },
+      "latency_ms": 82390.7
+    },
+    {
+      "source_module": "tensorflow/dtensor/cc",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/profiler",
+        "tensorflow/core/public",
+        "tensorflow/dtensor/mlir"
+      ],
+      "shown_deps": [
+        "tensorflow/c/eager",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/tpu",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/compiler/mlir",
+        "tensorflow/dtensor/mlir",
+        "tensorflow/core/distributed_runtime"
+      ],
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/lib\ntensorflow/compiler/mlir\ntensorflow/dtensor/mlir\ntensorflow/core/distributed_runtime",
+      "usage": {
+        "prompt_tokens": 2052,
+        "completion_tokens": 22608,
+        "total_tokens": 24660
+      },
+      "latency_ms": 83208.1
+    },
+    {
+      "source_module": "tensorflow/c/kernels",
+      "true_targets": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/c/eager"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/c/eager",
+      "usage": {
+        "prompt_tokens": 2024,
+        "completion_tokens": 29651,
+        "total_tokens": 31675
+      },
+      "latency_ms": 113156.5
+    },
+    {
+      "source_module": "tensorflow/python/dlpack",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/python/platform"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/core/framework\ntensorflow/core/platform",
+      "usage": {
+        "prompt_tokens": 2011,
+        "completion_tokens": 13591,
+        "total_tokens": 15602
+      },
+      "latency_ms": 53851.2
+    },
+    {
+      "source_module": "tensorflow/python/ops",
+      "true_targets": [
+        "tensorflow/core/config",
+        "tensorflow/dtensor/python",
+        "tensorflow/python/autograph",
+        "tensorflow/python/client",
+        "tensorflow/python/compiler",
+        "tensorflow/python/eager",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/layers",
+        "tensorflow/python/lib",
+        "tensorflow/python/profiler",
+        "tensorflow/python/tpu",
+        "tensorflow/python/training",
+        "tensorflow/python/types"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/util",
+        "tensorflow/core/function"
+      ],
+      "precision": 0.4,
+      "recall": 0.2222222222222222,
+      "raw_response": "tensorflow/core/framework\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/core/util\ntensorflow/core/function",
+      "usage": {
+        "prompt_tokens": 2039,
+        "completion_tokens": 38363,
+        "total_tokens": 40402
+      },
+      "latency_ms": 145791.7
+    },
+    {
+      "source_module": "tensorflow/core/tpu",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/config",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/framework",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/kernels",
+        "tensorflow/core/public"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/compiler/jit",
+        "tensorflow/compiler/tf2xla"
+      ],
+      "precision": 1.0,
+      "recall": 0.625,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/compiler/jit\ntensorflow/compiler/tf2xla",
+      "usage": {
+        "prompt_tokens": 2021,
+        "completion_tokens": 12776,
+        "total_tokens": 14797
+      },
+      "latency_ms": 51431.5
+    },
+    {
+      "source_module": "tensorflow/core/user_ops",
+      "true_targets": [
+        "tensorflow/core/framework"
+      ],
+      "shown_deps": [
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/core/common_runtime",
+        "tensorflow/compiler/mlir"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/util\ntensorflow/core/common_runtime\ntensorflow/compiler/mlir",
+      "usage": {
+        "prompt_tokens": 2016,
+        "completion_tokens": 24148,
+        "total_tokens": 26164
+      },
+      "latency_ms": 97590.4
+    },
+    {
+      "source_module": "tensorflow/cc/saved_model",
+      "true_targets": [
+        "tensorflow/c/eager",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/python/client",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform",
+        "tensorflow/python/util",
+        "tensorflow/tools/proto_splitter"
+      ],
+      "shown_deps": [
+        "tensorflow/c/experimental",
+        "tensorflow/cc/experimental",
+        "tensorflow/core/graph",
+        "tensorflow/core/lib",
+        "tensorflow/core/public",
+        "tensorflow/core/util",
+        "tensorflow/python/lib",
+        "tensorflow/python/trackable"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/common_runtime",
+        "tensorflow/c/eager",
+        "tensorflow/compiler/jit"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/common_runtime\ntensorflow/c/eager\ntensorflow/compiler/jit",
+      "usage": {
+        "prompt_tokens": 2066,
+        "completion_tokens": 35453,
+        "total_tokens": 37519
+      },
+      "latency_ms": 140759.4
+    },
+    {
+      "source_module": "tensorflow/python/training",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/python/checkpoint",
+        "tensorflow/python/feature_column",
+        "tensorflow/python/layers",
+        "tensorflow/python/lib",
+        "tensorflow/python/summary",
+        "tensorflow/python/types",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/platform",
+        "tensorflow/python/client",
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable"
+      ],
+      "predicted": [
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.2,
+      "recall": 0.125,
+      "raw_response": "tensorflow/python/eager\ntensorflow/python/util\ntensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2052,
+        "completion_tokens": 12493,
+        "total_tokens": 14545
+      },
+      "latency_ms": 51456.0
+    },
+    {
+      "source_module": "tensorflow/core/data",
+      "true_targets": [
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/grappler",
+        "tensorflow/core/profiler",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/kernels",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/util",
+        "tensorflow/core/graph",
+        "tensorflow/core/profiler",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.8,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/util\ntensorflow/core/graph\ntensorflow/core/profiler\ntensorflow/core/ops",
+      "usage": {
+        "prompt_tokens": 2017,
+        "completion_tokens": 38046,
+        "total_tokens": 40063
+      },
+      "latency_ms": 141703.5
+    },
+    {
+      "source_module": "tensorflow/python/grappler",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/platform",
+        "tensorflow/python/client",
+        "tensorflow/python/framework",
+        "tensorflow/python/layers",
+        "tensorflow/python/ops",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/grappler",
+        "tensorflow/core/lib",
+        "tensorflow/core/public",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/core/common_runtime",
+      "usage": {
+        "prompt_tokens": 2054,
+        "completion_tokens": 27609,
+        "total_tokens": 29663
+      },
+      "latency_ms": 106642.1
+    },
+    {
+      "source_module": "tensorflow/compiler/tf2tensorrt",
+      "true_targets": [
+        "tensorflow/cc/tools",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/grappler",
+        "tensorflow/core/kernels",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/framework",
+        "tensorflow/cc/ops",
+        "tensorflow/cc/saved_model",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/core/public",
+        "tensorflow/tools/graph_transforms"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/grappler",
+        "tensorflow/core/kernels"
+      ],
+      "precision": 1.0,
+      "recall": 0.625,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/common_runtime\ntensorflow/core/graph\ntensorflow/core/grappler\ntensorflow/core/kernels",
+      "usage": {
+        "prompt_tokens": 2079,
+        "completion_tokens": 36944,
+        "total_tokens": 39023
+      },
+      "latency_ms": 144922.7
+    },
+    {
+      "source_module": "tensorflow/compiler/aot",
+      "true_targets": [
+        "tensorflow/core/lib",
+        "tensorflow/python/client",
+        "tensorflow/python/framework",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/graph",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/lib\ntensorflow/compiler/jit\ntensorflow/core/graph\ntensorflow/core/ops",
+      "usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 22606,
+        "total_tokens": 24649
+      },
+      "latency_ms": 85946.4
+    },
+    {
+      "source_module": "tensorflow/python/profiler",
+      "true_targets": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/training",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/python/client",
+        "tensorflow/python/framework"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/python/util",
+        "tensorflow/python/eager",
+        "tensorflow/core/lib",
+        "tensorflow/core/distributed_runtime"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "tensorflow/core/framework\ntensorflow/python/util\ntensorflow/python/eager\ntensorflow/core/lib\ntensorflow/core/distributed_runtime",
+      "usage": {
+        "prompt_tokens": 2035,
+        "completion_tokens": 24606,
+        "total_tokens": 26641
+      },
+      "latency_ms": 96448.2
+    },
+    {
+      "source_module": "tensorflow/core/distributed_runtime",
+      "true_targets": [
+        "tensorflow/cc/ops",
+        "tensorflow/core/activity_watcher",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/nccl",
+        "tensorflow/core/profiler",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/c/eager",
+        "tensorflow/core/debug",
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/public"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/core/grappler",
+        "tensorflow/core/profiler"
+      ],
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/lib\ntensorflow/core/util\ntensorflow/core/grappler\ntensorflow/core/profiler",
+      "usage": {
+        "prompt_tokens": 2052,
+        "completion_tokens": 15120,
+        "total_tokens": 17172
+      },
+      "latency_ms": 57534.8
+    },
+    {
+      "source_module": "tensorflow/core/summary",
+      "true_targets": [
+        "tensorflow/core/kernels",
+        "tensorflow/core/platform",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/core/ops",
+        "tensorflow/core/graph",
+        "tensorflow/core/profiler"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/util\ntensorflow/core/ops\ntensorflow/core/graph\ntensorflow/core/profiler",
+      "usage": {
+        "prompt_tokens": 2024,
+        "completion_tokens": 18962,
+        "total_tokens": 20986
+      },
+      "latency_ms": 80704.3
+    },
+    {
+      "source_module": "tensorflow/python/kernel_tests",
+      "true_targets": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/eager",
+        "tensorflow/python/ops",
+        "tensorflow/python/summary",
+        "tensorflow/python/training",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/python/client",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/training",
+        "tensorflow/python/util",
+        "tensorflow/python/distribute"
+      ],
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "raw_response": "tensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/training\ntensorflow/python/util\ntensorflow/python/distribute",
+      "usage": {
+        "prompt_tokens": 2027,
+        "completion_tokens": 16334,
+        "total_tokens": 18361
+      },
+      "latency_ms": 67470.5
+    },
+    {
+      "source_module": "tensorflow/python/lib",
+      "true_targets": [
+        "tensorflow/c/eager",
+        "tensorflow/core/framework",
+        "tensorflow/core/util",
+        "tensorflow/python/framework",
+        "tensorflow/python/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/python/eager",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/core/framework",
+        "tensorflow/c/eager",
+        "tensorflow/core/util",
+        "tensorflow/c/experimental"
+      ],
+      "precision": 0.8,
+      "recall": 0.8,
+      "raw_response": "tensorflow/python/framework\ntensorflow/core/framework\ntensorflow/c/eager\ntensorflow/core/util\ntensorflow/c/experimental",
+      "usage": {
+        "prompt_tokens": 2037,
+        "completion_tokens": 42104,
+        "total_tokens": 44141
+      },
+      "latency_ms": 157822.7
+    },
+    {
+      "source_module": "tensorflow/core/framework",
+      "true_targets": [
+        "tensorflow/cc/client",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/activity_watcher",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/kernels",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/framework",
+        "tensorflow/cc/ops",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/profiler",
+        "tensorflow/core/public"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/graph",
+        "tensorflow/core/util",
+        "tensorflow/compiler/jit"
+      ],
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/compiler/mlir\ntensorflow/core/graph\ntensorflow/core/util\ntensorflow/compiler/jit",
+      "usage": {
+        "prompt_tokens": 2021,
+        "completion_tokens": 39779,
+        "total_tokens": 41800
+      },
+      "latency_ms": 147555.8
+    },
+    {
+      "source_module": "tensorflow/core/util",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/public"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/kernels"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/common_runtime",
+        "tensorflow/compiler/mlir",
+        "tensorflow/compiler/jit"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/platform\ntensorflow/core/common_runtime\ntensorflow/compiler/mlir\ntensorflow/compiler/jit",
+      "usage": {
+        "prompt_tokens": 2026,
+        "completion_tokens": 35128,
+        "total_tokens": 37154
+      },
+      "latency_ms": 133520.4
+    },
+    {
+      "source_module": "tensorflow/distribute/experimental",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/framework"
+      ],
+      "shown_deps": [
+        "tensorflow/core/data",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/kernels"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/common_runtime\ntensorflow/core/distributed_runtime\ntensorflow/core/graph\ntensorflow/core/kernels",
+      "usage": {
+        "prompt_tokens": 2034,
+        "completion_tokens": 23428,
+        "total_tokens": 25462
+      },
+      "latency_ms": 86423.9
+    },
+    {
+      "source_module": "tensorflow/tools/benchmark",
+      "true_targets": [
+        "tensorflow/cc/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/public"
+      ],
+      "predicted": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/core/kernels"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "tensorflow/core/common_runtime\ntensorflow/core/lib\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/core/kernels",
+      "usage": {
+        "prompt_tokens": 2033,
+        "completion_tokens": 9438,
+        "total_tokens": 11471
+      },
+      "latency_ms": 41117.6
+    },
+    {
+      "source_module": "tensorflow/dtensor/mlir",
+      "true_targets": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "shown_deps": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/dtensor/cc"
+      ],
+      "predicted": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "tensorflow/compiler/mlir\ntensorflow/core/common_runtime\ntensorflow/core/graph\ntensorflow/core/platform\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2030,
+        "completion_tokens": 13013,
+        "total_tokens": 15043
+      },
+      "latency_ms": 48682.9
+    },
+    {
+      "source_module": "tensorflow/tools/gcs_test",
+      "true_targets": [
+        "tensorflow/python/lib"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/framework",
+        "tensorflow/core/util",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/framework\ntensorflow/core/util\ntensorflow/core/common_runtime",
+      "usage": {
+        "prompt_tokens": 2005,
+        "completion_tokens": 39493,
+        "total_tokens": 41498
+      },
+      "latency_ms": 148624.2
+    },
+    {
+      "source_module": "tensorflow/python/client",
+      "true_targets": [
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/core/util",
+        "tensorflow/python/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/training",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/python/eager",
+        "tensorflow/c/eager"
+      ],
+      "precision": 0.6,
+      "recall": 0.42857142857142855,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/platform\ntensorflow/python/eager\ntensorflow/c/eager",
+      "usage": {
+        "prompt_tokens": 2042,
+        "completion_tokens": 11230,
+        "total_tokens": 13272
+      },
+      "latency_ms": 46987.9
+    },
+    {
+      "source_module": "tensorflow/compiler/tests",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/python/client",
+        "tensorflow/python/compiler",
+        "tensorflow/python/framework",
+        "tensorflow/python/layers",
+        "tensorflow/python/platform",
+        "tensorflow/python/tpu"
+      ],
+      "shown_deps": [
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/kernels",
+        "tensorflow/core/public",
+        "tensorflow/core/util",
+        "tensorflow/python/distribute",
+        "tensorflow/python/eager",
+        "tensorflow/python/ops",
+        "tensorflow/python/training"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/compiler/jit",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/python/framework"
+      ],
+      "precision": 0.8,
+      "recall": 0.4,
+      "raw_response": "tensorflow/core/framework\ntensorflow/compiler/jit\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/python/framework",
+      "usage": {
+        "prompt_tokens": 2074,
+        "completion_tokens": 14746,
+        "total_tokens": 16820
+      },
+      "latency_ms": 57403.3
+    },
+    {
+      "source_module": "tensorflow/cc/ops",
+      "true_targets": [
+        "tensorflow/cc/client",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/framework",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/ops",
+        "tensorflow/cc/client",
+        "tensorflow/core/kernels",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/ops\ntensorflow/cc/client\ntensorflow/core/kernels\ntensorflow/core/graph",
+      "usage": {
+        "prompt_tokens": 2031,
+        "completion_tokens": 43401,
+        "total_tokens": 45432
+      },
+      "latency_ms": 168450.8
+    },
+    {
+      "source_module": "tensorflow/python/saved_model",
+      "true_targets": [
+        "tensorflow/cc/saved_model",
+        "tensorflow/core/config",
+        "tensorflow/python/client",
+        "tensorflow/python/ops",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/training",
+        "tensorflow/python/util"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/experimental",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/platform",
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/lib",
+        "tensorflow/python/types"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/training",
+        "tensorflow/python/util",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "tensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/training\ntensorflow/python/util\ntensorflow/core/framework",
+      "usage": {
+        "prompt_tokens": 2056,
+        "completion_tokens": 21260,
+        "total_tokens": 23316
+      },
+      "latency_ms": 86258.4
+    },
+    {
+      "source_module": "tensorflow/cc/tools",
+      "true_targets": [
+        "tensorflow/cc/framework",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/public"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/ops",
+        "tensorflow/cc/saved_model",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/util\ntensorflow/core/common_runtime\ntensorflow/core/graph",
+      "usage": {
+        "prompt_tokens": 2031,
+        "completion_tokens": 15048,
+        "total_tokens": 17079
+      },
+      "latency_ms": 57730.7
+    },
+    {
+      "source_module": "tensorflow/cc/gradients",
+      "true_targets": [
+        "tensorflow/cc/client",
+        "tensorflow/cc/framework",
+        "tensorflow/core/lib"
+      ],
+      "shown_deps": [
+        "tensorflow/cc/ops",
+        "tensorflow/core/framework"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/core/graph",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/lib\ntensorflow/core/platform\ntensorflow/core/util\ntensorflow/core/graph\ntensorflow/core/ops",
+      "usage": {
+        "prompt_tokens": 2027,
+        "completion_tokens": 46414,
+        "total_tokens": 48441
+      },
+      "latency_ms": 185494.7
+    },
+    {
+      "source_module": "tensorflow/python/debug",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/platform",
+        "tensorflow/python/training"
+      ],
+      "shown_deps": [
+        "tensorflow/python/client",
+        "tensorflow/python/lib",
+        "tensorflow/python/profiler",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/core/framework",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/eager\ntensorflow/core/framework\ntensorflow/core/util",
+      "usage": {
+        "prompt_tokens": 2031,
+        "completion_tokens": 28272,
+        "total_tokens": 30303
+      },
+      "latency_ms": 113329.0
+    },
+    {
+      "source_module": "tensorflow/lite/profiling",
+      "true_targets": [
+        "tensorflow/core/util",
+        "tensorflow/lite/delegates",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/tools"
+      ],
+      "shown_deps": [
+        "tensorflow/lite/c",
+        "tensorflow/lite/core",
+        "tensorflow/lite/schema"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/util",
+        "tensorflow/core/lib",
+        "tensorflow/core/framework",
+        "tensorflow/lite/delegates"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/util\ntensorflow/core/lib\ntensorflow/core/framework\ntensorflow/lite/delegates",
+      "usage": {
+        "prompt_tokens": 2033,
+        "completion_tokens": 17503,
+        "total_tokens": 19536
+      },
+      "latency_ms": 69594.0
+    }
+  ],
+  "timestamp": "2026-10-22T21:31:31.314275",
+  "model": "deepseek-v4-flash",
+  "project": "tensorflow",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

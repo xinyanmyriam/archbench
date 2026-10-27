@@ -1,0 +1,201 @@
+﻿pilot_id,model,label,confidence,reason,parse_ok
+V001,deepseek-v4-pro-official,Correct,3,三条 include 均解析到 gui/src/Qtx 下真实存在的同名头文件，且候选路径唯一，依赖目标正确。,1
+V002,deepseek-v4-pro-official,Correct,3,"#include ""Behaviours/BehaviourProperty.h"" 解析到仓库内存在的 bibcxx/Behaviours/BehaviourProperty.h，路径前缀与目标模块一致。",1
+V003,deepseek-v4-pro-official,Correct,3,示例 include 的 GEOM_Function.hxx 唯一候选且在 geom/src/GEOM 下存在，解析目标正确。,1
+V004,deepseek-v4-pro-official,Correct,3,include 目标文件真实存在于 kernel/src/ResourcesManager，且解析路径与候选一致。,1
+V005,deepseek-v4-pro-official,Correct,3,include 语句真实存在，且解析目标与候选路径及模块均匹配,1
+V006,deepseek-v4-pro-official,Correct,3,#include 路径与解析目标一致，且目标文件存在并属于 tensorflow/core/lib 模块。,1
+V007,deepseek-v4-pro-official,Correct,3,"示例中的 #include ""Numbering/DOFNumbering.h"" 正确解析到 bibcxx/Numbering/DOFNumbering.h，路径前缀与模块归属一致。",1
+V008,deepseek-v4-pro-official,Correct,3,示例 include 路径解析到真实存在的 drivers/media/pci/bt8xx/bt848.h，模块归属正确。,1
+V009,deepseek-v4-pro-official,Correct,3,示例中 from torch._decomp import ... 被正确解析到项目内 torch/_decomp/__init__.py，源模块 torch/export 静态依赖目标模块 torch/_decomp 成立。,1
+V010,deepseek-v4-pro-official,Correct,3,include 路径与解析目标及目标模块一致，真实静态依赖成立。,1
+V011,deepseek-v4-pro-official,Correct,3,"#include ""GEOM_Constants.h"" 真实存在且唯一解析到 geom/src/OBJECT/GEOM_Constants.h，模块与目标一致",1
+V012,deepseek-v4-pro-official,Correct,3,Python import 语句真实存在，解析目标 tensorflow/python/framework/__init__.py 正确对应 tensorflow.python.framework 包。,1
+V013,deepseek-v4-pro-official,Correct,3,示例中 torch.autograd.gradcheck 导入正确解析到 torch/autograd/gradcheck.py，目标模块为 torch/autograd，依赖成立。,1
+V014,deepseek-v4-pro-official,Correct,3,#include <kunit/test.h> 与解析目标 include/kunit/test.h 路径前缀一致，且该文件确实属于 include/kunit 模块,1
+V015,deepseek-v4-pro-official,Correct,3,两条 #include 语句均真实存在，且以 Solvers/ 前缀解析到 bibcxx/Solvers 下对应存在的头文件，模块目标正确。,1
+V016,deepseek-v4-pro-official,Correct,3,示例中的 #include <linux/*.h> 均正确解析到 include/linux/ 下的同名头文件，模块端点一致且目标在项目内。,1
+V017,deepseek-v4-pro-official,Correct,3,"#include ""astercxx.h"" 唯一解析目标 bibcxx/include/astercxx.h 存在且模块归属正确",1
+V018,deepseek-v4-pro-official,Correct,3,#include <vdso/*.h> 的路径前缀与解析到的 include/vdso/*.h 一致，且源文件属于 arch/sparc 模块，依赖成立。,1
+V019,deepseek-v4-pro-official,Granularity,2,import 解析目标正确，但 source_file 属于子模块 hadoop-mapreduce-client-hs，而边端点用的是父模块 hadoop-mapreduce-client，存在父子模块粒度不一致。,1
+V020,deepseek-v4-pro-official,Correct,3,示例中的 from tensorflow.python.platform import test 是内部包导入，解析到 tensorflow/python/platform/__init__.py 正确，模块级依赖成立。,1
+V021,deepseek-v4-pro-official,Correct,3,Python 导入语句的全限定名与解析目标路径及模块完全一致，依赖成立。,1
+V022,deepseek-v4-pro-official,Correct,3,示例中的 import 全限定名与解析目标路径推导出的全限定名一致，目标文件均存在且属于 spring-core 模块。,1
+V023,deepseek-v4-pro-official,Correct,3,Java import 的全限定名与解析目标路径及模块完全一致，静态依赖真实存在。,1
+V024,deepseek-v4-pro-official,Correct,3,import 路径 k8s.io/apimachinery 正确解析到 staging/src/k8s.io/apimachinery 下存在的目录，模块端点粒度一致。,1
+V025,deepseek-v4-pro-official,Correct,3,两个 #include 的相对路径均正确解析到 net/netfilter/xt_repldata.h，且该文件存在并属于 net/netfilter 模块。,1
+V026,deepseek-v4-pro-official,Correct,3,#include <linux/major.h> 唯一候选解析到 include/uapi/linux/major.h，路径前缀与目标文件一致，模块归属正确。,1
+V027,deepseek-v4-pro-official,Correct,3,#include 路径与解析目标文件完全一致且目标模块正确,1
+V028,deepseek-v4-pro-official,Correct,3,include <QtxActionMenuMgr.h> 正确解析到 gui/src/Qtx/QtxActionMenuMgr.h，且该文件存在并属于目标模块。,1
+V029,deepseek-v4-pro-official,Correct,3,所有示例均为 #include <linux/*.h> 且解析到 include/linux/ 下对应文件，路径前缀与模块归属一致。,1
+V030,deepseek-v4-pro-official,Correct,3,import torch.nn 正确解析到项目内 torch/nn/__init__.py，源模块和目标是兄弟模块，依赖成立。,1
+V031,deepseek-v4-pro-official,Correct,3,示例中 #include <linux/*.h> 解析到 include/linux/*.h，路径前缀与内核头文件位置一致，模块依赖成立。,1
+V032,deepseek-v4-pro-official,Correct,3,drivers/dax/super.c 的 #include <linux/magic.h> 正确解析到 include/uapi/linux/magic.h，路径前缀与模块归属一致。,1
+V033,deepseek-v4-pro-official,Correct,3,示例中 tools/jit/gen_unboxing.py 的多条 import 均正确解析到 torchgen/api 模块内文件。,1
+V034,deepseek-v4-pro-official,Correct,3,示例中的 Python import 语句从 torch.jit.generate_bytecode 导入，解析目标 torch/jit/generate_bytecode.py 存在且模块归属正确。,1
+V035,deepseek-v4-pro-official,Correct,3,两个示例均通过 #include <LightApp_SelectionMgr.h> 静态依赖唯一候选 gui/src/LightApp/LightApp_SelectionMgr.h，文件存在且模块归属正确。,1
+V036,deepseek-v4-pro-official,Correct,3,三条 #include 均解析到 geom/src/GEOMGUI 下存在的同名头文件，源模块与目标模块一致，依赖成立。,1
+V037,deepseek-v4-pro-official,Correct,2,#include <GEOM_wrap.hxx> 在仓库中唯一候选为 geom/src/GEOM_I/GEOM_wrap.hxx，解析目标正确且文件存在，模块依赖成立。,1
+V038,deepseek-v4-pro-official,Correct,3,示例中的 #include <linux/*.h> 均正确解析到 include/linux/ 下的对应头文件，路径前缀与解析目标一致。,1
+V039,deepseek-v4-pro-official,Correct,3,#include 路径与解析目标完全一致，且目标文件位于 tensorflow/core/profiler 模块内，依赖成立。,1
+V040,deepseek-v4-pro-official,Correct,3,Go import 路径 k8s.io/kubernetes/pkg/fieldpath 对应仓库内存在的 pkg/fieldpath 目录，解析目标正确。,1
+V041,deepseek-v4-pro-official,Correct,3,include 语句真实存在，且解析目标文件位于 geom/src/SKETCHER 模块内，模块映射正确。,1
+V042,deepseek-v4-pro-official,Correct,3,#include <SVTK_ViewModel.h> 唯一候选为 gui/src/SVTK/SVTK_ViewModel.h，解析目标正确且模块归属一致,1
+V043,deepseek-v4-pro-official,Correct,3,"示例中 #include ""lib/vdso/gettimeofday.c"" 与解析目标及候选文件 lib/vdso/gettimeofday.c 完全一致，源模块和目标模块正确。",1
+V044,deepseek-v4-pro-official,Correct,3,#include <kunit/test.h> 与解析目标 include/kunit/test.h 路径一致，源文件属于 drivers/base，目标模块正确。,1
+V045,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径正确解析到 drivers/scsi/bnx2i 下的真实头文件，模块归属 drivers/scsi 正确。,1
+V046,deepseek-v4-pro-official,Correct,3,唯一候选 include/uapi/linux/nfc.h 与 #include <linux/nfc.h> 匹配且文件存在，模块依赖成立。,1
+V047,deepseek-v4-pro-official,Correct,3,"示例中的 #include ""NOTIFICATION.hxx"" 唯一对应到仓库内存在的 kernel/src/Notification/NOTIFICATION.hxx，解析目标正确。",1
+V048,deepseek-v4-pro-official,Correct,3,示例 include vtkBoolPropertyDecorator.h 的解析目标存在且候选唯一，静态依赖成立。,1
+V049,deepseek-v4-pro-official,Correct,3,示例中的 include 均解析到 src/regionModels 下存在的头文件，目标模块正确且引用成立。,1
+V050,deepseek-v4-pro-official,Correct,3,示例中 import k8s.io/kubernetes/pkg/controlplane 正确解析到仓库内存在的 pkg/controlplane 模块，依赖边成立。,1
+V051,deepseek-v4-pro-official,Correct,3,#include <linux/...> 路径前缀与解析目标 include/linux/... 一致，且目标文件存在，模块归属正确。,1
+V052,deepseek-v4-pro-official,Correct,3,include 路径 Numbering/DOFNumbering.h 正确解析到 bibcxx/Numbering/DOFNumbering.h，且该文件存在并属于目标模块。,1
+V053,deepseek-v4-pro-official,Correct,3,示例导入的 k8s.io/apimachinery 路径解析到 staging/src/k8s.io/apimachinery 下的现有目录，候选 vendor 路径缺失，目标模块正确。,1
+V054,deepseek-v4-pro-official,Correct,3,"#include ""ccm.H"" 解析到唯一候选 src/conversion/ccm/common/ccm.H，文件存在且属于目标模块，依赖成立。",1
+V055,deepseek-v4-pro-official,Correct,3,示例中的 Go import 路径 k8s.io/client-go/... 正确解析到 staging/src/k8s.io/client-go 下的对应目录，静态依赖成立且目标模块一致。,1
+V056,deepseek-v4-pro-official,Correct,3,import 路径 k8s.io/kubernetes/pkg/registry/registrytest 对应仓库内 pkg/registry/registrytest 目录，归属 pkg/registry，依赖真实且解析正确。,1
+V057,deepseek-v4-pro-official,Correct,3,#include <linux/...> 在内核源码中正确解析到 include/linux 下同名头文件，目标模块无误。,1
+V058,deepseek-v4-pro-official,Correct,3,示例中 #include <crypto/sha1.h> 解析到 include/crypto/sha1.h，路径前缀与模块归属一致，依赖成立。,1
+V059,deepseek-v4-pro-official,Correct,3,示例中 #include <linux/*.h> 均正确解析到 include/linux/ 下存在的头文件，目标模块一致。,1
+V060,deepseek-v4-pro-official,Correct,3,三条 #include <soc/...> 均正确解析到 include/soc 下对应头文件，路径前缀与目标模块一致,1
+V061,deepseek-v4-pro-official,Correct,3,Python 相对导入 ..Messages 正确解析到 code_aster/Messages/__init__.py，目标模块与边一致。,1
+V062,deepseek-v4-pro-official,Correct,3,#include 路径前缀与解析目标 include/dt-bindings/leds/*.h 一致，目标文件存在且模块归属正确,1
+V063,deepseek-v4-pro-official,Correct,3,示例 #include 路径与解析目标一致且目标文件存在，源文件属于 source_module，依赖边成立。,1
+V064,deepseek-v4-pro-official,Correct,3,#include <SVTK_ViewModel.h> 唯一候选为 gui/src/SVTK/SVTK_ViewModel.h，且该文件存在，解析目标正确。,1
+V065,deepseek-v4-pro-official,Correct,3,include 路径 Discretization/ElementaryCharacteristics.h 与解析到的 bibcxx/Discretization/ElementaryCharacteristics.h 前缀一致且目标存在，依赖边成立。,1
+V066,deepseek-v4-pro-official,Correct,3,示例中 #include 路径与解析目标完全一致且目标文件存在，正确解析到 tensorflow/core/profiler 模块。,1
+V067,deepseek-v4-pro-official,Correct,3,示例中的 #include <linux/*.h> 均解析到 include/uapi/linux/ 下的真实文件，目标模块正确。,1
+V068,deepseek-v4-pro-official,Correct,2,#include <SALOME_ListIO.hxx> 唯一候选解析到 gui/src/OBJECT/SALOME_ListIO.hxx 且磁盘存在，依赖成立。,1
+V069,deepseek-v4-pro-official,Correct,3,示例中 #include <uapi/linux/sched/types.h> 明确解析到 include/uapi/linux/sched/types.h，依赖目标模块 include/uapi 正确。,1
+V070,deepseek-v4-pro-official,Correct,3,OperationGUI.cxx 中 #include <GeometryGUI.h> 解析到 geom/src/GEOMGUI/GeometryGUI.h，目标文件存在且模块归属正确。,1
+V071,deepseek-v4-pro-official,Correct,3,"示例中的 #include ""transferModel.H"" 唯一候选项位于 src/regionModels 下且解析为真实文件，构成源模块到目标模块的静态依赖。",1
+V072,deepseek-v4-pro-official,Correct,3,include 目标 vtkProcessModule.h 在仓库中唯一且解析为 Remoting/Core/vtkProcessModule.h，模块归属正确。,1
+V073,deepseek-v4-pro-official,Correct,3,示例中的 #include 均解析到 VTKExtensions/Core 下实际存在的头文件，模块目标正确。,1
+V074,deepseek-v4-pro-official,Correct,3,示例 include 路径前缀与解析目标均在 tensorflow/core/framework 且目标文件存在，模块归属正确。,1
+V075,deepseek-v4-pro-official,Correct,3,"import ""k8s.io/api/core/v1"" 正确解析到仓库内存在的 staging/src/k8s.io/api/core/v1，其模块归属为 staging/src/k8s.io/api。",1
+V076,deepseek-v4-pro-official,Correct,3,示例中 #include <kunit/test.h> 正确解析到内核 include/kunit/test.h，且该文件存在并属于 include/kunit 模块。,1
+V077,deepseek-v4-pro-official,Correct,3,示例中 #include <linux/*.h> 均正确解析到 include/linux/*.h 且文件存在，模块端点一致。,1
+V078,deepseek-v4-pro-official,Correct,3,示例中的#include <trace/misc/rdma.h>和<trace/define_trace.h>均正确解析到include/trace下的现有文件，模块归属正确。,1
+V079,deepseek-v4-pro-official,Correct,3,示例中 #include <c10/util/Exception.h> 与候选路径 c10/util/Exception.h 前缀一致，解析目标正确属于 c10/util 模块。,1
+V080,deepseek-v4-pro-official,Correct,3,该 import 语句真实存在，且解析到 tensorflow/python/distribute 包的 __init__.py，属于项目内目标模块。,1
+V081,deepseek-v4-pro-official,Correct,3,示例中的 #include 均解析到 Remoting/Core 下实际存在的头文件，模块归属正确。,1
+V082,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径与唯一候选 tensorflow/core/graph/node_builder.h 完全一致，且该文件确实属于 target_module。,1
+V083,deepseek-v4-pro-official,Correct,3,"示例 #include ""PlotCurve.h"" 的唯一仓库候选为 OMPlot/OMPlot/OMPlotGUI/PlotCurve.h，文件存在且属于目标模块，静态依赖成立。",1
+V084,deepseek-v4-pro-official,Correct,3,示例中的 #include <net/*.h> 均正确解析到 include/net/ 下的对应头文件，模块依赖成立。,1
+V085,deepseek-v4-pro-official,Correct,3,示例中的 #include <linux/kernel.h> 在内核中正确解析到 include/linux/kernel.h，路径前缀与目标模块一致。,1
+V086,deepseek-v4-pro-official,Correct,3,#include 引用的 vtkPVRenderView.h 仅有一个候选文件 Remoting/Views/vtkPVRenderView.h 且存在，解析目标正确。,1
+V087,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径与解析目标一致，且目标文件确实位于 tensorflow/core/public 模块内。,1
+V088,deepseek-v4-pro-official,Correct,3,示例 import 的 k8s.io/component-base/cli/globalflag 被解析到仓库内 staging/src/k8s.io/component-base/cli/globalflag 目录，该目录属于 target_module，依赖边成立。,1
+V089,deepseek-v4-pro-official,Correct,3,示例中的 #include <SALOME_NamingService.hxx> 解析到 kernel/src/NamingService/SALOME_NamingService.hxx，文件存在且模块匹配。,1
+V090,deepseek-v4-pro-official,Correct,3,示例中的 Go import 均正确解析到 staging/src/k8s.io/apimachinery 下的包，且目标模块一致。,1
+V091,deepseek-v4-pro-official,Correct,3,示例1直接通过 #include <asm-generic/vmlinux.lds.h> 依赖到 include/asm-generic/vmlinux.lds.h，路径前缀与候选目标匹配，解析正确,1
+V092,deepseek-v4-pro-official,Correct,3,"#include ""Loads/ListOfLoads.h"" 解析到仓库内唯一候选 bibcxx/Loads/ListOfLoads.h，路径前缀与目标模块一致，依赖成立。",1
+V093,deepseek-v4-pro-official,Correct,3,af_netlink.c 的 #include <linux/un.h> 真实存在，且候选清单唯一目标为 include/uapi/linux/un.h，解析到 include/uapi 模块正确。,1
+V094,deepseek-v4-pro-official,Correct,3,示例 include 均解析到 VTKExtensions/Core 下存在的头文件，源文件与目标文件分属对应模块，依赖成立,1
+V095,deepseek-v4-pro-official,Correct,3,示例 include 的目标均解析到 src 下存在的项目内头文件，至少 argList.H 候选唯一且模块归属正确，依赖边成立。,1
+V096,deepseek-v4-pro-official,Correct,3,include 路径与解析目标完全一致，且目标文件存在并属于 tensorflow/core/transforms 模块。,1
+V097,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径前缀与解析目标一致，源文件位于 tensorflow/compiler/mlir，目标头文件确在 tensorflow/compiler/tf2xla 下且模块归属正确。,1
+V098,deepseek-v4-pro-official,Correct,3,示例均通过 from tensorflow.python.client import ... 静态依赖到项目内 tensorflow/python/client/__init__.py，解析目标模块正确。,1
+V099,deepseek-v4-pro-official,Correct,3,drivers/virtio/virtio.c 的 #include <uapi/linux/virtio_ids.h> 正确解析到 include/uapi/linux/virtio_ids.h，目标模块为 include/uapi，依赖成立。,1
+V100,deepseek-v4-pro-official,Correct,3,Fortran CALL GETSTB 对应 mds/getstb.f 中的子程序，解析目标存在且模块归属正确。,1
+V101,deepseek-v4-pro-official,Correct,3,两条 C/C++ include 语句的路径前缀与解析目标 tensorflow/compiler/mlir/init_mlir.h 完全一致，且目标文件属于 tensorflow/compiler/mlir 模块。,1
+V102,deepseek-v4-pro-official,Correct,3,语句真实存在，且 torch.fx.experimental.symbolic_shapes 解析到存在的 torch/fx/experimental/symbolic_shapes.py，属于目标模块 torch/fx。,1
+V103,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径前缀与解析目标一致，且目标文件均位于 tensorflow/lite/tools 中。,1
+V104,deepseek-v4-pro-official,Correct,3,"import ""k8s.io/apimachinery/pkg/util/wait"" 正确解析到项目内 staging/src/k8s.io/apimachinery 下的真实目录，源文件属于 pkg/util。",1
+V105,deepseek-v4-pro-official,Correct,3,kubelet.go 中 import 的 k8s.io/kubernetes/pkg/volume 及子包均解析到仓库内真实存在的 pkg/volume 目录，模块归属 pkg/volume 正确。,1
+V106,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径前缀 DataFields 与解析目标模块 bibcxx/DataFields 一致，且目标文件存在，依赖成立。,1
+V107,deepseek-v4-pro-official,Correct,3,示例中 net/ncsi 源文件通过 #include <linux/*.h> 正确解析到 include/linux/ 下的对应头文件，模块级依赖成立。,1
+V108,deepseek-v4-pro-official,Correct,3,示例 include 均解析到 gui/src/GLViewer 模块内真实存在的头文件，且候选唯一、模块一致。,1
+V109,deepseek-v4-pro-official,Correct,3,示例中 torch/compiler/_cache.py 通过 import torch._functorch._aot_autograd.autograd_cache 静态依赖到项目内 torch/_functorch 下的 autograd_cache.py，解析目标正确且模块粒度一致。,1
+V110,deepseek-v4-pro-official,Correct,3,#include <vdso/vsyscall.h> 的路径前缀与 include/vdso/vsyscall.h 一致，目标文件存在，依赖成立。,1
+V111,deepseek-v4-pro-official,Correct,3,示例中的 import torch._dynamo.config 正确解析到仓库内 torch/_dynamo/config.py，且目标模块为 torch/_dynamo，静态依赖成立。,1
+V112,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径与解析到的 tensorflow/core/framework 下真实文件完全匹配，模块端点正确。,1
+V113,deepseek-v4-pro-official,Correct,3,"示例中的 #include ""inftrees.c"" 和 ""inffast.c"" 均解析到 lib/zlib_inflate 下存在的文件，模块依赖成立。",1
+V114,deepseek-v4-pro-official,Correct,3,pep-gprs.c 的 #include <trace/events/sock.h> 正确解析到 include/trace/events/sock.h，路径前缀与解析目标一致，依赖成立。,1
+V115,deepseek-v4-pro-official,Correct,3,示例中的 Python import torch.cuda._memory_viz 正确解析到仓库内 torch/cuda/_memory_viz.py，路径与模块一致，依赖成立。,1
+V116,deepseek-v4-pro-official,Correct,3,示例中的 #include 语句真实存在，且唯一候选目标 kernel/src/Container/SALOME_Component_i.hxx 存在并属于 target_module，解析正确。,1
+V117,deepseek-v4-pro-official,Correct,3,#include <mach/assabet.h> 解析到 arch/arm/mach-sa1100/include/mach/assabet.h，路径前缀一致且目标文件属于 arch/arm 模块，依赖成立,1
+V118,deepseek-v4-pro-official,Correct,3,示例 include 路径与解析目标一致，目标文件存在且属于 target_module。,1
+V119,deepseek-v4-pro-official,Correct,3,import 全限定名 tensorflow.python.ops.collective_ops 与解析目标 tensorflow/python/ops/collective_ops.py 的模块路径一致，静态依赖真实存在且解析正确。,1
+V120,deepseek-v4-pro-official,Correct,3,#include <SUIT_Application.h> 解析到 gui/src/SUIT/SUIT_Application.h，目标文件存在且模块正确。,1
+V121,deepseek-v4-pro-official,Correct,3,示例中 #include 路径与解析目标均一致指向 tensorflow/core/graph 下的头文件，依赖成立。,1
+V122,deepseek-v4-pro-official,Correct,3,两个 #include 均正确解析到 include/video/ 下对应头文件，路径前缀一致。,1
+V123,deepseek-v4-pro-official,Correct,3,import语句真实存在，且解析目标staging/src/k8s.io/apiserver/pkg/authentication/user与候选路径及目标模块一致。,1
+V124,deepseek-v4-pro-official,Correct,3,"Go import ""k8s.io/mount-utils"" 正确解析到仓库内存在的 staging/src/k8s.io/mount-utils 目录，且 vendor 候选缺失，依赖目标无误。",1
+V125,deepseek-v4-pro-official,Correct,3,"#include ""turbulentFluidThermoModel.H"" 解析到仓库中唯一存在的 src/TurbulenceModels/compressible/turbulentFluidThermoModels/turbulentFluidThermoModel.H，目标模块正确。",1
+V126,deepseek-v4-pro-official,Correct,3,import 路径 k8s.io/kubernetes/pkg/serviceaccount 正确对应仓库内存在的 pkg/serviceaccount 目录，源文件属于 cmd/kube-controller-manager，依赖成立。,1
+V127,deepseek-v4-pro-official,Correct,3,示例中 #include <sound/core.h> 正确解析到 include/sound/core.h，路径前缀与目标模块匹配，依赖成立。,1
+V128,deepseek-v4-pro-official,Correct,3,示例中 #include <linux/kernel.h> 等正确解析到 include/linux/kernel.h，路径前缀与目标模块一致,1
+V129,deepseek-v4-pro-official,Correct,3,Python import 全限定名 tensorflow.compiler.tests 正确解析到 tensorflow/compiler/tests/__init__.py，路径与模块一致。,1
+V130,deepseek-v4-pro-official,Correct,3,示例中 #include <linux/*.h> 均正确解析到 include/linux/ 下同名文件，路径前缀与解析目标一致。,1
+V131,deepseek-v4-pro-official,Correct,3,#include 的 PVServer_ServiceWrapper.h 唯一候选解析到 gui/src/PVServerService 下的同名文件且路径一致，静态依赖成立。,1
+V132,deepseek-v4-pro-official,Correct,3,所有示例 include 均解析到 geom/src/GEOMImpl 下存在的目标文件，模块归属正确。,1
+V133,deepseek-v4-pro-official,Correct,3,两个 #include 的路径前缀与解析目标一致，且目标文件均在 tensorflow/compiler/mlir 模块内，依赖成立。,1
+V134,deepseek-v4-pro-official,Correct,3,示例中 from torch._higher_order_ops.out_dtype import out_dtype 正确解析到 torch/_higher_order_ops/out_dtype.py，且源、目标模块与边一致。,1
+V135,deepseek-v4-pro-official,Correct,3,"cxl_pmu.c 中的 #include ""../cxl/..."" 路径正确解析到 drivers/cxl 下存在的头文件，模块归属正确。",1
+V136,deepseek-v4-pro-official,Correct,3,示例1的 from tensorflow.python.ops.losses import losses 正确解析到 tensorflow/python/ops/losses/__init__.py，且该文件属于 target_module tensorflow/python/ops。,1
+V137,deepseek-v4-pro-official,Correct,3,示例中的 #include <crypto/hash.h> 等按内核头文件路径前缀正确解析到 include/crypto/ 下对应文件，模块级依赖成立。,1
+V138,deepseek-v4-pro-official,Correct,3,#include <Utils_ExceptHandlers.hxx> 唯一候选目标 kernel/src/Utils/Utils_ExceptHandlers.hxx 存在且模块归属正确。,1
+V139,deepseek-v4-pro-official,Correct,3,所有示例的 include 路径与解析目标一致，且目标文件属于 tensorflow/core/util 模块。,1
+V140,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径与解析目标文件均在 tensorflow/core/framework 下，模块归属一致，依赖成立。,1
+V141,deepseek-v4-pro-official,Correct,3,sound/arm/aaci.c 的 #include <sound/...> 路径前缀与 include/sound 下文件一致，解析目标正确。,1
+V142,deepseek-v4-pro-official,Correct,3,示例#include路径与解析目标一致，目标文件存在且归属bibcxx/LinearAlgebra模块。,1
+V143,deepseek-v4-pro-official,Correct,3,Python 导入 tensorflow.python.util 包，唯一候选为 util/__init__.py，解析目标与模块一致，依赖成立。,1
+V144,deepseek-v4-pro-official,Correct,3,include <trace/define_trace.h> 正确解析到内核 include/trace/define_trace.h，路径前缀与模块一致。,1
+V145,deepseek-v4-pro-official,Correct,3,include 路径与唯一候选文件 include/dt-bindings/leds/rt4831-backlight.h 一致，且目标模块正确,1
+V146,deepseek-v4-pro-official,Correct,3,示例中 #include 路径与唯一候选文件及目标模块完全匹配，静态依赖成立。,1
+V147,deepseek-v4-pro-official,Correct,3,tools/jit/gen_unboxing.py 确实通过 from torchgen.selective_build.selector import SelectiveBuilder 静态依赖 torchgen/selective_build/selector.py，解析目标正确。,1
+V148,deepseek-v4-pro-official,Correct,3,include 语句真实存在，且唯一候选目标 gui/src/OBJECT/SALOME_ListIO.hxx 在磁盘上存在、文件名与引用一致，模块归属正确。,1
+V149,deepseek-v4-pro-official,Correct,3,#include 路径与候选文件 bibcxx/Utilities/CapyConvertibleValue.h 一致，且目标模块正确。,1
+V150,deepseek-v4-pro-official,Correct,3,示例 #include 的解析目标均存在于 gui/src/SUIT 且模块归属正确，候选清单也唯一匹配。,1
+V151,deepseek-v4-pro-official,Correct,3,dm-crypt.c 的 #include <crypto/aes.h> 正确解析到 include/crypto/aes.h，路径前缀与目标模块一致。,1
+V152,deepseek-v4-pro-official,Correct,3,#include <net/*.h> 路径前缀与解析目标 include/net/*.h 一致，依赖成立。,1
+V153,deepseek-v4-pro-official,Correct,3,#include 语句真实存在，且唯一候选目标文件位于 Remoting/Settings 模块，解析正确。,1
+V154,deepseek-v4-pro-official,Correct,3,两条 Python 导入均正确解析到 torch/utils 下的文件，模块归属一致,1
+V155,deepseek-v4-pro-official,Correct,3,唯一候选路径与include文件名一致且存在于目标模块，解析目标正确。,1
+V156,deepseek-v4-pro-official,Correct,3,"#include ""SALOME_ResourcesManager.hxx"" 已正确解析到 kernel/src/ResourcesManager/SALOME_ResourcesManager.hxx，且该文件存在并属于目标模块",1
+V157,deepseek-v4-pro-official,Correct,3,示例中的 #include 路径前缀与解析目标一致，且目标文件在磁盘存在并属于 tensorflow/lite/schema 模块。,1
+V158,deepseek-v4-pro-official,Correct,3,两条 include 均解析到 gui/src/SalomeApp 下真实存在的同名头文件，目标模块正确。,1
+V159,deepseek-v4-pro-official,Correct,3,"#include ""UtilsTest.hxx"" 唯一候选解析到 kernel/src/Utils/Test/UtilsTest.hxx，文件存在且模块匹配。",1
+V160,deepseek-v4-pro-official,Correct,3,示例中 #include 路径与解析目标文件完全一致，且该头文件确实位于 tensorflow/core/lib 模块内。,1
+V161,deepseek-v4-pro-official,Correct,3,示例中的 #include 均能解析到 Remoting/Views 下实际存在的对应头文件，依赖真实且模块归属正确。,1
+V162,deepseek-v4-pro-official,Correct,3,import torch._refs 解析到 torch/_refs/__init__.py，源模块 torch/onnx 静态依赖目标模块 torch/_refs 成立,1
+V163,deepseek-v4-pro-official,Correct,3,示例中的 #include <crypto/public_key.h> 正确解析到 include/crypto/public_key.h，路径前缀与目标文件一致。,1
+V164,deepseek-v4-pro-official,Correct,3,"#include ""aster_mpi.h"" 真实存在且唯一解析到 bibc/include/aster_mpi.h，路径与模块均正确。",1
+V165,deepseek-v4-pro-official,Correct,3,from tensorflow.python.framework import dtypes 是项目内包导入，解析目标 tensorflow/python/framework/__init__.py 与模块一致。,1
+V166,deepseek-v4-pro-official,Correct,3,"#include ""../zlib_inflate/inflate.h"" 从 lib/zlib_dfltcc 目录正确解析到 lib/zlib_inflate/inflate.h，目标文件存在且模块一致。",1
+V167,deepseek-v4-pro-official,Correct,3,示例中的#include语句将源文件静态依赖到gui/src/OBJECT下真实存在的同名头文件，解析目标正确,1
+V168,deepseek-v4-pro-official,Correct,3,示例中的 import 全限定名与解析目标路径推导出的包名完全一致，且目标文件均位于 spring-web 模块内。,1
+V169,deepseek-v4-pro-official,Correct,3,示例中的 import torch.nn.functional 和 import torch.nn 均真实存在且正确解析到 torch/nn 模块内文件。,1
+V170,deepseek-v4-pro-official,Correct,3,"示例中 Plugins/Prism 文件 #include ""vtkPVSession.h""，解析到 Remoting/Core/vtkPVSession.h，候选路径一致且目标模块正确。",1
+V171,deepseek-v4-pro-official,Correct,3,Python import 全限定名与解析文件路径一致，目标文件存在且属于 torch/utils 包，模块级依赖成立。,1
+V172,deepseek-v4-pro-official,Correct,3,示例 include 的文件均解析到 MEDCoupling 模块内且磁盘存在，源模块到目标模块的静态依赖成立。,1
+V173,deepseek-v4-pro-official,Correct,3,#include <linux/device.h> 等均解析到 include/linux 下的同名头文件，路径前缀与目标模块一致。,1
+V174,deepseek-v4-pro-official,Correct,3,示例中的#include语句解析到DriverUNV模块内真实存在的头文件，依赖关系成立。,1
+V175,deepseek-v4-pro-official,Correct,3,示例中的 #include <STD_TabDesktop.h> 等语句真实存在，且解析目标 gui/src/STD/STD_TabDesktop.h 等文件存在于目标模块 gui/src/STD 中。,1
+V176,deepseek-v4-pro-official,Correct,3,#include 语句真实存在，且唯一候选目标文件与解析目标一致，目标模块正确。,1
+V177,deepseek-v4-pro-official,Correct,3,"示例中的 #include ""vtkPVGeneralSettings.h"" 确实存在，且唯一候选目标 Remoting/Settings/vtkPVGeneralSettings.h 解析正确，源文件与目标模块归属清晰。",1
+V178,deepseek-v4-pro-official,Correct,3,示例中的 #include <soc/qcom/*.h> 路径前缀与解析目标 include/soc/qcom/*.h 一致，且源和目标模块粒度均为目录级模块。,1
+V179,deepseek-v4-pro-official,Correct,3,#include <net/arp.h> 解析到 include/net/arp.h，路径前缀与文件存在一致，模块依赖成立,1
+V180,deepseek-v4-pro-official,Correct,3,"示例中的 #include ""Utilities/Tools.h"" 正确解析到 bibcxx/Utilities/Tools.h，源模块与目标模块依赖成立。",1
+V181,deepseek-v4-pro-official,Correct,3,#include 路径与解析目标一致，且目标文件位于 tensorflow/lite/async 模块,1
+V182,deepseek-v4-pro-official,Correct,3,"#include ""../hv/hyperv_vmbus.h"" 从 drivers/uio 相对路径解析到 drivers/hv/hyperv_vmbus.h，目标模块正确",1
+V183,deepseek-v4-pro-official,Correct,3,示例中 Python import 语句真实存在，且解析目标 feature_column/__init__.py 与目标模块一致,1
+V184,deepseek-v4-pro-official,Correct,3,示例中的 #include <scsi/...> 均解析到 include/scsi/ 下实际存在且模块归属正确的头文件，路径前缀一致。,1
+V185,deepseek-v4-pro-official,Correct,3,"#include ""Materials/MaterialField.h"" 能正确解析到 bibcxx/Materials/MaterialField.h，且源模块与目标模块均为 bibcxx 下的同级子模块。",1
+V186,deepseek-v4-pro-official,Correct,3,"#include ""fft.H"" 的唯一候选为 src/randomProcesses/fft/fft.H，该文件存在且属于目标模块，解析目标正确。",1
+V187,deepseek-v4-pro-official,Correct,3,示例中 builder_impl.py 的 from tensorflow.python.framework import dtypes 正确解析到项目内 tensorflow/python/framework/__init__.py，源模块与目标模块一致。,1
+V188,deepseek-v4-pro-official,Correct,3,import 全限定名与解析目标路径一致，且目标模块归属正确,1
+V189,deepseek-v4-pro-official,Correct,3,#include 路径与解析目标一致，且目标文件属于 tensorflow/core/util 模块,1
+V190,deepseek-v4-pro-official,Correct,3,示例中的#include <linux/...>均解析到include/uapi/linux下真实存在的对应头文件，路径前缀匹配，依赖成立,1
+V191,deepseek-v4-pro-official,Correct,3,#include <LightApp_SelectionMgr.h> 解析到仓库内唯一候选 gui/src/LightApp/LightApp_SelectionMgr.h，文件存在且模块匹配。,1
+V192,deepseek-v4-pro-official,Correct,3,"Python import from torch.compiler correctly resolves to torch/compiler/__init__.py, matching the target module.",1
+V193,deepseek-v4-pro-official,Correct,3,示例中的 from tensorflow.python.platform import googletest 正确解析到项目内 tensorflow/python/platform/__init__.py，模块依赖成立,1
+V194,deepseek-v4-pro-official,Correct,3,include <trace/define_trace.h> 正确解析到 include/trace/define_trace.h，路径前缀与目标模块一致，依赖成立。,1
+V195,deepseek-v4-pro-official,Correct,3,示例中的 <linux/*.h> 均正确解析到内核 include/linux/*.h，路径前缀与解析目标一致。,1
+V196,deepseek-v4-pro-official,Correct,3,#include <GEOMBase.h> 解析到唯一存在的 geom/src/GEOMBase/GEOMBase.h，模块匹配且依赖成立,1
+V197,deepseek-v4-pro-official,Correct,3,示例中 torch/autograd/profiler_util.py 的 from torch.profiler import ... 正确解析到项目内 torch/profiler/__init__.py，模块依赖成立。,1
+V198,deepseek-v4-pro-official,Correct,3,import 全限定名与解析目标路径一致，目标模块 tensorflow/python/data 正确,1
+V199,deepseek-v4-pro-official,Correct,3,示例中的 #include <kunit/...> 路径均解析到 include/kunit 下存在的对应头文件，模块映射正确,1
+V200,deepseek-v4-pro-official,Correct,3,示例中的两个 #include <Utils_*.hxx> 均解析到 kernel/src/Utils 下存在的同名头文件，模块归属正确，依赖成立。,1

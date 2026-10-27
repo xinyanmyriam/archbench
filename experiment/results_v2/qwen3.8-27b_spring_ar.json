@@ -1,0 +1,338 @@
+{
+  "precision_at_5": 0.34736842105263166,
+  "recall_at_5": 0.7894736842105263,
+  "total": 19,
+  "results": [
+    {
+      "source_module": "spring-jdbc",
+      "true_targets": [
+        "spring-context",
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-tx",
+        "spring-jms",
+        "spring-orm"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "spring-core\nspring-beans\nspring-tx\nspring-jms\nspring-orm"
+    },
+    {
+      "source_module": "spring-context",
+      "true_targets": [
+        "spring-aop",
+        "spring-expression",
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-aop",
+        "spring-expression",
+        "spring-jdbc"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-aop\nspring-expression\nspring-jdbc"
+    },
+    {
+      "source_module": "spring-websocket",
+      "true_targets": [
+        "spring-webmvc",
+        "spring-messaging",
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-web",
+        "spring-messaging",
+        "spring-core",
+        "spring-beans",
+        "spring-context"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "spring-web\nspring-messaging\nspring-core\nspring-beans\nspring-context"
+    },
+    {
+      "source_module": "spring-test",
+      "true_targets": [
+        "spring-context",
+        "spring-webflux",
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-aop",
+        "spring-expression"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-aop\nspring-expression"
+    },
+    {
+      "source_module": "spring-webflux",
+      "true_targets": [
+        "spring-aop",
+        "spring-context",
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-web",
+        "spring-messaging"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-web\nspring-messaging"
+    },
+    {
+      "source_module": "spring-r2dbc",
+      "true_targets": [
+        "spring-tx",
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-tx",
+        "spring-jdbc",
+        "spring-context"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-tx\nspring-jdbc\nspring-context"
+    },
+    {
+      "source_module": "spring-expression",
+      "true_targets": [
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-aop",
+        "spring-test"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-aop\nspring-test"
+    },
+    {
+      "source_module": "spring-jms",
+      "true_targets": [
+        "spring-context",
+        "spring-messaging",
+        "spring-oxm",
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-aop",
+        "spring-tx"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-aop\nspring-tx"
+    },
+    {
+      "source_module": "spring-messaging",
+      "true_targets": [
+        "spring-context",
+        "spring-expression",
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-websocket",
+        "spring-messaging"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-websocket\nspring-messaging"
+    },
+    {
+      "source_module": "spring-oxm",
+      "true_targets": [
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-aop",
+        "spring-expression"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-aop\nspring-expression"
+    },
+    {
+      "source_module": "spring-beans",
+      "true_targets": [
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-aop",
+        "spring-expression",
+        "spring-context",
+        "spring-jdbc"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-aop\nspring-expression\nspring-context\nspring-jdbc"
+    },
+    {
+      "source_module": "spring-web",
+      "true_targets": [
+        "spring-oxm",
+        "spring-beans",
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-aop",
+        "spring-expression"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-aop\nspring-expression"
+    },
+    {
+      "source_module": "spring-orm",
+      "true_targets": [
+        "spring-context",
+        "spring-tx",
+        "spring-jdbc"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-jdbc",
+        "spring-tx"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-jdbc\nspring-tx"
+    },
+    {
+      "source_module": "spring-aspects",
+      "true_targets": [
+        "spring-tx",
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-aop",
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-expression"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "spring-aop\nspring-core\nspring-beans\nspring-context\nspring-expression"
+    },
+    {
+      "source_module": "spring-context-support",
+      "true_targets": [
+        "spring-context",
+        "spring-tx",
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-context",
+        "spring-core",
+        "spring-beans",
+        "spring-aop",
+        "spring-expression"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "spring-context\nspring-core\nspring-beans\nspring-aop\nspring-expression"
+    },
+    {
+      "source_module": "spring-aop",
+      "true_targets": [
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-expression",
+        "spring-aop"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-expression\nspring-aop"
+    },
+    {
+      "source_module": "spring-webmvc",
+      "true_targets": [
+        "spring-aop",
+        "spring-oxm",
+        "spring-web",
+        "spring-context-support"
+      ],
+      "predicted": [
+        "spring-web",
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-aop"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "spring-web\nspring-core\nspring-beans\nspring-context\nspring-aop"
+    },
+    {
+      "source_module": "spring-tx",
+      "true_targets": [
+        "spring-context",
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-aop",
+        "spring-context",
+        "spring-jdbc"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-aop\nspring-context\nspring-jdbc"
+    },
+    {
+      "source_module": "spring-core-test",
+      "true_targets": [
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-test",
+        "spring-beans",
+        "spring-context",
+        "spring-aop"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-test\nspring-beans\nspring-context\nspring-aop"
+    }
+  ],
+  "n_api_errors": 0
+}

@@ -1,0 +1,675 @@
+{
+  "accuracy": 0.9,
+  "precision": 0.875,
+  "recall": 0.9130434782608695,
+  "f1": 0.8936170212765957,
+  "tp": 21,
+  "fp": 3,
+  "tn": 24,
+  "fn": 2,
+  "total": 50,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 13529,
+    "completion_tokens": 10533,
+    "total_tokens": 24062
+  },
+  "results": [
+    {
+      "module_A": "OMCompiler/SimulationRuntime",
+      "module_B": "OMCompiler/tools",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 222,
+        "completion_tokens": 3,
+        "total_tokens": 225
+      },
+      "latency_ms": 5884.2
+    },
+    {
+      "module_A": "OMEdit/OMEditLIB",
+      "module_B": "OMCompiler/Compiler",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 404,
+        "total_tokens": 690
+      },
+      "latency_ms": 8000.5
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 335,
+        "completion_tokens": 205,
+        "total_tokens": 540
+      },
+      "latency_ms": 9482.8
+    },
+    {
+      "module_A": "OMNotebook/OMNotebook",
+      "module_B": "OMCompiler/Compiler",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 706,
+        "total_tokens": 991
+      },
+      "latency_ms": 45539.5
+    },
+    {
+      "module_A": "OMShell/mosh",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 324,
+        "completion_tokens": 487,
+        "total_tokens": 811
+      },
+      "latency_ms": 29039.4
+    },
+    {
+      "module_A": "OMCompiler/Compiler",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 330,
+        "completion_tokens": 223,
+        "total_tokens": 553
+      },
+      "latency_ms": 18890.1
+    },
+    {
+      "module_A": "OMEdit/OMEditGUI",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 343,
+        "completion_tokens": 495,
+        "total_tokens": 838
+      },
+      "latency_ms": 32530.8
+    },
+    {
+      "module_A": "OMEdit/OMEditLIB",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 374,
+        "completion_tokens": 267,
+        "total_tokens": 641
+      },
+      "latency_ms": 12104.0
+    },
+    {
+      "module_A": "OMEdit/Testsuite",
+      "module_B": "OMEdit/OMEditLIB",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 242,
+        "completion_tokens": 124,
+        "total_tokens": 366
+      },
+      "latency_ms": 6800.2
+    },
+    {
+      "module_A": "OMEdit/OMEditLIB",
+      "module_B": "OMParser/3rdParty",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 266,
+        "completion_tokens": 509,
+        "total_tokens": 775
+      },
+      "latency_ms": 14642.2
+    },
+    {
+      "module_A": "OMParser/3rdParty",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 328,
+        "completion_tokens": 3,
+        "total_tokens": 331
+      },
+      "latency_ms": 67157.6
+    },
+    {
+      "module_A": "OMNotebook/OMNotebook",
+      "module_B": "OMShell/OMShell",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 261,
+        "completion_tokens": 302,
+        "total_tokens": 563
+      },
+      "latency_ms": 28517.3
+    },
+    {
+      "module_A": "OMNotebook/OMNotebook",
+      "module_B": "OMPlot/qwt",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 439,
+        "total_tokens": 721
+      },
+      "latency_ms": 32193.8
+    },
+    {
+      "module_A": "OMPlot/OMPlot",
+      "module_B": "OMPlot/qwt",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 244,
+        "completion_tokens": 5,
+        "total_tokens": 249
+      },
+      "latency_ms": 3602.4
+    },
+    {
+      "module_A": "OMEdit/OMEditLIB",
+      "module_B": "OMPlot/qwt",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 472,
+        "total_tokens": 755
+      },
+      "latency_ms": 7133.9
+    },
+    {
+      "module_A": "OMPlot/OMPlot",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 335,
+        "completion_tokens": 198,
+        "total_tokens": 533
+      },
+      "latency_ms": 19777.9
+    },
+    {
+      "module_A": "OMShell/OMShell",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 326,
+        "completion_tokens": 297,
+        "total_tokens": 623
+      },
+      "latency_ms": 73190.2
+    },
+    {
+      "module_A": "OMEdit/OMEditLIB",
+      "module_B": "OMPlot/OMPlot",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 275,
+        "completion_tokens": 102,
+        "total_tokens": 377
+      },
+      "latency_ms": 10611.0
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMCompiler/Compiler",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 247,
+        "completion_tokens": 378,
+        "total_tokens": 625
+      },
+      "latency_ms": 7149.1
+    },
+    {
+      "module_A": "OMNotebook/OMNotebook",
+      "module_B": "OMPlot/OMPlot",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 274,
+        "completion_tokens": 313,
+        "total_tokens": 587
+      },
+      "latency_ms": 7912.1
+    },
+    {
+      "module_A": "OMNotebook/OMNotebook",
+      "module_B": "OMCompiler/tools",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 271,
+        "completion_tokens": 3,
+        "total_tokens": 274
+      },
+      "latency_ms": 108121.6
+    },
+    {
+      "module_A": "OMParser/test",
+      "module_B": "OMParser/3rdParty",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 207,
+        "completion_tokens": 304,
+        "total_tokens": 511
+      },
+      "latency_ms": 6892.6
+    },
+    {
+      "module_A": "OMNotebook/OMNotebook",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 373,
+        "completion_tokens": 354,
+        "total_tokens": 727
+      },
+      "latency_ms": 20460.7
+    },
+    {
+      "module_A": "OMEdit/Testsuite",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 339,
+        "completion_tokens": 352,
+        "total_tokens": 691
+      },
+      "latency_ms": 31446.5
+    },
+    {
+      "module_A": "OMEdit/OMEditGUI",
+      "module_B": "OMEdit/OMEditLIB",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 82,
+        "total_tokens": 328
+      },
+      "latency_ms": 4036.9
+    },
+    {
+      "module_A": "OMEdit/Testsuite",
+      "module_B": "OMCompiler/Compiler",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 275,
+        "completion_tokens": 704,
+        "total_tokens": 979
+      },
+      "latency_ms": 12653.8
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMCompiler/Examples",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 3,
+        "total_tokens": 236
+      },
+      "latency_ms": 2201.3
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMShell/mosh",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 3,
+        "total_tokens": 230
+      },
+      "latency_ms": 1835.0
+    },
+    {
+      "module_A": "OMEdit/OMEditLIB",
+      "module_B": "OMEdit/OMEditGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 3,
+        "total_tokens": 287
+      },
+      "latency_ms": 6136.7
+    },
+    {
+      "module_A": "OMEdit/Testsuite",
+      "module_B": "OMPlot/OMPlot",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 264,
+        "completion_tokens": 442,
+        "total_tokens": 706
+      },
+      "latency_ms": 6613.6
+    },
+    {
+      "module_A": "OMEdit/OMEditGUI",
+      "module_B": "OMCompiler/Compiler",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 641,
+        "total_tokens": 922
+      },
+      "latency_ms": 12523.2
+    },
+    {
+      "module_A": "OMParser/test",
+      "module_B": "OMNotebook/DrModelica",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 210,
+        "completion_tokens": 3,
+        "total_tokens": 213
+      },
+      "latency_ms": 23394.7
+    },
+    {
+      "module_A": "OMShell/OMShell",
+      "module_B": "OMCompiler/Compiler",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 255,
+        "completion_tokens": 445,
+        "total_tokens": 700
+      },
+      "latency_ms": 21527.3
+    },
+    {
+      "module_A": "OMCompiler/scripts",
+      "module_B": "OMCompiler/Parser",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 210,
+        "completion_tokens": 3,
+        "total_tokens": 213
+      },
+      "latency_ms": 27159.1
+    },
+    {
+      "module_A": "OMNotebook/OMNotebook",
+      "module_B": "OMNotebook/DrControl",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 277,
+        "completion_tokens": 221,
+        "total_tokens": 498
+      },
+      "latency_ms": 26253.3
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMNotebook/OMNotebook",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 242,
+        "completion_tokens": 3,
+        "total_tokens": 245
+      },
+      "latency_ms": 6089.7
+    },
+    {
+      "module_A": "OMCompiler/m4",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 339,
+        "completion_tokens": 3,
+        "total_tokens": 342
+      },
+      "latency_ms": 5318.3
+    },
+    {
+      "module_A": "OMParser/test",
+      "module_B": "OMCompiler/tools",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 3,
+        "total_tokens": 204
+      },
+      "latency_ms": 1809.1
+    },
+    {
+      "module_A": "OMCompiler/SimulationRuntime",
+      "module_B": "OMCompiler/Examples",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 3,
+        "total_tokens": 228
+      },
+      "latency_ms": 6010.1
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMPlot/qwt",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 265,
+        "completion_tokens": 3,
+        "total_tokens": 268
+      },
+      "latency_ms": 2331.6
+    },
+    {
+      "module_A": "OMNotebook/DrModelica",
+      "module_B": "OMPlot/OMPlot",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "DrModelica is a collection of notebook documents (content), not code, so it doesn't import OMPlot.\n\nNo",
+      "usage": {
+        "prompt_tokens": 242,
+        "completion_tokens": 38,
+        "total_tokens": 280
+      },
+      "latency_ms": 3058.4
+    },
+    {
+      "module_A": "OMEdit/OMEditLIB",
+      "module_B": "OMCompiler/Parser",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 275,
+        "completion_tokens": 387,
+        "total_tokens": 662
+      },
+      "latency_ms": 8590.5
+    },
+    {
+      "module_A": "OMCompiler/Examples",
+      "module_B": "OMPlot/qwt",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 242,
+        "completion_tokens": 3,
+        "total_tokens": 245
+      },
+      "latency_ms": 3132.6
+    },
+    {
+      "module_A": "OMShell/mosh",
+      "module_B": "OMNotebook/DrControl",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 3,
+        "total_tokens": 221
+      },
+      "latency_ms": 126728.1
+    },
+    {
+      "module_A": "OMParser/test",
+      "module_B": "OMCompiler/SimulationRuntime",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 333,
+        "completion_tokens": 467,
+        "total_tokens": 800
+      },
+      "latency_ms": 7996.3
+    },
+    {
+      "module_A": "OMShell/mosh",
+      "module_B": "OMCompiler/tools",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 212,
+        "completion_tokens": 113,
+        "total_tokens": 325
+      },
+      "latency_ms": 4639.9
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMPlot/OMPlot",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 259,
+        "completion_tokens": 3,
+        "total_tokens": 262
+      },
+      "latency_ms": 8828.5
+    },
+    {
+      "module_A": "OMCompiler/tools",
+      "module_B": "OMCompiler/Examples",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 207,
+        "completion_tokens": 3,
+        "total_tokens": 210
+      },
+      "latency_ms": 2773.4
+    },
+    {
+      "module_A": "OMCompiler/Parser",
+      "module_B": "OMEdit/OMEditGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 242,
+        "completion_tokens": 3,
+        "total_tokens": 245
+      },
+      "latency_ms": 3633.0
+    },
+    {
+      "module_A": "OMCompiler/m4",
+      "module_B": "OMCompiler/toJulia",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 213,
+        "completion_tokens": 3,
+        "total_tokens": 216
+      },
+      "latency_ms": 4304.0
+    }
+  ],
+  "timestamp": "2026-10-22T13:04:01.118182",
+  "model": "claude-opus-5.5",
+  "project": "openmodelica",
+  "task": "dp",
+  "level": 2,
+  "manifest_seed": 42
+}

@@ -1,0 +1,473 @@
+{
+ "precision_at_5": 0.35789473684210527,
+ "recall_at_5": 0.8026315789473684,
+ "total": 19,
+ "results": [
+  {
+   "source_module": "spring-jdbc",
+   "true_targets": [
+    "spring-beans",
+    "spring-context"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-tx",
+    "spring-expression"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "1. spring-core\n2. spring-beans\n3. spring-context\n4. spring-tx\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-beans",
+    "spring-tx",
+    "spring-context"
+   ]
+  },
+  {
+   "source_module": "spring-context",
+   "true_targets": [
+    "spring-aop",
+    "spring-core",
+    "spring-expression"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-expression",
+    "spring-aop",
+    "spring-web"
+   ],
+   "precision": 0.6,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the spring-context module, which provides the core functionality for dependency injection, bean creation, and application context management, here are the top 5 modules that it most likely depends on:\n\n1. spring-core\n2. spring-beans\n3. spring-expression\n4. spring-aop\n5. spring-web",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-instrument",
+    "spring-r2dbc",
+    "spring-beans",
+    "spring-expression",
+    "spring-aop"
+   ]
+  },
+  {
+   "source_module": "spring-websocket",
+   "true_targets": [
+    "spring-core",
+    "spring-messaging",
+    "spring-webmvc"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-web",
+    "spring-messaging",
+    "spring-beans"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the typical role of the spring-websocket module, here are the top 5 modules it most likely depends on:\n\n1. spring-core\n2. spring-context\n3. spring-web\n4. spring-messaging\n5. spring-beans",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-context",
+    "spring-webflux",
+    "spring-web",
+    "spring-jms",
+    "spring-messaging",
+    "spring-webmvc",
+    "spring-beans"
+   ]
+  },
+  {
+   "source_module": "spring-test",
+   "true_targets": [
+    "spring-beans",
+    "spring-context",
+    "spring-webflux"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-core-test",
+    "spring-expression"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "1. spring-core\n2. spring-beans\n3. spring-context\n4. spring-core-test\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-webflux",
+    "spring-context",
+    "spring-web"
+   ]
+  },
+  {
+   "source_module": "spring-webflux",
+   "true_targets": [
+    "spring-aop",
+    "spring-context",
+    "spring-core"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-beans",
+    "spring-web",
+    "spring-expression"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "1. spring-core\n2. spring-context\n3. spring-beans\n4. spring-web\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-context",
+    "spring-r2dbc",
+    "spring-expression",
+    "spring-beans",
+    "spring-websocket",
+    "spring-context-support"
+   ]
+  },
+  {
+   "source_module": "spring-r2dbc",
+   "true_targets": [
+    "spring-core",
+    "spring-tx"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-expression",
+    "spring-jdbc"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the typical role of the source module `spring-r2dbc`, which is a database access module for reactive database connectivity, I predict the following top 5 modules it most likely depends on:\n\n1. spring-core\n2. spring-beans\n3. spring-context\n4. spring-expression\n5. spring-jdbc",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-tx",
+    "spring-jdbc",
+    "spring-jms",
+    "spring-beans"
+   ]
+  },
+  {
+   "source_module": "spring-expression",
+   "true_targets": [
+    "spring-core"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-aop"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. spring-core\n2. spring-beans\n3. spring-context\n4. spring-expression (itself is a module, but it's likely to depend on its own internal modules)\n5. spring-aop",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-beans"
+   ]
+  },
+  {
+   "source_module": "spring-jms",
+   "true_targets": [
+    "spring-beans",
+    "spring-context",
+    "spring-messaging",
+    "spring-oxm"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-messaging",
+    "spring-beans",
+    "spring-expression"
+   ],
+   "precision": 0.6,
+   "recall": 0.75,
+   "raw_response": "1. spring-core\n2. spring-context\n3. spring-messaging\n4. spring-beans\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-context",
+    "spring-tx",
+    "spring-beans",
+    "spring-oxm",
+    "spring-messaging",
+    "spring-websocket",
+    "spring-aop"
+   ]
+  },
+  {
+   "source_module": "spring-messaging",
+   "true_targets": [
+    "spring-beans",
+    "spring-context",
+    "spring-expression"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-beans",
+    "spring-aop",
+    "spring-expression"
+   ],
+   "precision": 0.6,
+   "recall": 1.0,
+   "raw_response": "1. spring-core\n2. spring-context\n3. spring-beans\n4. spring-aop\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-context",
+    "spring-r2dbc",
+    "spring-expression",
+    "spring-oxm",
+    "spring-beans",
+    "spring-aop"
+   ]
+  },
+  {
+   "source_module": "spring-oxm",
+   "true_targets": [
+    "spring-beans"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-expression",
+    "spring-aop"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the source module `spring-oxm` (Object/XML Mapping), which is responsible for converting Java objects to and from XML, I predict the following dependencies:\n\n1. spring-core\n2. spring-beans\n3. spring-context\n4. spring-expression\n5. spring-aop",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-beans"
+   ]
+  },
+  {
+   "source_module": "spring-beans",
+   "true_targets": [
+    "spring-core"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-aop",
+    "spring-expression",
+    "spring-context-support"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Here are the top 5 modules that spring-beans most likely depends on:\n\n1. spring-core\n2. spring-context\n3. spring-aop\n4. spring-expression\n5. spring-context-support",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-expression",
+    "spring-context",
+    "spring-r2dbc"
+   ]
+  },
+  {
+   "source_module": "spring-web",
+   "true_targets": [
+    "spring-beans",
+    "spring-core",
+    "spring-oxm"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-webmvc",
+    "spring-beans",
+    "spring-expression"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the typical role of the spring-web module, which is responsible for web-related functionality, here are the top 5 modules it most likely depends on:\n\n1. spring-core\n2. spring-context\n3. spring-webmvc\n4. spring-beans\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-context",
+    "spring-r2dbc",
+    "spring-beans",
+    "spring-oxm",
+    "spring-messaging",
+    "spring-expression",
+    "spring-aop"
+   ]
+  },
+  {
+   "source_module": "spring-orm",
+   "true_targets": [
+    "spring-context",
+    "spring-jdbc",
+    "spring-tx"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-beans",
+    "spring-jdbc",
+    "spring-expression"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Here are the top 5 modules that spring-orm most likely depends on:\n\n1. spring-core\n2. spring-context\n3. spring-beans\n4. spring-jdbc\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-context",
+    "spring-tx",
+    "spring-web",
+    "spring-jdbc",
+    "spring-beans"
+   ]
+  },
+  {
+   "source_module": "spring-aspects",
+   "true_targets": [
+    "spring-beans",
+    "spring-tx"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-aop",
+    "spring-beans",
+    "spring-context",
+    "spring-expression"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the typical role of the spring-aspects module, which is related to Aspect-Oriented Programming (AOP), I predict the following dependencies:\n\n1. spring-core\n2. spring-aop\n3. spring-beans\n4. spring-context\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-beans",
+    "spring-tx",
+    "spring-context",
+    "spring-context-support"
+   ]
+  },
+  {
+   "source_module": "spring-context-support",
+   "true_targets": [
+    "spring-beans",
+    "spring-context",
+    "spring-tx"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-aop",
+    "spring-expression"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "1. spring-core\n2. spring-beans\n3. spring-context\n4. spring-aop\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-context",
+    "spring-tx",
+    "spring-web",
+    "spring-beans",
+    "spring-jdbc",
+    "spring-expression",
+    "spring-websocket",
+    "spring-aop"
+   ]
+  },
+  {
+   "source_module": "spring-aop",
+   "true_targets": [
+    "spring-core"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-expression",
+    "spring-aspects"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. spring-core\n2. spring-beans\n3. spring-context\n4. spring-expression\n5. spring-aspects",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-beans",
+    "spring-expression"
+   ]
+  },
+  {
+   "source_module": "spring-webmvc",
+   "true_targets": [
+    "spring-aop",
+    "spring-context-support",
+    "spring-oxm",
+    "spring-web"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-beans",
+    "spring-web",
+    "spring-aop"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "1. spring-core\n2. spring-context\n3. spring-beans\n4. spring-web\n5. spring-aop",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-context",
+    "spring-webflux",
+    "spring-web",
+    "spring-beans",
+    "spring-jdbc",
+    "spring-expression",
+    "spring-context-support",
+    "spring-aop"
+   ]
+  },
+  {
+   "source_module": "spring-tx",
+   "true_targets": [
+    "spring-context",
+    "spring-core"
+   ],
+   "predicted": [
+    "spring-core",
+    "spring-context",
+    "spring-beans",
+    "spring-aop",
+    "spring-expression"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the spring-tx module, which is responsible for transaction management, here are the top 5 modules it most likely depends on:\n\n1. spring-core\n2. spring-context\n3. spring-beans\n4. spring-aop\n5. spring-expression",
+   "true_targets_v1": [
+    "spring-core",
+    "spring-aop"
+   ]
+  },
+  {
+   "source_module": "spring-core-test",
+   "true_targets": [
+    "spring-core"
+   ],
+   "predicted": [
+    "spring-test",
+    "spring-core",
+    "spring-beans",
+    "spring-context",
+    "spring-aop"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. spring-test\n2. spring-core\n3. spring-beans\n4. spring-context\n5. spring-aop",
+   "true_targets_v1": [
+    "spring-core"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_spring_ar.json"
+}

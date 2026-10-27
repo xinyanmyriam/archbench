@@ -1,11 +1,21 @@
 {
   "system": "openfoam",
-  "total": 199,
+  "total": 174,
   "dependencies": [
+    {
+      "source_module": "applications/solvers/DNS/dnsFoam",
+      "target_module": "src",
+      "weight": 7
+    },
+    {
+      "source_module": "applications/solvers/DNS/dnsFoam",
+      "target_module": "src/randomProcesses",
+      "weight": 4
+    },
     {
       "source_module": "applications",
       "target_module": "src",
-      "weight": 5281
+      "weight": 5254
     },
     {
       "source_module": "applications",
@@ -30,22 +40,17 @@
     {
       "source_module": "applications/solvers/compressible/rhoCentralFoam",
       "target_module": "src",
-      "weight": 56
+      "weight": 28
     },
     {
       "source_module": "applications/solvers/compressible/rhoCentralFoam",
       "target_module": "src/thermophysicalModels",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "applications/solvers/compressible/rhoCentralFoam",
       "target_module": "src/TurbulenceModels",
-      "weight": 2
-    },
-    {
-      "source_module": "applications/solvers/compressible/rhoCentralFoam",
-      "target_module": "applications",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "applications",
@@ -53,219 +58,169 @@
       "weight": 10
     },
     {
-      "source_module": "applications/solvers/DNS/dnsFoam",
-      "target_module": "applications",
-      "weight": 8
-    },
-    {
-      "source_module": "applications/solvers/DNS/dnsFoam",
-      "target_module": "src",
-      "weight": 14
-    },
-    {
-      "source_module": "applications/solvers/DNS/dnsFoam",
-      "target_module": "src/randomProcesses",
-      "weight": 8
-    },
-    {
       "source_module": "applications",
       "target_module": "src/transportModels",
-      "weight": 31
+      "weight": 33
     },
     {
       "source_module": "applications",
       "target_module": "src/phaseSystemModels/reactingEuler",
-      "weight": 7
-    },
-    {
-      "source_module": "applications",
-      "target_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
       "weight": 1
     },
     {
       "source_module": "applications/solvers/lagrangian/DPMFoam",
-      "target_module": "applications",
-      "weight": 12
-    },
-    {
-      "source_module": "applications/solvers/lagrangian/DPMFoam",
       "target_module": "src",
-      "weight": 46
+      "weight": 21
     },
     {
       "source_module": "applications/solvers/lagrangian/DPMFoam",
       "target_module": "src/transportModels",
-      "weight": 6
+      "weight": 3
     },
     {
       "source_module": "applications/solvers/lagrangian/DPMFoam",
       "target_module": "src/lagrangian",
-      "weight": 8
+      "weight": 4
     },
     {
       "source_module": "applications/solvers/lagrangian/DPMFoam",
       "target_module": "src/TurbulenceModels",
-      "weight": 20
+      "weight": 9
     },
     {
-      "source_module": "applications",
-      "target_module": "applications/solvers/lagrangian/DPMFoam",
-      "weight": 3
-    },
-    {
-      "source_module": "applications/solvers/multiphase/compressibleInterFoam",
+      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
       "target_module": "src",
-      "weight": 264
+      "weight": 23
     },
     {
-      "source_module": "applications/solvers/multiphase/compressibleInterFoam",
+      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
+      "target_module": "src/transportModels",
+      "weight": 2
+    },
+    {
+      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
+      "target_module": "src/TurbulenceModels",
+      "weight": 8
+    },
+    {
+      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
+      "target_module": "src/lagrangian",
+      "weight": 1
+    },
+    {
+      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
       "target_module": "applications",
-      "weight": 84
+      "weight": 1
     },
     {
       "source_module": "applications/solvers/multiphase/compressibleInterFoam",
-      "target_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
-      "weight": 10
+      "target_module": "src/TurbulenceModels",
+      "weight": 13
     },
     {
       "source_module": "applications/solvers/multiphase/compressibleInterFoam",
       "target_module": "src/thermophysicalModels",
-      "weight": 16
+      "weight": 8
+    },
+    {
+      "source_module": "applications/solvers/multiphase/compressibleInterFoam",
+      "target_module": "src",
+      "weight": 130
+    },
+    {
+      "source_module": "applications/solvers/multiphase/compressibleInterFoam",
+      "target_module": "src/transportModels",
+      "weight": 4
     },
     {
       "source_module": "applications/solvers/multiphase/compressibleInterFoam",
       "target_module": "src/regionModels",
-      "weight": 4
-    },
-    {
-      "source_module": "applications/solvers/multiphase/compressibleInterFoam",
-      "target_module": "src/transportModels",
-      "weight": 8
-    },
-    {
-      "source_module": "applications/solvers/multiphase/compressibleInterFoam",
-      "target_module": "src/phaseSystemModels/multiphaseInter",
       "weight": 2
     },
     {
       "source_module": "applications/solvers/multiphase/compressibleInterFoam",
-      "target_module": "src/TurbulenceModels",
+      "target_module": "applications",
+      "weight": 3
+    },
+    {
+      "source_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
+      "target_module": "src",
       "weight": 28
     },
     {
       "source_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
-      "target_module": "src",
-      "weight": 58
-    },
-    {
-      "source_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
       "target_module": "src/TurbulenceModels",
-      "weight": 2
-    },
-    {
-      "source_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
-      "target_module": "applications",
-      "weight": 14
-    },
-    {
-      "source_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
-      "target_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
       "target_module": "src/thermophysicalModels",
-      "weight": 6
+      "weight": 3
     },
     {
       "source_module": "applications/solvers/multiphase/driftFluxFoam",
       "target_module": "src/TurbulenceModels",
-      "weight": 22
+      "weight": 10
     },
     {
       "source_module": "applications/solvers/multiphase/driftFluxFoam",
       "target_module": "src",
-      "weight": 96
-    },
-    {
-      "source_module": "applications/solvers/multiphase/driftFluxFoam",
-      "target_module": "applications",
-      "weight": 16
+      "weight": 47
     },
     {
       "source_module": "applications/solvers/multiphase/driftFluxFoam",
       "target_module": "src/transportModels",
-      "weight": 4
-    },
-    {
-      "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
-      "target_module": "applications",
-      "weight": 16
+      "weight": 3
     },
     {
       "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
       "target_module": "src",
-      "weight": 102
-    },
-    {
-      "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
-      "target_module": "src/phaseSystemModels/multiphaseEuler",
-      "weight": 2
+      "weight": 51
     },
     {
       "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
       "target_module": "src/TurbulenceModels",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
       "target_module": "src/thermophysicalModels",
-      "weight": 10
+      "weight": 5
+    },
+    {
+      "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
+      "target_module": "applications",
+      "weight": 1
     },
     {
       "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
       "target_module": "src/lagrangian",
-      "weight": 4
+      "weight": 2
     },
     {
-      "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
-      "target_module": "src/phaseSystemModels/multiphaseInter",
+      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
+      "target_module": "src",
+      "weight": 38
+    },
+    {
+      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
+      "target_module": "src/transportModels",
+      "weight": 3
+    },
+    {
+      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
+      "target_module": "src/TurbulenceModels",
       "weight": 2
     },
     {
       "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
       "target_module": "applications",
-      "weight": 24
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
-      "target_module": "src",
-      "weight": 76
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
-      "target_module": "src/transportModels",
-      "weight": 6
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
-      "target_module": "src/TurbulenceModels",
-      "weight": 4
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
-      "target_module": "applications/solvers/multiphase/compressibleInterFoam",
-      "weight": 2
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
-      "target_module": "applications/solvers/multiphase/driftFluxFoam",
       "weight": 2
     },
     {
       "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
       "target_module": "src/thermophysicalModels",
-      "weight": 10
+      "weight": 5
     },
     {
       "source_module": "applications",
@@ -273,114 +228,54 @@
       "weight": 2
     },
     {
-      "source_module": "applications",
-      "target_module": "applications/solvers/multiphase/compressibleInterFoam",
+      "source_module": "applications/solvers/multiphase/interPhaseChangeFoam",
+      "target_module": "src",
+      "weight": 72
+    },
+    {
+      "source_module": "applications/solvers/multiphase/interPhaseChangeFoam",
+      "target_module": "src/transportModels",
       "weight": 5
     },
     {
       "source_module": "applications/solvers/multiphase/interPhaseChangeFoam",
-      "target_module": "applications",
-      "weight": 42
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interPhaseChangeFoam",
-      "target_module": "src",
-      "weight": 144
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interPhaseChangeFoam",
-      "target_module": "src/transportModels",
-      "weight": 10
-    },
-    {
-      "source_module": "applications/solvers/multiphase/interPhaseChangeFoam",
       "target_module": "src/TurbulenceModels",
-      "weight": 6
+      "weight": 3
     },
     {
-      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
-      "target_module": "applications/solvers/multiphase/compressibleInterFoam",
-      "weight": 10
-    },
-    {
-      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
+      "source_module": "applications/solvers/multiphase/multiphaseInterFoam",
       "target_module": "src",
-      "weight": 48
+      "weight": 34
     },
     {
-      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
-      "target_module": "applications",
-      "weight": 22
-    },
-    {
-      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
-      "target_module": "src/transportModels",
-      "weight": 4
-    },
-    {
-      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
+      "source_module": "applications/solvers/multiphase/multiphaseInterFoam",
       "target_module": "src/TurbulenceModels",
-      "weight": 18
-    },
-    {
-      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
-      "target_module": "src/lagrangian",
-      "weight": 2
-    },
-    {
-      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
-      "target_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
-      "weight": 2
-    },
-    {
-      "source_module": "applications",
-      "target_module": "src/phaseSystemModels/multiphaseEuler",
-      "weight": 4
-    },
-    {
-      "source_module": "applications",
-      "target_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
       "weight": 1
     },
     {
       "source_module": "applications/solvers/multiphase/multiphaseInterFoam",
       "target_module": "applications",
-      "weight": 24
+      "weight": 1
     },
     {
       "source_module": "applications/solvers/multiphase/multiphaseInterFoam",
-      "target_module": "src",
-      "weight": 70
-    },
-    {
-      "source_module": "applications/solvers/multiphase/multiphaseInterFoam",
-      "target_module": "src/TurbulenceModels",
-      "weight": 2
-    },
-    {
-      "source_module": "applications/solvers/multiphase/multiphaseInterFoam",
-      "target_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
+      "target_module": "src/transportModels",
       "weight": 2
     },
     {
       "source_module": "applications/test/00-dummy",
       "target_module": "applications/test/00-dummy/library",
-      "weight": 2
-    },
-    {
-      "source_module": "applications",
-      "target_module": "src/OSspecific/MSwindows",
-      "weight": 26
-    },
-    {
-      "source_module": "applications",
-      "target_module": "src/parallel/decompose",
-      "weight": 21
+      "weight": 1
     },
     {
       "source_module": "applications",
       "target_module": "src/mesh",
       "weight": 8
+    },
+    {
+      "source_module": "applications",
+      "target_module": "src/parallel/decompose",
+      "weight": 21
     },
     {
       "source_module": "applications",
@@ -390,12 +285,12 @@
     {
       "source_module": "applications/test/fft",
       "target_module": "src",
-      "weight": 6
+      "weight": 3
     },
     {
       "source_module": "applications/test/fft",
       "target_module": "src/randomProcesses",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "applications",
@@ -415,12 +310,12 @@
     {
       "source_module": "applications/utilities/mesh/conversion/ccm",
       "target_module": "src",
-      "weight": 28
+      "weight": 14
     },
     {
       "source_module": "applications/utilities/mesh/conversion/ccm",
       "target_module": "src/conversion/ccm",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "applications",
@@ -430,72 +325,67 @@
     {
       "source_module": "applications/utilities/mesh/generation",
       "target_module": "src",
-      "weight": 200
+      "weight": 99
     },
     {
       "source_module": "applications/utilities/mesh/generation",
       "target_module": "src/mesh",
-      "weight": 34
+      "weight": 17
     },
     {
       "source_module": "applications/utilities/mesh/generation",
-      "target_module": "src/parallel/reconstruct",
-      "weight": 6
-    },
-    {
-      "source_module": "applications/utilities/mesh/generation/extrude2DMesh",
-      "target_module": "src",
-      "weight": 60
-    },
-    {
-      "source_module": "applications/utilities/mesh/generation/extrude2DMesh",
-      "target_module": "src/mesh",
-      "weight": 6
-    },
-    {
-      "source_module": "applications/utilities/mesh/generation/extrude2DMesh",
       "target_module": "src/parallel/reconstruct",
       "weight": 3
     },
     {
+      "source_module": "applications/utilities/mesh/generation/extrude2DMesh",
+      "target_module": "src",
+      "weight": 20
+    },
+    {
+      "source_module": "applications/utilities/mesh/generation/extrude2DMesh",
+      "target_module": "src/mesh",
+      "weight": 2
+    },
+    {
+      "source_module": "applications/utilities/mesh/generation/extrude2DMesh",
+      "target_module": "src/parallel/reconstruct",
+      "weight": 1
+    },
+    {
       "source_module": "applications/utilities/mesh/generation/foamyMesh",
       "target_module": "src",
-      "weight": 1041
+      "weight": 347
     },
     {
       "source_module": "applications/utilities/mesh/generation/foamyMesh",
       "target_module": "src/parallel/decompose",
-      "weight": 9
-    },
-    {
-      "source_module": "applications/utilities/mesh/generation/foamyMesh",
-      "target_module": "src/OSspecific/MSwindows",
       "weight": 3
     },
     {
       "source_module": "applications/utilities/mesh/generation/foamyMesh",
       "target_module": "src/mesh",
-      "weight": 9
+      "weight": 3
     },
     {
       "source_module": "applications/utilities/mesh/generation/foamyMesh/foamyHexMeshSurfaceSimplify",
       "target_module": "src",
-      "weight": 52
+      "weight": 13
     },
     {
       "source_module": "applications/utilities/mesh/generation/foamyMesh/foamyHexMeshSurfaceSimplify",
       "target_module": "applications/utilities/mesh/generation/foamyMesh",
-      "weight": 8
+      "weight": 2
     },
     {
       "source_module": "applications/utilities/mesh/generation/foamyMesh",
       "target_module": "applications/utilities/mesh/generation/extrude2DMesh",
-      "weight": 6
+      "weight": 2
     },
     {
       "source_module": "applications/utilities/mesh/generation",
       "target_module": "src/parallel/decompose",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "applications",
@@ -505,32 +395,42 @@
     {
       "source_module": "applications/utilities/mesh/manipulation/setSet",
       "target_module": "src",
-      "weight": 40
+      "weight": 20
     },
     {
       "source_module": "applications/utilities/miscellaneous/foamHelp",
       "target_module": "src",
-      "weight": 40
+      "weight": 20
     },
     {
       "source_module": "applications/utilities/postProcessing/noise",
       "target_module": "src",
-      "weight": 10
+      "weight": 5
     },
     {
       "source_module": "applications/utilities/postProcessing/noise",
       "target_module": "src/randomProcesses",
-      "weight": 2
+      "weight": 1
+    },
+    {
+      "source_module": "applications/utilities/preProcessing/PDR",
+      "target_module": "src",
+      "weight": 68
+    },
+    {
+      "source_module": "applications/utilities/preProcessing/PDR",
+      "target_module": "src/mesh",
+      "weight": 7
     },
     {
       "source_module": "applications/utilities/preProcessing/boxTurb",
       "target_module": "src",
-      "weight": 12
-    },
-    {
-      "source_module": "applications/utilities/preProcessing/boxTurb",
-      "target_module": "src/randomProcesses",
       "weight": 6
+    },
+    {
+      "source_module": "applications/utilities/preProcessing/boxTurb",
+      "target_module": "src/randomProcesses",
+      "weight": 3
     },
     {
       "source_module": "applications",
@@ -540,7 +440,7 @@
     {
       "source_module": "applications/utilities/preProcessing/createViewFactors",
       "target_module": "src",
-      "weight": 70
+      "weight": 34
     },
     {
       "source_module": "applications",
@@ -548,49 +448,69 @@
       "weight": 1
     },
     {
-      "source_module": "applications/utilities/preProcessing/PDR",
-      "target_module": "src/mesh",
-      "weight": 14
-    },
-    {
-      "source_module": "applications/utilities/preProcessing/PDR",
-      "target_module": "src",
-      "weight": 136
-    },
-    {
       "source_module": "applications/utilities/preProcessing/setAlphaField",
       "target_module": "src",
-      "weight": 62
+      "weight": 31
     },
     {
       "source_module": "applications/utilities/preProcessing/setAlphaField",
       "target_module": "src/transportModels",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "applications/utilities/preProcessing/viewFactorsGen",
       "target_module": "src",
-      "weight": 34
+      "weight": 17
     },
     {
       "source_module": "applications/utilities/preProcessing/viewFactorsGen",
       "target_module": "src/parallel",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "applications/utilities/preProcessing/wallFunctionTable",
       "target_module": "src",
-      "weight": 30
+      "weight": 15
     },
     {
       "source_module": "applications/utilities/surface/surfaceBooleanFeatures",
       "target_module": "src",
-      "weight": 36
+      "weight": 18
     },
     {
       "source_module": "applications/utilities/surface/surfaceFeatureExtract",
       "target_module": "src",
-      "weight": 64
+      "weight": 32
+    },
+    {
+      "source_module": "src/OSspecific/MSwindows",
+      "target_module": "src",
+      "weight": 52
+    },
+    {
+      "source_module": "src/OSspecific/POSIX",
+      "target_module": "src",
+      "weight": 57
+    },
+    {
+      "source_module": "src/Pstream",
+      "target_module": "src",
+      "weight": 48
+    },
+    {
+      "source_module": "src/TurbulenceModels",
+      "target_module": "src",
+      "weight": 250
+    },
+    {
+      "source_module": "src/TurbulenceModels",
+      "target_module": "src/thermophysicalModels",
+      "weight": 2
+    },
+    {
+      "source_module": "src/TurbulenceModels",
+      "target_module": "src/transportModels",
+      "weight": 3
     },
     {
       "source_module": "src",
@@ -605,47 +525,42 @@
     {
       "source_module": "src/conversion/ccm",
       "target_module": "src",
-      "weight": 108
+      "weight": 36
     },
     {
       "source_module": "src/conversion/ccm",
       "target_module": "src/conversion",
-      "weight": 12
+      "weight": 4
     },
     {
       "source_module": "src/conversion",
       "target_module": "src",
-      "weight": 238
+      "weight": 118
     },
     {
       "source_module": "src/dummyThirdParty",
-      "target_module": "src/parallel/decompose",
+      "target_module": "src",
       "weight": 8
     },
     {
       "source_module": "src/dummyThirdParty",
-      "target_module": "src",
-      "weight": 16
+      "target_module": "src/parallel/decompose",
+      "weight": 4
     },
     {
       "source_module": "src/dynamicFaMesh",
       "target_module": "src",
-      "weight": 114
+      "weight": 57
     },
     {
       "source_module": "src/dynamicFaMesh",
       "target_module": "src/TurbulenceModels",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "src/dynamicFaMesh",
       "target_module": "src/transportModels",
-      "weight": 4
-    },
-    {
-      "source_module": "src",
-      "target_module": "src/OSspecific/MSwindows",
-      "weight": 17
+      "weight": 2
     },
     {
       "source_module": "src",
@@ -655,247 +570,232 @@
     {
       "source_module": "src/functionObjects",
       "target_module": "src",
-      "weight": 1994
+      "weight": 990
     },
     {
       "source_module": "src/functionObjects",
       "target_module": "src/TurbulenceModels",
-      "weight": 74
+      "weight": 37
+    },
+    {
+      "source_module": "src/functionObjects",
+      "target_module": "src/thermophysicalModels",
+      "weight": 14
     },
     {
       "source_module": "src/functionObjects",
       "target_module": "src/fvAgglomerationMethods",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "src/functionObjects",
       "target_module": "src/lagrangian",
-      "weight": 34
-    },
-    {
-      "source_module": "src/functionObjects",
-      "target_module": "src/thermophysicalModels",
-      "weight": 28
+      "weight": 16
     },
     {
       "source_module": "src/functionObjects",
       "target_module": "src/phaseSystemModels/multiphaseInter",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "src/functionObjects",
       "target_module": "src/phaseSystemModels/reactingEuler",
-      "weight": 18
+      "weight": 4
     },
     {
       "source_module": "src/functionObjects",
       "target_module": "src/transportModels",
-      "weight": 2
-    },
-    {
-      "source_module": "src/functionObjects",
-      "target_module": "src/phaseSystemModels/multiphaseEuler",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "src/functionObjects/randomProcesses",
       "target_module": "src/randomProcesses",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "src/functionObjects/randomProcesses",
       "target_module": "src",
-      "weight": 30
+      "weight": 10
     },
     {
       "source_module": "src/functionObjects",
       "target_module": "src/conversion",
-      "weight": 10
+      "weight": 5
     },
     {
       "source_module": "src/fvAgglomerationMethods",
       "target_module": "src",
-      "weight": 30
+      "weight": 15
     },
     {
       "source_module": "src/fvAgglomerationMethods",
       "target_module": "src/dummyThirdParty",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "src",
       "target_module": "src/transportModels",
-      "weight": 7
+      "weight": 8
     },
     {
       "source_module": "src/lagrangian",
       "target_module": "src",
-      "weight": 1104
+      "weight": 551
     },
     {
       "source_module": "src/lagrangian",
       "target_module": "src/thermophysicalModels",
-      "weight": 34
+      "weight": 17
     },
     {
       "source_module": "src/lagrangian",
       "target_module": "src/regionModels",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "src/lagrangian/molecularDynamics",
       "target_module": "src",
-      "weight": 207
+      "weight": 69
     },
     {
       "source_module": "src/lagrangian/molecularDynamics",
       "target_module": "src/lagrangian",
-      "weight": 9
+      "weight": 3
     },
     {
       "source_module": "src/lagrangian",
       "target_module": "src/TurbulenceModels",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "src/mesh",
       "target_module": "src",
-      "weight": 992
+      "weight": 489
     },
     {
       "source_module": "src/mesh",
       "target_module": "src/parallel/decompose",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "src/mesh",
       "target_module": "src/parallel",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "src/mesh",
       "target_module": "src/lagrangian",
-      "weight": 6
-    },
-    {
-      "source_module": "src/OSspecific/MSwindows",
-      "target_module": "src",
-      "weight": 106
-    },
-    {
-      "source_module": "src/OSspecific/POSIX",
-      "target_module": "src",
-      "weight": 114
+      "weight": 3
     },
     {
       "source_module": "src/parallel/decompose",
       "target_module": "src",
-      "weight": 492
+      "weight": 163
     },
     {
       "source_module": "src/parallel/decompose",
       "target_module": "src/lagrangian",
-      "weight": 9
+      "weight": 3
     },
     {
       "source_module": "src/parallel/decompose",
       "target_module": "src/dummyThirdParty",
-      "weight": 6
+      "weight": 2
     },
     {
       "source_module": "src/parallel",
       "target_module": "src",
-      "weight": 58
+      "weight": 29
     },
     {
       "source_module": "src/parallel",
       "target_module": "src/parallel/decompose",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "src/parallel/reconstruct",
       "target_module": "src",
-      "weight": 177
+      "weight": 59
     },
     {
       "source_module": "src/parallel/reconstruct",
       "target_module": "src/lagrangian",
-      "weight": 6
+      "weight": 2
     },
     {
       "source_module": "src/phaseSystemModels/multiphaseEuler",
       "target_module": "src",
-      "weight": 141
+      "weight": 45
+    },
+    {
+      "source_module": "src/phaseSystemModels/multiphaseEuler",
+      "target_module": "src/transportModels",
+      "weight": 1
     },
     {
       "source_module": "src/phaseSystemModels/multiphaseInter",
       "target_module": "src/TurbulenceModels",
-      "weight": 42
+      "weight": 13
     },
     {
       "source_module": "src/phaseSystemModels/multiphaseInter",
       "target_module": "src",
-      "weight": 309
+      "weight": 97
     },
     {
       "source_module": "src/phaseSystemModels/multiphaseInter",
       "target_module": "src/thermophysicalModels",
-      "weight": 75
+      "weight": 25
     },
     {
       "source_module": "src/phaseSystemModels/multiphaseInter",
       "target_module": "src/transportModels",
-      "weight": 15
+      "weight": 5
     },
     {
       "source_module": "src/phaseSystemModels/multiphaseInter",
       "target_module": "src/phaseSystemModels/reactingEuler",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "src/phaseSystemModels/reactingEuler",
       "target_module": "src",
-      "weight": 1293
+      "weight": 419
     },
     {
       "source_module": "src/phaseSystemModels/reactingEuler",
       "target_module": "src/TurbulenceModels",
-      "weight": 123
+      "weight": 39
     },
     {
       "source_module": "src/phaseSystemModels/reactingEuler",
       "target_module": "src/thermophysicalModels",
-      "weight": 42
-    },
-    {
-      "source_module": "src/phaseSystemModels/twoPhaseEuler",
-      "target_module": "src/TurbulenceModels",
-      "weight": 126
+      "weight": 14
     },
     {
       "source_module": "src/phaseSystemModels/twoPhaseEuler",
       "target_module": "src",
-      "weight": 561
+      "weight": 177
+    },
+    {
+      "source_module": "src/phaseSystemModels/twoPhaseEuler",
+      "target_module": "src/TurbulenceModels",
+      "weight": 39
     },
     {
       "source_module": "src/phaseSystemModels/twoPhaseEuler",
       "target_module": "src/transportModels",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "src/phaseSystemModels/twoPhaseEuler",
       "target_module": "src/thermophysicalModels",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "src/phaseSystemModels/twoPhaseInter",
       "target_module": "src/TurbulenceModels",
-      "weight": 93
-    },
-    {
-      "source_module": "src/phaseSystemModels/twoPhaseInter",
-      "target_module": "src",
-      "weight": 18
+      "weight": 30
     },
     {
       "source_module": "src/phaseSystemModels/twoPhaseInter",
@@ -903,14 +803,14 @@
       "weight": 3
     },
     {
-      "source_module": "src/Pstream",
+      "source_module": "src/phaseSystemModels/twoPhaseInter",
       "target_module": "src",
-      "weight": 96
+      "weight": 2
     },
     {
       "source_module": "src/randomProcesses",
       "target_module": "src",
-      "weight": 116
+      "weight": 58
     },
     {
       "source_module": "src",
@@ -920,46 +820,31 @@
     {
       "source_module": "src/regionModels",
       "target_module": "src",
-      "weight": 488
+      "weight": 241
     },
     {
       "source_module": "src/regionModels",
       "target_module": "src/thermophysicalModels",
-      "weight": 32
+      "weight": 16
     },
     {
       "source_module": "src/regionModels",
       "target_module": "src/TurbulenceModels",
-      "weight": 6
+      "weight": 3
     },
     {
       "source_module": "src/regionModels",
       "target_module": "src/lagrangian",
-      "weight": 6
+      "weight": 3
     },
     {
       "source_module": "src/renumber",
       "target_module": "src",
-      "weight": 64
+      "weight": 32
     },
     {
       "source_module": "src",
       "target_module": "src/functionObjects",
-      "weight": 4
-    },
-    {
-      "source_module": "src/thermophysicalModels",
-      "target_module": "src",
-      "weight": 1104
-    },
-    {
-      "source_module": "src/thermophysicalModels",
-      "target_module": "src/transportModels",
-      "weight": 2
-    },
-    {
-      "source_module": "src/thermophysicalModels",
-      "target_module": "src/parallel",
       "weight": 4
     },
     {
@@ -968,34 +853,24 @@
       "weight": 1
     },
     {
-      "source_module": "src/transportModels",
+      "source_module": "src/thermophysicalModels",
       "target_module": "src",
-      "weight": 418
+      "weight": 552
     },
     {
-      "source_module": "src/TurbulenceModels",
-      "target_module": "src",
-      "weight": 504
-    },
-    {
-      "source_module": "src/TurbulenceModels",
-      "target_module": "src/thermophysicalModels",
-      "weight": 4
-    },
-    {
-      "source_module": "src/TurbulenceModels",
+      "source_module": "src/thermophysicalModels",
       "target_module": "src/transportModels",
+      "weight": 1
+    },
+    {
+      "source_module": "src/thermophysicalModels",
+      "target_module": "src/parallel",
       "weight": 2
     },
     {
-      "source_module": "src/TurbulenceModels",
-      "target_module": "src/phaseSystemModels/reactingEuler",
-      "weight": 16
-    },
-    {
-      "source_module": "src/TurbulenceModels",
-      "target_module": "src/phaseSystemModels/multiphaseEuler",
-      "weight": 8
+      "source_module": "src/transportModels",
+      "target_module": "src",
+      "weight": 208
     }
   ]
 }

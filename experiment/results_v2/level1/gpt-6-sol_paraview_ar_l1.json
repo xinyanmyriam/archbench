@@ -1,0 +1,1387 @@
+{
+ "precision_at_5": 0.35510204081632657,
+ "recall_at_5": 0.681195335276968,
+ "total": 49,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 37760,
+  "completion_tokens": 23104,
+  "total_tokens": 60864
+ },
+ "results": [
+  {
+   "source_module": "Qt/Components",
+   "true_targets": [
+    "Qt/Widgets",
+    "Remoting/ClientServerStream",
+    "Remoting/Export",
+    "Remoting/Live",
+    "Remoting/Misc",
+    "Remoting/ServerManager",
+    "Remoting/Views"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Remoting/ServerManager",
+    "Qt/Widgets",
+    "Remoting/Views",
+    "Remoting/Animation"
+   ],
+   "precision": 0.6,
+   "recall": 0.42857142857142855,
+   "raw_response": "Qt/Core\nRemoting/ServerManager\nQt/Widgets\nRemoting/Views\nRemoting/Animation",
+   "usage": {
+    "prompt_tokens": 789,
+    "completion_tokens": 304,
+    "total_tokens": 1093
+   },
+   "latency_ms": 3251.3,
+   "true_targets_v1": [
+    "Qt/Widgets",
+    "Remoting/Export",
+    "Remoting/Live",
+    "Remoting/Misc",
+    "Remoting/Views"
+   ]
+  },
+  {
+   "source_module": "Plugins/Prism",
+   "true_targets": [
+    "Qt/Core",
+    "Remoting/ServerManager",
+    "VTKExtensions/Core",
+    "VTKExtensions/IOCore"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Core",
+    "Remoting/Views",
+    "Qt/Components",
+    "Qt/Core"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "Remoting/ServerManager\nRemoting/Core\nRemoting/Views\nQt/Components\nQt/Core",
+   "usage": {
+    "prompt_tokens": 862,
+    "completion_tokens": 542,
+    "total_tokens": 1404
+   },
+   "latency_ms": 5194.9,
+   "true_targets_v1": [
+    "Qt/Widgets"
+   ]
+  },
+  {
+   "source_module": "Plugins/NodeEditor",
+   "true_targets": [
+    "Qt/ApplicationComponents",
+    "Qt/Components",
+    "Remoting/Views",
+    "VTKExtensions/Core"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Qt/Components",
+    "Qt/ApplicationComponents",
+    "Remoting/ServerManager",
+    "Remoting/Views"
+   ],
+   "precision": 0.6,
+   "recall": 0.75,
+   "raw_response": "Qt/Core\nQt/Components\nQt/ApplicationComponents\nRemoting/ServerManager\nRemoting/Views",
+   "usage": {
+    "prompt_tokens": 786,
+    "completion_tokens": 362,
+    "total_tokens": 1148
+   },
+   "latency_ms": 7230.7,
+   "true_targets_v1": [
+    "Qt/ApplicationComponents",
+    "Qt/Core",
+    "Qt/Widgets"
+   ]
+  },
+  {
+   "source_module": "Plugins/SpaceMouseInteractor",
+   "true_targets": [
+    "Qt/Components",
+    "Qt/Core",
+    "Remoting/Application"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Qt/Components",
+    "Remoting/Views",
+    "Remoting/ServerManager",
+    "Remoting/Core"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Qt/Core\nQt/Components\nRemoting/Views\nRemoting/ServerManager\nRemoting/Core",
+   "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 147,
+    "total_tokens": 797
+   },
+   "latency_ms": 4263.5,
+   "true_targets_v1": [
+    "Qt/Components",
+    "Qt/Core",
+    "Remoting/ServerManager",
+    "Remoting/Views"
+   ]
+  },
+  {
+   "source_module": "Plugins/SaveStateAndScreenshot",
+   "true_targets": [
+    "Qt/ApplicationComponents",
+    "Qt/Core",
+    "VTKExtensions/Core"
+   ],
+   "predicted": [
+    "Qt/ApplicationComponents",
+    "Qt/Core",
+    "Qt/Components",
+    "Remoting/ServerManager",
+    "Qt/Widgets"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Qt/ApplicationComponents\nQt/Core\nQt/Components\nRemoting/ServerManager\nQt/Widgets",
+   "usage": {
+    "prompt_tokens": 725,
+    "completion_tokens": 348,
+    "total_tokens": 1073
+   },
+   "latency_ms": 3619.3,
+   "true_targets_v1": [
+    "Qt/Components",
+    "Qt/Core",
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Remoting/Application",
+   "true_targets": [
+    "Remoting/ClientServerStream",
+    "Utilities/Versioning",
+    "VTKExtensions/Core"
+   ],
+   "predicted": [
+    "Remoting/Core",
+    "Remoting/ClientServerStream",
+    "Remoting/ServerManager",
+    "VTKExtensions/Core",
+    "Remoting/Misc"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Remoting/Core\nRemoting/ClientServerStream\nRemoting/ServerManager\nVTKExtensions/Core\nRemoting/Misc",
+   "usage": {
+    "prompt_tokens": 729,
+    "completion_tokens": 633,
+    "total_tokens": 1362
+   },
+   "latency_ms": 6332.8,
+   "true_targets_v1": [
+    "Remoting/ServerManager",
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Remoting/ServerManagerPython",
+   "true_targets": [
+    "Remoting/Core",
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/ClientServerStream",
+    "VTKExtensions/FiltersPython",
+    "Remoting/Core",
+    "VTKExtensions/Core"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Remoting/ServerManager\nRemoting/ClientServerStream\nVTKExtensions/FiltersPython\nRemoting/Core\nVTKExtensions/Core",
+   "usage": {
+    "prompt_tokens": 680,
+    "completion_tokens": 221,
+    "total_tokens": 901
+   },
+   "latency_ms": 10585.2,
+   "true_targets_v1": [
+    "Remoting/ClientServerStream"
+   ]
+  },
+  {
+   "source_module": "Plugins/XRInterface",
+   "true_targets": [
+    "Qt/ApplicationComponents",
+    "Qt/Core",
+    "Qt/Widgets",
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "Qt/Core",
+    "Remoting/ServerManager",
+    "Qt/Components",
+    "Qt/ApplicationComponents"
+   ],
+   "precision": 0.6,
+   "recall": 0.75,
+   "raw_response": "Remoting/Views\nQt/Core\nRemoting/ServerManager\nQt/Components\nQt/ApplicationComponents",
+   "usage": {
+    "prompt_tokens": 821,
+    "completion_tokens": 349,
+    "total_tokens": 1170
+   },
+   "latency_ms": 5670.7,
+   "true_targets_v1": [
+    "Remoting/ServerManager",
+    "Remoting/Views",
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "VTKExtensions/IOCore",
+   "true_targets": [
+    "Remoting/ClientServerStream",
+    "VTKExtensions/Misc"
+   ],
+   "predicted": [
+    "VTKExtensions/Core",
+    "Remoting/ClientServerStream",
+    "Remoting/Core",
+    "VTKExtensions/Misc",
+    "VTKExtensions/IOGeneral"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "VTKExtensions/Core\nRemoting/ClientServerStream\nRemoting/Core\nVTKExtensions/Misc\nVTKExtensions/IOGeneral",
+   "usage": {
+    "prompt_tokens": 804,
+    "completion_tokens": 679,
+    "total_tokens": 1483
+   },
+   "latency_ms": 10443.4,
+   "true_targets_v1": [
+    "Remoting/ClientServerStream"
+   ]
+  },
+  {
+   "source_module": "Qt/Core",
+   "true_targets": [
+    "Remoting/Application",
+    "Remoting/ClientServerStream",
+    "Remoting/Core",
+    "Remoting/Misc",
+    "Remoting/ServerManager",
+    "Remoting/ViewsPython"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Core",
+    "Remoting/Views",
+    "Remoting/Animation",
+    "Qt/Widgets"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "Remoting/ServerManager\nRemoting/Core\nRemoting/Views\nRemoting/Animation\nQt/Widgets",
+   "usage": {
+    "prompt_tokens": 779,
+    "completion_tokens": 528,
+    "total_tokens": 1307
+   },
+   "latency_ms": 10658.6,
+   "true_targets_v1": [
+    "Qt/Widgets",
+    "Remoting/Settings",
+    "Remoting/Views",
+    "Remoting/ViewsPython",
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Plugins/ONNX",
+   "true_targets": [
+    "Qt/Components",
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Qt/Components",
+    "Remoting/ServerManager",
+    "Qt/Widgets",
+    "Qt/Core",
+    "Qt/ApplicationComponents"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Qt/Components\nRemoting/ServerManager\nQt/Widgets\nQt/Core\nQt/ApplicationComponents",
+   "usage": {
+    "prompt_tokens": 725,
+    "completion_tokens": 293,
+    "total_tokens": 1018
+   },
+   "latency_ms": 4523.2,
+   "true_targets_v1": [
+    "Qt/Widgets",
+    "Remoting/ServerManager"
+   ]
+  },
+  {
+   "source_module": "VTKExtensions/IOSPCTH",
+   "true_targets": [
+    "Utilities/Versioning"
+   ],
+   "predicted": [
+    "VTKExtensions/AMR",
+    "VTKExtensions/IOCore",
+    "VTKExtensions/Core",
+    "VTKExtensions/IOGeneral",
+    "VTKExtensions/Misc"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "VTKExtensions/AMR\nVTKExtensions/IOCore\nVTKExtensions/Core\nVTKExtensions/IOGeneral\nVTKExtensions/Misc",
+   "usage": {
+    "prompt_tokens": 817,
+    "completion_tokens": 347,
+    "total_tokens": 1164
+   },
+   "latency_ms": 4422.5,
+   "true_targets_v1": [
+    "Utilities/Versioning"
+   ]
+  },
+  {
+   "source_module": "Remoting/Live",
+   "true_targets": [
+    "Remoting/Core",
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Core",
+    "Remoting/Views",
+    "Remoting/ClientServerStream",
+    "VTKExtensions/Core"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Remoting/ServerManager\nRemoting/Core\nRemoting/Views\nRemoting/ClientServerStream\nVTKExtensions/Core",
+   "usage": {
+    "prompt_tokens": 781,
+    "completion_tokens": 460,
+    "total_tokens": 1241
+   },
+   "latency_ms": 5857.8,
+   "true_targets_v1": [
+    "Remoting/ClientServerStream",
+    "Remoting/Core",
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Plugins/StreamingParticles",
+   "true_targets": [
+    "Remoting/Views",
+    "VTKExtensions/FiltersRendering"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "VTKExtensions/FiltersGeneral",
+    "VTKExtensions/Core",
+    "VTKExtensions/FiltersRendering",
+    "Remoting/Core"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Remoting/Views\nVTKExtensions/FiltersGeneral\nVTKExtensions/Core\nVTKExtensions/FiltersRendering\nRemoting/Core",
+   "usage": {
+    "prompt_tokens": 743,
+    "completion_tokens": 500,
+    "total_tokens": 1243
+   },
+   "latency_ms": 4615.5,
+   "true_targets_v1": [
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Remoting/Misc",
+   "true_targets": [
+    "Remoting/ClientServerStream",
+    "Remoting/ServerManager",
+    "Remoting/Views",
+    "VTKExtensions/Core"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Core",
+    "Remoting/Views",
+    "Remoting/ClientServerStream",
+    "VTKExtensions/Core"
+   ],
+   "precision": 0.8,
+   "recall": 1.0,
+   "raw_response": "Remoting/ServerManager\nRemoting/Core\nRemoting/Views\nRemoting/ClientServerStream\nVTKExtensions/Core",
+   "usage": {
+    "prompt_tokens": 849,
+    "completion_tokens": 406,
+    "total_tokens": 1255
+   },
+   "latency_ms": 4391.1,
+   "true_targets_v1": [
+    "Remoting/ServerManager",
+    "VTKExtensions/Core",
+    "VTKExtensions/IOGeneral"
+   ]
+  },
+  {
+   "source_module": "Plugins/BagPlotViewsAndFilters",
+   "true_targets": [
+    "Remoting/Core",
+    "Remoting/Views",
+    "VTKExtensions/FiltersRendering",
+    "VTKExtensions/Misc"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "Remoting/ServerManager",
+    "VTKExtensions/FiltersGeneral",
+    "Remoting/Core",
+    "VTKExtensions/FiltersStatistics"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "Remoting/Views\nRemoting/ServerManager\nVTKExtensions/FiltersGeneral\nRemoting/Core\nVTKExtensions/FiltersStatistics",
+   "usage": {
+    "prompt_tokens": 804,
+    "completion_tokens": 761,
+    "total_tokens": 1565
+   },
+   "latency_ms": 7978.8,
+   "true_targets_v1": [
+    "VTKExtensions/Misc"
+   ]
+  },
+  {
+   "source_module": "Remoting/Export",
+   "true_targets": [
+    "Remoting/Core",
+    "VTKExtensions/Core",
+    "VTKExtensions/FiltersRendering"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Views",
+    "Remoting/Core",
+    "VTKExtensions/FiltersRendering",
+    "VTKExtensions/Core"
+   ],
+   "precision": 0.6,
+   "recall": 1.0,
+   "raw_response": "Remoting/ServerManager\nRemoting/Views\nRemoting/Core\nVTKExtensions/FiltersRendering\nVTKExtensions/Core",
+   "usage": {
+    "prompt_tokens": 826,
+    "completion_tokens": 499,
+    "total_tokens": 1325
+   },
+   "latency_ms": 4683.9,
+   "true_targets_v1": [
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Plugins/GMVReader",
+   "true_targets": [
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Qt/Components",
+    "Qt/Widgets",
+    "Qt/Core",
+    "VTKExtensions/IOCore",
+    "VTKExtensions/Core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Qt/Components\nQt/Widgets\nQt/Core\nVTKExtensions/IOCore\nVTKExtensions/Core",
+   "usage": {
+    "prompt_tokens": 736,
+    "completion_tokens": 484,
+    "total_tokens": 1220
+   },
+   "latency_ms": 4402.3,
+   "true_targets_v1": [
+    "Qt/Widgets"
+   ]
+  },
+  {
+   "source_module": "Qt/Python",
+   "true_targets": [
+    "Qt/Core",
+    "Remoting/Core"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Qt/Widgets",
+    "Remoting/ServerManager",
+    "Qt/Components",
+    "Remoting/Core"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Qt/Core\nQt/Widgets\nRemoting/ServerManager\nQt/Components\nRemoting/Core",
+   "usage": {
+    "prompt_tokens": 778,
+    "completion_tokens": 438,
+    "total_tokens": 1216
+   },
+   "latency_ms": 4690.1,
+   "true_targets_v1": [
+    "Qt/Core"
+   ]
+  },
+  {
+   "source_module": "Remoting/Views",
+   "true_targets": [
+    "Remoting/ServerManager",
+    "VTKExtensions/Core",
+    "VTKExtensions/Extraction",
+    "VTKExtensions/FiltersRendering",
+    "VTKExtensions/InteractionStyle"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Core",
+    "VTKExtensions/Core",
+    "VTKExtensions/FiltersRendering",
+    "Remoting/ClientServerStream"
+   ],
+   "precision": 0.6,
+   "recall": 0.6,
+   "raw_response": "Remoting/ServerManager\nRemoting/Core\nVTKExtensions/Core\nVTKExtensions/FiltersRendering\nRemoting/ClientServerStream",
+   "usage": {
+    "prompt_tokens": 820,
+    "completion_tokens": 335,
+    "total_tokens": 1155
+   },
+   "latency_ms": 3941.3,
+   "true_targets_v1": [
+    "Remoting/Core",
+    "Remoting/ServerManager",
+    "VTKExtensions/FiltersRendering"
+   ]
+  },
+  {
+   "source_module": "Adaptors/CatalystTestDriver",
+   "true_targets": [
+    "Clients/Catalyst"
+   ],
+   "predicted": [
+    "Clients/Catalyst",
+    "Clients/InSitu",
+    "Remoting/Core",
+    "VTKExtensions/Core",
+    "Remoting/ServerManager"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Clients/Catalyst\nClients/InSitu\nRemoting/Core\nVTKExtensions/Core\nRemoting/ServerManager",
+   "usage": {
+    "prompt_tokens": 766,
+    "completion_tokens": 340,
+    "total_tokens": 1106
+   },
+   "latency_ms": 4148.7,
+   "true_targets_v1": [
+    "Clients/Catalyst"
+   ]
+  },
+  {
+   "source_module": "Clients/ParaView",
+   "true_targets": [
+    "Qt/ApplicationComponents",
+    "Qt/Python",
+    "Remoting/Core",
+    "Remoting/Settings"
+   ],
+   "predicted": [
+    "Qt/ApplicationComponents",
+    "Qt/Core",
+    "Qt/Components",
+    "Qt/Python",
+    "Qt/Widgets"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "Qt/ApplicationComponents\nQt/Core\nQt/Components\nQt/Python\nQt/Widgets",
+   "usage": {
+    "prompt_tokens": 718,
+    "completion_tokens": 265,
+    "total_tokens": 983
+   },
+   "latency_ms": 3519.4,
+   "true_targets_v1": [
+    "Qt/Components",
+    "Remoting/Core",
+    "Remoting/ServerManager",
+    "Utilities/PythonInterpreterPath"
+   ]
+  },
+  {
+   "source_module": "Remoting/ViewsPython",
+   "true_targets": [
+    "Remoting/Core",
+    "Remoting/Views",
+    "VTKExtensions/Misc"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "Remoting/ServerManager",
+    "VTKExtensions/FiltersGeneral",
+    "Remoting/Core",
+    "Remoting/ClientServerStream"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Remoting/Views\nRemoting/ServerManager\nVTKExtensions/FiltersGeneral\nRemoting/Core\nRemoting/ClientServerStream",
+   "usage": {
+    "prompt_tokens": 752,
+    "completion_tokens": 403,
+    "total_tokens": 1155
+   },
+   "latency_ms": 4687.0,
+   "true_targets_v1": [
+    "Remoting/Views",
+    "VTKExtensions/FiltersRendering",
+    "VTKExtensions/Misc"
+   ]
+  },
+  {
+   "source_module": "Plugins/VDFReaderPlugin",
+   "true_targets": [
+    "VTKExtensions/Core"
+   ],
+   "predicted": [
+    "VTKExtensions/Core",
+    "VTKExtensions/IOCore",
+    "Remoting/Core",
+    "VTKExtensions/IOGeneral",
+    "Remoting/ServerManager"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "VTKExtensions/Core\nVTKExtensions/IOCore\nRemoting/Core\nVTKExtensions/IOGeneral\nRemoting/ServerManager",
+   "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 249,
+    "total_tokens": 868
+   },
+   "latency_ms": 3337.7,
+   "true_targets_v1": [
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "VTKExtensions/FiltersRendering",
+   "true_targets": [
+    "Remoting/Core",
+    "VTKExtensions/Core"
+   ],
+   "predicted": [
+    "VTKExtensions/Core",
+    "VTKExtensions/FiltersGeneral",
+    "Remoting/Core",
+    "VTKExtensions/Misc",
+    "VTKExtensions/IOCore"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "VTKExtensions/Core\nVTKExtensions/FiltersGeneral\nRemoting/Core\nVTKExtensions/Misc\nVTKExtensions/IOCore",
+   "usage": {
+    "prompt_tokens": 835,
+    "completion_tokens": 922,
+    "total_tokens": 1757
+   },
+   "latency_ms": 10233.6,
+   "true_targets_v1": [
+    "VTKExtensions/Misc"
+   ]
+  },
+  {
+   "source_module": "Clients/Catalyst",
+   "true_targets": [
+    "Remoting/Application",
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Core",
+    "VTKExtensions/Core",
+    "Remoting/Views",
+    "Remoting/Live"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Remoting/ServerManager\nRemoting/Core\nVTKExtensions/Core\nRemoting/Views\nRemoting/Live",
+   "usage": {
+    "prompt_tokens": 801,
+    "completion_tokens": 880,
+    "total_tokens": 1681
+   },
+   "latency_ms": 12286.2,
+   "true_targets_v1": [
+    "Remoting/Core"
+   ]
+  },
+  {
+   "source_module": "Plugins/EmbossingRepresentations",
+   "true_targets": [
+    "Qt/Components",
+    "Remoting/Views"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "Qt/Components",
+    "Qt/Core",
+    "Remoting/ServerManager",
+    "Qt/Widgets"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Remoting/Views\nQt/Components\nQt/Core\nRemoting/ServerManager\nQt/Widgets",
+   "usage": {
+    "prompt_tokens": 867,
+    "completion_tokens": 455,
+    "total_tokens": 1322
+   },
+   "latency_ms": 8293.3,
+   "true_targets_v1": [
+    "Qt/Core",
+    "Remoting/Views"
+   ]
+  },
+  {
+   "source_module": "Plugins/LookingGlass",
+   "true_targets": [
+    "Qt/Components",
+    "Qt/Core"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Qt/Components",
+    "Remoting/Views",
+    "Remoting/ServerManager",
+    "Qt/ApplicationComponents"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Qt/Core\nQt/Components\nRemoting/Views\nRemoting/ServerManager\nQt/ApplicationComponents",
+   "usage": {
+    "prompt_tokens": 728,
+    "completion_tokens": 322,
+    "total_tokens": 1050
+   },
+   "latency_ms": 4685.0,
+   "true_targets_v1": [
+    "Qt/Core"
+   ]
+  },
+  {
+   "source_module": "VTKExtensions/FiltersGeneral",
+   "true_targets": [
+    "Utilities/Versioning",
+    "VTKExtensions/FiltersRendering"
+   ],
+   "predicted": [
+    "VTKExtensions/Core",
+    "VTKExtensions/Misc",
+    "VTKExtensions/AMR",
+    "VTKExtensions/FiltersStatistics",
+    "VTKExtensions/IOCore"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "VTKExtensions/Core\nVTKExtensions/Misc\nVTKExtensions/AMR\nVTKExtensions/FiltersStatistics\nVTKExtensions/IOCore",
+   "usage": {
+    "prompt_tokens": 822,
+    "completion_tokens": 774,
+    "total_tokens": 1596
+   },
+   "latency_ms": 7223.3,
+   "true_targets_v1": [
+    "Utilities/Versioning",
+    "VTKExtensions/Misc"
+   ]
+  },
+  {
+   "source_module": "Plugins/StereoCursorView",
+   "true_targets": [
+    "Remoting/Views"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "VTKExtensions/InteractionStyle",
+    "Plugins/CAVEInteraction",
+    "VTKExtensions/FiltersRendering",
+    "Remoting/Core"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Remoting/Views\nVTKExtensions/InteractionStyle\nPlugins/CAVEInteraction\nVTKExtensions/FiltersRendering\nRemoting/Core",
+   "usage": {
+    "prompt_tokens": 567,
+    "completion_tokens": 423,
+    "total_tokens": 990
+   },
+   "latency_ms": 4387.5,
+   "true_targets_v1": [
+    "Remoting/Views"
+   ]
+  },
+  {
+   "source_module": "Plugins/pvNVIDIAIndeX",
+   "true_targets": [
+    "Remoting/Core",
+    "Remoting/ServerManager",
+    "VTKExtensions/FiltersRendering"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "VTKExtensions/FiltersRendering",
+    "VTKExtensions/Core",
+    "Remoting/Core",
+    "Remoting/ServerManager"
+   ],
+   "precision": 0.6,
+   "recall": 1.0,
+   "raw_response": "Remoting/Views\nVTKExtensions/FiltersRendering\nVTKExtensions/Core\nRemoting/Core\nRemoting/ServerManager",
+   "usage": {
+    "prompt_tokens": 744,
+    "completion_tokens": 445,
+    "total_tokens": 1189
+   },
+   "latency_ms": 4896.8,
+   "true_targets_v1": [
+    "Remoting/Settings",
+    "Remoting/Views",
+    "VTKExtensions/FiltersRendering"
+   ]
+  },
+  {
+   "source_module": "Clients/InSitu",
+   "true_targets": [
+    "Clients/Catalyst",
+    "Remoting/Live",
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Core",
+    "VTKExtensions/IOCore",
+    "Clients/PythonCatalyst",
+    "Remoting/Views"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "Remoting/ServerManager\nRemoting/Core\nVTKExtensions/IOCore\nClients/PythonCatalyst\nRemoting/Views",
+   "usage": {
+    "prompt_tokens": 792,
+    "completion_tokens": 743,
+    "total_tokens": 1535
+   },
+   "latency_ms": 8722.0,
+   "true_targets_v1": [
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Remoting/Import",
+   "true_targets": [
+    "Remoting/ServerManager",
+    "VTKExtensions/Core",
+    "VTKExtensions/IOImport"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Views",
+    "Remoting/Core",
+    "Remoting/ClientServerStream",
+    "VTKExtensions/IOCore"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "Remoting/ServerManager\nRemoting/Views\nRemoting/Core\nRemoting/ClientServerStream\nVTKExtensions/IOCore",
+   "usage": {
+    "prompt_tokens": 759,
+    "completion_tokens": 424,
+    "total_tokens": 1183
+   },
+   "latency_ms": 4817.1,
+   "true_targets_v1": [
+    "Remoting/ServerManager"
+   ]
+  },
+  {
+   "source_module": "Qt/ApplicationComponents",
+   "true_targets": [
+    "Qt/Core",
+    "Qt/Widgets",
+    "Remoting/Animation",
+    "Remoting/Application",
+    "Remoting/Export",
+    "Remoting/Import",
+    "Remoting/Misc",
+    "Remoting/Views",
+    "VTKExtensions/FiltersRendering",
+    "VTKExtensions/ShaderBall"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Qt/Components",
+    "Remoting/ServerManager",
+    "Qt/Widgets",
+    "Remoting/Views"
+   ],
+   "precision": 0.6,
+   "recall": 0.3,
+   "raw_response": "Qt/Core\nQt/Components\nRemoting/ServerManager\nQt/Widgets\nRemoting/Views",
+   "usage": {
+    "prompt_tokens": 797,
+    "completion_tokens": 332,
+    "total_tokens": 1129
+   },
+   "latency_ms": 5070.7,
+   "true_targets_v1": [
+    "Qt/Python",
+    "Remoting/Animation",
+    "Remoting/Application",
+    "Remoting/Export",
+    "Remoting/Settings",
+    "Utilities/Versioning"
+   ]
+  },
+  {
+   "source_module": "Plugins/SLACTools",
+   "true_targets": [
+    "Qt/Components",
+    "Qt/Widgets",
+    "Remoting/Views",
+    "VTKExtensions/Misc"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Remoting/ServerManager",
+    "Qt/ApplicationComponents",
+    "Remoting/Views",
+    "Qt/Components"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "Qt/Core\nRemoting/ServerManager\nQt/ApplicationComponents\nRemoting/Views\nQt/Components",
+   "usage": {
+    "prompt_tokens": 795,
+    "completion_tokens": 408,
+    "total_tokens": 1203
+   },
+   "latency_ms": 4705.2,
+   "true_targets_v1": [
+    "Qt/Widgets",
+    "Remoting/Core",
+    "Remoting/ServerManager"
+   ]
+  },
+  {
+   "source_module": "Plugins/DSP",
+   "true_targets": [
+    "Qt/Components",
+    "Qt/Widgets",
+    "Remoting/Core"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Remoting/ServerManager",
+    "Qt/Components",
+    "Remoting/Core",
+    "VTKExtensions/Core"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Qt/Core\nRemoting/ServerManager\nQt/Components\nRemoting/Core\nVTKExtensions/Core",
+   "usage": {
+    "prompt_tokens": 801,
+    "completion_tokens": 482,
+    "total_tokens": 1283
+   },
+   "latency_ms": 5817.8,
+   "true_targets_v1": [
+    "Qt/Components",
+    "Remoting/ServerManager"
+   ]
+  },
+  {
+   "source_module": "Clients/CommandLineExecutables",
+   "true_targets": [
+    "Remoting/Application",
+    "Remoting/ServerManager",
+    "VTKExtensions/Core"
+   ],
+   "predicted": [
+    "Remoting/Core",
+    "Remoting/ServerManager",
+    "VTKExtensions/Core",
+    "Remoting/ApplicationComponents",
+    "Remoting/ClientServerStream"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Remoting/Core\nRemoting/ServerManager\nVTKExtensions/Core\nRemoting/ApplicationComponents\nRemoting/ClientServerStream",
+   "usage": {
+    "prompt_tokens": 683,
+    "completion_tokens": 304,
+    "total_tokens": 987
+   },
+   "latency_ms": 10167.6,
+   "true_targets_v1": [
+    "Remoting/Core",
+    "Remoting/ServerManager",
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Plugins/pvblot",
+   "true_targets": [
+    "Qt/Core",
+    "Qt/Widgets"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Qt/Components",
+    "Qt/Python",
+    "Remoting/Core",
+    "Qt/Widgets"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Qt/Core\nQt/Components\nQt/Python\nRemoting/Core\nQt/Widgets",
+   "usage": {
+    "prompt_tokens": 674,
+    "completion_tokens": 481,
+    "total_tokens": 1155
+   },
+   "latency_ms": 5012.6,
+   "true_targets_v1": [
+    "Qt/Widgets"
+   ]
+  },
+  {
+   "source_module": "Plugins/ArrowGlyph",
+   "true_targets": [
+    "Remoting/Core"
+   ],
+   "predicted": [
+    "Remoting/Core",
+    "VTKExtensions/Core",
+    "VTKExtensions/FiltersGeneral",
+    "Remoting/ServerManager",
+    "VTKExtensions/Misc"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Remoting/Core\nVTKExtensions/Core\nVTKExtensions/FiltersGeneral\nRemoting/ServerManager\nVTKExtensions/Misc",
+   "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 370,
+    "total_tokens": 1025
+   },
+   "latency_ms": 4645.0,
+   "true_targets_v1": [
+    "Remoting/Core"
+   ]
+  },
+  {
+   "source_module": "Remoting/ServerManager",
+   "true_targets": [
+    "Remoting/ClientServerStream",
+    "Remoting/Settings",
+    "Utilities/Versioning"
+   ],
+   "predicted": [
+    "Remoting/Core",
+    "Remoting/ClientServerStream",
+    "VTKExtensions/Core",
+    "Remoting/Misc",
+    "VTKExtensions/Misc"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "Remoting/Core\nRemoting/ClientServerStream\nVTKExtensions/Core\nRemoting/Misc\nVTKExtensions/Misc",
+   "usage": {
+    "prompt_tokens": 814,
+    "completion_tokens": 794,
+    "total_tokens": 1608
+   },
+   "latency_ms": 9010.1,
+   "true_targets_v1": [
+    "Remoting/Core",
+    "Utilities/Versioning"
+   ]
+  },
+  {
+   "source_module": "Plugins/CAVEInteraction",
+   "true_targets": [
+    "Incubator/CAVEInteractionStyles",
+    "Qt/ApplicationComponents",
+    "Qt/Components",
+    "Qt/Core",
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Incubator/CAVEInteractionStyles",
+    "Remoting/Views",
+    "Qt/Components",
+    "Remoting/ServerManager"
+   ],
+   "precision": 0.8,
+   "recall": 0.8,
+   "raw_response": "Qt/Core\nIncubator/CAVEInteractionStyles\nRemoting/Views\nQt/Components\nRemoting/ServerManager",
+   "usage": {
+    "prompt_tokens": 800,
+    "completion_tokens": 480,
+    "total_tokens": 1280
+   },
+   "latency_ms": 5035.9,
+   "true_targets_v1": [
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Plugins/ContourLabelPlugin",
+   "true_targets": [
+    "Remoting/Views"
+   ],
+   "predicted": [
+    "Remoting/Views",
+    "VTKExtensions/FiltersRendering",
+    "VTKExtensions/Core",
+    "VTKExtensions/FiltersGeneral",
+    "Remoting/Core"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Remoting/Views\nVTKExtensions/FiltersRendering\nVTKExtensions/Core\nVTKExtensions/FiltersGeneral\nRemoting/Core",
+   "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 338,
+    "total_tokens": 1003
+   },
+   "latency_ms": 4117.0,
+   "true_targets_v1": [
+    "Remoting/Views"
+   ]
+  },
+  {
+   "source_module": "Remoting/Animation",
+   "true_targets": [
+    "Remoting/Settings",
+    "VTKExtensions/Core",
+    "VTKExtensions/IOCore",
+    "VTKExtensions/Misc"
+   ],
+   "predicted": [
+    "Remoting/ServerManager",
+    "Remoting/Views",
+    "Remoting/Core",
+    "Remoting/Export",
+    "VTKExtensions/Core"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "Remoting/ServerManager\nRemoting/Views\nRemoting/Core\nRemoting/Export\nVTKExtensions/Core",
+   "usage": {
+    "prompt_tokens": 805,
+    "completion_tokens": 625,
+    "total_tokens": 1430
+   },
+   "latency_ms": 6339.4,
+   "true_targets_v1": [
+    "Remoting/Export",
+    "Remoting/Settings",
+    "VTKExtensions/Misc"
+   ]
+  },
+  {
+   "source_module": "Plugins/ZSpace",
+   "true_targets": [
+    "Qt/ApplicationComponents",
+    "Qt/Components",
+    "Qt/Core"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Remoting/Views",
+    "Qt/ApplicationComponents",
+    "Qt/Python",
+    "Remoting/ServerManager"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Qt/Core\nRemoting/Views\nQt/ApplicationComponents\nQt/Python\nRemoting/ServerManager",
+   "usage": {
+    "prompt_tokens": 737,
+    "completion_tokens": 454,
+    "total_tokens": 1191
+   },
+   "latency_ms": 4718.2,
+   "true_targets_v1": [
+    "Qt/ApplicationComponents",
+    "Qt/Core",
+    "Remoting/Views"
+   ]
+  },
+  {
+   "source_module": "Adaptors/Cam",
+   "true_targets": [
+    "Clients/Catalyst"
+   ],
+   "predicted": [
+    "Clients/InSitu",
+    "Clients/PythonCatalyst",
+    "Remoting/Core",
+    "VTKExtensions/Core",
+    "Remoting/ServerManager"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Clients/InSitu\nClients/PythonCatalyst\nRemoting/Core\nVTKExtensions/Core\nRemoting/ServerManager",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 350,
+    "total_tokens": 955
+   },
+   "latency_ms": 4005.3,
+   "true_targets_v1": [
+    "Clients/Catalyst"
+   ]
+  },
+  {
+   "source_module": "Qt/Widgets",
+   "true_targets": [
+    "Remoting/ServerManager"
+   ],
+   "predicted": [
+    "Qt/Core",
+    "Remoting/Core",
+    "Remoting/ServerManager",
+    "VTKExtensions/Core",
+    "Qt/Components"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Qt/Core\nRemoting/Core\nRemoting/ServerManager\nVTKExtensions/Core\nQt/Components",
+   "usage": {
+    "prompt_tokens": 762,
+    "completion_tokens": 543,
+    "total_tokens": 1305
+   },
+   "latency_ms": 6280.4,
+   "true_targets_v1": [
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "VTKExtensions/Misc",
+   "true_targets": [
+    "Remoting/ClientServerStream",
+    "Remoting/Core"
+   ],
+   "predicted": [
+    "VTKExtensions/Core",
+    "Remoting/ClientServerStream",
+    "VTKExtensions/FiltersGeneral",
+    "VTKExtensions/FiltersStatistics",
+    "Remoting/Core"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "VTKExtensions/Core\nRemoting/ClientServerStream\nVTKExtensions/FiltersGeneral\nVTKExtensions/FiltersStatistics\nRemoting/Core",
+   "usage": {
+    "prompt_tokens": 813,
+    "completion_tokens": 553,
+    "total_tokens": 1366
+   },
+   "latency_ms": 5617.3,
+   "true_targets_v1": [
+    "Remoting/ClientServerStream",
+    "VTKExtensions/Core"
+   ]
+  },
+  {
+   "source_module": "Adaptors/Particle",
+   "true_targets": [
+    "Clients/Catalyst"
+   ],
+   "predicted": [
+    "Clients/InSitu",
+    "VTKExtensions/Core",
+    "Remoting/Core",
+    "VTKExtensions/FiltersRendering",
+    "Remoting/Views"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Clients/InSitu\nVTKExtensions/Core\nRemoting/Core\nVTKExtensions/FiltersRendering\nRemoting/Views",
+   "usage": {
+    "prompt_tokens": 729,
+    "completion_tokens": 658,
+    "total_tokens": 1387
+   },
+   "latency_ms": 6811.5,
+   "true_targets_v1": [
+    "Remoting/Views"
+   ]
+  },
+  {
+   "source_module": "Plugins/PythonQtPlugin",
+   "true_targets": [
+    "Qt/Core"
+   ],
+   "predicted": [
+    "Qt/Python",
+    "Qt/Core",
+    "Qt/ApplicationComponents",
+    "Qt/Components",
+    "Remoting/ServerManager"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Qt/Python\nQt/Core\nQt/ApplicationComponents\nQt/Components\nRemoting/ServerManager",
+   "usage": {
+    "prompt_tokens": 624,
+    "completion_tokens": 304,
+    "total_tokens": 928
+   },
+   "latency_ms": 3576.3,
+   "true_targets_v1": [
+    "Qt/Core"
+   ]
+  }
+ ],
+ "timestamp": "2026-10-05T16:26:02.709761",
+ "model": "gpt-6-sol",
+ "project": "paraview",
+ "task": "ar",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42,
+ "import_source": "dependency_raw",
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/level1/gpt-6-sol_paraview_ar_l1.json"
+}

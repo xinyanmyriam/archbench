@@ -1,0 +1,1616 @@
+{
+ "accuracy": 0.445,
+ "precision": 0.35185185185185186,
+ "recall": 0.9047619047619048,
+ "f1": 0.5066666666666666,
+ "tp": 57,
+ "fp": 105,
+ "tn": 32,
+ "fn": 6,
+ "total": 200,
+ "results": [
+  {
+   "module_A": "torch/_logging",
+   "module_B": "torch/_dynamo",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/experimental",
+   "module_B": "torch/nativert",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "functorch/examples",
+   "module_B": "torch/optim",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "caffe2/core",
+   "module_B": "torch/compiler",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_subclasses",
+   "module_B": "torch/multiprocessing",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "functorch/examples",
+   "module_B": "torch/_prims",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/dest",
+   "module_B": "torch/_awaits",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/api",
+   "module_B": "tools/amd_build",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_native",
+   "module_B": "torch/nn",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/static_runtime",
+   "module_B": "tools/autograd",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "torch/_export",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/dest",
+   "module_B": "torch/_vendor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_higher_order_ops",
+   "module_B": "torch/_inductor",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_subclasses",
+   "module_B": "c10/util",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/ao",
+   "module_B": "torch/jit",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/lib",
+   "module_B": "c10/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/github",
+   "module_B": "torch/mtia",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/utils",
+   "module_B": "torchgen/api",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/jit",
+   "module_B": "torch/numa",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/contrib",
+   "module_B": "c10/xpu",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/experimental",
+   "module_B": "functorch/_src",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_library",
+   "module_B": "torch/_functorch",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/rules_cc",
+   "module_B": "torch/func",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "c10/util",
+   "module_B": "torch/nativert",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/autograd",
+   "module_B": "torch/_numpy",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "functorch/dim",
+   "module_B": "torch/headeronly",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/futures",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/amd_build",
+   "module_B": "tools/testing",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "tools/experimental",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/autograd",
+   "module_B": "c10/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/onnx",
+   "module_B": "functorch/op_analysis",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/iwyu",
+   "module_B": "torch/fx",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_lazy",
+   "module_B": "torch/multiprocessing",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/backends",
+   "module_B": "torch/_native",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/testing",
+   "module_B": "torch/_subclasses",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/monitor",
+   "module_B": "torch/nn",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/nativert",
+   "module_B": "torch/ao",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/distributions",
+   "module_B": "torch/autograd",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/fx",
+   "module_B": "torch/_higher_order_ops",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/shared",
+   "module_B": "torch/distributed",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_refs",
+   "module_B": "torch/fx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_higher_order_ops",
+   "module_B": "torch/_dispatch",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/github",
+   "module_B": "torch/_export",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_subclasses",
+   "module_B": "torch/accelerator",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/stats",
+   "module_B": "torch/nativert",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/operator_versions",
+   "module_B": "torch/jit",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/experimental",
+   "module_B": "aten/src",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/testing",
+   "module_B": "torch/_higher_order_ops",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/legacy",
+   "module_B": "torch/sparse",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/utils",
+   "module_B": "torch/futures",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/quantization",
+   "module_B": "torch/_refs",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/pyi",
+   "module_B": "torch/profiler",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/csrc",
+   "module_B": "torch/_numpy",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/lite_interpreter",
+   "module_B": "functorch/experimental",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/quantization",
+   "module_B": "c10/util",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "c10/mobile",
+   "module_B": "c10/benchmark",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/onnx",
+   "module_B": "torch/nativert",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_dispatch",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_awaits",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/_autoheuristic",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/cuda",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/optim",
+   "module_B": "tools/packaging",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/shape_functions",
+   "module_B": "tools/code_analyzer",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/onnx",
+   "module_B": "torch/fx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "c10/util",
+   "module_B": "torch/csrc",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/gdb",
+   "module_B": "torch/distributed",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_strobelight",
+   "module_B": "torch/_dispatch",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/setup_helpers",
+   "module_B": "c10/mobile",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/mtia",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "functorch/_src",
+   "module_B": "torch/_inductor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/contrib",
+   "module_B": "tools/stats",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_inductor",
+   "module_B": "torch/_logging",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/compiler",
+   "module_B": "torch/autograd",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/futures",
+   "module_B": "torch/_subclasses",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/shape_functions",
+   "module_B": "tools/github",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/sparse",
+   "module_B": "torch/xpu",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/fx",
+   "module_B": "torch/utils",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_numpy",
+   "module_B": "torch/compiler",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_higher_order_ops",
+   "module_B": "tools/experimental",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/selective_build",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_library",
+   "module_B": "torch/_inductor",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/nested",
+   "module_B": "tools/testing",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_subclasses",
+   "module_B": "torch/_library",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "c10/mobile",
+   "module_B": "c10/metal",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "torch/_prims",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/monitor",
+   "module_B": "torch/distributed",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "torch/ao",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/ao",
+   "module_B": "tools/code_coverage",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/shared",
+   "module_B": "tools/dynamo",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/nativert",
+   "module_B": "c10/core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_vendor",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/csrc",
+   "module_B": "tools/lite_interpreter",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/testing",
+   "module_B": "torch/futures",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "functorch/_src",
+   "module_B": "torch/_prims",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/cpu",
+   "module_B": "tools/autograd",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_subclasses",
+   "module_B": "torch/_higher_order_ops",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "functorch/dim",
+   "module_B": "torch/fx",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/monitor",
+   "module_B": "torch/export",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/setup_helpers",
+   "module_B": "torchgen/dest",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/headeronly",
+   "module_B": "caffe2/perfkernels",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/testing",
+   "module_B": "tools/setup_helpers",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_functorch",
+   "module_B": "torch/_dispatch",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/fuse",
+   "module_B": "torch/_numpy",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/shape_functions",
+   "module_B": "tools/shared",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_strobelight",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/cpu",
+   "module_B": "functorch/op_analysis",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/masked",
+   "module_B": "torchgen/operator_versions",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/export",
+   "module_B": "torch/_library",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_inductor",
+   "module_B": "tools/shared",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_native",
+   "module_B": "torch/masked",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/special",
+   "module_B": "torch/cuda",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/rules_cc",
+   "module_B": "torch/distributed",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/export",
+   "module_B": "torch/_vendor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/nested",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/export",
+   "module_B": "torch/utils",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "torch/export",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "functorch/dim",
+   "module_B": "tools/jit",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "aten/src",
+   "module_B": "c10/mobile",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_logging",
+   "module_B": "torchgen/selective_build",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/nativert",
+   "module_B": "torch/headeronly",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/coverage_plugins_package",
+   "module_B": "torch/func",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/sparse",
+   "module_B": "torch/testing",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/coverage_plugins_package",
+   "module_B": "functorch/compile",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_export",
+   "module_B": "torch/backends",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "functorch/op_analysis",
+   "module_B": "torch/_native",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_dynamo",
+   "module_B": "torch/jit",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/nn",
+   "module_B": "torch/cuda",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "torch/amp",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/ao",
+   "module_B": "torch/_inductor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/signal",
+   "module_B": "c10/mobile",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/static_runtime",
+   "module_B": "torch/_inductor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "c10/xpu",
+   "module_B": "torch/quantization",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/accelerator",
+   "module_B": "torch/futures",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_higher_order_ops",
+   "module_B": "torch/masked",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "c10/mobile",
+   "module_B": "torch/fx",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/shape_functions",
+   "module_B": "torch/fx",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/operator_versions",
+   "module_B": "torch/distributions",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/amp",
+   "module_B": "tools/rules_cc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/jit",
+   "module_B": "torchgen/api",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/fuse",
+   "module_B": "torch/export",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "functorch/examples",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/csrc",
+   "module_B": "aten/src",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/package",
+   "module_B": "tools/setup_helpers",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torchgen/_autoheuristic",
+   "module_B": "torch/fft",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "tools/rules_cc",
+   "module_B": "c10/macros",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_dynamo",
+   "module_B": "torch/_higher_order_ops",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "c10/benchmark",
+   "module_B": "tools/code_coverage",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_dynamo",
+   "module_B": "torch/masked",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/fx",
+   "module_B": "torch/_library",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/legacy",
+   "module_B": "c10/core",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_dynamo",
+   "module_B": "torch/optim",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_numpy",
+   "module_B": "torch/multiprocessing",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/ao",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_decomp",
+   "module_B": "torch/_prims",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/fuse",
+   "module_B": "torch/_inductor",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/mps",
+   "module_B": "torch/utils",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_export",
+   "module_B": "torch/_functorch",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_logging",
+   "module_B": "torch/_vendor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/nested",
+   "module_B": "torch/nn",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/backends",
+   "module_B": "torch/_refs",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/lldb",
+   "module_B": "c10/hip",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/masked",
+   "module_B": "torch/_prims_common",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/profiler",
+   "module_B": "torch/nn",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "c10/cuda",
+   "module_B": "torch/optim",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "functorch/dim",
+   "module_B": "torch/lib",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_numpy",
+   "module_B": "torch/_vendor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "caffe2/perfkernels",
+   "module_B": "torch/_refs",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/export",
+   "module_B": "torch/_export",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_logging",
+   "module_B": "torch/fx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "torch/_library",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/testing",
+   "module_B": "torch/jit",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_functorch",
+   "module_B": "torch/export",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_functorch",
+   "module_B": "torch/fx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/cuda",
+   "module_B": "torch/sparse",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "functorch/experimental",
+   "module_B": "torch/masked",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/cuda",
+   "module_B": "torch/compiler",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "aten/src",
+   "module_B": "c10/xpu",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/export",
+   "module_B": "torch/distributed",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_library",
+   "module_B": "torch/_higher_order_ops",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "c10/core",
+   "module_B": "torchgen/fuse",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/csrc",
+   "module_B": "torch/package",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/testing",
+   "module_B": "torch/utils",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "tools/jit",
+   "module_B": "tools/code_coverage",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torchgen/api",
+   "module_B": "torchgen/decompositions",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_awaits",
+   "module_B": "torch/nested",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/nativert",
+   "module_B": "c10/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "c10/core",
+   "module_B": "tools/dynamo",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/mps",
+   "module_B": "torchgen/dest",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "functorch/dim",
+   "module_B": "torch/_dynamo",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/distributed",
+   "module_B": "functorch/dim",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/package",
+   "module_B": "torch/jit",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/nested",
+   "module_B": "torch/distributed",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "caffe2/serialize",
+   "module_B": "torch/_logging",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_lazy",
+   "module_B": "torch/nativert",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/_inductor",
+   "module_B": "torch/_decomp",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_native",
+   "module_B": "torch/_inductor",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/fx",
+   "module_B": "torch/_prims_common",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "functorch/experimental",
+   "module_B": "torch/func",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "torch/_C_flatbuffer",
+   "module_B": "c10/cuda",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "torch/nested",
+   "module_B": "torch/_numpy",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_pytorch_dp.json"
+}

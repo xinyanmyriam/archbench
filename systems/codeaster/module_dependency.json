@@ -1,6 +1,6 @@
 {
   "system": "code-aster",
-  "total": 352,
+  "total": 377,
   "dependencies": [
     {
       "source_module": "bibc/hdf",
@@ -30,11 +30,6 @@
     {
       "source_module": "bibcxx/Behaviours",
       "target_module": "bibc/include",
-      "weight": 1
-    },
-    {
-      "source_module": "bibcxx/Behaviours",
-      "target_module": "bibfor/include",
       "weight": 1
     },
     {
@@ -269,11 +264,6 @@
     },
     {
       "source_module": "bibcxx/DataFields",
-      "target_module": "bibfor/include",
-      "weight": 1
-    },
-    {
-      "source_module": "bibcxx/DataFields",
       "target_module": "bibcxx/DataStructures",
       "weight": 4
     },
@@ -355,11 +345,6 @@
     {
       "source_module": "bibcxx/DataStructures",
       "target_module": "bibcxx/Supervis",
-      "weight": 1
-    },
-    {
-      "source_module": "bibcxx/DataStructures",
-      "target_module": "bibfor/include",
       "weight": 1
     },
     {
@@ -1315,7 +1300,7 @@
     {
       "source_module": "bibcxx/Results",
       "target_module": "bibcxx/include",
-      "weight": 31
+      "weight": 30
     },
     {
       "source_module": "bibcxx/Results",
@@ -1539,11 +1524,6 @@
     },
     {
       "source_module": "bibcxx/Supervis",
-      "target_module": "bibfor/include",
-      "weight": 1
-    },
-    {
-      "source_module": "bibcxx/Supervis",
       "target_module": "bibcxx/MemoryManager",
       "weight": 1
     },
@@ -1603,9 +1583,9 @@
       "weight": 2
     },
     {
-      "source_module": "catalo/cataelem",
-      "target_module": "code_aster/Messages",
-      "weight": 2
+      "source_module": "code_aster/Applications",
+      "target_module": "code_aster/Objects",
+      "weight": 1
     },
     {
       "source_module": "code_aster/Applications",
@@ -1613,74 +1593,149 @@
       "weight": 2
     },
     {
-      "source_module": "code_aster/CodeCommands",
-      "target_module": "code_aster/Cata",
-      "weight": 176
+      "source_module": "code_aster/Applications",
+      "target_module": "code_aster/CodeCommands",
+      "weight": 1
     },
     {
-      "source_module": "code_aster/CodeCommands",
-      "target_module": "code_aster/Objects",
+      "source_module": "code_aster/Behaviours",
+      "target_module": "code_aster/Messages",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/Behaviours",
+      "target_module": "code_aster/Utilities",
       "weight": 2
     },
     {
       "source_module": "code_aster/CodeCommands",
-      "target_module": "catalo/cataelem",
-      "weight": 5
+      "target_module": "code_aster/Messages",
+      "weight": 14
+    },
+    {
+      "source_module": "code_aster/CodeCommands",
+      "target_module": "code_aster/Objects",
+      "weight": 131
     },
     {
       "source_module": "code_aster/CodeCommands",
       "target_module": "code_aster/Supervis",
-      "weight": 4
+      "weight": 159
     },
     {
       "source_module": "code_aster/CodeCommands",
       "target_module": "code_aster/Utilities",
-      "weight": 3
+      "weight": 24
+    },
+    {
+      "source_module": "code_aster/CodeCommands",
+      "target_module": "code_aster/Cata",
+      "weight": 15
     },
     {
       "source_module": "code_aster/CodeCommands",
       "target_module": "code_aster/Helpers",
-      "weight": 1
+      "weight": 10
     },
     {
-      "source_module": "code_aster/Coupling",
-      "target_module": "catalo/cataelem",
+      "source_module": "code_aster/CodeCommands",
+      "target_module": "code_aster/Behaviours",
       "weight": 1
     },
     {
       "source_module": "code_aster/Coupling",
       "target_module": "code_aster/Utilities",
+      "weight": 11
+    },
+    {
+      "source_module": "code_aster/Coupling",
+      "target_module": "code_aster/Objects",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/Coupling",
+      "target_module": "code_aster/Solvers",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/Helpers",
+      "target_module": "code_aster/Objects",
+      "weight": 3
+    },
+    {
+      "source_module": "code_aster/Helpers",
+      "target_module": "code_aster/Messages",
       "weight": 2
     },
     {
       "source_module": "code_aster/Helpers",
       "target_module": "code_aster/Cata",
-      "weight": 6
+      "weight": 9
     },
     {
       "source_module": "code_aster/Helpers",
       "target_module": "code_aster/Utilities",
+      "weight": 4
+    },
+    {
+      "source_module": "code_aster/Helpers",
+      "target_module": "code_aster/Supervis",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/Helpers",
+      "target_module": "code_aster/Behaviours",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/LinearAlgebra",
+      "target_module": "code_aster/Utilities",
+      "weight": 2
+    },
+    {
+      "source_module": "code_aster/LinearAlgebra",
+      "target_module": "code_aster/Objects",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/LinearAlgebra",
+      "target_module": "code_aster/Supervis",
       "weight": 1
     },
     {
       "source_module": "code_aster/MacroCommands",
-      "target_module": "code_aster/Cata",
-      "weight": 167
+      "target_module": "code_aster/CodeCommands",
+      "weight": 133
     },
     {
       "source_module": "code_aster/MacroCommands",
       "target_module": "code_aster/Objects",
-      "weight": 26
+      "weight": 93
+    },
+    {
+      "source_module": "code_aster/MacroCommands",
+      "target_module": "code_aster/Cata",
+      "weight": 184
+    },
+    {
+      "source_module": "code_aster/MacroCommands",
+      "target_module": "code_aster/Messages",
+      "weight": 126
     },
     {
       "source_module": "code_aster/MacroCommands",
       "target_module": "code_aster/Utilities",
-      "weight": 20
+      "weight": 79
+    },
+    {
+      "source_module": "code_aster/MacroCommands",
+      "target_module": "code_aster/Supervis",
+      "weight": 30
     },
     {
       "source_module": "code_aster/MacroCommands",
       "target_module": "code_aster/Helpers",
-      "weight": 12
+      "weight": 25
     },
     {
       "source_module": "code_aster/MacroCommands",
@@ -1689,33 +1744,73 @@
     },
     {
       "source_module": "code_aster/MacroCommands",
-      "target_module": "code_aster/Supervis",
-      "weight": 8
+      "target_module": "code_aster/Solvers",
+      "weight": 9
+    },
+    {
+      "source_module": "code_aster/MacroCommands",
+      "target_module": "code_aster/ObjectsExt",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/MacroCommands",
+      "target_module": "code_aster/MedUtils",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/MacroCommands",
+      "target_module": "code_aster/Behaviours",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/MedUtils",
+      "target_module": "code_aster/Objects",
+      "weight": 3
+    },
+    {
+      "source_module": "code_aster/MedUtils",
+      "target_module": "code_aster/Utilities",
+      "weight": 3
     },
     {
       "source_module": "code_aster/Messages",
       "target_module": "code_aster/Utilities",
-      "weight": 1
+      "weight": 279
     },
     {
       "source_module": "code_aster/Objects",
       "target_module": "code_aster/Utilities",
-      "weight": 1
+      "weight": 6
     },
     {
-      "source_module": "code_aster/ObjectsExt",
-      "target_module": "code_aster/Objects",
-      "weight": 25
+      "source_module": "code_aster/Objects",
+      "target_module": "code_aster/Messages",
+      "weight": 2
     },
     {
       "source_module": "code_aster/ObjectsExt",
       "target_module": "code_aster/Utilities",
-      "weight": 1
+      "weight": 63
+    },
+    {
+      "source_module": "code_aster/ObjectsExt",
+      "target_module": "code_aster/Objects",
+      "weight": 40
     },
     {
       "source_module": "code_aster/ObjectsExt",
       "target_module": "code_aster/CodeCommands",
-      "weight": 1
+      "weight": 3
+    },
+    {
+      "source_module": "code_aster/ObjectsExt",
+      "target_module": "code_aster/Solvers",
+      "weight": 2
+    },
+    {
+      "source_module": "code_aster/ObjectsExt",
+      "target_module": "code_aster/Supervis",
+      "weight": 3
     },
     {
       "source_module": "code_aster/ObjectsExt",
@@ -1724,38 +1819,68 @@
     },
     {
       "source_module": "code_aster/ObjectsExt",
-      "target_module": "code_aster/Supervis",
-      "weight": 1
+      "target_module": "code_aster/Messages",
+      "weight": 5
     },
     {
       "source_module": "code_aster/ObjectsExt",
       "target_module": "code_aster/MedUtils",
+      "weight": 7
+    },
+    {
+      "source_module": "code_aster/SD",
+      "target_module": "code_aster/Objects",
       "weight": 1
     },
     {
       "source_module": "code_aster/Solvers",
-      "target_module": "code_aster/Cata",
-      "weight": 3
+      "target_module": "code_aster/Utilities",
+      "weight": 26
     },
     {
       "source_module": "code_aster/Solvers",
-      "target_module": "code_aster/Utilities",
+      "target_module": "code_aster/Cata",
       "weight": 2
+    },
+    {
+      "source_module": "code_aster/Solvers",
+      "target_module": "code_aster/Messages",
+      "weight": 5
+    },
+    {
+      "source_module": "code_aster/Solvers",
+      "target_module": "code_aster/Objects",
+      "weight": 11
+    },
+    {
+      "source_module": "code_aster/Solvers",
+      "target_module": "code_aster/LinearAlgebra",
+      "weight": 1
+    },
+    {
+      "source_module": "code_aster/Solvers",
+      "target_module": "code_aster/Supervis",
+      "weight": 5
     },
     {
       "source_module": "code_aster/Supervis",
       "target_module": "code_aster/Cata",
-      "weight": 6
+      "weight": 8
     },
     {
       "source_module": "code_aster/Supervis",
       "target_module": "code_aster/Utilities",
-      "weight": 2
+      "weight": 8
     },
     {
-      "source_module": "code_aster/Utilities",
-      "target_module": "catalo/cataelem",
+      "source_module": "code_aster/Supervis",
+      "target_module": "code_aster/Objects",
       "weight": 3
+    },
+    {
+      "source_module": "code_aster/Supervis",
+      "target_module": "code_aster/Messages",
+      "weight": 4
     },
     {
       "source_module": "code_aster/visu",

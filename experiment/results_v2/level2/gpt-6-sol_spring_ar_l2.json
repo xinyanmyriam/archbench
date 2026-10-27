@@ -1,0 +1,535 @@
+{
+  "precision_at_5": 0.47368421052631576,
+  "recall_at_5": 1.0,
+  "total": 19,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 11146,
+    "completion_tokens": 7889,
+    "total_tokens": 19035
+  },
+  "results": [
+    {
+      "source_module": "spring-jdbc",
+      "true_targets": [
+        "spring-beans",
+        "spring-context"
+      ],
+      "shown_deps": [
+        "spring-core",
+        "spring-tx"
+      ],
+      "predicted": [
+        "spring-beans",
+        "spring-context",
+        "spring-aop",
+        "spring-expression",
+        "spring-oxm"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "spring-beans\nspring-context\nspring-aop\nspring-expression\nspring-oxm",
+      "usage": {
+        "prompt_tokens": 589,
+        "completion_tokens": 518,
+        "total_tokens": 1107
+      },
+      "latency_ms": 9838.0
+    },
+    {
+      "source_module": "spring-context",
+      "true_targets": [
+        "spring-aop",
+        "spring-core",
+        "spring-expression"
+      ],
+      "shown_deps": [
+        "spring-beans",
+        "spring-instrument"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-aop",
+        "spring-expression",
+        "spring-oxm",
+        "spring-tx"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-aop\nspring-expression\nspring-oxm\nspring-tx",
+      "usage": {
+        "prompt_tokens": 583,
+        "completion_tokens": 461,
+        "total_tokens": 1044
+      },
+      "latency_ms": 8677.8
+    },
+    {
+      "source_module": "spring-websocket",
+      "true_targets": [
+        "spring-core",
+        "spring-messaging",
+        "spring-webmvc"
+      ],
+      "shown_deps": [
+        "spring-beans",
+        "spring-context",
+        "spring-web"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-messaging",
+        "spring-webmvc",
+        "spring-expression",
+        "spring-aop"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-messaging\nspring-webmvc\nspring-expression\nspring-aop",
+      "usage": {
+        "prompt_tokens": 581,
+        "completion_tokens": 518,
+        "total_tokens": 1099
+      },
+      "latency_ms": 11059.8
+    },
+    {
+      "source_module": "spring-test",
+      "true_targets": [
+        "spring-beans",
+        "spring-context",
+        "spring-webflux"
+      ],
+      "shown_deps": [
+        "spring-core",
+        "spring-web"
+      ],
+      "predicted": [
+        "spring-context",
+        "spring-beans",
+        "spring-webmvc",
+        "spring-webflux",
+        "spring-tx"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-context\nspring-beans\nspring-webmvc\nspring-webflux\nspring-tx",
+      "usage": {
+        "prompt_tokens": 584,
+        "completion_tokens": 244,
+        "total_tokens": 828
+      },
+      "latency_ms": 4498.0
+    },
+    {
+      "source_module": "spring-webflux",
+      "true_targets": [
+        "spring-aop",
+        "spring-context",
+        "spring-core"
+      ],
+      "shown_deps": [
+        "spring-beans",
+        "spring-context-support",
+        "spring-web"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-context",
+        "spring-expression",
+        "spring-aop",
+        "spring-oxm"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-context\nspring-expression\nspring-aop\nspring-oxm",
+      "usage": {
+        "prompt_tokens": 581,
+        "completion_tokens": 204,
+        "total_tokens": 785
+      },
+      "latency_ms": 5014.8
+    },
+    {
+      "source_module": "spring-r2dbc",
+      "true_targets": [
+        "spring-core",
+        "spring-tx"
+      ],
+      "shown_deps": [
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-tx",
+        "spring-context",
+        "spring-jdbc",
+        "spring-aop"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-tx\nspring-context\nspring-jdbc\nspring-aop",
+      "usage": {
+        "prompt_tokens": 595,
+        "completion_tokens": 320,
+        "total_tokens": 915
+      },
+      "latency_ms": 5968.3
+    },
+    {
+      "source_module": "spring-expression",
+      "true_targets": [
+        "spring-core"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-aop",
+        "spring-instrument",
+        "spring-oxm"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-aop\nspring-instrument\nspring-oxm",
+      "usage": {
+        "prompt_tokens": 596,
+        "completion_tokens": 353,
+        "total_tokens": 949
+      },
+      "latency_ms": 8673.4
+    },
+    {
+      "source_module": "spring-jms",
+      "true_targets": [
+        "spring-beans",
+        "spring-context",
+        "spring-messaging",
+        "spring-oxm"
+      ],
+      "shown_deps": [
+        "spring-aop",
+        "spring-core",
+        "spring-tx"
+      ],
+      "predicted": [
+        "spring-beans",
+        "spring-context",
+        "spring-messaging",
+        "spring-oxm",
+        "spring-expression"
+      ],
+      "precision": 0.8,
+      "recall": 1.0,
+      "raw_response": "spring-beans\nspring-context\nspring-messaging\nspring-oxm\nspring-expression",
+      "usage": {
+        "prompt_tokens": 575,
+        "completion_tokens": 189,
+        "total_tokens": 764
+      },
+      "latency_ms": 4491.4
+    },
+    {
+      "source_module": "spring-messaging",
+      "true_targets": [
+        "spring-beans",
+        "spring-context",
+        "spring-expression"
+      ],
+      "shown_deps": [
+        "spring-aop",
+        "spring-core",
+        "spring-oxm"
+      ],
+      "predicted": [
+        "spring-beans",
+        "spring-context",
+        "spring-expression",
+        "spring-web",
+        "spring-tx"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-beans\nspring-context\nspring-expression\nspring-web\nspring-tx",
+      "usage": {
+        "prompt_tokens": 580,
+        "completion_tokens": 205,
+        "total_tokens": 785
+      },
+      "latency_ms": 4650.3
+    },
+    {
+      "source_module": "spring-oxm",
+      "true_targets": [
+        "spring-beans"
+      ],
+      "shown_deps": [
+        "spring-core"
+      ],
+      "predicted": [
+        "spring-beans",
+        "spring-context",
+        "spring-aop",
+        "spring-tx",
+        "spring-expression"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-beans\nspring-context\nspring-aop\nspring-tx\nspring-expression",
+      "usage": {
+        "prompt_tokens": 599,
+        "completion_tokens": 341,
+        "total_tokens": 940
+      },
+      "latency_ms": 9572.8
+    },
+    {
+      "source_module": "spring-beans",
+      "true_targets": [
+        "spring-core"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "spring-core",
+        "spring-expression",
+        "spring-instrument",
+        "spring-core-test",
+        "spring-context-indexer"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-expression\nspring-instrument\nspring-core-test\nspring-context-indexer",
+      "usage": {
+        "prompt_tokens": 597,
+        "completion_tokens": 477,
+        "total_tokens": 1074
+      },
+      "latency_ms": 9911.6
+    },
+    {
+      "source_module": "spring-web",
+      "true_targets": [
+        "spring-beans",
+        "spring-core",
+        "spring-oxm"
+      ],
+      "shown_deps": [
+        "spring-aop",
+        "spring-context"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-oxm",
+        "spring-expression",
+        "spring-messaging"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-oxm\nspring-expression\nspring-messaging",
+      "usage": {
+        "prompt_tokens": 582,
+        "completion_tokens": 539,
+        "total_tokens": 1121
+      },
+      "latency_ms": 12587.7
+    },
+    {
+      "source_module": "spring-orm",
+      "true_targets": [
+        "spring-context",
+        "spring-jdbc",
+        "spring-tx"
+      ],
+      "shown_deps": [
+        "spring-beans",
+        "spring-core",
+        "spring-web"
+      ],
+      "predicted": [
+        "spring-tx",
+        "spring-jdbc",
+        "spring-context",
+        "spring-aop",
+        "spring-instrument"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-tx\nspring-jdbc\nspring-context\nspring-aop\nspring-instrument",
+      "usage": {
+        "prompt_tokens": 581,
+        "completion_tokens": 745,
+        "total_tokens": 1326
+      },
+      "latency_ms": 12073.8
+    },
+    {
+      "source_module": "spring-aspects",
+      "true_targets": [
+        "spring-beans",
+        "spring-tx"
+      ],
+      "shown_deps": [
+        "spring-context",
+        "spring-context-support"
+      ],
+      "predicted": [
+        "spring-aop",
+        "spring-beans",
+        "spring-core",
+        "spring-tx",
+        "spring-orm"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "spring-aop\nspring-beans\nspring-core\nspring-tx\nspring-orm",
+      "usage": {
+        "prompt_tokens": 588,
+        "completion_tokens": 425,
+        "total_tokens": 1013
+      },
+      "latency_ms": 7860.5
+    },
+    {
+      "source_module": "spring-context-support",
+      "true_targets": [
+        "spring-beans",
+        "spring-context",
+        "spring-tx"
+      ],
+      "shown_deps": [
+        "spring-aop",
+        "spring-core",
+        "spring-jdbc"
+      ],
+      "predicted": [
+        "spring-context",
+        "spring-beans",
+        "spring-tx",
+        "spring-expression",
+        "spring-web"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "spring-context\nspring-beans\nspring-tx\nspring-expression\nspring-web",
+      "usage": {
+        "prompt_tokens": 580,
+        "completion_tokens": 537,
+        "total_tokens": 1117
+      },
+      "latency_ms": 8653.3
+    },
+    {
+      "source_module": "spring-aop",
+      "true_targets": [
+        "spring-core"
+      ],
+      "shown_deps": [
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-expression",
+        "spring-instrument",
+        "spring-context",
+        "spring-tx"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-expression\nspring-instrument\nspring-context\nspring-tx",
+      "usage": {
+        "prompt_tokens": 597,
+        "completion_tokens": 370,
+        "total_tokens": 967
+      },
+      "latency_ms": 9995.3
+    },
+    {
+      "source_module": "spring-webmvc",
+      "true_targets": [
+        "spring-aop",
+        "spring-context-support",
+        "spring-oxm",
+        "spring-web"
+      ],
+      "shown_deps": [
+        "spring-beans",
+        "spring-context",
+        "spring-core",
+        "spring-expression"
+      ],
+      "predicted": [
+        "spring-web",
+        "spring-context-support",
+        "spring-oxm",
+        "spring-aop",
+        "spring-messaging"
+      ],
+      "precision": 0.8,
+      "recall": 1.0,
+      "raw_response": "spring-web\nspring-context-support\nspring-oxm\nspring-aop\nspring-messaging",
+      "usage": {
+        "prompt_tokens": 572,
+        "completion_tokens": 490,
+        "total_tokens": 1062
+      },
+      "latency_ms": 8772.0
+    },
+    {
+      "source_module": "spring-tx",
+      "true_targets": [
+        "spring-context",
+        "spring-core"
+      ],
+      "shown_deps": [
+        "spring-aop",
+        "spring-beans"
+      ],
+      "predicted": [
+        "spring-core",
+        "spring-context",
+        "spring-expression",
+        "spring-instrument",
+        "spring-oxm"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-context\nspring-expression\nspring-instrument\nspring-oxm",
+      "usage": {
+        "prompt_tokens": 589,
+        "completion_tokens": 538,
+        "total_tokens": 1127
+      },
+      "latency_ms": 12492.6
+    },
+    {
+      "source_module": "spring-core-test",
+      "true_targets": [
+        "spring-core"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "spring-core",
+        "spring-beans",
+        "spring-context",
+        "spring-test",
+        "spring-aop"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "spring-core\nspring-beans\nspring-context\nspring-test\nspring-aop",
+      "usage": {
+        "prompt_tokens": 597,
+        "completion_tokens": 415,
+        "total_tokens": 1012
+      },
+      "latency_ms": 10304.9
+    }
+  ],
+  "timestamp": "2026-10-22T02:24:52.098706",
+  "model": "gpt-6-sol",
+  "project": "spring",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

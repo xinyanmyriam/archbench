@@ -1,0 +1,3421 @@
+{
+ "accuracy": 0.255,
+ "correct": 51,
+ "total": 200,
+ "n_with_snippet": 200,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 279455,
+  "completion_tokens": 19937,
+  "total_tokens": 299392
+ },
+ "results": [
+  {
+   "file": "dir_4a43/dir_1db9/dir_50aa/file_bc86.cxx",
+   "file_original": "smesh/src/SMESHDS/SMESHDS_Command.cxx",
+   "label": "module_7a78b1",
+   "label_original": "smesh/src/SMESHDS",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_3093a9",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct. The candidate names are anonymized, and you gave no description or file listing for any of them.\n\nFrom the code, the file is `SMESHDS_Command.cxx`. Its header comment reads \"SMESH SMESHDS : management of mesh data and SMESH document\", so it belongs to the SMESH module's SMESHDS (mesh data structure) component. The correct answer is whichever candidate represents SMESH/SMESHDS. Nothing in the file connects that to module_38ba3c, module_7a78b1, module_3093a9 or module_fb2d42.\n\nIf you can share which files or descriptions go with each candidate, I can match it properly. Without that, any letter I gave would be a pure guess, so I'd rather not give one.",
+   "usage": {
+    "prompt_tokens": 1486,
+    "completion_tokens": 248,
+    "total_tokens": 1734
+   },
+   "latency_ms": 5106.1
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3fc8/file_7746.cxx",
+   "file_original": "medcoupling/src/ShapeRecogn/Areas.cxx",
+   "label": "module_d699b2",
+   "label_original": "medcoupling/src/ShapeRecogn",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_36cbc0",
+   "correct": false,
+   "raw_response": "I can't map this file to a candidate with confidence, because the module names are anonymized and nothing ties a specific label to the code. Choosing D is essentially a guess.\n\nWhat the code does tell us:\n- It uses `namespace MEDCoupling` and the type `mcIdType`.\n- It includes `Areas.hxx`, `MathOps.hxx` and `cblas.h`.\n- It fits curvature-based primitives to mesh nodes (fields like `k1`, `k2` and `adimK1`).\n\nThis matches the shape-recognition component of the MEDCoupling library, which ships in SALOME's MEDCoupling package. So the file belongs to whichever candidate corresponds to MEDCoupling.\n\nD",
+   "usage": {
+    "prompt_tokens": 1696,
+    "completion_tokens": 235,
+    "total_tokens": 1931
+   },
+   "latency_ms": 4686.9
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_3ada/dir_0819/file_e532.py",
+   "file_original": "kernel/src/Container/ScriptsTemplate/SALOME_CM_LOCAL_MPI_OPENMPI.py",
+   "label": "module_751cd4",
+   "label_original": "kernel/src/Container",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_751cd4",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 519,
+    "completion_tokens": 3,
+    "total_tokens": 522
+   },
+   "latency_ms": 1853.9
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3fc8/file_5420.hxx",
+   "file_original": "medcoupling/src/ShapeRecogn/PrimitiveType.hxx",
+   "label": "module_d699b2",
+   "label_original": "medcoupling/src/ShapeRecogn",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_21b6d7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 977,
+    "completion_tokens": 43,
+    "total_tokens": 1020
+   },
+   "latency_ms": 3543.0
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/dir_8870/file_ac2b.py",
+   "file_original": "smesh/src/Tools/blocFissure/gmu/identifieElementsDebouchants_d.py",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1749,
+    "completion_tokens": 103,
+    "total_tokens": 1852
+   },
+   "latency_ms": 3794.6
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/file_1589.cxx",
+   "file_original": "kernel/src/SALOMEDS/SALOMEDS_SComponent.cxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f231d4",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module IDs to real names. This file is SALOMEDS_SComponent.cxx, which belongs to KERNEL's SALOMEDS module. Without any information about the candidates, this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1696,
+    "completion_tokens": 77,
+    "total_tokens": 1773
+   },
+   "latency_ms": 3013.7
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_5130/file_180a.h",
+   "file_original": "geom/src/GenerationGUI/GenerationGUI.h",
+   "label": "module_55371d",
+   "label_original": "geom/src/GenerationGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4dce1a",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 905,
+    "completion_tokens": 42,
+    "total_tokens": 947
+   },
+   "latency_ms": 2640.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_146a/dir_434a/file_2042.svg",
+   "file_original": "gui/src/SUIT/resources/sort_descending.svg",
+   "label": "module_aa8bee",
+   "label_original": "gui/src/SUIT",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5c2008",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 3,
+    "total_tokens": 1311
+   },
+   "latency_ms": 1855.7
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_d9dc/file_2c90.cxx",
+   "file_original": "kernel/src/SALOMEDSImpl/SALOMEDSImpl_AttributeString.cxx",
+   "label": "module_4dd92c",
+   "label_original": "kernel/src/SALOMEDSImpl",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4dd92c",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1529,
+    "completion_tokens": 98,
+    "total_tokens": 1627
+   },
+   "latency_ms": 3052.9
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_b2c7.txx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/Interpolation2D3D.txx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_aa8bee",
+   "correct": false,
+   "raw_response": "I can't tell which letter matches, because the candidate module names are anonymized and nothing in the file links them to real names. The file itself is clearly part of the INTERP_KERNEL library in MEDCoupling: it defines `Interpolation2D3D` in namespace `INTERP_KERNEL`. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2062,
+    "completion_tokens": 110,
+    "total_tokens": 2172
+   },
+   "latency_ms": 3774.2
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_d9dc/file_1d81.cxx",
+   "file_original": "kernel/src/SALOMEDSImpl/SALOMEDSImpl_IParameters.cxx",
+   "label": "module_4dd92c",
+   "label_original": "kernel/src/SALOMEDSImpl",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4dd92c",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1891,
+    "completion_tokens": 64,
+    "total_tokens": 1955
+   },
+   "latency_ms": 3022.4
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_a47e/dir_090e/dir_a5c0/file_d405.png",
+   "file_original": "yacs/src/pyqt/gui/icons/outstream.png",
+   "label": "module_27389a",
+   "label_original": "yacs/src/pyqt",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9ec32b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 3,
+    "total_tokens": 317
+   },
+   "latency_ms": 1885.8
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_146a/file_45a1.h",
+   "file_original": "gui/src/SUIT/SUIT_CameraProperties.h",
+   "label": "module_aa8bee",
+   "label_original": "gui/src/SUIT",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c25ecf",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1600,
+    "completion_tokens": 50,
+    "total_tokens": 1650
+   },
+   "latency_ms": 2569.2
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_ac2b/dir_434a/file_5aa1.png",
+   "file_original": "geom/src/DependencyTree/resources/tree_view_fitall.png",
+   "label": "module_241cdf",
+   "label_original": "geom/src/DependencyTree",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7d0f7d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 573,
+    "completion_tokens": 3,
+    "total_tokens": 576
+   },
+   "latency_ms": 1948.8
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3577/file_2a97.hxx",
+   "file_original": "medcoupling/src/MEDCoupling/MEDCouplingNatureOfField.hxx",
+   "label": "module_9b93de",
+   "label_original": "medcoupling/src/MEDCoupling",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9b93de",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 77,
+    "total_tokens": 1080
+   },
+   "latency_ms": 2697.7
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_fe3a/file_51b1.cxx",
+   "file_original": "yacs/src/ydfx_gui/YDFXGUIHostParametrizer.cxx",
+   "label": "module_74ad86",
+   "label_original": "yacs/src/ydfx_gui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_42a4e1",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module codes to real names without more context. The file itself is YDFXGUIHostParametrizer, a GUI component of the YACS evaluation (YDFX) widgets, which places it in the YACS module. With no distinguishing information about the candidates, this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2194,
+    "completion_tokens": 99,
+    "total_tokens": 2293
+   },
+   "latency_ms": 3170.6
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_5ee6/file_bd48.cxx",
+   "file_original": "smesh/src/MEDWrapper/MED_GaussUtils.cxx",
+   "label": "module_97cbb3",
+   "label_original": "smesh/src/MEDWrapper",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c4e572",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1459,
+    "completion_tokens": 143,
+    "total_tokens": 1602
+   },
+   "latency_ms": 3624.6
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_a26c/file_a21d.py",
+   "file_original": "medcoupling/src/MEDCoupling_Swig/UsersGuideExamplesTest.py",
+   "label": "module_92908e",
+   "label_original": "medcoupling/src/MEDCoupling_Swig",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_92908e",
+   "correct": true,
+   "raw_response": "I can't identify the module from the obfuscated names, because nothing links the candidate IDs to real modules. The file is a MEDCoupling documentation snippet (doxygen `PySnippet` markers), which suggests a docs/tutorial module within MEDCoupling, but I can't map that to a specific letter. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1904,
+    "completion_tokens": 112,
+    "total_tokens": 2016
+   },
+   "latency_ms": 3589.9
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_4cd5/dir_eb01/file_6690.xml",
+   "file_original": "yacs/src/yacsloader/samples/stream4.xml",
+   "label": "module_8b41bb",
+   "label_original": "yacs/src/yacsloader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_84cd3e",
+   "correct": false,
+   "raw_response": "I can't determine this reliably. The candidate module names are obfuscated and come with no descriptions, so I can't map this file to any of them with confidence.\n\nWhat the content does show: this is a YACS schema file (`<proc>` with inline, service and control nodes). It uses DSC components (DSCCODA, DSCCODB) and datastream ports (`instream`/`outstream` with the `BASIC_short` type). That makes it a YACS sample or test schema, probably from a `samples` directory. So the correct module is whichever anonymized name corresponds to YACS.\n\nNothing links YACS to any particular letter, so the answer below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1898,
+    "completion_tokens": 217,
+    "total_tokens": 2115
+   },
+   "latency_ms": 5423.5
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_9b78/file_6a65.cxx",
+   "file_original": "geom/src/XAO/XAO_Group.cxx",
+   "label": "module_62ae15",
+   "label_original": "geom/src/XAO",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_289eb0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 54,
+    "total_tokens": 1012
+   },
+   "latency_ms": 2515.5
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/dir_879c/file_a641.py",
+   "file_original": "smesh/src/Tools/blocFissure/materielCasTests/cubeAngle.py",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1916,
+    "completion_tokens": 182,
+    "total_tokens": 2098
+   },
+   "latency_ms": 4147.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_146a/file_c62a.h",
+   "file_original": "gui/src/SUIT/SUIT_LicenseDlg.h",
+   "label": "module_aa8bee",
+   "label_original": "gui/src/SUIT",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_adfb6f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 879,
+    "completion_tokens": 3,
+    "total_tokens": 882
+   },
+   "latency_ms": 1866.0
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/dir_7791/file_d127.hxx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/Geometric2D/InterpKernelGeo2DPrecision.hxx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_42a4e1",
+   "correct": false,
+   "raw_response": "I can't identify which obfuscated module ID corresponds to which real module, because none of the candidates come with a description.\n\nThe code itself is clear about its origin. It is `InterpKerNelGeo2DPrecision.hxx` from the INTERP_KERNEL library (`Geometric2D` component). That library ships in MEDCoupling, the MED module.\n\nWithout a mapping from that module to one of the four IDs, the choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 146,
+    "total_tokens": 1149
+   },
+   "latency_ms": 4028.7
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_6aa0.txx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/PointLocator3DIntersectorP1P1.txx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f00b74",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the module names are anonymized and nothing in the file maps to a particular one. My answer of A is a guess.\n\nWhat the code does show is that the file belongs to the INTERP_KERNEL (interpolation kernel) part of MEDCoupling, in SALOME's MED area. It is a template header in the `INTERP_KERNEL` namespace and includes `Intersector3DP1P1.txx` and `MeshUtils.hxx`. Which of the four candidates corresponds to that module can't be determined from the information given.\n\nA",
+   "usage": {
+    "prompt_tokens": 2152,
+    "completion_tokens": 183,
+    "total_tokens": 2335
+   },
+   "latency_ms": 4243.4
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_72fc/file_27b5.cxx",
+   "file_original": "geom/src/OCC2VTK/GEOM_VertexSource.cxx",
+   "label": "module_6eba3e",
+   "label_original": "geom/src/OCC2VTK",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2aabfa",
+   "correct": false,
+   "raw_response": "I can't identify this with confidence: the candidate module names are anonymized and give no hints, so this is a guess.\n\nThe file `GEOM_VertexSource` is a VTK data source that turns OpenCASCADE vertices into VTK geometry. In the GEOM project it lives in the OCC2VTK library (`src/OCC2VTK`), which handles conversion from OCC shapes to VTK for display. So the file most likely belongs to whichever obfuscated module corresponds to OCC2VTK, but nothing here maps that library to a specific letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 1425,
+    "completion_tokens": 184,
+    "total_tokens": 1609
+   },
+   "latency_ms": 4167.9
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_2b52.txx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/CurveIntersectorP1P0.txx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7bae8b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1857,
+    "completion_tokens": 59,
+    "total_tokens": 1916
+   },
+   "latency_ms": 2677.6
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3fc8/file_8333.hxx",
+   "file_original": "medcoupling/src/ShapeRecogn/AreasBuilder.hxx",
+   "label": "module_d699b2",
+   "label_original": "medcoupling/src/ShapeRecogn",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d699b2",
+   "correct": true,
+   "raw_response": "I can't determine this from the code alone, because the candidate module names are anonymized and nothing in the file maps to them. The code itself points clearly to MEDCoupling's ShapeRecogn component: it uses the `MEDCoupling` namespace, the `SHAPE_RECOGNITION_EXPORT` macro, and the `ShapeRecognDefines.hxx` include. That component sits inside the MEDCoupling/MED module, but I can't tell which of A–D that corresponds to. The letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 175,
+    "total_tokens": 1365
+   },
+   "latency_ms": 4149.8
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_cfbc/file_cf62.h",
+   "file_original": "geom/src/BlocksGUI/BlocksGUI.h",
+   "label": "module_c4e572",
+   "label_original": "geom/src/BlocksGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c4e572",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 65,
+    "total_tokens": 1007
+   },
+   "latency_ms": 2580.4
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_4c0e/file_274e.cxx",
+   "file_original": "smesh/src/StdMeshers_I/StdMeshers_Regular_1D_i.cxx",
+   "label": "module_398280",
+   "label_original": "smesh/src/StdMeshers_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c25ecf",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 83,
+    "total_tokens": 1473
+   },
+   "latency_ms": 2767.5
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_fa1a/file_2464.hxx",
+   "file_original": "geom/src/GEOMImpl/GEOMImpl_IFilling.hxx",
+   "label": "module_d21da9",
+   "label_original": "geom/src/GEOMImpl",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_336065",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the candidate module names are anonymized and nothing ties any of them to GEOM. The file is clearly `GEOMImpl_IFilling.hxx` from the GEOM module's `GEOMImpl` implementation library. My answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 98,
+    "total_tokens": 2042
+   },
+   "latency_ms": 2846.6
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_162a/file_e22b.cxx",
+   "file_original": "yacs/src/genericgui/FormContainerDecorator.cxx",
+   "label": "module_380cc2",
+   "label_original": "yacs/src/genericgui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1491,
+    "completion_tokens": 105,
+    "total_tokens": 1596
+   },
+   "latency_ms": 3184.7
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_a26c/file_6c70.i",
+   "file_original": "medcoupling/src/MEDCoupling_Swig/MEDCouplingRemapperCommon.i",
+   "label": "module_92908e",
+   "label_original": "medcoupling/src/MEDCoupling_Swig",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6ccb1d",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly MEDCoupling's SWIG interface for the remapper (`MEDCouplingRemapper.i`, under `src/MEDCoupling_Swig`), which belongs to the MEDCoupling module. But the candidate names are anonymized and nothing in the snippet links any of A–D to MEDCoupling. The answer below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 2173,
+    "completion_tokens": 138,
+    "total_tokens": 2311
+   },
+   "latency_ms": 3616.8
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_d79f/file_151d.cxx",
+   "file_original": "gui/src/LightApp/LightApp_Driver.cxx",
+   "label": "module_412412",
+   "label_original": "gui/src/LightApp",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0eb4c5",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1749,
+    "completion_tokens": 3,
+    "total_tokens": 1752
+   },
+   "latency_ms": 1824.1
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_a02c/file_aafb.cxx",
+   "file_original": "gui/src/VTKViewer/VTKViewer_OpenGLRenderer.cxx",
+   "label": "module_7bae8b",
+   "label_original": "gui/src/VTKViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7bae8b",
+   "correct": true,
+   "raw_response": "I can't single out the module with confidence: the candidate names are anonymized and nothing in the snippet maps to any of them.\n\nWhat the code does show:\n- The file implements `VTKViewer_OpenGLRenderer`, the OpenGL renderer that draws gradient backgrounds for SALOME's VTK viewer.\n- In SALOME, this class lives in the GUI module, under `src/VTKViewer`.\n- The path `dir_3ba0/dir_1db9/dir_a02c` likely corresponds to `GUI/src/VTKViewer`, so the answer is whichever candidate is the GUI module.\n\nNone of the four codes can be tied to GUI from the evidence given, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1715,
+    "completion_tokens": 237,
+    "total_tokens": 1952
+   },
+   "latency_ms": 4548.3
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_5c4c/file_12c7.hxx",
+   "file_original": "geom/src/AdvancedEngine/AdvancedEngine_SmoothingSurfaceDriver.hxx",
+   "label": "module_d6e257",
+   "label_original": "geom/src/AdvancedEngine",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_87b0da",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 64,
+    "total_tokens": 1329
+   },
+   "latency_ms": 2900.6
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_9b32/dir_bf73/file_6446.cxx",
+   "file_original": "gui/src/SalomeApp/Test/TestSalomeApp.cxx",
+   "label": "module_01289d",
+   "label_original": "gui/src/SalomeApp",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c6f2a7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 125,
+    "total_tokens": 1223
+   },
+   "latency_ms": 2961.1
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_5fd2/file_28e3.hxx",
+   "file_original": "kernel/src/Notification/SALOME_NOTIFICATION.hxx",
+   "label": "module_baeb07",
+   "label_original": "kernel/src/Notification",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b1ff2f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 918,
+    "completion_tokens": 81,
+    "total_tokens": 999
+   },
+   "latency_ms": 2694.7
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_9b78/dir_9746/file_e761.hxx",
+   "file_original": "geom/src/XAO/tests/FieldTest.hxx",
+   "label": "module_62ae15",
+   "label_original": "geom/src/XAO",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 109,
+    "total_tokens": 1412
+   },
+   "latency_ms": 3071.0
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_bb83/file_f29e.h",
+   "file_original": "gui/src/PV3DViewer/PV3DViewer.h",
+   "label": "module_d0f8d5",
+   "label_original": "gui/src/PV3DViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f7769c",
+   "correct": false,
+   "raw_response": "There is no way to tell from the code alone. The file is the export header for PV3DViewer, which in SALOME sits in the GUI module at `src/PV3DViewer`. It contains no includes, and the module names are anonymised, so nothing links it to a particular candidate. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 768,
+    "completion_tokens": 98,
+    "total_tokens": 866
+   },
+   "latency_ms": 2826.6
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_48bc/file_abb3.h",
+   "file_original": "gui/src/QDS/QDS_ComboBox.h",
+   "label": "module_9e1c31",
+   "label_original": "gui/src/QDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_19abc1",
+   "correct": false,
+   "raw_response": "Without module descriptions, can't map. Guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1511,
+    "completion_tokens": 20,
+    "total_tokens": 1531
+   },
+   "latency_ms": 2291.8
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_87b8/dir_434a/file_0a60.png",
+   "file_original": "gui/src/SVTK/resources/vtk_view_parameters.png",
+   "label": "module_663f10",
+   "label_original": "gui/src/SVTK",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9ec32b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 559,
+    "completion_tokens": 3,
+    "total_tokens": 562
+   },
+   "latency_ms": 1938.3
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/dir_762b/file_7fb5.ui",
+   "file_original": "smesh/src/Tools/blocFissure/ihm/fissureGenerale.ui",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2703,
+    "completion_tokens": 135,
+    "total_tokens": 2838
+   },
+   "latency_ms": 3834.6
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_d71d/file_3147.cxx",
+   "file_original": "smesh/src/SMESHUtils/SMESH_BoostTxtArchive.cxx",
+   "label": "module_948c1c",
+   "label_original": "smesh/src/SMESHUtils",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_f7769c",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the module names are obfuscated and nothing in the code connects to them. The file itself is easy to place: `SMESH_BoostTxtArchive.cxx` uses the `SMESHUtils` namespace, so it belongs to SMESH's utilities library (src/SMESHUtils). Mapping that to a letter is a guess.\n\nB",
+   "usage": {
+    "prompt_tokens": 1440,
+    "completion_tokens": 124,
+    "total_tokens": 1564
+   },
+   "latency_ms": 3280.6
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_b4c2/file_e5c8.h",
+   "file_original": "gui/src/PyViewer/PyViewer.h",
+   "label": "module_f231d4",
+   "label_original": "gui/src/PyViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f231d4",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 769,
+    "completion_tokens": 3,
+    "total_tokens": 772
+   },
+   "latency_ms": 1918.9
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_a26c/file_8f00.py",
+   "file_original": "medcoupling/src/MEDCoupling_Swig/MEDCouplingNumPyTest.py",
+   "label": "module_92908e",
+   "label_original": "medcoupling/src/MEDCoupling_Swig",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_92908e",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1562,
+    "completion_tokens": 142,
+    "total_tokens": 1704
+   },
+   "latency_ms": 3727.7
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_5cbb/file_f226.h",
+   "file_original": "geom/src/TransformationGUI/TransformationGUI_PositionDlg.h",
+   "label": "module_4814ea",
+   "label_original": "geom/src/TransformationGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0473e1",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1570,
+    "completion_tokens": 51,
+    "total_tokens": 1621
+   },
+   "latency_ms": 2753.3
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_633a/dir_7f98/file_5bc5.sip",
+   "file_original": "gui/src/SALOME_PYQT/SALOME_PYQT_GUILight/SALOME_PYQT_GUILight.sip",
+   "label": "module_38ba3c",
+   "label_original": "gui/src/SALOME_PYQT",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_288093",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 773,
+    "completion_tokens": 3,
+    "total_tokens": 776
+   },
+   "latency_ms": 2296.4
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_dab4/dir_3f8b/dir_d140/file_ffbf.txt",
+   "file_original": "kernel/src/AppQuickStart/app-template/src/CMakeLists.txt",
+   "label": "module_0471e7",
+   "label_original": "kernel/src/AppQuickStart",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_13d904",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 3,
+    "total_tokens": 652
+   },
+   "latency_ms": 2110.3
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_b05d/file_3a7e.h",
+   "file_original": "smesh/src/Driver/Driver_SMDS_Mesh.h",
+   "label": "module_08c3c8",
+   "label_original": "smesh/src/Driver",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e63e6d",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right: the candidate names are anonymized, and nothing in the prompt maps them to real SALOME components.\n\nThe code itself is clear. `Driver_SMDS_Mesh.h` is a mesh driver header: it uses the `MESHDRIVER_EXPORT` macro and works on `SMDS_Mesh`. In SALOME that places it in the SMESH mesh-driver library (`src/Driver`), so the correct answer is whichever module stands for SMESH, the mesh module. Since I can't confirm which letter that is, the pick below is only a placeholder.\n\nA",
+   "usage": {
+    "prompt_tokens": 872,
+    "completion_tokens": 199,
+    "total_tokens": 1071
+   },
+   "latency_ms": 4224.6
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_f902/file_24d1.cxx",
+   "file_original": "gui/src/GLViewer/GLViewer_BaseDrawers.cxx",
+   "label": "module_37857a",
+   "label_original": "gui/src/GLViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c457e0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1744,
+    "completion_tokens": 105,
+    "total_tokens": 1849
+   },
+   "latency_ms": 3361.2
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_1092/file_a633.cxx",
+   "file_original": "smesh/src/SMDS/SMDS_CellOfNodes.cxx",
+   "label": "module_2aabfa",
+   "label_original": "smesh/src/SMDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c457e0",
+   "correct": false,
+   "raw_response": "Insufficient info to map names; this is the SMDS module of SMESH. I have to guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 34,
+    "total_tokens": 1154
+   },
+   "latency_ms": 2272.5
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_146a/file_cd50.h",
+   "file_original": "gui/src/SUIT/SUIT_Session.h",
+   "label": "module_aa8bee",
+   "label_original": "gui/src/SUIT",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7ab4a9",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1491,
+    "completion_tokens": 3,
+    "total_tokens": 1494
+   },
+   "latency_ms": 1900.9
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_dcd8/file_8517.cmake",
+   "file_original": "yacs/src/engine_swig/CTestTestfileInstall.cmake",
+   "label": "module_69e7bb",
+   "label_original": "yacs/src/engine_swig",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0eb4c5",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 940,
+    "completion_tokens": 204,
+    "total_tokens": 1144
+   },
+   "latency_ms": 4595.4
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_f71a/file_82c4.cxx",
+   "file_original": "yacs/src/engine/WlmTask.cxx",
+   "label": "module_14df73",
+   "label_original": "yacs/src/engine",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8b41bb",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1541,
+    "completion_tokens": 3,
+    "total_tokens": 1544
+   },
+   "latency_ms": 2071.8
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_7383/file_34c0.hxx",
+   "file_original": "yacs/src/runtime/PythonPorts.hxx",
+   "label": "module_ac9e21",
+   "label_original": "yacs/src/runtime",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4b8bda",
+   "correct": false,
+   "raw_response": "Not determinable from the code: the file is clearly YACS runtime SALOME (`PythonPorts.hxx`, `YACSRuntimeSALOMEExport.hxx`), but nothing links that to any of the four anonymized module names. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1474,
+    "completion_tokens": 89,
+    "total_tokens": 1563
+   },
+   "latency_ms": 2909.3
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_590b/file_8777.py",
+   "file_original": "medcoupling/src/MEDConverter/aster.py",
+   "label": "module_6ddf75",
+   "label_original": "medcoupling/src/MEDConverter",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6ddf75",
+   "correct": true,
+   "raw_response": "I can't verify this from the evidence given. The candidate names are anonymised and no description of what each module contains was provided.\n\nThe file converts Code_Aster meshes to MED format using MEDCoupling-style structures (`MEDConverterMesh`, `UMesh`). In SALOME this converter likely belongs to the MEDCoupling or MED module, plausibly under `src/PyMEDConverter` or similar.\n\nWithout a mapping from that to one of the four codes, my pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1640,
+    "completion_tokens": 163,
+    "total_tokens": 1803
+   },
+   "latency_ms": 4389.0
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_c1ae/file_0fa6.cxx",
+   "file_original": "gui/src/Session/SALOME_Session_Server_No_Server.cxx",
+   "label": "module_44a935",
+   "label_original": "gui/src/Session",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_44a935",
+   "correct": true,
+   "raw_response": "I can't tell which letter is correct, because the module names are anonymized and I have no information mapping the candidates to real SALOME modules.\n\nWhat the code does show: the file includes `SALOME_Session_Server.cxx` and calls `AbstractGUIAppMain<GUIAppNewStyle>`. In SALOME, that matches the GUI module's Session sources (`src/Session/SALOME_Session_Server_With_Server.cxx` or similar). So the file belongs to the GUI/Session module, but I can't confirm which of A–D that is.\n\nMy answer below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 646,
+    "completion_tokens": 199,
+    "total_tokens": 845
+   },
+   "latency_ms": 4339.5
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_456d/file_329b.hxx",
+   "file_original": "geom/src/CurveCreator/CurveCreator.hxx",
+   "label": "module_8966bc",
+   "label_original": "geom/src/CurveCreator",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c4e572",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 97,
+    "total_tokens": 1076
+   },
+   "latency_ms": 2863.4
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_d9e5/dir_cd48/file_84ef.rst",
+   "file_original": "smesh/src/Tools/YamsPlug/doc/Mandatory_params.rst",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2077,
+    "completion_tokens": 3,
+    "total_tokens": 2080
+   },
+   "latency_ms": 2154.5
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_dd46/file_dd1a.cxx",
+   "file_original": "medcoupling/src/ParaMEDMEM/StructuredCoincidentDEC.cxx",
+   "label": "module_070688",
+   "label_original": "medcoupling/src/ParaMEDMEM",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bd6b1f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 69,
+    "total_tokens": 1589
+   },
+   "latency_ms": 2705.0
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_8c7b/file_e157.cxx",
+   "file_original": "medcoupling/src/INTERP_KERNELTest/ExprEvalInterpTest.cxx",
+   "label": "module_f448b6",
+   "label_original": "medcoupling/src/INTERP_KERNELTest",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9ac756",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2115,
+    "completion_tokens": 210,
+    "total_tokens": 2325
+   },
+   "latency_ms": 4199.7
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_5673/file_0ac8.hxx",
+   "file_original": "smesh/src/SMESH_I/SMESH_0D_Algo_i.hxx",
+   "label": "module_e3746f",
+   "label_original": "smesh/src/SMESH_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4370fa",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 39,
+    "total_tokens": 1166
+   },
+   "latency_ms": 2270.8
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_548b.h",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_PreviewDlg.h",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1648,
+    "completion_tokens": 82,
+    "total_tokens": 1730
+   },
+   "latency_ms": 2840.9
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3fc8/file_cdd2.cxx",
+   "file_original": "medcoupling/src/ShapeRecogn/NodesBuilder.cxx",
+   "label": "module_d699b2",
+   "label_original": "medcoupling/src/ShapeRecogn",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_95fdf4",
+   "correct": false,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 2071,
+    "completion_tokens": 3,
+    "total_tokens": 2074
+   },
+   "latency_ms": 1867.2
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_8c1f/file_64c6.h",
+   "file_original": "gui/src/OCCViewer/OCCViewer_ViewFrame.h",
+   "label": "module_f0e9fb",
+   "label_original": "gui/src/OCCViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_496306",
+   "correct": false,
+   "raw_response": "Without module descriptions this is a guess: the file is OCCViewer_ViewFrame.h from the GUI module's OCCViewer package, but the anonymized candidate names give no way to tell which one matches that.\n\nA",
+   "usage": {
+    "prompt_tokens": 1959,
+    "completion_tokens": 72,
+    "total_tokens": 2031
+   },
+   "latency_ms": 2758.3
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_980b/dir_eb6e/file_bf8a.cxx",
+   "file_original": "medcoupling/src/ParaMEDMEMTest/MPIAccess/TestMPIAccess.cxx",
+   "label": "module_57acf7",
+   "label_original": "medcoupling/src/ParaMEDMEMTest",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_57acf7",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 716,
+    "completion_tokens": 77,
+    "total_tokens": 793
+   },
+   "latency_ms": 2853.6
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_4c0e/file_ec9e.cxx",
+   "file_original": "smesh/src/StdMeshers_I/StdMeshers_Import_1D_i.cxx",
+   "label": "module_398280",
+   "label_original": "smesh/src/StdMeshers_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4b8bda",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 45,
+    "total_tokens": 1418
+   },
+   "latency_ms": 2423.7
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_0676.hxx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/ConvexIntersector.hxx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_288093",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code itself, because the candidate names are anonymized and give no mapping.\n\nThe file is ConvexIntersector.hxx from the INTERP_KERNEL namespace. That code belongs to MEDCoupling's INTERP_KERNEL library, so the correct module is whichever anonymized name maps to MEDCoupling / INTERP_KERNEL. With no other information to tell the four candidates apart, the choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 153,
+    "total_tokens": 1556
+   },
+   "latency_ms": 4269.0
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_53a5.h",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_FilterDlg.h",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c4e572",
+   "correct": false,
+   "raw_response": "I can't tell which letter matches, because the module names are anonymized and nothing ties them to real SALOME modules. The file itself is clearly `SMESHGUI_FilterDlg.h`, part of the SMESH GUI module (SMESHGUI). With no information linking any candidate to SMESHGUI, A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1697,
+    "completion_tokens": 111,
+    "total_tokens": 1808
+   },
+   "latency_ms": 3308.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_a1f6/file_6636.txt",
+   "file_original": "gui/src/TOOLSGUI/CMakeLists.txt",
+   "label": "module_289eb0",
+   "label_original": "gui/src/TOOLSGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_289eb0",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1683,
+    "completion_tokens": 99,
+    "total_tokens": 1782
+   },
+   "latency_ms": 3171.1
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_fa1a/file_4566.hxx",
+   "file_original": "geom/src/GEOMImpl/GEOMImpl_ICopy.hxx",
+   "label": "module_d21da9",
+   "label_original": "geom/src/GEOMImpl",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_d21da9",
+   "correct": true,
+   "raw_response": "I can't identify this one with confidence, so the letter below is a guess. The file is `GEOMImpl_ICopy.hxx`, which belongs to the GEOMImpl module inside SALOME's GEOM component. However, I have no information linking any of the four anonymized candidate IDs to GEOMImpl.\n\nD",
+   "usage": {
+    "prompt_tokens": 914,
+    "completion_tokens": 106,
+    "total_tokens": 1020
+   },
+   "latency_ms": 3416.8
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_4cd5/dir_eb01/file_098f.xml",
+   "file_original": "yacs/src/yacsloader/samples/file1.xml",
+   "label": "module_8b41bb",
+   "label_original": "yacs/src/yacsloader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8d1209",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone. The candidate names are anonymized and I have no mapping from them to SALOME modules.\n\nThe content is a YACS schema: a `<proc>` element with datanode, inline, service and outnode nodes and datalinks. This kind of file normally sits in the YACS module's `src/yacsloader/samples` directory. If one of the candidates corresponds to YACS, that is the answer, but I can't tell which letter that is, so this choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1511,
+    "completion_tokens": 159,
+    "total_tokens": 1670
+   },
+   "latency_ms": 3988.6
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_1887/file_9abb.cxx",
+   "file_original": "geom/src/MeasureGUI/MeasureGUI_Widgets.cxx",
+   "label": "module_d702ff",
+   "label_original": "geom/src/MeasureGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_336065",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1630,
+    "completion_tokens": 37,
+    "total_tokens": 1667
+   },
+   "latency_ms": 2364.9
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_f71a/file_2237.cxx",
+   "file_original": "yacs/src/engine/LogRecord.cxx",
+   "label": "module_14df73",
+   "label_original": "yacs/src/engine",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_288093",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the candidate module names are anonymized and nothing links them to real SALOME modules. The code itself is identifiable: it uses `YACS::ENGINE` and `YacsTrace.hxx`, so it belongs to the YACS engine module (`src/engine/LogRecord.cxx`). The letter below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 127,
+    "total_tokens": 1115
+   },
+   "latency_ms": 3445.3
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_4c0e/file_7b63.hxx",
+   "file_original": "smesh/src/StdMeshers_I/StdMeshers_Quadrangle_2D_i.hxx",
+   "label": "module_398280",
+   "label_original": "smesh/src/StdMeshers_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c5d08c",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to real ones from what's given. The file itself is clearly StdMeshers_Quadrangle_2D_i.hxx, the CORBA servant layer (StdMeshers_I) of the SMESH module. Without any mapping, my choice among the four candidates is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1629,
+    "completion_tokens": 103,
+    "total_tokens": 1732
+   },
+   "latency_ms": 3139.8
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_1887/file_e906.h",
+   "file_original": "geom/src/MeasureGUI/MeasureGUI_BndBoxDlg.h",
+   "label": "module_d702ff",
+   "label_original": "geom/src/MeasureGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_23cb21",
+   "correct": false,
+   "raw_response": "I can't determine this from the evidence. The file is clearly MeasureGUI_BndBoxDlg.h, part of GEOM's MeasureGUI library. But the candidate module names are anonymized hashes with no descriptions, so nothing links any letter to MeasureGUI or GEOM. Any letter I pick is an unsupported guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 117,
+    "total_tokens": 1486
+   },
+   "latency_ms": 3504.4
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_9b32/file_ec6c.py",
+   "file_original": "gui/src/SalomeApp/addvars2notebook.py",
+   "label": "module_01289d",
+   "label_original": "gui/src/SalomeApp",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f00b74",
+   "correct": false,
+   "raw_response": "I can't determine this with confidence. The file is `addvars2notebook.py`, which I believe ships with SALOME's GUI module. It manipulates study dump scripts by inserting `notebook.set(...)` lines before `from salome.kernel import iparameters`, which is GUI/SalomeApp-level behaviour. However, nothing in the code links GUI to a particular anonymized candidate name, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 287,
+    "total_tokens": 1540
+   },
+   "latency_ms": 5009.2
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_e3d3/dir_063a/file_b120.i",
+   "file_original": "gui/src/PVServerService/ServiceLoader/PVServer_ServiceLoader.i",
+   "label": "module_c6ef4c",
+   "label_original": "gui/src/PVServerService",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9facb4",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. The file is a SWIG interface for `PVServer_ServiceLoader`, which belongs to the ParaVis/GUI module area (in SALOME this lives in GUI under `src/PVServerService`). But none of the candidate module names can be tied to that from the information given, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 796,
+    "completion_tokens": 110,
+    "total_tokens": 906
+   },
+   "latency_ms": 3463.0
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/dir_8870/file_29ec.py",
+   "file_original": "smesh/src/Tools/blocFissure/gmu/partitionneFissureParPipe.py",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2419,
+    "completion_tokens": 133,
+    "total_tokens": 2552
+   },
+   "latency_ms": 3580.2
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_c208/dir_ff1d/file_3468.py",
+   "file_original": "kernel/src/KERNEL_PY/kernel/logger.py",
+   "label": "module_cc2d43",
+   "label_original": "kernel/src/KERNEL_PY",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7d0f7d",
+   "correct": false,
+   "raw_response": "This is the Salome logger, part of the KERNEL module's Python package (salome.kernel.logger). The module names are obfuscated and no mapping is given, so I cannot tell which letter corresponds to KERNEL; this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1793,
+    "completion_tokens": 81,
+    "total_tokens": 1874
+   },
+   "latency_ms": 2725.4
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_8796.h",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_CreateDualMeshOp.h",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6d06d",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right. The file is clearly part of SMESHGUI, the GUI layer of the SMESH component: it is `SMESHGUI_CreateDualMeshOp.h`, it inherits from `SMESHGUI_SelectionOp`, and it uses the `SMESHGUI_EXPORT` macro. However, the candidate module names are anonymized and nothing in the code links any of them to SMESHGUI, so the choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 158,
+    "total_tokens": 1382
+   },
+   "latency_ms": 3498.5
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_d79f/file_a7a4.h",
+   "file_original": "gui/src/LightApp/LightApp_Application.h",
+   "label": "module_412412",
+   "label_original": "gui/src/LightApp",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e371ac",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly LightApp_Application.h, part of the GUI module's LightApp package. However, the module names are anonymized, and nothing in the content links \"GUI\" to any of A–D. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1570,
+    "completion_tokens": 81,
+    "total_tokens": 1651
+   },
+   "latency_ms": 2949.5
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_c90e.hxx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/PolyhedronIntersectorP0P0.hxx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ea25f4",
+   "correct": false,
+   "raw_response": "Without the module descriptions I cannot map this to a specific letter, so this is a guess. The file is INTERP_KERNEL's PolyhedronIntersectorP0P0, which belongs to the MEDCoupling/INTERP_KERNEL module.\n\nA",
+   "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 88,
+    "total_tokens": 1327
+   },
+   "latency_ms": 2654.7
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_4cd5/dir_eb01/file_cbdf.xml",
+   "file_original": "yacs/src/yacsloader/samples/stream3.xml",
+   "label": "module_8b41bb",
+   "label_original": "yacs/src/yacsloader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8b41bb",
+   "correct": true,
+   "raw_response": "This is a YACS workflow schema: a `<proc>` with inline and service nodes, datalinks and stream links, using DSC components. Such schemas live in the YACS samples directory, so the file belongs to the YACS module. The module names are anonymized, and nothing in the file maps them to YACS, so the choice of letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1828,
+    "completion_tokens": 113,
+    "total_tokens": 1941
+   },
+   "latency_ms": 3295.5
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_7691/dir_45b6/file_2c98.png",
+   "file_original": "gui/src/Qtx/images/qtx_split3_5.png",
+   "label": "module_591e92",
+   "label_original": "gui/src/Qtx",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b581dc",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1549,
+    "completion_tokens": 3,
+    "total_tokens": 1552
+   },
+   "latency_ms": 1729.2
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_4c0e/file_212c.hxx",
+   "file_original": "smesh/src/StdMeshers_I/StdMeshers_ProjectionSource1D_i.hxx",
+   "label": "module_398280",
+   "label_original": "smesh/src/StdMeshers_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8b41bb",
+   "correct": false,
+   "raw_response": "Cannot determine module names from the obfuscated labels; the file is StdMeshers_I, the CORBA implementation of the standard meshing hypotheses in SMESH. With no other information to separate the candidates, this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1714,
+    "completion_tokens": 78,
+    "total_tokens": 1792
+   },
+   "latency_ms": 2987.3
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/file_03d0.py",
+   "file_original": "smesh/src/Tools/blocFissure/AREextradosLauncher.py",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 104,
+    "total_tokens": 1183
+   },
+   "latency_ms": 3335.0
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_7383/file_3ce9.hxx",
+   "file_original": "yacs/src/runtime/SalomePythonNode.hxx",
+   "label": "module_ac9e21",
+   "label_original": "yacs/src/runtime",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e63e6d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1026,
+    "completion_tokens": 3,
+    "total_tokens": 1029
+   },
+   "latency_ms": 1958.0
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_9226/file_6636.txt",
+   "file_original": "gui/src/QtViewer/CMakeLists.txt",
+   "label": "module_21f582",
+   "label_original": "gui/src/QtViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_95fdf4",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, so this is a guess. The file is the CMakeLists.txt for QtViewer, which belongs to the GUI module (it uses `PROJECT_SOURCE_DIR/src/Qtx`, `SUIT` and `ImageComposer`). The candidate names are anonymized and nothing in the code links GUI to any one letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 1542,
+    "completion_tokens": 125,
+    "total_tokens": 1667
+   },
+   "latency_ms": 3239.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_633a/dir_7f98/file_f53c.h",
+   "file_original": "gui/src/SALOME_PYQT/SALOME_PYQT_GUILight/SALOME_PYQT_ModuleLight.h",
+   "label": "module_38ba3c",
+   "label_original": "gui/src/SALOME_PYQT",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b0f962",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1657,
+    "completion_tokens": 3,
+    "total_tokens": 1660
+   },
+   "latency_ms": 1911.5
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_7383/file_6ff4.cxx",
+   "file_original": "yacs/src/runtime/CORBACORBAConv.cxx",
+   "label": "module_ac9e21",
+   "label_original": "yacs/src/runtime",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f7769c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly from YACS's runtime library (YACS::ENGINE CORBA port conversion, in `src/runtime`). However, the candidate module names are anonymized, and nothing in the code links any of them to YACS. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 932,
+    "completion_tokens": 95,
+    "total_tokens": 1027
+   },
+   "latency_ms": 3820.4
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_ac2b/file_6b38.h",
+   "file_original": "geom/src/DependencyTree/DependencyTree.h",
+   "label": "module_241cdf",
+   "label_original": "geom/src/DependencyTree",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_32a157",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 787,
+    "completion_tokens": 83,
+    "total_tokens": 870
+   },
+   "latency_ms": 2912.4
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3577/file_2876.hxx",
+   "file_original": "medcoupling/src/MEDCoupling/MEDCouplingFieldT.hxx",
+   "label": "module_9b93de",
+   "label_original": "medcoupling/src/MEDCoupling",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9b93de",
+   "correct": true,
+   "raw_response": "I have no information mapping the anonymized module names to real ones. The file is MEDCouplingFieldT.hxx, which belongs to the MEDCoupling library in the MEDCoupling repository. Which letter corresponds to that module can't be deduced from the code, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2733,
+    "completion_tokens": 98,
+    "total_tokens": 2831
+   },
+   "latency_ms": 3266.4
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_22ac/file_1a76.hxx",
+   "file_original": "kernel/src/HDFPersist/HDFfile.hxx",
+   "label": "module_03515d",
+   "label_original": "kernel/src/HDFPersist",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_288093",
+   "correct": false,
+   "raw_response": "I can't identify the module with any confidence. The file is clearly part of HDFPersist in SALOME KERNEL, but the candidate names are anonymized and I have no information mapping HDFPersist to any of them, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 79,
+    "total_tokens": 1172
+   },
+   "latency_ms": 2751.9
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_a874/file_6cda.cxx",
+   "file_original": "kernel/src/SALOMESDS/SALOME_DataScopeServer_SSL.cxx",
+   "label": "module_e409e7",
+   "label_original": "kernel/src/SALOMESDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9268b3",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code itself, since the candidate names are obfuscated and come with no descriptions. The file is SALOME_DataScopeServer_SSL.cxx, part of SALOMESDS in the KERNEL component, but I have no way to tell which of the four labels stands for that module. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 108,
+    "total_tokens": 1325
+   },
+   "latency_ms": 3226.4
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3577/file_81b0.hxx",
+   "file_original": "medcoupling/src/MEDCoupling/MEDCouplingVoronoi.hxx",
+   "label": "module_9b93de",
+   "label_original": "medcoupling/src/MEDCoupling",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9b93de",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 64,
+    "total_tokens": 1165
+   },
+   "latency_ms": 2785.4
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_054e/file_f21a.cxx",
+   "file_original": "yacs/src/evalyfx/YACSEvalYFX.cxx",
+   "label": "module_3665b6",
+   "label_original": "yacs/src/evalyfx",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f00b74",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1698,
+    "completion_tokens": 3,
+    "total_tokens": 1701
+   },
+   "latency_ms": 1910.8
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_83a4.h",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_PatternWidget.h",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0eb4c5",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct: all four module names are anonymized, and nothing in the file links any of them to SMESH or SMESHGUI.\n\nThe file itself is clearly `SMESHGUI_PatternWidget.h`, part of the SMESHGUI module (the GUI for the SMESH meshing component). The header comment and the `SMESHGUI_EXPORT` macro both show this.\n\nSo the answer is whichever candidate is the SMESHGUI module. Since I have to pick one, my answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 173,
+    "total_tokens": 1445
+   },
+   "latency_ms": 4027.8
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_a1f6/file_71c7.cxx",
+   "file_original": "gui/src/TOOLSGUI/ToolsGUI.cxx",
+   "label": "module_289eb0",
+   "label_original": "gui/src/TOOLSGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_289eb0",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1663,
+    "completion_tokens": 65,
+    "total_tokens": 1728
+   },
+   "latency_ms": 2727.0
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/dir_bf73/file_9f1c.cxx",
+   "file_original": "kernel/src/SALOMEDS/Test/SALOMEDSTest_AttributeTableOfReal.cxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8966bc",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1686,
+    "completion_tokens": 3,
+    "total_tokens": 1689
+   },
+   "latency_ms": 2012.5
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_1f98/dir_bf73/file_4acf.cxx",
+   "file_original": "gui/src/TreeData/Test/tester.cxx",
+   "label": "module_6e6923",
+   "label_original": "gui/src/TreeData",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0a9185",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 3,
+    "total_tokens": 1261
+   },
+   "latency_ms": 1977.3
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_87b8/file_3d9b.cxx",
+   "file_original": "gui/src/SVTK/SVTK_AreaPicker.cxx",
+   "label": "module_663f10",
+   "label_original": "gui/src/SVTK",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_62ae15",
+   "correct": false,
+   "raw_response": "I have no information linking any of the anonymized module names to their real contents, so this is a guess. The file is SVTK_AreaPicker.cxx, part of the SVTK viewer in the SALOME GUI, but nothing indicates which candidate corresponds to SVTK.\n\nA",
+   "usage": {
+    "prompt_tokens": 1804,
+    "completion_tokens": 92,
+    "total_tokens": 1896
+   },
+   "latency_ms": 2848.2
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_c73c/dir_15e8/dir_2b6b/file_cffa.html",
+   "file_original": "smesh/src/Tools/Verima/CreeDocuments/templatesHtml/sansGroupe.html",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 769,
+    "completion_tokens": 309,
+    "total_tokens": 1078
+   },
+   "latency_ms": 6289.1
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/dir_bf73/file_ad64.cxx",
+   "file_original": "kernel/src/SALOMEDS/Test/SALOMEDSTest_AttributeReal.cxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_92908e",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 3,
+    "total_tokens": 1118
+   },
+   "latency_ms": 2087.1
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_a373/file_d0dd.cxx",
+   "file_original": "medcoupling/src/MEDPartitioner/MEDPARTITIONER_MeshCollectionMedXmlDriver.cxx",
+   "label": "module_161bc6",
+   "label_original": "medcoupling/src/MEDPartitioner",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_288093",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct. The code itself is clear: it is `MEDPARTITIONER_MeshCollectionMedXmlDriver.cxx`, part of the MEDPARTITIONER component in SALOME's MEDCoupling repository. But the four candidate module names are anonymised hashes with no descriptions, so nothing links any of them to MEDPARTITIONER. The letter below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1777,
+    "completion_tokens": 147,
+    "total_tokens": 1924
+   },
+   "latency_ms": 3726.9
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_546f.txx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/CurveIntersectorP1P1.txx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_efbd5f",
+   "correct": false,
+   "raw_response": "I can't identify the module from the file's content. The code is CurveIntersectorP1P1.txx from INTERP_KERNEL, which is part of MEDCoupling's interpolation kernel. However, the candidate module names are obfuscated, and nothing in the prompt says which one corresponds to MEDCoupling or INTERP_KERNEL. Any choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1858,
+    "completion_tokens": 127,
+    "total_tokens": 1985
+   },
+   "latency_ms": 3424.8
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_f75f/file_3f84.hxx",
+   "file_original": "kernel/src/DF/DF_Attribute.hxx",
+   "label": "module_8e68d5",
+   "label_original": "kernel/src/DF",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_336065",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1296,
+    "completion_tokens": 82,
+    "total_tokens": 1378
+   },
+   "latency_ms": 2906.3
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_09bf/dir_434a/file_0c3e.ts",
+   "file_original": "gui/src/CAM/resources/CAM_msg_ja.ts",
+   "label": "module_3093a9",
+   "label_original": "gui/src/CAM",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c80f0e",
+   "correct": false,
+   "raw_response": "Can't determine reliably; module names give no hint. The messages (ERROR_ACTIVATE_MODULE_MSG, MODULE_ROOT_OBJECT_TOOLTIP, MODULE_ACTIVATED) look like the GUI's LightApp translation file, but I can't map that to any of the four anonymized names, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 805,
+    "completion_tokens": 122,
+    "total_tokens": 927
+   },
+   "latency_ms": 3420.4
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_83f1/file_ed61.cxx",
+   "file_original": "geom/src/BasicGUI/BasicGUI_WorkingPlaneDlg.cxx",
+   "label": "module_cb5e4d",
+   "label_original": "geom/src/BasicGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7a736c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly BasicGUI_WorkingPlaneDlg.cxx, part of the GEOM component's GUI (the BasicGUI library), but the candidate module names are anonymized. Nothing in the code links any of them to GEOM. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2277,
+    "completion_tokens": 106,
+    "total_tokens": 2383
+   },
+   "latency_ms": 3515.4
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/dir_8870/file_59d3.py",
+   "file_original": "smesh/src/Tools/blocFissure/gmu/listOfExtraFunctions.py",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2045,
+    "completion_tokens": 154,
+    "total_tokens": 2199
+   },
+   "latency_ms": 3844.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_1f98/file_79a7.cxx",
+   "file_original": "gui/src/TreeData/DataModel.cxx",
+   "label": "module_6e6923",
+   "label_original": "gui/src/TreeData",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8d1209",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 136,
+    "total_tokens": 1103
+   },
+   "latency_ms": 3670.1
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_7383/file_bf7b.cxx",
+   "file_original": "yacs/src/runtime/CppNeutralConv.cxx",
+   "label": "module_ac9e21",
+   "label_original": "yacs/src/runtime",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_ac9e21",
+   "correct": true,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 84,
+    "total_tokens": 1256
+   },
+   "latency_ms": 2696.5
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_ac2b/dir_434a/file_f73f.png",
+   "file_original": "geom/src/DependencyTree/resources/tree_view_glpan.png",
+   "label": "module_241cdf",
+   "label_original": "geom/src/DependencyTree",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_30d8ed",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 680,
+    "completion_tokens": 3,
+    "total_tokens": 683
+   },
+   "latency_ms": 2033.9
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/file_2cfb.hxx",
+   "file_original": "kernel/src/SALOMEDS/KernelDS.hxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4370fa",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 81,
+    "total_tokens": 752
+   },
+   "latency_ms": 2772.5
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_ce74.txx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/PlanarIntersectorP0P1Bary.txx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8e68d5",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1985,
+    "completion_tokens": 77,
+    "total_tokens": 2062
+   },
+   "latency_ms": 2842.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_7a55/file_7181.cxx",
+   "file_original": "gui/src/Plot2d/Plot2d_PlotItems.cxx",
+   "label": "module_42a4e1",
+   "label_original": "gui/src/Plot2d",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_57d76c",
+   "correct": false,
+   "raw_response": "No module descriptions are given, so this is a guess. The file is Plot2d_PlotItems.cxx, which belongs to the Plot2d viewer in GUI_SRC (`src/Plot2d`). The candidate labels carry no information that links any of them to Plot2d, so the letter below is essentially arbitrary.\n\nA",
+   "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 109,
+    "total_tokens": 1701
+   },
+   "latency_ms": 3391.7
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_dfe6/dir_eaee/file_6fee.ui",
+   "file_original": "geom/src/Tools/t_shape/t_shape_dialog.ui",
+   "label": "module_67da8f",
+   "label_original": "geom/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b0f962",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1297,
+    "completion_tokens": 570,
+    "total_tokens": 1867
+   },
+   "latency_ms": 10511.5
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_54ec.h",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_VTKUtils.h",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c3fbd6",
+   "correct": false,
+   "raw_response": "I can't tell which module this is: the candidates are bare hashes with no descriptions or names. The file itself is clearly SMESHGUI_VTKUtils.h, part of SMESH's GUI component (SMESHGUI). It defines the export macro `SMESHGUI_EXPORT` and includes `SMESH_SMESHGUI.hxx`. Without knowing which hash maps to SMESHGUI, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1693,
+    "completion_tokens": 150,
+    "total_tokens": 1843
+   },
+   "latency_ms": 3971.8
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_162a/dir_434a/file_f903.png",
+   "file_original": "yacs/src/genericgui/resources/icon_up.png",
+   "label": "module_380cc2",
+   "label_original": "yacs/src/genericgui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 67,
+    "total_tokens": 379
+   },
+   "latency_ms": 2816.0
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_4cd5/file_cbf6.hxx",
+   "file_original": "yacs/src/yacsloader/xmlParserBase.hxx",
+   "label": "module_8b41bb",
+   "label_original": "yacs/src/yacsloader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c43b85",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1554,
+    "completion_tokens": 115,
+    "total_tokens": 1669
+   },
+   "latency_ms": 3353.0
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/dir_cd48/dir_6e31/file_1016.png",
+   "file_original": "smesh/src/Tools/blocFissure/doc/images/general_princ_h.png",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3791,
+    "completion_tokens": 3,
+    "total_tokens": 3794
+   },
+   "latency_ms": 2226.1
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_a47e/dir_5b30/file_57f7.xml",
+   "file_original": "yacs/src/pyqt/salomefiles/procmacro3.xml",
+   "label": "module_27389a",
+   "label_original": "yacs/src/pyqt",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_27389a",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1893,
+    "completion_tokens": 80,
+    "total_tokens": 1973
+   },
+   "latency_ms": 3162.6
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/file_0bd3.cxx",
+   "file_original": "kernel/src/SALOMEDS/SALOMEDS_AttributeLocalID.cxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7af8e6",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. The file is SALOMEDS_AttributeLocalID.cxx, a client-side wrapper that switches between a local SALOMEDSImpl implementation and a CORBA call. In the SALOME KERNEL source tree it sits in src/SALOMEDS, so it belongs to the SALOMEDS module. However, the candidate module names are anonymized and nothing in the prompt maps any of them to SALOMEDS, so my pick is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 170,
+    "total_tokens": 1468
+   },
+   "latency_ms": 3968.1
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_87b8/file_212f.h",
+   "file_original": "gui/src/SVTK/SVTK_Utils.h",
+   "label": "module_663f10",
+   "label_original": "gui/src/SVTK",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_164a44",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct. The file is SVTK_Utils.h, part of the SVTK library (the VTK viewer in the GUI module), but the module names are anonymized and give no hint about which one contains SVTK. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 879,
+    "completion_tokens": 83,
+    "total_tokens": 962
+   },
+   "latency_ms": 2677.8
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_8a3c.cxx",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_Meshio.cxx",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6e76a4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1608,
+    "completion_tokens": 107,
+    "total_tokens": 1715
+   },
+   "latency_ms": 2939.3
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_87b8/file_a2e4.cxx",
+   "file_original": "gui/src/SVTK/SVTK_ViewModel.cxx",
+   "label": "module_663f10",
+   "label_original": "gui/src/SVTK",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d22f37",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly SVTK_ViewModel.cxx, which lives in SALOME GUI's SVTK module (src/SVTK). But the candidate module names are anonymized, and nothing given maps them to real modules. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1759,
+    "completion_tokens": 97,
+    "total_tokens": 1856
+   },
+   "latency_ms": 3389.5
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_591e/file_9b42.hxx",
+   "file_original": "yacs/src/salomewrap/WrapGraphicsView.hxx",
+   "label": "module_68012a",
+   "label_original": "yacs/src/salomewrap",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_68012a",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 882,
+    "completion_tokens": 72,
+    "total_tokens": 954
+   },
+   "latency_ms": 2903.4
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_9b32/file_9652.cxx",
+   "file_original": "gui/src/SalomeApp/SalomeApp_IntSpinBox.cxx",
+   "label": "module_01289d",
+   "label_original": "gui/src/SalomeApp",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c6f2a7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1452,
+    "completion_tokens": 49,
+    "total_tokens": 1501
+   },
+   "latency_ms": 2661.0
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_dd46/file_c2a7.hxx",
+   "file_original": "medcoupling/src/ParaMEDMEM/ExplicitMapping.hxx",
+   "label": "module_070688",
+   "label_original": "medcoupling/src/ParaMEDMEM",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e63e6d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 119,
+    "total_tokens": 1248
+   },
+   "latency_ms": 3208.4
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_4c0e/file_5bbc.hxx",
+   "file_original": "smesh/src/StdMeshers_I/StdMeshers_NumberOfSegments_i.hxx",
+   "label": "module_398280",
+   "label_original": "smesh/src/StdMeshers_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_785919",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code alone. The file is StdMeshers_NumberOfSegments_i.hxx, the CORBA servant layer for the StdMeshers hypotheses, which sits in SMESH's src/StdMeshers_I directory. The candidate module names are anonymized, though, and nothing in the code links StdMeshers_I to a particular letter. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1914,
+    "completion_tokens": 134,
+    "total_tokens": 2048
+   },
+   "latency_ms": 3244.3
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_5c0d.h",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_ClippingDlg.h",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_289eb0",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly SMESHGUI_ClippingDlg.h, part of the SMESHGUI module in SMESH. But the candidate names are anonymized hashes with no descriptions, so nothing in the code links SMESHGUI to any one of A–D. Any letter I give is essentially a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1585,
+    "completion_tokens": 113,
+    "total_tokens": 1698
+   },
+   "latency_ms": 3424.9
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_162a/dir_434a/file_c572.png",
+   "file_original": "yacs/src/genericgui/resources/new_salomepy_component.png",
+   "label": "module_380cc2",
+   "label_original": "yacs/src/genericgui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 575,
+    "completion_tokens": 3,
+    "total_tokens": 578
+   },
+   "latency_ms": 1810.7
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_fe3a/file_d460.hxx",
+   "file_original": "yacs/src/ydfx_gui/YDFXGUIWrap.hxx",
+   "label": "module_74ad86",
+   "label_original": "yacs/src/ydfx_gui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69e7bb",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. The file is clearly part of YACS's ydfx GUI widgets (the evalyfx GUI wrapper). But the candidate module names are hashed and give no content clue, so this is a best guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1554,
+    "completion_tokens": 79,
+    "total_tokens": 1633
+   },
+   "latency_ms": 3060.8
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_a02c/dir_6942/file_4383.dat",
+   "file_original": "gui/src/VTKViewer/textures/texture3.dat",
+   "label": "module_7bae8b",
+   "label_original": "gui/src/VTKViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7bae8b",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 866,
+    "completion_tokens": 436,
+    "total_tokens": 1302
+   },
+   "latency_ms": 7774.6
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_8c1f/file_ceca.h",
+   "file_original": "gui/src/OCCViewer/OCCViewer_ClippingDlg.h",
+   "label": "module_f0e9fb",
+   "label_original": "gui/src/OCCViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f0e9fb",
+   "correct": true,
+   "raw_response": "No module descriptions were given, so I can't map this file to a candidate with confidence; my answer below is a guess.\n\nThe code itself is clear. It is `OCCViewer_ClippingDlg.h`, part of the OCCViewer package (the OpenCASCADE 3D viewer) in SALOME's GUI module. With only anonymized module names to choose from, I picked A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 1612,
+    "completion_tokens": 131,
+    "total_tokens": 1743
+   },
+   "latency_ms": 3763.9
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_8c7b/file_6dc6.cxx",
+   "file_original": "medcoupling/src/INTERP_KERNELTest/TestInterpKernelUtils.cxx",
+   "label": "module_f448b6",
+   "label_original": "medcoupling/src/INTERP_KERNELTest",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_fb2d42",
+   "correct": false,
+   "raw_response": "I can't pick a letter with any confidence, because the candidate module names are anonymized and nothing in the code links to them.\n\nFrom the code, the file is the `TestInterpKernelUtils` implementation: the `INTERP_TEST` namespace, `INTERP_KERNEL::Exception`, and `MEDCOUPLING_ROOT_DIR` lookups. In real SALOME it would sit in MEDCoupling's `INTERP_KERNELTest` directory, part of the MEDCoupling (interpolation kernel) module. Matching that to one of the four hashed names isn't possible from the information given.\n\nIf I must answer, it is essentially a guess: A",
+   "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 218,
+    "total_tokens": 1595
+   },
+   "latency_ms": 4381.3
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_1f98/file_3233.hxx",
+   "file_original": "gui/src/TreeData/TreeItem.hxx",
+   "label": "module_6e6923",
+   "label_original": "gui/src/TreeData",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ac9e21",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1315,
+    "completion_tokens": 71,
+    "total_tokens": 1386
+   },
+   "latency_ms": 3084.3
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_980b/file_89e5.cxx",
+   "file_original": "medcoupling/src/ParaMEDMEMTest/ParaMEDMEMTestMPI2_2.cxx",
+   "label": "module_57acf7",
+   "label_original": "medcoupling/src/ParaMEDMEMTest",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_57acf7",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2070,
+    "completion_tokens": 104,
+    "total_tokens": 2174
+   },
+   "latency_ms": 2932.5
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_22ac/file_506f.c",
+   "file_original": "kernel/src/HDFPersist/HDFdatasetOpen.c",
+   "label": "module_03515d",
+   "label_original": "kernel/src/HDFPersist",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9268b3",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 61,
+    "total_tokens": 1050
+   },
+   "latency_ms": 2893.7
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_162a/file_99df.cxx",
+   "file_original": "yacs/src/genericgui/YACSGuiLoader.cxx",
+   "label": "module_380cc2",
+   "label_original": "yacs/src/genericgui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code. The file is YACSGuiLoader.cxx, which lives in the YACS GUI layer (src/hmi in YACS). But the candidate names are anonymized and carry no content I can map to that layer. This answer is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1536,
+    "completion_tokens": 94,
+    "total_tokens": 1630
+   },
+   "latency_ms": 3228.2
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_1da4/dir_bf73/file_1cf6.hxx",
+   "file_original": "kernel/src/NamingService/Test/NamingServiceTest.hxx",
+   "label": "module_2d14c6",
+   "label_original": "kernel/src/NamingService",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_21b6d7",
+   "correct": false,
+   "raw_response": "Without names, can't distinguish module identities. Any guess is a coin flip. This file is the NamingService unit test from SALOME KERNEL (src/NamingService/Test/NamingServiceTest.hxx), so the right answer is whichever obfuscated module corresponds to KERNEL. The code doesn't let me map that to any letter, so I'm picking arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 2120,
+    "completion_tokens": 128,
+    "total_tokens": 2248
+   },
+   "latency_ms": 4828.5
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_1887/file_a217.h",
+   "file_original": "geom/src/MeasureGUI/MeasureGUI_CreateDimensionDlg.h",
+   "label": "module_d702ff",
+   "label_original": "geom/src/MeasureGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_87b0da",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is MeasureGUI_CreateDimensionDlg.h, from the GEOM component's MeasureGUI library. But the candidate module names are anonymized hashes with no descriptive information, so nothing links any of them to GEOM or MeasureGUI. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1643,
+    "completion_tokens": 108,
+    "total_tokens": 1751
+   },
+   "latency_ms": 3029.2
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_162a/dir_434a/file_38b8.png",
+   "file_original": "yacs/src/genericgui/resources/stream_link.png",
+   "label": "module_380cc2",
+   "label_original": "yacs/src/genericgui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": true,
+   "raw_response": "The file is a small PNG icon, which carries no imports, includes or code to tie it to a specific module. The path depth (something like `src/<component>/resources/icon.png`) suggests a GUI resource, but nothing distinguishes between the candidates, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 399,
+    "completion_tokens": 177,
+    "total_tokens": 576
+   },
+   "latency_ms": 3835.2
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_d4a8/dir_b80f/dir_4932/dir_3026/file_61a0.png",
+   "file_original": "yacs/src/wrappergen/src/HXX2SALOME_GENERIC_CLASS_NAME_SRC/resources/ExecHXX2SALOME_GENERIC_CLASS_NAME.png",
+   "label": "module_c1c550",
+   "label_original": "yacs/src/wrappergen",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_95fdf4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 3,
+    "total_tokens": 660
+   },
+   "latency_ms": 22518.6
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_a84d/file_6729.hxx",
+   "file_original": "smesh/src/DriverMED/SMESH_DriverMED.hxx",
+   "label": "module_2f01cc",
+   "label_original": "smesh/src/DriverMED",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c6f2a7",
+   "correct": false,
+   "raw_response": "I can't tell this one from the code. The file is SMESH_DriverMED.hxx, which belongs to the SMESH MED mesh driver library (MeshDriverMED). However, the candidate module names are anonymized and give no clue to map that onto. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 919,
+    "completion_tokens": 93,
+    "total_tokens": 1012
+   },
+   "latency_ms": 3104.8
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_e397/file_40a5.cxx",
+   "file_original": "geom/src/IGESPlugin/IGESPlugin_ExportDlg.cxx",
+   "label": "module_336065",
+   "label_original": "geom/src/IGESPlugin",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": false,
+   "raw_response": "I can't determine this with confidence because the candidate modules are only anonymized IDs with no descriptions. The code clearly belongs to SALOME's GEOM IGESPlugin (an IGES export dialog built on SUIT_FileDlg), but I have no information linking any of the four IDs to that module. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 110,
+    "total_tokens": 1488
+   },
+   "latency_ms": 3171.4
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_d79f/file_d788.cxx",
+   "file_original": "gui/src/LightApp/LightApp_ExtInfoDlg.cxx",
+   "label": "module_412412",
+   "label_original": "gui/src/LightApp",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_30d8ed",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1573,
+    "completion_tokens": 3,
+    "total_tokens": 1576
+   },
+   "latency_ms": 1971.7
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/file_307f.hxx",
+   "file_original": "kernel/src/SALOMEDS/SALOMEDS_AttributeUserID.hxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_f22a3f",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the module names are anonymized and nothing ties them to real SALOME directories.\n\nFrom the code alone, the file is `SALOMEDS_AttributeUserID.hxx`. It combines a CORBA servant and a local implementation, which places it in the SALOMEDS module (KERNEL's `src/SALOMEDS`). I don't know which of `module_36cbc0`, `module_72e3f0`, `module_f22a3f` or `module_baeb07` stands for SALOMEDS. The letter below is a guess.\n\nC",
+   "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 186,
+    "total_tokens": 1323
+   },
+   "latency_ms": 5377.2
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_dae3/dir_1e8b/file_7a38.py",
+   "file_original": "smesh/src/Tools/padder/unittests/__init__.py",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 590,
+    "completion_tokens": 168,
+    "total_tokens": 758
+   },
+   "latency_ms": 4343.5
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/dir_bf73/file_cfe6.cxx",
+   "file_original": "kernel/src/SALOMEDS/Test/SALOMEDSTest_AttributeGraphic.cxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6d06d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 3,
+    "total_tokens": 1307
+   },
+   "latency_ms": 1858.4
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_8c1f/file_c11d.cxx",
+   "file_original": "gui/src/OCCViewer/OCCViewer_CubeAxesDlg.cxx",
+   "label": "module_f0e9fb",
+   "label_original": "gui/src/OCCViewer",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_f0e9fb",
+   "correct": true,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1658,
+    "completion_tokens": 3,
+    "total_tokens": 1661
+   },
+   "latency_ms": 1809.8
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_d060/file_8517.cmake",
+   "file_original": "yacs/src/pmml/CTestTestfileInstall.cmake",
+   "label": "module_70dad0",
+   "label_original": "yacs/src/pmml",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2f693a",
+   "correct": false,
+   "raw_response": "I can't map this file to a module with confidence, so this answer is a guess.\n\nThe file is a CTest include that lists the subdirectories `Test` and `pmml_swig`. That points to SALOME's PMML library, which I believe sits under `src/pmml` in the YACS module. However, the candidate names are anonymized, and nothing in the code links any of them to YACS.\n\nA",
+   "usage": {
+    "prompt_tokens": 607,
+    "completion_tokens": 324,
+    "total_tokens": 931
+   },
+   "latency_ms": 6222.0
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_4cd5/dir_eb01/file_11b2.xml",
+   "file_original": "yacs/src/yacsloader/samples/SchemaIOFile.xml",
+   "label": "module_8b41bb",
+   "label_original": "yacs/src/yacsloader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6d06d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1634,
+    "completion_tokens": 103,
+    "total_tokens": 1737
+   },
+   "latency_ms": 3184.1
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_1f98/file_c681.hxx",
+   "file_original": "gui/src/TreeData/TreeModel.hxx",
+   "label": "module_6e6923",
+   "label_original": "gui/src/TreeData",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_751cd4",
+   "correct": false,
+   "raw_response": "I can't identify this from the code alone. The file is TreeModel.hxx from SALOME's TreeData library (GUI module, src/TreeData), but the anonymized module names give no way to map it to a specific letter. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1749,
+    "completion_tokens": 79,
+    "total_tokens": 1828
+   },
+   "latency_ms": 2745.8
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/dir_bf73/file_d3c0.cxx",
+   "file_original": "kernel/src/SALOMEDS/Test/SALOMEDSTest_AttributeTableOfString.cxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c457e0",
+   "correct": false,
+   "raw_response": "I can't name the module with any confidence, because the candidate names are anonymized and nothing in the file maps to them. The code itself is clear: it is a SALOMEDS CppUnit test (`SALOMEDSTest::testAttributeTableOfString`) from the KERNEL module, under `src/SALOMEDS/Test`. Which letter corresponds to KERNEL's SALOMEDS component isn't shown, so the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1675,
+    "completion_tokens": 151,
+    "total_tokens": 1826
+   },
+   "latency_ms": 3459.8
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_c73c/dir_34d3/file_ffbf.txt",
+   "file_original": "smesh/src/Tools/Verima/Stats/CMakeLists.txt",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "I can't identify the module with any confidence: the candidate names are anonymized and the snippet gives no way to map them to real modules.\n\nThe file itself is a CMakeLists.txt for the MGCleaner/Verima \"Stats\" plugin. It installs scripts into `${SALOME_SMESH_INSTALL_PLUGINS}/Verima/Stats`, which places it in the SMESH module's plugins (`src/Tools/Verima/Stats`). My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 748,
+    "completion_tokens": 162,
+    "total_tokens": 910
+   },
+   "latency_ms": 3814.1
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_ae48/file_6afb.h",
+   "file_original": "geom/src/EntityGUI/EntityGUI_PolylineDlg.h",
+   "label": "module_32a157",
+   "label_original": "geom/src/EntityGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9b93de",
+   "correct": false,
+   "raw_response": "There is not enough information to tell which letter is the GEOM module. The file is EntityGUI_PolylineDlg, part of the GEOM module (src/EntityGUI). The candidate names are anonymized and none is described, so I can't map GEOM to a letter. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1672,
+    "completion_tokens": 95,
+    "total_tokens": 1767
+   },
+   "latency_ms": 3174.8
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_4cd5/dir_2804/file_d4c4.cxx",
+   "file_original": "yacs/src/yacsloader/pmml/YACSPMMLBasicsTest1.cxx",
+   "label": "module_8b41bb",
+   "label_original": "yacs/src/yacsloader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8b41bb",
+   "correct": true,
+   "raw_response": "I can't determine this from the code alone, because the candidate module names are anonymized and nothing in the file maps to a specific hash. The file is a YACS PMML test: `YACSPMMLBasicsTest1` includes `PMMLlib.hxx` and the YACS runtime. In SALOME, that places it under YACS's `src/pmml` tests (or possibly the standalone PMML library). Without a mapping from module names to real components, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1487,
+    "completion_tokens": 154,
+    "total_tokens": 1641
+   },
+   "latency_ms": 3581.7
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_1092/file_1410.hxx",
+   "file_original": "smesh/src/SMDS/SMDS_ElementHolder.hxx",
+   "label": "module_2aabfa",
+   "label_original": "smesh/src/SMDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_336065",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1540,
+    "completion_tokens": 3,
+    "total_tokens": 1543
+   },
+   "latency_ms": 1863.5
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_fae6/dir_b718/dir_a82b/dir_7675/file_84f9.hxx",
+   "file_original": "kernel/src/DSC/DSC_User/Datastream/Calcium/CorbaTypes2CalciumTypes.hxx",
+   "label": "module_36cbc0",
+   "label_original": "kernel/src/DSC",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_36cbc0",
+   "correct": true,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 3,
+    "total_tokens": 1556
+   },
+   "latency_ms": 1709.6
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_0c1e/file_f64c.cxx",
+   "file_original": "kernel/src/KernelHelpers/KernelServices.cxx",
+   "label": "module_c982fd",
+   "label_original": "kernel/src/KernelHelpers",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 3,
+    "total_tokens": 1200
+   },
+   "latency_ms": 1937.8
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_84d5/file_0f24.cxx",
+   "file_original": "smesh/src/SMESHGUI/SMESHGUI_HomardListGroup.cxx",
+   "label": "module_71290b",
+   "label_original": "smesh/src/SMESHGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9268b3",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. The file is clearly part of SMESHGUI (the SMESH GUI component, Homard dialogs), but none of the module names reveals which one corresponds to SMESHGUI. This is a best guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1960,
+    "completion_tokens": 81,
+    "total_tokens": 2041
+   },
+   "latency_ms": 2925.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_9226/dir_434a/file_464b.png",
+   "file_original": "gui/src/QtViewer/resources/qtviewer_zoom.png",
+   "label": "module_21f582",
+   "label_original": "gui/src/QtViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8868dd",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 570,
+    "completion_tokens": 3,
+    "total_tokens": 573
+   },
+   "latency_ms": 2055.3
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_c440/file_b78d.cxx",
+   "file_original": "kernel/src/LifeCycleCORBA/Test_LifeCycleCORBA.cxx",
+   "label": "module_f6e40c",
+   "label_original": "kernel/src/LifeCycleCORBA",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_496306",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. The file is TestLifeCycleCORBA.cxx, from SALOME KERNEL's LifeCycleCORBA directory. However, the candidate names are anonymized hashes with no descriptive information, so nothing links any of them to KERNEL or LifeCycleCORBA. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1960,
+    "completion_tokens": 117,
+    "total_tokens": 2077
+   },
+   "latency_ms": 3131.6
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_5ee6/file_05d3.hxx",
+   "file_original": "smesh/src/MEDWrapper/MED_WrapperDef.hxx",
+   "label": "module_97cbb3",
+   "label_original": "smesh/src/MEDWrapper",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 893,
+    "completion_tokens": 84,
+    "total_tokens": 977
+   },
+   "latency_ms": 3511.8
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_c389/file_cbf7.cxx",
+   "file_original": "smesh/src/StdMeshers/StdMeshers_Import_1D2D.cxx",
+   "label": "module_c093e7",
+   "label_original": "smesh/src/StdMeshers",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_9edf3e",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right. The file is StdMeshers_Import_1D2D.cxx, so it belongs to SMESH's StdMeshers module. But the candidate names are anonymized, and nothing in the code links any of them to that module. Any letter I give is a guess, not a deduction.\n\nB",
+   "usage": {
+    "prompt_tokens": 1748,
+    "completion_tokens": 100,
+    "total_tokens": 1848
+   },
+   "latency_ms": 3228.5
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_4c0e/file_9fe7.hxx",
+   "file_original": "smesh/src/StdMeshers_I/StdMeshers_CartesianParameters3D_i.hxx",
+   "label": "module_398280",
+   "label_original": "smesh/src/StdMeshers_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9268b3",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the module names are anonymized and nothing in the prompt links a code ID to a module. This file is `StdMeshers_CartesianParameters3D_i.hxx`, the CORBA servant implementation in SMESH's `StdMeshers_I` library (StdMeshers hypotheses exposed through IDL). It includes `SMESH_StdMeshers_I.hxx` and uses `STDMESHERS_I_EXPORT`. Picking among the four options is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1923,
+    "completion_tokens": 173,
+    "total_tokens": 2096
+   },
+   "latency_ms": 3829.7
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_dae3/dir_0b2d/file_225b.in",
+   "file_original": "smesh/src/Tools/padder/spadderpy/padder.cfg.in",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 762,
+    "completion_tokens": 85,
+    "total_tokens": 847
+   },
+   "latency_ms": 3335.7
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_cfbc/file_5f38.h",
+   "file_original": "geom/src/BlocksGUI/BlocksGUI_QuadFaceDlg.h",
+   "label": "module_c4e572",
+   "label_original": "geom/src/BlocksGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c6f2a7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1684,
+    "completion_tokens": 69,
+    "total_tokens": 1753
+   },
+   "latency_ms": 2550.6
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_72fc/file_cab9.h",
+   "file_original": "geom/src/OCC2VTK/OCC2VTK.h",
+   "label": "module_6eba3e",
+   "label_original": "geom/src/OCC2VTK",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_6eba3e",
+   "correct": true,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 831,
+    "completion_tokens": 3,
+    "total_tokens": 834
+   },
+   "latency_ms": 1810.6
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_dd46/file_86a4.hxx",
+   "file_original": "medcoupling/src/ParaMEDMEM/ByStringMPIProcessorGroup.hxx",
+   "label": "module_070688",
+   "label_original": "medcoupling/src/ParaMEDMEM",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f00b74",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 912,
+    "completion_tokens": 48,
+    "total_tokens": 960
+   },
+   "latency_ms": 2506.2
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_dfe6/dir_f388/dir_8870/file_654c.py",
+   "file_original": "smesh/src/Tools/blocFissure/gmu/quadranglesToShapeNoCorner.py",
+   "label": "module_96ffae",
+   "label_original": "smesh/src/Tools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96ffae",
+   "correct": true,
+   "raw_response": "I can't determine this from the code alone. The file is clearly from SMESH's blocFissure tool (it imports `geomsmesh`, `initLog`, and `quadranglesToShapeNoCorner`). Those belong to the SMESH module, but the candidate names are anonymized and nothing ties any of them to SMESH. Picking one is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1971,
+    "completion_tokens": 119,
+    "total_tokens": 2090
+   },
+   "latency_ms": 4620.2
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_f71a/file_014d.cxx",
+   "file_original": "yacs/src/engine/DataFlowPort.cxx",
+   "label": "module_14df73",
+   "label_original": "yacs/src/engine",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_37857a",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is YACS engine code (`YACS::ENGINE`, `DataFlowPort`), but the candidate module names are anonymized hashes with no descriptions. Nothing links any of them to YACS, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 88,
+    "total_tokens": 1149
+   },
+   "latency_ms": 3039.1
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_d4a8/dir_b80f/dir_4932/dir_22c8/dir_3d89/dir_b1b2/file_ae56.m4",
+   "file_original": "yacs/src/wrappergen/src/HXX2SALOME_GENERIC_CLASS_NAME_SRC/adm_local/unix/config_files/check_corba.m4",
+   "label": "module_c1c550",
+   "label_original": "yacs/src/wrappergen",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0eb4c5",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1445,
+    "completion_tokens": 3,
+    "total_tokens": 1448
+   },
+   "latency_ms": 2022.9
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_9226/file_6679.h",
+   "file_original": "gui/src/QtViewer/QtViewer.h",
+   "label": "module_21f582",
+   "label_original": "gui/src/QtViewer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ea25f4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 705,
+    "completion_tokens": 87,
+    "total_tokens": 792
+   },
+   "latency_ms": 2930.9
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_fa1a/file_74e8.cxx",
+   "file_original": "geom/src/GEOMImpl/GEOMImpl_Block6Explorer.cxx",
+   "label": "module_d21da9",
+   "label_original": "geom/src/GEOMImpl",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ea25f4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1978,
+    "completion_tokens": 85,
+    "total_tokens": 2063
+   },
+   "latency_ms": 3765.7
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_ec46/file_4aa4.hxx",
+   "file_original": "geom/src/GEOM/GEOM_ISubShape.hxx",
+   "label": "module_7a8a3d",
+   "label_original": "geom/src/GEOM",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_62ae15",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 84,
+    "total_tokens": 1204
+   },
+   "latency_ms": 2813.0
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_22eb/file_ab0b.h",
+   "file_original": "geom/src/GEOMFiltersSelection/GEOM_TypeFilter.h",
+   "label": "module_76a0ad",
+   "label_original": "geom/src/GEOMFiltersSelection",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_398280",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 108,
+    "total_tokens": 1058
+   },
+   "latency_ms": 3248.8
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_9d3c/file_9841.hxx",
+   "file_original": "kernel/src/SALOMEDS/SALOMEDS_AttributeGraphic.hxx",
+   "label": "module_72e3f0",
+   "label_original": "kernel/src/SALOMEDS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d22f37",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone, because the candidate names are anonymized and no mapping to real modules was given. The file is SALOMEDS_AttributeGraphic.hxx, which in SALOME's KERNEL sits in src/SALOMEDS, the study data-structure module. Without knowing which candidate corresponds to SALOMEDS, this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 125,
+    "total_tokens": 1289
+   },
+   "latency_ms": 3740.9
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_162a/file_ddce.cxx",
+   "file_original": "yacs/src/genericgui/SceneHeaderItem.cxx",
+   "label": "module_380cc2",
+   "label_original": "yacs/src/genericgui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The file is clearly part of the YACS GUI (genericgui: SceneHeaderItem, YACS::HMI, Qt graphics), but the candidate module names are anonymized and nothing in the snippet links to any of them. Any answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1547,
+    "completion_tokens": 96,
+    "total_tokens": 1643
+   },
+   "latency_ms": 3602.1
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_1f98/file_6636.txt",
+   "file_original": "gui/src/TreeData/CMakeLists.txt",
+   "label": "module_6e6923",
+   "label_original": "gui/src/TreeData",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7ab4a9",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1615,
+    "completion_tokens": 99,
+    "total_tokens": 1714
+   },
+   "latency_ms": 3316.6
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_4c0e/file_c217.hxx",
+   "file_original": "smesh/src/StdMeshers_I/StdMeshers_QuadrangleParams_i.hxx",
+   "label": "module_398280",
+   "label_original": "smesh/src/StdMeshers_I",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_663f10",
+   "correct": false,
+   "raw_response": "I can't tell which letter is SMESH from the anonymized names alone, so this is a guess. The file is `StdMeshers_QuadrangleParams_i.hxx`, a CORBA servant for a SMESH standard-meshers hypothesis (StdMeshers_I). It therefore belongs to the SMESH module, but the code gives no way to link that to any of the four labels.\n\nA",
+   "usage": {
+    "prompt_tokens": 1746,
+    "completion_tokens": 128,
+    "total_tokens": 1874
+   },
+   "latency_ms": 3567.9
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_162a/dir_434a/file_7a3b.png",
+   "file_original": "yacs/src/genericgui/resources/connect_to_batch_session.png",
+   "label": "module_380cc2",
+   "label_original": "yacs/src/genericgui",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 646,
+    "completion_tokens": 3,
+    "total_tokens": 649
+   },
+   "latency_ms": 1746.2
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_d4a8/dir_b80f/dir_4932/dir_22c8/dir_3d89/dir_b1b2/file_611b.m4",
+   "file_original": "yacs/src/wrappergen/src/HXX2SALOME_GENERIC_CLASS_NAME_SRC/adm_local/unix/config_files/check_qt.m4",
+   "label": "module_c1c550",
+   "label_original": "yacs/src/wrappergen",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_13d904",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1823,
+    "completion_tokens": 3,
+    "total_tokens": 1826
+   },
+   "latency_ms": 3193.1
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_7388/file_2d92.h",
+   "file_original": "geom/src/OBJECT/GEOM_Constants.h",
+   "label": "module_9facb4",
+   "label_original": "geom/src/OBJECT",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9facb4",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 81,
+    "total_tokens": 1296
+   },
+   "latency_ms": 2761.4
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_3577/file_f3ad.cxx",
+   "file_original": "medcoupling/src/MEDCoupling/MEDCouplingMemArrayFloat.cxx",
+   "label": "module_9b93de",
+   "label_original": "medcoupling/src/MEDCoupling",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9b93de",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code alone. This file is MEDCoupling's DataArrayFloat implementation (MEDCouplingMemArrayFloat.cxx), which belongs to the MEDCoupling or MED module. The obfuscated module names give no other clues, so my choice is essentially a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1789,
+    "completion_tokens": 104,
+    "total_tokens": 1893
+   },
+   "latency_ms": 3207.2
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_f71a/dir_509b/file_1b30.hxx",
+   "file_original": "yacs/src/engine/Plugin/salomevent.hxx",
+   "label": "module_14df73",
+   "label_original": "yacs/src/engine",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c093e7",
+   "correct": false,
+   "raw_response": "I can't tell which letter this file belongs to. The module names are anonymized, and no candidate's contents were given to match against.\n\nThe code itself clearly points to SALOME's YACS module. It includes `Pool.hxx` and uses `YACS::ENGINE::Pool`. The `SalomeEventLoop` class derives from `Distrib`, which looks like part of the YACS optimizer or plugin code. Without knowing which candidate is YACS, the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 749,
+    "completion_tokens": 290,
+    "total_tokens": 1039
+   },
+   "latency_ms": 5347.8
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_83f1/file_7d0b.cxx",
+   "file_original": "geom/src/BasicGUI/BasicGUI_ParamCurveWidget.cxx",
+   "label": "module_cb5e4d",
+   "label_original": "geom/src/BasicGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9268b3",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code. The file is BasicGUI_ParamCurveWidget from GEOM's BasicGUI, but the candidate names are anonymized hashes with no descriptions, so nothing links any of them to GEOM. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1978,
+    "completion_tokens": 90,
+    "total_tokens": 2068
+   },
+   "latency_ms": 2763.3
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_1887/file_4739.ui",
+   "file_original": "geom/src/MeasureGUI/MeasureGUI_1TreeWidget_4Button_QTD.ui",
+   "label": "module_d702ff",
+   "label_original": "geom/src/MeasureGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7bae8b",
+   "correct": false,
+   "raw_response": "I can't tell from this file alone, so this answer is a guess. The UI form is `MeasureGUI_1TreeWidget_4Button_QTD`, which places it in the MeasureGUI part of SALOME's GEOM module. However, the candidate module names are anonymized and the snippet contains no clue that links MeasureGUI to any one of them.\n\nC",
+   "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 118,
+    "total_tokens": 1328
+   },
+   "latency_ms": 3211.7
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_7af3.txx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/Interpolation2D1D.txx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_070688",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the anonymised module names give no hint of their contents. What the code does show is that this file is `Interpolation2D1D.txx` in the `INTERP_KERNEL` namespace, so it belongs to MEDCoupling's INTERP_KERNEL library. Without a mapping from that library to one of the four codes, my answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1911,
+    "completion_tokens": 125,
+    "total_tokens": 2036
+   },
+   "latency_ms": 3473.4
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_d060/dir_bf73/dir_e6ce/file_67a0.pmml",
+   "file_original": "yacs/src/pmml/Test/samples/lr_model_2.pmml",
+   "label": "module_70dad0",
+   "label_original": "yacs/src/pmml",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_288093",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 3,
+    "total_tokens": 1095
+   },
+   "latency_ms": 1736.4
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_ab99/file_2dba.cxx",
+   "file_original": "geom/src/RepairGUI/RepairGUI_UnionFacesDlg.cxx",
+   "label": "module_20e17c",
+   "label_original": "geom/src/RepairGUI",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7a736c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly GEOM's RepairGUI (RepairGUI_UnionFacesDlg.cxx), but the candidate modules are opaque hashes with no descriptions, so nothing maps any of them to RepairGUI. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1913,
+    "completion_tokens": 99,
+    "total_tokens": 2012
+   },
+   "latency_ms": 3264.0
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_a114.hxx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/InterpKernelMeshQuality.hxx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e371ac",
+   "correct": false,
+   "raw_response": "I can't reliably tell which letter is correct, so this answer is a guess. The code clearly comes from the INTERP_KERNEL library in SALOME's MEDCoupling component: it uses the `INTERP_KERNEL` namespace, the `INTERPKERNELDefines.hxx` include and the `INTERPKERNEL_EXPORT` macros. But the candidate module names are anonymized and nothing in the snippet links any of them to MEDCoupling.\n\nA",
+   "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 223,
+    "total_tokens": 1190
+   },
+   "latency_ms": 4686.4
+  },
+  {
+   "file": "dir_4c28/dir_1db9/dir_7143/file_93b3.cxx",
+   "file_original": "geom/src/STEPPlugin/STEPPlugin_ExportDlg.cxx",
+   "label": "module_f51da6",
+   "label_original": "geom/src/STEPPlugin",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_30d8ed",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly part of the GEOM module's STEP plugin (STEPPlugin_ExportDlg, a GUI dialog using SUIT_FileDlg and GEOM::length_unit). However, the candidate names are anonymized and nothing links any of them to GEOM or STEPPlugin. Any letter would be a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1901,
+    "completion_tokens": 124,
+    "total_tokens": 2025
+   },
+   "latency_ms": 3504.6
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_7383/file_f1f7.hxx",
+   "file_original": "yacs/src/runtime/XMLPythonConv.hxx",
+   "label": "module_ac9e21",
+   "label_original": "yacs/src/runtime",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0eb4c5",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct. The module names are anonymized and I have no information about what each one contains.\n\nWhat the code does show is that this file belongs to the YACS engine's Python runtime layer, likely `src/runtime` in YACS. It defines `XmlPython` in the `YACS::ENGINE` namespace, includes `PythonPorts.hxx`, and is a proxy port that adapts XML data to a Python input port.\n\nIf one of the candidates corresponds to the YACS runtime or engine, that would be the answer. Without that mapping, my choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 753,
+    "completion_tokens": 188,
+    "total_tokens": 941
+   },
+   "latency_ms": 3942.1
+  },
+  {
+   "file": "dir_74ab/dir_1db9/dir_3ada/file_5e36.cxx",
+   "file_original": "kernel/src/Container/SALOME_Container.cxx",
+   "label": "module_751cd4",
+   "label_original": "kernel/src/Container",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_380cc2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 714,
+    "completion_tokens": 72,
+    "total_tokens": 786
+   },
+   "latency_ms": 2625.6
+  },
+  {
+   "file": "dir_3ba0/dir_1db9/dir_7691/file_dde8.h",
+   "file_original": "gui/src/Qtx/QtxNotify.h",
+   "label": "module_591e92",
+   "label_original": "gui/src/Qtx",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7e9bd4",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right: the module names are anonymized and I have no mapping from them to real SALOME modules. The code itself is clear. `QtxNotify` includes `Qtx.h` and uses `QTX_EXPORT`, so it belongs to the Qtx library in the GUI module (`GUI/src/Qtx`). Without knowing which candidate is Qtx/GUI, my pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1434,
+    "completion_tokens": 141,
+    "total_tokens": 1575
+   },
+   "latency_ms": 3829.4
+  },
+  {
+   "file": "dir_33fd/dir_1db9/dir_fd94/file_71fe.hxx",
+   "file_original": "medcoupling/src/INTERP_KERNEL/Intersector3DP1P0Bary.hxx",
+   "label": "module_692e36",
+   "label_original": "medcoupling/src/INTERP_KERNEL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_496306",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the candidate module names are anonymized and the prompt says nothing about what each one contains.\n\nWhat the code does show: this is the `INTERP_KERNEL` namespace, specifically the 3D intersector headers (`Intersector3D.hxx`). That code lives in MEDCoupling's INTERP_KERNEL library, so the correct option is whichever module corresponds to MEDCoupling/INTERP_KERNEL.\n\nWith nothing to tell the four candidates apart, the choice below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 873,
+    "completion_tokens": 185,
+    "total_tokens": 1058
+   },
+   "latency_ms": 4206.7
+  },
+  {
+   "file": "dir_4a43/dir_1db9/dir_9273/file_9ca7.cxx",
+   "file_original": "smesh/src/DriverSTL/DriverSTL_R_SMDS_Mesh.cxx",
+   "label": "module_ea25f4",
+   "label_original": "smesh/src/DriverSTL",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03515d",
+   "correct": false,
+   "raw_response": "Without knowing the obfuscated module names, I can't map them reliably. This file is DriverSTL_R_SMDS_Mesh.cxx, which belongs to SMESH's DriverSTL module. Since the candidate labels give no hint which one is DriverSTL, this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1795,
+    "completion_tokens": 101,
+    "total_tokens": 1896
+   },
+   "latency_ms": 3033.6
+  },
+  {
+   "file": "dir_f644/dir_1db9/dir_d4a8/dir_b80f/file_f30f.awk",
+   "file_original": "yacs/src/wrappergen/src/parse4.awk",
+   "label": "module_c1c550",
+   "label_original": "yacs/src/wrappergen",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03515d",
+   "correct": false,
+   "raw_response": "I can't tell which candidate module corresponds to YACS, because the module names are anonymized and nothing in the file maps to them.\n\nWhat the code does show is that the file belongs to the YACS module. It uses `YACS::ENGINE::Any`, which points to the YACS (or YACSGEN) generator for C++ components.\n\nSince I have no mapping from that to the letters, this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2713,
+    "completion_tokens": 130,
+    "total_tokens": 2843
+   },
+   "latency_ms": 3600.4
+  }
+ ],
+ "timestamp": "2026-10-02T20:53:34.013035",
+ "model": "claude-opus-5.5",
+ "project": "salome",
+ "task": "ci_obfuscated",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42
+}

@@ -1,0 +1,236 @@
+{
+ "precision_at_5": 0.14545454545454548,
+ "recall_at_5": 0.6060606060606061,
+ "total": 11,
+ "results": [
+  {
+   "source_module": "OMNotebook/OMNotebook",
+   "true_targets": [
+    "OMPlot/OMPlot",
+    "OMPlot/qwt",
+    "OMShell/OMShell"
+   ],
+   "predicted": [
+    "OMNotebook/DrControl",
+    "OMNotebook/DrModelica",
+    "OMCompiler/Parser",
+    "OMCompiler/SimulationRuntime",
+    "OMEdit/OMEditLIB"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. OMNotebook/DrControl\n2. OMNotebook/DrModelica\n3. OMCompiler/Parser\n4. OMCompiler/SimulationRuntime\n5. OMEdit/OMEditLIB",
+   "true_targets_v1": [
+    "OMCompiler/Compiler",
+    "OMShell/OMShell",
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/qwt",
+    "OMCompiler/tools",
+    "OMPlot/OMPlot"
+   ]
+  },
+  {
+   "source_module": "OMCompiler/Parser",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Compiler",
+    "OMCompiler/3rdParty",
+    "OMCompiler/tools",
+    "OMCompiler/scripts",
+    "OMCompiler/m4"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the Parser module in a compiler architecture, here are the top 5 modules that OMCompiler/Parser most likely depends on:\n\n1. OMCompiler/Compiler\n2. OMCompiler/3rdParty\n3. OMCompiler/tools\n4. OMCompiler/scripts\n5. OMCompiler/m4",
+   "true_targets_v1": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMShell/OMShell",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Parser",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/Compiler",
+    "OMParser/3rdParty",
+    "OMCompiler/tools"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the OMShell module in OpenModelica, which is a command-line interface for interacting with the system, I predict the following dependencies:\n\n1. OMCompiler/Parser\n2. OMCompiler/SimulationRuntime\n3. OMCompiler/Compiler\n4. OMParser/3rdParty\n5. OMCompiler/tools",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMEdit/OMEditLIB",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime",
+    "OMParser/3rdParty",
+    "OMPlot/qwt"
+   ],
+   "predicted": [
+    "OMEdit/OMEditGUI",
+    "OMCompiler/Parser",
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMParser/3rdParty"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the architecture of OpenModelica, here are the top 5 modules that OMEdit/OMEditLIB most likely depends on:\n\n1. OMEdit/OMEditGUI\n2. OMCompiler/Parser\n3. OMCompiler/Compiler\n4. OMCompiler/SimulationRuntime\n5. OMParser/3rdParty",
+   "true_targets_v1": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/qwt",
+    "OMParser/3rdParty",
+    "OMPlot/OMPlot"
+   ]
+  },
+  {
+   "source_module": "OMPlot/OMPlot",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMPlot/qwt",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/Parser",
+    "OMCompiler/Compiler",
+    "OMParser/3rdParty"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. OMPlot/qwt\n2. OMCompiler/SimulationRuntime\n3. OMCompiler/Parser\n4. OMCompiler/Compiler\n5. OMParser/3rdParty",
+   "true_targets_v1": [
+    "OMPlot/qwt",
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMParser/test",
+   "true_targets": [
+    "OMParser/3rdParty"
+   ],
+   "predicted": [
+    "OMParser/3rdParty",
+    "OMCompiler/Parser",
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/tools"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the architecture of OpenModelica, here are the top 5 modules that OMParser/test most likely depends on:\n\n1. OMParser/3rdParty\n2. OMCompiler/Parser\n3. OMCompiler/Compiler\n4. OMCompiler/SimulationRuntime\n5. OMCompiler/tools",
+   "true_targets_v1": [
+    "OMParser/3rdParty"
+   ]
+  },
+  {
+   "source_module": "OMEdit/OMEditGUI",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMEdit/OMEditLIB",
+    "OMPlot/qwt",
+    "OMNotebook/OMNotebook",
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the architecture of OpenModelica, here are the top 5 modules that OMEdit/OMEditGUI most likely depends on:\n\n1. OMEdit/OMEditLIB\n2. OMPlot/qwt\n3. OMNotebook/OMNotebook\n4. OMCompiler/Compiler\n5. OMCompiler/SimulationRuntime",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime",
+    "OMEdit/OMEditLIB"
+   ]
+  },
+  {
+   "source_module": "OMShell/mosh",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/Parser",
+    "OMPlot/qwt",
+    "OMEdit/OMEditLIB"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the architecture of OpenModelica, here are the top 5 modules that OMShell/mosh most likely depends on:\n\n1. OMCompiler/Compiler\n2. OMCompiler/SimulationRuntime\n3. OMCompiler/Parser\n4. OMPlot/qwt\n5. OMEdit/OMEditLIB",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMParser/3rdParty",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Parser",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Compiler",
+    "OMCompiler/tools",
+    "OMCompiler/scripts"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of OpenModelica, here are the top 5 modules that OMParser/3rdParty most likely depends on:\n\n1. OMCompiler/Parser\n2. OMCompiler/3rdParty\n3. OMCompiler/Compiler\n4. OMCompiler/tools\n5. OMCompiler/scripts",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMEdit/Testsuite",
+   "true_targets": [
+    "OMEdit/OMEditLIB"
+   ],
+   "predicted": [
+    "OMEdit/OMEditLIB",
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/qwt",
+    "OMEdit/OMEditGUI"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the architecture of OpenModelica, here are the top 5 modules that OMEdit/Testsuite most likely depends on:\n\n1. OMEdit/OMEditLIB\n2. OMCompiler/Compiler\n3. OMCompiler/SimulationRuntime\n4. OMPlot/qwt\n5. OMEdit/OMEditGUI",
+   "true_targets_v1": [
+    "OMEdit/OMEditLIB",
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMCompiler/Compiler",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Parser",
+    "OMCompiler/3rdParty",
+    "OMCompiler/tools",
+    "OMCompiler/Examples",
+    "OMCompiler/scripts"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the OMCompiler/Compiler module, here are the top 5 modules it most likely depends on:\n\n1. OMCompiler/Parser\n2. OMCompiler/3rdParty\n3. OMCompiler/tools\n4. OMCompiler/Examples\n5. OMCompiler/scripts",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_openmodelica_ar.json"
+}

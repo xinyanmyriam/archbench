@@ -1,0 +1,1123 @@
+{
+  "precision_at_5": 0.4999999999999999,
+  "recall_at_5": 0.5648082717935659,
+  "total": 34,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 55513,
+    "completion_tokens": 609878,
+    "total_tokens": 665391
+  },
+  "results": [
+    {
+      "source_module": "bibcxx/PythonBindings",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/Behaviours",
+        "bibcxx/Contact",
+        "bibcxx/Coupling",
+        "bibcxx/Crack",
+        "bibcxx/DataFields",
+        "bibcxx/Discretization",
+        "bibcxx/Flow",
+        "bibcxx/IOManager",
+        "bibcxx/Interfaces",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Materials",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/Results"
+      ],
+      "shown_deps": [
+        "bibcxx/DataStructures",
+        "bibcxx/Functions",
+        "bibcxx/Loads",
+        "bibcxx/MedUtils",
+        "bibcxx/Messages",
+        "bibcxx/Modal",
+        "bibcxx/Modeling",
+        "bibcxx/Numbering",
+        "bibcxx/PostProcessing",
+        "bibcxx/Solvers",
+        "bibcxx/Steppers",
+        "bibcxx/Studies",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/DataFields",
+        "bibcxx/LinearAlgebra",
+        "bibc/include"
+      ],
+      "precision": 1.0,
+      "recall": 0.3125,
+      "raw_response": "bibcxx/MemoryManager\nbibcxx/Meshes\nbibcxx/DataFields\nbibcxx/LinearAlgebra\nbibc/include",
+      "usage": {
+        "prompt_tokens": 1701,
+        "completion_tokens": 23099,
+        "total_tokens": 24800
+      },
+      "latency_ms": 97459.2
+    },
+    {
+      "source_module": "bibcxx/Meshes",
+      "true_targets": [
+        "bibcxx/DataStructures",
+        "bibcxx/Messages",
+        "bibcxx/Modal",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/IOManager",
+        "bibcxx/MemoryManager",
+        "bibcxx/Modeling",
+        "bibcxx/PythonBindings"
+      ],
+      "predicted": [
+        "bibcxx/DataStructures",
+        "bibcxx/Messages",
+        "bibcxx/Discretization",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Functions"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "bibcxx/DataStructures\nbibcxx/Messages\nbibcxx/Discretization\nbibcxx/LinearAlgebra\nbibcxx/Functions",
+      "usage": {
+        "prompt_tokens": 1639,
+        "completion_tokens": 29933,
+        "total_tokens": 31572
+      },
+      "latency_ms": 132075.1
+    },
+    {
+      "source_module": "bibcxx/Results",
+      "true_targets": [
+        "bibcxx/Interfaces",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Materials",
+        "bibcxx/Messages",
+        "bibcxx/Modal",
+        "bibcxx/Modeling",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/PythonBindings",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/Contact",
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Discretization",
+        "bibcxx/Loads",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/Numbering",
+        "bibcxx/Studies"
+      ],
+      "predicted": [
+        "bibcxx/Messages",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Modeling",
+        "bibcxx/Functions",
+        "bibcxx/Behaviours"
+      ],
+      "precision": 0.6,
+      "recall": 0.2727272727272727,
+      "raw_response": "bibcxx/Messages\nbibcxx/LinearAlgebra\nbibcxx/Modeling\nbibcxx/Functions\nbibcxx/Behaviours",
+      "usage": {
+        "prompt_tokens": 1665,
+        "completion_tokens": 6961,
+        "total_tokens": 8626
+      },
+      "latency_ms": 29132.3
+    },
+    {
+      "source_module": "code_aster/Applications",
+      "true_targets": [
+        "code_aster/CodeCommands",
+        "code_aster/Objects"
+      ],
+      "shown_deps": [
+        "code_aster/MacroCommands"
+      ],
+      "predicted": [
+        "code_aster/CodeCommands",
+        "code_aster/Objects",
+        "code_aster/Messages",
+        "code_aster/Supervis",
+        "code_aster/Cata"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "code_aster/CodeCommands\ncode_aster/Objects\ncode_aster/Messages\ncode_aster/Supervis\ncode_aster/Cata",
+      "usage": {
+        "prompt_tokens": 1602,
+        "completion_tokens": 13036,
+        "total_tokens": 14638
+      },
+      "latency_ms": 58497.7
+    },
+    {
+      "source_module": "bibcxx/Loads",
+      "true_targets": [
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/Messages",
+        "bibcxx/Numbering",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/Functions",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Modeling",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "predicted": [
+        "bibcxx/MemoryManager",
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Meshes",
+        "bibcxx/Discretization"
+      ],
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "raw_response": "bibcxx/MemoryManager\nbibcxx/DataFields\nbibcxx/DataStructures\nbibcxx/Meshes\nbibcxx/Discretization",
+      "usage": {
+        "prompt_tokens": 1650,
+        "completion_tokens": 22005,
+        "total_tokens": 23655
+      },
+      "latency_ms": 91667.3
+    },
+    {
+      "source_module": "bibcxx/Numbering",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/Loads",
+        "bibcxx/Modeling",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/Utilities",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibcxx/DataStructures",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/Results",
+        "bibcxx/Supervis"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/Discretization",
+        "bibcxx/Modeling",
+        "bibcxx/Loads"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "bibc/include\nbibcxx/DataFields\nbibcxx/Discretization\nbibcxx/Modeling\nbibcxx/Loads",
+      "usage": {
+        "prompt_tokens": 1638,
+        "completion_tokens": 19327,
+        "total_tokens": 20965
+      },
+      "latency_ms": 85999.8
+    },
+    {
+      "source_module": "bibcxx/Messages",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibcxx/Supervis"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/DataStructures",
+        "bibcxx/Utilities"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "bibc/include\nbibcxx/include\nbibcxx/MemoryManager\nbibcxx/DataStructures\nbibcxx/Utilities",
+      "usage": {
+        "prompt_tokens": 1603,
+        "completion_tokens": 27712,
+        "total_tokens": 29315
+      },
+      "latency_ms": 107983.3
+    },
+    {
+      "source_module": "bibcxx/Modal",
+      "true_targets": [
+        "bibcxx/Interfaces",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/MemoryManager",
+        "bibcxx/Numbering",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibcxx/DataStructures",
+        "bibcxx/Meshes",
+        "bibcxx/Results",
+        "bibcxx/Solvers",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/MemoryManager",
+        "bibc/include",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/DataFields",
+        "bibcxx/Messages"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "bibcxx/MemoryManager\nbibc/include\nbibcxx/LinearAlgebra\nbibcxx/DataFields\nbibcxx/Messages",
+      "usage": {
+        "prompt_tokens": 1628,
+        "completion_tokens": 12517,
+        "total_tokens": 14145
+      },
+      "latency_ms": 55347.3
+    },
+    {
+      "source_module": "bibcxx/Utilities",
+      "true_targets": [
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/Loads",
+        "bibcxx/Modeling",
+        "bibcxx/Supervis"
+      ],
+      "predicted": [
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Discretization",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "bibcxx/DataFields\nbibcxx/DataStructures\nbibcxx/Discretization\nbibcxx/MemoryManager\nbibcxx/Meshes",
+      "usage": {
+        "prompt_tokens": 1640,
+        "completion_tokens": 5344,
+        "total_tokens": 6984
+      },
+      "latency_ms": 20909.4
+    },
+    {
+      "source_module": "bibcxx/Functions",
+      "true_targets": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Utilities",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/DataStructures",
+        "bibcxx/Supervis"
+      ],
+      "predicted": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/Discretization",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Messages"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "bibcxx/MemoryManager\nbibcxx/Meshes\nbibcxx/Discretization\nbibcxx/LinearAlgebra\nbibcxx/Messages",
+      "usage": {
+        "prompt_tokens": 1615,
+        "completion_tokens": 30526,
+        "total_tokens": 32141
+      },
+      "latency_ms": 126244.1
+    },
+    {
+      "source_module": "bibcxx/Solvers",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Supervis",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Loads",
+        "bibcxx/MemoryManager"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/Meshes",
+        "bibcxx/Discretization",
+        "bibcxx/Modeling",
+        "bibcxx/LinearAlgebra"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "bibc/include\nbibcxx/Meshes\nbibcxx/Discretization\nbibcxx/Modeling\nbibcxx/LinearAlgebra",
+      "usage": {
+        "prompt_tokens": 1625,
+        "completion_tokens": 18755,
+        "total_tokens": 20380
+      },
+      "latency_ms": 72361.3
+    },
+    {
+      "source_module": "bibcxx/Contact",
+      "true_targets": [
+        "bibcxx/DataStructures",
+        "bibcxx/Discretization",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/MemoryManager",
+        "bibcxx/Modeling",
+        "bibcxx/Numbering",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/Loads",
+        "bibcxx/Meshes",
+        "bibcxx/Messages",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Modeling",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Discretization"
+      ],
+      "precision": 1.0,
+      "recall": 0.625,
+      "raw_response": "bibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/Modeling\nbibcxx/LinearAlgebra\nbibcxx/Discretization",
+      "usage": {
+        "prompt_tokens": 1646,
+        "completion_tokens": 7777,
+        "total_tokens": 9423
+      },
+      "latency_ms": 31893.9
+    },
+    {
+      "source_module": "bibcxx/DataFields",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/Behaviours",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Meshes",
+        "bibcxx/Messages",
+        "bibcxx/Modeling",
+        "bibcxx/Numbering",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibcxx/DataStructures",
+        "bibcxx/Discretization",
+        "bibcxx/Functions",
+        "bibcxx/MemoryManager",
+        "bibcxx/PythonBindings",
+        "bibcxx/Results",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/Meshes",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Loads",
+        "bibcxx/Modeling"
+      ],
+      "precision": 0.8,
+      "recall": 0.4444444444444444,
+      "raw_response": "bibc/include\nbibcxx/Meshes\nbibcxx/LinearAlgebra\nbibcxx/Loads\nbibcxx/Modeling",
+      "usage": {
+        "prompt_tokens": 1653,
+        "completion_tokens": 33267,
+        "total_tokens": 34920
+      },
+      "latency_ms": 137822.3
+    },
+    {
+      "source_module": "bibcxx/Modeling",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Discretization",
+        "bibcxx/Materials",
+        "bibcxx/MemoryManager",
+        "bibcxx/Modal",
+        "bibcxx/ParallelUtilities"
+      ],
+      "shown_deps": [
+        "bibcxx/Functions",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Loads",
+        "bibcxx/Meshes",
+        "bibcxx/Studies",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/DataStructures",
+        "bibcxx/DataFields",
+        "bibcxx/Messages"
+      ],
+      "precision": 0.8,
+      "recall": 0.5,
+      "raw_response": "bibc/include\nbibcxx/MemoryManager\nbibcxx/DataStructures\nbibcxx/DataFields\nbibcxx/Messages",
+      "usage": {
+        "prompt_tokens": 1655,
+        "completion_tokens": 6108,
+        "total_tokens": 7763
+      },
+      "latency_ms": 26373.2
+    },
+    {
+      "source_module": "bibcxx/Behaviours",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Modeling",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibcxx/Materials",
+        "bibcxx/Messages",
+        "bibcxx/Supervis",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Discretization",
+        "bibcxx/Functions",
+        "bibc/include"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "bibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/Discretization\nbibcxx/Functions\nbibc/include",
+      "usage": {
+        "prompt_tokens": 1631,
+        "completion_tokens": 11831,
+        "total_tokens": 13462
+      },
+      "latency_ms": 49011.7
+    },
+    {
+      "source_module": "bibcxx/MFront",
+      "true_targets": [
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/Behaviours",
+        "bibcxx/DataStructures",
+        "bibcxx/Materials",
+        "bibcxx/MemoryManager",
+        "bibcxx/Messages"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "bibcxx/Behaviours\nbibcxx/DataStructures\nbibcxx/Materials\nbibcxx/MemoryManager\nbibcxx/Messages",
+      "usage": {
+        "prompt_tokens": 1602,
+        "completion_tokens": 14068,
+        "total_tokens": 15670
+      },
+      "latency_ms": 59065.1
+    },
+    {
+      "source_module": "bibcxx/IOManager",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibcxx/Meshes",
+        "bibcxx/Messages",
+        "bibcxx/Results",
+        "bibcxx/Utilities"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/MedUtils",
+        "bibcxx/ParallelUtilities"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "bibc/include\nbibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/MedUtils\nbibcxx/ParallelUtilities",
+      "usage": {
+        "prompt_tokens": 1648,
+        "completion_tokens": 8494,
+        "total_tokens": 10142
+      },
+      "latency_ms": 36910.9
+    },
+    {
+      "source_module": "bibcxx/Discretization",
+      "true_targets": [
+        "bibcxx/Behaviours",
+        "bibcxx/Materials",
+        "bibcxx/MemoryManager",
+        "bibcxx/Messages",
+        "bibcxx/Modeling",
+        "bibcxx/PostProcessing",
+        "bibcxx/Studies",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Loads",
+        "bibcxx/Meshes",
+        "bibcxx/Supervis",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Modeling",
+        "bibcxx/Messages",
+        "bibcxx/Functions",
+        "bibcxx/Numbering"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "bibcxx/MemoryManager\nbibcxx/Modeling\nbibcxx/Messages\nbibcxx/Functions\nbibcxx/Numbering",
+      "usage": {
+        "prompt_tokens": 1656,
+        "completion_tokens": 5424,
+        "total_tokens": 7080
+      },
+      "latency_ms": 22284.8
+    },
+    {
+      "source_module": "bibcxx/Materials",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/Results",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibcxx/DataFields",
+        "bibcxx/Functions",
+        "bibcxx/Modeling",
+        "bibcxx/Supervis",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Messages",
+        "bibcxx/LinearAlgebra",
+        "bibcxx/Meshes"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "bibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/Messages\nbibcxx/LinearAlgebra\nbibcxx/Meshes",
+      "usage": {
+        "prompt_tokens": 1628,
+        "completion_tokens": 18196,
+        "total_tokens": 19824
+      },
+      "latency_ms": 76553.7
+    },
+    {
+      "source_module": "bibcxx/PostProcessing",
+      "true_targets": [
+        "bibcxx/Discretization",
+        "bibcxx/Modeling",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibcxx/DataFields",
+        "bibcxx/Results",
+        "bibcxx/Studies"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/Discretization"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "bibc/include\nbibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/Meshes\nbibcxx/Discretization",
+      "usage": {
+        "prompt_tokens": 1618,
+        "completion_tokens": 16617,
+        "total_tokens": 18235
+      },
+      "latency_ms": 71992.0
+    },
+    {
+      "source_module": "bibcxx/Flow",
+      "true_targets": [
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Supervis"
+      ],
+      "shown_deps": [
+        "bibcxx/DataFields",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/DataStructures",
+        "bibcxx/Meshes",
+        "bibcxx/Discretization"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "bibc/include\nbibcxx/MemoryManager\nbibcxx/DataStructures\nbibcxx/Meshes\nbibcxx/Discretization",
+      "usage": {
+        "prompt_tokens": 1609,
+        "completion_tokens": 30749,
+        "total_tokens": 32358
+      },
+      "latency_ms": 126886.5
+    },
+    {
+      "source_module": "bibcxx/Supervis",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibcxx/MemoryManager",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/Messages",
+        "bibcxx/DataStructures",
+        "bibc/supervis",
+        "bibcxx/ParallelUtilities"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "bibc/include\nbibcxx/Messages\nbibcxx/DataStructures\nbibc/supervis\nbibcxx/ParallelUtilities",
+      "usage": {
+        "prompt_tokens": 1612,
+        "completion_tokens": 21380,
+        "total_tokens": 22992
+      },
+      "latency_ms": 85398.4
+    },
+    {
+      "source_module": "code_aster/Coupling",
+      "true_targets": [
+        "code_aster/Solvers",
+        "code_aster/Utilities"
+      ],
+      "shown_deps": [
+        "code_aster/Objects"
+      ],
+      "predicted": [
+        "code_aster/Utilities",
+        "code_aster/Messages",
+        "code_aster/Cata",
+        "code_aster/Supervis",
+        "code_aster/Solvers"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "code_aster/Utilities\ncode_aster/Messages\ncode_aster/Cata\ncode_aster/Supervis\ncode_aster/Solvers",
+      "usage": {
+        "prompt_tokens": 1603,
+        "completion_tokens": 14149,
+        "total_tokens": 15752
+      },
+      "latency_ms": 63095.0
+    },
+    {
+      "source_module": "bibcxx/MemoryManager",
+      "true_targets": [
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/Messages",
+        "bibcxx/Supervis",
+        "bibcxx/Interfaces",
+        "bibcxx/DataStructures",
+        "bibcxx/ParallelUtilities"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "bibcxx/Messages\nbibcxx/Supervis\nbibcxx/Interfaces\nbibcxx/DataStructures\nbibcxx/ParallelUtilities",
+      "usage": {
+        "prompt_tokens": 1612,
+        "completion_tokens": 37249,
+        "total_tokens": 38861
+      },
+      "latency_ms": 149700.5
+    },
+    {
+      "source_module": "bibcxx/Coupling",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Meshes",
+        "bibcxx/Modeling"
+      ],
+      "shown_deps": [
+        "bibcxx/Contact",
+        "bibcxx/Messages",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/DataStructures",
+        "bibcxx/Meshes",
+        "bibcxx/DataFields"
+      ],
+      "precision": 0.8,
+      "recall": 0.8,
+      "raw_response": "bibc/include\nbibcxx/MemoryManager\nbibcxx/DataStructures\nbibcxx/Meshes\nbibcxx/DataFields",
+      "usage": {
+        "prompt_tokens": 1622,
+        "completion_tokens": 16397,
+        "total_tokens": 18019
+      },
+      "latency_ms": 68489.2
+    },
+    {
+      "source_module": "bibcxx/Studies",
+      "true_targets": [
+        "bibcxx/Behaviours",
+        "bibcxx/Contact",
+        "bibcxx/Discretization",
+        "bibcxx/Loads",
+        "bibcxx/Messages"
+      ],
+      "shown_deps": [
+        "bibcxx/DataFields",
+        "bibcxx/Materials",
+        "bibcxx/Numbering",
+        "bibcxx/Supervis",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/DataStructures",
+        "bibcxx/Meshes",
+        "bibcxx/Loads"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "bibc/include\nbibcxx/MemoryManager\nbibcxx/DataStructures\nbibcxx/Meshes\nbibcxx/Loads",
+      "usage": {
+        "prompt_tokens": 1628,
+        "completion_tokens": 13810,
+        "total_tokens": 15438
+      },
+      "latency_ms": 57292.2
+    },
+    {
+      "source_module": "bibcxx/Interfaces",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibcxx/DataStructures",
+        "bibcxx/Loads",
+        "bibcxx/Numbering",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/MemoryManager",
+        "bibc/include",
+        "bibcxx/Meshes",
+        "bibcxx/DataFields",
+        "bibcxx/Modeling"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "bibcxx/MemoryManager\nbibc/include\nbibcxx/Meshes\nbibcxx/DataFields\nbibcxx/Modeling",
+      "usage": {
+        "prompt_tokens": 1625,
+        "completion_tokens": 28081,
+        "total_tokens": 29706
+      },
+      "latency_ms": 122895.3
+    },
+    {
+      "source_module": "code_aster/CodeCommands",
+      "true_targets": [
+        "code_aster/Helpers",
+        "code_aster/Messages",
+        "code_aster/Objects",
+        "code_aster/Utilities"
+      ],
+      "shown_deps": [
+        "code_aster/Behaviours",
+        "code_aster/Cata",
+        "code_aster/Supervis"
+      ],
+      "predicted": [
+        "code_aster/Messages",
+        "code_aster/Objects",
+        "code_aster/Utilities",
+        "code_aster/Solvers",
+        "code_aster/MedUtils"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "code_aster/Messages\ncode_aster/Objects\ncode_aster/Utilities\ncode_aster/Solvers\ncode_aster/MedUtils",
+      "usage": {
+        "prompt_tokens": 1641,
+        "completion_tokens": 7294,
+        "total_tokens": 8935
+      },
+      "latency_ms": 32461.7
+    },
+    {
+      "source_module": "bibcxx/LinearAlgebra",
+      "true_targets": [
+        "bibc/include",
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Loads",
+        "bibcxx/MemoryManager",
+        "bibcxx/Modeling",
+        "bibcxx/Solvers",
+        "bibcxx/Supervis"
+      ],
+      "shown_deps": [
+        "bibcxx/Discretization",
+        "bibcxx/Materials",
+        "bibcxx/Meshes",
+        "bibcxx/Numbering",
+        "bibcxx/Results",
+        "bibcxx/Studies",
+        "bibcxx/Utilities",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Messages",
+        "bibcxx/DataFields"
+      ],
+      "precision": 0.8,
+      "recall": 0.5,
+      "raw_response": "bibc/include\nbibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/Messages\nbibcxx/DataFields",
+      "usage": {
+        "prompt_tokens": 1654,
+        "completion_tokens": 12468,
+        "total_tokens": 14122
+      },
+      "latency_ms": 50334.0
+    },
+    {
+      "source_module": "bibcxx/ParallelUtilities",
+      "true_targets": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Meshes",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/IOManager"
+      ],
+      "predicted": [
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Messages",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "bibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/Messages\nbibcxx/Supervis\nbibcxx/Utilities",
+      "usage": {
+        "prompt_tokens": 1650,
+        "completion_tokens": 10155,
+        "total_tokens": 11805
+      },
+      "latency_ms": 43580.8
+    },
+    {
+      "source_module": "bibc/utilitai",
+      "true_targets": [
+        "bibc/include"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/DataStructures",
+        "bibcxx/MemoryManager",
+        "bibcxx/Supervis",
+        "bibcxx/include"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "bibc/include\nbibcxx/DataStructures\nbibcxx/MemoryManager\nbibcxx/Supervis\nbibcxx/include",
+      "usage": {
+        "prompt_tokens": 1656,
+        "completion_tokens": 13678,
+        "total_tokens": 15334
+      },
+      "latency_ms": 54595.0
+    },
+    {
+      "source_module": "code_aster/Helpers",
+      "true_targets": [
+        "code_aster/Behaviours",
+        "code_aster/Messages",
+        "code_aster/Objects"
+      ],
+      "shown_deps": [
+        "code_aster/Cata",
+        "code_aster/Supervis",
+        "code_aster/Utilities"
+      ],
+      "predicted": [
+        "code_aster/Messages",
+        "code_aster/Objects",
+        "code_aster/MedUtils",
+        "code_aster/Behaviours",
+        "code_aster/Solvers"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "code_aster/Messages\ncode_aster/Objects\ncode_aster/MedUtils\ncode_aster/Behaviours\ncode_aster/Solvers",
+      "usage": {
+        "prompt_tokens": 1615,
+        "completion_tokens": 8271,
+        "total_tokens": 9886
+      },
+      "latency_ms": 36414.2
+    },
+    {
+      "source_module": "bibcxx/DataStructures",
+      "true_targets": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Supervis",
+        "bibcxx/Utilities"
+      ],
+      "shown_deps": [
+        "bibc/include",
+        "bibcxx/ParallelUtilities",
+        "bibcxx/include"
+      ],
+      "predicted": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Messages",
+        "bibcxx/Supervis",
+        "bibcxx/IOManager",
+        "bibcxx/Utilities"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "bibcxx/MemoryManager\nbibcxx/Messages\nbibcxx/Supervis\nbibcxx/IOManager\nbibcxx/Utilities",
+      "usage": {
+        "prompt_tokens": 1621,
+        "completion_tokens": 49889,
+        "total_tokens": 51510
+      },
+      "latency_ms": 198625.3
+    },
+    {
+      "source_module": "bibcxx/Crack",
+      "true_targets": [
+        "bibcxx/MemoryManager",
+        "bibcxx/Modeling",
+        "bibcxx/Supervis",
+        "bibcxx/include"
+      ],
+      "shown_deps": [
+        "bibcxx/DataFields",
+        "bibcxx/DataStructures",
+        "bibcxx/Functions",
+        "bibcxx/Meshes"
+      ],
+      "predicted": [
+        "bibc/include",
+        "bibcxx/MemoryManager",
+        "bibcxx/Modeling",
+        "bibcxx/Discretization",
+        "bibcxx/LinearAlgebra"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "bibc/include\nbibcxx/MemoryManager\nbibcxx/Modeling\nbibcxx/Discretization\nbibcxx/LinearAlgebra",
+      "usage": {
+        "prompt_tokens": 1622,
+        "completion_tokens": 15311,
+        "total_tokens": 16933
+      },
+      "latency_ms": 64300.9
+    }
+  ],
+  "timestamp": "2026-10-22T18:50:57.206000",
+  "model": "deepseek-v4-flash",
+  "project": "codeaster",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

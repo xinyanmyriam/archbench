@@ -1,0 +1,1600 @@
+{
+  "precision_at_5": 0.19545454545454533,
+  "recall_at_5": 0.3992694805194805,
+  "total": 88,
+  "results": [
+    {
+      "source_module": "lib/lzo",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "drivers/thermal",
+      "true_targets": [
+        "include/linux",
+        "include/net",
+        "include/dt-bindings",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "include/dt-bindings",
+        "include/net",
+        "include/uapi"
+      ],
+      "precision": 0.8,
+      "recall": 1.0,
+      "raw_response": "include/linux\narch/x86\ninclude/dt-bindings\ninclude/net\ninclude/uapi"
+    },
+    {
+      "source_module": "arch/powerpc",
+      "true_targets": [
+        "drivers/pci",
+        "include/vdso",
+        "include/soc",
+        "include/uapi",
+        "include/misc",
+        "include/linux",
+        "include/math-emu",
+        "include/scsi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "include/dt-bindings",
+        "drivers/tty"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\ninclude/dt-bindings\ndrivers/tty"
+    },
+    {
+      "source_module": "drivers/bus",
+      "true_targets": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/arm",
+        "drivers/clk",
+        "arch/arm64",
+        "arch/mips"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\narch/arm\ndrivers/clk\narch/arm64\narch/mips"
+    },
+    {
+      "source_module": "net/xfrm",
+      "true_targets": [
+        "include/linux",
+        "include/crypto",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/net",
+        "include/linux",
+        "include/uapi",
+        "net/netfilter",
+        "drivers/crypto"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/net\ninclude/linux\ninclude/uapi\nnet/netfilter\ndrivers/crypto"
+    },
+    {
+      "source_module": "drivers/android",
+      "true_targets": [
+        "include/linux",
+        "include/kunit",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/char",
+        "drivers/staging",
+        "drivers/misc"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/char\ndrivers/staging\ndrivers/misc"
+    },
+    {
+      "source_module": "drivers/ata",
+      "true_targets": [
+        "include/uapi",
+        "include/trace",
+        "include/pcmcia",
+        "include/scsi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/scsi",
+        "drivers/pci",
+        "drivers/acpi",
+        "drivers/clk"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/scsi\ndrivers/pci\ndrivers/acpi\ndrivers/clk"
+    },
+    {
+      "source_module": "drivers/rpmsg",
+      "true_targets": [
+        "include/uapi",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/soc",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/soc\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "kernel/trace",
+      "true_targets": [
+        "include/rv",
+        "include/trace",
+        "include/asm-generic"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "include/net",
+        "arch/arm64"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\ninclude/net\narch/arm64"
+    },
+    {
+      "source_module": "drivers/staging",
+      "true_targets": [
+        "include/crypto",
+        "include/linux",
+        "include/net",
+        "include/trace",
+        "include/soc"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "drivers/media",
+        "drivers/usb"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\ndrivers/media\ndrivers/usb"
+    },
+    {
+      "source_module": "net/shaper",
+      "true_targets": [
+        "include/net",
+        "net/core"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "net/netfilter",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\nnet/netfilter\ndrivers/net"
+    },
+    {
+      "source_module": "drivers/soc",
+      "true_targets": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/acpi",
+        "include/net",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "drivers/clk",
+        "drivers/mfd",
+        "drivers/firmware"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "include/linux\ninclude/dt-bindings\ndrivers/clk\ndrivers/mfd\ndrivers/firmware"
+    },
+    {
+      "source_module": "drivers/dax",
+      "true_targets": [
+        "drivers/cxl",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/acpi",
+        "arch/x86",
+        "drivers/char"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/acpi\narch/x86\ndrivers/char"
+    },
+    {
+      "source_module": "fs/smb",
+      "true_targets": [
+        "include/keys",
+        "include/rdma",
+        "include/linux",
+        "include/kunit",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "drivers/char",
+        "drivers/infiniband"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\ndrivers/char\ndrivers/infiniband"
+    },
+    {
+      "source_module": "drivers/gpu",
+      "true_targets": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/crypto",
+        "include/linux",
+        "include/kunit",
+        "include/trace",
+        "include/drm",
+        "include/media"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "drivers/video",
+        "drivers/acpi"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\ndrivers/video\ndrivers/acpi"
+    },
+    {
+      "source_module": "drivers/cpufreq",
+      "true_targets": [
+        "include/linux",
+        "include/acpi",
+        "include/trace",
+        "arch/arm"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/clk",
+        "drivers/regulator",
+        "arch/x86",
+        "drivers/acpi"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/linux\ndrivers/clk\ndrivers/regulator\narch/x86\ndrivers/acpi"
+    },
+    {
+      "source_module": "security/landlock",
+      "true_targets": [
+        "include/uapi",
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "arch/x86",
+        "fs/xfs"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\narch/x86\nfs/xfs"
+    },
+    {
+      "source_module": "net/handshake",
+      "true_targets": [
+        "include/linux",
+        "include/uapi",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "lib/crypto",
+        "net/netfilter"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\nlib/crypto\nnet/netfilter"
+    },
+    {
+      "source_module": "fs/overlayfs",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "lib/crypto",
+        "fs/xfs",
+        "drivers/md"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\nlib/crypto\nfs/xfs\ndrivers/md"
+    },
+    {
+      "source_module": "mm/kfence",
+      "true_targets": [
+        "include/kunit",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "arch/riscv",
+        "arch/powerpc"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\narch/x86\narch/arm64\narch/riscv\narch/powerpc"
+    },
+    {
+      "source_module": "drivers/hwmon",
+      "true_targets": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/acpi",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "drivers/pci",
+        "drivers/acpi",
+        "drivers/mfd"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\narch/x86\ndrivers/pci\ndrivers/acpi\ndrivers/mfd"
+    },
+    {
+      "source_module": "drivers/hte",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "drivers/clk",
+        "arch/arm64",
+        "drivers/soc"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/dt-bindings\ndrivers/clk\narch/arm64\ndrivers/soc"
+    },
+    {
+      "source_module": "drivers/watchdog",
+      "true_targets": [
+        "include/uapi",
+        "include/trace",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/mfd",
+        "drivers/gpio",
+        "drivers/pci"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/mfd\ndrivers/gpio\ndrivers/pci"
+    },
+    {
+      "source_module": "security/keys",
+      "true_targets": [
+        "include/net",
+        "include/crypto",
+        "include/keys"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/char",
+        "lib/crypto",
+        "drivers/crypto"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/char\nlib/crypto\ndrivers/crypto"
+    },
+    {
+      "source_module": "arch/x86",
+      "true_targets": [
+        "include/uapi",
+        "include/acpi",
+        "include/crypto",
+        "include/asm-generic",
+        "arch/um",
+        "lib/vdso",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/acpi",
+        "drivers/pci",
+        "drivers/firmware"
+      ],
+      "precision": 0.2,
+      "recall": 0.14285714285714285,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/acpi\ndrivers/pci\ndrivers/firmware"
+    },
+    {
+      "source_module": "net/mctp",
+      "true_targets": [
+        "include/uapi",
+        "include/kunit",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "drivers/net",
+        "lib/crypto"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\ndrivers/net\nlib/crypto"
+    },
+    {
+      "source_module": "drivers/infiniband",
+      "true_targets": [
+        "include/rdma",
+        "include/net",
+        "include/trace",
+        "include/target"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "drivers/pci",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\ndrivers/pci\ndrivers/net"
+    },
+    {
+      "source_module": "arch/arm",
+      "true_targets": [
+        "lib/fonts",
+        "include/sound",
+        "include/video",
+        "include/uapi",
+        "lib/zlib_inflate",
+        "include/trace",
+        "include/asm-generic",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/clk",
+        "drivers/pinctrl",
+        "drivers/gpio"
+      ],
+      "precision": 0.2,
+      "recall": 0.125,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/clk\ndrivers/pinctrl\ndrivers/gpio"
+    },
+    {
+      "source_module": "mm/kmsan",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "include/uapi",
+        "lib/crypto"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\narch/x86\narch/arm64\ninclude/uapi\nlib/crypto"
+    },
+    {
+      "source_module": "drivers/hid",
+      "true_targets": [
+        "arch/openrisc",
+        "include/kunit",
+        "include/trace",
+        "include/drm",
+        "include/media"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/input",
+        "drivers/usb",
+        "include/uapi",
+        "drivers/acpi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/input\ndrivers/usb\ninclude/uapi\ndrivers/acpi"
+    },
+    {
+      "source_module": "drivers/nubus",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/m68k",
+        "arch/powerpc",
+        "include/uapi",
+        "drivers/pci"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\narch/m68k\narch/powerpc\ninclude/uapi\ndrivers/pci"
+    },
+    {
+      "source_module": "security/yama",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "drivers/mtd",
+      "true_targets": [
+        "include/uapi",
+        "include/memory",
+        "include/soc"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/clk",
+        "drivers/dma",
+        "drivers/gpio"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/clk\ndrivers/dma\ndrivers/gpio"
+    },
+    {
+      "source_module": "lib/zlib_inflate",
+      "true_targets": [
+        "lib/zlib_dfltcc"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "drivers/perf",
+      "true_targets": [
+        "include/clocksource",
+        "include/acpi",
+        "include/asm-generic"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/acpi",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/acpi\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "crypto/asymmetric_keys",
+      "true_targets": [
+        "include/linux",
+        "include/keys"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "lib/crypto",
+        "drivers/crypto",
+        "arch/x86"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\nlib/crypto\ndrivers/crypto\narch/x86"
+    },
+    {
+      "source_module": "net/xdp",
+      "true_targets": [
+        "include/uapi",
+        "include/net"
+      ],
+      "predicted": [
+        "include/net",
+        "include/linux",
+        "include/uapi",
+        "drivers/net",
+        "arch/x86"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/net\ninclude/linux\ninclude/uapi\ndrivers/net\narch/x86"
+    },
+    {
+      "source_module": "rust/bindings",
+      "true_targets": [
+        "drivers/base",
+        "include/drm",
+        "drivers/android"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "arch/riscv"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\narch/riscv"
+    },
+    {
+      "source_module": "drivers/media",
+      "true_targets": [
+        "include/sound",
+        "include/dt-bindings",
+        "include/acpi",
+        "include/misc",
+        "include/net",
+        "include/media"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/usb",
+        "drivers/pci",
+        "drivers/gpio"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/usb\ndrivers/pci\ndrivers/gpio"
+    },
+    {
+      "source_module": "drivers/ufs",
+      "true_targets": [
+        "include/ufs",
+        "include/soc",
+        "include/scsi"
+      ],
+      "predicted": [
+        "drivers/scsi",
+        "include/linux",
+        "drivers/phy",
+        "drivers/clk",
+        "drivers/regulator"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/scsi\ninclude/linux\ndrivers/phy\ndrivers/clk\ndrivers/regulator"
+    },
+    {
+      "source_module": "drivers/firewire",
+      "true_targets": [
+        "include/linux",
+        "include/kunit",
+        "include/scsi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "drivers/scsi",
+        "include/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\ndrivers/scsi\ninclude/net"
+    },
+    {
+      "source_module": "drivers/input",
+      "true_targets": [
+        "include/sound",
+        "include/xen",
+        "include/dt-bindings",
+        "include/kunit",
+        "include/trace",
+        "include/media"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/gpio",
+        "drivers/regulator",
+        "drivers/pinctrl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/gpio\ndrivers/regulator\ndrivers/pinctrl"
+    },
+    {
+      "source_module": "drivers/nfc",
+      "true_targets": [
+        "include/uapi",
+        "include/net"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "drivers/gpio",
+        "drivers/acpi"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\ndrivers/gpio\ndrivers/acpi"
+    },
+    {
+      "source_module": "drivers/scsi",
+      "true_targets": [
+        "include/uapi",
+        "include/linux",
+        "include/kunit",
+        "include/trace",
+        "drivers/net",
+        "drivers/parisc"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "include/uapi",
+        "include/net",
+        "drivers/net"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "include/linux\ndrivers/pci\ninclude/uapi\ninclude/net\ndrivers/net"
+    },
+    {
+      "source_module": "drivers/usb",
+      "true_targets": [
+        "include/sound",
+        "include/soc",
+        "include/uapi",
+        "include/pcmcia",
+        "include/trace",
+        "include/target",
+        "include/drm"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "drivers/phy",
+        "drivers/tty"
+      ],
+      "precision": 0.2,
+      "recall": 0.14285714285714285,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\ndrivers/phy\ndrivers/tty"
+    },
+    {
+      "source_module": "lib/test_fortify",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "kernel/bpf",
+      "true_targets": [
+        "kernel/cgroup",
+        "include/crypto",
+        "kernel/locking",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "arch/x86",
+        "drivers/net"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\narch/x86\ndrivers/net"
+    },
+    {
+      "source_module": "mm/damon",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "drivers/char",
+        "include/uapi",
+        "arch/arm64"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\narch/x86\ndrivers/char\ninclude/uapi\narch/arm64"
+    },
+    {
+      "source_module": "fs/ext4",
+      "true_targets": [
+        "include/linux",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "drivers/char",
+        "lib/crypto"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\ndrivers/char\nlib/crypto"
+    },
+    {
+      "source_module": "drivers/mcb",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "arch/x86",
+        "drivers/firmware",
+        "drivers/platform"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ndrivers/pci\narch/x86\ndrivers/firmware\ndrivers/platform"
+    },
+    {
+      "source_module": "fs/udf",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "lib/crypto",
+        "drivers/md",
+        "drivers/scsi"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\nlib/crypto\ndrivers/md\ndrivers/scsi"
+    },
+    {
+      "source_module": "fs/resctrl",
+      "true_targets": [
+        "include/linux",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "include/uapi",
+        "drivers/acpi",
+        "drivers/pci"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/linux\narch/x86\ninclude/uapi\ndrivers/acpi\ndrivers/pci"
+    },
+    {
+      "source_module": "mm/kasan",
+      "true_targets": [
+        "include/kunit",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "arch/s390",
+        "arch/riscv"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\narch/x86\narch/arm64\narch/s390\narch/riscv"
+    },
+    {
+      "source_module": "fs/unicode",
+      "true_targets": [
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux"
+    },
+    {
+      "source_module": "kernel/power",
+      "true_targets": [
+        "include/linux",
+        "include/uapi",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "drivers/regulator",
+        "drivers/char"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\ndrivers/regulator\ndrivers/char"
+    },
+    {
+      "source_module": "arch/riscv",
+      "true_targets": [
+        "include/linux",
+        "include/net",
+        "include/trace",
+        "include/asm-generic",
+        "include/kvm"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/dt-bindings",
+        "drivers/clk",
+        "drivers/pinctrl"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/dt-bindings\ndrivers/clk\ndrivers/pinctrl"
+    },
+    {
+      "source_module": "drivers/net",
+      "true_targets": [
+        "include/xen",
+        "include/uapi",
+        "arch/mips",
+        "include/pcmcia",
+        "include/linux",
+        "include/kunit",
+        "include/net",
+        "arch/arm",
+        "include/scsi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "drivers/pci",
+        "drivers/usb"
+      ],
+      "precision": 0.6,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\ndrivers/pci\ndrivers/usb"
+    },
+    {
+      "source_module": "net/netfilter",
+      "true_targets": [
+        "include/uapi",
+        "net/bridge"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "arch/x86",
+        "lib/crypto"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\narch/x86\nlib/crypto"
+    },
+    {
+      "source_module": "kernel/unwind",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "include/uapi",
+        "arch/arm64",
+        "arch/powerpc"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\narch/x86\ninclude/uapi\narch/arm64\narch/powerpc"
+    },
+    {
+      "source_module": "drivers/pnp",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/acpi",
+        "arch/x86",
+        "drivers/firmware",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ndrivers/acpi\narch/x86\ndrivers/firmware\ninclude/uapi"
+    },
+    {
+      "source_module": "kernel/kcsan",
+      "true_targets": [
+        "include/linux",
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "include/uapi",
+        "arch/arm64",
+        "arch/powerpc"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\narch/x86\ninclude/uapi\narch/arm64\narch/powerpc"
+    },
+    {
+      "source_module": "drivers/virtio",
+      "true_targets": [
+        "include/uapi",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "drivers/input",
+        "drivers/dma"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\ndrivers/input\ndrivers/dma"
+    },
+    {
+      "source_module": "drivers/power",
+      "true_targets": [
+        "include/linux",
+        "include/uapi",
+        "include/soc",
+        "arch/arm"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/regulator",
+        "drivers/mfd",
+        "drivers/gpio",
+        "drivers/usb"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/linux\ndrivers/regulator\ndrivers/mfd\ndrivers/gpio\ndrivers/usb"
+    },
+    {
+      "source_module": "drivers/target",
+      "true_targets": [
+        "drivers/net",
+        "include/trace",
+        "include/crypto",
+        "include/scsi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/scsi",
+        "include/net",
+        "include/uapi",
+        "drivers/char"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/scsi\ninclude/net\ninclude/uapi\ndrivers/char"
+    },
+    {
+      "source_module": "drivers/mmc",
+      "true_targets": [
+        "include/linux",
+        "include/kunit",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/clk",
+        "drivers/regulator",
+        "drivers/gpio",
+        "include/uapi"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ndrivers/clk\ndrivers/regulator\ndrivers/gpio\ninclude/uapi"
+    },
+    {
+      "source_module": "drivers/iio",
+      "true_targets": [
+        "include/linux",
+        "include/kunit",
+        "include/soc",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/gpio",
+        "drivers/regulator",
+        "drivers/clk"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/gpio\ndrivers/regulator\ndrivers/clk"
+    },
+    {
+      "source_module": "sound/arm",
+      "true_targets": [
+        "include/sound"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/arm",
+        "sound/pci",
+        "drivers/clk",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\narch/arm\nsound/pci\ndrivers/clk\ninclude/uapi"
+    },
+    {
+      "source_module": "sound/hda",
+      "true_targets": [
+        "include/acpi",
+        "include/sound",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/acpi",
+        "drivers/pci",
+        "drivers/firmware",
+        "drivers/gpu"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/acpi\ndrivers/pci\ndrivers/firmware\ndrivers/gpu"
+    },
+    {
+      "source_module": "drivers/gpio",
+      "true_targets": [
+        "include/uapi",
+        "include/linux",
+        "include/trace",
+        "drivers/media",
+        "include/soc"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/dt-bindings",
+        "drivers/pinctrl",
+        "drivers/acpi"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/dt-bindings\ndrivers/pinctrl\ndrivers/acpi"
+    },
+    {
+      "source_module": "sound/i2c",
+      "true_targets": [
+        "include/sound"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "sound/pci",
+        "sound/soc"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\nsound/pci\nsound/soc"
+    },
+    {
+      "source_module": "drivers/parisc",
+      "true_targets": [
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "drivers/tty",
+        "drivers/char",
+        "drivers/scsi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/pci\ndrivers/tty\ndrivers/char\ndrivers/scsi"
+    },
+    {
+      "source_module": "drivers/spi",
+      "true_targets": [
+        "include/soc",
+        "include/trace",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/gpio",
+        "drivers/clk",
+        "drivers/dma",
+        "drivers/pinctrl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/gpio\ndrivers/clk\ndrivers/dma\ndrivers/pinctrl"
+    },
+    {
+      "source_module": "net/kcm",
+      "true_targets": [
+        "include/uapi",
+        "include/net"
+      ],
+      "predicted": [
+        "include/net",
+        "include/linux",
+        "include/uapi",
+        "net/netfilter",
+        "drivers/net"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/net\ninclude/linux\ninclude/uapi\nnet/netfilter\ndrivers/net"
+    },
+    {
+      "source_module": "fs/ecryptfs",
+      "true_targets": [
+        "include/linux",
+        "include/keys"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "drivers/char",
+        "lib/crypto"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\ndrivers/char\nlib/crypto"
+    },
+    {
+      "source_module": "drivers/video",
+      "true_targets": [
+        "include/xen",
+        "include/video",
+        "include/acpi",
+        "arch/powerpc",
+        "arch/arm",
+        "include/drm"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/arm",
+        "arch/sparc",
+        "arch/powerpc",
+        "arch/x86"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\narch/arm\narch/sparc\narch/powerpc\narch/x86"
+    },
+    {
+      "source_module": "drivers/block",
+      "true_targets": [
+        "include/xen",
+        "include/rdma",
+        "include/crypto",
+        "include/net",
+        "include/scsi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "include/net",
+        "drivers/scsi"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\ninclude/net\ndrivers/scsi"
+    },
+    {
+      "source_module": "kernel/irq",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "include/uapi",
+        "drivers/acpi",
+        "drivers/pci"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\narch/x86\ninclude/uapi\ndrivers/acpi\ndrivers/pci"
+    },
+    {
+      "source_module": "drivers/platform",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/acpi",
+        "include/crypto",
+        "include/trace",
+        "include/drm",
+        "drivers/misc",
+        "include/media"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/acpi",
+        "drivers/input",
+        "drivers/video",
+        "drivers/mfd"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/acpi\ndrivers/input\ndrivers/video\ndrivers/mfd"
+    },
+    {
+      "source_module": "kernel/time",
+      "true_targets": [
+        "include/uapi",
+        "include/kunit",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "drivers/tty",
+      "true_targets": [
+        "include/net",
+        "include/soc",
+        "include/xen",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/clk",
+        "drivers/dma",
+        "drivers/gpio"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/clk\ndrivers/dma\ndrivers/gpio"
+    },
+    {
+      "source_module": "drivers/vhost",
+      "true_targets": [
+        "include/linux",
+        "include/target",
+        "include/scsi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "drivers/net",
+        "drivers/scsi"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\ndrivers/net\ndrivers/scsi"
+    },
+    {
+      "source_module": "drivers/uio",
+      "true_targets": [
+        "drivers/hv"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "arch/powerpc",
+        "drivers/platform"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\narch/powerpc\ndrivers/platform"
+    },
+    {
+      "source_module": "drivers/remoteproc",
+      "true_targets": [
+        "include/uapi",
+        "include/dt-bindings"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/clk",
+        "drivers/firmware",
+        "drivers/regulator"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/clk\ndrivers/firmware\ndrivers/regulator"
+    },
+    {
+      "source_module": "drivers/idle",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "drivers/acpi",
+        "drivers/firmware",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\narch/x86\ndrivers/acpi\ndrivers/firmware\ninclude/uapi"
+    },
+    {
+      "source_module": "arch/um",
+      "true_targets": [
+        "include/linux",
+        "include/uapi",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/tty",
+        "drivers/pci",
+        "drivers/char"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/tty\ndrivers/pci\ndrivers/char"
+    },
+    {
+      "source_module": "fs/hfs",
+      "true_targets": [
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "arch/arm"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\narch/arm"
+    },
+    {
+      "source_module": "drivers/bluetooth",
+      "true_targets": [
+        "include/linux",
+        "include/acpi",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "drivers/usb",
+        "drivers/tty",
+        "drivers/regulator"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/net\ndrivers/usb\ndrivers/tty\ndrivers/regulator"
+    },
+    {
+      "source_module": "fs/kernfs",
+      "true_targets": [
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "include/net",
+        "arch/arm64"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\ninclude/net\narch/arm64"
+    }
+  ],
+  "n_api_errors": 0
+}

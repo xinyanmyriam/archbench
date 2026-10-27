@@ -1,0 +1,2829 @@
+{
+ "accuracy": 0.91,
+ "precision": 0.8045977011494253,
+ "recall": 0.9859154929577465,
+ "f1": 0.8860759493670887,
+ "tp": 70,
+ "fp": 17,
+ "tn": 112,
+ "fn": 1,
+ "total": 200,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 120220,
+  "completion_tokens": 24984,
+  "total_tokens": 145204
+ },
+ "results": [
+  {
+   "module_A": "tensorflow/python/module",
+   "module_B": "tensorflow/compiler/tf2xla",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 475,
+    "completion_tokens": 3,
+    "total_tokens": 478
+   },
+   "latency_ms": 1951.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/kernels",
+   "module_B": "tensorflow/core/public",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 5,
+    "total_tokens": 631
+   },
+   "latency_ms": 1896.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/experimental",
+   "module_B": "tensorflow/lite/async",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 581,
+    "completion_tokens": 521,
+    "total_tokens": 1102
+   },
+   "latency_ms": 9642.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/kernels",
+   "module_B": "tensorflow/core/profiler",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 733,
+    "completion_tokens": 198,
+    "total_tokens": 931
+   },
+   "latency_ms": 4424.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/compiler/mlir",
+   "module_B": "tensorflow/python/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 723,
+    "completion_tokens": 340,
+    "total_tokens": 1063
+   },
+   "latency_ms": 6308.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/lib_package",
+   "module_B": "tensorflow/python/trackable",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 3,
+    "total_tokens": 315
+   },
+   "latency_ms": 2014.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/function",
+   "module_B": "tensorflow/core/ir",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 197,
+    "total_tokens": 845
+   },
+   "latency_ms": 4360.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/nccl",
+   "module_B": "tensorflow/compiler/plugin",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 503,
+    "completion_tokens": 3,
+    "total_tokens": 506
+   },
+   "latency_ms": 1945.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/tf2tensorrt",
+   "module_B": "tensorflow/core/common_runtime",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 717,
+    "completion_tokens": 5,
+    "total_tokens": 722
+   },
+   "latency_ms": 2033.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/runtime_fallback",
+   "module_B": "tensorflow/lite/kernels",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 687,
+    "completion_tokens": 3,
+    "total_tokens": 690
+   },
+   "latency_ms": 1879.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/tools/lib_package",
+   "module_B": "tensorflow/python/platform",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 3,
+    "total_tokens": 327
+   },
+   "latency_ms": 2067.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/toco",
+   "module_B": "tensorflow/python/training",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 222,
+    "total_tokens": 836
+   },
+   "latency_ms": 5173.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/tf2xla",
+   "module_B": "tensorflow/lite/core",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 679,
+    "completion_tokens": 3,
+    "total_tokens": 682
+   },
+   "latency_ms": 1989.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/common_runtime",
+   "module_B": "tensorflow/core/example",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 208,
+    "total_tokens": 855
+   },
+   "latency_ms": 4788.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/data",
+   "module_B": "tensorflow/compiler/mlir",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 701,
+    "completion_tokens": 3,
+    "total_tokens": 704
+   },
+   "latency_ms": 2036.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/distribute",
+   "module_B": "tensorflow/core/user_ops",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 3,
+    "total_tokens": 543
+   },
+   "latency_ms": 3026.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/keras",
+   "module_B": "tensorflow/lite/core",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 3,
+    "total_tokens": 647
+   },
+   "latency_ms": 2018.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/distribute",
+   "module_B": "tensorflow/dtensor/python",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 610,
+    "completion_tokens": 686,
+    "total_tokens": 1296
+   },
+   "latency_ms": 11019.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/util",
+   "module_B": "tensorflow/python/debug",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 566,
+    "completion_tokens": 3,
+    "total_tokens": 569
+   },
+   "latency_ms": 1920.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/types",
+   "module_B": "tensorflow/python/saved_model",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 410,
+    "completion_tokens": 273,
+    "total_tokens": 683
+   },
+   "latency_ms": 4907.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/g3doc",
+   "module_B": "tensorflow/compiler/tf2tensorrt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 386,
+    "completion_tokens": 3,
+    "total_tokens": 389
+   },
+   "latency_ms": 2057.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/async",
+   "module_B": "tensorflow/lite/testdata",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 405,
+    "completion_tokens": 3,
+    "total_tokens": 408
+   },
+   "latency_ms": 1958.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/jit",
+   "module_B": "tensorflow/core/profiler",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 758,
+    "completion_tokens": 262,
+    "total_tokens": 1020
+   },
+   "latency_ms": 5174.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/tests",
+   "module_B": "tensorflow/compiler/aot",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 668,
+    "completion_tokens": 3,
+    "total_tokens": 671
+   },
+   "latency_ms": 1915.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/async",
+   "module_B": "tensorflow/lite/testing",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 498,
+    "completion_tokens": 3,
+    "total_tokens": 501
+   },
+   "latency_ms": 1857.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/cc",
+   "module_B": "tensorflow/compiler/tf2xla",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 705,
+    "completion_tokens": 490,
+    "total_tokens": 1195
+   },
+   "latency_ms": 7768.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/common_runtime",
+   "module_B": "tensorflow/core/public",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 5,
+    "total_tokens": 610
+   },
+   "latency_ms": 1888.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/eager",
+   "module_B": "tensorflow/python/profiler",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 603,
+    "completion_tokens": 525,
+    "total_tokens": 1128
+   },
+   "latency_ms": 8578.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/summary",
+   "module_B": "tensorflow/core/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 5,
+    "total_tokens": 658
+   },
+   "latency_ms": 3411.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/platform",
+   "module_B": "tensorflow/c/experimental",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 610,
+    "completion_tokens": 322,
+    "total_tokens": 932
+   },
+   "latency_ms": 6571.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/dlpack",
+   "module_B": "tensorflow/cc/saved_model",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 434,
+    "completion_tokens": 3,
+    "total_tokens": 437
+   },
+   "latency_ms": 1958.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/distribute",
+   "module_B": "tensorflow/lite/toco",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 636,
+    "completion_tokens": 3,
+    "total_tokens": 639
+   },
+   "latency_ms": 1973.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/testing",
+   "module_B": "tensorflow/python/summary",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 558,
+    "completion_tokens": 373,
+    "total_tokens": 931
+   },
+   "latency_ms": 7057.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/tools",
+   "module_B": "tensorflow/lite/c",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 5,
+    "total_tokens": 676
+   },
+   "latency_ms": 2128.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/docs",
+   "module_B": "tensorflow/python/module",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 452,
+    "completion_tokens": 456,
+    "total_tokens": 908
+   },
+   "latency_ms": 7485.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/tfrt",
+   "module_B": "tensorflow/core/tpu",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 637,
+    "completion_tokens": 5,
+    "total_tokens": 642
+   },
+   "latency_ms": 1758.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/schema",
+   "module_B": "tensorflow/python/eager",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 516,
+    "completion_tokens": 283,
+    "total_tokens": 799
+   },
+   "latency_ms": 5322.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/tf2tensorrt",
+   "module_B": "tensorflow/core/platform",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 5,
+    "total_tokens": 669
+   },
+   "latency_ms": 1938.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/kernel_tests",
+   "module_B": "tensorflow/python/compat",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 564,
+    "completion_tokens": 5,
+    "total_tokens": 569
+   },
+   "latency_ms": 2915.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/tools",
+   "module_B": "tensorflow/core/platform",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 555,
+    "completion_tokens": 236,
+    "total_tokens": 791
+   },
+   "latency_ms": 4587.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/proto_text",
+   "module_B": "tensorflow/core/distributed_runtime",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 624,
+    "completion_tokens": 3,
+    "total_tokens": 627
+   },
+   "latency_ms": 1911.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/delegates",
+   "module_B": "tensorflow/lite/testing",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 608,
+    "completion_tokens": 445,
+    "total_tokens": 1053
+   },
+   "latency_ms": 8195.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/graph",
+   "module_B": "tensorflow/core/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 683,
+    "completion_tokens": 5,
+    "total_tokens": 688
+   },
+   "latency_ms": 2192.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/distributed_runtime",
+   "module_B": "tensorflow/core/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 723,
+    "completion_tokens": 5,
+    "total_tokens": 728
+   },
+   "latency_ms": 1974.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/api",
+   "module_B": "tensorflow/cc/experimental",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 505,
+    "completion_tokens": 3,
+    "total_tokens": 508
+   },
+   "latency_ms": 1765.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/nnapi",
+   "module_B": "tensorflow/core/user_ops",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 482,
+    "completion_tokens": 3,
+    "total_tokens": 485
+   },
+   "latency_ms": 2094.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/tools",
+   "module_B": "tensorflow/lite/experimental",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 685,
+    "completion_tokens": 5,
+    "total_tokens": 690
+   },
+   "latency_ms": 1942.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/cc/ops",
+   "module_B": "tensorflow/core/ir",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 725,
+    "completion_tokens": 3,
+    "total_tokens": 728
+   },
+   "latency_ms": 1912.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/jit",
+   "module_B": "tensorflow/cc/tools",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 670,
+    "completion_tokens": 158,
+    "total_tokens": 828
+   },
+   "latency_ms": 5530.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/tools/mlpbtxt",
+   "module_B": "tensorflow/python/feature_column",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 495,
+    "completion_tokens": 3,
+    "total_tokens": 498
+   },
+   "latency_ms": 2034.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/mlir",
+   "module_B": "tensorflow/lite/acceleration",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 765,
+    "completion_tokens": 3,
+    "total_tokens": 768
+   },
+   "latency_ms": 1808.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/c/experimental",
+   "module_B": "tensorflow/python/module",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 615,
+    "completion_tokens": 3,
+    "total_tokens": 618
+   },
+   "latency_ms": 2090.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/python",
+   "module_B": "tensorflow/compiler/plugin",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 486,
+    "completion_tokens": 3,
+    "total_tokens": 489
+   },
+   "latency_ms": 3811.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/tools",
+   "module_B": "tensorflow/python/trackable",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 361,
+    "total_tokens": 1014
+   },
+   "latency_ms": 6457.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/micro",
+   "module_B": "tensorflow/python/lib",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 3,
+    "total_tokens": 335
+   },
+   "latency_ms": 1942.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/cc/framework",
+   "module_B": "tensorflow/core/platform",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 689,
+    "completion_tokens": 5,
+    "total_tokens": 694
+   },
+   "latency_ms": 1924.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/feature_column",
+   "module_B": "tensorflow/python/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 642,
+    "completion_tokens": 5,
+    "total_tokens": 647
+   },
+   "latency_ms": 1996.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/compiler",
+   "module_B": "tensorflow/core/runtime_fallback",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 588,
+    "completion_tokens": 3,
+    "total_tokens": 591
+   },
+   "latency_ms": 1827.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/runtime_fallback",
+   "module_B": "tensorflow/core/lib",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 643,
+    "completion_tokens": 5,
+    "total_tokens": 648
+   },
+   "latency_ms": 1959.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/nccl",
+   "module_B": "tensorflow/core/runtime_fallback",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 612,
+    "completion_tokens": 3,
+    "total_tokens": 615
+   },
+   "latency_ms": 1970.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/protobuf",
+   "module_B": "tensorflow/python/ops",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 3,
+    "total_tokens": 327
+   },
+   "latency_ms": 1935.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/c",
+   "module_B": "tensorflow/lite/core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 571,
+    "completion_tokens": 5,
+    "total_tokens": 576
+   },
+   "latency_ms": 2069.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/compiler",
+   "module_B": "tensorflow/compiler/mlir",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 282,
+    "total_tokens": 917
+   },
+   "latency_ms": 5782.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/trackable",
+   "module_B": "tensorflow/python/lib",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 566,
+    "completion_tokens": 450,
+    "total_tokens": 1016
+   },
+   "latency_ms": 8421.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/c/eager",
+   "module_B": "tensorflow/core/graph",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 696,
+    "completion_tokens": 5,
+    "total_tokens": 701
+   },
+   "latency_ms": 2054.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/distribute",
+   "module_B": "tensorflow/compiler/jit",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 691,
+    "completion_tokens": 502,
+    "total_tokens": 1193
+   },
+   "latency_ms": 8638.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/tf2xla",
+   "module_B": "tensorflow/cc/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 691,
+    "completion_tokens": 5,
+    "total_tokens": 696
+   },
+   "latency_ms": 2550.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/tfg_graph_transforms",
+   "module_B": "tensorflow/python/framework",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 3,
+    "total_tokens": 638
+   },
+   "latency_ms": 2475.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/kernels",
+   "module_B": "tensorflow/lite/ios",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 3,
+    "total_tokens": 546
+   },
+   "latency_ms": 2360.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/summary",
+   "module_B": "tensorflow/compiler/jit",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 668,
+    "completion_tokens": 3,
+    "total_tokens": 671
+   },
+   "latency_ms": 1904.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/cc",
+   "module_B": "tensorflow/dtensor/mlir",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 696,
+    "completion_tokens": 5,
+    "total_tokens": 701
+   },
+   "latency_ms": 1996.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/profiler",
+   "module_B": "tensorflow/python/lib",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 617,
+    "completion_tokens": 179,
+    "total_tokens": 796
+   },
+   "latency_ms": 4310.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/c/experimental",
+   "module_B": "tensorflow/python/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 718,
+    "completion_tokens": 447,
+    "total_tokens": 1165
+   },
+   "latency_ms": 8009.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/git",
+   "module_B": "tensorflow/lite/async",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 334,
+    "completion_tokens": 3,
+    "total_tokens": 337
+   },
+   "latency_ms": 1898.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/tools/pip_package",
+   "module_B": "tensorflow/tools/proto_text",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 465,
+    "completion_tokens": 3,
+    "total_tokens": 468
+   },
+   "latency_ms": 1764.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/function",
+   "module_B": "tensorflow/python/compat",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 593,
+    "completion_tokens": 281,
+    "total_tokens": 874
+   },
+   "latency_ms": 5023.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/nnapi",
+   "module_B": "tensorflow/distribute/experimental",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 536,
+    "completion_tokens": 3,
+    "total_tokens": 539
+   },
+   "latency_ms": 1820.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/tfrt",
+   "module_B": "tensorflow/python/module",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 514,
+    "completion_tokens": 278,
+    "total_tokens": 792
+   },
+   "latency_ms": 4976.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/delegates",
+   "module_B": "tensorflow/cc/framework",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 407,
+    "total_tokens": 1021
+   },
+   "latency_ms": 8232.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/distribute/experimental",
+   "module_B": "tensorflow/core/distributed_runtime",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 5,
+    "total_tokens": 662
+   },
+   "latency_ms": 2144.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/cc/experimental",
+   "module_B": "tensorflow/cc/saved_model",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 675,
+    "completion_tokens": 5,
+    "total_tokens": 680
+   },
+   "latency_ms": 2014.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/framework",
+   "module_B": "tensorflow/python/module",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 532,
+    "completion_tokens": 261,
+    "total_tokens": 793
+   },
+   "latency_ms": 5705.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/data",
+   "module_B": "tensorflow/core/profiler",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 666,
+    "completion_tokens": 294,
+    "total_tokens": 960
+   },
+   "latency_ms": 6030.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/tf2tensorrt",
+   "module_B": "tensorflow/core/distributed_runtime",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 734,
+    "completion_tokens": 694,
+    "total_tokens": 1428
+   },
+   "latency_ms": 9765.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/ir",
+   "module_B": "tensorflow/lite/swift",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 583,
+    "completion_tokens": 3,
+    "total_tokens": 586
+   },
+   "latency_ms": 2489.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/lite",
+   "module_B": "tensorflow/lite/toco",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 384,
+    "completion_tokens": 211,
+    "total_tokens": 595
+   },
+   "latency_ms": 4766.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/python",
+   "module_B": "tensorflow/tools/common",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 523,
+    "completion_tokens": 200,
+    "total_tokens": 723
+   },
+   "latency_ms": 4368.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/c/experimental",
+   "module_B": "tensorflow/lite/async",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 703,
+    "completion_tokens": 3,
+    "total_tokens": 706
+   },
+   "latency_ms": 1989.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/cc/tools",
+   "module_B": "tensorflow/compiler/tf2tensorrt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 616,
+    "completion_tokens": 3,
+    "total_tokens": 619
+   },
+   "latency_ms": 1734.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/eager",
+   "module_B": "tensorflow/compiler/tf2xla",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 627,
+    "completion_tokens": 615,
+    "total_tokens": 1242
+   },
+   "latency_ms": 9981.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/tools/mlpbtxt",
+   "module_B": "tensorflow/tools/build_info",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 390,
+    "completion_tokens": 3,
+    "total_tokens": 393
+   },
+   "latency_ms": 1881.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/tools",
+   "module_B": "tensorflow/python/keras",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 651,
+    "completion_tokens": 265,
+    "total_tokens": 916
+   },
+   "latency_ms": 6113.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/util",
+   "module_B": "tensorflow/core/graph",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 560,
+    "completion_tokens": 490,
+    "total_tokens": 1050
+   },
+   "latency_ms": 7762.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/cc/training",
+   "module_B": "tensorflow/lite/async",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 630,
+    "completion_tokens": 3,
+    "total_tokens": 633
+   },
+   "latency_ms": 1862.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/data",
+   "module_B": "tensorflow/python/client",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 641,
+    "completion_tokens": 3,
+    "total_tokens": 644
+   },
+   "latency_ms": 2423.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/distribute",
+   "module_B": "tensorflow/tools/tfg_graph_transforms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 568,
+    "completion_tokens": 3,
+    "total_tokens": 571
+   },
+   "latency_ms": 1940.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/activity_watcher",
+   "module_B": "tensorflow/dtensor/mlir",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 467,
+    "completion_tokens": 3,
+    "total_tokens": 470
+   },
+   "latency_ms": 2140.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/nccl",
+   "module_B": "tensorflow/core/common_runtime",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 68,
+    "total_tokens": 687
+   },
+   "latency_ms": 2701.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/profiler",
+   "module_B": "tensorflow/python/ops",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 608,
+    "completion_tokens": 5,
+    "total_tokens": 613
+   },
+   "latency_ms": 2001.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/ops",
+   "module_B": "tensorflow/core/kernels",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 794,
+    "completion_tokens": 946,
+    "total_tokens": 1740
+   },
+   "latency_ms": 12986.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/compiler/tf2xla",
+   "module_B": "tensorflow/core/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 678,
+    "completion_tokens": 5,
+    "total_tokens": 683
+   },
+   "latency_ms": 1972.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/compiler/tests",
+   "module_B": "tensorflow/core/tfrt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 601,
+    "completion_tokens": 479,
+    "total_tokens": 1080
+   },
+   "latency_ms": 8212.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/compat",
+   "module_B": "tensorflow/tools/compatibility",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 444,
+    "completion_tokens": 3,
+    "total_tokens": 447
+   },
+   "latency_ms": 2145.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/ir",
+   "module_B": "tensorflow/compiler/tests",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 669,
+    "completion_tokens": 3,
+    "total_tokens": 672
+   },
+   "latency_ms": 2397.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/profiler",
+   "module_B": "tensorflow/core/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 5,
+    "total_tokens": 669
+   },
+   "latency_ms": 1962.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/compiler/aot",
+   "module_B": "tensorflow/core/tpu",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 659,
+    "completion_tokens": 3,
+    "total_tokens": 662
+   },
+   "latency_ms": 1939.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/tools/ci_build",
+   "module_B": "tensorflow/python/summary",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 550,
+    "completion_tokens": 348,
+    "total_tokens": 898
+   },
+   "latency_ms": 6326.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/grappler",
+   "module_B": "tensorflow/python/platform",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 5,
+    "total_tokens": 676
+   },
+   "latency_ms": 1897.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/compiler/mlir",
+   "module_B": "tensorflow/lite/python",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 727,
+    "completion_tokens": 436,
+    "total_tokens": 1163
+   },
+   "latency_ms": 7909.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/tutorials",
+   "module_B": "tensorflow/core/util",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 378,
+    "completion_tokens": 3,
+    "total_tokens": 381
+   },
+   "latency_ms": 1928.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/api_def",
+   "module_B": "tensorflow/core/function",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 688,
+    "completion_tokens": 3,
+    "total_tokens": 691
+   },
+   "latency_ms": 1962.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/aot",
+   "module_B": "tensorflow/core/summary",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 3,
+    "total_tokens": 625
+   },
+   "latency_ms": 1849.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/cc",
+   "module_B": "tensorflow/compiler/aot",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 679,
+    "completion_tokens": 3,
+    "total_tokens": 682
+   },
+   "latency_ms": 1960.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/api",
+   "module_B": "tensorflow/core/kernels",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 542,
+    "completion_tokens": 3,
+    "total_tokens": 545
+   },
+   "latency_ms": 1843.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/util",
+   "module_B": "tensorflow/core/graph",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 174,
+    "total_tokens": 809
+   },
+   "latency_ms": 4978.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/mlir",
+   "module_B": "tensorflow/dtensor/cc",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 761,
+    "completion_tokens": 5,
+    "total_tokens": 766
+   },
+   "latency_ms": 2064.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/cc",
+   "module_B": "tensorflow/compiler/jit",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 741,
+    "completion_tokens": 436,
+    "total_tokens": 1177
+   },
+   "latency_ms": 7146.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/profiling",
+   "module_B": "tensorflow/core/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 594,
+    "completion_tokens": 5,
+    "total_tokens": 599
+   },
+   "latency_ms": 1954.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/def_file_filter",
+   "module_B": "tensorflow/python/lib",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 336,
+    "completion_tokens": 3,
+    "total_tokens": 339
+   },
+   "latency_ms": 1824.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/mlir",
+   "module_B": "tensorflow/core/config",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 697,
+    "completion_tokens": 528,
+    "total_tokens": 1225
+   },
+   "latency_ms": 9199.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/cc/experimental",
+   "module_B": "tensorflow/core/platform",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 624,
+    "completion_tokens": 5,
+    "total_tokens": 629
+   },
+   "latency_ms": 1881.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/grappler",
+   "module_B": "tensorflow/core/data",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 680,
+    "completion_tokens": 286,
+    "total_tokens": 966
+   },
+   "latency_ms": 5968.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/objc",
+   "module_B": "tensorflow/lite/c",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 437,
+    "completion_tokens": 324,
+    "total_tokens": 761
+   },
+   "latency_ms": 7104.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/distribute",
+   "module_B": "tensorflow/python/layers",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 288,
+    "total_tokens": 870
+   },
+   "latency_ms": 5114.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/def_file_filter",
+   "module_B": "tensorflow/core/activity_watcher",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 3,
+    "total_tokens": 253
+   },
+   "latency_ms": 2132.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/client",
+   "module_B": "tensorflow/lite/python",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 623,
+    "completion_tokens": 3,
+    "total_tokens": 626
+   },
+   "latency_ms": 2020.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/framework",
+   "module_B": "tensorflow/compiler/jit",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 737,
+    "completion_tokens": 3,
+    "total_tokens": 740
+   },
+   "latency_ms": 1965.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/distributed_runtime",
+   "module_B": "tensorflow/core/public",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 5,
+    "total_tokens": 649
+   },
+   "latency_ms": 1951.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/tensorflow_builder",
+   "module_B": "tensorflow/lite/tutorials",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 384,
+    "completion_tokens": 3,
+    "total_tokens": 387
+   },
+   "latency_ms": 1937.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/compiler",
+   "module_B": "tensorflow/python/eager",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 578,
+    "completion_tokens": 5,
+    "total_tokens": 583
+   },
+   "latency_ms": 1825.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/cc",
+   "module_B": "tensorflow/core/lib",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 652,
+    "completion_tokens": 115,
+    "total_tokens": 767
+   },
+   "latency_ms": 3251.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/mlpbtxt",
+   "module_B": "tensorflow/tools/android",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 494,
+    "completion_tokens": 3,
+    "total_tokens": 497
+   },
+   "latency_ms": 1808.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/distributed_runtime",
+   "module_B": "tensorflow/core/activity_watcher",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 333,
+    "total_tokens": 990
+   },
+   "latency_ms": 5997.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/tpu",
+   "module_B": "tensorflow/dtensor/mlir",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 636,
+    "completion_tokens": 3,
+    "total_tokens": 639
+   },
+   "latency_ms": 1931.4,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/ops",
+   "module_B": "tensorflow/python/client",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 642,
+    "completion_tokens": 5,
+    "total_tokens": 647
+   },
+   "latency_ms": 1911.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/tpu",
+   "module_B": "tensorflow/core/runtime_fallback",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 697,
+    "completion_tokens": 185,
+    "total_tokens": 882
+   },
+   "latency_ms": 4697.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/function",
+   "module_B": "tensorflow/core/platform",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 627,
+    "completion_tokens": 171,
+    "total_tokens": 798
+   },
+   "latency_ms": 4666.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/c/experimental",
+   "module_B": "tensorflow/lite/profiling",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 721,
+    "completion_tokens": 3,
+    "total_tokens": 724
+   },
+   "latency_ms": 1943.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/autograph",
+   "module_B": "tensorflow/python/data",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 147,
+    "total_tokens": 769
+   },
+   "latency_ms": 3506.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/eager",
+   "module_B": "tensorflow/lite/testing",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 612,
+    "completion_tokens": 3,
+    "total_tokens": 615
+   },
+   "latency_ms": 1829.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/data",
+   "module_B": "tensorflow/core/public",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 557,
+    "completion_tokens": 213,
+    "total_tokens": 770
+   },
+   "latency_ms": 4468.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/tests",
+   "module_B": "tensorflow/core/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 672,
+    "completion_tokens": 5,
+    "total_tokens": 677
+   },
+   "latency_ms": 2579.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/api_def",
+   "module_B": "tensorflow/c/experimental",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 708,
+    "completion_tokens": 3,
+    "total_tokens": 711
+   },
+   "latency_ms": 2646.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/debug",
+   "module_B": "tensorflow/core/function",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 594,
+    "completion_tokens": 246,
+    "total_tokens": 840
+   },
+   "latency_ms": 5847.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/dtensor/cc",
+   "module_B": "tensorflow/core/util",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 680,
+    "completion_tokens": 5,
+    "total_tokens": 685
+   },
+   "latency_ms": 1846.5,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/compiler/jit",
+   "module_B": "tensorflow/cc/ops",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 688,
+    "completion_tokens": 5,
+    "total_tokens": 693
+   },
+   "latency_ms": 2066.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/distribute",
+   "module_B": "tensorflow/python/lib",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 354,
+    "total_tokens": 1004
+   },
+   "latency_ms": 6827.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/gcs_test",
+   "module_B": "tensorflow/tools/tf_sig_build_dockerfiles",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 3,
+    "total_tokens": 287
+   },
+   "latency_ms": 2543.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/grappler",
+   "module_B": "tensorflow/lite/profiling",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 697,
+    "completion_tokens": 3,
+    "total_tokens": 700
+   },
+   "latency_ms": 1992.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/plugin",
+   "module_B": "tensorflow/python/summary",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 3,
+    "total_tokens": 312
+   },
+   "latency_ms": 2359.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/kernels",
+   "module_B": "tensorflow/compiler/mlir",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 659,
+    "completion_tokens": 302,
+    "total_tokens": 961
+   },
+   "latency_ms": 6663.9,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/toco",
+   "module_B": "tensorflow/tools/proto_text",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 594,
+    "completion_tokens": 3,
+    "total_tokens": 597
+   },
+   "latency_ms": 2277.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/jit",
+   "module_B": "tensorflow/core/lib",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 702,
+    "completion_tokens": 5,
+    "total_tokens": 707
+   },
+   "latency_ms": 1907.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/python",
+   "module_B": "tensorflow/lite/async",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 599,
+    "completion_tokens": 3,
+    "total_tokens": 602
+   },
+   "latency_ms": 2530.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/mlir",
+   "module_B": "tensorflow/cc/client",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 652,
+    "completion_tokens": 404,
+    "total_tokens": 1056
+   },
+   "latency_ms": 6797.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/common_runtime",
+   "module_B": "tensorflow/lite/kernels",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 700,
+    "completion_tokens": 3,
+    "total_tokens": 703
+   },
+   "latency_ms": 1857.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/framework",
+   "module_B": "tensorflow/c/experimental",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 704,
+    "completion_tokens": 3,
+    "total_tokens": 707
+   },
+   "latency_ms": 2005.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/c/eager",
+   "module_B": "tensorflow/python/compiler",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 688,
+    "completion_tokens": 3,
+    "total_tokens": 691
+   },
+   "latency_ms": 1968.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/platform",
+   "module_B": "tensorflow/core/common_runtime",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 336,
+    "total_tokens": 941
+   },
+   "latency_ms": 6031.5,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/mlir",
+   "module_B": "tensorflow/compiler/mlir",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 792,
+    "completion_tokens": 5,
+    "total_tokens": 797
+   },
+   "latency_ms": 1975.8,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/ops",
+   "module_B": "tensorflow/tools/def_file_filter",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 546,
+    "completion_tokens": 3,
+    "total_tokens": 549
+   },
+   "latency_ms": 1826.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/framework",
+   "module_B": "tensorflow/lite/delegates",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 633,
+    "completion_tokens": 3,
+    "total_tokens": 636
+   },
+   "latency_ms": 1829.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/test",
+   "module_B": "tensorflow/tools/git",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 411,
+    "completion_tokens": 321,
+    "total_tokens": 732
+   },
+   "latency_ms": 6094.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/distributed_runtime",
+   "module_B": "tensorflow/core/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 726,
+    "completion_tokens": 5,
+    "total_tokens": 731
+   },
+   "latency_ms": 2842.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/acceleration",
+   "module_B": "tensorflow/dtensor/proto",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 3,
+    "total_tokens": 621
+   },
+   "latency_ms": 1810.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/eager",
+   "module_B": "tensorflow/core/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 5,
+    "total_tokens": 610
+   },
+   "latency_ms": 1875.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/nccl",
+   "module_B": "tensorflow/python/ops",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 607,
+    "completion_tokens": 3,
+    "total_tokens": 610
+   },
+   "latency_ms": 1848.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/tests",
+   "module_B": "tensorflow/compiler/jit",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 133,
+    "total_tokens": 780
+   },
+   "latency_ms": 3396.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/experimental",
+   "module_B": "tensorflow/core/platform",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 552,
+    "completion_tokens": 293,
+    "total_tokens": 845
+   },
+   "latency_ms": 5866.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/schema",
+   "module_B": "tensorflow/cc/tools",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 450,
+    "completion_tokens": 3,
+    "total_tokens": 453
+   },
+   "latency_ms": 1794.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/tests",
+   "module_B": "tensorflow/compiler/tf2xla",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 694,
+    "completion_tokens": 307,
+    "total_tokens": 1001
+   },
+   "latency_ms": 5914.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/distribute/experimental",
+   "module_B": "tensorflow/python/compat",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 553,
+    "completion_tokens": 3,
+    "total_tokens": 556
+   },
+   "latency_ms": 1977.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/summary",
+   "module_B": "tensorflow/tools/mlpbtxt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 585,
+    "completion_tokens": 3,
+    "total_tokens": 588
+   },
+   "latency_ms": 1963.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/nnapi",
+   "module_B": "tensorflow/lite/tools",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 600,
+    "completion_tokens": 443,
+    "total_tokens": 1043
+   },
+   "latency_ms": 7367.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/ir",
+   "module_B": "tensorflow/tools/optimization",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 613,
+    "completion_tokens": 3,
+    "total_tokens": 616
+   },
+   "latency_ms": 1770.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/tpu",
+   "module_B": "tensorflow/core/ir",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 672,
+    "completion_tokens": 362,
+    "total_tokens": 1034
+   },
+   "latency_ms": 8519.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/compiler/aot",
+   "module_B": "tensorflow/core/profiler",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 345,
+    "total_tokens": 998
+   },
+   "latency_ms": 7234.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/cc/client",
+   "module_B": "tensorflow/tools/proto_splitter",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 599,
+    "completion_tokens": 3,
+    "total_tokens": 602
+   },
+   "latency_ms": 2142.3,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/profiler",
+   "module_B": "tensorflow/core/framework",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 600,
+    "completion_tokens": 542,
+    "total_tokens": 1142
+   },
+   "latency_ms": 9877.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/types",
+   "module_B": "tensorflow/core/ops",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 360,
+    "completion_tokens": 3,
+    "total_tokens": 363
+   },
+   "latency_ms": 1987.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/debug",
+   "module_B": "tensorflow/compiler/mlir",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 3,
+    "total_tokens": 652
+   },
+   "latency_ms": 2003.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/mlpbtxt",
+   "module_B": "tensorflow/lite/delegates",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 489,
+    "completion_tokens": 3,
+    "total_tokens": 492
+   },
+   "latency_ms": 1888.2,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/core/kernels",
+   "module_B": "tensorflow/cc/ops",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 663,
+    "completion_tokens": 170,
+    "total_tokens": 833
+   },
+   "latency_ms": 4024.4,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/training",
+   "module_B": "tensorflow/lite/toco",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 632,
+    "completion_tokens": 3,
+    "total_tokens": 635
+   },
+   "latency_ms": 2084.6,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/dtensor/python",
+   "module_B": "tensorflow/python/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 593,
+    "completion_tokens": 5,
+    "total_tokens": 598
+   },
+   "latency_ms": 2095.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/cc/ops",
+   "module_B": "tensorflow/core/kernels",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 759,
+    "completion_tokens": 410,
+    "total_tokens": 1169
+   },
+   "latency_ms": 6919.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/core/ops",
+   "module_B": "tensorflow/python/tools",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 795,
+    "completion_tokens": 3,
+    "total_tokens": 798
+   },
+   "latency_ms": 2016.1,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/tools/ci_build",
+   "module_B": "tensorflow/python/client",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 560,
+    "completion_tokens": 247,
+    "total_tokens": 807
+   },
+   "latency_ms": 5257.2,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/cc/tools",
+   "module_B": "tensorflow/compiler/tf2xla",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 627,
+    "completion_tokens": 3,
+    "total_tokens": 630
+   },
+   "latency_ms": 2127.9,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/data",
+   "module_B": "tensorflow/tools/ci_build",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 646,
+    "completion_tokens": 3,
+    "total_tokens": 649
+   },
+   "latency_ms": 1904.8,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/compiler",
+   "module_B": "tensorflow/python/framework",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 586,
+    "completion_tokens": 5,
+    "total_tokens": 591
+   },
+   "latency_ms": 1911.3,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/profiler",
+   "module_B": "tensorflow/core/profiler",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 625,
+    "completion_tokens": 5,
+    "total_tokens": 630
+   },
+   "latency_ms": 1998.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/tools/build_info",
+   "module_B": "tensorflow/tools/toolchains",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 245,
+    "total_tokens": 495
+   },
+   "latency_ms": 5536.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/compiler/mlir",
+   "module_B": "tensorflow/python/tools",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 754,
+    "completion_tokens": 590,
+    "total_tokens": 1344
+   },
+   "latency_ms": 9317.7,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/python/keras",
+   "module_B": "tensorflow/lite/testing",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 3,
+    "total_tokens": 653
+   },
+   "latency_ms": 1722.7,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/summary",
+   "module_B": "tensorflow/python/training",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 598,
+    "completion_tokens": 574,
+    "total_tokens": 1172
+   },
+   "latency_ms": 9446.6,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/lib",
+   "module_B": "tensorflow/python/feature_column",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 707,
+    "completion_tokens": 3,
+    "total_tokens": 710
+   },
+   "latency_ms": 1954.0,
+   "label_v1": 0
+  },
+  {
+   "module_A": "tensorflow/lite/acceleration",
+   "module_B": "tensorflow/lite/c",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 708,
+    "completion_tokens": 5,
+    "total_tokens": 713
+   },
+   "latency_ms": 1754.0,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/lite/experimental",
+   "module_B": "tensorflow/core/tfrt",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "usage": {
+    "prompt_tokens": 597,
+    "completion_tokens": 3,
+    "total_tokens": 600
+   },
+   "latency_ms": 2461.1,
+   "label_v1": 1
+  },
+  {
+   "module_A": "tensorflow/python/framework",
+   "module_B": "tensorflow/python/types",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "usage": {
+    "prompt_tokens": 561,
+    "completion_tokens": 5,
+    "total_tokens": 566
+   },
+   "latency_ms": 1972.3,
+   "label_v1": 1
+  }
+ ],
+ "timestamp": "2026-10-03T03:31:07.114026",
+ "model": "claude-opus-5.5",
+ "project": "tensorflow",
+ "task": "dp",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42,
+ "import_source": "dependency_raw",
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/level1/claude-opus-5.5_tensorflow_dp_l1.json"
+}

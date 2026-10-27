@@ -1,0 +1,364 @@
+{
+  "n_pilot": 20,
+  "n_gold_scored": 20,
+  "n_agreement": 19,
+  "excluded_from_agreement": [
+    "P04"
+  ],
+  "exclude_reason": "方案A：该边的结论已由助手在对话中逐步演示给出，不构成独立人工标注，计算模型-人工一致率时排除；在论文方法说明中如实记录 1/20 为示例。",
+  "models": [
+    "gemini-4-argon",
+    "claude-sonnet-5.5"
+  ],
+  "model_parse_failures": [],
+  "missing_gold_confidence": [],
+  "human_gold": {
+    "n": 20,
+    "counts": {
+      "Correct": 14,
+      "Wrong-resolution": 3,
+      "Spurious": 2,
+      "Granularity": 1,
+      "Unclear": 0
+    },
+    "denominator": 19,
+    "precision": 0.7368421052631579,
+    "wilson95": [
+      0.5120844910218489,
+      0.8819358765321749
+    ]
+  },
+  "human_gold_excluding_agreement_outliers": {
+    "n": 19,
+    "counts": {
+      "Correct": 14,
+      "Wrong-resolution": 3,
+      "Spurious": 1,
+      "Granularity": 1,
+      "Unclear": 0
+    },
+    "denominator": 18,
+    "precision": 0.7777777777777778,
+    "wilson95": [
+      0.5478541568378738,
+      0.9099907189139831
+    ]
+  },
+  "human_gold_by_system": {
+    "codeaster": {
+      "n": 2,
+      "counts": {
+        "Correct": 2,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 2,
+      "precision": 1.0,
+      "wilson95": [
+        0.3423802275066531,
+        1.0
+      ]
+    },
+    "hadoop": {
+      "n": 1,
+      "counts": {
+        "Correct": 0,
+        "Wrong-resolution": 0,
+        "Spurious": 1,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 1,
+      "precision": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "kubernetes": {
+      "n": 2,
+      "counts": {
+        "Correct": 1,
+        "Wrong-resolution": 1,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 2,
+      "precision": 0.5,
+      "wilson95": [
+        0.09453120573423071,
+        0.9054687942657693
+      ]
+    },
+    "linux": {
+      "n": 1,
+      "counts": {
+        "Correct": 0,
+        "Wrong-resolution": 1,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 1,
+      "precision": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "openfoam": {
+      "n": 1,
+      "counts": {
+        "Correct": 0,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 1,
+        "Unclear": 0
+      },
+      "denominator": 0,
+      "precision": NaN,
+      "wilson95": [
+        NaN,
+        NaN
+      ]
+    },
+    "openmodelica": {
+      "n": 1,
+      "counts": {
+        "Correct": 1,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 1,
+      "precision": 1.0,
+      "wilson95": [
+        0.20654931437723742,
+        1.0
+      ]
+    },
+    "paraview": {
+      "n": 1,
+      "counts": {
+        "Correct": 1,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 1,
+      "precision": 1.0,
+      "wilson95": [
+        0.20654931437723742,
+        1.0
+      ]
+    },
+    "pytorch": {
+      "n": 2,
+      "counts": {
+        "Correct": 1,
+        "Wrong-resolution": 0,
+        "Spurious": 1,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 2,
+      "precision": 0.5,
+      "wilson95": [
+        0.09453120573423071,
+        0.9054687942657693
+      ]
+    },
+    "salome": {
+      "n": 6,
+      "counts": {
+        "Correct": 6,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 6,
+      "precision": 1.0,
+      "wilson95": [
+        0.6096657120978346,
+        1.0
+      ]
+    },
+    "spring": {
+      "n": 1,
+      "counts": {
+        "Correct": 1,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 1,
+      "precision": 1.0,
+      "wilson95": [
+        0.20654931437723742,
+        1.0
+      ]
+    },
+    "tensorflow": {
+      "n": 2,
+      "counts": {
+        "Correct": 1,
+        "Wrong-resolution": 1,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 2,
+      "precision": 0.5,
+      "wilson95": [
+        0.09453120573423071,
+        0.9054687942657693
+      ]
+    }
+  },
+  "human_gold_by_audit_category": {
+    "clear_error": {
+      "n": 5,
+      "counts": {
+        "Correct": 0,
+        "Wrong-resolution": 3,
+        "Spurious": 2,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 5,
+      "precision": 0.0,
+      "wilson95": [
+        0.0,
+        0.43448246478317476
+      ]
+    },
+    "name_unique": {
+      "n": 5,
+      "counts": {
+        "Correct": 4,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 1,
+        "Unclear": 0
+      },
+      "denominator": 4,
+      "precision": 1.0,
+      "wilson95": [
+        0.5101091635454027,
+        1.0
+      ]
+    },
+    "path_verified": {
+      "n": 5,
+      "counts": {
+        "Correct": 5,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 5,
+      "precision": 1.0,
+      "wilson95": [
+        0.5655175352168252,
+        1.0
+      ]
+    },
+    "undeterminable": {
+      "n": 5,
+      "counts": {
+        "Correct": 5,
+        "Wrong-resolution": 0,
+        "Spurious": 0,
+        "Granularity": 0,
+        "Unclear": 0
+      },
+      "denominator": 5,
+      "precision": 1.0,
+      "wilson95": [
+        0.5655175352168252,
+        1.0
+      ]
+    }
+  },
+  "post_stratified_precision": {
+    "estimate": 0.385,
+    "bootstrap95": [
+      0.385,
+      0.385
+    ],
+    "bootstrap_degenerate": true,
+    "weights_from": "akg_ai_edge_category.json (200-edge candidate pool)",
+    "stratum_weights": {
+      "clear_error": 0.615,
+      "name_unique": 0.095,
+      "path_verified": 0.265,
+      "undeterminable": 0.025
+    },
+    "pilot_share": {
+      "clear_error": 0.25,
+      "name_unique": 0.25,
+      "path_verified": 0.25,
+      "undeterminable": 0.25
+    }
+  },
+  "model_vs_human": {
+    "gemini-4-argon": {
+      "n": 19,
+      "agree": 19,
+      "agree_rate": 1.0,
+      "wilson95": [
+        0.8318207759473837,
+        1.0
+      ],
+      "kappa": 1.0,
+      "confusion": {
+        "Correct -> Correct": 14,
+        "Granularity -> Granularity": 1,
+        "Spurious -> Spurious": 1,
+        "Wrong-resolution -> Wrong-resolution": 3
+      },
+      "mismatches": []
+    },
+    "claude-sonnet-5.5": {
+      "n": 19,
+      "agree": 18,
+      "agree_rate": 0.9473684210526315,
+      "wilson95": [
+        0.753612688331012,
+        0.9906480059376995
+      ],
+      "kappa": 0.8749999999999999,
+      "confusion": {
+        "Correct -> Correct": 14,
+        "Granularity -> Granularity": 1,
+        "Spurious -> Wrong-resolution": 1,
+        "Wrong-resolution -> Wrong-resolution": 3
+      },
+      "mismatches": [
+        "P19"
+      ]
+    }
+  },
+  "model_vs_model": {
+    "models": [
+      "gemini-4-argon",
+      "claude-sonnet-5.5"
+    ],
+    "n": 19,
+    "agree": 18,
+    "agree_rate": 0.9473684210526315,
+    "wilson95": [
+      0.753612688331012,
+      0.9906480059376995
+    ],
+    "kappa": 0.8749999999999999
+  }
+}

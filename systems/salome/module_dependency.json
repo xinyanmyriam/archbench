@@ -1,6 +1,6 @@
 {
   "system": "salome",
-  "total": 980,
+  "total": 914,
   "dependencies": [
     {
       "source_module": "kernel/src/Communication",
@@ -1675,7 +1675,7 @@
     {
       "source_module": "medcoupling/src/MEDCoupling",
       "target_module": "medcoupling/src/INTERP_KERNEL",
-      "weight": 147
+      "weight": 146
     },
     {
       "source_module": "medcoupling/src/MEDCoupling",
@@ -1695,7 +1695,7 @@
     {
       "source_module": "medcoupling/src/MEDLoader",
       "target_module": "medcoupling/src/INTERP_KERNEL",
-      "weight": 59
+      "weight": 54
     },
     {
       "source_module": "medcoupling/src/MEDLoader",
@@ -1735,7 +1735,7 @@
     {
       "source_module": "medcoupling/src/ParaMEDLoader",
       "target_module": "medcoupling/src/INTERP_KERNEL",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "medcoupling/src/ParaMEDLoader",
@@ -1765,7 +1765,7 @@
     {
       "source_module": "medcoupling/src/ParaMEDMEMTest",
       "target_module": "medcoupling/src/ParaMEDMEM",
-      "weight": 169
+      "weight": 164
     },
     {
       "source_module": "medcoupling/src/ParaMEDMEMTest",
@@ -1823,34 +1823,14 @@
       "weight": 1
     },
     {
-      "source_module": "yacs/src/bases",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/bases",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
       "source_module": "yacs/src/engine",
       "target_module": "yacs/src/bases",
-      "weight": 93
+      "weight": 91
     },
     {
       "source_module": "yacs/src/engine",
       "target_module": "yacs/src/workloadmanager",
-      "weight": 8
-    },
-    {
-      "source_module": "yacs/src/engine",
-      "target_module": "yacs/src/pmml",
-      "weight": 2
-    },
-    {
-      "source_module": "yacs/src/engine",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 2
+      "weight": 3
     },
     {
       "source_module": "yacs/src/engine_swig",
@@ -1928,16 +1908,6 @@
       "weight": 5
     },
     {
-      "source_module": "yacs/src/pmml",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/pmml",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
       "source_module": "yacs/src/py2yacs",
       "target_module": "yacs/src/runtime",
       "weight": 5
@@ -1950,16 +1920,6 @@
     {
       "source_module": "yacs/src/py2yacs",
       "target_module": "yacs/src/yacsloader",
-      "weight": 2
-    },
-    {
-      "source_module": "yacs/src/py2yacs",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/py2yacs",
-      "target_module": "yacs/src/pmml",
       "weight": 1
     },
     {
@@ -1985,12 +1945,7 @@
     {
       "source_module": "yacs/src/runtime",
       "target_module": "yacs/src/engine",
-      "weight": 140
-    },
-    {
-      "source_module": "yacs/src/runtime",
-      "target_module": "yacs/src/workloadmanager",
-      "weight": 1
+      "weight": 139
     },
     {
       "source_module": "yacs/src/runtime_swig",
@@ -2028,26 +1983,6 @@
       "weight": 4
     },
     {
-      "source_module": "yacs/src/workloadmanager",
-      "target_module": "yacs/src/engine",
-      "weight": 5
-    },
-    {
-      "source_module": "yacs/src/workloadmanager",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/workloadmanager",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/workloadmanager",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
       "source_module": "yacs/src/yacsloader",
       "target_module": "yacs/src/engine",
       "weight": 122
@@ -2055,7 +1990,7 @@
     {
       "source_module": "yacs/src/yacsloader",
       "target_module": "yacs/src/bases",
-      "weight": 35
+      "weight": 34
     },
     {
       "source_module": "yacs/src/yacsloader",
@@ -2065,7 +2000,7 @@
     {
       "source_module": "yacs/src/yacsloader",
       "target_module": "yacs/src/pmml",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "yacs/src/yacsorb",
@@ -2360,7 +2295,7 @@
     {
       "source_module": "gui/src/PV3DViewer",
       "target_module": "gui/src/PVViewer",
-      "weight": 4
+      "weight": 3
     },
     {
       "source_module": "gui/src/PV3DViewer",
@@ -2371,11 +2306,6 @@
       "source_module": "gui/src/PV3DViewer",
       "target_module": "gui/src/SUIT",
       "weight": 14
-    },
-    {
-      "source_module": "gui/src/PVViewer",
-      "target_module": "gui/src/PV3DViewer",
-      "weight": 2
     },
     {
       "source_module": "gui/src/PVViewer",
@@ -2876,106 +2806,6 @@
       "source_module": "gui/src/ViewerTools",
       "target_module": "gui/src/SUIT",
       "weight": 2
-    },
-    {
-      "source_module": "kernel/src/ArgvKeeper",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/ArgvKeeper",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/ArgvKeeper",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/ArgvKeeper",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/KernelHelpers",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/KernelHelpers",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/KernelHelpers",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/KernelHelpers",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMEDSImpl",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMEDSImpl",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMEDSImpl",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMEDSImpl",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMETraceCollector",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMETraceCollector",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMETraceCollector",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/SALOMETraceCollector",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/Utils",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/Utils",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/Utils",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "kernel/src/Utils",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
     },
     {
       "source_module": "geom/src/AdvancedEngine",
@@ -3983,11 +3813,6 @@
       "weight": 1
     },
     {
-      "source_module": "smesh/src/SMDS",
-      "target_module": "yacs/src/bases",
-      "weight": 2
-    },
-    {
       "source_module": "smesh/src/SMESH",
       "target_module": "medcoupling/src/MEDLoader",
       "weight": 6
@@ -4005,11 +3830,6 @@
     {
       "source_module": "smesh/src/SMESH",
       "target_module": "geom/src/GEOMUtils",
-      "weight": 1
-    },
-    {
-      "source_module": "smesh/src/SMESH",
-      "target_module": "yacs/src/bases",
       "weight": 1
     },
     {
@@ -4398,104 +4218,9 @@
       "weight": 2
     },
     {
-      "source_module": "medcoupling/src/INTERP_KERNELTest",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/INTERP_KERNELTest",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/INTERP_KERNELTest",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/MEDCoupling",
-      "target_module": "yacs/src/bases",
-      "weight": 2
-    },
-    {
-      "source_module": "medcoupling/src/MEDCoupling",
-      "target_module": "yacs/src/pmml",
-      "weight": 2
-    },
-    {
-      "source_module": "medcoupling/src/MEDCoupling",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 2
-    },
-    {
-      "source_module": "medcoupling/src/MEDLoader",
-      "target_module": "yacs/src/bases",
-      "weight": 2
-    },
-    {
-      "source_module": "medcoupling/src/MEDLoader",
-      "target_module": "yacs/src/pmml",
-      "weight": 2
-    },
-    {
-      "source_module": "medcoupling/src/MEDLoader",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 2
-    },
-    {
-      "source_module": "medcoupling/src/MEDPartitioner",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/MEDPartitioner",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/MEDPartitioner",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/ShapeRecogn",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/ShapeRecogn",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "medcoupling/src/ShapeRecogn",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/bases",
-      "target_module": "smesh/src/SMDS",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/bases",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/engine",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 2
-    },
-    {
       "source_module": "yacs/src/evalyfx",
       "target_module": "kernel/src/ResourcesManager",
       "weight": 2
-    },
-    {
-      "source_module": "yacs/src/genericgui",
-      "target_module": "gui/src/TreeData",
-      "weight": 3
     },
     {
       "source_module": "yacs/src/genericgui",
@@ -4524,27 +4249,12 @@
     },
     {
       "source_module": "yacs/src/genericgui",
-      "target_module": "smesh/src/SMDS",
-      "weight": 5
-    },
-    {
-      "source_module": "yacs/src/genericgui",
       "target_module": "kernel/src/Launcher",
       "weight": 1
     },
     {
       "source_module": "yacs/src/genericgui",
       "target_module": "gui/src/Qtx",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/pmml",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/py2yacs",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
       "weight": 1
     },
     {
@@ -4663,11 +4373,6 @@
       "weight": 2
     },
     {
-      "source_module": "yacs/src/workloadmanager",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
       "source_module": "yacs/src/wrappergen",
       "target_module": "gui/src/SUIT",
       "weight": 3
@@ -4710,11 +4415,6 @@
     {
       "source_module": "yacs/src/yacsloader",
       "target_module": "kernel/src/SALOMESDS",
-      "weight": 1
-    },
-    {
-      "source_module": "yacs/src/yacsloader",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
       "weight": 1
     },
     {
@@ -4803,26 +4503,6 @@
       "weight": 1
     },
     {
-      "source_module": "gui/src/SalomeApp",
-      "target_module": "medcoupling/src/INTERP_KERNELTest",
-      "weight": 1
-    },
-    {
-      "source_module": "gui/src/SalomeApp",
-      "target_module": "yacs/src/bases",
-      "weight": 1
-    },
-    {
-      "source_module": "gui/src/SalomeApp",
-      "target_module": "yacs/src/pmml",
-      "weight": 1
-    },
-    {
-      "source_module": "gui/src/SalomeApp",
-      "target_module": "yacs/src/yacsloader",
-      "weight": 1
-    },
-    {
       "source_module": "gui/src/Session",
       "target_module": "kernel/src/ArgvKeeper",
       "weight": 2
@@ -4891,16 +4571,6 @@
       "source_module": "gui/src/TOOLSGUI",
       "target_module": "kernel/src/Utils",
       "weight": 2
-    },
-    {
-      "source_module": "gui/src/TreeData",
-      "target_module": "yacs/src/genericgui",
-      "weight": 5
-    },
-    {
-      "source_module": "gui/src/TreeData",
-      "target_module": "smesh/src/Tools",
-      "weight": 3
     }
   ]
 }

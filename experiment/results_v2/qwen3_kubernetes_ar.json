@@ -1,0 +1,1207 @@
+{
+ "precision_at_5": 0.2740740740740741,
+ "recall_at_5": 0.5430936347603014,
+ "total": 54,
+ "results": [
+  {
+   "source_module": "cmd/kubeadm",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/cluster-bootstrap"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/cli-runtime\nstaging/src/k8s.io/cluster-bootstrap",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/kubernetes",
+    "staging/src/k8s.io/klog",
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "pkg/controller",
+   "true_targets": [
+    "pkg/api",
+    "pkg/apis",
+    "pkg/features",
+    "pkg/generated",
+    "pkg/kubelet",
+    "pkg/quota",
+    "pkg/securitycontext",
+    "pkg/volume",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/dynamic-resource-allocation"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery",
+    "pkg/util"
+   ],
+   "precision": 0.6,
+   "recall": 0.25,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/apimachinery\npkg/util",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/endpointslice",
+    "staging/src/k8s.io/controller-manager"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/code-generator",
+   "true_targets": [
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/apiextensions-apiserver",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/sample-apiserver"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/apiextensions-apiserver\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/sample-apiserver",
+   "true_targets_v1": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "pkg/apis",
+   "true_targets": [
+    "pkg/api",
+    "pkg/features",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/dynamic-resource-allocation"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apiextensions-apiserver",
+    "pkg/api",
+    "staging/src/k8s.io/apiserver"
+   ],
+   "precision": 0.6,
+   "recall": 0.6,
+   "raw_response": "staging/src/k8s.io/apimachinery\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apiextensions-apiserver\npkg/api\nstaging/src/k8s.io/apiserver",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils",
+    "staging/src/k8s.io/api"
+   ]
+  },
+  {
+   "source_module": "pkg/certauthorization",
+   "true_targets": [
+    "staging/src/k8s.io/apiserver"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apiserver",
+    "pkg/kubeapiserver",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "pkg/serviceaccount"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/apiserver\npkg/kubeapiserver\nstaging/src/k8s.io/api\nstaging/src/k8s.io/client-go\npkg/serviceaccount",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apiserver"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/metrics",
+   "true_targets": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/kube-aggregator",
+    "staging/src/k8s.io/component-base"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/kube-aggregator\nstaging/src/k8s.io/component-base",
+   "true_targets_v1": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/api"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/dynamic-resource-allocation",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "pkg/scheduler",
+    "staging/src/k8s.io/kubelet",
+    "staging/src/k8s.io/component-base"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/client-go\npkg/scheduler\nstaging/src/k8s.io/kubelet\nstaging/src/k8s.io/component-base",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils",
+    "staging/src/k8s.io/klog",
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "cmd/kube-scheduler",
+   "true_targets": [
+    "pkg/scheduler",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "pkg/scheduler",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "pkg/scheduler\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/apimachinery",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes",
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/sample-cli-plugin",
+   "true_targets": [
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/cli-runtime\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/apimachinery",
+   "true_targets_v1": [
+    "staging/src/k8s.io/client-go"
+   ]
+  },
+  {
+   "source_module": "cmd/gendocs",
+   "true_targets": [
+    "cmd/genutils",
+    "staging/src/k8s.io/kubectl"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/code-generator",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/client-go"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "staging/src/k8s.io/code-generator\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/cli-runtime\nstaging/src/k8s.io/client-go",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes",
+    "staging/src/k8s.io/kubectl"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/cri-streaming",
+   "true_targets": [
+    "staging/src/k8s.io/streaming"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/cri-api",
+    "staging/src/k8s.io/kubelet",
+    "staging/src/k8s.io/streaming",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/cri-api\nstaging/src/k8s.io/kubelet\nstaging/src/k8s.io/streaming\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/api",
+   "true_targets_v1": [
+    "staging/src/k8s.io/streaming"
+   ]
+  },
+  {
+   "source_module": "pkg/kubelet",
+   "true_targets": [
+    "pkg/apis",
+    "pkg/cluster",
+    "pkg/registry",
+    "pkg/scheduler",
+    "pkg/windows",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/component-helpers",
+    "staging/src/k8s.io/cri-api",
+    "staging/src/k8s.io/cri-streaming",
+    "staging/src/k8s.io/dynamic-resource-allocation",
+    "staging/src/k8s.io/mount-utils",
+    "staging/src/k8s.io/streaming"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/cri-api",
+    "pkg/volume"
+   ],
+   "precision": 0.8,
+   "recall": 0.2857142857142857,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/cri-api\npkg/volume",
+   "true_targets_v1": [
+    "staging/src/k8s.io/client-go"
+   ]
+  },
+  {
+   "source_module": "pkg/controlplane",
+   "true_targets": [
+    "pkg/apis",
+    "pkg/serviceaccount",
+    "staging/src/k8s.io/apiextensions-apiserver",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "pkg/kubeapiserver",
+    "cmd/kube-controller-manager",
+    "staging/src/k8s.io/api",
+    "pkg/registry",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "precision": 0.2,
+   "recall": 0.14285714285714285,
+   "raw_response": "pkg/kubeapiserver\ncmd/kube-controller-manager\nstaging/src/k8s.io/api\npkg/registry\nstaging/src/k8s.io/apimachinery",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes"
+   ]
+  },
+  {
+   "source_module": "cmd/kubemark",
+   "true_targets": [
+    "pkg/kubelet",
+    "pkg/kubemark",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/kubelet",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/kubelet\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/kubernetes"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/apiserver",
+   "true_targets": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/kms"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/apiextensions-apiserver",
+    "staging/src/k8s.io/component-base"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/apiextensions-apiserver\nstaging/src/k8s.io/component-base",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/kms"
+   ]
+  },
+  {
+   "source_module": "cmd/kube-proxy",
+   "true_targets": [
+    "pkg/features",
+    "pkg/util",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/kube-proxy"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "pkg/proxy",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/endpointslice"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "staging/src/k8s.io/client-go\npkg/proxy\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/endpointslice",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kube-proxy",
+    "staging/src/k8s.io/utils",
+    "staging/src/k8s.io/client-go"
+   ]
+  },
+  {
+   "source_module": "pkg/credentialprovider",
+   "true_targets": [
+    "pkg/features",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/cloud-provider",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "staging/src/k8s.io/cloud-provider\nstaging/src/k8s.io/api\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/apimachinery",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/kubernetes"
+   ]
+  },
+  {
+   "source_module": "pkg/kubemark",
+   "true_targets": [
+    "pkg/volume",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/mount-utils"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery",
+    "pkg/kubelet"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/apimachinery\npkg/kubelet",
+   "true_targets_v1": [
+    "staging/src/k8s.io/mount-utils",
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/api",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "cmd/kube-apiserver",
+    "staging/src/k8s.io/kubelet",
+    "cmd/kube-controller-manager",
+    "staging/src/k8s.io/kube-scheduler"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "staging/src/k8s.io/client-go\ncmd/kube-apiserver\nstaging/src/k8s.io/kubelet\ncmd/kube-controller-manager\nstaging/src/k8s.io/kube-scheduler",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "cmd/kube-controller-manager",
+   "true_targets": [
+    "pkg/serviceaccount",
+    "pkg/volume",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/metrics"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/controller-manager",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "pkg/controller"
+   ],
+   "precision": 0.2,
+   "recall": 0.16666666666666666,
+   "raw_response": "staging/src/k8s.io/controller-manager\nstaging/src/k8s.io/api\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/component-base\npkg/controller",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/utils",
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/kube-scheduler",
+   "true_targets": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/dynamic-resource-allocation"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "pkg/scheduler",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\npkg/scheduler\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/component-base",
+   "true_targets_v1": [
+    "staging/src/k8s.io/dynamic-resource-allocation",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/klog"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/kubectl",
+   "true_targets": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/metrics",
+    "staging/src/k8s.io/streaming"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/component-base"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/cli-runtime\nstaging/src/k8s.io/component-base",
+   "true_targets_v1": [
+    "staging/src/k8s.io/metrics",
+    "staging/src/k8s.io/klog",
+    "staging/src/k8s.io/kube-openapi"
+   ]
+  },
+  {
+   "source_module": "pkg/registry",
+   "true_targets": [
+    "pkg/apis",
+    "pkg/certauthorization",
+    "pkg/cluster",
+    "pkg/kubeapiserver",
+    "pkg/kubelet",
+    "pkg/probe",
+    "pkg/serviceaccount",
+    "pkg/util",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/streaming"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-helpers",
+    "pkg/kubeapiserver"
+   ],
+   "precision": 0.4,
+   "recall": 0.18181818181818182,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apiserver\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/component-helpers\npkg/kubeapiserver",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/client-go"
+   ]
+  },
+  {
+   "source_module": "pkg/quota",
+   "true_targets": [
+    "pkg/apis",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/dynamic-resource-allocation"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apiserver",
+    "pkg/registry",
+    "staging/src/k8s.io/controller-manager",
+    "cmd/kube-controller-manager"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apiserver\npkg/registry\nstaging/src/k8s.io/controller-manager\ncmd/kube-controller-manager",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/dynamic-resource-allocation"
+   ]
+  },
+  {
+   "source_module": "pkg/windows",
+   "true_targets": [
+    "staging/src/k8s.io/apiserver"
+   ],
+   "predicted": [
+    "pkg/kubelet",
+    "pkg/proxy",
+    "pkg/volume",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "pkg/kubelet\npkg/proxy\npkg/volume\nstaging/src/k8s.io/api\nstaging/src/k8s.io/client-go",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apiserver"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/apimachinery",
+   "true_targets": [
+    "staging/src/k8s.io/streaming"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/apiextensions-apiserver",
+    "cmd/kube-apiserver"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/apiserver\nstaging/src/k8s.io/apiextensions-apiserver\ncmd/kube-apiserver",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "pkg/proxy",
+   "true_targets": [
+    "pkg/cluster",
+    "pkg/kubelet",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/component-helpers"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/kube-proxy"
+   ],
+   "precision": 0.4,
+   "recall": 0.4,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/kube-proxy",
+   "true_targets_v1": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/kubernetes",
+    "staging/src/k8s.io/component-helpers",
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "cmd/genyaml",
+   "true_targets": [
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/kubectl"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/code-generator",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/client-go"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/code-generator\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/cli-runtime\nstaging/src/k8s.io/client-go",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubectl"
+   ]
+  },
+  {
+   "source_module": "pkg/volume",
+   "true_targets": [
+    "pkg/api",
+    "pkg/features",
+    "pkg/fieldpath",
+    "pkg/kubelet",
+    "pkg/securitycontext",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/kubectl"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/cloud-provider",
+    "staging/src/k8s.io/csi-translation-lib",
+    "staging/src/k8s.io/mount-utils",
+    "staging/src/k8s.io/client-go"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/cloud-provider\nstaging/src/k8s.io/csi-translation-lib\nstaging/src/k8s.io/mount-utils\nstaging/src/k8s.io/client-go",
+   "true_targets_v1": [
+    "staging/src/k8s.io/mount-utils",
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/apiextensions-apiserver",
+   "true_targets": [
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/code-generator"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/apiserver\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/code-generator",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/endpointslice",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "pkg/controller",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/controller-manager"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\npkg/controller\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/controller-manager",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base"
+   ]
+  },
+  {
+   "source_module": "pkg/serviceaccount",
+   "true_targets": [
+    "pkg/apis",
+    "pkg/routes",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/apiserver",
+    "pkg/controller",
+    "pkg/kubelet"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/apiserver\npkg/controller\npkg/kubelet",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/kube-aggregator",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/streaming"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/code-generator"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "staging/src/k8s.io/apiserver\nstaging/src/k8s.io/api\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/code-generator",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base"
+   ]
+  },
+  {
+   "source_module": "cmd/cloud-controller-manager",
+   "true_targets": [
+    "pkg/controller",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/controller-manager"
+   ],
+   "predicted": [
+    "cmd/kube-controller-manager",
+    "staging/src/k8s.io/cloud-provider",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "cmd/kube-controller-manager\nstaging/src/k8s.io/cloud-provider\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "pkg/kubeapiserver",
+   "true_targets": [
+    "pkg/auth",
+    "pkg/features",
+    "pkg/serviceaccount",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apiserver",
+    "pkg/apis",
+    "staging/src/k8s.io/client-go",
+    "pkg/registry"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apiserver\npkg/apis\nstaging/src/k8s.io/client-go\npkg/registry",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/kube-openapi"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/cloud-provider",
+   "true_targets": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "pkg/kubelet",
+    "pkg/volume"
+   ],
+   "precision": 0.6,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/client-go  \nstaging/src/k8s.io/api  \nstaging/src/k8s.io/component-base  \npkg/kubelet  \npkg/volume",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/api"
+   ]
+  },
+  {
+   "source_module": "pkg/admission",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apiserver",
+    "pkg/kubeapiserver",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/pod-security-admission"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apiserver\npkg/kubeapiserver\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/pod-security-admission",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes"
+   ]
+  },
+  {
+   "source_module": "pkg/api",
+   "true_targets": [
+    "pkg/apis",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/api",
+    "pkg/apis",
+    "pkg/registry",
+    "staging/src/k8s.io/apiserver"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "staging/src/k8s.io/apimachinery\nstaging/src/k8s.io/api\npkg/apis\npkg/registry\nstaging/src/k8s.io/apiserver",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "pkg/printers",
+   "true_targets": [
+    "pkg/util",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/cli-runtime",
+    "pkg/util",
+    "pkg/apis"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/apimachinery\nstaging/src/k8s.io/api\nstaging/src/k8s.io/cli-runtime\npkg/util\npkg/apis",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes",
+    "staging/src/k8s.io/utils",
+    "staging/src/k8s.io/client-go"
+   ]
+  },
+  {
+   "source_module": "pkg/util",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/client-go",
+    "pkg/api",
+    "staging/src/k8s.io/component-helpers"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/apimachinery\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/client-go\npkg/api\nstaging/src/k8s.io/component-helpers",
+   "true_targets_v1": [
+    "staging/src/k8s.io/klog",
+    "staging/src/k8s.io/client-go"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/client-go",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/streaming"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/apiextensions-apiserver",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/cli-runtime"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/api  \nstaging/src/k8s.io/apimachinery  \nstaging/src/k8s.io/apiextensions-apiserver  \nstaging/src/k8s.io/component-base  \nstaging/src/k8s.io/cli-runtime",
+   "true_targets_v1": [
+    "pkg/client"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/cli-runtime",
+   "true_targets": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/component-helpers"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/component-helpers",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "pkg/securitycontext",
+   "true_targets": [
+    "staging/src/k8s.io/api"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/pod-security-admission",
+    "staging/src/k8s.io/apimachinery",
+    "pkg/kubelet",
+    "staging/src/k8s.io/client-go"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/pod-security-admission\nstaging/src/k8s.io/apimachinery\npkg/kubelet\nstaging/src/k8s.io/client-go",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/api"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/controller-manager",
+   "true_targets": [
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/component-base"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/component-base",
+    "pkg/controller",
+    "pkg/kubelet"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/component-base\npkg/controller\npkg/kubelet",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/sample-controller",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/code-generator",
+    "staging/src/k8s.io/controller-manager"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/code-generator\nstaging/src/k8s.io/controller-manager",
+   "true_targets_v1": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/kube-openapi"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/pod-security-admission",
+   "true_targets": [
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/client-go"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "pkg/kubeapiserver",
+    "staging/src/k8s.io/component-base"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "staging/src/k8s.io/apiserver\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\npkg/kubeapiserver\nstaging/src/k8s.io/component-base",
+   "true_targets_v1": [
+    "staging/src/k8s.io/component-base"
+   ]
+  },
+  {
+   "source_module": "pkg/probe",
+   "true_targets": [
+    "pkg/kubelet",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "pkg/kubelet",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "pkg/util",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "pkg/kubelet\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/api\npkg/util\nstaging/src/k8s.io/apimachinery",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apimachinery"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/csi-translation-lib",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go",
+    "pkg/volume",
+    "staging/src/k8s.io/cloud-provider"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/client-go\npkg/volume\nstaging/src/k8s.io/cloud-provider",
+   "true_targets_v1": [
+    "staging/src/k8s.io/klog"
+   ]
+  },
+  {
+   "source_module": "cmd/kubelet",
+   "true_targets": [
+    "pkg/api",
+    "pkg/capabilities",
+    "pkg/kubelet",
+    "pkg/util",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/apiserver",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/kubelet"
+   ],
+   "predicted": [
+    "pkg/kubelet",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/cri-api"
+   ],
+   "precision": 0.4,
+   "recall": 0.25,
+   "raw_response": "pkg/kubelet\nstaging/src/k8s.io/api\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/cri-api",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubelet"
+   ]
+  },
+  {
+   "source_module": "pkg/scheduler",
+   "true_targets": [
+    "pkg/features",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/dynamic-resource-allocation"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/kube-scheduler"
+   ],
+   "precision": 0.6,
+   "recall": 0.6,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/client-go\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/kube-scheduler",
+   "true_targets_v1": [
+    "staging/src/k8s.io/client-go"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/component-helpers",
+   "true_targets": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/client-go",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/cloud-provider"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/client-go\nstaging/src/k8s.io/api\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/cloud-provider",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "pkg/auth",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/apiserver"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "cmd/kube-apiserver",
+    "pkg/serviceaccount",
+    "pkg/credentialprovider"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "staging/src/k8s.io/api\nstaging/src/k8s.io/client-go\ncmd/kube-apiserver\npkg/serviceaccount\npkg/credentialprovider",
+   "true_targets_v1": [
+    "staging/src/k8s.io/kubernetes",
+    "staging/src/k8s.io/apiserver"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/component-base",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/cli-runtime",
+    "staging/src/k8s.io/api",
+    "staging/src/k8s.io/client-go",
+    "pkg/util"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/apimachinery  \nstaging/src/k8s.io/cli-runtime  \nstaging/src/k8s.io/api  \nstaging/src/k8s.io/client-go  \npkg/util",
+   "true_targets_v1": [
+    "staging/src/k8s.io/utils"
+   ]
+  },
+  {
+   "source_module": "staging/src/k8s.io/cri-client",
+   "true_targets": [
+    "staging/src/k8s.io/apimachinery"
+   ],
+   "predicted": [
+    "staging/src/k8s.io/cri-api",
+    "staging/src/k8s.io/component-base",
+    "staging/src/k8s.io/apimachinery",
+    "staging/src/k8s.io/cri-streaming",
+    "pkg/kubelet"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "staging/src/k8s.io/cri-api\nstaging/src/k8s.io/component-base\nstaging/src/k8s.io/apimachinery\nstaging/src/k8s.io/cri-streaming\npkg/kubelet",
+   "true_targets_v1": [
+    "staging/src/k8s.io/apimachinery"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/qwen3_kubernetes_ar.json"
+}

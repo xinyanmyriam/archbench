@@ -1,0 +1,236 @@
+{
+ "precision_at_5": 0.18181818181818182,
+ "recall_at_5": 0.8484848484848485,
+ "total": 11,
+ "results": [
+  {
+   "source_module": "OMNotebook/OMNotebook",
+   "true_targets": [
+    "OMPlot/OMPlot",
+    "OMPlot/qwt",
+    "OMShell/OMShell"
+   ],
+   "predicted": [
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/Compiler",
+    "OMCompiler/Parser",
+    "OMNotebook/DrControl",
+    "OMNotebook/DrModelica"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "OMCompiler/SimulationRuntime\nOMCompiler/Compiler\nOMCompiler/Parser\nOMNotebook/DrControl\nOMNotebook/DrModelica",
+   "true_targets_v1": [
+    "OMShell/OMShell",
+    "OMPlot/qwt",
+    "OMPlot/OMPlot",
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/tools"
+   ]
+  },
+  {
+   "source_module": "OMCompiler/Parser",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Compiler",
+    "OMCompiler/3rdParty",
+    "OMParser/3rdParty",
+    "OMCompiler/tools",
+    "OMCompiler/SimulationRuntime"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/Compiler\nOMCompiler/3rdParty\nOMParser/3rdParty\nOMCompiler/tools\nOMCompiler/SimulationRuntime",
+   "true_targets_v1": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMShell/OMShell",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/Parser",
+    "OMCompiler/tools",
+    "OMShell/mosh"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/Compiler\nOMCompiler/SimulationRuntime\nOMCompiler/Parser\nOMCompiler/tools\nOMShell/mosh",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMEdit/OMEditLIB",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime",
+    "OMParser/3rdParty",
+    "OMPlot/qwt"
+   ],
+   "predicted": [
+    "OMCompiler/Compiler",
+    "OMCompiler/Parser",
+    "OMCompiler/SimulationRuntime",
+    "OMEdit/OMEditGUI",
+    "OMPlot/OMPlot"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "OMCompiler/Compiler\nOMCompiler/Parser\nOMCompiler/SimulationRuntime\nOMEdit/OMEditGUI\nOMPlot/OMPlot",
+   "true_targets_v1": [
+    "OMPlot/qwt",
+    "OMPlot/OMPlot",
+    "OMParser/3rdParty",
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMPlot/OMPlot",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMPlot/qwt",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMEdit/OMEditGUI",
+    "OMNotebook/OMNotebook"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMPlot/qwt\nOMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMEdit/OMEditGUI\nOMNotebook/OMNotebook",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/qwt"
+   ]
+  },
+  {
+   "source_module": "OMParser/test",
+   "true_targets": [
+    "OMParser/3rdParty"
+   ],
+   "predicted": [
+    "OMCompiler/Parser",
+    "OMParser/3rdParty",
+    "OMCompiler/Compiler",
+    "OMCompiler/tools",
+    "OMEdit/Testsuite"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/Parser\nOMParser/3rdParty\nOMCompiler/Compiler\nOMCompiler/tools\nOMEdit/Testsuite",
+   "true_targets_v1": [
+    "OMParser/3rdParty"
+   ]
+  },
+  {
+   "source_module": "OMEdit/OMEditGUI",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMEdit/OMEditLIB",
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/OMPlot",
+    "OMCompiler/Compiler",
+    "OMNotebook/OMNotebook"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMEdit/OMEditLIB\nOMCompiler/SimulationRuntime\nOMPlot/OMPlot\nOMCompiler/Compiler\nOMNotebook/OMNotebook",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime",
+    "OMEdit/OMEditLIB"
+   ]
+  },
+  {
+   "source_module": "OMShell/mosh",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/Compiler",
+    "OMCompiler/Parser",
+    "OMEdit/OMEditLIB",
+    "OMPlot/OMPlot"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/SimulationRuntime\nOMCompiler/Compiler\nOMCompiler/Parser\nOMEdit/OMEditLIB\nOMPlot/OMPlot",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMParser/3rdParty",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Parser",
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/tools",
+    "OMCompiler/3rdParty"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/Parser\nOMCompiler/Compiler\nOMCompiler/SimulationRuntime\nOMCompiler/tools\nOMCompiler/3rdParty",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMEdit/Testsuite",
+   "true_targets": [
+    "OMEdit/OMEditLIB"
+   ],
+   "predicted": [
+    "OMEdit/OMEditGUI",
+    "OMEdit/OMEditLIB",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/Compiler",
+    "OMPlot/OMPlot"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMEdit/OMEditGUI  \nOMEdit/OMEditLIB  \nOMCompiler/SimulationRuntime  \nOMCompiler/Compiler  \nOMPlot/OMPlot",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime",
+    "OMEdit/OMEditLIB"
+   ]
+  },
+  {
+   "source_module": "OMCompiler/Compiler",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/Parser",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/tools",
+    "OMCompiler/3rdParty",
+    "OMCompiler/toJulia"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/Parser\nOMCompiler/SimulationRuntime\nOMCompiler/tools\nOMCompiler/3rdParty\nOMCompiler/toJulia",
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/qwen3_openmodelica_ar.json"
+}

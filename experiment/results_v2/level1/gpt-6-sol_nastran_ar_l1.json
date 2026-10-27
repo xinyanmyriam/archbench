@@ -1,0 +1,110 @@
+{
+  "precision_at_5": 0.2,
+  "recall_at_5": 1.0,
+  "total": 4,
+  "n_api_errors": 0,
+  "n_retried": 1,
+  "usage_total": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 1125,
+    "total_tokens": 2343
+  },
+  "results": [
+    {
+      "source_module": "utility",
+      "true_targets": [
+        "mis"
+      ],
+      "predicted": [
+        "mis",
+        "um",
+        "mds",
+        "bd",
+        "rf"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "mis\num\nmds\nbd\nrf",
+      "usage": {
+        "prompt_tokens": 205,
+        "completion_tokens": 276,
+        "total_tokens": 481
+      },
+      "latency_ms": 4947.3
+    },
+    {
+      "source_module": "mds",
+      "true_targets": [
+        "mis"
+      ],
+      "predicted": [
+        "utility",
+        "mis",
+        "um",
+        "bd",
+        "rf"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "utility\nmis\num\nbd\nrf",
+      "usage": {
+        "prompt_tokens": 393,
+        "completion_tokens": 203,
+        "total_tokens": 596
+      },
+      "latency_ms": 10109.2
+    },
+    {
+      "source_module": "mis",
+      "true_targets": [
+        "mds"
+      ],
+      "predicted": [
+        "utility",
+        "mds",
+        "bd",
+        "um",
+        "rf"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "utility\nmds\nbd\num\nrf",
+      "usage": {
+        "prompt_tokens": 370,
+        "completion_tokens": 302,
+        "total_tokens": 672
+      },
+      "latency_ms": 4642.4
+    },
+    {
+      "source_module": "bd",
+      "true_targets": [
+        "mds"
+      ],
+      "predicted": [
+        "utility",
+        "mis",
+        "mds",
+        "um",
+        "rf"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "utility\nmis\nmds\num\nrf",
+      "usage": {
+        "prompt_tokens": 250,
+        "completion_tokens": 344,
+        "total_tokens": 594
+      },
+      "latency_ms": 13326.3
+    }
+  ],
+  "timestamp": "2026-10-22T08:58:16.646934",
+  "model": "gpt-6-sol",
+  "project": "nastran",
+  "task": "ar",
+  "level": 1,
+  "code_snippet_lines": 100,
+  "manifest_seed": 42,
+  "import_source": "dependency_raw"
+}

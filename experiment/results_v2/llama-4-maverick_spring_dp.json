@@ -1,0 +1,1616 @@
+{
+ "accuracy": 0.855,
+ "precision": 0.8,
+ "recall": 0.7887323943661971,
+ "f1": 0.7943262411347518,
+ "tp": 56,
+ "fp": 14,
+ "tn": 115,
+ "fn": 15,
+ "total": 200,
+ "results": [
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-jdbc",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-jms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nspring-webmvc is the module for Spring MVC, which is used for building web applications. \nspring-jms is the module for Java Message Service (JMS) integration, which is used for messaging. \nTypically, Spring MVC (spring-webmvc) does not directly depend on JMS (spring-jms) functionality to operate. They serve different purposes within the Spring ecosystem. Therefore, based on their typical responsibilities, spring-webmvc (Module A) does not depend on spring-jms (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-jdbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is modular, allowing different components to be used independently. The `spring-core` module provides the fundamental parts of the framework, including the IoC (Inversion of Control) container and the core utilities. The `spring-jdbc` module, on the other hand, provides support for JDBC (Java Database Connectivity) operations, making it dependent on the foundational components provided by `spring-core` for its functionality, such as the IoC container for managing JDBC-related beans.\n\nGiven the responsibilities of these modules, `spring-core` is foundational and does not depend on the more specialized `spring-jdbc` module for its functionality. `spring-jdbc` is likely to depend on `spring-core` because it utilizes the core framework's infrastructure (like bean management) to provide its JDBC-related functionalities.\n\nTherefore, Module A (`spring-core`) does not depend on Module B (`spring-jdbc`).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-instrument",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-aspects",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core-test",
+   "module_B": "spring-web",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe spring-core-test module is typically used for testing the core functionality of the Spring Framework. \nThe spring-web module is related to Spring's web functionality, including Spring MVC and other web-related features.\nGiven their responsibilities, spring-core-test is focused on testing core Spring functionality and does not inherently depend on web-specific functionality provided by spring-web. Therefore, it is reasonable to conclude that spring-core-test does not depend on spring-web.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-context-indexer",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core-test",
+   "module_B": "spring-beans",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-jdbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-context-support",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "To determine whether Module A (`spring-aspects`) depends on Module B (`spring-context-support`), let's first understand the typical responsibilities of these modules within the Spring Framework.\n\n1. **Understanding `spring-aspects`**: The `spring-aspects` module is part of the Spring Framework that deals with Aspect-Oriented Programming (AOP). It provides integration with AspectJ, a popular AOP framework for Java. This module enables the use of AspectJ aspects within the Spring Framework, allowing for features like declarative transaction management, security, and caching to be implemented using aspects.\n\n2. **Understanding `spring-context-support`**: The `spring-context-support` module provides additional support classes for the Spring context, including integration with various third-party libraries and frameworks (e.g., caching, scheduling). It extends the functionality of the `spring-context` module by offering support for tasks such as caching (with various cache providers), scheduling tasks (with Quartz, for example), and more.\n\n3. **Analyzing Dependency**: \n   - `spring-aspects` is primarily concerned with AOP and AspectJ integration. Its main functionality revolves around enabling aspect-oriented programming within the Spring ecosystem.\n   - `spring-context-support` extends the Spring context with additional functionalities, including caching and scheduling.\n\nTo assess if `spring-aspects` depends on `spring-context-support`, we need to consider if the functionality of `spring-aspects` requires the presence or functionality of `spring-context-support`. \n\nThe core functionality of `spring-aspects` is related to AOP and does not directly depend on the specific features provided by `spring-context-support`, such as caching or scheduling. The aspects defined in `spring-aspects` can be used across the Spring Framework, and their primary dependency is on the AspectJ framework and the core Spring AOP functionality, not directly on `spring-context-support`.\n\nTherefore, based on the typical responsibilities of these modules and without specific evidence of a dependency (like a direct import or a known integration that requires `spring-context-support` for `spring-aspects` to function), it is reasonable to conclude that `spring-aspects` does not inherently depend on `spring-context-support` for its core functionality.\n\nThe final answer is: $\\boxed{No}$",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-tx",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java. It is divided into several modules, each with distinct responsibilities. The 'spring-beans' module is primarily concerned with the creation, configuration, and management of beans, which are the core components of a Spring application. It provides the fundamental infrastructure for dependency injection and bean lifecycle management.\n\nThe 'spring-tx' module, on the other hand, is focused on transaction management. It provides a consistent programming model for transaction management across different transaction managers, such as JDBC, Hibernate, JPA, and JTA.\n\nIn general, the 'spring-beans' module is foundational and is used by many other modules in the Spring Framework, including 'spring-tx'. However, 'spring-beans' does not inherently depend on 'spring-tx' to function. 'spring-tx' builds upon the core functionality provided by 'spring-beans' (and other core modules like 'spring-core') to manage transactions.\n\nTherefore, based on their typical responsibilities and the dependency patterns commonly observed in the Spring Framework, 'spring-beans' (Module A) does not depend on 'spring-tx' (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-web",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is modular, allowing applications to include only the modules they need. The `spring-context` module provides the core functionality for the Spring IoC container, including support for annotation-based configuration and other features that are fundamental to the framework. The `spring-web` module, on the other hand, provides support for web applications, including the Spring MVC framework.\n\nTypically, `spring-context` is a foundational module that other modules, including `spring-web`, depend on. `spring-web` builds upon the core functionality provided by `spring-context` to offer web-specific features. Therefore, it is more likely that `spring-web` depends on `spring-context` rather than the other way around.\n\nHence, Module A (`spring-context`) does not depend on Module B (`spring-web`).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-aspects",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-instrument",
+   "module_B": "spring-beans",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-tx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java that includes various modules to support different aspects of application development. The `spring-beans` module is fundamental to the Spring Framework as it provides the core functionality for dependency injection and bean management. On the other hand, `spring-websocket` is a more specialized module that supports WebSocket protocol, enabling real-time communication between the server and clients.\n\nTypically, `spring-beans` is a foundational module that other modules depend on because it provides essential functionality for managing beans and dependencies. Modules like `spring-websocket`, which are more specialized, often depend on foundational modules like `spring-beans` for their operation.\n\nThe `spring-websocket` module is likely to depend on `spring-beans` because it needs the bean management and dependency injection capabilities provided by `spring-beans` to function correctly. However, the reverse dependency is not typically necessary. The core functionality of `spring-beans` does not inherently require the WebSocket capabilities provided by `spring-websocket` to compile or function.\n\nTherefore, based on the typical responsibilities of these modules and common dependency patterns in the Spring Framework, `spring-beans` (Module A) does not depend on `spring-websocket` (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aop",
+   "module_B": "spring-context-indexer",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-instrument",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-orm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-expression",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-tx",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-aop",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context-indexer",
+   "module_B": "spring-beans",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-jms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-messaging",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-jdbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nspring-r2dbc is a module related to reactive relational database connectivity, while spring-websocket is related to WebSocket support. Typically, these are distinct features within the Spring ecosystem. The functionality of spring-r2dbc is centered around database operations using the R2DBC API, and it doesn't inherently require WebSocket functionality for its core operations. Therefore, based on their typical responsibilities and without specific evidence of a dependency, it's reasonable to conclude that spring-r2dbc does not depend on spring-websocket.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-context-indexer",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-core",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "To determine whether Module A (spring-aspects) depends on Module B (spring-context), let's analyze the roles of these modules within the Spring Framework.\n\n1. **Understanding Module A: spring-aspects**\n   - The `spring-aspects` module is part of the Spring Framework that deals with Aspect-Oriented Programming (AOP). It provides integration with AspectJ, a popular AOP framework for Java. This module enables the use of AspectJ aspects within the Spring Framework, allowing for features like transaction management, security, and caching to be implemented in an aspect-oriented manner.\n\n2. **Understanding Module B: spring-context**\n   - The `spring-context` module is a crucial part of the Spring Framework, building upon the `spring-core` and `spring-beans` modules. It provides the ApplicationContext, which is the Spring container that manages the lifecycle of beans, provides services like event handling, and supports internationalization, among other features. The `spring-context` module is essential for creating and managing the application context, which is central to how Spring applications are structured and executed.\n\n3. **Analyzing the Dependency**\n   - To assess if `spring-aspects` depends on `spring-context`, we need to consider if the functionality provided by `spring-aspects` relies on the features or components provided by `spring-context`.\n   - `spring-aspects` is primarily concerned with integrating AspectJ aspects into the Spring environment. While it does so in the context of a Spring application (which is managed by `spring-context`), the core functionality of `spring-aspects` is related to weaving aspects, which can be done independently of the specific application context provided by `spring-context`.\n   - However, in practice, many aspects are used within the context of a Spring application to advise beans managed by the Spring container (`spring-context`). Thus, while the core aspect weaving functionality might not strictly depend on `spring-context`, the typical usage and integration of aspects within a Spring application do rely on the application context.\n\n4. **Dependency Check**\n   - Upon closer inspection, the `spring-aspects` module is designed to work with the Spring Framework's AOP capabilities and integrates with other Spring modules. The Spring Framework's documentation and architecture suggest that `spring-aspects` can be used in conjunction with other modules like `spring-context` for comprehensive application development.\n   - The actual dependency can be verified by checking the module's imports, Maven/Gradle dependencies, or the module's description in the Spring Framework's documentation.\n\nGiven the Spring Framework's modular design and the roles of `spring-aspects` and `spring-context`, while `spring-aspects` can be conceptually understood to operate somewhat independently, its effective use within a Spring application is intertwined with other modules, including `spring-context`. \n\nHowever, to directly answer the question based on typical Spring Framework module dependencies and without specific details on the imports or dependencies declared in `spring-aspects` for `spring-context`, one must consider the general architecture.\n\nThe best answer is \"Yes\".",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-messaging",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-jms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive framework for building enterprise-level applications in Java. It is divided into several modules, each serving a specific purpose. The `spring-context` module provides the core functionality for the Spring IoC (Inversion of Control) container, which is fundamental to the framework. It enables the creation, configuration, and management of beans (Java objects managed by Spring).\n\nThe `spring-jms` module, on the other hand, provides support for Java Message Service (JMS), a Java API that allows applications to create, send, receive, and read messages. This module is used for messaging between different parts of an application or between different applications.\n\nWhile `spring-jms` does depend on `spring-context` because it needs the IoC container to manage its beans and configurations, the reverse is not inherently true. The `spring-context` module is designed to be a foundational module that can be used by many other modules, including but not limited to `spring-jms`. The core functionality of `spring-context` does not directly depend on the functionality provided by `spring-jms`. \n\nTherefore, based on the typical responsibilities of these modules and common dependency patterns in the Spring Framework, `spring-context` (Module A) does not depend on `spring-jms` (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-jms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nspring-r2dbc is related to reactive relational database connectivity, while spring-jms is related to Java Message Service (JMS) for messaging. These are two distinct areas of functionality within the Spring ecosystem. Typically, database connectivity and messaging are orthogonal concerns, and there's no inherent dependency between them. Therefore, it's reasonable to conclude that spring-r2dbc does not depend on spring-jms.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-webflux",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-context-support",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "To determine whether Module A (spring-webmvc) depends on Module B (spring-context-support), let's analyze the roles of these modules within the Spring Framework.\n\n1. **Understanding Module A: spring-webmvc**: The spring-webmvc module is part of the Spring Framework that provides the Model-View-Controller (MVC) implementation. It's used for building web applications and RESTful services. It relies on the Spring Framework's core functionality for dependency injection, among other things.\n\n2. **Understanding Module B: spring-context-support**: The spring-context-support module provides additional support classes for the Spring context, including integration with third-party libraries for tasks like caching, scheduling (e.g., Quartz), and mail sending. It extends the basic functionality provided by the spring-context module.\n\n3. **Analyzing Dependency**: \n   - **spring-webmvc** primarily depends on the core Spring modules like **spring-core**, **spring-beans**, **spring-context**, and **spring-web** for its basic functionality. \n   - **spring-context-support** is an extension of **spring-context**, providing additional support for integrating with various third-party libraries.\n\n4. **Dependency Between spring-webmvc and spring-context-support**: \n   - The core functionality of **spring-webmvc** does not inherently require **spring-context-support** because **spring-context-support** is more about providing additional integrations and support for certain third-party libraries.\n   - However, certain features or configurations in **spring-webmvc** might optionally utilize classes or functionality provided by **spring-context-support**, especially if they involve caching, scheduling, etc.\n\n5. **Direct Dependency Check**: In the Spring Framework, **spring-webmvc** directly depends on **spring-context**. While **spring-context-support** builds upon **spring-context**, the direct dependency of **spring-webmvc** is on **spring-context**, not necessarily on **spring-context-support**.\n\nGiven these considerations, the core functionality of **spring-webmvc** (Module A) does not directly depend on **spring-context-support** (Module B) for its basic operation. **spring-webmvc** can function without **spring-context-support**.\n\nThe final answer is: $\\boxed{No}$",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-jdbc",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-aspects",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-web",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-context",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nIn the Spring Framework, `spring-core` is a foundational module that provides the core functionality, including the IoC (Inversion of Control) container's basic infrastructure and utilities. `spring-context` builds upon `spring-core` and `spring-beans` to provide a more comprehensive application context, including support for internationalization, event propagation, and resource loading.\n\nGiven their roles, `spring-core` is a lower-level module that provides basic functionality, while `spring-context` is a higher-level module that depends on `spring-core` for its operation. Therefore, `spring-context` depends on `spring-core`, not the other way around.\n\nHence, Module A (`spring-core`) does not depend on Module B (`spring-context`).",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-aop",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe spring-websocket module is responsible for providing WebSocket support in the Spring Framework, enabling real-time, bi-directional communication between web clients and servers. \nThe spring-test module provides testing support for Spring-based applications, including utilities for testing Spring components, mock objects, and test annotations.\n\nTypically, spring-websocket is used for building WebSocket-based applications, while spring-test is used for testing Spring-based applications. \nThere's no inherent dependency between the functionality of spring-websocket and spring-test. \nThe spring-websocket module can function correctly without spring-test, as the latter is primarily used for testing purposes, not for the runtime functionality of the application.\n\nTherefore, Module A (spring-websocket) does not depend on Module B (spring-test).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-context-indexer",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context-indexer",
+   "module_B": "spring-webflux",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core-test",
+   "module_B": "spring-aop",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-webflux",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-jms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java. It is divided into several modules, each providing specific functionalities. The 'spring-tx' module is primarily concerned with transaction management, providing a consistent programming model for transaction management across different transaction managers. On the other hand, 'spring-jms' is related to Java Message Service (JMS), providing an integration layer for JMS, which is a Java API that allows applications to create, send, receive, and read messages.\n\nWhile both modules are part of the Spring Framework and can be used together in an application (for example, using JMS for messaging and transaction management for handling transactions), 'spring-tx' (transaction management) does not inherently depend on 'spring-jms' (JMS integration). The transaction management functionality provided by 'spring-tx' can be used with various transactional resources (like JDBC, Hibernate, JPA, etc.), and its functionality is not directly tied to the JMS integration provided by 'spring-jms'.\n\nTherefore, based on their typical responsibilities and common dependency patterns, 'spring-tx' does not depend on 'spring-jms'.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a modular framework with various components, each serving distinct purposes. The `spring-core` module is foundational, providing core functionality such as dependency injection, bean management, and core utilities. The `spring-webmvc` module, on the other hand, is focused on building web applications using the Model-View-Controller (MVC) pattern. \n\nGiven their roles, `spring-core` is a fundamental module that other modules, including `spring-webmvc`, depend on for basic functionalities like dependency injection. `spring-webmvc`, being a more specialized module for web application development, builds upon the core functionalities provided by `spring-core`.\n\nTherefore, it is typical for `spring-webmvc` to depend on `spring-core` because it utilizes the core functionalities for its operation. However, `spring-core` is designed to be a foundational module that does not depend on more specialized modules like `spring-webmvc` for its functionality. Hence, Module A (`spring-core`) does not depend on Module B (`spring-webmvc`).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-web",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-web",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java. It is divided into several modules, each serving a distinct purpose. The `spring-jdbc` module is primarily concerned with simplifying database access using JDBC (Java Database Connectivity), providing a simpler way to interact with databases. On the other hand, `spring-web` is focused on web-related functionalities, including support for building web applications and RESTful web services.\n\nTypically, `spring-jdbc` is used for database operations and does not inherently depend on web functionalities provided by `spring-web`. The `spring-jdbc` module is more related to data access and persistence, while `spring-web` is related to the presentation layer or web services.\n\nIn a typical Spring application, `spring-jdbc` can be used independently of `spring-web` for database operations. For example, a standalone application or a command-line tool might use `spring-jdbc` for database interactions without needing any web-related functionality.\n\nTherefore, based on their responsibilities and typical usage patterns within the Spring ecosystem, `spring-jdbc` (Module A) does not depend on `spring-web` (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-expression",
+   "module_B": "spring-web",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java that includes various modules to support different aspects of application development. The `spring-expression` module is responsible for providing a powerful expression language for querying and manipulating an object graph at runtime. It's primarily used for evaluating expressions against objects, which is a fundamental capability that can be utilized across various parts of the Spring ecosystem.\n\nThe `spring-web` module, on the other hand, provides foundational web-related functionality, including support for web applications and RESTful web services. It is part of the Spring Framework's support for web development.\n\nGiven the responsibilities of these modules, `spring-expression` is a relatively low-level module that provides a utility (the Spring Expression Language, SpEL) that can be used across the framework, including within `spring-web`. However, the core functionality of `spring-expression` does not inherently depend on `spring-web`. The `spring-expression` module can be used independently of web-related functionality.\n\nTherefore, based on the typical responsibilities of these modules and common dependency patterns, `spring-expression` (Module A) does not depend on `spring-web` (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is divided into several modules, each with distinct responsibilities. The `spring-core` module provides the fundamental parts of the framework, including the IoC (Inversion of Control) container and the core utilities. On the other hand, `spring-test` is focused on supporting testing of Spring-based applications, providing features like the TestContext framework.\n\nTypically, `spring-core` is a foundational module that other modules depend on because it contains essential infrastructure. In contrast, `spring-test` is more specialized towards testing and is not a foundational module that other core parts of the framework depend on for their basic functionality.\n\nTherefore, it is unlikely that `spring-core` depends on `spring-test` because `spring-core`'s functionality is not inherently tied to the testing features provided by `spring-test`. Instead, `spring-test` often depends on `spring-core` (and other core modules) to leverage the framework's core functionalities for testing purposes.\n\nHence, Module A (`spring-core`) does not depend on Module B (`spring-test`).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-beans",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nIn the Spring Framework, `spring-core` is the core module that provides the fundamental parts of the framework, such as the IoC (Inversion of Control) container's core functionality, utilities, and other basic features. `spring-beans` is another crucial module that builds upon `spring-core` and is responsible for bean creation, management, and manipulation. \n\nTypically, `spring-beans` depends on `spring-core` because it utilizes the core utilities and foundational components provided by `spring-core` to manage beans. Therefore, it is unlikely that `spring-core` depends on `spring-beans` as that would create a circular dependency. \n\nHence, based on the typical responsibilities and dependency patterns, `spring-core` (Module A) does not depend on `spring-beans` (Module B).",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-tx",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-aspects",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java. It is divided into several modules, each serving a distinct purpose. \n\n- `spring-oxm` is a module that provides an abstraction layer for Object/XML Mapping (OXM). It supports various OXM technologies like JAXB, Castor, etc. Its primary responsibility is to facilitate the conversion between Java objects and XML.\n\n- `spring-test` is a module that provides support for testing Spring-based applications. It includes features like TestContext framework, Spring MVC Test, etc.\n\nGiven the responsibilities of these modules, `spring-oxm` is focused on OXM functionality and does not inherently require the testing capabilities provided by `spring-test` to function or compile. The testing module is generally used by applications that utilize the Spring Framework (including potentially `spring-oxm`) for their testing needs, rather than being a dependency of the framework's functional modules like `spring-oxm`.\n\nTherefore, based on their typical responsibilities and common dependency patterns, `spring-oxm` does not depend on `spring-test`.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a modular framework that allows developers to pick and choose the modules they need for their applications. The `spring-context` module provides the core functionality for the Spring IoC container, including bean management and application context management. On the other hand, `spring-webmvc` is a module that provides the Model-View-Controller (MVC) framework for building web applications.\n\nTypically, `spring-webmvc` depends on `spring-context` because it uses the application context and bean management features provided by `spring-context`. However, `spring-context` is designed to be a more general-purpose module that can be used in a variety of contexts, not just web applications. Therefore, `spring-context` does not depend on `spring-webmvc`. \n\nHence, Module A (`spring-context`) does not depend on Module B (`spring-webmvc`).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-aop",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-instrument",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive framework for Java. It is divided into several modules, each serving a distinct purpose. The `spring-instrument` module is primarily concerned with instrumentation, which involves modifying or enhancing the behavior of Java classes at load-time or runtime, often for purposes like performance monitoring or implementing certain aspects of the Spring framework that require bytecode manipulation.\n\nThe `spring-webmvc` module, on the other hand, is part of the Spring Framework's web layer, specifically implementing the Model-View-Controller (MVC) pattern. It is used for building web applications.\n\nTypically, `spring-instrument` is used for tasks that are somewhat orthogonal to the specific functionality provided by `spring-webmvc`. While `spring-webmvc` might indirectly benefit from or utilize the capabilities provided by other parts of the Spring Framework that could be related to or dependent on `spring-instrument` (for example, for load-time weaving), the direct dependency between `spring-instrument` and `spring-webmvc` is not inherent based on their primary functions.\n\nIn the Spring Framework, `spring-instrument` is generally more related to core Spring functionality and aspects that require bytecode manipulation, rather than being directly tied to the web or MVC functionality provided by `spring-webmvc`.\n\nTherefore, based on their typical responsibilities and without specific evidence of a direct dependency (like an import or a known integration that requires `spring-webmvc` for `spring-instrument` to function), it is reasonable to conclude that `spring-instrument` does not directly depend on `spring-webmvc`.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-oxm",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-jms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-messaging",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-webflux",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-aop",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is modular, allowing different components to be used independently. The 'spring-core' module provides the fundamental parts of the framework, including the IoC (Inversion of Control) container and a robust dependency injection system. The 'spring-aop' module is focused on Aspect-Oriented Programming (AOP) support, enabling the modularization of cross-cutting concerns.\n\nIn the Spring Framework, 'spring-core' is a foundational module that other modules, including 'spring-aop', depend on. 'spring-aop', in turn, builds upon the core functionality provided by 'spring-core' to implement AOP features. \n\nTherefore, 'spring-aop' typically depends on 'spring-core', not the other way around. Hence, Module A ('spring-core') does not depend on Module B ('spring-aop').",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-tx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-context-support",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "To determine whether Module A (`spring-test`) depends on Module B (`spring-context-support`), let's first understand the typical responsibilities of these modules within the Spring Framework.\n\n1. **Understanding `spring-test`**: The `spring-test` module is responsible for providing testing support for Spring-based applications. It includes features like the Spring TestContext Framework, which allows for the integration testing of Spring-based applications. This module is crucial for testing applications that use Spring.\n\n2. **Understanding `spring-context-support`**: The `spring-context-support` module provides additional support classes for the Spring context, including integration with third-party libraries such as Quartz (for scheduling tasks), EHCache, and others. It extends the functionality of the `spring-context` module by providing support for various caching and scheduling frameworks.\n\n3. **Analyzing Dependency**: To assess if `spring-test` depends on `spring-context-support`, we need to consider whether the testing functionality provided by `spring-test` relies on the additional context support features offered by `spring-context-support`.\n\nThe `spring-test` module is primarily focused on testing Spring applications and does not directly depend on the specific integrations or additional support classes provided by `spring-context-support` for its core functionality. However, if `spring-test` includes tests for the functionality provided by `spring-context-support`, or if it uses some of the classes or utilities from `spring-context-support` for its testing purposes, there could be a dependency.\n\nIn the Spring Framework, `spring-test` is designed to be versatile and test various aspects of Spring applications. While `spring-context-support` is more about providing additional support for the application context, the testing module's primary dependency is on the core modules like `spring-core`, `spring-context`, etc., rather than on support modules.\n\nUpon closer inspection and based on the Spring Framework's architecture, `spring-test` does not inherently depend on `spring-context-support` for its basic testing functionality. The dependency between these modules isn't straightforward without considering specific use cases or tests that might be included in `spring-test` for `spring-context-support`.\n\nHowever, given the general responsibilities of these modules and typical dependency patterns, the direct dependency is not immediately clear without specific details on their interaction.\n\nAfter analyzing the general roles of these modules, it is found that `spring-test` does have a dependency on `spring-context` (a related module to `spring-context-support`), and given the structure of Spring, it's plausible that it could depend on `spring-context-support` if it tests or utilizes its functionality.\n\nThe actual dependency can be verified by checking the module's import statements, Maven/Gradle dependencies, or the module's documentation.\n\nFor Spring Framework, upon reviewing the dependencies:\n- `spring-test` is known to depend on various core Spring modules.\n- The specific dependency on `spring-context-support` can be considered in the context of whether `spring-test` tests or relies on the functionality provided by `spring-context-support`.\n\nIn practice, the Spring Framework modules are designed to be somewhat modular, but they also have a complex interdependency due to their integrated nature.\n\nTo directly answer the question based on the Spring Framework's known structure and without direct access to the specific module dependencies at this moment, one would typically check the project's build files (like Maven pom.xml or Gradle build.gradle) for explicit dependencies.\n\nFor the Spring Framework, it is known that `spring-test` has dependencies that include `spring-context`. The dependency on `spring-context-support` is less straightforward and is related to whether the testing framework directly utilizes or tests the functionality provided by `spring-context-support`.\n\nYes.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-instrument",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-core-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-tx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-jdbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nspring-webflux is a module in Spring Framework that provides support for reactive web applications, while spring-jdbc is a module that provides support for JDBC (Java Database Connectivity) operations. \nTypically, spring-webflux is used for building reactive web applications and does not directly depend on spring-jdbc, which is used for database operations. \nWhile it's possible to use them together in an application (e.g., using spring-webflux for the web layer and spring-jdbc for database access), spring-webflux does not inherently depend on spring-jdbc to function. \nTherefore, Module A (spring-webflux) does not depend on Module B (spring-jdbc).",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-web",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-instrument",
+   "module_B": "spring-core",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-context-support",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-tx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-oxm",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-expression",
+   "module_B": "spring-aspects",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aop",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-web",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-tx",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-expression",
+   "module_B": "spring-context",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe spring-expression module is responsible for providing a powerful expression language for querying and manipulating an object graph at runtime. The spring-context module builds upon the spring-core and spring-beans modules and provides additional functionality for creating and managing application contexts.\n\nTypically, the spring-context module depends on the spring-expression module because it uses the expression language provided by spring-expression for evaluating expressions in bean definitions and other contexts. \n\nTherefore, it is unlikely that spring-expression depends on spring-context. The spring-expression module is designed to be a relatively standalone module that can be used independently, and its functionality does not inherently require the presence of spring-context. Hence, Module A (spring-expression) does not depend on Module B (spring-context).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-context",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-tx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-web",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nspring-jdbc and spring-r2dbc are two separate modules in the Spring Framework that handle different database access technologies. spring-jdbc is related to traditional JDBC (Java Database Connectivity), while spring-r2dbc is related to R2DBC (Reactive Relational Database Connectivity), a reactive database connectivity API. They serve different purposes and are designed to work with different database access paradigms (blocking vs. reactive). Typically, they do not depend on each other directly because they are designed for different use cases and database interaction models. Therefore, Module A (spring-jdbc) does not depend on Module B (spring-r2dbc).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aspects",
+   "module_B": "spring-tx",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "To determine whether Module A (spring-aspects) depends on Module B (spring-tx), we need to understand the roles of these modules within the Spring Framework.\n\n1. **Understanding spring-aspects**: The spring-aspects module is part of the Spring Framework that deals with Aspect-Oriented Programming (AOP). It provides integration with AspectJ, a popular AOP framework for Java. This module enables the use of AspectJ aspects within the Spring Framework, allowing for features like declarative transaction management through aspects.\n\n2. **Understanding spring-tx**: The spring-tx module, also known as the Spring Transaction module, provides a comprehensive transaction management system. It allows for both programmatic and declarative transaction management. Declarative transaction management is often achieved through the use of annotations (like `@Transactional`) or AOP configurations.\n\n3. **Analyzing the Dependency**: \n   - **spring-aspects** is involved in providing aspect-related functionality. One of its key aspects is related to transaction management, which is handled by **spring-tx**. \n   - The AspectJ aspects defined in **spring-aspects** for transaction management (e.g., `AnnotationTransactionAspect`) work in conjunction with the transaction management infrastructure provided by **spring-tx**.\n\n4. **Dependency Check**:\n   - For **spring-aspects** to provide transactional aspects (like those related to `@Transactional`), it needs the transaction management capabilities provided by **spring-tx**. \n   - The aspects in **spring-aspects** related to transaction management are designed to work with the transaction management code in **spring-tx**.\n\nGiven these points, **spring-aspects** (Module A) does have a dependency on **spring-tx** (Module B) because the transactional aspects in **spring-aspects** rely on the transaction management infrastructure provided by **spring-tx** to function correctly.\n\nThe final answer is: $\\boxed{Yes}$",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-messaging",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-jdbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-webmvc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nspring-webflux and spring-webmvc are two separate modules in the Spring Framework that serve different purposes. spring-webflux is part of Spring's reactive stack, providing support for building reactive web applications. On the other hand, spring-webmvc is part of Spring's traditional, servlet-based web stack, providing support for building web applications using the Model-View-Controller (MVC) pattern.\n\nThese two modules are designed to be used independently of each other. spring-webflux is built on top of Project Reactor and does not depend on the servlet API or spring-webmvc. Therefore, spring-webflux (Module A) does not depend on spring-webmvc (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is modular, allowing different components to be used independently. \n- `spring-core` is a foundational module that provides the core functionality of the Spring Framework, including IoC (Inversion of Control) container, dependency injection, and other basic utilities.\n- `spring-r2dbc` is a module that provides support for Reactive Relational Database Connectivity (R2DBC), enabling reactive database access.\n\nTypically, `spring-core` is a base module that other Spring modules depend on, rather than the other way around. `spring-r2dbc`, being a specialized module for R2DBC support, is likely to depend on `spring-core` for its foundational functionality but `spring-core` itself is not expected to depend on `spring-r2dbc` as it provides basic framework functionality that is not inherently dependent on a specific database access technology like R2DBC.\n\nTherefore, based on the typical responsibilities and dependency patterns, `spring-core` (Module A) does not depend on `spring-r2dbc` (Module B).",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-expression",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-oxm",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-aop",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-orm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-core-test",
+   "module_B": "spring-context",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-orm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-instrument",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java that provides a consistent programming model for building enterprise-level applications. It is divided into several modules, each addressing a specific aspect of application development.\n\n1. **Understanding Module A (spring-jdbc):** The `spring-jdbc` module is part of the Spring Framework's data access layer. It provides a simplified way to access and interact with relational databases by abstracting away the complexities of JDBC (Java Database Connectivity). It includes features like JdbcTemplate, which simplifies database operations, and support for transaction management.\n\n2. **Understanding Module B (spring-websocket):** The `spring-websocket` module supports the WebSocket protocol, enabling bidirectional, real-time communication between a client (usually a web browser) and a server over the web. This is particularly useful for applications requiring live updates, such as live scoreboards, chat applications, etc.\n\n3. **Analyzing Dependency:** To determine if `spring-jdbc` depends on `spring-websocket`, we need to consider whether the functionality provided by `spring-jdbc` requires any components or functionality from `spring-websocket`.\n\n- `spring-jdbc` is focused on database access and operations. Its primary concern is simplifying JDBC operations and managing database transactions.\n- `spring-websocket`, on the other hand, is related to real-time web communication and has no direct relation to database access.\n\nGiven the distinct responsibilities of these modules, there's no inherent reason why `spring-jdbc` would need to depend on `spring-websocket` to function. Database access and WebSocket communication are orthogonal concerns within an application. Therefore, `spring-jdbc` can operate independently of `spring-websocket`.\n\nHence, the answer is \"No\".",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-context",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java. It is divided into several modules, each serving a distinct purpose. \n\n- `spring-oxm` is a module that provides an abstraction layer for Object/XML Mapping (OXM), allowing for the conversion between Java objects and XML. It supports various OXM technologies like JAXB, Castor, etc.\n\n- `spring-websocket` is a module that provides support for the WebSocket protocol, enabling bidirectional, real-time communication between a web client and a server.\n\nGiven the responsibilities of these modules, `spring-oxm` is primarily concerned with data binding and conversion between Java objects and XML, while `spring-websocket` is focused on real-time web communication.\n\nTypically, `spring-oxm` is used in data access and integration layers for XML data binding, whereas `spring-websocket` is used for implementing real-time web functionality. There's no inherent dependency between the functionality of OXM and WebSocket. \n\nThe Spring Framework is designed to be modular, with modules having well-defined responsibilities. While there are dependencies between some modules (for example, many modules depend on `spring-core`), not all modules directly depend on each other.\n\nWithout specific knowledge of the internal dependencies between `spring-oxm` and `spring-websocket`, one might inspect the module's documentation or source code. However, based on their functional descriptions, there's no direct indication that `spring-oxm` relies on `spring-websocket` for its core functionality.\n\nTherefore, based on the typical responsibilities of these modules and common dependency patterns, it is reasonable to conclude that `spring-oxm` does not depend on `spring-websocket`.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-orm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-websocket",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is modular, allowing different components to be used independently. The 'spring-beans' module is responsible for bean creation, configuration, and management, which is a core functionality of the Spring Framework. The 'spring-oxm' module, on the other hand, handles Object/XML Mapping (OXM), providing an abstraction layer for various XML marshaling and unmarshaling technologies.\n\nTypically, 'spring-beans' is foundational and is used by many other modules for dependency injection and bean management. 'spring-oxm' is more specialized, dealing with XML mapping, and is not a fundamental component required by 'spring-beans' for its basic operation.\n\nThere is no inherent dependency between the core bean management functionality and the Object/XML mapping functionality. Hence, 'spring-beans' does not depend on 'spring-oxm'.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-context-support",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "To determine whether Module A (spring-oxm) depends on Module B (spring-context-support), let's first understand the typical responsibilities of these modules within the Spring Framework.\n\n1. **Understanding spring-oxm**: The spring-oxm module is part of the Spring Framework that deals with Object/XML Mapping (OXM). It provides an abstraction layer over various OXM technologies such as JAXB, Castor, XMLBeans, etc. This module is primarily concerned with the serialization and deserialization of Java objects to and from XML.\n\n2. **Understanding spring-context-support**: The spring-context-support module provides additional support classes for the Spring context, including integration with various third-party libraries for tasks like caching, scheduling (e.g., Quartz), and more. It extends the capabilities of the spring-context module.\n\nGiven these roles:\n- **spring-oxm** is focused on OXM and doesn't inherently require the functionalities provided by **spring-context-support** to perform its core tasks. Its primary dependency is likely on the core Spring modules and possibly specific OXM libraries it abstracts.\n- **spring-context-support**, on the other hand, often depends on or is related to the functionality provided by other Spring modules, including potentially **spring-oxm** if it were to utilize OXM functionalities. However, the dependency direction is what's being questioned.\n\nIn the Spring Framework, **spring-oxm** is generally considered a relatively standalone module concerning its core functionality. It doesn't directly depend on the higher-level integration or support classes provided by **spring-context-support** to function. \n\nTherefore, based on the typical responsibilities and common dependency patterns, **Module A (spring-oxm)** does not depend on **Module B (spring-context-support)**.\n\nThe best answer is No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-expression",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-expression",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-oxm",
+   "module_B": "spring-tx",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-expression",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No. \n\nReasoning: \nThe Spring Framework is a comprehensive application framework for Java that includes various modules to support different aspects of application development. The `spring-expression` module is responsible for providing a powerful expression language for querying and manipulating an object graph at runtime. It's primarily used for evaluating expressions against a Spring-based application context.\n\nThe `spring-r2dbc` module, on the other hand, is related to Reactive Relational Database Connectivity (R2DBC), which is an effort to bring reactive programming APIs to SQL databases. This module is part of Spring's support for reactive database access.\n\nGiven the responsibilities of these modules, `spring-expression` is a foundational module that can be used across various parts of the Spring ecosystem, including but not limited to data access layers. Its functionality is not inherently tied to the specifics of how data is accessed (e.g., reactively via R2DBC).\n\n`spring-r2dbc` is focused on providing reactive database access capabilities. While it might utilize the expression language provided by `spring-expression` for certain configuration or query aspects, there's no inherent dependency that dictates `spring-expression` must depend on `spring-r2dbc` to function.\n\nIn fact, the expression language is a more general-purpose utility that can be used in various contexts within Spring, not limited to or dependent on the specifics of database access technologies like R2DBC.\n\nTherefore, based on their typical responsibilities and the general architecture of the Spring Framework, `spring-expression` (Module A) does not depend on `spring-r2dbc` (Module B).",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-context-support",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-r2dbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-jms",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-expression",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-test",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-tx",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-messaging",
+   "module_B": "spring-expression",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context",
+   "module_B": "spring-jdbc",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jms",
+   "module_B": "spring-core-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-context-support",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-r2dbc",
+   "module_B": "spring-core-test",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-orm",
+   "module_B": "spring-aspects",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-aop",
+   "module_B": "spring-webflux",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-webflux",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-web",
+   "module_B": "spring-aop",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-context-support",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-jdbc",
+   "module_B": "spring-oxm",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No.",
+   "label_v1": 0
+  },
+  {
+   "module_A": "spring-beans",
+   "module_B": "spring-context",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webflux",
+   "module_B": "spring-beans",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-webmvc",
+   "module_B": "spring-webflux",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-websocket",
+   "module_B": "spring-messaging",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-aop",
+   "module_B": "spring-core",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes.",
+   "label_v1": 1
+  },
+  {
+   "module_A": "spring-core-test",
+   "module_B": "spring-tx",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-4-maverick_spring_dp.json"
+}

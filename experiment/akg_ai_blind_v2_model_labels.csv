@@ -1,0 +1,201 @@
+﻿pilot_id,model,label,confidence,reason,parse_ok
+V001,qwen3.8-max-dashscope,Correct,3,示例中的 #include <QtxFontEdit.h> 唯一候选即解析目标 gui/src/Qtx/QtxFontEdit.h，文件存在且模块匹配。,1
+V002,qwen3.8-max-dashscope,Correct,3,"#include ""Behaviours/BehaviourProperty.h"" 唯一解析到项目内 bibcxx/Behaviours/BehaviourProperty.h，确实形成 DataFields 到 Behaviours 的静态依赖。",1
+V003,qwen3.8-max-dashscope,Correct,3,示例中的 #include <GEOM_Function.hxx> 唯一候选且解析到 geom/src/GEOM/GEOM_Function.hxx，静态依赖与模块端点一致。,1
+V004,qwen3.8-max-dashscope,Correct,3,示例中的 #include 语句由唯一候选解析到目标模块内实际存在的头文件，依赖成立。,1
+V005,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与唯一候选文件路径完全一致，且目标文件属于 tensorflow/core/lib 模块。,1
+V006,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与唯一候选文件及解析目标完全一致，确实形成从 tensorflow/tools/proto_text 到 tensorflow/core/lib 的静态依赖。,1
+V007,qwen3.8-max-dashscope,Correct,3,"两条 #include ""Numbering/DOFNumbering.h"" 均解析到唯一候选且磁盘存在的 bibcxx/Numbering/DOFNumbering.h，模块依赖成立。",1
+V008,qwen3.8-max-dashscope,Correct,3,"gpio-bt8xx.c 中的相对路径 #include ""../media/pci/bt8xx/bt848.h"" 确实解析到 drivers/media/pci/bt8xx/bt848.h，形成 drivers/gpio 到 drivers/media 的真实静态依赖。",1
+V009,qwen3.8-max-dashscope,Correct,3,示例中的 from torch._decomp import ... 语句确实将 torch/export 下文件静态依赖到项目内 torch/_decomp/__init__.py，解析目标和模块端点一致。,1
+V010,qwen3.8-max-dashscope,Correct,3,include 路径与唯一候选解析目标一致，且目标文件存在并属于目标模块,1
+V011,qwen3.8-max-dashscope,Correct,3,"唯一候选将 #include ""GEOM_Constants.h"" 解析到 geom/src/OBJECT/GEOM_Constants.h，文件存在且模块匹配。",1
+V012,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.framework import constant_op 唯一解析到项目内 tensorflow/python/framework/__init__.py，模块依赖成立。,1
+V013,qwen3.8-max-dashscope,Correct,3,示例中的 torch.autograd.gradcheck 导入真实存在且唯一解析到项目内 torch/autograd/gradcheck.py，形成 torch/testing 到 torch/autograd 的有效静态依赖。,1
+V014,qwen3.8-max-dashscope,Correct,3,#include <kunit/test.h> 唯一且正确解析到 include/kunit/test.h，源文件属于 security/ipe，目标文件属于 include/kunit。,1
+V015,qwen3.8-max-dashscope,Correct,3,"#include ""Solvers/LinearSolver.h"" 从 bibcxx/PythonBindings 解析到磁盘存在的 bibcxx/Solvers/LinearSolver.h，路径前缀与目标模块一致。",1
+V016,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/sched.h> 正确解析到 include/linux/sched.h，构成 fs/jfs 到 include/linux 的真实静态依赖。,1
+V017,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""astercxx.h"" 唯一解析到项目内存在的 bibcxx/include/astercxx.h，依赖成立。",1
+V018,qwen3.8-max-dashscope,Correct,3,示例中 #include <vdso/gettime.h> 确实构成静态依赖，且候选路径确认其正确解析到 include/vdso/gettime.h。,1
+V019,qwen3.8-max-dashscope,Correct,3,import 的 org.apache.hadoop.hdfs.server.common.HdfsServerConstants 与解析到的 hadoop-hdfs-project/hadoop-hdfs 下对应 Java 文件路径完全一致。,1
+V020,qwen3.8-max-dashscope,Correct,3,flags_test.py 中 from tensorflow.python.platform import test 静态导入，唯一候选解析到 tensorflow/python/platform/__init__.py，与目标模块一致。,1
+V021,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.util.tf_export import tf_export 唯一且正确地解析到项目内 tensorflow/python/util/tf_export.py。,1
+V022,qwen3.8-max-dashscope,Correct,3,示例中的 import 全限定名与解析到的 spring-core 下 Java 文件路径一致，静态依赖成立。,1
+V023,qwen3.8-max-dashscope,Correct,3,示例 import 的全限定名与 hadoop-auth 下对应 Java 文件路径一致，形成 hadoop-kms 到 hadoop-auth 的静态依赖。,1
+V024,qwen3.8-max-dashscope,Correct,3,示例中的 Go import 均指向 k8s.io/apimachinery 包，候选中仅 staging/src/k8s.io/apimachinery/... 存在且属于目标模块，解析正确。,1
+V025,qwen3.8-max-dashscope,Correct,3,相对路径 ../../netfilter/xt_repldata.h 从 net/ipv4/netfilter 正确解析到项目内存在的 net/netfilter/xt_repldata.h。,1
+V026,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/major.h> 真实存在，且唯一候选目标 include/uapi/linux/major.h 与解析结果及其所属模块 include/uapi 一致。,1
+V027,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""tensorflow/core/framework/metrics.h"" 从 tensorflow/compiler/mlir 下文件精确解析到 tensorflow/core/framework/metrics.h，依赖与模块端点一致。",1
+V028,qwen3.8-max-dashscope,Correct,3,示例中的 #include <QtxActionMenuMgr.h> 唯一候选且确实解析到项目内存在的 gui/src/Qtx/QtxActionMenuMgr.h，依赖边成立。,1
+V029,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/*.h> 均正确解析到 include/linux/ 下对应头文件，构成真实模块依赖。,1
+V030,qwen3.8-max-dashscope,Correct,3,示例中的 import torch.nn 均静态依赖并正确解析到项目内 torch/nn/__init__.py。,1
+V031,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/*.h> 均正确解析到 include/linux 下对应头文件，静态依赖成立。,1
+V032,qwen3.8-max-dashscope,Wrong-resolution,2,#include <linux/magic.h> 在内核项目中应按口径解析到 include/linux/magic.h，而不是 include/uapi/linux/magic.h。,1
+V033,qwen3.8-max-dashscope,Correct,3,tools/jit/gen_unboxing.py 中 from torchgen.api import ... 静态导入项目内 torchgen/api/__init__.py，解析正确。,1
+V034,qwen3.8-max-dashscope,Correct,3,示例中的 from torch.jit.generate_bytecode import 语句真实存在，且唯一候选解析到项目内 torch/jit/generate_bytecode.py，模块端点一致。,1
+V035,qwen3.8-max-dashscope,Correct,3,两条示例的 #include <LightApp_SelectionMgr.h> 均唯一解析到项目内存在的 gui/src/LightApp/LightApp_SelectionMgr.h，模块端点一致。,1
+V036,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""GeometryGUI.h"" 唯一解析到项目内 geom/src/GEOMGUI/GeometryGUI.h，静态依赖成立且模块粒度一致。",1
+V037,qwen3.8-max-dashscope,Correct,3,示例中的 #include <GEOM_wrap.hxx> 唯一候选且解析到项目内真实存在的 geom/src/GEOM_I/GEOM_wrap.hxx，模块匹配。,1
+V038,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/*.h> 均正确解析到 include/linux 下对应头文件，构成真实静态依赖。,1
+V039,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析目标及唯一候选文件一致，且目标文件属于 tensorflow/core/profiler 模块。,1
+V040,qwen3.8-max-dashscope,Correct,3,Go 导入 k8s.io/kubernetes/pkg/fieldpath 在候选中唯一实际存在且解析到 pkg/fieldpath，依赖边成立。,1
+V041,qwen3.8-max-dashscope,Correct,3,示例中 #include <Sketcher_Utils.hxx> 的唯一候选解析到 geom/src/SKETCHER/Sketcher_Utils.hxx，源文件属于 GEOMImpl，模块间静态依赖成立。,1
+V042,qwen3.8-max-dashscope,Correct,3,示例 #include <SVTK_ViewModel.h> 在仓库候选中唯一解析到 gui/src/SVTK/SVTK_ViewModel.h，静态依赖成立。,1
+V043,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""lib/vdso/gettimeofday.c"" 精确解析到 lib/vdso/gettimeofday.c，构成 arch/x86 到 lib/vdso 的真实静态依赖。",1
+V044,qwen3.8-max-dashscope,Correct,3,drivers/base 下文件包含 <kunit/test.h>，解析到仓库内 include/kunit/test.h，候选路径支持且模块一致。,1
+V045,qwen3.8-max-dashscope,Correct,3,相对路径 #include 从 drivers/net/ethernet/broadcom 正确解析到 drivers/scsi 下的头文件，示例链接成立。,1
+V046,qwen3.8-max-dashscope,Wrong-resolution,3,#include <linux/nfc.h> 按内核口径应解析到 include/linux/ 下，但被解析到 include/uapi/linux/nfc.h。,1
+V047,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""NOTIFICATION.hxx"" 唯一解析到 kernel/src/Notification/NOTIFICATION.hxx，且该文件存在并属于目标模块。",1
+V048,qwen3.8-max-dashscope,Correct,3,示例中的 #include 语句确实将 Qt/ApplicationComponents 下的文件静态依赖到 Remoting/ApplicationComponents 下且解析目标在磁盘上存在并模块一致。,1
+V049,qwen3.8-max-dashscope,Correct,3,示例中的 #include 语句解析到仓库内唯一存在的目标文件，且源文件属于 applications、目标文件属于 src/regionModels。,1
+V050,qwen3.8-max-dashscope,Correct,3,import k8s.io/kubernetes/pkg/controlplane 唯一存在的候选是仓库内 pkg/controlplane，示例静态依赖成立且模块粒度一致。,1
+V051,qwen3.8-max-dashscope,Correct,3,示例 #include <linux/platform_device.h> 从 drivers/cxl/acpi.c 正确解析到 include/linux/platform_device.h，构成 source 模块到 target 模块的静态依赖。,1
+V052,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""Numbering/DOFNumbering.h"" 唯一候选且实际解析到仓库内存在的 bibcxx/Numbering/DOFNumbering.h，模块端点一致。",1
+V053,qwen3.8-max-dashscope,Correct,3,Go import k8s.io/apimachinery/pkg/api/errors 被解析到磁盘存在且属于 staging/src/k8s.io/apimachinery 的目录，依赖成立。,1
+V054,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""ccm.H"" 唯一候选解析到目标模块内真实存在的 src/conversion/ccm/common/ccm.H。",1
+V055,qwen3.8-max-dashscope,Correct,3,pkg/api 中的 Go import 语句 k8s.io/client-go/tools/cache 被解析到仓库内存在的 staging/src/k8s.io/client-go/tools/cache，且候选中 vendor 路径不存在，因此该模块级依赖边成立。,1
+V056,qwen3.8-max-dashscope,Correct,3,导入路径在候选中唯一实际存在于 pkg/registry/registrytest，且该目录属于 pkg/registry 模块，源文件位于 pkg/controlplane，依赖边成立。,1
+V057,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/*.h> 均正确解析到 include/linux 下对应头文件，静态依赖成立。,1
+V058,qwen3.8-max-dashscope,Correct,3,net/sctp/auth.c 中 #include <crypto/sha1.h> 被唯一候选正确解析到 include/crypto/sha1.h，静态依赖成立。,1
+V059,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/*.h> 均正确解析到项目内 include/linux/ 下对应头文件，静态依赖成立。,1
+V060,qwen3.8-max-dashscope,Correct,3,示例中 drivers/pwm/pwm-atmel-tcb.c 的 #include <soc/at91/atmel_tcb.h> 被解析到磁盘存在的 include/soc/at91/atmel_tcb.h，路径前缀一致且模块归属正确。,1
+V061,qwen3.8-max-dashscope,Correct,3,相对导入 ..Messages 被正确解析到存在的 code_aster/Messages/__init__.py，示例静态依赖成立。,1
+V062,qwen3.8-max-dashscope,Correct,3,示例中的 #include <dt-bindings/leds/...> 正确解析到 include/dt-bindings/leds/... 下的项目内头文件，构成 drivers/leds 到 include/dt-bindings 的真实静态依赖。,1
+V063,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析目标 tensorflow/core/public/session_options.h 完全一致，且目标文件确属 target_module。,1
+V064,qwen3.8-max-dashscope,Correct,3,示例中的 #include <SVTK_ViewModel.h> 唯一候选即目标模块下的 gui/src/SVTK/SVTK_ViewModel.h，静态依赖成立且解析正确。,1
+V065,qwen3.8-max-dashscope,Correct,3,示例 #include 指向 Discretization/ElementaryCharacteristics.h，唯一候选且解析到 bibcxx/Discretization 下真实文件，模块依赖成立。,1
+V066,qwen3.8-max-dashscope,Correct,3,tensorflow/core/data 中的文件静态包含 tensorflow/core/profiler/lib/traceme.h，且解析目标在候选清单和磁盘上均正确对应目标模块。,1
+V067,qwen3.8-max-dashscope,Wrong-resolution,2,示例中的 #include <linux/*.h> 被解析到 include/uapi/linux/*.h，不符合内核项目里 <linux/*.h> 应对应 include/linux/*.h 的口径。,1
+V068,qwen3.8-max-dashscope,Correct,3,示例 #include <SALOME_ListIO.hxx> 的唯一候选文件确实存在于 gui/src/OBJECT，解析目标正确。,1
+V069,qwen3.8-max-dashscope,Correct,3,示例 #include <uapi/linux/sched/types.h> 从 kernel/sched 解析到 include/uapi/linux/sched/types.h，路径和模块均匹配。,1
+V070,qwen3.8-max-dashscope,Correct,3,OperationGUI.cxx 中的 #include <GeometryGUI.h> 唯一解析到项目内存在的 geom/src/GEOMGUI/GeometryGUI.h，静态依赖成立。,1
+V071,qwen3.8-max-dashscope,Correct,3,示例中 source_module 内文件静态 include transferModel.H，唯一候选目标确实位于 src/regionModels 且磁盘存在，解析正确。,1
+V072,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""vtkProcessModule.h"" 唯一解析到项目内 Remoting/Core/vtkProcessModule.h，依赖成立。",1
+V073,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""vtkPVLogger.h"" 唯一候选且解析到 VTKExtensions/Core/vtkPVLogger.h，静态依赖与模块归属一致。",1
+V074,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析到的 tensorflow/core/framework/tensor_shape.h 一致且文件存在，模块端点匹配。,1
+V075,qwen3.8-max-dashscope,Correct,3,"Go import ""k8s.io/api/core/v1"" 可解析到仓库内存在的 staging/src/k8s.io/api/core/v1，对应目标模块 staging/src/k8s.io/api。",1
+V076,qwen3.8-max-dashscope,Correct,3,示例中的 #include <kunit/test.h> 均正确解析到仓库内唯一候选 include/kunit/test.h，依赖边成立。,1
+V077,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/rio.h> 从 drivers/rapidio 正确解析到 include/linux/rio.h，依赖端点和解析目标一致。,1
+V078,qwen3.8-max-dashscope,Correct,3,#include <trace/misc/rdma.h> 等语句真实存在，且按内核头文件规则正确解析到 include/trace 下对应文件。,1
+V079,qwen3.8-max-dashscope,Correct,3,示例中的 #include <c10/util/Exception.h> 被正确解析到项目内文件 c10/util/Exception.h，形成 caffe2/serialize 到 c10/util 的真实静态依赖。,1
+V080,qwen3.8-max-dashscope,Correct,3,from tensorflow.python.distribute import mirrored_strategy 是真实静态导入，且唯一候选解析到项目内 tensorflow/python/distribute/__init__.py，与目标模块一致。,1
+V081,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""vtkPVFileInformation.h"" 唯一候选且确实解析到 Remoting/Core/vtkPVFileInformation.h，形成 source 模块到 target 模块的有效静态依赖。",1
+V082,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与唯一候选且磁盘存在的目标文件一致，源文件属于 tensorflow/core/ops，目标文件属于 tensorflow/core/graph。,1
+V083,qwen3.8-max-dashscope,Correct,3,示例中 PlotCurve.h 的唯一候选解析到 OMPlot/OMPlot 模块内的文件，静态依赖成立。,1
+V084,qwen3.8-max-dashscope,Correct,3,示例中的 #include <net/sock.h> 等语句解析到 include/net/ 下对应头文件，符合内核项目的包含路径约定。,1
+V085,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/kernel.h> 等语句均从 net/rfkill/core.c 正确解析到项目内 include/linux 下对应头文件。,1
+V086,qwen3.8-max-dashscope,Correct,3,"示例 #include ""vtkPVRenderView.h"" 被唯一且磁盘存在的候选 Remoting/Views/vtkPVRenderView.h 正确解析。",1
+V087,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析到的项目内文件及模块完全一致。,1
+V088,qwen3.8-max-dashscope,Correct,3,Go import k8s.io/component-base/... 被正确解析到仓库内存在的 staging/src/k8s.io/component-base 目录，构成 source 模块到 target 模块的真实静态依赖。,1
+V089,qwen3.8-max-dashscope,Correct,3,示例中的 #include <SALOME_NamingService.hxx> 唯一解析到 kernel/src/NamingService/SALOME_NamingService.hxx，静态依赖和模块归属一致。,1
+V090,qwen3.8-max-dashscope,Correct,3,Go import 路径 k8s.io/apimachinery/... 被解析到仓库内存在的 staging/src/k8s.io/apimachinery 对应目录，且候选中该路径为有效目标。,1
+V091,qwen3.8-max-dashscope,Correct,3,示例 #include <asm-generic/vmlinux.lds.h> 正确解析到 include/asm-generic/vmlinux.lds.h，候选路径证实目标存在且模块匹配。,1
+V092,qwen3.8-max-dashscope,Correct,3,"include ""Loads/ListOfLoads.h"" 唯一解析到项目内 bibcxx/Loads/ListOfLoads.h，路径与模块匹配。",1
+V093,qwen3.8-max-dashscope,Wrong-resolution,2,#include <linux/*.h> 按内核约定应解析到 include/linux/*.h，而示例被解析到 include/uapi/linux/*.h。,1
+V094,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""vtkPVStringFormatter.h"" 唯一候选且磁盘存在，解析到 VTKExtensions/Core 下的对应头文件，依赖成立。",1
+V095,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""argList.H"" 唯一候选即为 src/OpenFOAM/global/argList/argList.H，且目标文件存在并属于 src 模块。",1
+V096,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与唯一候选文件完全一致，且目标文件属于 tensorflow/core/transforms 模块。,1
+V097,qwen3.8-max-dashscope,Correct,3,示例中的 #include 明确引用 tensorflow/compiler/tf2xla/shape_util.h 等头文件，且解析到同路径的项目内文件，模块归属一致。,1
+V098,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.client import ... 静态导入真实存在，且唯一候选解析到 tensorflow/python/client/__init__.py，与目标模块一致。,1
+V099,qwen3.8-max-dashscope,Correct,3,示例中 #include <uapi/linux/virtio_ids.h> 从 drivers/virtio 文件解析到 include/uapi/linux/virtio_ids.h，路径一致且文件存在。,1
+V100,qwen3.8-max-dashscope,Correct,3,bd/ferfbd.f 中 CALL GETSTB 解析到唯一候选 mds/getstb.f，Fortran 调用与目标模块匹配。,1
+V101,qwen3.8-max-dashscope,Correct,3,示例 #include 路径与唯一候选及解析目标完全一致，确实形成从 tensorflow/core/ir 到 tensorflow/compiler/mlir 的静态依赖。,1
+V102,qwen3.8-max-dashscope,Correct,3,torch/autograd/__init__.py 中真实存在 from torch.fx.experimental.symbolic_shapes import ...，且唯一候选解析到项目内 torch/fx/experimental/symbolic_shapes.py。,1
+V103,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析到的项目内文件及模块一致，静态依赖成立。,1
+V104,qwen3.8-max-dashscope,Correct,3,import k8s.io/apimachinery/pkg/util/wait 被正确解析到仓库内存在的 staging/src/k8s.io/apimachinery/pkg/util/wait，属于目标模块 staging/src/k8s.io/apimachinery。,1
+V105,qwen3.8-max-dashscope,Correct,3,kubelet.go 中 import k8s.io/kubernetes/pkg/volume 被唯一存在的项目内候选 pkg/volume 正确解析，静态依赖成立。,1
+V106,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""DataFields/ConstantFieldOnCells.h"" 唯一候选且实际解析到项目内 bibcxx/DataFields/ConstantFieldOnCells.h，依赖边成立。",1
+V107,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/...> 均真实存在且正确解析到 include/linux 下对应头文件。,1
+V108,qwen3.8-max-dashscope,Correct,3,示例 #include <GLViewer_Viewer.h> 的唯一候选解析到 gui/src/GLViewer/GLViewer_Viewer.h，静态依赖成立且模块端点一致。,1
+V109,qwen3.8-max-dashscope,Correct,3,示例中的 from torch._functorch... 导入真实存在，解析到仓库内对应文件且归属 torch/_functorch 模块。,1
+V110,qwen3.8-max-dashscope,Correct,3,arch/s390/kernel/time.c 中的 #include <vdso/vsyscall.h> 等静态包含解析到 include/vdso/ 下对应头文件，路径前缀一致且目标存在。,1
+V111,qwen3.8-max-dashscope,Correct,3,示例中的 import torch._dynamo.config 均解析到仓库内唯一存在的 torch/_dynamo/config.py，模块依赖成立。,1
+V112,qwen3.8-max-dashscope,Correct,3,示例 #include 路径与解析文件一致，均落在 tensorflow/core/framework 模块。,1
+V113,qwen3.8-max-dashscope,Correct,2,示例中的 #include 语句真实存在，且 inftrees.c 在仓库中的唯一候选即 lib/zlib_inflate/inftrees.c，解析到目标模块文件成立。,1
+V114,qwen3.8-max-dashscope,Correct,3,示例中的 #include <trace/events/sock.h> 唯一解析到仓库内 include/trace/events/sock.h，依赖成立。,1
+V115,qwen3.8-max-dashscope,Correct,3,示例中的 from torch.cuda._memory_viz import ... 静态依赖真实存在，且唯一候选解析到项目内文件 torch/cuda/_memory_viz.py，模块归属正确。,1
+V116,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""SALOME_Component_i.hxx"" 唯一候选且确实解析到 kernel/src/Container/SALOME_Component_i.hxx，依赖边成立。",1
+V117,qwen3.8-max-dashscope,Correct,3,smc91x.c 中的 #include <mach/assabet.h> 唯一解析到 arch/arm 下的 arch/arm/mach-sa1100/include/mach/assabet.h，路径前缀一致且候选路径支持该解析。,1
+V118,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析到的项目内文件路径完全一致，且文件归属的目标模块正确。,1
+V119,qwen3.8-max-dashscope,Correct,3,heartbeat.py 中的 from tensorflow.python.ops.collective_ops import all_reduce 唯一且正确地解析到项目内文件 tensorflow/python/ops/collective_ops.py。,1
+V120,qwen3.8-max-dashscope,Correct,3,示例#include <SUIT_Application.h>唯一候选解析到gui/src/SUIT/SUIT_Application.h且文件存在，构成真实静态依赖。,1
+V121,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析目标文件及所属模块完全一致，构成从 tensorflow/core/tfrt 到 tensorflow/core/graph 的真实静态依赖。,1
+V122,qwen3.8-max-dashscope,Correct,3,示例中的 #include <video/vga.h> 从 drivers/firmware 解析到 include/video/vga.h，路径前缀与目标模块一致且文件存在。,1
+V123,qwen3.8-max-dashscope,Correct,3,"Go import ""k8s.io/apiserver/pkg/authentication/user"" 真实存在，且候选中仅 staging/src/k8s.io/apiserver/pkg/authentication/user 存在并归属目标模块，解析正确。",1
+V124,qwen3.8-max-dashscope,Correct,3,"import ""k8s.io/mount-utils"" 解析到候选中唯一存在且模块匹配的 staging/src/k8s.io/mount-utils 目录，依赖成立。",1
+V125,qwen3.8-max-dashscope,Correct,3,示例 #include 真实存在，且唯一候选解析到 src/TurbulenceModels 内的磁盘文件。,1
+V126,qwen3.8-max-dashscope,Correct,3,Go import k8s.io/kubernetes/pkg/serviceaccount 可解析到仓库内真实存在的 pkg/serviceaccount 目录，且候选中其他同名路径均不存在。,1
+V127,qwen3.8-max-dashscope,Correct,3,sound/i2c/cs8427.c 中的 #include <sound/core.h> 被唯一且正确地解析到 include/sound/core.h，端点模块匹配。,1
+V128,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/*.h> 均真实存在且正确解析到项目内 include/linux 下对应头文件。,1
+V129,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.compiler.tests import xla_test 真实存在，且唯一候选解析到项目内 tensorflow/compiler/tests/__init__.py，与目标模块一致。,1
+V130,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/cdev.h> 等语句被正确解析到 include/linux 下对应头文件，构成 drivers/tee 到 include/linux 的真实静态依赖。,1
+V131,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""PVServer_ServiceWrapper.h"" 唯一解析到 gui/src/PVServerService/PVServer_ServiceWrapper.h，依赖成立。",1
+V132,qwen3.8-max-dashscope,Correct,3,VTKPlugin 中的 #include 语句解析到 geom/src/GEOMImpl 下真实存在的对应头文件，模块间静态依赖成立。,1
+V133,qwen3.8-max-dashscope,Correct,3,示例 #include 路径与解析到的项目内文件路径一致，且目标文件属于 tensorflow/compiler/mlir。,1
+V134,qwen3.8-max-dashscope,Correct,3,示例中的 from torch._higher_order_ops.out_dtype import out_dtype 被唯一且正确解析到项目内文件 torch/_higher_order_ops/out_dtype.py。,1
+V135,qwen3.8-max-dashscope,Correct,3,示例中的相对路径 #include 均指向 drivers/cxl 下头文件且解析目标一致。,1
+V136,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.ops.losses import losses 真实存在，且解析到唯一候选 tensorflow/python/ops/losses/__init__.py，归属目标模块 tensorflow/python/ops。,1
+V137,qwen3.8-max-dashscope,Correct,3,示例中的 #include <crypto/hash.h> 等静态包含解析到 include/crypto 下真实存在的头文件，依赖成立。,1
+V138,qwen3.8-max-dashscope,Correct,3,示例中的 #include 语句被唯一候选解析到 kernel/src/Utils 下实际存在的头文件，源文件属于 geom/src/GEOM，模块依赖成立。,1
+V139,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与唯一候选且磁盘存在的 tensorflow/core/util/device_name_utils.h 完全一致，模块归属正确。,1
+V140,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析到的项目内文件及模块一致，静态依赖成立。,1
+V141,qwen3.8-max-dashscope,Correct,3,示例中的 #include <sound/core.h> 正确解析到 include/sound/core.h，形成 sound/arm 到 include/sound 的静态依赖。,1
+V142,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""LinearAlgebra/AssemblyMatrix.h"" 唯一且正确地解析到 bibcxx/LinearAlgebra/AssemblyMatrix.h，依赖边成立。",1
+V143,qwen3.8-max-dashscope,Correct,3,array_ops.py 中存在 from tensorflow.python.util import _pywrap_utils，且唯一候选正确解析到 tensorflow/python/util/__init__.py。,1
+V144,qwen3.8-max-dashscope,Correct,3,#include <trace/define_trace.h> 唯一候选且磁盘存在，解析到 include/trace/define_trace.h 正确。,1
+V145,qwen3.8-max-dashscope,Correct,3,示例 #include 路径与唯一候选解析文件一致，且目标模块正确。,1
+V146,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与唯一候选且磁盘存在的目标文件完全一致，并正确归属到目标模块。,1
+V147,qwen3.8-max-dashscope,Correct,3,import 语句明确指向 torchgen.selective_build.selector，唯一候选文件存在且属于目标模块。,1
+V148,qwen3.8-max-dashscope,Correct,3,示例中的 #include <SALOME_ListIO.hxx> 唯一候选且解析到项目内存在的 gui/src/OBJECT/SALOME_ListIO.hxx，模块级依赖成立。,1
+V149,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""Utilities/CapyConvertibleValue.h"" 唯一解析到项目内存在的 bibcxx/Utilities/CapyConvertibleValue.h，形成 Interfaces 到 Utilities 的静态依赖。",1
+V150,qwen3.8-max-dashscope,Correct,3,示例中的 #include <SUIT_Tools.h> 唯一解析到项目内 gui/src/SUIT/SUIT_Tools.h，源模块与目标模块依赖成立。,1
+V151,qwen3.8-max-dashscope,Correct,3,示例中的 #include <crypto/aes.h> 等语句被正确解析到 include/crypto 下对应头文件，构成 drivers/md 到 include/crypto 的真实静态依赖。,1
+V152,qwen3.8-max-dashscope,Correct,3,net/ncsi/ncsi-aen.c 中 #include <net/ncsi.h> 正确解析到项目内 include/net/ncsi.h，形成 net/ncsi 到 include/net 的静态依赖。,1
+V153,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""vtkPVGeneralSettings.h"" 唯一候选解析到 Remoting/Settings/vtkPVGeneralSettings.h 且该文件存在，模块间静态依赖成立。",1
+V154,qwen3.8-max-dashscope,Correct,3,示例中的 from torch.utils.weak import WeakTensorKeyDictionary 是真实静态依赖，且唯一候选解析到项目内 torch/utils/weak.py，模块端点一致。,1
+V155,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""vtkPVStreamingMacros.h"" 唯一候选且确实解析到目标模块内存在的同名头文件。",1
+V156,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""SALOME_ResourcesManager.hxx"" 唯一候选且确实解析到 kernel/src/ResourcesManager/SALOME_ResourcesManager.hxx，形成源模块到目标模块的真实静态依赖。",1
+V157,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析到的文件路径完全一致，且目标文件属于 tensorflow/lite/schema 模块。,1
+V158,qwen3.8-max-dashscope,Correct,3,示例中的 #include <SalomeApp_Application.h> 唯一解析到 gui/src/SalomeApp/SalomeApp_Application.h，依赖与模块端点一致。,1
+V159,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""UtilsTest.hxx"" 唯一候选且磁盘存在，解析到 kernel/src/Utils 下的文件，模块级依赖成立。",1
+V160,qwen3.8-max-dashscope,Correct,3,include 路径与唯一候选解析目标一致且文件存在，模块归属正确,1
+V161,qwen3.8-max-dashscope,Correct,3,示例中的 #include 语句均解析到 Remoting/Views 下磁盘存在的头文件，构成真实的模块间静态依赖。,1
+V162,qwen3.8-max-dashscope,Correct,3,示例中的 from torch._refs import ... 静态导入真实存在，且解析到磁盘文件 torch/_refs/__init__.py，目标模块匹配。,1
+V163,qwen3.8-max-dashscope,Correct,3,示例中的 #include <crypto/public_key.h> 被唯一解析到磁盘存在的 include/crypto/public_key.h，模块归属一致。,1
+V164,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""aster_mpi.h"" 唯一候选且磁盘存在为 bibc/include/aster_mpi.h，解析目标与模块一致。",1
+V165,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.framework import dtypes 位于 tensorflow/python/compiler 下，且唯一候选解析到项目内 tensorflow/python/framework/__init__.py。,1
+V166,qwen3.8-max-dashscope,Correct,3,"#include ""../zlib_inflate/inflate.h"" 从 lib/zlib_dfltcc 可正确解析到项目内 lib/zlib_inflate/inflate.h。",1
+V167,qwen3.8-max-dashscope,Correct,3,示例中的 #include <SALOME_InteractiveObject.hxx> 唯一候选且确实解析到 gui/src/OBJECT 下的磁盘文件，依赖成立。,1
+V168,qwen3.8-max-dashscope,Correct,3,示例import的Java全限定名与解析到的spring-web文件路径一致，构成真实静态依赖。,1
+V169,qwen3.8-max-dashscope,Correct,3,示例中的 import torch.nn.functional 和 import torch.nn 均静态存在，且正确解析到项目内 torch/nn 下的文件。,1
+V170,qwen3.8-max-dashscope,Correct,3,示例中 Plugins/Prism 文件包含 vtkPVSession.h，唯一候选解析到项目内 Remoting/Core/vtkPVSession.h，模块依赖成立。,1
+V171,qwen3.8-max-dashscope,Correct,3,torch/_subclasses/fake_impls.py 中静态导入 torch.utils._stats，且唯一候选解析到项目内存在的 torch/utils/_stats.py。,1
+V172,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""MEDCouplingMemArray.hxx"" 唯一候选文件位于目标模块 medcoupling/src/MEDCoupling，解析正确且构成静态依赖。",1
+V173,qwen3.8-max-dashscope,Correct,3,drivers/nubus/bus.c 中的 #include <linux/device.h> 等语句解析到 include/linux 下对应头文件，符合内核 <linux/*.h> 到 include/linux/*.h 的解析规则。,1
+V174,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""DriverUNV_R_SMDS_Mesh.h"" 真实存在，候选唯一且解析到 smesh/src/DriverUNV/DriverUNV_R_SMDS_Mesh.h，模块归属正确。",1
+V175,qwen3.8-max-dashscope,Correct,3,示例中的 #include <STD_TabDesktop.h> 唯一候选解析到 gui/src/STD/STD_TabDesktop.h，文件存在且模块端点一致。,1
+V176,qwen3.8-max-dashscope,Correct,3,示例 #include 语句唯一候选解析到 kernel/src/Launcher 下实际存在的头文件，模块间依赖成立。,1
+V177,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""vtkPVGeneralSettings.h"" 唯一候选且确实解析到 Remoting/Settings/vtkPVGeneralSettings.h，依赖成立。",1
+V178,qwen3.8-max-dashscope,Correct,3,示例中的 #include <soc/qcom/rpmh.h> 正确解析到项目内 include/soc/qcom/rpmh.h，构成 drivers/interconnect 到 include/soc 的静态依赖。,1
+V179,qwen3.8-max-dashscope,Correct,3,net/802 中的 #include <net/arp.h> 正确解析到项目内 include/net/arp.h，示例链接成立。,1
+V180,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""Utilities/Tools.h"" 唯一解析到仓库内存在的 bibcxx/Utilities/Tools.h，源文件属于 bibcxx/Discretization，目标模块正确。",1
+V181,qwen3.8-max-dashscope,Correct,3,示例中的 #include 路径与解析到的 tensorflow/lite/async 头文件路径完全一致，且文件在磁盘上存在。,1
+V182,qwen3.8-max-dashscope,Correct,3,相对包含 ../hv/hyperv_vmbus.h 从 drivers/uio 正确解析到 drivers/hv/hyperv_vmbus.h。,1
+V183,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.feature_column import ... 明确依赖该包，且唯一候选解析到 tensorflow/python/feature_column/__init__.py。,1
+V184,qwen3.8-max-dashscope,Correct,3,示例中的 #include <scsi/scsi_cmnd.h> 从 drivers/infiniband 文件解析到项目内 include/scsi/scsi_cmnd.h，路径前缀一致且目标文件存在。,1
+V185,qwen3.8-max-dashscope,Correct,3,"示例中的 #include ""Materials/MaterialField.h"" 唯一候选解析到项目内存在的 bibcxx/Materials/MaterialField.h，模块端点匹配。",1
+V186,qwen3.8-max-dashscope,Correct,3,"示例 #include ""fft.H"" 唯一候选解析到项目内 src/randomProcesses/fft/fft.H 且文件存在，模块归属一致。",1
+V187,qwen3.8-max-dashscope,Correct,3,from tensorflow.python.framework import dtypes 是真实静态导入，且唯一候选解析到项目内对应包的 __init__.py。,1
+V188,qwen3.8-max-dashscope,Correct,3,import org.springframework.oxm.Marshaller 与唯一候选且磁盘存在的 spring-oxm/.../Marshaller.java 全限定名一致，模块间依赖成立。,1
+V189,qwen3.8-max-dashscope,Correct,3,include 路径与唯一候选文件及解析模块完全一致，依赖成立。,1
+V190,qwen3.8-max-dashscope,Correct,3,fs/udf/udfdecl.h 中的 #include <linux/udf_fs_i.h> 唯一候选且实际解析到仓库内 include/uapi/linux/udf_fs_i.h，静态依赖成立。,1
+V191,qwen3.8-max-dashscope,Correct,3,示例中的 #include <LightApp_SelectionMgr.h> 唯一候选且确实解析到项目内存在的 gui/src/LightApp/LightApp_SelectionMgr.h。,1
+V192,qwen3.8-max-dashscope,Correct,3,torch/distributed/_functional_collectives.py 中 from torch.compiler import ... 静态导入唯一候选且磁盘存在的 torch/compiler/__init__.py，解析目标正确。,1
+V193,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.platform import googletest 确实静态依赖项目内模块，且唯一候选解析到 tensorflow/python/platform/__init__.py 正确。,1
+V194,qwen3.8-max-dashscope,Correct,3,#include <trace/define_trace.h> 唯一且正确解析到磁盘存在的 include/trace/define_trace.h，模块依赖成立。,1
+V195,qwen3.8-max-dashscope,Correct,3,示例中的 #include <linux/*.h> 均正确解析到 include/linux 下对应头文件，构成 net/nsh 到 include/linux 的真实静态依赖。,1
+V196,qwen3.8-max-dashscope,Correct,3,示例中的 #include <GEOMBase.h> 唯一解析到项目内 geom/src/GEOMBase/GEOMBase.h，形成源模块到目标模块的静态依赖。,1
+V197,qwen3.8-max-dashscope,Correct,3,torch/autograd/profiler_util.py 中真实存在 from torch.profiler import ...，且唯一候选解析到项目内的 torch/profiler/__init__.py，模块归属一致。,1
+V198,qwen3.8-max-dashscope,Correct,3,示例中的 from tensorflow.python.data.experimental.service import server_lib 唯一解析到项目内 tensorflow/python/data/experimental/service/__init__.py，且该文件归属目标模块，依赖成立。,1
+V199,qwen3.8-max-dashscope,Correct,3,drivers/of/address.c 中的 #include <kunit/visibility.h> 确实解析到仓库内 include/kunit/visibility.h，路径前缀与目标模块一致。,1
+V200,qwen3.8-max-dashscope,Correct,3,示例中的 #include <Utils_SINGLETON.hxx> 唯一候选且解析到项目内 kernel/src/Utils/Utils_SINGLETON.hxx，支撑该模块依赖。,1

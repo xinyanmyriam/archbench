@@ -1,0 +1,3421 @@
+{
+ "accuracy": 0.26,
+ "correct": 52,
+ "total": 200,
+ "n_with_snippet": 200,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 265148,
+  "completion_tokens": 18727,
+  "total_tokens": 283875
+ },
+ "results": [
+  {
+   "file": "dir_62c2/dir_6b39/dir_b775/file_81b6.cxx",
+   "file_original": "Plugins/CDIReader/Reader/cdi_tools.cxx",
+   "label": "module_bd4416",
+   "label_original": "Plugins/CDIReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_aab53b",
+   "correct": false,
+   "raw_response": "I can't map any of these anonymized module names to real ParaView modules, so this is a guess.\n\nWhat the code does show: `cdi_tools.cxx` belongs to the CDI reader in ParaView (`Plugins/CDIReader`, `vtkCDIReader`). The file path is three directories deep, which fits `Plugins/CDIReader/Reader/cdi_tools.cxx`. That would make the module the CDI reader plugin's module. Nothing in the code or the obfuscated names tells me which letter corresponds to it.\n\nA",
+   "usage": {
+    "prompt_tokens": 1443,
+    "completion_tokens": 178,
+    "total_tokens": 1621
+   },
+   "latency_ms": 5862.0
+  },
+  {
+   "file": "dir_fda7/dir_8388/file_6c46.cxx",
+   "file_original": "Adaptors/CatalystTestDriver/vtkCPScalarFieldFunction.cxx",
+   "label": "module_b003f3",
+   "label_original": "Adaptors/CatalystTestDriver",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_395e0b",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. `vtkCPScalarFieldFunction` is part of ParaView's Catalyst test driver (Python/C++ CoProcessing test driver), but the four candidate modules are given only as obfuscated names with no descriptions or file listings. Nothing in the source links any one of them to that component, so any letter I pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 122,
+    "total_tokens": 615
+   },
+   "latency_ms": 5196.0
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_50d3/dir_e62a/file_4255.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/nv/index/iregular_heightfield_rendering_properties.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e8e07b",
+   "correct": false,
+   "raw_response": "I can't determine this from the code: the candidate module names are anonymized and no descriptions were given for them. The file itself is an NVIDIA IndeX SDK header (`nv/index/iregular_heightfield_rendering_properties.h`). In ParaView, such headers belong to the pvNVIDIAIndeX plugin, typically its bundled IndeX include directory. Without a mapping from that plugin to one of the four options, my answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 151,
+    "total_tokens": 1330
+   },
+   "latency_ms": 5184.6
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_e127.cxx",
+   "file_original": "Qt/ApplicationComponents/pqProxyGroupMenuManager.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_039ae2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1454,
+    "completion_tokens": 95,
+    "total_tokens": 1549
+   },
+   "latency_ms": 5234.0
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_50d3/dir_e62a/file_702b.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/nv/index/iviewport.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_aab53b",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1807,
+    "completion_tokens": 3,
+    "total_tokens": 1810
+   },
+   "latency_ms": 2427.1
+  },
+  {
+   "file": "dir_620b/dir_b19d/file_db98.cxx",
+   "file_original": "VTKExtensions/Extraction/vtkPConvertSelection.cxx",
+   "label": "module_bee1e4",
+   "label_original": "VTKExtensions/Extraction",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7edde4",
+   "correct": false,
+   "raw_response": "I can't verify which obfuscated module ID maps to which ParaView module, so this is a guess.\n\nThe file is `vtkPConvertSelection.cxx`. In ParaView it lives in `VTKExtensions/Extraction` (module VTKExtensionsExtraction), alongside `vtkPVExtractSelection`, which it includes. Nothing in the code points to a particular candidate ID, so the letter below is arbitrary.\n\nA",
+   "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 146,
+    "total_tokens": 1884
+   },
+   "latency_ms": 4892.4
+  },
+  {
+   "file": "dir_62c2/dir_9a61/dir_b35c/file_9894.cxx",
+   "file_original": "Plugins/Prism/Views/vtkPrismGeometryRepresentation.cxx",
+   "label": "module_264039",
+   "label_original": "Plugins/Prism",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_58f3a8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1655,
+    "completion_tokens": 3,
+    "total_tokens": 1658
+   },
+   "latency_ms": 3442.4
+  },
+  {
+   "file": "dir_620b/dir_3a75/file_4b4b.h",
+   "file_original": "VTKExtensions/CosmoTools/vtkPGenericIOMultiBlockWriter.h",
+   "label": "module_144930",
+   "label_original": "VTKExtensions/CosmoTools",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_144930",
+   "correct": true,
+   "raw_response": "I can't determine this with confidence. The file includes \"vtkPVVTKExtensionsCosmoToolsModule.h\", so it belongs to the VTK::PVVTKExtensionsCosmoTools module. However, the candidate module names are anonymized, and nothing given links that module to one of them. This answer is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 895,
+    "completion_tokens": 112,
+    "total_tokens": 1007
+   },
+   "latency_ms": 3467.9
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_6d59.h",
+   "file_original": "Qt/ApplicationComponents/pqCustomViewpointsToolbar.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_58f3a8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 53,
+    "total_tokens": 1389
+   },
+   "latency_ms": 3049.1
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_324c.cxx",
+   "file_original": "Qt/ApplicationComponents/pqMoleculePropertyWidget.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4f2a08",
+   "correct": true,
+   "raw_response": "I can't infer this from the module names, since they are anonymized and I have no mapping for them. The best inference is that pqMoleculePropertyWidget lives in Qt/ApplicationComponents in ParaView, but I can't tell which letter corresponds to that module, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2615,
+    "completion_tokens": 98,
+    "total_tokens": 2713
+   },
+   "latency_ms": 4052.1
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_fc12.cxx",
+   "file_original": "Qt/ApplicationComponents/pqUndoRedoBehavior.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_075b89",
+   "correct": false,
+   "raw_response": "I can't identify the anonymized module names from the code itself. pqUndoRedoBehavior belongs to ParaView's Qt/ApplicationComponents module, but nothing maps that to one of the four obfuscated IDs. This answer is a guess with no supporting evidence.\n\nA",
+   "usage": {
+    "prompt_tokens": 963,
+    "completion_tokens": 94,
+    "total_tokens": 1057
+   },
+   "latency_ms": 3534.2
+  },
+  {
+   "file": "dir_62c2/dir_8be0/dir_a0d9/file_efab.h",
+   "file_original": "Plugins/Moments/Filters/vtkMomentVectors.h",
+   "label": "module_9a0202",
+   "label_original": "Plugins/Moments",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_061123",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1562,
+    "completion_tokens": 92,
+    "total_tokens": 1654
+   },
+   "latency_ms": 3343.1
+  },
+  {
+   "file": "dir_0ce0/dir_a362/file_adc8.cxx",
+   "file_original": "Qt/Widgets/pqSectionVisibilityContextMenu.cxx",
+   "label": "module_492cbe",
+   "label_original": "Qt/Widgets",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1cc04b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1032,
+    "completion_tokens": 91,
+    "total_tokens": 1123
+   },
+   "latency_ms": 3331.3
+  },
+  {
+   "file": "dir_620b/dir_3767/file_52f7.cxx",
+   "file_original": "VTKExtensions/AMR/vtkPVAMRDualClip.cxx",
+   "label": "module_80a31b",
+   "label_original": "VTKExtensions/AMR",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6b4031",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1583,
+    "completion_tokens": 102,
+    "total_tokens": 1685
+   },
+   "latency_ms": 5593.6
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_1c2e.h",
+   "file_original": "Qt/Core/pqFileUtilitiesEventPlayer.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 753,
+    "completion_tokens": 55,
+    "total_tokens": 808
+   },
+   "latency_ms": 4288.1
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8/file_bc89.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/mi/neuraylib/ihost_callback.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_59b40e",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1725,
+    "completion_tokens": 3,
+    "total_tokens": 1728
+   },
+   "latency_ms": 2220.2
+  },
+  {
+   "file": "dir_62c2/dir_0f4d/dir_b0dc/file_1ebe.cxx",
+   "file_original": "Plugins/ONNX/Parameters/pqONNXInputParameter.cxx",
+   "label": "module_ded248",
+   "label_original": "Plugins/ONNX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_66a1f8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 446,
+    "completion_tokens": 77,
+    "total_tokens": 523
+   },
+   "latency_ms": 3339.1
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_7682.h",
+   "file_original": "Qt/Components/pqOutputPortComboBox.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e4bc46",
+   "correct": false,
+   "raw_response": "I can't determine this from the information given. The file is clearly part of ParaView's Qt Components library: it includes `pqComponentsModule.h` and uses the `PQCOMPONENTS_EXPORT` macro, which places it under `Qt/Components`. However, the candidate modules come with no descriptions or sample files, so I can't tell which anonymized name corresponds to pqComponents. The letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1301,
+    "completion_tokens": 177,
+    "total_tokens": 1478
+   },
+   "latency_ms": 5128.5
+  },
+  {
+   "file": "dir_681c/dir_3efe/file_2758.h",
+   "file_original": "Remoting/Core/vtkDisplayConfiguration.h",
+   "label": "module_758e5c",
+   "label_original": "Remoting/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_758e5c",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 47,
+    "total_tokens": 1413
+   },
+   "latency_ms": 3233.6
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_d13a.cxx",
+   "file_original": "Remoting/Views/vtkSelectionRepresentation.cxx",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_42dd99",
+   "correct": true,
+   "raw_response": "I can't determine this from the code alone, because the candidate module names are anonymized and none of their contents are shown.\n\nThe code itself points to ParaView's `Remoting/Views` module (VTK::RemotingViews). `vtkSelectionRepresentation`, `vtkGeometryRepresentation`, `vtkDataLabelRepresentation` and `vtkPVView` all live there. Which letter maps to that module is unknown, so the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1966,
+    "completion_tokens": 154,
+    "total_tokens": 2120
+   },
+   "latency_ms": 4917.5
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_22fb.cxx",
+   "file_original": "Qt/ApplicationComponents/pqApplyBehavior.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_862862",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2006,
+    "completion_tokens": 88,
+    "total_tokens": 2094
+   },
+   "latency_ms": 3402.0
+  },
+  {
+   "file": "dir_0ce0/dir_a362/file_4396.cxx",
+   "file_original": "Qt/Widgets/pqTableView.cxx",
+   "label": "module_492cbe",
+   "label_original": "Qt/Widgets",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f7a0c8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1556,
+    "completion_tokens": 84,
+    "total_tokens": 1640
+   },
+   "latency_ms": 3568.7
+  },
+  {
+   "file": "dir_681c/dir_6a9d/file_9751.cxx",
+   "file_original": "Remoting/Export/vtkSMRenderViewExporterProxy.cxx",
+   "label": "module_b58ece",
+   "label_original": "Remoting/Export",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a867fc",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1825,
+    "completion_tokens": 3,
+    "total_tokens": 1828
+   },
+   "latency_ms": 2402.5
+  },
+  {
+   "file": "dir_620b/dir_53f2/file_c254.h",
+   "file_original": "VTKExtensions/IOGeneral/vtkPhastaReader.h",
+   "label": "module_862862",
+   "label_original": "VTKExtensions/IOGeneral",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8dd4d4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1852,
+    "completion_tokens": 78,
+    "total_tokens": 1930
+   },
+   "latency_ms": 3794.9
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_d79a.h",
+   "file_original": "Remoting/Views/vtkOutlineRepresentation.h",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61eb4c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 911,
+    "completion_tokens": 55,
+    "total_tokens": 966
+   },
+   "latency_ms": 3373.3
+  },
+  {
+   "file": "dir_620b/dir_6de0/file_1325.h",
+   "file_original": "VTKExtensions/FiltersRendering/vtkAllToNRedistributeCompositePolyData.h",
+   "label": "module_61e869",
+   "label_original": "VTKExtensions/FiltersRendering",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bd4416",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 60,
+    "total_tokens": 1256
+   },
+   "latency_ms": 3476.5
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_a050.h",
+   "file_original": "Qt/Components/pqDialog.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_22bad0",
+   "correct": true,
+   "raw_response": "I can't determine the answer from the code alone. The file includes \"pqComponentsModule.h\" and uses PQCOMPONENTS_EXPORT, so it belongs to ParaView's pqComponents module (Qt/Components). However, I have no mapping from the obfuscated module names to real modules. Any choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 110,
+    "total_tokens": 1162
+   },
+   "latency_ms": 3279.0
+  },
+  {
+   "file": "dir_62c2/dir_34df/dir_89fe/file_c8d5.h",
+   "file_original": "Plugins/EmbossingRepresentations/Representations/vtkExtrusionRepresentation.h",
+   "label": "module_db0705",
+   "label_original": "Plugins/EmbossingRepresentations",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_888a37",
+   "correct": false,
+   "raw_response": "Cannot determine from names alone; the file belongs to the EmbossingRepresentations module (the plugin's Representations module), but the candidate names are fully obfuscated, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 66,
+    "total_tokens": 1293
+   },
+   "latency_ms": 3336.3
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_156d.h",
+   "file_original": "Qt/Components/pqSearchBox.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2e7904",
+   "correct": false,
+   "raw_response": "I can't tell which module this is. The file uses PQCOMPONENTS_EXPORT, so it belongs to ParaView's pqComponents module (Qt/Components). However, the candidate names are anonymized and nothing links any of them to pqComponents, so any choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1626,
+    "completion_tokens": 96,
+    "total_tokens": 1722
+   },
+   "latency_ms": 3639.1
+  },
+  {
+   "file": "dir_c125/dir_dff4/file_7d64.cxx",
+   "file_original": "Utilities/PythonInitializer/vtkPVPythonInitializer.cxx",
+   "label": "module_fc4c54",
+   "label_original": "Utilities/PythonInitializer",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc4c54",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 526,
+    "completion_tokens": 51,
+    "total_tokens": 577
+   },
+   "latency_ms": 2936.7
+  },
+  {
+   "file": "dir_62c2/dir_fb4c/file_7dda.h",
+   "file_original": "Plugins/BivariateRepresentations/pqBivariateManager.h",
+   "label": "module_3befd2",
+   "label_original": "Plugins/BivariateRepresentations",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_66a1f8",
+   "correct": false,
+   "raw_response": "There is not enough information to determine the answer. The file is pqBivariateManager.h, an autoload class from ParaView's BivariateRepresentations plugin (likely its pqBivariateRepresentations module). The candidate modules are anonymized and come with no descriptions, so nothing links any letter to that plugin. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 111,
+    "total_tokens": 1037
+   },
+   "latency_ms": 3873.1
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_f9aa.cxx",
+   "file_original": "Qt/Core/pqLinkedObjectQTextEdit.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 892,
+    "completion_tokens": 251,
+    "total_tokens": 1143
+   },
+   "latency_ms": 5678.5
+  },
+  {
+   "file": "dir_d4ae/dir_6476/file_807a.cxx",
+   "file_original": "Clients/CommandLineExecutables/pvserver.cxx",
+   "label": "module_a8acd1",
+   "label_original": "Clients/CommandLineExecutables",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0188b8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 535,
+    "completion_tokens": 61,
+    "total_tokens": 596
+   },
+   "latency_ms": 3230.3
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_6df2.h",
+   "file_original": "Qt/Core/pqSettings.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0f43bf",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 64,
+    "total_tokens": 1338
+   },
+   "latency_ms": 3248.3
+  },
+  {
+   "file": "dir_62c2/dir_2a41/dir_e885/dir_e467/dir_a308/file_6a6b.cxx",
+   "file_original": "Plugins/GenericIOReader/Readers/LANL/GIO/GenericIO.cxx",
+   "label": "module_790709",
+   "label_original": "Plugins/GenericIOReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1cc04b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1636,
+    "completion_tokens": 3,
+    "total_tokens": 1639
+   },
+   "latency_ms": 2180.1
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_22c2.h",
+   "file_original": "Qt/ApplicationComponents/pqSeriesEditorPropertyWidget.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a1cf1f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1914,
+    "completion_tokens": 47,
+    "total_tokens": 1961
+   },
+   "latency_ms": 3923.7
+  },
+  {
+   "file": "dir_681c/dir_e077/file_b450.h",
+   "file_original": "Remoting/ServerManager/vtkPVProxyDefinitionIterator.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_97e6b9",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 53,
+    "total_tokens": 1451
+   },
+   "latency_ms": 3303.4
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_c3a3.cxx",
+   "file_original": "Qt/Core/pqFileDialogModel.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bdf821",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1460,
+    "completion_tokens": 3,
+    "total_tokens": 1463
+   },
+   "latency_ms": 2247.5
+  },
+  {
+   "file": "dir_681c/dir_e077/file_dec0.h",
+   "file_original": "Remoting/ServerManager/vtkPVCatalystChannelInformation.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e4bc46",
+   "correct": false,
+   "raw_response": "Cannot determine mapping reliably.\n\nA",
+   "usage": {
+    "prompt_tokens": 1016,
+    "completion_tokens": 17,
+    "total_tokens": 1033
+   },
+   "latency_ms": 2666.4
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_50c7.h",
+   "file_original": "Qt/Components/pqSignalAdaptorSelectionTreeWidget.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_22bad0",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 43,
+    "total_tokens": 1559
+   },
+   "latency_ms": 2981.0
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_4fe4.cxx",
+   "file_original": "Remoting/Views/vtkSMColorMapEditorHelper.cxx",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d5ffb7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1727,
+    "completion_tokens": 60,
+    "total_tokens": 1787
+   },
+   "latency_ms": 3032.9
+  },
+  {
+   "file": "dir_681c/dir_e077/file_783e.h",
+   "file_original": "Remoting/ServerManager/vtkSMSessionProxyManager.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_790709",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1821,
+    "completion_tokens": 78,
+    "total_tokens": 1899
+   },
+   "latency_ms": 3586.5
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_0a48.cxx",
+   "file_original": "Qt/Core/pqApplicationCore.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1596,
+    "completion_tokens": 49,
+    "total_tokens": 1645
+   },
+   "latency_ms": 2917.5
+  },
+  {
+   "file": "dir_62c2/dir_226f/file_5fd5.h",
+   "file_original": "Plugins/LagrangianParticleTracker/pqIntegrationModelSeedHelperWidget.h",
+   "label": "module_a61706",
+   "label_original": "Plugins/LagrangianParticleTracker",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_039ae2",
+   "correct": false,
+   "raw_response": "I can't tell which letter this is from the code. The file is clearly part of ParaView's LagrangianParticleTracker plugin, which holds the `pqIntegrationModel*HelperWidget` classes. But the candidate module names are anonymized, and nothing in the code links one of them to that plugin. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 109,
+    "total_tokens": 1085
+   },
+   "latency_ms": 4070.0
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_8028.cxx",
+   "file_original": "Qt/Components/pqSingleLogViewerWidget.cxx",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c3002f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1018,
+    "completion_tokens": 59,
+    "total_tokens": 1077
+   },
+   "latency_ms": 2964.4
+  },
+  {
+   "file": "dir_d4ae/dir_e725/file_fd24.h",
+   "file_original": "Clients/InSitu/vtkInSituPipelinePython.h",
+   "label": "module_65dd6a",
+   "label_original": "Clients/InSitu",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_65dd6a",
+   "correct": true,
+   "raw_response": "There's no way to tell from the code which anonymized name stands for the VTKPVINSITU module. The file's export macro, `VTKPVINSITU_EXPORT`, identifies it as part of ParaView's in situ module (Remoting/... or Catalyst/InSitu, i.e. `ParaView::InSitu`). The candidate module names are anonymized, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 130,
+    "total_tokens": 1328
+   },
+   "latency_ms": 4930.4
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_34a3.h",
+   "file_original": "Qt/ApplicationComponents/pqTimelineWidget.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4f2a08",
+   "correct": true,
+   "raw_response": "I can't map this to a letter with any confidence. The code clearly belongs to ParaView's pqApplicationComponents module: it includes \"pqApplicationComponentsModule.h\" and uses the PQAPPLICATIONCOMPONENTS_EXPORT macro. But the candidate names (module_4f2a08 and the rest) are anonymized, and nothing in the prompt links any of them to ApplicationComponents, so any letter would be a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 153,
+    "total_tokens": 1516
+   },
+   "latency_ms": 4232.0
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8/file_fd1d.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/mi/neuraylib/icluster_manager_configuration.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_101b26",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1764,
+    "completion_tokens": 3,
+    "total_tokens": 1767
+   },
+   "latency_ms": 3560.5
+  },
+  {
+   "file": "dir_620b/dir_6ef4/file_4dba.h",
+   "file_original": "VTKExtensions/FiltersParallel/vtkPVRemoveGhosts.h",
+   "label": "module_4747f1",
+   "label_original": "VTKExtensions/FiltersParallel",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1c1bec",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 907,
+    "completion_tokens": 46,
+    "total_tokens": 953
+   },
+   "latency_ms": 2911.4
+  },
+  {
+   "file": "dir_681c/dir_e077/file_5324.cxx",
+   "file_original": "Remoting/ServerManager/vtkSMMultiplexerInputDomain.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a45d90",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 767,
+    "completion_tokens": 185,
+    "total_tokens": 952
+   },
+   "latency_ms": 4909.8
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_e625.cxx",
+   "file_original": "Qt/Core/pqSignalsBlocker.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fe5734",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 357,
+    "completion_tokens": 107,
+    "total_tokens": 464
+   },
+   "latency_ms": 3622.5
+  },
+  {
+   "file": "dir_620b/dir_a9b7/file_57e3.h",
+   "file_original": "VTKExtensions/IOExodus/vtkExodusFileSeriesReader.h",
+   "label": "module_e4bc46",
+   "label_original": "VTKExtensions/IOExodus",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_790709",
+   "correct": false,
+   "raw_response": "I can't tell which letter maps to the right module, so this answer is a guess. The file includes \"vtkPVVTKExtensionsIOExodusModule.h\", which places it in the VTKExtensions/IOExodus module (VTK::PVVTKExtensionsIOExodus). The candidate names are anonymized and nothing links any of them to that module.\n\nA",
+   "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 118,
+    "total_tokens": 1192
+   },
+   "latency_ms": 3926.7
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_c22b.cxx",
+   "file_original": "Remoting/Views/vtkPVMaterialLibrary.cxx",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a59bf9",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1531,
+    "completion_tokens": 60,
+    "total_tokens": 1591
+   },
+   "latency_ms": 3351.3
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_f218.h",
+   "file_original": "Qt/Components/pqFavoritesTreeWidget.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_22bad0",
+   "correct": true,
+   "raw_response": "I can't name the module from the anonymized identifiers alone. The file includes \"pqComponentsModule.h\" and uses the PQCOMPONENTS_EXPORT macro, so it belongs to ParaView's pqComponents module (Qt/Components). The candidate list gives me no information that links a specific anonymized module ID to pqComponents, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 768,
+    "completion_tokens": 126,
+    "total_tokens": 894
+   },
+   "latency_ms": 5383.0
+  },
+  {
+   "file": "dir_62c2/dir_ab05/dir_a0d9/dir_fffe/dir_e931/file_f906.cpp",
+   "file_original": "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_geodesic/GW_GeodesicPoint.cpp",
+   "label": "module_c09ec8",
+   "label_original": "Plugins/GeodesicMeasurement",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c09ec8",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 999,
+    "completion_tokens": 95,
+    "total_tokens": 1094
+   },
+   "latency_ms": 3833.3
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_41c5.cxx",
+   "file_original": "Qt/Core/pqLinksModel.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_09ce1b",
+   "correct": false,
+   "raw_response": "Without module descriptions, I can't map with certainty. pqLinksModel lives in Qt/Core (pqCore), but the obfuscated names give no clue which candidate that is, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1705,
+    "completion_tokens": 69,
+    "total_tokens": 1774
+   },
+   "latency_ms": 4407.0
+  },
+  {
+   "file": "dir_620b/dir_54a0/file_c4b4.cxx",
+   "file_original": "VTKExtensions/InteractionStyle/vtkPVTrackballEnvironmentRotate.cxx",
+   "label": "module_061123",
+   "label_original": "VTKExtensions/InteractionStyle",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_061123",
+   "correct": true,
+   "raw_response": "I can't map the anonymized module IDs to real module names, so this is a guess. The file is vtkPVTrackballEnvironmentRotate, which in ParaView lives in the Remoting/Views area (VTK::RemotingViews), alongside the other camera manipulators such as vtkPVTrackballRotate. Nothing in the candidate labels points to one option over another, so the letter below is not well grounded.\n\nA",
+   "usage": {
+    "prompt_tokens": 1428,
+    "completion_tokens": 137,
+    "total_tokens": 1565
+   },
+   "latency_ms": 4695.4
+  },
+  {
+   "file": "dir_62c2/dir_e018/dir_7cc0/file_5c5b.h",
+   "file_original": "Plugins/GmshIO/IO/vtkGmshReader.h",
+   "label": "module_66a1f8",
+   "label_original": "Plugins/GmshIO",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_66a1f8",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1521,
+    "completion_tokens": 3,
+    "total_tokens": 1524
+   },
+   "latency_ms": 2329.8
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_0b16.h",
+   "file_original": "Qt/ApplicationComponents/pqCollaborationBehavior.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4f2a08",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 65,
+    "total_tokens": 699
+   },
+   "latency_ms": 3313.4
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_fbe4.cxx",
+   "file_original": "Qt/Core/pqLinkedObjectInterface.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": true,
+   "raw_response": "**A**\n\nThis is a guess. The file includes `pqLinkedObjectInterface.h`, which places it in ParaView's Qt layer, probably the Qt Components area. However, the four candidate module names are anonymized and nothing else in the snippet distinguishes them, so I cannot reliably map that to one letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 290,
+    "total_tokens": 635
+   },
+   "latency_ms": 6306.8
+  },
+  {
+   "file": "dir_681c/dir_e077/file_f2d9.h",
+   "file_original": "Remoting/ServerManager/vtkSITimeLabelProperty.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1d319c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 740,
+    "completion_tokens": 48,
+    "total_tokens": 788
+   },
+   "latency_ms": 2913.5
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_6cae.h",
+   "file_original": "Qt/Components/pqServerConnectDialog.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f97662",
+   "correct": false,
+   "raw_response": "I can't tell from the code which obfuscated module name corresponds to pqComponents. The file includes \"pqComponentsModule.h\" and uses PQCOMPONENTS_EXPORT, so it belongs to ParaView's pqComponents module (Qt/Components). The candidate labels are hashed, and nothing in the snippet links any of them to pqComponents. Any letter I pick is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 138,
+    "total_tokens": 1443
+   },
+   "latency_ms": 4085.5
+  },
+  {
+   "file": "dir_681c/dir_552f/file_37f1.cxx",
+   "file_original": "Remoting/Application/vtkPVStandardPaths.cxx",
+   "label": "module_c89d9c",
+   "label_original": "Remoting/Application",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b58ece",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1623,
+    "completion_tokens": 331,
+    "total_tokens": 1954
+   },
+   "latency_ms": 6772.6
+  },
+  {
+   "file": "dir_62c2/dir_2a41/dir_e885/dir_e467/dir_9cf6/file_82c4.h",
+   "file_original": "Plugins/GenericIOReader/Readers/LANL/utils/octree.h",
+   "label": "module_790709",
+   "label_original": "Plugins/GenericIOReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_790709",
+   "correct": true,
+   "raw_response": "I have no way to map the candidate module names to their contents, so this answer is a guess. The file is GIO_PV octree code from the GenericIO reader plugin (Plugins/GenericIOReader/Readers/LANL/GIO/PV/...). Nothing in the code or path tells me which anonymized label corresponds to that plugin.\n\nA",
+   "usage": {
+    "prompt_tokens": 1868,
+    "completion_tokens": 113,
+    "total_tokens": 1981
+   },
+   "latency_ms": 3989.1
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_75ff.cxx",
+   "file_original": "Qt/Components/pqScalarSetModel.cxx",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_cc39ce",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 3,
+    "total_tokens": 1292
+   },
+   "latency_ms": 2283.4
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_bd15.h",
+   "file_original": "Qt/ApplicationComponents/pqScalarBarVisibilityReaction.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9a0202",
+   "correct": false,
+   "raw_response": "Without information mapping the module names to their contents, there's no real basis to tell them apart; this is a guess. The file is pqScalarBarVisibilityReaction.h, which uses the PQAPPLICATIONCOMPONENTS_EXPORT macro, so it belongs to the pqApplicationComponents module (Qt/ApplicationComponents). Any of the four candidates could be that module.\n\nA",
+   "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 133,
+    "total_tokens": 1456
+   },
+   "latency_ms": 3770.1
+  },
+  {
+   "file": "dir_620b/dir_3767/file_24ee.h",
+   "file_original": "VTKExtensions/AMR/vtkAMRDualGridHelper.h",
+   "label": "module_80a31b",
+   "label_original": "VTKExtensions/AMR",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_80a31b",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code alone. The file includes `vtkPVVTKExtensionsAMRModule.h` and uses the `VTKPVVTKEXTENSIONSAMR_EXPORT` macro, so it belongs to the VTK::PVVTKExtensionsAMR module. However, the four candidate names are anonymized, and nothing in the prompt says which of them is that module. Any letter I pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1879,
+    "completion_tokens": 146,
+    "total_tokens": 2025
+   },
+   "latency_ms": 3996.5
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_97d5.h",
+   "file_original": "Qt/Components/pqAnimationTrackEditor.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03cf1a",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code. The file includes pqComponentsModule.h and uses PQCOMPONENTS_EXPORT, so it belongs to ParaView's Qt/Components module. But I have no information linking any of the anonymized module IDs to that module, so my answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 717,
+    "completion_tokens": 99,
+    "total_tokens": 816
+   },
+   "latency_ms": 3542.3
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_094c/file_3e01.cxx",
+   "file_original": "Plugins/pvNVIDIAIndeX/src/vtknvindex_sparse_volume_importer.cxx",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bee1e4",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone. The file is clearly part of ParaView's NVIDIA IndeX plugin (vtknvindex sparse volume importer), but the candidate names are anonymized and I have no mapping to tie any of them to that plugin. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2250,
+    "completion_tokens": 96,
+    "total_tokens": 2346
+   },
+   "latency_ms": 3665.4
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_7e38.h",
+   "file_original": "Qt/ApplicationComponents/pqViewStreamingBehavior.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_aab53b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 998,
+    "completion_tokens": 50,
+    "total_tokens": 1048
+   },
+   "latency_ms": 3442.8
+  },
+  {
+   "file": "dir_620b/dir_b82a/file_9a84.cxx",
+   "file_original": "VTKExtensions/FiltersGeneral/vtkPlotEdges.cxx",
+   "label": "module_943113",
+   "label_original": "VTKExtensions/FiltersGeneral",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e1f57a",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1650,
+    "completion_tokens": 184,
+    "total_tokens": 1834
+   },
+   "latency_ms": 4499.0
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8/file_68f7.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/mi/neuraylib/factory.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct without seeing what each module contains. The file is NVIDIA's `mi/neuraylib/factory.h`, part of the MDL SDK or nvidia-index headers. In ParaView, these headers live in the NVIDIA IndeX plugin (e.g., `Plugins/pvNVIDIAIndeX/include/nv/index/...` and `mi/...`). The path `dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8` fits something like `Plugins/pvNVIDIAIndeX/include/mi/neuraylib/factory.h`. However, the candidate names are anonymized and I have no other information about them, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1781,
+    "completion_tokens": 242,
+    "total_tokens": 2023
+   },
+   "latency_ms": 7136.2
+  },
+  {
+   "file": "dir_62c2/dir_e476/dir_b775/file_85c2.h",
+   "file_original": "Plugins/GMVReader/Reader/gmvread.h",
+   "label": "module_abf947",
+   "label_original": "Plugins/GMVReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1cc04b",
+   "correct": false,
+   "raw_response": "I can't tell from the code which candidate module this is. The file is the GMV reader header (gmvread.h), which in ParaView belongs to the GMVReader plugin. The candidate module names are obfuscated and no descriptions were given, so I can't map that plugin to a specific letter. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1358,
+    "completion_tokens": 103,
+    "total_tokens": 1461
+   },
+   "latency_ms": 3970.1
+  },
+  {
+   "file": "dir_681c/dir_e163/file_ff6c.h",
+   "file_original": "Remoting/Animation/vtkPVCameraCueManipulator.h",
+   "label": "module_43b87f",
+   "label_original": "Remoting/Animation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_43b87f",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1660,
+    "completion_tokens": 57,
+    "total_tokens": 1717
+   },
+   "latency_ms": 3002.3
+  },
+  {
+   "file": "dir_681c/dir_e077/file_107c.h",
+   "file_original": "Remoting/ServerManager/vtkSMProxySelectionModel.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_97e6b9",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 50,
+    "total_tokens": 1566
+   },
+   "latency_ms": 3259.8
+  },
+  {
+   "file": "dir_62c2/dir_e796/dir_8b06/file_d67d.h",
+   "file_original": "Plugins/HyperTreeGridADR/HyperTreeGridFilters/vtkStandardDeviationArrayMeasurement.h",
+   "label": "module_3de6c2",
+   "label_original": "Plugins/HyperTreeGridADR",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_09e090",
+   "correct": false,
+   "raw_response": "I can't tell which letter maps to the module this file belongs to. The code clearly places it in VTK's FiltersHyperTreeGridADR module: it includes `vtkFiltersHyperTreeGridADRModule.h` and uses the `VTKFILTERSHYPERTREEGRIDADR_EXPORT` macro. But the candidate names are anonymized hashes, and nothing given links any of them to that module. Any letter I pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1829,
+    "completion_tokens": 154,
+    "total_tokens": 1983
+   },
+   "latency_ms": 4177.1
+  },
+  {
+   "file": "dir_681c/dir_cb31/file_b1c2.h",
+   "file_original": "Remoting/ClientServerStream/vtkClientServerInterpreterInitializer.h",
+   "label": "module_b6398a",
+   "label_original": "Remoting/ClientServerStream",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_790709",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1455,
+    "completion_tokens": 30,
+    "total_tokens": 1485
+   },
+   "latency_ms": 2742.6
+  },
+  {
+   "file": "dir_681c/dir_e163/file_2646.h",
+   "file_original": "Remoting/Animation/vtkPVCameraAnimationCue.h",
+   "label": "module_43b87f",
+   "label_original": "Remoting/Animation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_43b87f",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 42,
+    "total_tokens": 1255
+   },
+   "latency_ms": 2958.6
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_50d3/dir_e62a/file_8bcc.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/nv/index/ifont.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5096e0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 211,
+    "total_tokens": 1277
+   },
+   "latency_ms": 4740.2
+  },
+  {
+   "file": "dir_620b/dir_b82a/file_e97e.cxx",
+   "file_original": "VTKExtensions/FiltersGeneral/vtkHybridProbeFilter.cxx",
+   "label": "module_943113",
+   "label_original": "VTKExtensions/FiltersGeneral",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b6398a",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1905,
+    "completion_tokens": 202,
+    "total_tokens": 2107
+   },
+   "latency_ms": 5278.7
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_da15.cxx",
+   "file_original": "Qt/Components/pqContextMenuInterface.cxx",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1cc04b",
+   "correct": false,
+   "raw_response": "I can't actually tell these modules apart, so this answer is a guess. In real ParaView, `pqContextMenuInterface` lives in the Qt/Components (pqComponents) module, but the anonymized candidate names give no clue which one that is.\n\nC",
+   "usage": {
+    "prompt_tokens": 600,
+    "completion_tokens": 195,
+    "total_tokens": 795
+   },
+   "latency_ms": 6203.0
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_69d3.h",
+   "file_original": "Qt/Components/pqCustomFilterManager.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_cb175c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 59,
+    "total_tokens": 1392
+   },
+   "latency_ms": 3654.6
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_a5af.h",
+   "file_original": "Remoting/Views/vtkSMTextWidgetRepresentationProxy.h",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_35bc4b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 840,
+    "completion_tokens": 45,
+    "total_tokens": 885
+   },
+   "latency_ms": 3000.0
+  },
+  {
+   "file": "dir_620b/dir_317b/file_4a25.cxx",
+   "file_original": "VTKExtensions/FiltersStatistics/vtkPSciVizDescriptiveStats.cxx",
+   "label": "module_8f94bc",
+   "label_original": "VTKExtensions/FiltersStatistics",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_061123",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 873,
+    "completion_tokens": 81,
+    "total_tokens": 954
+   },
+   "latency_ms": 3172.9
+  },
+  {
+   "file": "dir_681c/dir_e077/file_3510.h",
+   "file_original": "Remoting/ServerManager/vtkSMTimeKeeperProxy.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_35bc4b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1967,
+    "completion_tokens": 53,
+    "total_tokens": 2020
+   },
+   "latency_ms": 3213.9
+  },
+  {
+   "file": "dir_620b/dir_6de0/file_e2f4.cxx",
+   "file_original": "VTKExtensions/FiltersRendering/vtkResampledAMRImageSource.cxx",
+   "label": "module_61e869",
+   "label_original": "VTKExtensions/FiltersRendering",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c89d9c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1649,
+    "completion_tokens": 167,
+    "total_tokens": 1816
+   },
+   "latency_ms": 5275.8
+  },
+  {
+   "file": "dir_62c2/dir_6ac0/file_e219.cxx",
+   "file_original": "Plugins/StreamLinesRepresentation/pqStreamLinesAnimationManager.cxx",
+   "label": "module_7bc31d",
+   "label_original": "Plugins/StreamLinesRepresentation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7bc31d",
+   "correct": true,
+   "raw_response": "I can't map the anonymized module names to real ones, so this is a guess. The file is pqStreamLinesAnimationManager, part of the StreamLinesRepresentation plugin in ParaView. With no basis for choosing among the four candidates, I picked A.\n\nA",
+   "usage": {
+    "prompt_tokens": 1434,
+    "completion_tokens": 88,
+    "total_tokens": 1522
+   },
+   "latency_ms": 3894.1
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_3c49.h",
+   "file_original": "Qt/ApplicationComponents/pqCameraReaction.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8f94bc",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 81,
+    "total_tokens": 1176
+   },
+   "latency_ms": 4381.4
+  },
+  {
+   "file": "dir_62c2/dir_ab05/dir_a0d9/dir_fffe/dir_1fd3/dir_0c66/file_e756.h",
+   "file_original": "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_maths/tnt/tnt_stopwatch.h",
+   "label": "module_c09ec8",
+   "label_original": "Plugins/GeodesicMeasurement",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c09ec8",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 227,
+    "total_tokens": 1299
+   },
+   "latency_ms": 5775.0
+  },
+  {
+   "file": "dir_62c2/dir_84d7/file_5ece.h",
+   "file_original": "Plugins/SpaceMouseInteractor/pqSpaceMouseImpl.h",
+   "label": "module_0cf9f5",
+   "label_original": "Plugins/SpaceMouseInteractor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_74e236",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1763,
+    "completion_tokens": 68,
+    "total_tokens": 1831
+   },
+   "latency_ms": 3418.8
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_b26c.h",
+   "file_original": "Qt/ApplicationComponents/pqCylinderPropertyWidget.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1ab6af",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1380,
+    "completion_tokens": 70,
+    "total_tokens": 1450
+   },
+   "latency_ms": 3887.8
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_50d3/dir_e62a/file_d27e.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/nv/index/iintersection_highlight_pick_result.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1d5222",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 3,
+    "total_tokens": 1322
+   },
+   "latency_ms": 2297.9
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8/file_4b98.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/mi/neuraylib/ideserializer.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1d5222",
+   "correct": true,
+   "raw_response": "I can't tell which letter is right, because the obfuscated module names carry no information I can map to the code.\n\nThe file itself is clear. It is NVIDIA's `mi/neuraylib/ideserializer.h`, part of the NVIDIA IndeX / neuraylib SDK headers. In ParaView this sits in the third-party IndeX plugin tree, roughly `Plugins/pvNVIDIAIndeX/include/nv/index` or similar. The path depth fits that: `dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8` could correspond to something like `Plugins/pvNVIDIAIndeX/include/mi/neuraylib`.\n\nThe answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1709,
+    "completion_tokens": 245,
+    "total_tokens": 1954
+   },
+   "latency_ms": 6844.9
+  },
+  {
+   "file": "dir_681c/dir_e077/file_c915.h",
+   "file_original": "Remoting/ServerManager/vtkSMDimensionsDomain.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_97e6b9",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 39,
+    "total_tokens": 1200
+   },
+   "latency_ms": 2926.7
+  },
+  {
+   "file": "dir_62c2/dir_0388/dir_81e0/file_c399.cxx",
+   "file_original": "Plugins/XRInterface/Plugin/pqXRInterfaceDockPanel.cxx",
+   "label": "module_fb3127",
+   "label_original": "Plugins/XRInterface",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b003f3",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. The file is clearly part of ParaView's XRInterface plugin (Plugins/XRInterface/pqXRInterfaceDockPanel.cxx), but the candidate module names are anonymized and nothing in the code links any of them to that plugin. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2138,
+    "completion_tokens": 108,
+    "total_tokens": 2246
+   },
+   "latency_ms": 3777.0
+  },
+  {
+   "file": "dir_620b/dir_3efe/file_cd25.h",
+   "file_original": "VTKExtensions/Core/vtkUndoStack.h",
+   "label": "module_7f5abb",
+   "label_original": "VTKExtensions/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_790709",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1554,
+    "completion_tokens": 68,
+    "total_tokens": 1622
+   },
+   "latency_ms": 3185.4
+  },
+  {
+   "file": "dir_620b/dir_3efe/file_d236.h",
+   "file_original": "VTKExtensions/Core/vtkUndoElement.h",
+   "label": "module_7f5abb",
+   "label_original": "VTKExtensions/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03cf1a",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1485,
+    "completion_tokens": 85,
+    "total_tokens": 1570
+   },
+   "latency_ms": 3721.5
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_0b0c.h",
+   "file_original": "Remoting/Views/vtkCaveSynchronizedRenderers.h",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3befd2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1663,
+    "completion_tokens": 58,
+    "total_tokens": 1721
+   },
+   "latency_ms": 3543.1
+  },
+  {
+   "file": "dir_62c2/dir_e476/file_bfe1.cxx",
+   "file_original": "Plugins/GMVReader/pqGMVReaderPanel.cxx",
+   "label": "module_abf947",
+   "label_original": "Plugins/GMVReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b58ece",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1783,
+    "completion_tokens": 3,
+    "total_tokens": 1786
+   },
+   "latency_ms": 2475.5
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8/file_fed9.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/mi/neuraylib/imatrix.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_af091f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1596,
+    "completion_tokens": 174,
+    "total_tokens": 1770
+   },
+   "latency_ms": 4460.1
+  },
+  {
+   "file": "dir_620b/dir_b82a/file_665e.cxx",
+   "file_original": "VTKExtensions/FiltersGeneral/vtkAxisAlignedCutter.cxx",
+   "label": "module_943113",
+   "label_original": "VTKExtensions/FiltersGeneral",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_790709",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1614,
+    "completion_tokens": 3,
+    "total_tokens": 1617
+   },
+   "latency_ms": 2421.2
+  },
+  {
+   "file": "dir_681c/dir_e077/file_a24f.cxx",
+   "file_original": "Remoting/ServerManager/vtkSMProxyGroupDomain.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_97e6b9",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 58,
+    "total_tokens": 1399
+   },
+   "latency_ms": 3644.4
+  },
+  {
+   "file": "dir_0ce0/dir_a362/file_e8e8.h",
+   "file_original": "Qt/Widgets/pqListWidgetCheckHelper.h",
+   "label": "module_492cbe",
+   "label_original": "Qt/Widgets",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_492cbe",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 804,
+    "completion_tokens": 56,
+    "total_tokens": 860
+   },
+   "latency_ms": 3015.2
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_643e.cxx",
+   "file_original": "Qt/Core/pqTextLinker.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4a6040",
+   "correct": false,
+   "raw_response": "A\n\nI could not work this out from the code. The only clue is the `pqTextLinker.h` include, which points to ParaView's Qt layer (possibly Qt/Components). The candidate module names are anonymized, so I could not tie that to any option; this answer is a guess.",
+   "usage": {
+    "prompt_tokens": 341,
+    "completion_tokens": 276,
+    "total_tokens": 617
+   },
+   "latency_ms": 5737.0
+  },
+  {
+   "file": "dir_620b/dir_3efe/file_aace.cxx",
+   "file_original": "VTKExtensions/Core/vtkPVNullSource.cxx",
+   "label": "module_7f5abb",
+   "label_original": "VTKExtensions/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_039ae2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 525,
+    "completion_tokens": 251,
+    "total_tokens": 776
+   },
+   "latency_ms": 5352.4
+  },
+  {
+   "file": "dir_681c/dir_39e2/file_3910.h",
+   "file_original": "Remoting/Misc/vtkPVEnsembleDataReaderInformation.h",
+   "label": "module_dc330e",
+   "label_original": "Remoting/Misc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_dc330e",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 34,
+    "total_tokens": 1029
+   },
+   "latency_ms": 2810.0
+  },
+  {
+   "file": "dir_620b/dir_3efe/file_b275.cxx",
+   "file_original": "VTKExtensions/Core/vtkUndoStack.cxx",
+   "label": "module_7f5abb",
+   "label_original": "VTKExtensions/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0bb791",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 243,
+    "total_tokens": 1763
+   },
+   "latency_ms": 5299.2
+  },
+  {
+   "file": "dir_681c/dir_e077/file_21ce.cxx",
+   "file_original": "Remoting/ServerManager/vtkSICompoundSourceProxy.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fb3127",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1532,
+    "completion_tokens": 3,
+    "total_tokens": 1535
+   },
+   "latency_ms": 2348.7
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_59dd.h",
+   "file_original": "Qt/Core/pqProxyModifiedStateUndoElement.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61184d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 40,
+    "total_tokens": 1107
+   },
+   "latency_ms": 3304.0
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_06a7.h",
+   "file_original": "Remoting/Views/vtkPVGridAxes3DActor.h",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_42dd99",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1739,
+    "completion_tokens": 97,
+    "total_tokens": 1836
+   },
+   "latency_ms": 4214.6
+  },
+  {
+   "file": "dir_681c/dir_39e2/file_6b43.h",
+   "file_original": "Remoting/Misc/vtkSMCameraConfigurationFileInfo.h",
+   "label": "module_dc330e",
+   "label_original": "Remoting/Misc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_31aba9",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 850,
+    "completion_tokens": 57,
+    "total_tokens": 907
+   },
+   "latency_ms": 2829.6
+  },
+  {
+   "file": "dir_681c/dir_e077/file_534a.h",
+   "file_original": "Remoting/ServerManager/vtkSMStateLocator.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1ab6af",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1596,
+    "completion_tokens": 46,
+    "total_tokens": 1642
+   },
+   "latency_ms": 3236.7
+  },
+  {
+   "file": "dir_681c/dir_e077/file_04ac.h",
+   "file_original": "Remoting/ServerManager/vtkSMReaderReloadHelper.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_325c82",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1278,
+    "completion_tokens": 71,
+    "total_tokens": 1349
+   },
+   "latency_ms": 3194.2
+  },
+  {
+   "file": "dir_681c/dir_e077/file_4f0f.h",
+   "file_original": "Remoting/ServerManager/vtkSMPropertyGroup.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_943113",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to real ones. The code shows the file belongs to VTK::RemotingServerManager (it uses the `VTKREMOTINGSERVERMANAGER_EXPORT` macro), but nothing in the input links that module to one of the four obfuscated labels. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1385,
+    "completion_tokens": 107,
+    "total_tokens": 1492
+   },
+   "latency_ms": 4945.2
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_ab7e.cxx",
+   "file_original": "Qt/ApplicationComponents/pqTimelineModel.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4f2a08",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1590,
+    "completion_tokens": 79,
+    "total_tokens": 1669
+   },
+   "latency_ms": 3398.8
+  },
+  {
+   "file": "dir_681c/dir_e077/file_d6df.h",
+   "file_original": "Remoting/ServerManager/vtkSMProxy.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_97e6b9",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1884,
+    "completion_tokens": 60,
+    "total_tokens": 1944
+   },
+   "latency_ms": 3117.2
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_0f9a.h",
+   "file_original": "Qt/ApplicationComponents/pqShowWidgetDecorator.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b58ece",
+   "correct": false,
+   "raw_response": "Without knowing what the candidates map to, I can't be sure. The file includes pqApplicationComponentsModule.h and uses the export macro PQAPPLICATIONCOMPONENTS_EXPORT, so it belongs to pqApplicationComponents. None of the anonymized labels can be tied to that module from the information given, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 794,
+    "completion_tokens": 118,
+    "total_tokens": 912
+   },
+   "latency_ms": 4283.4
+  },
+  {
+   "file": "dir_62c2/dir_a7f1/file_da1c.cxx",
+   "file_original": "Plugins/TranslationsTesting/pqTranslationsTesting.cxx",
+   "label": "module_e8e07b",
+   "label_original": "Plugins/TranslationsTesting",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c09ec8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1682,
+    "completion_tokens": 111,
+    "total_tokens": 1793
+   },
+   "latency_ms": 3745.1
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_8f9c.h",
+   "file_original": "Qt/Core/pqMultiSliceAxisWidget.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_888a37",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 72,
+    "total_tokens": 1351
+   },
+   "latency_ms": 4730.0
+  },
+  {
+   "file": "dir_62c2/dir_f9a7/dir_e885/file_580e.h",
+   "file_original": "Plugins/Datamine/Readers/vtkDataMineReader.h",
+   "label": "module_03cf1a",
+   "label_original": "Plugins/Datamine",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8ae9cb",
+   "correct": false,
+   "raw_response": "There is no strong signal in the code to pick one module over another. The file is part of the DatamineReaders plugin module in ParaView, but the candidate module names are anonymized, so I can't map that to a letter. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1588,
+    "completion_tokens": 77,
+    "total_tokens": 1665
+   },
+   "latency_ms": 3337.2
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_08c7.cxx",
+   "file_original": "Qt/Core/pqXYHistogramChartView.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_395e0b",
+   "correct": false,
+   "raw_response": "I can't tell from the code alone which anonymized ID is correct. `pqXYHistogramChartView` belongs to ParaView's pqCore library (Qt/Core). But the module names are obfuscated and no descriptions came with them, so I can't map pqCore to a letter. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 544,
+    "completion_tokens": 102,
+    "total_tokens": 646
+   },
+   "latency_ms": 4658.9
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_3d4e.h",
+   "file_original": "Qt/Core/pqOutputWidget.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1ab6af",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to real ones, because no description of the candidates was given. The file uses PQCORE_EXPORT and includes pqCoreModule.h, so it belongs to ParaView's pqCore Qt module (Qt/Core). Without a mapping, my choice is a guess.\n\nB",
+   "usage": {
+    "prompt_tokens": 1513,
+    "completion_tokens": 101,
+    "total_tokens": 1614
+   },
+   "latency_ms": 4095.0
+  },
+  {
+   "file": "dir_681c/dir_e077/file_dd97.h",
+   "file_original": "Remoting/ServerManager/vtkSMProxyManager.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_039ae2",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file includes \"vtkRemotingServerManagerModule.h\" and uses the `VTKREMOTINGSERVERMANAGER_EXPORT` macro, so it clearly belongs to ParaView's RemotingServerManager module. But the candidate labels are anonymized and nothing links any of them to that module. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1473,
+    "completion_tokens": 128,
+    "total_tokens": 1601
+   },
+   "latency_ms": 3906.7
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_f0ec.h",
+   "file_original": "Qt/ApplicationComponents/pqPythonScriptEditorReaction.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_325c82",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 773,
+    "completion_tokens": 251,
+    "total_tokens": 1024
+   },
+   "latency_ms": 5613.4
+  },
+  {
+   "file": "dir_620b/dir_75fd/file_fd60.cxx",
+   "file_original": "VTKExtensions/FiltersMaterialInterface/vtkMaterialInterfaceIdList.cxx",
+   "label": "module_cd8add",
+   "label_original": "VTKExtensions/FiltersMaterialInterface",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7ee096",
+   "correct": false,
+   "raw_response": "**A**\n\nThis is a guess. The file defines `vtkMaterialInterfaceIdList`, a helper for ParaView's material-interface filter (`vtkMaterialInterfaceFilter`). I believe that filter sits in ParaView's parallel filters extensions (`VTKExtensions/FiltersParallel`). However, nothing in the prompt links the anonymized module names to real modules, so the letter choice is arbitrary.",
+   "usage": {
+    "prompt_tokens": 1447,
+    "completion_tokens": 402,
+    "total_tokens": 1849
+   },
+   "latency_ms": 8965.9
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_9f9d.cxx",
+   "file_original": "Qt/ApplicationComponents/pqInteractiveProperty2DWidget.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_4f2a08",
+   "correct": true,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1466,
+    "completion_tokens": 3,
+    "total_tokens": 1469
+   },
+   "latency_ms": 2429.5
+  },
+  {
+   "file": "dir_681c/dir_e077/file_a3d6.cxx",
+   "file_original": "Remoting/ServerManager/vtkSMAMRLevelsDomain.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_993129",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1059,
+    "completion_tokens": 131,
+    "total_tokens": 1190
+   },
+   "latency_ms": 4288.4
+  },
+  {
+   "file": "dir_62c2/dir_5011/dir_b775/file_b44e.cxx",
+   "file_original": "Plugins/CFSReader/Reader/hdf5Common.cxx",
+   "label": "module_d5ffb7",
+   "label_original": "Plugins/CFSReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bdf821",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1585,
+    "completion_tokens": 3,
+    "total_tokens": 1588
+   },
+   "latency_ms": 2160.2
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_c6a7.cxx",
+   "file_original": "Qt/Components/pqCustomViewpointButtonDialog.cxx",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7edde4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1943,
+    "completion_tokens": 52,
+    "total_tokens": 1995
+   },
+   "latency_ms": 2562.6
+  },
+  {
+   "file": "dir_681c/dir_e163/file_09c6.h",
+   "file_original": "Remoting/Animation/vtkAnimationPlayer.h",
+   "label": "module_43b87f",
+   "label_original": "Remoting/Animation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_74cc2f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 48,
+    "total_tokens": 1391
+   },
+   "latency_ms": 3224.3
+  },
+  {
+   "file": "dir_62c2/dir_b1b7/dir_efbe/file_41a2.h",
+   "file_original": "Plugins/ExplicitStructuredGrid/Filter/vtkExplicitStructuredGridPythonExtractor.h",
+   "label": "module_f97662",
+   "label_original": "Plugins/ExplicitStructuredGrid",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f97662",
+   "correct": true,
+   "raw_response": "I can't tell which letter matches from the code alone, because the candidate module names are anonymized. The file uses the `VTKEXPLICITSTRUCTUREDGRID_EXPORT` macro and includes `vtkExplicitStructuredGridModule.h`, so it belongs to ParaView's `ExplicitStructuredGrid` plugin module. Nothing in the code links that module to module_f97662, module_462bb3, module_943113 or module_22bad0. The choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 168,
+    "total_tokens": 1571
+   },
+   "latency_ms": 4433.0
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_2f10.cxx",
+   "file_original": "Qt/ApplicationComponents/pqSearchItemReaction.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_abf947",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 713,
+    "completion_tokens": 76,
+    "total_tokens": 789
+   },
+   "latency_ms": 4263.5
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_a603.h",
+   "file_original": "Qt/Core/pqSpreadSheetView.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e30696",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone. The file uses PQCORE_EXPORT, so it belongs to ParaView's pqCore module (Qt/Core). However, the candidate module names are anonymized and none of them reveals which one is pqCore. The answer below is therefore a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 102,
+    "total_tokens": 1333
+   },
+   "latency_ms": 5130.9
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_2be4.h",
+   "file_original": "Qt/Core/pqQVTKWidgetEventTranslator.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c07520",
+   "correct": false,
+   "raw_response": "I can't verify which anonymized label maps to which real module, so this is a guess. The file includes `pqCoreModule.h` and uses `PQCORE_EXPORT`, which places it in ParaView's pqCore module (Qt/Core). Nothing in the code tells me which of the four candidate labels corresponds to pqCore, so I'm picking one.\n\nA",
+   "usage": {
+    "prompt_tokens": 746,
+    "completion_tokens": 120,
+    "total_tokens": 866
+   },
+   "latency_ms": 3928.0
+  },
+  {
+   "file": "dir_62c2/dir_64f9/dir_debe/file_6ab3.cxx",
+   "file_original": "Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/vtkNIfTIReader.cxx",
+   "label": "module_039ae2",
+   "label_original": "Plugins/AnalyzeNIfTIReaderWriter",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_039ae2",
+   "correct": true,
+   "raw_response": "I can't determine this from the code alone. The file is `vtkNIfTIReader`, credited to Joseph Hennessey. That points to ParaView's AnalyzeNIfTIReaderWriter plugin, not VTK's own `vtkNIFTIImageReader` in IO/Image. However, nothing in the code ties that plugin to any of the four anonymized module names, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1601,
+    "completion_tokens": 257,
+    "total_tokens": 1858
+   },
+   "latency_ms": 5389.2
+  },
+  {
+   "file": "dir_62c2/dir_5011/dir_b775/file_3de1.h",
+   "file_original": "Plugins/CFSReader/Reader/hdf5Reader.h",
+   "label": "module_d5ffb7",
+   "label_original": "Plugins/CFSReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a61706",
+   "correct": false,
+   "raw_response": "No module descriptions were given, so I can't map the content to a specific candidate. The file is the openCFS reader plugin (Plugins/CFSReader), a HDF5 reader used by vtkCFSReader, but nothing links it to any letter. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 89,
+    "total_tokens": 1369
+   },
+   "latency_ms": 3615.7
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_035d.cxx",
+   "file_original": "Qt/Components/pqItemViewSearchWidget.cxx",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a45d90",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1934,
+    "completion_tokens": 96,
+    "total_tokens": 2030
+   },
+   "latency_ms": 3172.1
+  },
+  {
+   "file": "dir_620b/dir_a9b7/file_c99b.cxx",
+   "file_original": "VTKExtensions/IOExodus/vtkExodusFileSeriesReader.cxx",
+   "label": "module_e4bc46",
+   "label_original": "VTKExtensions/IOExodus",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e4bc46",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2088,
+    "completion_tokens": 192,
+    "total_tokens": 2280
+   },
+   "latency_ms": 24779.9
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_e0eb.cxx",
+   "file_original": "Qt/ApplicationComponents/pqMasterOnlyReaction.cxx",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_530222",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. pqMasterOnlyReaction is a Qt reaction class, so it belongs to ParaView's Qt/ApplicationComponents layer. However, the candidate module names are anonymized and no mapping to real module names was given. Any letter I pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 99,
+    "total_tokens": 681
+   },
+   "latency_ms": 3862.5
+  },
+  {
+   "file": "dir_62c2/dir_e476/dir_b775/file_69c3.h",
+   "file_original": "Plugins/GMVReader/Reader/vtkGMVReader.h",
+   "label": "module_abf947",
+   "label_original": "Plugins/GMVReader",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_db0705",
+   "correct": false,
+   "raw_response": "No module descriptions were given, so I can't tell which anonymized candidate is the GMVReader module (`VTKGMVREADER_EXPORT`, plugin `Plugins/GMVReader/Reader`). This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1812,
+    "completion_tokens": 82,
+    "total_tokens": 1894
+   },
+   "latency_ms": 3638.1
+  },
+  {
+   "file": "dir_681c/dir_e077/file_1364.cxx",
+   "file_original": "Remoting/ServerManager/vtkSMTimeKeeper.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_373820",
+   "correct": false,
+   "raw_response": "I can't pin this to a module from evidence. The candidate names are anonymized and no descriptions came with them, so the code can't be matched to a specific letter.\n\nWhat the code does show is that `vtkSMTimeKeeper.cxx` belongs to ParaView's server manager layer, in `Remoting/Views`. That module is `RemotingViews` (`vtkRemotingViews`). Without knowing which candidate corresponds to it, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1747,
+    "completion_tokens": 154,
+    "total_tokens": 1901
+   },
+   "latency_ms": 5497.6
+  },
+  {
+   "file": "dir_620b/dir_39e2/file_6745.cxx",
+   "file_original": "VTKExtensions/Misc/vtkPVMergeTables.cxx",
+   "label": "module_993b8c",
+   "label_original": "VTKExtensions/Misc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_59b40e",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1709,
+    "completion_tokens": 3,
+    "total_tokens": 1712
+   },
+   "latency_ms": 3432.3
+  },
+  {
+   "file": "dir_62c2/dir_ab05/dir_a0d9/dir_fffe/dir_e931/file_87ef.h",
+   "file_original": "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_geodesic/GW_Parameterization.h",
+   "label": "module_c09ec8",
+   "label_original": "Plugins/GeodesicMeasurement",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2d9e37",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1360,
+    "completion_tokens": 3,
+    "total_tokens": 1363
+   },
+   "latency_ms": 2353.8
+  },
+  {
+   "file": "dir_681c/dir_e077/file_0baa.h",
+   "file_original": "Remoting/ServerManager/vtkSMIntRangeDomain.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_af091f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1578,
+    "completion_tokens": 67,
+    "total_tokens": 1645
+   },
+   "latency_ms": 4141.4
+  },
+  {
+   "file": "dir_681c/dir_e077/file_32a3.h",
+   "file_original": "Remoting/ServerManager/vtkSMBoundsDomain.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fb3127",
+   "correct": false,
+   "raw_response": "No reliable evidence links any of the four obfuscated module names to RemotingServerManager. The file includes `vtkRemotingServerManagerModule.h`, so it belongs to Remoting/ServerManager, but I can't tell which candidate that is. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2094,
+    "completion_tokens": 94,
+    "total_tokens": 2188
+   },
+   "latency_ms": 3662.7
+  },
+  {
+   "file": "dir_0ce0/dir_a362/file_2286.h",
+   "file_original": "Qt/Widgets/pqWidgetUtilities.h",
+   "label": "module_492cbe",
+   "label_original": "Qt/Widgets",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7a51ea",
+   "correct": false,
+   "raw_response": "We have no information about what the candidate modules contain, so the code alone cannot distinguish between them. The file includes \"pqWidgetsModule.h\" and uses PQWIDGETS_EXPORT, which places it in ParaView's Qt Widgets module (Qt/Widgets). Without a mapping from that module to a candidate label, this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 616,
+    "completion_tokens": 120,
+    "total_tokens": 736
+   },
+   "latency_ms": 3677.7
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_034d.h",
+   "file_original": "Qt/Components/pqPluginTreeWidgetEventTranslator.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_325c82",
+   "correct": false,
+   "raw_response": "Without knowing which module ID maps to pqComponents (the code includes `pqComponentsModule.h`), I can only guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 907,
+    "completion_tokens": 45,
+    "total_tokens": 952
+   },
+   "latency_ms": 3039.8
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_b3b3.h",
+   "file_original": "Qt/Core/pqSpreadSheetViewSelectionModel.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b003f3",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 63,
+    "total_tokens": 1337
+   },
+   "latency_ms": 2942.2
+  },
+  {
+   "file": "dir_681c/dir_e077/file_3b35.cxx",
+   "file_original": "Remoting/ServerManager/vtkSIDataArraySelectionProperty.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_42dd99",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the candidate module names are anonymized and nothing in the prompt links them to real ParaView modules.\n\nWhat the code does show: `vtkSIDataArraySelectionProperty` is a server-side \"SI\" (server implementation) property class. It uses `vtkSMMessage`, `vtkClientServerStream` and `vtkSIProxy`. In ParaView, these SI classes live in `Remoting/ServerManager`, so the file belongs to the module `VTK::RemotingServerManager`. I can't map that to one of the anonymized options, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1608,
+    "completion_tokens": 203,
+    "total_tokens": 1811
+   },
+   "latency_ms": 5265.6
+  },
+  {
+   "file": "dir_681c/dir_3efe/file_6b6c.cxx",
+   "file_original": "Remoting/Core/vtkTCPNetworkAccessManager.cxx",
+   "label": "module_758e5c",
+   "label_original": "Remoting/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_758e5c",
+   "correct": true,
+   "raw_response": "I can't tell which letter is right, because the module names are anonymized and nothing in the prompt links them to real modules. Judging by the code, this file is `vtkTCPNetworkAccessManager.cxx`, which belongs to ParaView's `RemotingCore` module (it includes `vtkRemotingCoreConfiguration.h`). Which letter stands for RemotingCore is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1691,
+    "completion_tokens": 133,
+    "total_tokens": 1824
+   },
+   "latency_ms": 4670.1
+  },
+  {
+   "file": "dir_620b/dir_b82a/file_a889.h",
+   "file_original": "VTKExtensions/FiltersGeneral/vtkTimeStepProgressFilter.h",
+   "label": "module_943113",
+   "label_original": "VTKExtensions/FiltersGeneral",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_59b40e",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 49,
+    "total_tokens": 1009
+   },
+   "latency_ms": 3322.5
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_459d.h",
+   "file_original": "Remoting/Views/vtkViewLayout.h",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_42dd99",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1615,
+    "completion_tokens": 35,
+    "total_tokens": 1650
+   },
+   "latency_ms": 4535.7
+  },
+  {
+   "file": "dir_62c2/dir_8a6f/dir_edc6/file_07ae.cxx",
+   "file_original": "Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMBagChartSeriesListDomain.cxx",
+   "label": "module_7ee096",
+   "label_original": "Plugins/BagPlotViewsAndFilters",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_173012",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1461,
+    "completion_tokens": 3,
+    "total_tokens": 1464
+   },
+   "latency_ms": 2326.2
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_6f7d.h",
+   "file_original": "Qt/Core/pqPythonEventSourceImage.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1cc04b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 616,
+    "completion_tokens": 61,
+    "total_tokens": 677
+   },
+   "latency_ms": 3769.6
+  },
+  {
+   "file": "dir_620b/dir_6de0/file_1241.cxx",
+   "file_original": "VTKExtensions/FiltersRendering/vtkImageTransparencyFilter.cxx",
+   "label": "module_61e869",
+   "label_original": "VTKExtensions/FiltersRendering",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_758e5c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2005,
+    "completion_tokens": 129,
+    "total_tokens": 2134
+   },
+   "latency_ms": 3780.5
+  },
+  {
+   "file": "dir_681c/dir_39e2/file_5a4c.h",
+   "file_original": "Remoting/Misc/vtkSMTesting.h",
+   "label": "module_dc330e",
+   "label_original": "Remoting/Misc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_264039",
+   "correct": false,
+   "raw_response": "I can't determine this with confidence. The code shows the file belongs to ParaView's RemotingMisc module: it includes `vtkRemotingMiscModule.h` and uses the `VTKREMOTINGMISC_EXPORT` macro. However, the four candidate modules are only anonymized IDs with no descriptions, so I can't tell which one is RemotingMisc. The letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 944,
+    "completion_tokens": 169,
+    "total_tokens": 1113
+   },
+   "latency_ms": 4342.1
+  },
+  {
+   "file": "dir_681c/dir_9086/file_440a.cxx",
+   "file_original": "Remoting/Settings/vtkPVGeneralSettings.cxx",
+   "label": "module_075b89",
+   "label_original": "Remoting/Settings",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_31aba9",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1667,
+    "completion_tokens": 3,
+    "total_tokens": 1670
+   },
+   "latency_ms": 2742.8
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_50d3/dir_e62a/file_ef72.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/nv/index/iconfig_settings.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_264039",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1829,
+    "completion_tokens": 3,
+    "total_tokens": 1832
+   },
+   "latency_ms": 2916.2
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_aaee.h",
+   "file_original": "Qt/ApplicationComponents/pqTemporalExportReaction.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6b4031",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the candidate module names are anonymized and nothing links them to real modules. What the code does show is that this file belongs to ParaView's pqApplicationComponents module: it includes `pqApplicationComponentsModule.h` and uses the `PQAPPLICATIONCOMPONENTS_EXPORT` macro. The answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 755,
+    "completion_tokens": 128,
+    "total_tokens": 883
+   },
+   "latency_ms": 4865.8
+  },
+  {
+   "file": "dir_681c/dir_e077/file_c8f3.cxx",
+   "file_original": "Remoting/ServerManager/vtkSMDoubleMapProperty.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_93cd58",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1386,
+    "completion_tokens": 3,
+    "total_tokens": 1389
+   },
+   "latency_ms": 2385.3
+  },
+  {
+   "file": "dir_0ce0/dir_747d/file_e8ad.cxx",
+   "file_original": "Qt/Python/pqPythonShellCompleter.cxx",
+   "label": "module_cc39ce",
+   "label_original": "Qt/Python",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_11a931",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 3,
+    "total_tokens": 1006
+   },
+   "latency_ms": 2442.6
+  },
+  {
+   "file": "dir_0ce0/dir_a362/file_ecfc.cxx",
+   "file_original": "Qt/Widgets/pqTreeView.cxx",
+   "label": "module_492cbe",
+   "label_original": "Qt/Widgets",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7edde4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1484,
+    "completion_tokens": 42,
+    "total_tokens": 1526
+   },
+   "latency_ms": 3167.2
+  },
+  {
+   "file": "dir_62c2/dir_7637/dir_a0d9/file_6d04.h",
+   "file_original": "Plugins/ThickenLayeredCells/Filters/vtkThickenLayeredCells.h",
+   "label": "module_373820",
+   "label_original": "Plugins/ThickenLayeredCells",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6af9f8",
+   "correct": false,
+   "raw_response": "Without knowing what the anonymized module names map to, I can't determine this with confidence, so this answer is a guess.\n\nThe file includes `vtkThickenLayeredCellsFiltersModule.h`, so it belongs to the ThickenLayeredCells filters module, which comes from a ParaView example plugin. None of the candidate names reveal which one that is.\n\nA",
+   "usage": {
+    "prompt_tokens": 939,
+    "completion_tokens": 119,
+    "total_tokens": 1058
+   },
+   "latency_ms": 3861.4
+  },
+  {
+   "file": "dir_62c2/dir_1369/dir_a0d9/file_3c73.h",
+   "file_original": "Plugins/DSP/Filters/vtkDSPTableFFT.h",
+   "label": "module_7c001d",
+   "label_original": "Plugins/DSP",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7c001d",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 804,
+    "completion_tokens": 36,
+    "total_tokens": 840
+   },
+   "latency_ms": 2766.5
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_94eb.cxx",
+   "file_original": "Qt/Core/pqQVTKWidget.cxx",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1862,
+    "completion_tokens": 53,
+    "total_tokens": 1915
+   },
+   "latency_ms": 3856.5
+  },
+  {
+   "file": "dir_62c2/dir_ab05/dir_a0d9/dir_fffe/dir_1fd3/dir_0c66/file_b2da.h",
+   "file_original": "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_maths/tnt/tnt_vec.h",
+   "label": "module_c09ec8",
+   "label_original": "Plugins/GeodesicMeasurement",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9a0202",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1226,
+    "completion_tokens": 3,
+    "total_tokens": 1229
+   },
+   "latency_ms": 2285.0
+  },
+  {
+   "file": "dir_620b/dir_6de0/file_5471.cxx",
+   "file_original": "VTKExtensions/FiltersRendering/vtkMarkSelectedRows.cxx",
+   "label": "module_61e869",
+   "label_original": "VTKExtensions/FiltersRendering",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61e869",
+   "correct": true,
+   "raw_response": "I can't map the anonymized module IDs to real ParaView modules, so this is a guess rather than a derivation.\n\nThe file is `vtkMarkSelectedRows.cxx`. In ParaView it sits alongside `vtkDataTabulator`, most likely in `VTKExtensions/Misc` (vtkPVVTKExtensionsMisc). Nothing in the code or the obfuscated path ties that real module to any of the letters, so the choice below is arbitrary.\n\nA",
+   "usage": {
+    "prompt_tokens": 1692,
+    "completion_tokens": 160,
+    "total_tokens": 1852
+   },
+   "latency_ms": 4576.8
+  },
+  {
+   "file": "dir_620b/dir_8b82/file_376c.h",
+   "file_original": "VTKExtensions/IOParallelCGNS/vtkPCGNSWriter.h",
+   "label": "module_a1cf1f",
+   "label_original": "VTKExtensions/IOParallelCGNS",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b58ece",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1409,
+    "completion_tokens": 53,
+    "total_tokens": 1462
+   },
+   "latency_ms": 5011.7
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_5910.h",
+   "file_original": "Qt/Components/pqCameraDialog.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_cf5184",
+   "correct": false,
+   "raw_response": "The file declares `PQCOMPONENTS_EXPORT` and includes `pqDialog.h`, so it belongs to ParaView's pqComponents module (Qt/Components). However, the candidate module names are obfuscated, and nothing in the code maps any of A–D to pqComponents. The letter below is a guess, not a deduction.\n\nC",
+   "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 115,
+    "total_tokens": 1691
+   },
+   "latency_ms": 4528.3
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_2730.h",
+   "file_original": "Remoting/Views/vtkSMImplicitPlaneRepresentationProxy.h",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3de6c2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 835,
+    "completion_tokens": 60,
+    "total_tokens": 895
+   },
+   "latency_ms": 3343.2
+  },
+  {
+   "file": "dir_62c2/dir_ab05/dir_a0d9/dir_fffe/dir_6fe6/file_b727.cpp",
+   "file_original": "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_core/GW_SmartCounter.cpp",
+   "label": "module_c09ec8",
+   "label_original": "Plugins/GeodesicMeasurement",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c09ec8",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 197,
+    "total_tokens": 1294
+   },
+   "latency_ms": 23012.2
+  },
+  {
+   "file": "dir_0ce0/dir_a362/file_079c.h",
+   "file_original": "Qt/Widgets/pqTreeWidgetItemObject.h",
+   "label": "module_492cbe",
+   "label_original": "Qt/Widgets",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_173012",
+   "correct": false,
+   "raw_response": "There is no way to determine this from the code. The file includes pqWidgetsModule.h and uses PQWIDGETS_EXPORT, so it belongs to ParaView's pqWidgets module (Qt/Widgets). However, the module names are anonymized and nothing ties any letter to pqWidgets, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 919,
+    "completion_tokens": 111,
+    "total_tokens": 1030
+   },
+   "latency_ms": 4412.0
+  },
+  {
+   "file": "dir_681c/dir_e077/file_311d.cxx",
+   "file_original": "Remoting/ServerManager/vtkSMTimeStepsDomain.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1d319c",
+   "correct": false,
+   "raw_response": "I can't pin this down with confidence: the candidate modules are unnamed, and nothing in the prompt describes what each one contains.\n\nWhat the code does show:\n- It defines `vtkSMTimeStepsDomain`, a ServerManager domain class.\n- It relies on `vtkSMInputProperty`, `vtkSMSourceProxy` and `vtkPVDataInformation`.\n- That places it in ParaView's Remoting/ServerManager layer, probably the core ServerManager module.\n\nHowever, there is no way to tell which of A–D corresponds to that module. The letter below is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 933,
+    "completion_tokens": 351,
+    "total_tokens": 1284
+   },
+   "latency_ms": 6842.3
+  },
+  {
+   "file": "dir_62c2/dir_4896/dir_b1f6/dir_b40b/dir_08f8/file_b1c8.h",
+   "file_original": "Plugins/pvNVIDIAIndeX/include/mi/neuraylib/idata.h",
+   "label": "module_1d5222",
+   "label_original": "Plugins/pvNVIDIAIndeX",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f7a0c8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2179,
+    "completion_tokens": 3,
+    "total_tokens": 2182
+   },
+   "latency_ms": 3644.0
+  },
+  {
+   "file": "dir_62c2/dir_8a6f/dir_edc6/file_48e5.cxx",
+   "file_original": "Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagChartRepresentation.cxx",
+   "label": "module_7ee096",
+   "label_original": "Plugins/BagPlotViewsAndFilters",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7ee096",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1767,
+    "completion_tokens": 60,
+    "total_tokens": 1827
+   },
+   "latency_ms": 3702.5
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_1caf.h",
+   "file_original": "Qt/ApplicationComponents/pqColorToolbar.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fe5734",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 660,
+    "completion_tokens": 46,
+    "total_tokens": 706
+   },
+   "latency_ms": 3481.9
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_4080.cxx",
+   "file_original": "Remoting/Views/vtkSMChartSeriesListDomain.cxx",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_80a31b",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code alone, because the module names are anonymized and no module descriptions were given. The file is vtkSMChartSeriesListDomain, which in ParaView sits in Remoting/Views (or Remoting/ServerManager). Without a mapping from those real modules to the obfuscated IDs, this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 114,
+    "total_tokens": 1792
+   },
+   "latency_ms": 4021.4
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_f807.h",
+   "file_original": "Qt/Core/pqLogViewerWidget.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_264039",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 67,
+    "total_tokens": 1185
+   },
+   "latency_ms": 3224.9
+  },
+  {
+   "file": "dir_0ce0/dir_3efe/file_0cfe.h",
+   "file_original": "Qt/Core/pqModalShortcut.h",
+   "label": "module_474394",
+   "label_original": "Qt/Core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 71,
+    "total_tokens": 1190
+   },
+   "latency_ms": 3279.8
+  },
+  {
+   "file": "dir_681c/dir_e163/file_576c.cxx",
+   "file_original": "Remoting/Animation/vtkXMLPVAnimationWriter.cxx",
+   "label": "module_43b87f",
+   "label_original": "Remoting/Animation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7af8f2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1618,
+    "completion_tokens": 3,
+    "total_tokens": 1621
+   },
+   "latency_ms": 2277.1
+  },
+  {
+   "file": "dir_681c/dir_e077/file_9434.h",
+   "file_original": "Remoting/ServerManager/vtkSMExtractWriterProxy.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96417a",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 79,
+    "total_tokens": 1228
+   },
+   "latency_ms": 5091.2
+  },
+  {
+   "file": "dir_62c2/dir_f7ec/dir_1b1a/file_edff.cxx",
+   "file_original": "Plugins/ZSpace/zSpace/vtkPVZSpaceSettings.cxx",
+   "label": "module_bdf821",
+   "label_original": "Plugins/ZSpace",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_993129",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1861,
+    "completion_tokens": 138,
+    "total_tokens": 1999
+   },
+   "latency_ms": 4046.6
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_f1aa.h",
+   "file_original": "Qt/Components/pqHelpWindow.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c09ec8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 59,
+    "total_tokens": 1235
+   },
+   "latency_ms": 3331.1
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_88a8.h",
+   "file_original": "Qt/Components/pqLinksEditor.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8c411a",
+   "correct": false,
+   "raw_response": "I can't tell which letter maps to pqComponents, because the module names are anonymized and no mapping to real names was given. The file itself clearly belongs to ParaView's pqComponents module (Qt/Components), since it uses the `PQCOMPONENTS_EXPORT` macro and includes `pqComponentsModule.h`. With nothing to link that module to a letter, the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 134,
+    "total_tokens": 1361
+   },
+   "latency_ms": 4028.8
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_5448.h",
+   "file_original": "Qt/ApplicationComponents/pqLockPanelsReaction.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4f2a08",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 688,
+    "completion_tokens": 54,
+    "total_tokens": 742
+   },
+   "latency_ms": 4232.6
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_d854.h",
+   "file_original": "Qt/Components/pqPropertyGroupWidget.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f7a0c8",
+   "correct": false,
+   "raw_response": "Without knowing the module mappings, there is no strong basis to choose. The file uses PQCOMPONENTS_EXPORT, so it belongs to pqComponents, but the candidate names are obfuscated and give no clue which one that is. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1430,
+    "completion_tokens": 89,
+    "total_tokens": 1519
+   },
+   "latency_ms": 3765.5
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_a5c2.h",
+   "file_original": "Qt/Components/pqTimerLogDisplay.h",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_15a91f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 908,
+    "completion_tokens": 41,
+    "total_tokens": 949
+   },
+   "latency_ms": 2862.4
+  },
+  {
+   "file": "dir_620b/dir_b82a/file_511e.h",
+   "file_original": "VTKExtensions/FiltersGeneral/vtkEquivalenceSet.h",
+   "label": "module_943113",
+   "label_original": "VTKExtensions/FiltersGeneral",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_943113",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1257,
+    "completion_tokens": 52,
+    "total_tokens": 1309
+   },
+   "latency_ms": 3389.7
+  },
+  {
+   "file": "dir_0ce0/dir_2649/file_5ae6.cxx",
+   "file_original": "Qt/Components/pqAnimationProgressDialog.cxx",
+   "label": "module_22bad0",
+   "label_original": "Qt/Components",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bee1e4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 101,
+    "total_tokens": 1296
+   },
+   "latency_ms": 5351.3
+  },
+  {
+   "file": "dir_681c/dir_b20d/file_835a.cxx",
+   "file_original": "Remoting/Views/vtkPVDiscretizableColorTransferFunction.cxx",
+   "label": "module_42dd99",
+   "label_original": "Remoting/Views",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_42dd99",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 217,
+    "total_tokens": 1893
+   },
+   "latency_ms": 4549.0
+  },
+  {
+   "file": "dir_681c/dir_e077/file_1fdd.cxx",
+   "file_original": "Remoting/ServerManager/vtkSMDataAssemblyListDomain.cxx",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_993b8c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is a ServerManager domain class (vtkSMDataAssemblyListDomain), so it belongs to the ServerManager/Core module, but the candidate names are anonymized and give no hint which one that is. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 90,
+    "total_tokens": 1433
+   },
+   "latency_ms": 3652.8
+  },
+  {
+   "file": "dir_62c2/dir_8302/file_0386.cxx",
+   "file_original": "Plugins/CAVEInteraction/vtkVRInteractorStyleFactory.cxx",
+   "label": "module_2462e2",
+   "label_original": "Plugins/CAVEInteraction",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_af091f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1879,
+    "completion_tokens": 53,
+    "total_tokens": 1932
+   },
+   "latency_ms": 3383.0
+  },
+  {
+   "file": "dir_620b/dir_b82a/file_3a0b.h",
+   "file_original": "VTKExtensions/FiltersGeneral/vtkPVTransposeTable.h",
+   "label": "module_943113",
+   "label_original": "VTKExtensions/FiltersGeneral",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_888a37",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct. The candidate names are anonymized and nothing links any of them to the code.\n\nThe code itself clearly places the file in ParaView's `VTKExtensions/FiltersGeneral` module (`vtkPVVTKExtensionsFiltersGeneral`). It includes `vtkPVVTKExtensionsFiltersGeneralModule.h` and uses the `VTKPVVTKEXTENSIONSFILTERSGENERAL_EXPORT` macro.\n\nWithout a mapping from that module to one of the letters, any choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 195,
+    "total_tokens": 1234
+   },
+   "latency_ms": 4997.2
+  },
+  {
+   "file": "dir_681c/dir_e077/file_de24.h",
+   "file_original": "Remoting/ServerManager/vtkSMProxyLocator.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c09ec8",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code. The header includes `vtkRemotingServerManagerModule.h` and uses `VTKREMOTINGSERVERMANAGER_EXPORT`, so it belongs to ParaView's RemotingServerManager module. But the candidate names (module_c09ec8, module_97e6b9, module_c89d9c, module_abf947) are anonymized, and nothing here links any of them to RemotingServerManager. The letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1562,
+    "completion_tokens": 161,
+    "total_tokens": 1723
+   },
+   "latency_ms": 4497.5
+  },
+  {
+   "file": "dir_681c/dir_e077/file_a483.h",
+   "file_original": "Remoting/ServerManager/vtkSMUncheckedPropertyHelper.h",
+   "label": "module_97e6b9",
+   "label_original": "Remoting/ServerManager",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e3cff8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 51,
+    "total_tokens": 706
+   },
+   "latency_ms": 2769.4
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_5941.h",
+   "file_original": "Qt/ApplicationComponents/pqYoungsMaterialPropertyWidget.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03cf1a",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1380,
+    "completion_tokens": 60,
+    "total_tokens": 1440
+   },
+   "latency_ms": 4944.0
+  },
+  {
+   "file": "dir_62c2/dir_f9a7/dir_e885/file_a9c8.h",
+   "file_original": "Plugins/Datamine/Readers/vtkDataMineBlockReader.h",
+   "label": "module_03cf1a",
+   "label_original": "Plugins/Datamine",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03cf1a",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 855,
+    "completion_tokens": 51,
+    "total_tokens": 906
+   },
+   "latency_ms": 3121.5
+  },
+  {
+   "file": "dir_0ce0/dir_0b30/file_a3ba.h",
+   "file_original": "Qt/ApplicationComponents/pqUse2DTransferFunctionReaction.h",
+   "label": "module_4f2a08",
+   "label_original": "Qt/ApplicationComponents",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2d9e37",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 60,
+    "total_tokens": 995
+   },
+   "latency_ms": 3284.6
+  },
+  {
+   "file": "dir_62c2/dir_ab05/dir_a0d9/dir_fffe/dir_1fd3/file_734f.h",
+   "file_original": "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_maths/GW_MathsConfig.h",
+   "label": "module_c09ec8",
+   "label_original": "Plugins/GeodesicMeasurement",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_c09ec8",
+   "correct": true,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 3,
+    "total_tokens": 1286
+   },
+   "latency_ms": 2678.7
+  },
+  {
+   "file": "dir_681c/dir_6a9d/file_88dc.h",
+   "file_original": "Remoting/Export/vtkSMGL2PSExporterProxy.h",
+   "label": "module_b58ece",
+   "label_original": "Remoting/Export",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_474394",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 55,
+    "total_tokens": 1031
+   },
+   "latency_ms": 3056.2
+  }
+ ],
+ "timestamp": "2026-10-02T21:30:21.159963",
+ "model": "claude-opus-5.5",
+ "project": "paraview",
+ "task": "ci_obfuscated",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42
+}

@@ -1,0 +1,132 @@
+{
+  "accuracy": 0.875,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1": 0.888888888888889,
+  "tp": 4,
+  "fp": 1,
+  "tn": 3,
+  "fn": 0,
+  "total": 8,
+  "n_api_errors": 0,
+  "n_retried": 3,
+  "usage_total": {
+    "prompt_tokens": 1916,
+    "completion_tokens": 2065,
+    "total_tokens": 3981
+  },
+  "results": [
+    {
+      "module_A": "bd",
+      "module_B": "mds",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 259,
+        "completion_tokens": 229,
+        "total_tokens": 488
+      },
+      "latency_ms": 3605.3
+    },
+    {
+      "module_A": "utility",
+      "module_B": "mis",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 222,
+        "completion_tokens": 830,
+        "total_tokens": 1052
+      },
+      "latency_ms": 10060.3
+    },
+    {
+      "module_A": "mds",
+      "module_B": "mis",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 311,
+        "completion_tokens": 91,
+        "total_tokens": 402
+      },
+      "latency_ms": 2695.1
+    },
+    {
+      "module_A": "mis",
+      "module_B": "mds",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 298,
+        "completion_tokens": 178,
+        "total_tokens": 476
+      },
+      "latency_ms": 3007.2
+    },
+    {
+      "module_A": "bd",
+      "module_B": "utility",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 213,
+        "completion_tokens": 90,
+        "total_tokens": 303
+      },
+      "latency_ms": 2407.2
+    },
+    {
+      "module_A": "utility",
+      "module_B": "rf",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 4,
+        "total_tokens": 181
+      },
+      "latency_ms": 2326.2
+    },
+    {
+      "module_A": "utility",
+      "module_B": "mds",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 229,
+        "completion_tokens": 625,
+        "total_tokens": 854
+      },
+      "latency_ms": 7938.4
+    },
+    {
+      "module_A": "bd",
+      "module_B": "rf",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 207,
+        "completion_tokens": 18,
+        "total_tokens": 225
+      },
+      "latency_ms": 4020.6
+    }
+  ],
+  "timestamp": "2026-10-22T08:58:11.891016",
+  "model": "gpt-6-sol",
+  "project": "nastran",
+  "task": "dp",
+  "level": 1,
+  "code_snippet_lines": 100,
+  "manifest_seed": 42,
+  "import_source": "dependency_raw"
+}

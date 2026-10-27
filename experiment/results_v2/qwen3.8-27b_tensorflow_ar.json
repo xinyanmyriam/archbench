@@ -1,0 +1,1386 @@
+{
+  "precision_at_5": 0.38461538461538425,
+  "recall_at_5": 0.36399433899433886,
+  "total": 65,
+  "results": [
+    {
+      "source_module": "tensorflow/python/distribute",
+      "true_targets": [
+        "tensorflow/dtensor/python",
+        "tensorflow/python/platform",
+        "tensorflow/c/eager",
+        "tensorflow/python/layers",
+        "tensorflow/python/tpu",
+        "tensorflow/python/client",
+        "tensorflow/python/training",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/distributed_runtime"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/core/distributed_runtime"
+    },
+    {
+      "source_module": "tensorflow/lite/toco",
+      "true_targets": [
+        "tensorflow/lite/testing",
+        "tensorflow/lite/python",
+        "tensorflow/core/public",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/c",
+        "tensorflow/core/platform",
+        "tensorflow/lite/schema",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/lite/core",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/lite/kernels"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "tensorflow/lite/core\ntensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/lite/kernels"
+    },
+    {
+      "source_module": "tensorflow/python/compiler",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/distribute",
+        "tensorflow/python/tpu",
+        "tensorflow/python/framework",
+        "tensorflow/python/profiler",
+        "tensorflow/python/summary"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/framework",
+        "tensorflow/python/util"
+      ],
+      "precision": 0.2,
+      "recall": 0.16666666666666666,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/compiler/tf2xla\ntensorflow/core/framework\ntensorflow/python/util"
+    },
+    {
+      "source_module": "tensorflow/c/eager",
+      "true_targets": [
+        "tensorflow/core/lib",
+        "tensorflow/core/profiler",
+        "tensorflow/core/framework",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/platform",
+        "tensorflow/core/config"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/common_runtime",
+        "tensorflow/python/eager",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/common_runtime\ntensorflow/python/eager\ntensorflow/core/platform\ntensorflow/core/lib"
+    },
+    {
+      "source_module": "tensorflow/compiler/mlir",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/kernels",
+        "tensorflow/core/util",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/tfrt",
+        "tensorflow/python/platform",
+        "tensorflow/c/eager",
+        "tensorflow/core/runtime_fallback",
+        "tensorflow/python/util",
+        "tensorflow/core/ir",
+        "tensorflow/core/framework",
+        "tensorflow/lite/kernels",
+        "tensorflow/python/autograph",
+        "tensorflow/cc/saved_model",
+        "tensorflow/core/transforms",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/platform",
+        "tensorflow/core/ir",
+        "tensorflow/dtensor/mlir"
+      ],
+      "precision": 0.8,
+      "recall": 0.25,
+      "raw_response": "tensorflow/core/framework\ntensorflow/compiler/tf2xla\ntensorflow/core/platform\ntensorflow/core/ir\ntensorflow/dtensor/mlir"
+    },
+    {
+      "source_module": "tensorflow/python/keras",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/client",
+        "tensorflow/python/training",
+        "tensorflow/python/profiler"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/python/training"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/python/training"
+    },
+    {
+      "source_module": "tensorflow/python/data",
+      "true_targets": [
+        "tensorflow/python/lib",
+        "tensorflow/python/platform",
+        "tensorflow/python/util",
+        "tensorflow/python/client",
+        "tensorflow/core/platform",
+        "tensorflow/python/training",
+        "tensorflow/python/profiler"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/core/data",
+        "tensorflow/python/util",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.2,
+      "recall": 0.14285714285714285,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/core/data\ntensorflow/python/util\ntensorflow/python/eager"
+    },
+    {
+      "source_module": "tensorflow/core/transforms",
+      "true_targets": [
+        "tensorflow/core/graph",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/ir",
+        "tensorflow/core/framework"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.6,
+      "recall": 0.6,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/graph\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/ops"
+    },
+    {
+      "source_module": "tensorflow/python/framework",
+      "true_targets": [
+        "tensorflow/python/types",
+        "tensorflow/python/eager",
+        "tensorflow/python/profiler",
+        "tensorflow/python/saved_model",
+        "tensorflow/core/public",
+        "tensorflow/python/distribute",
+        "tensorflow/c/experimental",
+        "tensorflow/core/platform",
+        "tensorflow/python/training",
+        "tensorflow/core/config",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/python/eager",
+        "tensorflow/python/training"
+      ],
+      "precision": 0.6,
+      "recall": 0.2727272727272727,
+      "raw_response": "tensorflow/python/ops\ntensorflow/python/util\ntensorflow/core/framework\ntensorflow/python/eager\ntensorflow/python/training"
+    },
+    {
+      "source_module": "tensorflow/dtensor/python",
+      "true_targets": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/util",
+        "tensorflow/python/framework",
+        "tensorflow/python/training",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/core/framework",
+        "tensorflow/dtensor/mlir",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/python/framework\ntensorflow/core/framework\ntensorflow/dtensor/mlir\ntensorflow/python/ops\ntensorflow/python/eager"
+    },
+    {
+      "source_module": "tensorflow/core/graph",
+      "true_targets": [
+        "tensorflow/core/kernels",
+        "tensorflow/core/public",
+        "tensorflow/core/framework",
+        "tensorflow/core/grappler",
+        "tensorflow/core/util",
+        "tensorflow/core/config"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/ops",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/ops\ntensorflow/core/util"
+    },
+    {
+      "source_module": "tensorflow/tools/common",
+      "true_targets": [
+        "tensorflow/python/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/python/util",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/python/util\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/python/tools",
+      "true_targets": [
+        "tensorflow/python/lib",
+        "tensorflow/python/trackable",
+        "tensorflow/python/compiler",
+        "tensorflow/core/platform",
+        "tensorflow/python/training",
+        "tensorflow/python/tpu"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/util\ntensorflow/core/framework\ntensorflow/python/eager"
+    },
+    {
+      "source_module": "tensorflow/python/feature_column",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/framework",
+        "tensorflow/python/training",
+        "tensorflow/python/trackable"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/python/eager",
+        "tensorflow/python/training"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/python/ops\ntensorflow/python/framework\ntensorflow/python/util\ntensorflow/python/eager\ntensorflow/python/training"
+    },
+    {
+      "source_module": "tensorflow/core/ops",
+      "true_targets": [
+        "tensorflow/core/tpu",
+        "tensorflow/core/public",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/graph",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/graph\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/python/tpu",
+      "true_targets": [
+        "tensorflow/core/tpu",
+        "tensorflow/python/trackable",
+        "tensorflow/python/compiler",
+        "tensorflow/python/framework",
+        "tensorflow/python/client",
+        "tensorflow/python/feature_column",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/core/tpu",
+        "tensorflow/python/eager",
+        "tensorflow/python/util"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/core/tpu\ntensorflow/python/eager\ntensorflow/python/util"
+    },
+    {
+      "source_module": "tensorflow/lite/python",
+      "true_targets": [
+        "tensorflow/python/saved_model",
+        "tensorflow/compiler/mlir",
+        "tensorflow/lite/tools",
+        "tensorflow/python/util",
+        "tensorflow/lite/kernels",
+        "tensorflow/python/framework",
+        "tensorflow/python/client",
+        "tensorflow/python/lib",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/lite/tools",
+        "tensorflow/lite/toco",
+        "tensorflow/python/framework",
+        "tensorflow/core/platform",
+        "tensorflow/lite/core"
+      ],
+      "precision": 0.4,
+      "recall": 0.2222222222222222,
+      "raw_response": "tensorflow/lite/tools\ntensorflow/lite/toco\ntensorflow/python/framework\ntensorflow/core/platform\ntensorflow/lite/core"
+    },
+    {
+      "source_module": "tensorflow/core/grappler",
+      "true_targets": [
+        "tensorflow/tools/graph_transforms",
+        "tensorflow/core/graph",
+        "tensorflow/core/public",
+        "tensorflow/compiler/mlir",
+        "tensorflow/cc/gradients",
+        "tensorflow/core/ir",
+        "tensorflow/cc/framework",
+        "tensorflow/core/transforms",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.4,
+      "recall": 0.2222222222222222,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/graph\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/core/tfrt",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/kernels",
+        "tensorflow/core/public",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/python/platform",
+        "tensorflow/core/lib",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/runtime_fallback",
+        "tensorflow/core/profiler",
+        "tensorflow/cc/framework",
+        "tensorflow/cc/saved_model",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/kernels"
+      ],
+      "precision": 0.6,
+      "recall": 0.25,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/kernels"
+    },
+    {
+      "source_module": "tensorflow/core/profiler",
+      "true_targets": [
+        "tensorflow/core/graph",
+        "tensorflow/core/util",
+        "tensorflow/core/public",
+        "tensorflow/core/common_runtime"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/util"
+    },
+    {
+      "source_module": "tensorflow/compiler/jit",
+      "true_targets": [
+        "tensorflow/core/graph",
+        "tensorflow/core/tpu",
+        "tensorflow/core/public",
+        "tensorflow/core/common_runtime",
+        "tensorflow/tools/optimization",
+        "tensorflow/core/lib",
+        "tensorflow/compiler/mlir",
+        "tensorflow/python/framework",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/platform",
+        "tensorflow/core/ir"
+      ],
+      "precision": 0.2,
+      "recall": 0.1111111111111111,
+      "raw_response": "tensorflow/core/framework\ntensorflow/compiler/tf2xla\ntensorflow/core/common_runtime\ntensorflow/core/platform\ntensorflow/core/ir"
+    },
+    {
+      "source_module": "tensorflow/python/summary",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/python/training",
+        "tensorflow/python/lib",
+        "tensorflow/python/distribute"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "tensorflow/python/ops\ntensorflow/python/framework\ntensorflow/python/util\ntensorflow/core/framework\ntensorflow/python/eager"
+    },
+    {
+      "source_module": "tensorflow/core/platform",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/framework",
+        "tensorflow/core/lib"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/core/graph",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/util\ntensorflow/core/graph\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/c/experimental",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/tfrt",
+        "tensorflow/core/lib",
+        "tensorflow/cc/saved_model",
+        "tensorflow/python/framework"
+      ],
+      "predicted": [
+        "tensorflow/c/eager",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/python/framework"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/c/eager\ntensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/python/framework"
+    },
+    {
+      "source_module": "tensorflow/python/util",
+      "true_targets": [
+        "tensorflow/core/graph",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/lib",
+        "tensorflow/core/profiler",
+        "tensorflow/python/framework",
+        "tensorflow/core/platform",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/python/ops",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "raw_response": "tensorflow/python/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/python/ops\ntensorflow/core/framework"
+    },
+    {
+      "source_module": "tensorflow/core/kernels",
+      "true_targets": [
+        "tensorflow/core/graph",
+        "tensorflow/cc/ops",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/lib",
+        "tensorflow/core/profiler",
+        "tensorflow/core/debug",
+        "tensorflow/core/summary",
+        "tensorflow/core/grappler",
+        "tensorflow/core/activity_watcher",
+        "tensorflow/c/experimental"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.4,
+      "recall": 0.2,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/ops"
+    },
+    {
+      "source_module": "tensorflow/python/platform",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/core/platform",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/util\ntensorflow/core/platform\ntensorflow/python/ops\ntensorflow/python/eager"
+    },
+    {
+      "source_module": "tensorflow/tools/proto_splitter",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/framework",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/python/framework",
+        "tensorflow/tools/graph_transforms",
+        "tensorflow/core/ir",
+        "tensorflow/core/platform"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/core/framework\ntensorflow/python/framework\ntensorflow/tools/graph_transforms\ntensorflow/core/ir\ntensorflow/core/platform"
+    },
+    {
+      "source_module": "tensorflow/core/function",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/c/eager",
+        "tensorflow/core/lib",
+        "tensorflow/python/util",
+        "tensorflow/python/autograph",
+        "tensorflow/core/platform",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/graph",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.6,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/graph\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/lite/kernels",
+      "true_targets": [
+        "tensorflow/core/lib",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/example",
+        "tensorflow/lite/nnapi",
+        "tensorflow/lite/delegates",
+        "tensorflow/lite/c",
+        "tensorflow/core/platform",
+        "tensorflow/lite/schema",
+        "tensorflow/lite/core"
+      ],
+      "predicted": [
+        "tensorflow/lite/core",
+        "tensorflow/core/platform",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/lite/delegates"
+      ],
+      "precision": 0.8,
+      "recall": 0.4444444444444444,
+      "raw_response": "tensorflow/lite/core\ntensorflow/core/platform\ntensorflow/core/framework\ntensorflow/core/lib\ntensorflow/lite/delegates"
+    },
+    {
+      "source_module": "tensorflow/lite/tools",
+      "true_targets": [
+        "tensorflow/lite/experimental",
+        "tensorflow/core/util",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/core/lib",
+        "tensorflow/compiler/mlir",
+        "tensorflow/python/util",
+        "tensorflow/lite/types",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/profiling",
+        "tensorflow/core/platform",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/lite/toco",
+        "tensorflow/lite/core",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/python",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.2,
+      "recall": 0.08333333333333333,
+      "raw_response": "tensorflow/lite/toco\ntensorflow/lite/core\ntensorflow/lite/kernels\ntensorflow/lite/python\ntensorflow/core/framework"
+    },
+    {
+      "source_module": "tensorflow/tools/api",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/core/framework",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/framework",
+        "tensorflow/python/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/python/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/framework\ntensorflow/python/util"
+    },
+    {
+      "source_module": "tensorflow/lite/experimental",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/lite/tools",
+        "tensorflow/lite/nnapi",
+        "tensorflow/core/framework",
+        "tensorflow/python/framework",
+        "tensorflow/core/platform",
+        "tensorflow/lite/schema",
+        "tensorflow/lite/core"
+      ],
+      "predicted": [
+        "tensorflow/lite/core",
+        "tensorflow/lite/kernels",
+        "tensorflow/lite/delegates",
+        "tensorflow/lite/tools",
+        "tensorflow/lite/python"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "tensorflow/lite/core\ntensorflow/lite/kernels\ntensorflow/lite/delegates\ntensorflow/lite/tools\ntensorflow/lite/python"
+    },
+    {
+      "source_module": "tensorflow/compiler/tf2xla",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/graph",
+        "tensorflow/cc/ops",
+        "tensorflow/core/tpu",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/util",
+        "tensorflow/cc/framework",
+        "tensorflow/core/platform",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/ir",
+        "tensorflow/core/lib"
+      ],
+      "precision": 0.2,
+      "recall": 0.1111111111111111,
+      "raw_response": "tensorflow/compiler/mlir\ntensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/ir\ntensorflow/core/lib"
+    },
+    {
+      "source_module": "tensorflow/dtensor/cc",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/public",
+        "tensorflow/dtensor/mlir",
+        "tensorflow/core/lib",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/profiler",
+        "tensorflow/core/framework"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/dtensor/mlir",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.6,
+      "recall": 0.42857142857142855,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/dtensor/mlir\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/c/kernels",
+      "true_targets": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/kernels",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "tensorflow/core/kernels\ntensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/python/dlpack",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/python/util"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/core/framework",
+        "tensorflow/python/util",
+        "tensorflow/core/platform"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/core/framework\ntensorflow/python/util\ntensorflow/core/platform"
+    },
+    {
+      "source_module": "tensorflow/python/ops",
+      "true_targets": [
+        "tensorflow/python/eager",
+        "tensorflow/dtensor/python",
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/util",
+        "tensorflow/python/autograph",
+        "tensorflow/python/compiler",
+        "tensorflow/python/client",
+        "tensorflow/core/config"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/python/eager",
+        "tensorflow/python/data"
+      ],
+      "precision": 0.4,
+      "recall": 0.2222222222222222,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/util\ntensorflow/core/framework\ntensorflow/python/eager\ntensorflow/python/data"
+    },
+    {
+      "source_module": "tensorflow/core/tpu",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/util",
+        "tensorflow/compiler/tf2xla",
+        "tensorflow/core/lib",
+        "tensorflow/core/profiler",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/config"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/compiler/tf2xla"
+      ],
+      "precision": 0.8,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/compiler/tf2xla"
+    },
+    {
+      "source_module": "tensorflow/core/user_ops",
+      "true_targets": [
+        "tensorflow/core/framework"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/ops",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/ops\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/cc/saved_model",
+      "true_targets": [
+        "tensorflow/tools/proto_splitter",
+        "tensorflow/python/platform",
+        "tensorflow/c/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/python/framework",
+        "tensorflow/python/client",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/ops"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/ops"
+    },
+    {
+      "source_module": "tensorflow/python/training",
+      "true_targets": [
+        "tensorflow/python/types",
+        "tensorflow/core/common_runtime",
+        "tensorflow/python/checkpoint",
+        "tensorflow/python/layers",
+        "tensorflow/python/util",
+        "tensorflow/python/feature_column",
+        "tensorflow/python/lib",
+        "tensorflow/python/summary"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/python/framework",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/python/data"
+      ],
+      "precision": 0.2,
+      "recall": 0.125,
+      "raw_response": "tensorflow/python/ops\ntensorflow/python/framework\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/python/data"
+    },
+    {
+      "source_module": "tensorflow/core/data",
+      "true_targets": [
+        "tensorflow/core/graph",
+        "tensorflow/core/public",
+        "tensorflow/core/profiler",
+        "tensorflow/core/framework",
+        "tensorflow/core/grappler",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/ops",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/ops\ntensorflow/core/util"
+    },
+    {
+      "source_module": "tensorflow/python/grappler",
+      "true_targets": [
+        "tensorflow/core/common_runtime",
+        "tensorflow/python/layers",
+        "tensorflow/python/framework",
+        "tensorflow/python/client",
+        "tensorflow/core/platform",
+        "tensorflow/python/training",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/core/grappler",
+        "tensorflow/python/ops",
+        "tensorflow/core/framework",
+        "tensorflow/python/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "tensorflow/python/framework\ntensorflow/core/grappler\ntensorflow/python/ops\ntensorflow/core/framework\ntensorflow/python/util"
+    },
+    {
+      "source_module": "tensorflow/compiler/tf2tensorrt",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/kernels",
+        "tensorflow/core/graph",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/framework",
+        "tensorflow/core/grappler",
+        "tensorflow/cc/tools",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/python/ops"
+      ],
+      "precision": 0.2,
+      "recall": 0.125,
+      "raw_response": "tensorflow/core/framework\ntensorflow/compiler/mlir\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/python/ops"
+    },
+    {
+      "source_module": "tensorflow/compiler/aot",
+      "true_targets": [
+        "tensorflow/python/framework",
+        "tensorflow/core/lib",
+        "tensorflow/python/client",
+        "tensorflow/python/training"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "tensorflow/core/framework\ntensorflow/compiler/mlir\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime"
+    },
+    {
+      "source_module": "tensorflow/python/profiler",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/util",
+        "tensorflow/python/distribute",
+        "tensorflow/python/training",
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/core/profiler",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/util\ntensorflow/core/profiler\ntensorflow/python/ops\ntensorflow/python/eager"
+    },
+    {
+      "source_module": "tensorflow/core/distributed_runtime",
+      "true_targets": [
+        "tensorflow/cc/ops",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/nccl",
+        "tensorflow/core/lib",
+        "tensorflow/core/profiler",
+        "tensorflow/core/activity_watcher",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/common_runtime\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/graph"
+    },
+    {
+      "source_module": "tensorflow/core/summary",
+      "true_targets": [
+        "tensorflow/core/kernels",
+        "tensorflow/core/platform",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/ops",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/ops\ntensorflow/core/util"
+    },
+    {
+      "source_module": "tensorflow/python/kernel_tests",
+      "true_targets": [
+        "tensorflow/python/eager",
+        "tensorflow/python/ops",
+        "tensorflow/python/distribute",
+        "tensorflow/python/util",
+        "tensorflow/python/training",
+        "tensorflow/python/summary"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/core/kernels",
+        "tensorflow/python/framework",
+        "tensorflow/python/eager",
+        "tensorflow/core/platform"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/python/ops\ntensorflow/core/kernels\ntensorflow/python/framework\ntensorflow/python/eager\ntensorflow/core/platform"
+    },
+    {
+      "source_module": "tensorflow/python/lib",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/c/eager",
+        "tensorflow/core/framework",
+        "tensorflow/python/framework",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/core/lib",
+        "tensorflow/python/framework",
+        "tensorflow/python/util",
+        "tensorflow/core/platform",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "tensorflow/core/lib\ntensorflow/python/framework\ntensorflow/python/util\ntensorflow/core/platform\ntensorflow/core/framework"
+    },
+    {
+      "source_module": "tensorflow/core/framework",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/kernels",
+        "tensorflow/core/graph",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/activity_watcher",
+        "tensorflow/core/util",
+        "tensorflow/cc/client"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/ir",
+        "tensorflow/core/graph",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/ir\ntensorflow/core/graph\ntensorflow/core/util"
+    },
+    {
+      "source_module": "tensorflow/core/util",
+      "true_targets": [
+        "tensorflow/core/lib",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/core/common_runtime"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "tensorflow/core/platform\ntensorflow/core/framework\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/graph"
+    },
+    {
+      "source_module": "tensorflow/distribute/experimental",
+      "true_targets": [
+        "tensorflow/core/framework",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/common_runtime"
+      ],
+      "predicted": [
+        "tensorflow/python/distribute",
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/core/framework",
+        "tensorflow/python/util"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/python/distribute\ntensorflow/python/framework\ntensorflow/python/ops\ntensorflow/core/framework\ntensorflow/python/util"
+    },
+    {
+      "source_module": "tensorflow/tools/benchmark",
+      "true_targets": [
+        "tensorflow/core/lib",
+        "tensorflow/core/util",
+        "tensorflow/core/platform",
+        "tensorflow/cc/framework"
+      ],
+      "predicted": [
+        "tensorflow/python/ops",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/python/util",
+        "tensorflow/core/lib"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/python/ops\ntensorflow/core/framework\ntensorflow/core/platform\ntensorflow/python/util\ntensorflow/core/lib"
+    },
+    {
+      "source_module": "tensorflow/dtensor/mlir",
+      "true_targets": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/platform",
+        "tensorflow/core/public",
+        "tensorflow/core/util"
+      ],
+      "predicted": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/framework",
+        "tensorflow/dtensor/python",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/compiler/mlir\ntensorflow/core/framework\ntensorflow/dtensor/python\ntensorflow/core/platform\ntensorflow/core/lib"
+    },
+    {
+      "source_module": "tensorflow/tools/gcs_test",
+      "true_targets": [
+        "tensorflow/python/lib"
+      ],
+      "predicted": [
+        "tensorflow/core/platform",
+        "tensorflow/python/util",
+        "tensorflow/core/lib",
+        "tensorflow/core/framework",
+        "tensorflow/python/ops"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "tensorflow/core/platform\ntensorflow/python/util\ntensorflow/core/lib\ntensorflow/core/framework\ntensorflow/python/ops"
+    },
+    {
+      "source_module": "tensorflow/python/client",
+      "true_targets": [
+        "tensorflow/core/public",
+        "tensorflow/core/util",
+        "tensorflow/python/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/framework",
+        "tensorflow/core/distributed_runtime",
+        "tensorflow/core/platform"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.2,
+      "recall": 0.14285714285714285,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/core/framework"
+    },
+    {
+      "source_module": "tensorflow/compiler/tests",
+      "true_targets": [
+        "tensorflow/compiler/jit",
+        "tensorflow/core/graph",
+        "tensorflow/python/platform",
+        "tensorflow/python/layers",
+        "tensorflow/core/framework",
+        "tensorflow/python/compiler",
+        "tensorflow/python/framework",
+        "tensorflow/python/client",
+        "tensorflow/core/platform",
+        "tensorflow/python/tpu"
+      ],
+      "predicted": [
+        "tensorflow/compiler/mlir",
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/python/ops"
+      ],
+      "precision": 0.4,
+      "recall": 0.2,
+      "raw_response": "tensorflow/compiler/mlir\ntensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/python/ops"
+    },
+    {
+      "source_module": "tensorflow/cc/ops",
+      "true_targets": [
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/common_runtime",
+        "tensorflow/cc/client"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/ops",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/ops\ntensorflow/core/graph"
+    },
+    {
+      "source_module": "tensorflow/python/saved_model",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/trackable",
+        "tensorflow/python/util",
+        "tensorflow/cc/saved_model",
+        "tensorflow/python/client",
+        "tensorflow/python/training",
+        "tensorflow/core/config",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/eager",
+        "tensorflow/python/util",
+        "tensorflow/core/framework"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/eager\ntensorflow/python/util\ntensorflow/core/framework"
+    },
+    {
+      "source_module": "tensorflow/cc/tools",
+      "true_targets": [
+        "tensorflow/core/framework",
+        "tensorflow/core/lib",
+        "tensorflow/core/public",
+        "tensorflow/cc/framework"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib",
+        "tensorflow/core/common_runtime",
+        "tensorflow/core/graph"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/platform\ntensorflow/core/lib\ntensorflow/core/common_runtime\ntensorflow/core/graph"
+    },
+    {
+      "source_module": "tensorflow/cc/gradients",
+      "true_targets": [
+        "tensorflow/core/lib",
+        "tensorflow/cc/framework",
+        "tensorflow/cc/client"
+      ],
+      "predicted": [
+        "tensorflow/core/framework",
+        "tensorflow/core/ops",
+        "tensorflow/core/graph",
+        "tensorflow/core/platform",
+        "tensorflow/core/lib"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "tensorflow/core/framework\ntensorflow/core/ops\ntensorflow/core/graph\ntensorflow/core/platform\ntensorflow/core/lib"
+    },
+    {
+      "source_module": "tensorflow/python/debug",
+      "true_targets": [
+        "tensorflow/python/platform",
+        "tensorflow/python/framework",
+        "tensorflow/python/training",
+        "tensorflow/python/ops"
+      ],
+      "predicted": [
+        "tensorflow/python/framework",
+        "tensorflow/python/ops",
+        "tensorflow/python/util",
+        "tensorflow/core/framework",
+        "tensorflow/python/eager"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/python/framework\ntensorflow/python/ops\ntensorflow/python/util\ntensorflow/core/framework\ntensorflow/python/eager"
+    },
+    {
+      "source_module": "tensorflow/lite/profiling",
+      "true_targets": [
+        "tensorflow/lite/delegates",
+        "tensorflow/core/util",
+        "tensorflow/lite/tools",
+        "tensorflow/lite/kernels"
+      ],
+      "predicted": [
+        "tensorflow/lite/core",
+        "tensorflow/core/platform",
+        "tensorflow/core/framework",
+        "tensorflow/lite/kernels",
+        "tensorflow/core/util"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "tensorflow/lite/core\ntensorflow/core/platform\ntensorflow/core/framework\ntensorflow/lite/kernels\ntensorflow/core/util"
+    }
+  ],
+  "n_api_errors": 0
+}

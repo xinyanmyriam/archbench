@@ -1,0 +1,1223 @@
+{
+  "precision_at_5": 0.3086956521739129,
+  "recall_at_5": 0.8626811594202899,
+  "total": 46,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 55768,
+    "completion_tokens": 17858,
+    "total_tokens": 73626
+  },
+  "results": [
+    {
+      "source_module": "applications/solvers/multiphase/MPPICInterFoam",
+      "true_targets": [
+        "applications",
+        "src",
+        "src/lagrangian"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/transportModels"
+      ],
+      "predicted": [
+        "src",
+        "applications",
+        "src/lagrangian",
+        "src/mesh",
+        "src/thermophysicalModels"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "src\napplications\nsrc/lagrangian\nsrc/mesh\nsrc/thermophysicalModels",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 419,
+        "total_tokens": 1658
+      },
+      "latency_ms": 7622.9
+    },
+    {
+      "source_module": "applications/solvers/multiphase/driftFluxFoam",
+      "true_targets": [
+        "src",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels"
+      ],
+      "predicted": [
+        "src",
+        "src/transportModels",
+        "applications",
+        "src/thermophysicalModels",
+        "src/mesh"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/transportModels\napplications\nsrc/thermophysicalModels\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 540,
+        "total_tokens": 1774
+      },
+      "latency_ms": 26798.1
+    },
+    {
+      "source_module": "src",
+      "true_targets": [
+        "src/lagrangian",
+        "src/mesh",
+        "src/phaseSystemModels/multiphaseInter",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/functionObjects",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src/lagrangian",
+        "src/transportModels",
+        "src/mesh",
+        "src/parallel",
+        "src/regionModels"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "src/lagrangian\nsrc/transportModels\nsrc/mesh\nsrc/parallel\nsrc/regionModels",
+      "usage": {
+        "prompt_tokens": 1176,
+        "completion_tokens": 322,
+        "total_tokens": 1498
+      },
+      "latency_ms": 10472.4
+    },
+    {
+      "source_module": "src/functionObjects/randomProcesses",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [
+        "src/randomProcesses"
+      ],
+      "predicted": [
+        "src",
+        "src/functionObjects",
+        "src/lagrangian",
+        "src/TurbulenceModels",
+        "src/thermophysicalModels"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/functionObjects\nsrc/lagrangian\nsrc/TurbulenceModels\nsrc/thermophysicalModels",
+      "usage": {
+        "prompt_tokens": 1206,
+        "completion_tokens": 189,
+        "total_tokens": 1395
+      },
+      "latency_ms": 5045.4
+    },
+    {
+      "source_module": "src/parallel/reconstruct",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [
+        "src/lagrangian"
+      ],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/parallel/decompose",
+        "src/parallel",
+        "src/thermophysicalModels"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/mesh\nsrc/parallel/decompose\nsrc/parallel\nsrc/thermophysicalModels",
+      "usage": {
+        "prompt_tokens": 1210,
+        "completion_tokens": 473,
+        "total_tokens": 1683
+      },
+      "latency_ms": 8746.1
+    },
+    {
+      "source_module": "applications/utilities/preProcessing/boxTurb",
+      "true_targets": [
+        "src/randomProcesses"
+      ],
+      "shown_deps": [
+        "src"
+      ],
+      "predicted": [
+        "src/randomProcesses",
+        "src/mesh",
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "src/parallel"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src/randomProcesses\nsrc/mesh\nsrc/TurbulenceModels\nsrc/transportModels\nsrc/parallel",
+      "usage": {
+        "prompt_tokens": 1222,
+        "completion_tokens": 543,
+        "total_tokens": 1765
+      },
+      "latency_ms": 10541.0
+    },
+    {
+      "source_module": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam",
+      "true_targets": [
+        "applications",
+        "src",
+        "src/thermophysicalModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/lagrangian"
+      ],
+      "predicted": [
+        "src",
+        "src/thermophysicalModels",
+        "src/transportModels",
+        "src/phaseSystemModels/multiphaseInter",
+        "applications"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/thermophysicalModels\nsrc/transportModels\nsrc/phaseSystemModels/multiphaseInter\napplications",
+      "usage": {
+        "prompt_tokens": 1251,
+        "completion_tokens": 254,
+        "total_tokens": 1505
+      },
+      "latency_ms": 11428.8
+    },
+    {
+      "source_module": "applications/utilities/mesh/generation",
+      "true_targets": [
+        "src/parallel/decompose",
+        "src/parallel/reconstruct"
+      ],
+      "shown_deps": [
+        "src",
+        "src/mesh"
+      ],
+      "predicted": [
+        "applications/utilities/mesh/generation/foamyMesh",
+        "applications/utilities/mesh/generation/extrude2DMesh",
+        "src/parallel/decompose",
+        "src/parallel",
+        "src/lagrangian"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "applications/utilities/mesh/generation/foamyMesh\napplications/utilities/mesh/generation/extrude2DMesh\nsrc/parallel/decompose\nsrc/parallel\nsrc/lagrangian",
+      "usage": {
+        "prompt_tokens": 1202,
+        "completion_tokens": 340,
+        "total_tokens": 1542
+      },
+      "latency_ms": 9465.3
+    },
+    {
+      "source_module": "src/conversion/ccm",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [
+        "src/conversion"
+      ],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/parallel",
+        "src/parallel/decompose",
+        "src/lagrangian"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/mesh\nsrc/parallel\nsrc/parallel/decompose\nsrc/lagrangian",
+      "usage": {
+        "prompt_tokens": 1213,
+        "completion_tokens": 503,
+        "total_tokens": 1716
+      },
+      "latency_ms": 39605.3
+    },
+    {
+      "source_module": "src/functionObjects",
+      "true_targets": [
+        "src",
+        "src/TurbulenceModels",
+        "src/fvAgglomerationMethods",
+        "src/lagrangian",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src/conversion",
+        "src/phaseSystemModels/multiphaseInter",
+        "src/phaseSystemModels/reactingEuler",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "src/lagrangian",
+        "src/mesh"
+      ],
+      "precision": 0.8,
+      "recall": 0.8,
+      "raw_response": "src\nsrc/TurbulenceModels\nsrc/transportModels\nsrc/lagrangian\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1176,
+        "completion_tokens": 160,
+        "total_tokens": 1336
+      },
+      "latency_ms": 9603.8
+    },
+    {
+      "source_module": "applications",
+      "true_targets": [
+        "applications/utilities/mesh/generation/foamyMesh",
+        "src",
+        "src/conversion",
+        "src/fvAgglomerationMethods",
+        "src/lagrangian/molecularDynamics",
+        "src/mesh",
+        "src/parallel",
+        "src/parallel/decompose",
+        "src/parallel/reconstruct",
+        "src/phaseSystemModels/twoPhaseInter"
+      ],
+      "shown_deps": [
+        "src/OSspecific/POSIX",
+        "src/TurbulenceModels",
+        "src/functionObjects",
+        "src/lagrangian",
+        "src/phaseSystemModels/reactingEuler",
+        "src/regionModels",
+        "src/renumber",
+        "src/thermophysicalModels",
+        "src/transportModels"
+      ],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/parallel/decompose",
+        "src/phaseSystemModels/multiphaseInter",
+        "src/phaseSystemModels/twoPhaseEuler"
+      ],
+      "precision": 0.6,
+      "recall": 0.3,
+      "raw_response": "src\nsrc/mesh\nsrc/parallel/decompose\nsrc/phaseSystemModels/multiphaseInter\nsrc/phaseSystemModels/twoPhaseEuler",
+      "usage": {
+        "prompt_tokens": 1212,
+        "completion_tokens": 288,
+        "total_tokens": 1500
+      },
+      "latency_ms": 10004.5
+    },
+    {
+      "source_module": "applications/solvers/multiphase/interPhaseChangeFoam",
+      "true_targets": [
+        "src/TurbulenceModels",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src"
+      ],
+      "predicted": [
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "src/thermophysicalModels",
+        "applications",
+        "src/phaseSystemModels/multiphaseInter"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src/TurbulenceModels\nsrc/transportModels\nsrc/thermophysicalModels\napplications\nsrc/phaseSystemModels/multiphaseInter",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 285,
+        "total_tokens": 1519
+      },
+      "latency_ms": 6619.1
+    },
+    {
+      "source_module": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
+      "true_targets": [
+        "applications",
+        "src",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "applications",
+        "src/transportModels",
+        "src/mesh",
+        "src/regionModels"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "src\napplications\nsrc/transportModels\nsrc/mesh\nsrc/regionModels",
+      "usage": {
+        "prompt_tokens": 1248,
+        "completion_tokens": 287,
+        "total_tokens": 1535
+      },
+      "latency_ms": 7217.1
+    },
+    {
+      "source_module": "src/TurbulenceModels",
+      "true_targets": [
+        "src",
+        "src/thermophysicalModels"
+      ],
+      "shown_deps": [
+        "src/transportModels"
+      ],
+      "predicted": [
+        "src",
+        "src/thermophysicalModels",
+        "src/mesh",
+        "src/parallel",
+        "src/lagrangian"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/thermophysicalModels\nsrc/mesh\nsrc/parallel\nsrc/lagrangian",
+      "usage": {
+        "prompt_tokens": 1200,
+        "completion_tokens": 451,
+        "total_tokens": 1651
+      },
+      "latency_ms": 15000.2
+    },
+    {
+      "source_module": "applications/solvers/compressible/rhoCentralFoam",
+      "true_targets": [
+        "src",
+        "src/TurbulenceModels"
+      ],
+      "shown_deps": [
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "applications",
+        "src/mesh"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/TurbulenceModels\nsrc/transportModels\napplications\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 229,
+        "total_tokens": 1460
+      },
+      "latency_ms": 24998.4
+    },
+    {
+      "source_module": "src/renumber",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/parallel/decompose",
+        "src/parallel",
+        "src/dummyThirdParty"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/mesh\nsrc/parallel/decompose\nsrc/parallel\nsrc/dummyThirdParty",
+      "usage": {
+        "prompt_tokens": 1191,
+        "completion_tokens": 323,
+        "total_tokens": 1514
+      },
+      "latency_ms": 10616.4
+    },
+    {
+      "source_module": "src/parallel",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [
+        "src/parallel/decompose"
+      ],
+      "predicted": [
+        "src",
+        "src/parallel/reconstruct",
+        "src/lagrangian",
+        "src/mesh",
+        "src/Pstream"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/parallel/reconstruct\nsrc/lagrangian\nsrc/mesh\nsrc/Pstream",
+      "usage": {
+        "prompt_tokens": 1202,
+        "completion_tokens": 367,
+        "total_tokens": 1569
+      },
+      "latency_ms": 6719.7
+    },
+    {
+      "source_module": "applications/utilities/mesh/generation/extrude2DMesh",
+      "true_targets": [
+        "src",
+        "src/parallel/reconstruct"
+      ],
+      "shown_deps": [
+        "src/mesh"
+      ],
+      "predicted": [
+        "src",
+        "src/parallel/decompose",
+        "src/parallel",
+        "src/lagrangian",
+        "src/parallel/reconstruct"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/parallel/decompose\nsrc/parallel\nsrc/lagrangian\nsrc/parallel/reconstruct",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 323,
+        "total_tokens": 1557
+      },
+      "latency_ms": 8402.6
+    },
+    {
+      "source_module": "applications/solvers/multiphase/compressibleInterFoam",
+      "true_targets": [
+        "applications",
+        "src",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/regionModels",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "src/transportModels",
+        "src/mesh",
+        "src/functionObjects",
+        "src/lagrangian"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "src\nsrc/transportModels\nsrc/mesh\nsrc/functionObjects\nsrc/lagrangian",
+      "usage": {
+        "prompt_tokens": 1218,
+        "completion_tokens": 922,
+        "total_tokens": 2140
+      },
+      "latency_ms": 16503.1
+    },
+    {
+      "source_module": "src/fvAgglomerationMethods",
+      "true_targets": [
+        "src/dummyThirdParty"
+      ],
+      "shown_deps": [
+        "src"
+      ],
+      "predicted": [
+        "src/mesh",
+        "src/parallel/decompose",
+        "src/parallel",
+        "src/dummyThirdParty",
+        "src/renumber"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src/mesh\nsrc/parallel/decompose\nsrc/parallel\nsrc/dummyThirdParty\nsrc/renumber",
+      "usage": {
+        "prompt_tokens": 1216,
+        "completion_tokens": 465,
+        "total_tokens": 1681
+      },
+      "latency_ms": 6138.7
+    },
+    {
+      "source_module": "src/regionModels",
+      "true_targets": [
+        "src",
+        "src/lagrangian"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "src/transportModels",
+        "src/lagrangian",
+        "src/mesh",
+        "src/parallel"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/transportModels\nsrc/lagrangian\nsrc/mesh\nsrc/parallel",
+      "usage": {
+        "prompt_tokens": 1193,
+        "completion_tokens": 232,
+        "total_tokens": 1425
+      },
+      "latency_ms": 19822.9
+    },
+    {
+      "source_module": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
+      "true_targets": [
+        "src",
+        "src/TurbulenceModels"
+      ],
+      "shown_deps": [
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "applications",
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "src/regionModels"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\napplications\nsrc/TurbulenceModels\nsrc/transportModels\nsrc/regionModels",
+      "usage": {
+        "prompt_tokens": 1246,
+        "completion_tokens": 389,
+        "total_tokens": 1635
+      },
+      "latency_ms": 12782.7
+    },
+    {
+      "source_module": "applications/utilities/postProcessing/noise",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [
+        "src/randomProcesses"
+      ],
+      "predicted": [
+        "src",
+        "applications",
+        "src/mesh",
+        "src/functionObjects",
+        "src/parallel"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\napplications\nsrc/mesh\nsrc/functionObjects\nsrc/parallel",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 290,
+        "total_tokens": 1504
+      },
+      "latency_ms": 11337.8
+    },
+    {
+      "source_module": "src/lagrangian",
+      "true_targets": [
+        "src",
+        "src/regionModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "src/transportModels",
+        "src/mesh",
+        "src/randomProcesses",
+        "src/parallel"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "src\nsrc/transportModels\nsrc/mesh\nsrc/randomProcesses\nsrc/parallel",
+      "usage": {
+        "prompt_tokens": 1196,
+        "completion_tokens": 382,
+        "total_tokens": 1578
+      },
+      "latency_ms": 8153.2
+    },
+    {
+      "source_module": "src/phaseSystemModels/multiphaseInter",
+      "true_targets": [
+        "src",
+        "src/phaseSystemModels/reactingEuler",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src",
+        "src/transportModels",
+        "src/lagrangian",
+        "src/phaseSystemModels/twoPhaseInter",
+        "src/mesh"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "src\nsrc/transportModels\nsrc/lagrangian\nsrc/phaseSystemModels/twoPhaseInter\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1197,
+        "completion_tokens": 304,
+        "total_tokens": 1501
+      },
+      "latency_ms": 14820.6
+    },
+    {
+      "source_module": "applications/utilities/mesh/generation/foamyMesh",
+      "true_targets": [
+        "applications/utilities/mesh/generation/extrude2DMesh",
+        "src"
+      ],
+      "shown_deps": [
+        "src/mesh",
+        "src/parallel/decompose"
+      ],
+      "predicted": [
+        "src",
+        "src/parallel/reconstruct",
+        "src/parallel",
+        "src/OSspecific/POSIX",
+        "src/randomProcesses"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "src\nsrc/parallel/reconstruct\nsrc/parallel\nsrc/OSspecific/POSIX\nsrc/randomProcesses",
+      "usage": {
+        "prompt_tokens": 1202,
+        "completion_tokens": 544,
+        "total_tokens": 1746
+      },
+      "latency_ms": 6895.8
+    },
+    {
+      "source_module": "src/phaseSystemModels/reactingEuler",
+      "true_targets": [
+        "src",
+        "src/thermophysicalModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels"
+      ],
+      "predicted": [
+        "src",
+        "src/thermophysicalModels",
+        "src/transportModels",
+        "src/phaseSystemModels/twoPhaseEuler",
+        "src/lagrangian"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/thermophysicalModels\nsrc/transportModels\nsrc/phaseSystemModels/twoPhaseEuler\nsrc/lagrangian",
+      "usage": {
+        "prompt_tokens": 1205,
+        "completion_tokens": 449,
+        "total_tokens": 1654
+      },
+      "latency_ms": 6978.0
+    },
+    {
+      "source_module": "applications/solvers/lagrangian/DPMFoam",
+      "true_targets": [
+        "src",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src/TurbulenceModels",
+        "src/lagrangian"
+      ],
+      "predicted": [
+        "src",
+        "src/transportModels",
+        "src/thermophysicalModels",
+        "applications",
+        "src/mesh"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/transportModels\nsrc/thermophysicalModels\napplications\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1233,
+        "completion_tokens": 485,
+        "total_tokens": 1718
+      },
+      "latency_ms": 16244.4
+    },
+    {
+      "source_module": "src/transportModels",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "src",
+        "src/thermophysicalModels",
+        "src/TurbulenceModels",
+        "src/mesh",
+        "src/parallel"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/thermophysicalModels\nsrc/TurbulenceModels\nsrc/mesh\nsrc/parallel",
+      "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 652,
+        "total_tokens": 1846
+      },
+      "latency_ms": 13630.5
+    },
+    {
+      "source_module": "src/phaseSystemModels/twoPhaseEuler",
+      "true_targets": [
+        "src/TurbulenceModels",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src",
+        "src/thermophysicalModels"
+      ],
+      "predicted": [
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "src/lagrangian",
+        "src/mesh",
+        "src/phaseSystemModels/reactingEuler"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src/TurbulenceModels\nsrc/transportModels\nsrc/lagrangian\nsrc/mesh\nsrc/phaseSystemModels/reactingEuler",
+      "usage": {
+        "prompt_tokens": 1204,
+        "completion_tokens": 770,
+        "total_tokens": 1974
+      },
+      "latency_ms": 11676.0
+    },
+    {
+      "source_module": "src/conversion",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/lagrangian",
+        "src/parallel",
+        "src/parallel/decompose"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/mesh\nsrc/lagrangian\nsrc/parallel\nsrc/parallel/decompose",
+      "usage": {
+        "prompt_tokens": 1193,
+        "completion_tokens": 323,
+        "total_tokens": 1516
+      },
+      "latency_ms": 3894.8
+    },
+    {
+      "source_module": "src/parallel/decompose",
+      "true_targets": [
+        "src",
+        "src/dummyThirdParty"
+      ],
+      "shown_deps": [
+        "src/lagrangian"
+      ],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/parallel",
+        "src/Pstream",
+        "src/renumber"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "src\nsrc/mesh\nsrc/parallel\nsrc/Pstream\nsrc/renumber",
+      "usage": {
+        "prompt_tokens": 1200,
+        "completion_tokens": 237,
+        "total_tokens": 1437
+      },
+      "latency_ms": 13741.8
+    },
+    {
+      "source_module": "src/Pstream",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "src",
+        "src/OSspecific/POSIX",
+        "src/parallel",
+        "src/dummyThirdParty",
+        "src/OSspecific/MSwindows"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/OSspecific/POSIX\nsrc/parallel\nsrc/dummyThirdParty\nsrc/OSspecific/MSwindows",
+      "usage": {
+        "prompt_tokens": 1189,
+        "completion_tokens": 339,
+        "total_tokens": 1528
+      },
+      "latency_ms": 15863.3
+    },
+    {
+      "source_module": "src/dynamicFaMesh",
+      "true_targets": [
+        "src/TurbulenceModels",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "src"
+      ],
+      "predicted": [
+        "src/mesh",
+        "src/parallel",
+        "src/parallel/decompose",
+        "src/lagrangian",
+        "src/thermophysicalModels"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "src/mesh\nsrc/parallel\nsrc/parallel/decompose\nsrc/lagrangian\nsrc/thermophysicalModels",
+      "usage": {
+        "prompt_tokens": 1210,
+        "completion_tokens": 234,
+        "total_tokens": 1444
+      },
+      "latency_ms": 16368.5
+    },
+    {
+      "source_module": "applications/utilities/preProcessing/wallFunctionTable",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "src",
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "applications",
+        "src/thermophysicalModels"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/TurbulenceModels\nsrc/transportModels\napplications\nsrc/thermophysicalModels",
+      "usage": {
+        "prompt_tokens": 1201,
+        "completion_tokens": 329,
+        "total_tokens": 1530
+      },
+      "latency_ms": 20397.7
+    },
+    {
+      "source_module": "src/phaseSystemModels/twoPhaseInter",
+      "true_targets": [
+        "src",
+        "src/TurbulenceModels"
+      ],
+      "shown_deps": [
+        "src/transportModels"
+      ],
+      "predicted": [
+        "src",
+        "src/TurbulenceModels",
+        "src/thermophysicalModels",
+        "src/phaseSystemModels/multiphaseInter",
+        "src/mesh"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/TurbulenceModels\nsrc/thermophysicalModels\nsrc/phaseSystemModels/multiphaseInter\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1222,
+        "completion_tokens": 550,
+        "total_tokens": 1772
+      },
+      "latency_ms": 15455.2
+    },
+    {
+      "source_module": "src/thermophysicalModels",
+      "true_targets": [
+        "src",
+        "src/parallel"
+      ],
+      "shown_deps": [
+        "src/transportModels"
+      ],
+      "predicted": [
+        "src",
+        "src/TurbulenceModels",
+        "src/mesh",
+        "src/lagrangian",
+        "src/regionModels"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "src\nsrc/TurbulenceModels\nsrc/mesh\nsrc/lagrangian\nsrc/regionModels",
+      "usage": {
+        "prompt_tokens": 1205,
+        "completion_tokens": 441,
+        "total_tokens": 1646
+      },
+      "latency_ms": 8218.3
+    },
+    {
+      "source_module": "applications/utilities/mesh/conversion/ccm",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [
+        "src/conversion/ccm"
+      ],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/conversion",
+        "applications",
+        "src/parallel"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/mesh\nsrc/conversion\napplications\nsrc/parallel",
+      "usage": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 337,
+        "total_tokens": 1563
+      },
+      "latency_ms": 7165.7
+    },
+    {
+      "source_module": "applications/test/fft",
+      "true_targets": [
+        "src/randomProcesses"
+      ],
+      "shown_deps": [
+        "src"
+      ],
+      "predicted": [
+        "src/randomProcesses",
+        "src/Pstream",
+        "src/OSspecific/POSIX",
+        "applications",
+        "src/mesh"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src/randomProcesses\nsrc/Pstream\nsrc/OSspecific/POSIX\napplications\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1202,
+        "completion_tokens": 513,
+        "total_tokens": 1715
+      },
+      "latency_ms": 12653.1
+    },
+    {
+      "source_module": "src/OSspecific/POSIX",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "src",
+        "src/Pstream",
+        "src/parallel",
+        "src/parallel/decompose",
+        "src/dummyThirdParty"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/Pstream\nsrc/parallel\nsrc/parallel/decompose\nsrc/dummyThirdParty",
+      "usage": {
+        "prompt_tokens": 1197,
+        "completion_tokens": 369,
+        "total_tokens": 1566
+      },
+      "latency_ms": 7234.6
+    },
+    {
+      "source_module": "applications/test/00-dummy",
+      "true_targets": [
+        "applications/test/00-dummy/library"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "applications/test/00-dummy/library",
+        "src",
+        "applications",
+        "src/mesh",
+        "src/OSspecific/POSIX"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "applications/test/00-dummy/library\nsrc\napplications\nsrc/mesh\nsrc/OSspecific/POSIX",
+      "usage": {
+        "prompt_tokens": 1195,
+        "completion_tokens": 377,
+        "total_tokens": 1572
+      },
+      "latency_ms": 17949.0
+    },
+    {
+      "source_module": "applications/utilities/mesh/generation/foamyMesh/foamyHexMeshSurfaceSimplify",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [
+        "applications/utilities/mesh/generation/foamyMesh"
+      ],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/parallel/decompose",
+        "applications/utilities/mesh/generation/extrude2DMesh",
+        "src/parallel"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/mesh\nsrc/parallel/decompose\napplications/utilities/mesh/generation/extrude2DMesh\nsrc/parallel",
+      "usage": {
+        "prompt_tokens": 1262,
+        "completion_tokens": 317,
+        "total_tokens": 1579
+      },
+      "latency_ms": 26636.7
+    },
+    {
+      "source_module": "applications/solvers/multiphase/multiphaseInterFoam",
+      "true_targets": [
+        "src/TurbulenceModels",
+        "src/transportModels"
+      ],
+      "shown_deps": [
+        "applications",
+        "src"
+      ],
+      "predicted": [
+        "src/phaseSystemModels/multiphaseInter",
+        "src/TurbulenceModels",
+        "src/transportModels",
+        "src/thermophysicalModels",
+        "src/mesh"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "src/phaseSystemModels/multiphaseInter\nsrc/TurbulenceModels\nsrc/transportModels\nsrc/thermophysicalModels\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1242,
+        "completion_tokens": 463,
+        "total_tokens": 1705
+      },
+      "latency_ms": 25352.2
+    },
+    {
+      "source_module": "src/dummyThirdParty",
+      "true_targets": [
+        "src/parallel/decompose"
+      ],
+      "shown_deps": [
+        "src"
+      ],
+      "predicted": [
+        "src/TurbulenceModels",
+        "src/thermophysicalModels",
+        "src/lagrangian",
+        "src/transportModels",
+        "src/mesh"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "src/TurbulenceModels\nsrc/thermophysicalModels\nsrc/lagrangian\nsrc/transportModels\nsrc/mesh",
+      "usage": {
+        "prompt_tokens": 1210,
+        "completion_tokens": 215,
+        "total_tokens": 1425
+      },
+      "latency_ms": 9752.9
+    },
+    {
+      "source_module": "src/lagrangian/molecularDynamics",
+      "true_targets": [
+        "src/lagrangian"
+      ],
+      "shown_deps": [
+        "src"
+      ],
+      "predicted": [
+        "src/lagrangian",
+        "src/mesh",
+        "src/parallel",
+        "src/thermophysicalModels",
+        "src/TurbulenceModels"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src/lagrangian\nsrc/mesh\nsrc/parallel\nsrc/thermophysicalModels\nsrc/TurbulenceModels",
+      "usage": {
+        "prompt_tokens": 1212,
+        "completion_tokens": 342,
+        "total_tokens": 1554
+      },
+      "latency_ms": 20867.8
+    },
+    {
+      "source_module": "applications/utilities/surface/surfaceBooleanFeatures",
+      "true_targets": [
+        "src"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "src",
+        "src/mesh",
+        "src/parallel",
+        "src/parallel/decompose",
+        "src/conversion"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "src\nsrc/mesh\nsrc/parallel\nsrc/parallel/decompose\nsrc/conversion",
+      "usage": {
+        "prompt_tokens": 1203,
+        "completion_tokens": 292,
+        "total_tokens": 1495
+      },
+      "latency_ms": 241992.2
+    }
+  ],
+  "timestamp": "2026-10-21T23:19:44.145685",
+  "model": "gpt-6-sol",
+  "project": "openfoam",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

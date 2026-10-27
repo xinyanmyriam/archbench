@@ -1,0 +1,2625 @@
+{
+  "accuracy": 0.59,
+  "precision": 0.6666666666666666,
+  "recall": 0.09302325581395349,
+  "f1": 0.16326530612244897,
+  "tp": 8,
+  "fp": 4,
+  "tn": 110,
+  "fn": 78,
+  "total": 200,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 48425,
+    "completion_tokens": 121903,
+    "total_tokens": 170328
+  },
+  "results": [
+    {
+      "module_A": "smesh/src/SMDS",
+      "module_B": "geom/src/STLPlugin",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 77,
+        "total_tokens": 230
+      },
+      "latency_ms": 884.2
+    },
+    {
+      "module_A": "gui/src/VTKViewer",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 256,
+        "completion_tokens": 791,
+        "total_tokens": 1047
+      },
+      "latency_ms": 4615.2
+    },
+    {
+      "module_A": "yacs/src/hmi",
+      "module_B": "yacs/src/bases",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 226,
+        "completion_tokens": 464,
+        "total_tokens": 690
+      },
+      "latency_ms": 2842.5
+    },
+    {
+      "module_A": "yacs/src/runtime",
+      "module_B": "kernel/src/KernelHelpers",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 301,
+        "total_tokens": 588
+      },
+      "latency_ms": 2301.1
+    },
+    {
+      "module_A": "geom/src/DlgRef",
+      "module_B": "geom/src/GEOMImpl",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 91,
+        "total_tokens": 337
+      },
+      "latency_ms": 997.6
+    },
+    {
+      "module_A": "gui/src/LightApp",
+      "module_B": "gui/src/OBJECT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 358,
+        "completion_tokens": 6200,
+        "total_tokens": 6558
+      },
+      "latency_ms": 27735.1
+    },
+    {
+      "module_A": "medcoupling/src/INTERP_KERNEL",
+      "module_B": "smesh/src/SMESHFiltersSelection",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 188,
+        "completion_tokens": 66,
+        "total_tokens": 254
+      },
+      "latency_ms": 904.5
+    },
+    {
+      "module_A": "smesh/src/StdMeshers_I",
+      "module_B": "kernel/src/Utils",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 8033,
+        "total_tokens": 8318
+      },
+      "latency_ms": 36241.2
+    },
+    {
+      "module_A": "geom/src/STLPlugin",
+      "module_B": "gui/src/SOCC",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 368,
+        "total_tokens": 649
+      },
+      "latency_ms": 2079.6
+    },
+    {
+      "module_A": "gui/src/SPlot2d",
+      "module_B": "gui/src/Plot2d",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 333,
+        "total_tokens": 550
+      },
+      "latency_ms": 1889.9
+    },
+    {
+      "module_A": "smesh/src/SMESHUtils",
+      "module_B": "gui/src/Qtx",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 257,
+        "completion_tokens": 85,
+        "total_tokens": 342
+      },
+      "latency_ms": 1157.6
+    },
+    {
+      "module_A": "yacs/src/yacsloader",
+      "module_B": "kernel/src/Launcher",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 212,
+        "completion_tokens": 234,
+        "total_tokens": 446
+      },
+      "latency_ms": 1862.3
+    },
+    {
+      "module_A": "geom/src/MeasureGUI",
+      "module_B": "gui/src/SVTK",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 369,
+        "completion_tokens": 244,
+        "total_tokens": 613
+      },
+      "latency_ms": 1673.7
+    },
+    {
+      "module_A": "smesh/src/DriverSTL",
+      "module_B": "smesh/src/StdMeshers_I",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 179,
+        "completion_tokens": 74,
+        "total_tokens": 253
+      },
+      "latency_ms": 1195.5
+    },
+    {
+      "module_A": "smesh/src/SMESHGUI",
+      "module_B": "smesh/src/Controls",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 801,
+        "total_tokens": 1091
+      },
+      "latency_ms": 4665.9
+    },
+    {
+      "module_A": "gui/src/TreeData",
+      "module_B": "gui/src/SUIT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 274,
+        "completion_tokens": 64,
+        "total_tokens": 338
+      },
+      "latency_ms": 893.7
+    },
+    {
+      "module_A": "geom/src/GenerationGUI",
+      "module_B": "gui/src/SUIT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 300,
+        "completion_tokens": 87,
+        "total_tokens": 387
+      },
+      "latency_ms": 1257.5
+    },
+    {
+      "module_A": "gui/src/SalomeApprc_utils",
+      "module_B": "kernel/src/SALOMEDSImpl",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 192,
+        "completion_tokens": 204,
+        "total_tokens": 396
+      },
+      "latency_ms": 1521.8
+    },
+    {
+      "module_A": "gui/src/ViewerTools",
+      "module_B": "geom/src/GEOM_SWIG_WITHIHM",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 182,
+        "completion_tokens": 66,
+        "total_tokens": 248
+      },
+      "latency_ms": 880.5
+    },
+    {
+      "module_A": "yacs/src/hmi",
+      "module_B": "yacs/src/engine",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 224,
+        "completion_tokens": 527,
+        "total_tokens": 751
+      },
+      "latency_ms": 3100.8
+    },
+    {
+      "module_A": "smesh/src/PluginUtils",
+      "module_B": "gui/src/OBJECT",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 319,
+        "completion_tokens": 1191,
+        "total_tokens": 1510
+      },
+      "latency_ms": 5302.2
+    },
+    {
+      "module_A": "gui/src/SOCC",
+      "module_B": "gui/src/TOOLSGUI",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 185,
+        "completion_tokens": 196,
+        "total_tokens": 381
+      },
+      "latency_ms": 1660.0
+    },
+    {
+      "module_A": "smesh/src/StdMeshers",
+      "module_B": "kernel/src/SALOMEDSImpl",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 166,
+        "total_tokens": 385
+      },
+      "latency_ms": 1577.4
+    },
+    {
+      "module_A": "medcoupling/src/MEDPartitioner",
+      "module_B": "yacs/src/yacsloader",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 223,
+        "completion_tokens": 86,
+        "total_tokens": 309
+      },
+      "latency_ms": 942.2
+    },
+    {
+      "module_A": "smesh/src/SMESH_PY",
+      "module_B": "gui/src/SalomeApp",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 266,
+        "completion_tokens": 82,
+        "total_tokens": 348
+      },
+      "latency_ms": 915.0
+    },
+    {
+      "module_A": "gui/src/SUIT",
+      "module_B": "gui/src/ObjBrowser",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 135,
+        "total_tokens": 301
+      },
+      "latency_ms": 1157.8
+    },
+    {
+      "module_A": "kernel/src/Communication",
+      "module_B": "gui/src/SPlot2d",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 184,
+        "completion_tokens": 94,
+        "total_tokens": 278
+      },
+      "latency_ms": 1277.4
+    },
+    {
+      "module_A": "geom/src/BuildGUI",
+      "module_B": "geom/src/GEOMBase",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 296,
+        "completion_tokens": 280,
+        "total_tokens": 576
+      },
+      "latency_ms": 1862.9
+    },
+    {
+      "module_A": "gui/src/SALOME_PYQT",
+      "module_B": "gui/src/STD",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 298,
+        "completion_tokens": 5350,
+        "total_tokens": 5648
+      },
+      "latency_ms": 24132.8
+    },
+    {
+      "module_A": "kernel/src/TestContainer",
+      "module_B": "medcoupling/src/INTERP_KERNEL",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 252,
+        "completion_tokens": 94,
+        "total_tokens": 346
+      },
+      "latency_ms": 1031.1
+    },
+    {
+      "module_A": "kernel/src/DSC",
+      "module_B": "kernel/src/Launcher",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 200,
+        "completion_tokens": 117,
+        "total_tokens": 317
+      },
+      "latency_ms": 1052.1
+    },
+    {
+      "module_A": "geom/src/BasicGUI",
+      "module_B": "geom/src/GEOMGUI",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 311,
+        "completion_tokens": 166,
+        "total_tokens": 477
+      },
+      "latency_ms": 1365.0
+    },
+    {
+      "module_A": "smesh/src/DriverGMF",
+      "module_B": "smesh/src/SMESHDS",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 247,
+        "completion_tokens": 230,
+        "total_tokens": 477
+      },
+      "latency_ms": 1747.7
+    },
+    {
+      "module_A": "medcoupling/src/MEDLoader",
+      "module_B": "medcoupling/src/INTERP_KERNEL",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 247,
+        "completion_tokens": 3956,
+        "total_tokens": 4203
+      },
+      "latency_ms": 17537.4
+    },
+    {
+      "module_A": "gui/src/SALOME_PYQT",
+      "module_B": "kernel/src/TOOLSDS",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 3421,
+        "total_tokens": 3709
+      },
+      "latency_ms": 14912.9
+    },
+    {
+      "module_A": "gui/src/ObjBrowser",
+      "module_B": "gui/src/Prs",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 267,
+        "completion_tokens": 155,
+        "total_tokens": 422
+      },
+      "latency_ms": 1530.5
+    },
+    {
+      "module_A": "kernel/src/UnitTests",
+      "module_B": "geom/src/XAO",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 186,
+        "completion_tokens": 124,
+        "total_tokens": 310
+      },
+      "latency_ms": 1104.0
+    },
+    {
+      "module_A": "gui/src/SUIT",
+      "module_B": "gui/src/OpenGLUtils",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 174,
+        "completion_tokens": 160,
+        "total_tokens": 334
+      },
+      "latency_ms": 1146.1
+    },
+    {
+      "module_A": "geom/src/XAO_Swig",
+      "module_B": "yacs/src/engine_swig",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 56,
+        "total_tokens": 215
+      },
+      "latency_ms": 954.2
+    },
+    {
+      "module_A": "gui/src/SalomeApp",
+      "module_B": "gui/src/OBJECT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 354,
+        "completion_tokens": 121,
+        "total_tokens": 475
+      },
+      "latency_ms": 1033.5
+    },
+    {
+      "module_A": "medcoupling/src/ICoCo",
+      "module_B": "medcoupling/src/MEDPartitioner_Swig",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 176,
+        "completion_tokens": 109,
+        "total_tokens": 285
+      },
+      "latency_ms": 770.2
+    },
+    {
+      "module_A": "gui/src/ViewerTools",
+      "module_B": "geom/src/VTKPlugin",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 161,
+        "completion_tokens": 151,
+        "total_tokens": 312
+      },
+      "latency_ms": 1370.9
+    },
+    {
+      "module_A": "kernel/src/SALOMEDSImpl",
+      "module_B": "kernel/src/Registry",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 170,
+        "completion_tokens": 128,
+        "total_tokens": 298
+      },
+      "latency_ms": 1120.3
+    },
+    {
+      "module_A": "kernel/src/NOTIFICATION_SWIG",
+      "module_B": "yacs/src/evalyfx",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 167,
+        "completion_tokens": 56,
+        "total_tokens": 223
+      },
+      "latency_ms": 1015.7
+    },
+    {
+      "module_A": "gui/src/OpenGLUtils",
+      "module_B": "kernel/src/Launcher_SWIG",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 79,
+        "total_tokens": 241
+      },
+      "latency_ms": 1132.3
+    },
+    {
+      "module_A": "kernel/src/LifeCycleCORBA",
+      "module_B": "smesh/src/Tools",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 203,
+        "completion_tokens": 69,
+        "total_tokens": 272
+      },
+      "latency_ms": 1111.3
+    },
+    {
+      "module_A": "kernel/src/Registry",
+      "module_B": "geom/src/EntityGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 60,
+        "total_tokens": 219
+      },
+      "latency_ms": 1082.3
+    },
+    {
+      "module_A": "gui/src/LightApp",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 362,
+        "completion_tokens": 1919,
+        "total_tokens": 2281
+      },
+      "latency_ms": 9144.1
+    },
+    {
+      "module_A": "kernel/src/Notification",
+      "module_B": "gui/src/SUIT",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 253,
+        "completion_tokens": 93,
+        "total_tokens": 346
+      },
+      "latency_ms": 1119.5
+    },
+    {
+      "module_A": "geom/src/OperationGUI",
+      "module_B": "gui/src/SPlot2d",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 1734,
+        "total_tokens": 1967
+      },
+      "latency_ms": 8158.6
+    },
+    {
+      "module_A": "geom/src/GEOMFiltersSelection",
+      "module_B": "gui/src/LightApp",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 181,
+        "total_tokens": 471
+      },
+      "latency_ms": 1232.1
+    },
+    {
+      "module_A": "kernel/src/Container",
+      "module_B": "medcoupling/src/MEDConverter",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 200,
+        "completion_tokens": 89,
+        "total_tokens": 289
+      },
+      "latency_ms": 1315.8
+    },
+    {
+      "module_A": "kernel/src/SALOMESDS",
+      "module_B": "kernel/src/ModuleGenerator",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 179,
+        "completion_tokens": 135,
+        "total_tokens": 314
+      },
+      "latency_ms": 1206.4
+    },
+    {
+      "module_A": "yacs/src/runtime",
+      "module_B": "kernel/src/NamingService",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 117,
+        "total_tokens": 410
+      },
+      "latency_ms": 967.1
+    },
+    {
+      "module_A": "geom/src/OperationGUI",
+      "module_B": "geom/src/DlgRef",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 272,
+        "completion_tokens": 1494,
+        "total_tokens": 1766
+      },
+      "latency_ms": 7285.0
+    },
+    {
+      "module_A": "smesh/src/SMESH_I",
+      "module_B": "geom/src/BlocksGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 251,
+        "completion_tokens": 108,
+        "total_tokens": 359
+      },
+      "latency_ms": 1333.5
+    },
+    {
+      "module_A": "smesh/src/DriverSTL",
+      "module_B": "smesh/src/Driver",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 198,
+        "completion_tokens": 198,
+        "total_tokens": 396
+      },
+      "latency_ms": 1394.3
+    },
+    {
+      "module_A": "geom/src/GEOM_SWIG",
+      "module_B": "geom/src/GEOMClient",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 211,
+        "completion_tokens": 100,
+        "total_tokens": 311
+      },
+      "latency_ms": 1135.5
+    },
+    {
+      "module_A": "geom/src/OperationGUI",
+      "module_B": "gui/src/SalomeApp",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 302,
+        "completion_tokens": 1215,
+        "total_tokens": 1517
+      },
+      "latency_ms": 5735.1
+    },
+    {
+      "module_A": "gui/src/OBJECT",
+      "module_B": "kernel/src/TestContainer",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 73,
+        "total_tokens": 223
+      },
+      "latency_ms": 1087.4
+    },
+    {
+      "module_A": "smesh/src/OBJECT",
+      "module_B": "gui/src/GUI_PY",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 88,
+        "total_tokens": 329
+      },
+      "latency_ms": 1292.6
+    },
+    {
+      "module_A": "smesh/src/StdMeshers",
+      "module_B": "yacs/src/yacsloader",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 228,
+        "completion_tokens": 56,
+        "total_tokens": 284
+      },
+      "latency_ms": 1426.6
+    },
+    {
+      "module_A": "kernel/src/ArgvKeeper",
+      "module_B": "kernel/src/SALOMEDSClient",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 268,
+        "completion_tokens": 65,
+        "total_tokens": 333
+      },
+      "latency_ms": 1239.0
+    },
+    {
+      "module_A": "geom/src/AdvancedEngine",
+      "module_B": "gui/src/Qtx",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 276,
+        "completion_tokens": 175,
+        "total_tokens": 451
+      },
+      "latency_ms": 1605.0
+    },
+    {
+      "module_A": "kernel/src/LifeCycleCORBA",
+      "module_B": "geom/src/ShapeRecognition",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 76,
+        "total_tokens": 284
+      },
+      "latency_ms": 1043.4
+    },
+    {
+      "module_A": "geom/src/TransformationGUI",
+      "module_B": "yacs/src/bases",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 562,
+        "total_tokens": 852
+      },
+      "latency_ms": 2791.2
+    },
+    {
+      "module_A": "kernel/src/ModuleCatalog",
+      "module_B": "kernel/src/Utils",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 258,
+        "completion_tokens": 262,
+        "total_tokens": 520
+      },
+      "latency_ms": 1887.0
+    },
+    {
+      "module_A": "yacs/src/yacsloader_swig",
+      "module_B": "smesh/src/Driver",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 112,
+        "total_tokens": 313
+      },
+      "latency_ms": 1376.3
+    },
+    {
+      "module_A": "smesh/src/DriverCGNS",
+      "module_B": "smesh/src/SMDS",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 274,
+        "completion_tokens": 1180,
+        "total_tokens": 1454
+      },
+      "latency_ms": 5951.7
+    },
+    {
+      "module_A": "yacs/src/pmml",
+      "module_B": "kernel/src/HDFPersist",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 180,
+        "completion_tokens": 86,
+        "total_tokens": 266
+      },
+      "latency_ms": 940.4
+    },
+    {
+      "module_A": "yacs/src/salomegui_swig",
+      "module_B": "smesh/src/StdMeshersGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 195,
+        "completion_tokens": 188,
+        "total_tokens": 383
+      },
+      "latency_ms": 1656.5
+    },
+    {
+      "module_A": "geom/src/SKETCHER",
+      "module_B": "gui/src/OCCViewer",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 263,
+        "completion_tokens": 78,
+        "total_tokens": 341
+      },
+      "latency_ms": 902.7
+    },
+    {
+      "module_A": "yacs/src/ydfx_gui",
+      "module_B": "yacs/src/bases",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 231,
+        "total_tokens": 477
+      },
+      "latency_ms": 1855.7
+    },
+    {
+      "module_A": "gui/src/Session",
+      "module_B": "kernel/src/NamingService",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 344,
+        "completion_tokens": 240,
+        "total_tokens": 584
+      },
+      "latency_ms": 1461.9
+    },
+    {
+      "module_A": "yacs/src/yacsloader_swig",
+      "module_B": "geom/src/GEOMImpl",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 258,
+        "completion_tokens": 76,
+        "total_tokens": 334
+      },
+      "latency_ms": 765.2
+    },
+    {
+      "module_A": "gui/src/QxScene",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 253,
+        "completion_tokens": 708,
+        "total_tokens": 961
+      },
+      "latency_ms": 3611.3
+    },
+    {
+      "module_A": "yacs/src/salomegui",
+      "module_B": "kernel/src/LifeCycleCORBA",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 317,
+        "completion_tokens": 339,
+        "total_tokens": 656
+      },
+      "latency_ms": 1932.6
+    },
+    {
+      "module_A": "geom/src/OCC2VTK",
+      "module_B": "gui/src/SALOME_PYQT",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 168,
+        "completion_tokens": 65,
+        "total_tokens": 233
+      },
+      "latency_ms": 705.6
+    },
+    {
+      "module_A": "gui/src/SalomeApp",
+      "module_B": "kernel/src/NamingService",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 354,
+        "completion_tokens": 1944,
+        "total_tokens": 2298
+      },
+      "latency_ms": 8836.9
+    },
+    {
+      "module_A": "smesh/src/SMESHClient",
+      "module_B": "geom/src/GEOMFiltersSelection",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 205,
+        "completion_tokens": 205,
+        "total_tokens": 410
+      },
+      "latency_ms": 1638.6
+    },
+    {
+      "module_A": "yacs/src/runtime_swig",
+      "module_B": "yacs/src/runtime",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 864,
+        "total_tokens": 1081
+      },
+      "latency_ms": 4108.2
+    },
+    {
+      "module_A": "gui/src/SalomeApp",
+      "module_B": "kernel/src/SALOMEDSClient",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 361,
+        "completion_tokens": 146,
+        "total_tokens": 507
+      },
+      "latency_ms": 1271.3
+    },
+    {
+      "module_A": "smesh/src/PluginUtils",
+      "module_B": "smesh/src/MEDWrapper",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 250,
+        "completion_tokens": 70,
+        "total_tokens": 320
+      },
+      "latency_ms": 852.5
+    },
+    {
+      "module_A": "geom/src/GEOMGUI",
+      "module_B": "geom/src/GEOMImpl",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 354,
+        "completion_tokens": 2075,
+        "total_tokens": 2429
+      },
+      "latency_ms": 9592.4
+    },
+    {
+      "module_A": "gui/src/SALOME_SWIG",
+      "module_B": "smesh/src/Tools",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 215,
+        "completion_tokens": 102,
+        "total_tokens": 317
+      },
+      "latency_ms": 1075.8
+    },
+    {
+      "module_A": "geom/src/GEOMBase",
+      "module_B": "gui/src/SOCC",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 277,
+        "completion_tokens": 139,
+        "total_tokens": 416
+      },
+      "latency_ms": 1426.0
+    },
+    {
+      "module_A": "smesh/src/Tools",
+      "module_B": "kernel/src/Launcher",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 199,
+        "completion_tokens": 208,
+        "total_tokens": 407
+      },
+      "latency_ms": 1471.9
+    },
+    {
+      "module_A": "smesh/src/PluginUtils",
+      "module_B": "geom/src/GEOM_I",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 183,
+        "total_tokens": 473
+      },
+      "latency_ms": 1454.1
+    },
+    {
+      "module_A": "geom/src/GEOMToolsGUI",
+      "module_B": "gui/src/OBJECT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 346,
+        "completion_tokens": 4282,
+        "total_tokens": 4628
+      },
+      "latency_ms": 17618.3
+    },
+    {
+      "module_A": "kernel/src/NamingService",
+      "module_B": "geom/src/Tools",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 169,
+        "completion_tokens": 68,
+        "total_tokens": 237
+      },
+      "latency_ms": 1036.5
+    },
+    {
+      "module_A": "kernel/src/ModuleGenerator",
+      "module_B": "gui/src/SALOME_PY",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 53,
+        "total_tokens": 209
+      },
+      "latency_ms": 1107.0
+    },
+    {
+      "module_A": "geom/src/GEOMGUI",
+      "module_B": "smesh/src/SMESHGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 192,
+        "total_tokens": 480
+      },
+      "latency_ms": 1326.4
+    },
+    {
+      "module_A": "geom/src/MeasureGUI",
+      "module_B": "kernel/src/SALOMEDS",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 331,
+        "completion_tokens": 404,
+        "total_tokens": 735
+      },
+      "latency_ms": 2476.9
+    },
+    {
+      "module_A": "geom/src/Material",
+      "module_B": "gui/src/SALOME_PY",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 67,
+        "total_tokens": 227
+      },
+      "latency_ms": 1158.5
+    },
+    {
+      "module_A": "gui/src/SOCC",
+      "module_B": "gui/src/CAF",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 185,
+        "completion_tokens": 98,
+        "total_tokens": 283
+      },
+      "latency_ms": 1043.2
+    },
+    {
+      "module_A": "smesh/src/SMESH_SWIG_WITHIHM",
+      "module_B": "geom/src/GEOM",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 321,
+        "completion_tokens": 940,
+        "total_tokens": 1261
+      },
+      "latency_ms": 4471.8
+    },
+    {
+      "module_A": "geom/src/IGESPlugin",
+      "module_B": "gui/src/OBJECT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 303,
+        "completion_tokens": 472,
+        "total_tokens": 775
+      },
+      "latency_ms": 2822.3
+    },
+    {
+      "module_A": "kernel/src/MPIContainer",
+      "module_B": "geom/src/BooleanGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 173,
+        "completion_tokens": 55,
+        "total_tokens": 228
+      },
+      "latency_ms": 1033.7
+    },
+    {
+      "module_A": "gui/src/SalomeApp",
+      "module_B": "gui/src/TOOLSGUI",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 264,
+        "completion_tokens": 114,
+        "total_tokens": 378
+      },
+      "latency_ms": 1438.9
+    },
+    {
+      "module_A": "geom/src/EntityGUI",
+      "module_B": "gui/src/SVTK",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 368,
+        "completion_tokens": 5579,
+        "total_tokens": 5947
+      },
+      "latency_ms": 24813.2
+    },
+    {
+      "module_A": "kernel/src/KernelHelpers",
+      "module_B": "geom/src/GEOMClient",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 222,
+        "completion_tokens": 108,
+        "total_tokens": 330
+      },
+      "latency_ms": 1132.7
+    },
+    {
+      "module_A": "gui/src/PyViewer",
+      "module_B": "gui/src/OpenGLUtils",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 603,
+        "total_tokens": 780
+      },
+      "latency_ms": 2839.0
+    },
+    {
+      "module_A": "yacs/src/pmml",
+      "module_B": "gui/src/DDS",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 59,
+        "total_tokens": 207
+      },
+      "latency_ms": 983.7
+    },
+    {
+      "module_A": "gui/src/SalomeApp",
+      "module_B": "gui/src/PVServerService",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 152,
+        "total_tokens": 435
+      },
+      "latency_ms": 1216.1
+    },
+    {
+      "module_A": "kernel/src/ArgvKeeper",
+      "module_B": "geom/src/XAOPlugin",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 52,
+        "total_tokens": 205
+      },
+      "latency_ms": 791.1
+    },
+    {
+      "module_A": "geom/src/XAO_Swig",
+      "module_B": "gui/src/SVTK",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 266,
+        "completion_tokens": 112,
+        "total_tokens": 378
+      },
+      "latency_ms": 1356.3
+    },
+    {
+      "module_A": "kernel/src/GenericObj",
+      "module_B": "gui/src/ImageComposer",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 85,
+        "total_tokens": 240
+      },
+      "latency_ms": 1268.6
+    },
+    {
+      "module_A": "gui/src/TreeData",
+      "module_B": "yacs/src/genericgui",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 183,
+        "completion_tokens": 176,
+        "total_tokens": 359
+      },
+      "latency_ms": 1816.8
+    },
+    {
+      "module_A": "gui/src/GLViewer",
+      "module_B": "smesh/src/SMESHGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 196,
+        "completion_tokens": 149,
+        "total_tokens": 345
+      },
+      "latency_ms": 1484.7
+    },
+    {
+      "module_A": "geom/src/EntityGUI",
+      "module_B": "gui/src/Prs",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 352,
+        "completion_tokens": 152,
+        "total_tokens": 504
+      },
+      "latency_ms": 1333.3
+    },
+    {
+      "module_A": "geom/src/GEOMFiltersSelection",
+      "module_B": "gui/src/OBJECT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 159,
+        "total_tokens": 440
+      },
+      "latency_ms": 1374.6
+    },
+    {
+      "module_A": "geom/src/EntityGUI",
+      "module_B": "gui/src/SOCC",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 306,
+        "completion_tokens": 255,
+        "total_tokens": 561
+      },
+      "latency_ms": 2030.3
+    },
+    {
+      "module_A": "geom/src/GenerationGUI",
+      "module_B": "geom/src/GEOMGUI",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 297,
+        "completion_tokens": 103,
+        "total_tokens": 400
+      },
+      "latency_ms": 1148.7
+    },
+    {
+      "module_A": "kernel/src/Container",
+      "module_B": "gui/src/GuiHelpers",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 199,
+        "completion_tokens": 128,
+        "total_tokens": 327
+      },
+      "latency_ms": 1344.8
+    },
+    {
+      "module_A": "gui/src/SUIT",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 253,
+        "completion_tokens": 187,
+        "total_tokens": 440
+      },
+      "latency_ms": 1661.6
+    },
+    {
+      "module_A": "smesh/src/SMESH_SWIG_WITHIHM",
+      "module_B": "gui/src/PV3DViewer",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 301,
+        "completion_tokens": 2908,
+        "total_tokens": 3209
+      },
+      "latency_ms": 13448.9
+    },
+    {
+      "module_A": "smesh/src/SMESH_SWIG",
+      "module_B": "geom/src/GEOM_PY",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 183,
+        "completion_tokens": 372,
+        "total_tokens": 555
+      },
+      "latency_ms": 2328.0
+    },
+    {
+      "module_A": "kernel/src/ResourcesManager",
+      "module_B": "yacs/src/ydfx_gui",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 144,
+        "total_tokens": 304
+      },
+      "latency_ms": 1380.9
+    },
+    {
+      "module_A": "gui/src/Qtx",
+      "module_B": "smesh/src/DriverSTL",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 65,
+        "total_tokens": 221
+      },
+      "latency_ms": 1391.8
+    },
+    {
+      "module_A": "geom/src/GEOMGUI",
+      "module_B": "gui/src/SOCC",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 311,
+        "completion_tokens": 562,
+        "total_tokens": 873
+      },
+      "latency_ms": 3371.4
+    },
+    {
+      "module_A": "gui/src/ViewerData",
+      "module_B": "geom/src/AdvancedEngine",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 90,
+        "total_tokens": 243
+      },
+      "latency_ms": 1235.7
+    },
+    {
+      "module_A": "medcoupling/src/MEDCoupling",
+      "module_B": "yacs/src/hmi",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 179,
+        "completion_tokens": 84,
+        "total_tokens": 263
+      },
+      "latency_ms": 1150.2
+    },
+    {
+      "module_A": "kernel/src/Utils",
+      "module_B": "gui/src/RemoveAsker",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 102,
+        "total_tokens": 258
+      },
+      "latency_ms": 1494.7
+    },
+    {
+      "module_A": "kernel/src/UnitTests",
+      "module_B": "kernel/src/SALOMEDSImpl",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 195,
+        "completion_tokens": 2223,
+        "total_tokens": 2418
+      },
+      "latency_ms": 10658.5
+    },
+    {
+      "module_A": "gui/src/LightApp",
+      "module_B": "gui/src/QtViewer",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 264,
+        "completion_tokens": 198,
+        "total_tokens": 462
+      },
+      "latency_ms": 1984.6
+    },
+    {
+      "module_A": "yacs/src/ydfx_gui",
+      "module_B": "kernel/src/ResourcesManager",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 223,
+        "completion_tokens": 2679,
+        "total_tokens": 2902
+      },
+      "latency_ms": 12707.6
+    },
+    {
+      "module_A": "medcoupling/src/ParaMEDMEMTest",
+      "module_B": "yacs/src/salomewrap",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 78,
+        "total_tokens": 318
+      },
+      "latency_ms": 1316.7
+    },
+    {
+      "module_A": "gui/src/TreeData",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 268,
+        "completion_tokens": 218,
+        "total_tokens": 486
+      },
+      "latency_ms": 1555.1
+    },
+    {
+      "module_A": "smesh/src/SMESH_I",
+      "module_B": "smesh/src/DriverCGNS",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 259,
+        "completion_tokens": 459,
+        "total_tokens": 718
+      },
+      "latency_ms": 2958.9
+    },
+    {
+      "module_A": "gui/src/Session",
+      "module_B": "kernel/src/Container",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 349,
+        "completion_tokens": 290,
+        "total_tokens": 639
+      },
+      "latency_ms": 2056.8
+    },
+    {
+      "module_A": "geom/src/OCC2VTK",
+      "module_B": "gui/src/SUIT",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 264,
+        "completion_tokens": 126,
+        "total_tokens": 390
+      },
+      "latency_ms": 1141.6
+    },
+    {
+      "module_A": "smesh/src/StdMeshers",
+      "module_B": "geom/src/GEOM",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 267,
+        "completion_tokens": 375,
+        "total_tokens": 642
+      },
+      "latency_ms": 2205.0
+    },
+    {
+      "module_A": "kernel/src/Registry",
+      "module_B": "geom/src/GEOMFiltersSelection",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 186,
+        "completion_tokens": 138,
+        "total_tokens": 324
+      },
+      "latency_ms": 1445.2
+    },
+    {
+      "module_A": "smesh/src/OBJECT",
+      "module_B": "gui/src/SalomeApp",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 337,
+        "completion_tokens": 447,
+        "total_tokens": 784
+      },
+      "latency_ms": 3044.7
+    },
+    {
+      "module_A": "medcoupling/src/INTERP_KERNELTest",
+      "module_B": "kernel/src/DF",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 197,
+        "completion_tokens": 391,
+        "total_tokens": 588
+      },
+      "latency_ms": 2171.4
+    },
+    {
+      "module_A": "geom/src/GroupGUI",
+      "module_B": "gui/src/SalomeApp",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 335,
+        "completion_tokens": 291,
+        "total_tokens": 626
+      },
+      "latency_ms": 2017.6
+    },
+    {
+      "module_A": "gui/src/VTKViewer",
+      "module_B": "smesh/src/SMESHUtils",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 265,
+        "completion_tokens": 162,
+        "total_tokens": 427
+      },
+      "latency_ms": 1472.5
+    },
+    {
+      "module_A": "geom/src/AdvancedGUI",
+      "module_B": "gui/src/Prs",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 301,
+        "completion_tokens": 1397,
+        "total_tokens": 1698
+      },
+      "latency_ms": 7152.9
+    },
+    {
+      "module_A": "yacs/src/salomeloader",
+      "module_B": "gui/src/SVTK",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 272,
+        "completion_tokens": 61,
+        "total_tokens": 333
+      },
+      "latency_ms": 1143.0
+    },
+    {
+      "module_A": "smesh/src/PluginUtils",
+      "module_B": "smesh/src/SMESHGUI",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 179,
+        "total_tokens": 425
+      },
+      "latency_ms": 1557.1
+    },
+    {
+      "module_A": "kernel/src/UnitTests",
+      "module_B": "kernel/src/Utils",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 277,
+        "completion_tokens": 1661,
+        "total_tokens": 1938
+      },
+      "latency_ms": 8677.1
+    },
+    {
+      "module_A": "geom/src/GEOM_SWIG_WITHIHM",
+      "module_B": "kernel/src/MPIContainer",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 250,
+        "completion_tokens": 219,
+        "total_tokens": 469
+      },
+      "latency_ms": 1761.5
+    },
+    {
+      "module_A": "smesh/src/SMESHClient",
+      "module_B": "kernel/src/NamingService",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 270,
+        "completion_tokens": 1414,
+        "total_tokens": 1684
+      },
+      "latency_ms": 7031.0
+    },
+    {
+      "module_A": "geom/src/GEOMUtils",
+      "module_B": "kernel/src/Utils",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 5236,
+        "total_tokens": 5481
+      },
+      "latency_ms": 22969.9
+    },
+    {
+      "module_A": "geom/src/GroupGUI",
+      "module_B": "geom/src/GEOMGUI",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 331,
+        "completion_tokens": 973,
+        "total_tokens": 1304
+      },
+      "latency_ms": 5045.6
+    },
+    {
+      "module_A": "smesh/src/MEDWrapper",
+      "module_B": "kernel/src/ModuleCatalog",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 171,
+        "completion_tokens": 112,
+        "total_tokens": 283
+      },
+      "latency_ms": 1405.1
+    },
+    {
+      "module_A": "geom/src/GroupGUI",
+      "module_B": "gui/src/GraphicsView",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 252,
+        "completion_tokens": 389,
+        "total_tokens": 641
+      },
+      "latency_ms": 2624.7
+    },
+    {
+      "module_A": "yacs/src/yacsloader",
+      "module_B": "kernel/src/ResourcesManager",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 249,
+        "completion_tokens": 2815,
+        "total_tokens": 3064
+      },
+      "latency_ms": 13276.3
+    },
+    {
+      "module_A": "yacs/src/evalyfx",
+      "module_B": "yacs/src/pmml",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 183,
+        "completion_tokens": 1460,
+        "total_tokens": 1643
+      },
+      "latency_ms": 6799.9
+    },
+    {
+      "module_A": "yacs/src/genericgui",
+      "module_B": "kernel/src/ResourcesManager",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 272,
+        "completion_tokens": 380,
+        "total_tokens": 652
+      },
+      "latency_ms": 2581.5
+    },
+    {
+      "module_A": "geom/src/TransformationGUI",
+      "module_B": "kernel/src/LifeCycleCORBA",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 332,
+        "completion_tokens": 690,
+        "total_tokens": 1022
+      },
+      "latency_ms": 3672.1
+    },
+    {
+      "module_A": "geom/src/GEOMClient",
+      "module_B": "gui/src/DDS",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 80,
+        "total_tokens": 231
+      },
+      "latency_ms": 1497.0
+    },
+    {
+      "module_A": "geom/src/AdvancedEngine",
+      "module_B": "geom/src/GEOM_I",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 368,
+        "total_tokens": 607
+      },
+      "latency_ms": 2153.6
+    },
+    {
+      "module_A": "geom/src/GEOMBase",
+      "module_B": "yacs/src/genericgui",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 222,
+        "total_tokens": 460
+      },
+      "latency_ms": 1956.5
+    },
+    {
+      "module_A": "smesh/src/SMESH_I",
+      "module_B": "kernel/src/LifeCycleCORBA",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 369,
+        "completion_tokens": 181,
+        "total_tokens": 550
+      },
+      "latency_ms": 1542.9
+    },
+    {
+      "module_A": "smesh/src/DriverSTL",
+      "module_B": "geom/src/BlocksGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 170,
+        "completion_tokens": 87,
+        "total_tokens": 257
+      },
+      "latency_ms": 1290.8
+    },
+    {
+      "module_A": "geom/src/XAO",
+      "module_B": "kernel/src/TOOLSDS",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 106,
+        "total_tokens": 272
+      },
+      "latency_ms": 1425.1
+    },
+    {
+      "module_A": "gui/src/LightApp",
+      "module_B": "gui/src/SPlot2d",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 495,
+        "total_tokens": 780
+      },
+      "latency_ms": 3606.9
+    },
+    {
+      "module_A": "smesh/src/Tools",
+      "module_B": "yacs/src/runtime_swig",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 190,
+        "completion_tokens": 128,
+        "total_tokens": 318
+      },
+      "latency_ms": 1435.6
+    },
+    {
+      "module_A": "kernel/src/Launcher_SWIG",
+      "module_B": "gui/src/Session",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 62,
+        "total_tokens": 220
+      },
+      "latency_ms": 995.2
+    },
+    {
+      "module_A": "smesh/src/SMESHGUI",
+      "module_B": "gui/src/ObjBrowser",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 278,
+        "completion_tokens": 1539,
+        "total_tokens": 1817
+      },
+      "latency_ms": 7484.2
+    },
+    {
+      "module_A": "gui/src/QDS",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 249,
+        "completion_tokens": 296,
+        "total_tokens": 545
+      },
+      "latency_ms": 2031.9
+    },
+    {
+      "module_A": "gui/src/GuiHelpers",
+      "module_B": "kernel/src/LifeCycleCORBA",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 305,
+        "completion_tokens": 1100,
+        "total_tokens": 1405
+      },
+      "latency_ms": 5184.2
+    },
+    {
+      "module_A": "geom/src/XAOPlugin",
+      "module_B": "gui/src/SUIT",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 317,
+        "completion_tokens": 4442,
+        "total_tokens": 4759
+      },
+      "latency_ms": 19778.1
+    },
+    {
+      "module_A": "gui/src/Plot2d",
+      "module_B": "kernel/src/Launcher",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 191,
+        "completion_tokens": 198,
+        "total_tokens": 389
+      },
+      "latency_ms": 1890.3
+    },
+    {
+      "module_A": "geom/src/GEOM",
+      "module_B": "kernel/src/Utils",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 304,
+        "total_tokens": 549
+      },
+      "latency_ms": 2327.8
+    },
+    {
+      "module_A": "medcoupling/src/MEDCoupling",
+      "module_B": "yacs/src/bases",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 252,
+        "completion_tokens": 92,
+        "total_tokens": 344
+      },
+      "latency_ms": 1396.6
+    },
+    {
+      "module_A": "medcoupling/src/MEDConverter",
+      "module_B": "medcoupling/src/INTERP_KERNEL",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 81,
+        "total_tokens": 319
+      },
+      "latency_ms": 837.3
+    },
+    {
+      "module_A": "yacs/src/yacsorb",
+      "module_B": "yacs/src/yacsloader",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 188,
+        "completion_tokens": 112,
+        "total_tokens": 300
+      },
+      "latency_ms": 1290.7
+    },
+    {
+      "module_A": "kernel/src/Launcher",
+      "module_B": "kernel/src/ResourcesManager",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 229,
+        "completion_tokens": 145,
+        "total_tokens": 374
+      },
+      "latency_ms": 1264.1
+    },
+    {
+      "module_A": "gui/src/SalomeApp",
+      "module_B": "gui/src/Prs",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 356,
+        "completion_tokens": 83,
+        "total_tokens": 439
+      },
+      "latency_ms": 1152.8
+    },
+    {
+      "module_A": "geom/src/GEOMFiltersSelection",
+      "module_B": "yacs/src/bases",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 269,
+        "completion_tokens": 153,
+        "total_tokens": 422
+      },
+      "latency_ms": 1576.6
+    },
+    {
+      "module_A": "gui/src/TOOLSGUI",
+      "module_B": "gui/src/OBJECT",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 134,
+        "total_tokens": 421
+      },
+      "latency_ms": 1499.7
+    },
+    {
+      "module_A": "gui/src/SVTK",
+      "module_B": "gui/src/VTKViewer",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 264,
+        "total_tokens": 494
+      },
+      "latency_ms": 1856.7
+    },
+    {
+      "module_A": "gui/src/OCCViewer",
+      "module_B": "gui/src/OpenGLUtils",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 185,
+        "completion_tokens": 852,
+        "total_tokens": 1037
+      },
+      "latency_ms": 4538.6
+    },
+    {
+      "module_A": "geom/src/GroupGUI",
+      "module_B": "gui/src/SVTK",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 345,
+        "completion_tokens": 726,
+        "total_tokens": 1071
+      },
+      "latency_ms": 3374.2
+    },
+    {
+      "module_A": "yacs/src/pmml",
+      "module_B": "yacs/src/yacsloader",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 178,
+        "completion_tokens": 72,
+        "total_tokens": 250
+      },
+      "latency_ms": 846.5
+    },
+    {
+      "module_A": "kernel/src/SALOMETraceCollector",
+      "module_B": "kernel/src/TOOLSDS",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 193,
+        "completion_tokens": 99,
+        "total_tokens": 292
+      },
+      "latency_ms": 1215.2
+    },
+    {
+      "module_A": "geom/src/AdvancedEngine",
+      "module_B": "kernel/src/SALOMEDSClient",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 215,
+        "total_tokens": 505
+      },
+      "latency_ms": 1445.9
+    },
+    {
+      "module_A": "yacs/src/salomegui",
+      "module_B": "kernel/src/NOTIFICATION_SWIG",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 215,
+        "completion_tokens": 53,
+        "total_tokens": 268
+      },
+      "latency_ms": 888.9
+    },
+    {
+      "module_A": "gui/src/GLViewer",
+      "module_B": "geom/src/ARCHIMEDE",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 170,
+        "completion_tokens": 71,
+        "total_tokens": 241
+      },
+      "latency_ms": 1038.1
+    },
+    {
+      "module_A": "geom/src/DisplayGUI",
+      "module_B": "gui/src/STD",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 256,
+        "completion_tokens": 245,
+        "total_tokens": 501
+      },
+      "latency_ms": 1690.5
+    },
+    {
+      "module_A": "yacs/src/salomegui",
+      "module_B": "gui/src/QxScene",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 212,
+        "completion_tokens": 668,
+        "total_tokens": 880
+      },
+      "latency_ms": 3110.2
+    },
+    {
+      "module_A": "geom/src/ShHealOper",
+      "module_B": "smesh/src/StdMeshersGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 62,
+        "total_tokens": 224
+      },
+      "latency_ms": 789.1
+    },
+    {
+      "module_A": "yacs/src/hmi",
+      "module_B": "geom/src/GEOMClient",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 216,
+        "completion_tokens": 119,
+        "total_tokens": 335
+      },
+      "latency_ms": 1423.6
+    },
+    {
+      "module_A": "kernel/src/DSC",
+      "module_B": "smesh/src/SMESH_SWIG_WITHIHM",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 194,
+        "completion_tokens": 77,
+        "total_tokens": 271
+      },
+      "latency_ms": 1221.9
+    },
+    {
+      "module_A": "medcoupling/src/INTERP_KERNELTest",
+      "module_B": "yacs/src/yacsloader",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 77,
+        "total_tokens": 297
+      },
+      "latency_ms": 1470.9
+    },
+    {
+      "module_A": "kernel/src/Launcher",
+      "module_B": "gui/src/ViewerData",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 202,
+        "completion_tokens": 90,
+        "total_tokens": 292
+      },
+      "latency_ms": 1227.7
+    },
+    {
+      "module_A": "gui/src/LightApp",
+      "module_B": "gui/src/Style",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 268,
+        "completion_tokens": 2103,
+        "total_tokens": 2371
+      },
+      "latency_ms": 10640.9
+    },
+    {
+      "module_A": "yacs/src/engine_swig",
+      "module_B": "geom/src/DlgRef",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 248,
+        "completion_tokens": 64,
+        "total_tokens": 312
+      },
+      "latency_ms": 1100.4
+    },
+    {
+      "module_A": "gui/src/SALOME_PYQT",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 365,
+        "completion_tokens": 1393,
+        "total_tokens": 1758
+      },
+      "latency_ms": 6648.5
+    },
+    {
+      "module_A": "medcoupling/src/MEDConverter",
+      "module_B": "smesh/src/SMESH_I",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 188,
+        "completion_tokens": 145,
+        "total_tokens": 333
+      },
+      "latency_ms": 1117.1
+    },
+    {
+      "module_A": "geom/src/OperationGUI",
+      "module_B": "gui/src/Style",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 216,
+        "completion_tokens": 280,
+        "total_tokens": 496
+      },
+      "latency_ms": 2006.7
+    },
+    {
+      "module_A": "geom/src/SKETCHER",
+      "module_B": "medcoupling/src/INTERP_KERNEL",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 75,
+        "total_tokens": 313
+      },
+      "latency_ms": 1091.4
+    },
+    {
+      "module_A": "geom/src/TransformationGUI",
+      "module_B": "geom/src/GEOMImpl",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 305,
+        "completion_tokens": 4465,
+        "total_tokens": 4770
+      },
+      "latency_ms": 21111.4
+    },
+    {
+      "module_A": "smesh/src/Driver",
+      "module_B": "geom/src/BasicGUI",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 84,
+        "total_tokens": 242
+      },
+      "latency_ms": 1193.2
+    },
+    {
+      "module_A": "gui/src/Plot2d",
+      "module_B": "yacs/src/pyqt",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 164,
+        "completion_tokens": 137,
+        "total_tokens": 301
+      },
+      "latency_ms": 1319.7
+    },
+    {
+      "module_A": "yacs/src/salomegui",
+      "module_B": "gui/src/Qtx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 301,
+        "completion_tokens": 279,
+        "total_tokens": 580
+      },
+      "latency_ms": 2040.1
+    },
+    {
+      "module_A": "gui/src/PV3DViewer",
+      "module_B": "gui/src/PVServerService",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 187,
+        "completion_tokens": 541,
+        "total_tokens": 728
+      },
+      "latency_ms": 2740.1
+    },
+    {
+      "module_A": "gui/src/SALOME_SWIG",
+      "module_B": "gui/src/SUIT",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 316,
+        "completion_tokens": 126,
+        "total_tokens": 442
+      },
+      "latency_ms": 1057.2
+    }
+  ],
+  "timestamp": "2026-10-21T22:03:13.614085",
+  "model": "deepseek-v4-flash",
+  "project": "salome",
+  "task": "dp",
+  "level": 2,
+  "manifest_seed": 42
+}

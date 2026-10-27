@@ -1,0 +1,699 @@
+{
+  "nastran": {
+    "system": "nastran",
+    "language": "fortran",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 7586,
+    "links": 6920,
+    "links_trusted": 6920,
+    "links_trusted_pct": 100.0,
+    "verdicts": {
+      "verified_symbol": 6920
+    },
+    "notes": {},
+    "module_edges": 4,
+    "module_weight": 3076,
+    "edges_without_trusted_support": 0,
+    "edges_without_trusted_support_pct": 0.0,
+    "weight_without_trusted_support": 0,
+    "weight_without_trusted_support_pct": 0.0,
+    "weight_trusted": 3076,
+    "weight_trusted_pct": 100.0,
+    "dp_positive": 4,
+    "dp_negative": 4,
+    "dp_positive_pairs_in_graph": 4,
+    "dp_positive_losing_support": 0,
+    "dp_positive_losing_support_pct": 0.0,
+    "ar_tasks": 4,
+    "ar_edges_lost": 0,
+    "ar_pairs_in_graph": 4,
+    "ar_edges_lost_pct": 0.0,
+    "edges_without_path_support": 0,
+    "edges_without_path_support_pct": 0.0,
+    "weight_without_path_support_pct": 0.0,
+    "weight_path_support_pct": 100.0,
+    "dp_positive_losing_path_support": 0,
+    "dp_positive_losing_path_support_pct": 0.0,
+    "ar_edges_losing_path_support_pct": 0.0,
+    "ar_source_modules": 4,
+    "ar_source_modules_without_trusted_targets": 0,
+    "examples": {}
+  },
+  "openfoam": {
+    "system": "openfoam",
+    "language": "include_basename",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 54731,
+    "links": 54355,
+    "links_trusted": 49845,
+    "links_trusted_pct": 91.7,
+    "verdicts": {
+      "verified_unique_basename": 49845,
+      "ambiguous_basename": 4510
+    },
+    "notes": {
+      "raw_dropped": 376
+    },
+    "module_edges": 199,
+    "module_weight": 21167,
+    "edges_without_trusted_support": 27,
+    "edges_without_trusted_support_pct": 13.6,
+    "weight_without_trusted_support": 216,
+    "weight_without_trusted_support_pct": 1.0,
+    "weight_trusted": 20613,
+    "weight_trusted_pct": 97.4,
+    "dp_positive": 199,
+    "dp_negative": 199,
+    "dp_positive_pairs_in_graph": 199,
+    "dp_positive_losing_support": 27,
+    "dp_positive_losing_support_pct": 13.6,
+    "ar_tasks": 199,
+    "ar_edges_lost": 27,
+    "ar_pairs_in_graph": 199,
+    "ar_edges_lost_pct": 13.6,
+    "edges_without_path_support": 199,
+    "edges_without_path_support_pct": 100.0,
+    "weight_without_path_support_pct": 100.0,
+    "weight_path_support_pct": 0.0,
+    "dp_positive_losing_path_support": 199,
+    "dp_positive_losing_path_support_pct": 100.0,
+    "ar_edges_losing_path_support_pct": 100.0,
+    "ar_source_modules": 58,
+    "ar_source_modules_without_trusted_targets": 0,
+    "examples": {
+      "ambiguous_basename": [
+        "applications/solvers/acoustic/acousticFoam/acousticFoam.C | createControl.H -> applications/solvers/electromagnetics/mhdFoam/createControl.H",
+        "applications/solvers/acoustic/acousticFoam/acousticFoam.C | createRegionControls.H -> applications/solvers/acoustic/acousticFoam/createRegionControls.H",
+        "applications/solvers/acoustic/acousticFoam/acousticFoam.C | readTransportProperties.H -> applications/solvers/acoustic/acousticFoam/readTransportProperties.H"
+      ]
+    }
+  },
+  "salome": {
+    "system": "salome",
+    "language": "salome",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 36576,
+    "links": 18439,
+    "links_trusted": 15790,
+    "links_trusted_pct": 85.6,
+    "verdicts": {
+      "verified_unique_basename": 15741,
+      "verified_path": 49,
+      "crossrepo_unverified": 2649
+    },
+    "notes": {
+      "crossrepo_links": 2649
+    },
+    "module_edges": 980,
+    "module_weight": 8783,
+    "edges_without_trusted_support": 405,
+    "edges_without_trusted_support_pct": 41.3,
+    "weight_without_trusted_support": 2649,
+    "weight_without_trusted_support_pct": 30.2,
+    "weight_trusted": 6134,
+    "weight_trusted_pct": 69.8,
+    "dp_positive": 980,
+    "dp_negative": 980,
+    "dp_positive_pairs_in_graph": 980,
+    "dp_positive_losing_support": 405,
+    "dp_positive_losing_support_pct": 41.3,
+    "ar_tasks": 980,
+    "ar_edges_lost": 405,
+    "ar_pairs_in_graph": 980,
+    "ar_edges_lost_pct": 41.3,
+    "edges_without_path_support": 959,
+    "edges_without_path_support_pct": 97.9,
+    "weight_without_path_support_pct": 96.5,
+    "weight_path_support_pct": 0.4,
+    "dp_positive_losing_path_support": 959,
+    "dp_positive_losing_path_support_pct": 97.9,
+    "ar_edges_losing_path_support_pct": 97.9,
+    "ar_source_modules": 153,
+    "ar_source_modules_without_trusted_targets": 7,
+    "examples": {
+      "crossrepo_unverified": [
+        "kernel/src/ArgvKeeper/Test/TestArgvKeeper.cxx | (cross-repo) -> medcoupling/src/INTERP_KERNELTest/BasicMainTest.hxx",
+        "kernel/src/ArgvKeeper/Test/TestArgvKeeper.cxx | (cross-repo) -> yacs/src/bases/Test/BasicMainTest.hxx",
+        "kernel/src/ArgvKeeper/Test/TestArgvKeeper.cxx | (cross-repo) -> yacs/src/pmml/Test/BasicMainTest.hxx"
+      ]
+    }
+  },
+  "paraview": {
+    "system": "paraview",
+    "language": "cpp",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 26697,
+    "links": 11075,
+    "links_trusted": 11045,
+    "links_trusted_pct": 99.7,
+    "verdicts": {
+      "verified_same_dir": 4720,
+      "verified_unique_basename": 5507,
+      "external_misresolved": 6,
+      "verified_path": 818,
+      "ambiguous_basename": 7,
+      "wrong_path": 17
+    },
+    "notes": {},
+    "module_edges": 311,
+    "module_weight": 5483,
+    "edges_without_trusted_support": 1,
+    "edges_without_trusted_support_pct": 0.3,
+    "weight_without_trusted_support": 1,
+    "weight_without_trusted_support_pct": 0.0,
+    "weight_trusted": 5473,
+    "weight_trusted_pct": 99.8,
+    "dp_positive": 311,
+    "dp_negative": 311,
+    "dp_positive_pairs_in_graph": 311,
+    "dp_positive_losing_support": 1,
+    "dp_positive_losing_support_pct": 0.3,
+    "ar_tasks": 311,
+    "ar_edges_lost": 1,
+    "ar_pairs_in_graph": 311,
+    "ar_edges_lost_pct": 0.3,
+    "edges_without_path_support": 311,
+    "edges_without_path_support_pct": 100.0,
+    "weight_without_path_support_pct": 100.0,
+    "weight_path_support_pct": 0.0,
+    "dp_positive_losing_path_support": 311,
+    "dp_positive_losing_path_support_pct": 100.0,
+    "ar_edges_losing_path_support_pct": 100.0,
+    "ar_source_modules": 80,
+    "ar_source_modules_without_trusted_targets": 0,
+    "examples": {
+      "external_misresolved": [
+        "Plugins/GMVReader/Reader/gmvread.c | sys/types.h -> Plugins/pvNVIDIAIndeX/include/mi/base/types.h",
+        "Plugins/GenericIOReader/Readers/LANL/GIO/GenericIO.cxx | sys/types.h -> Plugins/pvNVIDIAIndeX/include/mi/base/types.h",
+        "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_maths/GW_SparseMatrix.h | laspack/vector.h -> Plugins/pvNVIDIAIndeX/include/mi/math/vector.h"
+      ],
+      "ambiguous_basename": [
+        "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_maths/tnt/tnt_array1d.h | assert.h -> Plugins/pvNVIDIAIndeX/include/mi/base/assert.h",
+        "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_maths/tnt/tnt_array2d.h | assert.h -> Plugins/pvNVIDIAIndeX/include/mi/base/assert.h",
+        "Plugins/GeodesicMeasurement/Filters/FmmMesh/gw_maths/tnt/tnt_array3d.h | assert.h -> Plugins/pvNVIDIAIndeX/include/mi/base/assert.h"
+      ],
+      "wrong_path": [
+        "Plugins/pvNVIDIAIndeX/include/mi/dice.h | mi/neuraylib/assert.h -> Plugins/pvNVIDIAIndeX/include/mi/base/assert.h",
+        "Plugins/pvNVIDIAIndeX/include/mi/dice.h | mi/neuraylib/iallocator.h -> Plugins/pvNVIDIAIndeX/include/mi/base/iallocator.h",
+        "Plugins/pvNVIDIAIndeX/include/mi/dice.h | mi/neuraylib/version.h -> Plugins/pvNVIDIAIndeX/include/mi/base/version.h"
+      ]
+    }
+  },
+  "kubernetes": {
+    "system": "kubernetes",
+    "language": "go",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 42164,
+    "links": 21119,
+    "links_trusted": 14436,
+    "links_trusted_pct": 68.4,
+    "verdicts": {
+      "verified_dir": 14436,
+      "target_dir_missing": 6683
+    },
+    "notes": {},
+    "module_edges": 397,
+    "module_weight": 1318,
+    "edges_without_trusted_support": 147,
+    "edges_without_trusted_support_pct": 37.0,
+    "weight_without_trusted_support": 707,
+    "weight_without_trusted_support_pct": 53.6,
+    "weight_trusted": 611,
+    "weight_trusted_pct": 46.4,
+    "dp_positive": 397,
+    "dp_negative": 397,
+    "dp_positive_pairs_in_graph": 397,
+    "dp_positive_losing_support": 147,
+    "dp_positive_losing_support_pct": 37.0,
+    "ar_tasks": 397,
+    "ar_edges_lost": 147,
+    "ar_pairs_in_graph": 397,
+    "ar_edges_lost_pct": 37.0,
+    "edges_without_path_support": 147,
+    "edges_without_path_support_pct": 37.0,
+    "weight_without_path_support_pct": 53.6,
+    "weight_path_support_pct": 46.4,
+    "dp_positive_losing_path_support": 147,
+    "dp_positive_losing_path_support_pct": 37.0,
+    "ar_edges_losing_path_support_pct": 37.0,
+    "ar_source_modules": 79,
+    "ar_source_modules_without_trusted_targets": 9,
+    "examples": {
+      "target_dir_missing": [
+        "cmd/cloud-controller-manager/main.go | k8s.io/klog/v2 -> staging/src/k8s.io/klog/v2",
+        "cmd/cloud-controller-manager/nodeipamcontroller.go | k8s.io/klog/v2 -> staging/src/k8s.io/klog/v2",
+        "cmd/cloud-controller-manager/nodeipamcontroller.go | k8s.io/kubernetes/pkg/controller/nodeipam/ipam -> staging/src/k8s.io/kubernetes/pkg/controller/nodeipam/ipam"
+      ]
+    }
+  },
+  "linux": {
+    "system": "linux",
+    "language": "cpp",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 341042,
+    "links": 179846,
+    "links_trusted": 76833,
+    "links_trusted_pct": 42.7,
+    "verdicts": {
+      "config_gap": 93883,
+      "external_misresolved": 7969,
+      "verified_same_dir": 59649,
+      "wrong_path": 347,
+      "verified_path": 8680,
+      "ambiguous_basename": 814,
+      "verified_unique_basename": 8504
+    },
+    "notes": {},
+    "module_edges": 5947,
+    "module_weight": 88597,
+    "edges_without_trusted_support": 5778,
+    "edges_without_trusted_support_pct": 97.2,
+    "weight_without_trusted_support": 82724,
+    "weight_without_trusted_support_pct": 93.4,
+    "weight_trusted": 790,
+    "weight_trusted_pct": 0.9,
+    "dp_positive": 2000,
+    "dp_negative": 2000,
+    "dp_positive_pairs_in_graph": 2000,
+    "dp_positive_losing_support": 1944,
+    "dp_positive_losing_support_pct": 97.2,
+    "ar_tasks": 2000,
+    "ar_edges_lost": 1941,
+    "ar_pairs_in_graph": 2000,
+    "ar_edges_lost_pct": 97.0,
+    "edges_without_path_support": 5821,
+    "edges_without_path_support_pct": 97.9,
+    "weight_without_path_support_pct": 95.9,
+    "weight_path_support_pct": 0.6,
+    "dp_positive_losing_path_support": 1953,
+    "dp_positive_losing_path_support_pct": 97.7,
+    "ar_edges_losing_path_support_pct": 97.8,
+    "ar_source_modules": 380,
+    "ar_source_modules_without_trusted_targets": 277,
+    "examples": {
+      "config_gap": [
+        "arch/alpha/boot/bootp.c | linux/kernel.h -> arch/sparc/kernel/kernel.h",
+        "arch/alpha/boot/bootp.c | linux/string.h -> arch/csky/abiv1/inc/abi/string.h",
+        "arch/alpha/boot/bootp.c | linux/mm.h -> arch/arm/mm/mm.h"
+      ],
+      "external_misresolved": [
+        "arch/alpha/boot/bootp.c | asm/io.h -> arch/powerpc/boot/io.h",
+        "arch/alpha/boot/bootpz.c | asm/io.h -> arch/powerpc/boot/io.h",
+        "arch/alpha/boot/misc.c | ../../../lib/inflate.c -> lib/zlib_inflate/inflate.c"
+      ],
+      "wrong_path": [
+        "arch/alpha/kernel/core_cia.c | asm/ptrace.h -> arch/m68k/kernel/ptrace.h",
+        "arch/alpha/kernel/core_irongate.c | asm/ptrace.h -> arch/m68k/kernel/ptrace.h",
+        "arch/alpha/kernel/core_marvel.c | asm/ptrace.h -> arch/m68k/kernel/ptrace.h"
+      ],
+      "ambiguous_basename": [
+        "arch/arm/vdso/vdsomunge.c | elf.h -> arch/csky/abiv1/inc/abi/elf.h",
+        "arch/arm/vdso/vdsomunge.c | string.h -> arch/csky/abiv1/inc/abi/string.h",
+        "arch/arm64/kernel/pi/relacheck.c | elf.h -> arch/csky/abiv1/inc/abi/elf.h"
+      ]
+    }
+  },
+  "hadoop": {
+    "system": "hadoop",
+    "language": "java",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 88634,
+    "links": 46999,
+    "links_trusted": 42899,
+    "links_trusted_pct": 91.3,
+    "verdicts": {
+      "verified_fqn": 42758,
+      "external_misresolved": 1713,
+      "wrong_simple_name": 2387,
+      "verified_unique_class": 141
+    },
+    "notes": {},
+    "module_edges": 135,
+    "module_weight": 23041,
+    "edges_without_trusted_support": 59,
+    "edges_without_trusted_support_pct": 43.7,
+    "weight_without_trusted_support": 1002,
+    "weight_without_trusted_support_pct": 4.3,
+    "weight_trusted": 20028,
+    "weight_trusted_pct": 86.9,
+    "dp_positive": 135,
+    "dp_negative": 135,
+    "dp_positive_pairs_in_graph": 135,
+    "dp_positive_losing_support": 59,
+    "dp_positive_losing_support_pct": 43.7,
+    "ar_tasks": 135,
+    "ar_edges_lost": 59,
+    "ar_pairs_in_graph": 135,
+    "ar_edges_lost_pct": 43.7,
+    "edges_without_path_support": 73,
+    "edges_without_path_support_pct": 54.1,
+    "weight_without_path_support_pct": 6.1,
+    "weight_path_support_pct": 86.4,
+    "dp_positive_losing_path_support": 73,
+    "dp_positive_losing_path_support_pct": 54.1,
+    "ar_edges_losing_path_support_pct": 54.1,
+    "ar_source_modules": 21,
+    "ar_source_modules_without_trusted_targets": 2,
+    "examples": {
+      "external_misresolved": [
+        "hadoop-cloud-storage-project/hadoop-cos/src/main/java/org/apache/hadoop/fs/cosn/CosNativeFileSystemStore.java | com.qcloud.cos.model.ListObjectsRequest -> hadoop-cloud-storage-project/hadoop-tos/src/main/java/org/apache/hadoop/fs/tosfs/object/request/ListObjectsRequest.java",
+        "hadoop-cloud-storage-project/hadoop-cos/src/main/java/org/apache/hadoop/fs/cosn/CosNativeFileSystemStore.java | com.qcloud.cos.utils.Base64 -> hadoop-tools/hadoop-azure/src/main/java/org/apache/hadoop/fs/azurebfs/utils/Base64.java",
+        "hadoop-cloud-storage-project/hadoop-cos/src/main/java/org/apache/hadoop/fs/cosn/CosNInputStream.java | java.util.Queue -> hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/Queue.java"
+      ],
+      "wrong_simple_name": [
+        "hadoop-cloud-storage-project/hadoop-tos/src/main/java/org/apache/hadoop/fs/tosfs/RawFileSystem.java | org.apache.hadoop.fs.tosfs.object.Constants -> hadoop-cloud-storage-project/hadoop-cos/src/main/java/org/apache/hadoop/fs/cosn/Constants.java",
+        "hadoop-cloud-storage-project/hadoop-tos/src/main/java/org/apache/hadoop/fs/tosfs/commit/Committer.java | org.apache.hadoop.mapreduce.JobContext -> hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/JobContext.java",
+        "hadoop-cloud-storage-project/hadoop-tos/src/main/java/org/apache/hadoop/fs/tosfs/commit/Committer.java | org.apache.hadoop.mapreduce.JobStatus -> hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/JobStatus.java"
+      ]
+    }
+  },
+  "spring": {
+    "system": "spring",
+    "language": "java",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 39443,
+    "links": 22251,
+    "links_trusted": 17658,
+    "links_trusted_pct": 79.4,
+    "verdicts": {
+      "verified_fqn": 17653,
+      "external_misresolved": 3392,
+      "wrong_simple_name": 1201,
+      "verified_unique_class": 5
+    },
+    "notes": {},
+    "module_edges": 119,
+    "module_weight": 14734,
+    "edges_without_trusted_support": 37,
+    "edges_without_trusted_support_pct": 31.1,
+    "weight_without_trusted_support": 628,
+    "weight_without_trusted_support_pct": 4.3,
+    "weight_trusted": 10815,
+    "weight_trusted_pct": 73.4,
+    "dp_positive": 119,
+    "dp_negative": 119,
+    "dp_positive_pairs_in_graph": 119,
+    "dp_positive_losing_support": 37,
+    "dp_positive_losing_support_pct": 31.1,
+    "ar_tasks": 119,
+    "ar_edges_lost": 37,
+    "ar_pairs_in_graph": 119,
+    "ar_edges_lost_pct": 31.1,
+    "edges_without_path_support": 37,
+    "edges_without_path_support_pct": 31.1,
+    "weight_without_path_support_pct": 4.3,
+    "weight_path_support_pct": 73.4,
+    "dp_positive_losing_path_support": 37,
+    "dp_positive_losing_path_support_pct": 31.1,
+    "ar_edges_losing_path_support_pct": 31.1,
+    "ar_source_modules": 20,
+    "ar_source_modules_without_trusted_targets": 1,
+    "examples": {
+      "external_misresolved": [
+        "spring-aop/src/main/java/org/aopalliance/intercept/Invocation.java | org.jspecify.annotations.Nullable -> spring-core/src/main/java/org/springframework/lang/Nullable.java",
+        "spring-aop/src/main/java/org/aopalliance/intercept/Joinpoint.java | org.jspecify.annotations.Nullable -> spring-core/src/main/java/org/springframework/lang/Nullable.java",
+        "spring-aop/src/main/java/org/aopalliance/intercept/MethodInterceptor.java | org.jspecify.annotations.Nullable -> spring-core/src/main/java/org/springframework/lang/Nullable.java"
+      ],
+      "wrong_simple_name": [
+        "spring-aop/src/main/java/org/springframework/aop/aspectj/AbstractAspectJAdvice.java | org.springframework.util.CollectionUtils -> spring-core/src/main/java/org/springframework/cglib/core/CollectionUtils.java",
+        "spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJAfterReturningAdvice.java | org.springframework.util.TypeUtils -> spring-core/src/main/java/org/springframework/cglib/core/TypeUtils.java",
+        "spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java | org.springframework.util.ReflectionUtils.MethodFilter -> spring-core/src/main/java/org/springframework/cglib/transform/MethodFilter.java"
+      ]
+    }
+  },
+  "codeaster": {
+    "system": "codeaster",
+    "language": "mixed",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 13207,
+    "links": 10403,
+    "links_trusted": 9599,
+    "links_trusted_pct": 92.3,
+    "verdicts": {
+      "verified_unique_basename": 2456,
+      "verified_same_dir": 47,
+      "verified_path": 1954,
+      "ambiguous_basename": 1,
+      "verified_module": 5142,
+      "wrong_module": 799,
+      "external_misresolved_py": 4
+    },
+    "notes": {},
+    "module_edges": 352,
+    "module_weight": 2501,
+    "edges_without_trusted_support": 5,
+    "edges_without_trusted_support_pct": 1.4,
+    "weight_without_trusted_support": 12,
+    "weight_without_trusted_support_pct": 0.5,
+    "weight_trusted": 2307,
+    "weight_trusted_pct": 92.2,
+    "dp_positive": 352,
+    "dp_negative": 352,
+    "dp_positive_pairs_in_graph": 352,
+    "dp_positive_losing_support": 5,
+    "dp_positive_losing_support_pct": 1.4,
+    "ar_tasks": 352,
+    "ar_edges_lost": 5,
+    "ar_pairs_in_graph": 352,
+    "ar_edges_lost_pct": 1.4,
+    "edges_without_path_support": 68,
+    "edges_without_path_support_pct": 19.3,
+    "weight_without_path_support_pct": 38.7,
+    "weight_path_support_pct": 54.1,
+    "dp_positive_losing_path_support": 68,
+    "dp_positive_losing_path_support_pct": 19.3,
+    "ar_edges_losing_path_support_pct": 19.3,
+    "ar_source_modules": 51,
+    "ar_source_modules_without_trusted_targets": 2,
+    "examples": {
+      "ambiguous_basename": [
+        "bibcxx/Results/NonLinearResult.cxx | Behaviour_type.h -> bibcxx/include/Behaviour_type.h"
+      ],
+      "wrong_module": [
+        "catalo/cataelem/elem.py | cataelem -> code_aster/Messages/cataelem.py",
+        "catalo/cataelem/Elements/elements.py | cataelem -> code_aster/Messages/cataelem.py",
+        "code_aster/Cata/Commands/affe_cara_elem.py | ..Language.DataStructure -> code_aster/Cata/DataStructure.py"
+      ],
+      "external_misresolved_py": [
+        "code_aster/MacroCommands/extr_coupe_ops.py | scipy.stats -> code_aster/MacroCommands/Utils/stats.py",
+        "code_aster/MacroCommands/post_newmark_ops.py | scipy.optimize -> code_aster/MacroCommands/Utils/optimize.py",
+        "code_aster/MacroCommands/PostVeriFerraillage/calculetatsect.py | scipy.optimize -> code_aster/MacroCommands/Utils/optimize.py"
+      ]
+    }
+  },
+  "openmodelica": {
+    "system": "openmodelica",
+    "language": "mixed",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 23968,
+    "links": 16552,
+    "links_trusted": 15867,
+    "links_trusted_pct": 95.9,
+    "verdicts": {
+      "ambiguous_basename": 61,
+      "wrong_path": 497,
+      "verified_path": 12748,
+      "verified_same_dir": 2648,
+      "verified_unique_basename": 471,
+      "external_misresolved": 127
+    },
+    "notes": {},
+    "module_edges": 25,
+    "module_weight": 233,
+    "edges_without_trusted_support": 2,
+    "edges_without_trusted_support_pct": 8.0,
+    "weight_without_trusted_support": 2,
+    "weight_without_trusted_support_pct": 0.9,
+    "weight_trusted": 218,
+    "weight_trusted_pct": 93.6,
+    "dp_positive": 25,
+    "dp_negative": 25,
+    "dp_positive_pairs_in_graph": 25,
+    "dp_positive_losing_support": 2,
+    "dp_positive_losing_support_pct": 8.0,
+    "ar_tasks": 25,
+    "ar_edges_lost": 2,
+    "ar_pairs_in_graph": 25,
+    "ar_edges_lost_pct": 8.0,
+    "edges_without_path_support": 12,
+    "edges_without_path_support_pct": 48.0,
+    "weight_without_path_support_pct": 30.9,
+    "weight_path_support_pct": 50.6,
+    "dp_positive_losing_path_support": 12,
+    "dp_positive_losing_path_support_pct": 48.0,
+    "ar_edges_losing_path_support_pct": 48.0,
+    "ar_source_modules": 12,
+    "ar_source_modules_without_trusted_targets": 1,
+    "examples": {
+      "ambiguous_basename": [
+        "OMCompiler/Compiler/boot/include/msgpack-modelica.h | ModelicaUtilities.h -> OMCompiler/SimulationRuntime/c/ModelicaUtilities.h",
+        "OMCompiler/Compiler/FrontEndCpp/Absyn/Algorithm.cpp | Util.h -> OMCompiler/Compiler/FrontEndCpp/Util.h",
+        "OMCompiler/Compiler/FrontEndCpp/Absyn/ClassDef.cpp | Util.h -> OMCompiler/Compiler/FrontEndCpp/Util.h"
+      ],
+      "wrong_path": [
+        "OMCompiler/Compiler/FrontEndCpp/Class.cpp | Absyn/Class.h -> OMCompiler/Compiler/FrontEndCpp/Class.h",
+        "OMCompiler/Compiler/FrontEndCpp/ClassNode.cpp | Absyn/Class.h -> OMCompiler/Compiler/FrontEndCpp/Class.h",
+        "OMCompiler/Compiler/FrontEndCpp/Component.cpp | Absyn/Component.h -> OMCompiler/Compiler/FrontEndCpp/Component.h"
+      ],
+      "external_misresolved": [
+        "OMCompiler/Compiler/runtime/Dynload_omc.cpp | ../OpenModelicaBootstrappingHeader.h -> OMCompiler/Compiler/boot/tarball-include/OpenModelicaBootstrappingHeader.h",
+        "OMCompiler/Compiler/runtime/Error_omc.cpp | ../OpenModelicaBootstrappingHeader.h -> OMCompiler/Compiler/boot/tarball-include/OpenModelicaBootstrappingHeader.h",
+        "OMCompiler/Compiler/runtime/ffi_omc.cpp | ../OpenModelicaBootstrappingHeader.h -> OMCompiler/Compiler/boot/tarball-include/OpenModelicaBootstrappingHeader.h"
+      ]
+    }
+  },
+  "tensorflow": {
+    "system": "tensorflow",
+    "language": "mixed",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 137017,
+    "links": 79605,
+    "links_trusted": 57654,
+    "links_trusted_pct": 72.4,
+    "verdicts": {
+      "verified_path": 42284,
+      "external_misresolved": 6451,
+      "wrong_path": 6427,
+      "config_gap": 8438,
+      "verified_module": 15335,
+      "external_misresolved_py": 630,
+      "verified_same_dir": 2,
+      "verified_unique_basename": 33,
+      "wrong_module": 5
+    },
+    "notes": {},
+    "module_edges": 1476,
+    "module_weight": 50407,
+    "edges_without_trusted_support": 472,
+    "edges_without_trusted_support_pct": 32.0,
+    "weight_without_trusted_support": 4863,
+    "weight_without_trusted_support_pct": 9.6,
+    "weight_trusted": 31311,
+    "weight_trusted_pct": 62.1,
+    "dp_positive": 1476,
+    "dp_negative": 1476,
+    "dp_positive_pairs_in_graph": 1476,
+    "dp_positive_losing_support": 472,
+    "dp_positive_losing_support_pct": 32.0,
+    "ar_tasks": 1476,
+    "ar_edges_lost": 472,
+    "ar_pairs_in_graph": 1476,
+    "ar_edges_lost_pct": 32.0,
+    "edges_without_path_support": 477,
+    "edges_without_path_support_pct": 32.3,
+    "weight_without_path_support_pct": 9.7,
+    "weight_path_support_pct": 62.1,
+    "dp_positive_losing_path_support": 477,
+    "dp_positive_losing_path_support_pct": 32.3,
+    "ar_edges_losing_path_support_pct": 32.3,
+    "ar_source_modules": 113,
+    "ar_source_modules_without_trusted_targets": 2,
+    "examples": {
+      "external_misresolved": [
+        "tensorflow/c/eager/abstract_function.h | absl/status/statusor.h -> tensorflow/core/platform/statusor.h",
+        "tensorflow/c/eager/abstract_operation.h | absl/types/span.h -> tensorflow/core/tfrt/mlrt/bytecode/span.h",
+        "tensorflow/c/eager/abstract_op_attrs.h | absl/container/inlined_vector.h -> tensorflow/core/lib/gtl/inlined_vector.h"
+      ],
+      "wrong_path": [
+        "tensorflow/c/eager/abstract_function.h | tensorflow/core/platform/refcount.h -> tensorflow/core/lib/core/refcount.h",
+        "tensorflow/c/eager/abstract_function.h | tensorflow/core/platform/status.h -> tensorflow/cc/experimental/base/public/status.h",
+        "tensorflow/c/eager/abstract_operation.h | tensorflow/core/platform/status.h -> tensorflow/cc/experimental/base/public/status.h"
+      ],
+      "config_gap": [
+        "tensorflow/c/eager/custom_device_test.cc | tensorflow/c/c_api.h -> tensorflow/c/eager/c_api.h",
+        "tensorflow/c/eager/custom_device_testutil.cc | tensorflow/c/c_api.h -> tensorflow/c/eager/c_api.h",
+        "tensorflow/c/eager/custom_device_testutil.h | tensorflow/c/c_api.h -> tensorflow/c/eager/c_api.h"
+      ],
+      "external_misresolved_py": [
+        "tensorflow/compiler/mlir/quantization/stablehlo/python/integration_test/quantize_model_test.py | absl.testing -> tensorflow/compiler/mlir/quantization/common/python/testing.py",
+        "tensorflow/compiler/mlir/quantization/stablehlo/python/integration_test/quantize_model_test_base.py | absl.testing -> tensorflow/compiler/mlir/quantization/common/python/testing.py",
+        "tensorflow/compiler/mlir/quantization/stablehlo/python/integration_test/quantize_model_test_base.py | mlir -> tensorflow/python/compiler/mlir/mlir.py"
+      ],
+      "wrong_module": [
+        "tensorflow/python/compiler/xla/experimental/xla_sharding.py | xla -> tensorflow/compiler/tf2xla/python/xla.py",
+        "tensorflow/python/compiler/xla/experimental/xla_sharding_test.py | xla -> tensorflow/compiler/tf2xla/python/xla.py",
+        "tensorflow/python/keras/layers/merge.py | keras -> tensorflow/compiler/mlir/tensorflow/tests/tf_saved_model/keras.py"
+      ]
+    }
+  },
+  "pytorch": {
+    "system": "pytorch",
+    "language": "mixed",
+    "replay_reproduces_module_dependency": true,
+    "raw_statements": 50368,
+    "links": 33682,
+    "links_trusted": 23695,
+    "links_trusted_pct": 70.3,
+    "verdicts": {
+      "verified_path": 13446,
+      "wrong_path": 2346,
+      "ambiguous_basename": 21,
+      "external_misresolved": 876,
+      "config_gap": 2180,
+      "verified_unique_basename": 87,
+      "verified_same_dir": 21,
+      "external_misresolved_py": 3811,
+      "verified_module": 10141,
+      "wrong_module": 753
+    },
+    "notes": {},
+    "module_edges": 762,
+    "module_weight": 13753,
+    "edges_without_trusted_support": 277,
+    "edges_without_trusted_support_pct": 36.4,
+    "weight_without_trusted_support": 2384,
+    "weight_without_trusted_support_pct": 17.3,
+    "weight_trusted": 7085,
+    "weight_trusted_pct": 51.5,
+    "dp_positive": 762,
+    "dp_negative": 762,
+    "dp_positive_pairs_in_graph": 762,
+    "dp_positive_losing_support": 277,
+    "dp_positive_losing_support_pct": 36.4,
+    "ar_tasks": 762,
+    "ar_edges_lost": 277,
+    "ar_pairs_in_graph": 762,
+    "ar_edges_lost_pct": 36.4,
+    "edges_without_path_support": 279,
+    "edges_without_path_support_pct": 36.6,
+    "weight_without_path_support_pct": 17.4,
+    "weight_path_support_pct": 51.4,
+    "dp_positive_losing_path_support": 279,
+    "dp_positive_losing_path_support_pct": 36.6,
+    "ar_edges_losing_path_support_pct": 36.6,
+    "ar_source_modules": 108,
+    "ar_source_modules_without_trusted_targets": 31,
+    "examples": {
+      "wrong_path": [
+        "aten/src/ATen/AccumulateType.h | c10/core/ScalarType.h -> aten/src/ATen/ScalarType.h",
+        "aten/src/ATen/ATen.h | ATen/core/Generator.h -> aten/src/ATen/Generator.h",
+        "aten/src/ATen/ATen.h | ATen/core/Scalar.h -> aten/src/ATen/Scalar.h"
+      ],
+      "ambiguous_basename": [
+        "aten/src/ATen/AccumulateType.h | cuda.h -> torch/csrc/api/include/torch/cuda.h",
+        "aten/src/ATen/Dispatch.h | cuda.h -> torch/csrc/api/include/torch/cuda.h",
+        "aten/src/ATen/core/PhiloxRNGEngine.h | cuda.h -> torch/csrc/api/include/torch/cuda.h"
+      ],
+      "external_misresolved": [
+        "aten/src/ATen/ATen.h | ATen/Functions.h -> aten/src/ATen/templates/Functions.h",
+        "aten/src/ATen/ATen.h | ATen/NativeFunctions.h -> aten/src/ATen/templates/NativeFunctions.h",
+        "aten/src/ATen/autocast_mode.h | ATen/NativeFunctions.h -> aten/src/ATen/templates/NativeFunctions.h"
+      ],
+      "config_gap": [
+        "aten/src/ATen/autocast_mode.h | torch/library.h -> aten/src/ATen/native/quantized/library.h",
+        "aten/src/ATen/FunctionalizeFallbackKernel.cpp | torch/library.h -> aten/src/ATen/native/quantized/library.h",
+        "aten/src/ATen/LegacyBatchedFallback.h | torch/library.h -> aten/src/ATen/native/quantized/library.h"
+      ],
+      "external_misresolved_py": [
+        "aten/src/ATen/native/quantized/cpu/qnnpack/configure.py | sys -> torch/_dynamo/polyfills/sys.py",
+        "aten/src/ATen/native/quantized/cpu/qnnpack/generate-wrapper.py | os -> torch/_dynamo/polyfills/os.py",
+        "aten/src/ATen/native/quantized/cpu/qnnpack/deps/clog/configure.py | sys -> torch/_dynamo/polyfills/sys.py"
+      ],
+      "wrong_module": [
+        "tools/code_coverage/oss_coverage.py | package.util.utils -> tools/code_coverage/package/oss/utils.py",
+        "tools/code_coverage/package/oss/cov_json.py | ..util.utils -> tools/code_coverage/package/oss/utils.py",
+        "tools/code_coverage/package/oss/init.py | ..util.utils -> tools/code_coverage/package/oss/utils.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,858 @@
+{
+ "precision_at_5": 0.2235294117647059,
+ "recall_at_5": 0.23302616501145912,
+ "total": 34,
+ "results": [
+  {
+   "source_module": "bibcxx/PythonBindings",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/Behaviours",
+    "bibcxx/Contact",
+    "bibcxx/Coupling",
+    "bibcxx/Crack",
+    "bibcxx/DataFields",
+    "bibcxx/Discretization",
+    "bibcxx/Flow",
+    "bibcxx/IOManager",
+    "bibcxx/Interfaces",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Materials",
+    "bibcxx/MemoryManager",
+    "bibcxx/Meshes",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Results"
+   ],
+   "predicted": [
+    "code_aster/Cata",
+    "code_aster/Messages",
+    "code_aster/Objects",
+    "bibcxx/Utilities",
+    "bibcxx/Meshes"
+   ],
+   "precision": 0.2,
+   "recall": 0.0625,
+   "raw_response": "Based on the typical role of the PythonBindings module in Code_Aster, which is to provide a Python interface to the Code_Aster system, I predict the following top 5 modules that it most likely depends on:\n\n1. code_aster/Cata\n2. code_aster/Messages\n3. code_aster/Objects\n4. bibcxx/Utilities\n5. bibcxx/Meshes",
+   "true_targets_v1": [
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Materials",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Loads",
+    "bibcxx/Supervis",
+    "bibcxx/Solvers",
+    "bibcxx/PostProcessing"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Meshes",
+   "true_targets": [
+    "bibcxx/DataStructures",
+    "bibcxx/Messages",
+    "bibcxx/Modal",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Supervis",
+    "bibcxx/Utilities",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/DataFields",
+    "bibcxx/Discretization",
+    "bibcxx/Materials",
+    "bibcxx/Elements"
+   ],
+   "precision": 0.2,
+   "recall": 0.14285714285714285,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/DataFields\n3. bibcxx/Discretization\n4. bibcxx/Materials\n5. bibcxx/Elements",
+   "true_targets_v1": [
+    "bibcxx/Utilities",
+    "bibc/include",
+    "bibcxx/MemoryManager"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Results",
+   "true_targets": [
+    "bibcxx/Interfaces",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Materials",
+    "bibcxx/Messages",
+    "bibcxx/Modal",
+    "bibcxx/Modeling",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/PythonBindings",
+    "bibcxx/Supervis",
+    "bibcxx/Utilities",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/PythonBindings",
+    "bibcxx/Utilities",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields",
+    "bibcxx/IOManager"
+   ],
+   "precision": 0.4,
+   "recall": 0.18181818181818182,
+   "raw_response": "1. bibcxx/PythonBindings\n2. bibcxx/Utilities\n3. bibcxx/Meshes\n4. bibcxx/DataFields\n5. bibcxx/IOManager",
+   "true_targets_v1": [
+    "bibcxx/Utilities",
+    "bibcxx/PythonBindings",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Interfaces",
+    "bibcxx/Loads",
+    "bibcxx/Studies"
+   ]
+  },
+  {
+   "source_module": "code_aster/Applications",
+   "true_targets": [
+    "code_aster/CodeCommands",
+    "code_aster/Objects"
+   ],
+   "predicted": [
+    "code_aster/Cata",
+    "bibcxx/PythonBindings",
+    "code_aster/Messages",
+    "code_aster/ObjectsExt",
+    "bibcxx/Utilities"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. code_aster/Cata\n2. bibcxx/PythonBindings\n3. code_aster/Messages\n4. code_aster/ObjectsExt\n5. bibcxx/Utilities",
+   "true_targets_v1": [
+    "code_aster/MacroCommands"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Loads",
+   "true_targets": [
+    "bibcxx/DataFields",
+    "bibcxx/DataStructures",
+    "bibcxx/MemoryManager",
+    "bibcxx/Meshes",
+    "bibcxx/Messages",
+    "bibcxx/Numbering",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/PythonBindings",
+    "bibcxx/Utilities",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.4,
+   "recall": 0.2857142857142857,
+   "raw_response": "1. bibcxx/PythonBindings\n2. bibcxx/Utilities\n3. bibcxx/Meshes\n4. bibcxx/DataFields\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/ParallelUtilities",
+    "bibc/include",
+    "bibcxx/DataFields",
+    "bibcxx/MemoryManager",
+    "bibcxx/Messages",
+    "bibcxx/Functions",
+    "bibcxx/Supervis"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Numbering",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/Loads",
+    "bibcxx/Modeling",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Utilities",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields",
+    "bibcxx/Modeling",
+    "bibcxx/LinearAlgebra"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/Meshes\n3. bibcxx/DataFields\n4. bibcxx/Modeling\n5. bibcxx/LinearAlgebra",
+   "true_targets_v1": [
+    "bibcxx/Utilities",
+    "bibc/include"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Messages",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/PythonBindings",
+    "bibcxx/IOManager",
+    "bibcxx/DataFields",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/PythonBindings\n3. bibcxx/IOManager\n4. bibcxx/DataFields\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibc/include"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Modal",
+   "true_targets": [
+    "bibcxx/Interfaces",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/MemoryManager",
+    "bibcxx/Numbering",
+    "bibcxx/Supervis",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/PythonBindings",
+    "bibcxx/Utilities",
+    "bibcxx/Modeling",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. bibcxx/PythonBindings\n2. bibcxx/Utilities\n3. bibcxx/Modeling\n4. bibcxx/LinearAlgebra\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/Utilities",
+    "bibcxx/include",
+    "bibcxx/MemoryManager",
+    "bibcxx/Solvers",
+    "bibcxx/Results",
+    "bibcxx/DataStructures"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Utilities",
+   "true_targets": [
+    "bibcxx/DataStructures",
+    "bibcxx/MemoryManager",
+    "bibcxx/Meshes",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "code_aster/Utilities",
+    "bibcxx/Messages",
+    "bibcxx/IOManager",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. code_aster/Utilities\n2. bibcxx/Messages\n3. bibcxx/IOManager\n4. bibcxx/LinearAlgebra\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/Meshes"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Functions",
+   "true_targets": [
+    "bibcxx/MemoryManager",
+    "bibcxx/Utilities",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/PythonBindings",
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. bibcxx/PythonBindings\n2. bibcxx/Utilities\n3. bibcxx/LinearAlgebra\n4. bibcxx/Meshes\n5. bibcxx/DataFields",
+   "true_targets_v1": [
+    "bibcxx/DataStructures",
+    "bibc/include",
+    "bibcxx/MemoryManager"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Solvers",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Supervis",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Discretization",
+    "bibcxx/Meshes",
+    "bibcxx/Utilities",
+    "bibcxx/DataFields"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. bibcxx/LinearAlgebra\n2. bibcxx/Discretization\n3. bibcxx/Meshes\n4. bibcxx/Utilities\n5. bibcxx/DataFields",
+   "true_targets_v1": [
+    "bibcxx/Supervis",
+    "bibcxx/include",
+    "bibc/include",
+    "bibcxx/MemoryManager"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Contact",
+   "true_targets": [
+    "bibcxx/DataStructures",
+    "bibcxx/Discretization",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/MemoryManager",
+    "bibcxx/Modeling",
+    "bibcxx/Numbering",
+    "bibcxx/Supervis",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields",
+    "bibcxx/Modeling",
+    "bibcxx/LinearAlgebra"
+   ],
+   "precision": 0.6,
+   "recall": 0.375,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/Meshes\n3. bibcxx/DataFields\n4. bibcxx/Modeling\n5. bibcxx/LinearAlgebra",
+   "true_targets_v1": [
+    "bibcxx/Numbering",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Loads",
+    "bibcxx/Messages",
+    "bibcxx/DataStructures",
+    "bibcxx/Discretization"
+   ]
+  },
+  {
+   "source_module": "bibcxx/DataFields",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/Behaviours",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Meshes",
+    "bibcxx/Messages",
+    "bibcxx/Modeling",
+    "bibcxx/Numbering",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Meshes",
+    "bibcxx/Modeling",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.6,
+   "recall": 0.3333333333333333,
+   "raw_response": "Based on the architecture of Code_Aster and the typical role of the source module bibcxx/DataFields, here are the top 5 modules that it most likely depends on:\n\n1. bibcxx/Utilities\n2. bibcxx/LinearAlgebra\n3. bibcxx/Meshes\n4. bibcxx/Modeling\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/Supervis",
+    "bibcxx/Meshes",
+    "bibcxx/Utilities",
+    "bibfor/include"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Modeling",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/DataFields",
+    "bibcxx/DataStructures",
+    "bibcxx/Discretization",
+    "bibcxx/Materials",
+    "bibcxx/MemoryManager",
+    "bibcxx/Modal",
+    "bibcxx/ParallelUtilities"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/IOManager",
+    "bibcxx/DataFields",
+    "bibcxx/Meshes"
+   ],
+   "precision": 0.2,
+   "recall": 0.125,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/LinearAlgebra\n3. bibcxx/IOManager\n4. bibcxx/DataFields\n5. bibcxx/Meshes",
+   "true_targets_v1": [
+    "bibcxx/Supervis",
+    "bibcxx/Utilities",
+    "bibcxx/DataFields"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Behaviours",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/DataFields",
+    "bibcxx/DataStructures",
+    "bibcxx/Modeling",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/PythonBindings",
+    "bibcxx/Utilities",
+    "bibcxx/Materials",
+    "bibcxx/Elements",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "1. bibcxx/PythonBindings\n2. bibcxx/Utilities\n3. bibcxx/Materials\n4. bibcxx/Elements\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/include",
+    "bibcxx/Materials",
+    "bibcxx/Messages"
+   ]
+  },
+  {
+   "source_module": "bibcxx/MFront",
+   "true_targets": [
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/DataFields",
+    "bibcxx/Meshes",
+    "bibcxx/Modeling"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/LinearAlgebra\n3. bibcxx/DataFields\n4. bibcxx/Meshes\n5. bibcxx/Modeling",
+   "true_targets_v1": [
+    "bibcxx/Utilities",
+    "bibcxx/include"
+   ]
+  },
+  {
+   "source_module": "bibcxx/IOManager",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/MemoryManager",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/Messages",
+    "bibcxx/Modeling",
+    "bibcxx/Results",
+    "bibcxx/DataFields"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/Messages\n3. bibcxx/Modeling\n4. bibcxx/Results\n5. bibcxx/DataFields",
+   "true_targets_v1": [
+    "bibcxx/Utilities",
+    "bibc/include",
+    "bibcxx/MemoryManager",
+    "bibcxx/Messages",
+    "bibcxx/Meshes"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Discretization",
+   "true_targets": [
+    "bibcxx/Behaviours",
+    "bibcxx/Materials",
+    "bibcxx/MemoryManager",
+    "bibcxx/Messages",
+    "bibcxx/Modeling",
+    "bibcxx/PostProcessing",
+    "bibcxx/Studies",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Meshes",
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/DataFields",
+    "bibcxx/Modeling"
+   ],
+   "precision": 0.4,
+   "recall": 0.25,
+   "raw_response": "1. bibcxx/Meshes\n2. bibcxx/Utilities\n3. bibcxx/LinearAlgebra\n4. bibcxx/DataFields\n5. bibcxx/Modeling",
+   "true_targets_v1": [
+    "bibcxx/include",
+    "bibcxx/Materials",
+    "bibcxx/Behaviours",
+    "bibcxx/MemoryManager",
+    "bibcxx/Studies"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Materials",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/DataStructures",
+    "bibcxx/MemoryManager",
+    "bibcxx/Meshes",
+    "bibcxx/Results",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Elements",
+    "bibcxx/DataStructures",
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. bibcxx/Elements\n2. bibcxx/DataStructures\n3. bibcxx/Utilities\n4. bibcxx/LinearAlgebra\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/Functions"
+   ]
+  },
+  {
+   "source_module": "bibcxx/PostProcessing",
+   "true_targets": [
+    "bibcxx/Discretization",
+    "bibcxx/Modeling",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Results",
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the PostProcessing module in a finite element analysis system, here are the top 5 modules that bibcxx/PostProcessing most likely depends on:\n\n1. bibcxx/Results\n2. bibcxx/Utilities\n3. bibcxx/LinearAlgebra\n4. bibcxx/Meshes\n5. bibcxx/DataFields",
+   "true_targets_v1": [
+    "bibcxx/Results"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Flow",
+   "true_targets": [
+    "bibcxx/DataStructures",
+    "bibcxx/MemoryManager",
+    "bibcxx/Supervis"
+   ],
+   "predicted": [
+    "bibcxx/PythonBindings",
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Meshes",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. bibcxx/PythonBindings\n2. bibcxx/Utilities\n3. bibcxx/LinearAlgebra\n4. bibcxx/Meshes\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/DataFields"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Supervis",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/IOManager",
+    "bibcxx/Discretization",
+    "bibcxx/Materials",
+    "bibcxx/Elements"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/IOManager\n3. bibcxx/Discretization\n4. bibcxx/Materials\n5. bibcxx/Elements",
+   "true_targets_v1": [
+    "bibc/include"
+   ]
+  },
+  {
+   "source_module": "code_aster/Coupling",
+   "true_targets": [
+    "code_aster/Solvers",
+    "code_aster/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Discretization",
+    "bibcxx/Elements",
+    "bibcxx/Behaviours"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/ParallelUtilities\n3. bibcxx/Discretization\n4. bibcxx/Elements\n5. bibcxx/Behaviours",
+   "true_targets_v1": [
+    "code_aster/Utilities",
+    "catalo/cataelem"
+   ]
+  },
+  {
+   "source_module": "bibcxx/MemoryManager",
+   "true_targets": [
+    "bibcxx/Supervis",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Discretization",
+    "bibcxx/Meshes"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/ParallelUtilities\n3. bibcxx/LinearAlgebra\n4. bibcxx/Discretization\n5. bibcxx/Meshes",
+   "true_targets_v1": [
+    "bibcxx/Supervis",
+    "bibcxx/include",
+    "bibc/include"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Coupling",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/DataFields",
+    "bibcxx/DataStructures",
+    "bibcxx/Meshes",
+    "bibcxx/Modeling"
+   ],
+   "predicted": [
+    "bibcxx/Modeling",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields",
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra"
+   ],
+   "precision": 0.6,
+   "recall": 0.6,
+   "raw_response": "1. bibcxx/Modeling\n2. bibcxx/Meshes\n3. bibcxx/DataFields\n4. bibcxx/Utilities\n5. bibcxx/LinearAlgebra",
+   "true_targets_v1": [
+    "bibcxx/Modeling",
+    "bibcxx/Messages"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Studies",
+   "true_targets": [
+    "bibcxx/Behaviours",
+    "bibcxx/Contact",
+    "bibcxx/Discretization",
+    "bibcxx/Loads",
+    "bibcxx/Messages"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/IOManager",
+    "bibcxx/Discretization",
+    "bibcxx/Materials",
+    "bibcxx/Elements"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/IOManager\n3. bibcxx/Discretization\n4. bibcxx/Materials\n5. bibcxx/Elements",
+   "true_targets_v1": [
+    "bibcxx/Behaviours",
+    "bibcxx/Materials"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Interfaces",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/MemoryManager",
+    "bibcxx/Supervis",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/PythonBindings",
+    "bibcxx/IOManager",
+    "bibcxx/Utilities",
+    "bibcxx/Behaviours",
+    "bibcxx/Meshes"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. bibcxx/PythonBindings\n2. bibcxx/IOManager\n3. bibcxx/Utilities\n4. bibcxx/Behaviours\n5. bibcxx/Meshes",
+   "true_targets_v1": [
+    "bibcxx/Supervis",
+    "bibcxx/DataStructures"
+   ]
+  },
+  {
+   "source_module": "code_aster/CodeCommands",
+   "true_targets": [
+    "code_aster/Helpers",
+    "code_aster/Messages",
+    "code_aster/Objects",
+    "code_aster/Utilities"
+   ],
+   "predicted": [
+    "code_aster/Messages",
+    "code_aster/MacroCommands",
+    "code_aster/Behaviours",
+    "code_aster/SD",
+    "code_aster/ObjectsExt"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. code_aster/Messages\n2. code_aster/MacroCommands\n3. code_aster/Behaviours\n4. code_aster/SD\n5. code_aster/ObjectsExt",
+   "true_targets_v1": [
+    "code_aster/Objects",
+    "code_aster/Cata",
+    "catalo/cataelem"
+   ]
+  },
+  {
+   "source_module": "bibcxx/LinearAlgebra",
+   "true_targets": [
+    "bibc/include",
+    "bibcxx/DataFields",
+    "bibcxx/DataStructures",
+    "bibcxx/Loads",
+    "bibcxx/MemoryManager",
+    "bibcxx/Modeling",
+    "bibcxx/Solvers",
+    "bibcxx/Supervis"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields",
+    "bibcxx/Modeling",
+    "bibcxx/Discretization"
+   ],
+   "precision": 0.4,
+   "recall": 0.25,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/Meshes\n3. bibcxx/DataFields\n4. bibcxx/Modeling\n5. bibcxx/Discretization",
+   "true_targets_v1": [
+    "bibcxx/DataFields",
+    "bibcxx/Loads",
+    "bibcxx/Solvers",
+    "bibcxx/Meshes",
+    "bibcxx/Results",
+    "bibcxx/Modeling"
+   ]
+  },
+  {
+   "source_module": "bibcxx/ParallelUtilities",
+   "true_targets": [
+    "bibcxx/MemoryManager",
+    "bibcxx/Meshes",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/IOManager",
+    "bibcxx/Meshes",
+    "bibcxx/DataFields",
+    "bibcxx/Modeling"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/IOManager\n3. bibcxx/Meshes\n4. bibcxx/DataFields\n5. bibcxx/Modeling",
+   "true_targets_v1": [
+    "bibcxx/IOManager"
+   ]
+  },
+  {
+   "source_module": "bibc/utilitai",
+   "true_targets": [
+    "bibc/include"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Functions",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/DataStructures"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/ParallelUtilities\n3. bibcxx/Functions\n4. bibcxx/LinearAlgebra\n5. bibcxx/DataStructures",
+   "true_targets_v1": [
+    "bibc/include"
+   ]
+  },
+  {
+   "source_module": "code_aster/Helpers",
+   "true_targets": [
+    "code_aster/Behaviours",
+    "code_aster/Messages",
+    "code_aster/Objects"
+   ],
+   "predicted": [
+    "code_aster/Cata",
+    "bibcxx/Utilities",
+    "bibcxx/PythonBindings",
+    "code_aster/Messages",
+    "bibcxx/Modeling"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. code_aster/Cata\n2. bibcxx/Utilities\n3. bibcxx/PythonBindings\n4. code_aster/Messages\n5. bibcxx/Modeling",
+   "true_targets_v1": [
+    "code_aster/Cata"
+   ]
+  },
+  {
+   "source_module": "bibcxx/DataStructures",
+   "true_targets": [
+    "bibcxx/MemoryManager",
+    "bibcxx/Supervis",
+    "bibcxx/Utilities"
+   ],
+   "predicted": [
+    "bibcxx/Utilities",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Meshes",
+    "bibcxx/Discretization",
+    "bibcxx/Elements"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. bibcxx/Utilities\n2. bibcxx/LinearAlgebra\n3. bibcxx/Meshes\n4. bibcxx/Discretization\n5. bibcxx/Elements",
+   "true_targets_v1": [
+    "bibcxx/ParallelUtilities",
+    "bibcxx/Utilities",
+    "bibcxx/MemoryManager"
+   ]
+  },
+  {
+   "source_module": "bibcxx/Crack",
+   "true_targets": [
+    "bibcxx/MemoryManager",
+    "bibcxx/Modeling",
+    "bibcxx/Supervis",
+    "bibcxx/include"
+   ],
+   "predicted": [
+    "bibcxx/Discretization",
+    "bibcxx/Materials",
+    "bibcxx/Elements",
+    "bibcxx/LinearAlgebra",
+    "bibcxx/Utilities"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the Crack module in a finite element analysis system, here are the top 5 modules that bibcxx/Crack most likely depends on:\n\n1. bibcxx/Discretization\n2. bibcxx/Materials\n3. bibcxx/Elements\n4. bibcxx/LinearAlgebra\n5. bibcxx/Utilities",
+   "true_targets_v1": [
+    "bibcxx/include"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_codeaster_ar.json"
+}

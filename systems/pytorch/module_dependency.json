@@ -1,31 +1,26 @@
 {
   "system": "pytorch",
-  "total": 762,
+  "total": 495,
   "dependencies": [
     {
       "source_module": "aten/src",
       "target_module": "c10/core",
-      "weight": 229
+      "weight": 453
     },
     {
       "source_module": "aten/src",
       "target_module": "c10/util",
-      "weight": 655
-    },
-    {
-      "source_module": "aten/src",
-      "target_module": "torch/csrc",
-      "weight": 55
+      "weight": 873
     },
     {
       "source_module": "aten/src",
       "target_module": "c10/macros",
-      "weight": 36
+      "weight": 107
     },
     {
       "source_module": "aten/src",
-      "target_module": "c10/metal",
-      "weight": 3
+      "target_module": "torch/headeronly",
+      "weight": 6
     },
     {
       "source_module": "aten/src",
@@ -34,8 +29,23 @@
     },
     {
       "source_module": "aten/src",
+      "target_module": "caffe2/core",
+      "weight": 1
+    },
+    {
+      "source_module": "aten/src",
+      "target_module": "torch/csrc",
+      "weight": 15
+    },
+    {
+      "source_module": "aten/src",
       "target_module": "c10/cuda",
       "weight": 51
+    },
+    {
+      "source_module": "aten/src",
+      "target_module": "c10/metal",
+      "weight": 9
     },
     {
       "source_module": "aten/src",
@@ -45,17 +55,7 @@
     {
       "source_module": "aten/src",
       "target_module": "c10/xpu",
-      "weight": 19
-    },
-    {
-      "source_module": "aten/src",
-      "target_module": "torch/_dynamo",
-      "weight": 6
-    },
-    {
-      "source_module": "aten/src",
-      "target_module": "torch/distributed",
-      "weight": 1
+      "weight": 21
     },
     {
       "source_module": "c10/benchmark",
@@ -65,7 +65,7 @@
     {
       "source_module": "c10/core",
       "target_module": "c10/util",
-      "weight": 142
+      "weight": 143
     },
     {
       "source_module": "c10/core",
@@ -79,13 +79,8 @@
     },
     {
       "source_module": "c10/core",
-      "target_module": "c10/metal",
-      "weight": 1
-    },
-    {
-      "source_module": "c10/cuda",
-      "target_module": "aten/src",
-      "weight": 1
+      "target_module": "torch/headeronly",
+      "weight": 4
     },
     {
       "source_module": "c10/cuda",
@@ -95,22 +90,17 @@
     {
       "source_module": "c10/cuda",
       "target_module": "c10/util",
-      "weight": 39
-    },
-    {
-      "source_module": "c10/cuda",
-      "target_module": "c10/metal",
-      "weight": 1
-    },
-    {
-      "source_module": "c10/cuda",
-      "target_module": "torch/csrc",
-      "weight": 3
+      "weight": 40
     },
     {
       "source_module": "c10/cuda",
       "target_module": "c10/macros",
       "weight": 6
+    },
+    {
+      "source_module": "c10/macros",
+      "target_module": "torch/headeronly",
+      "weight": 2
     },
     {
       "source_module": "c10/mobile",
@@ -135,12 +125,12 @@
     {
       "source_module": "c10/util",
       "target_module": "torch/headeronly",
-      "weight": 1
+      "weight": 31
     },
     {
       "source_module": "c10/util",
       "target_module": "torch/csrc",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "c10/util",
@@ -155,7 +145,7 @@
     {
       "source_module": "c10/util",
       "target_module": "aten/src",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "c10/xpu",
@@ -174,8 +164,13 @@
     },
     {
       "source_module": "caffe2/core",
-      "target_module": "aten/src",
+      "target_module": "c10/macros",
       "weight": 1
+    },
+    {
+      "source_module": "caffe2/perfkernels",
+      "target_module": "caffe2/core",
+      "weight": 3
     },
     {
       "source_module": "caffe2/perfkernels",
@@ -183,14 +178,9 @@
       "weight": 8
     },
     {
-      "source_module": "caffe2/perfkernels",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
       "source_module": "caffe2/serialize",
-      "target_module": "aten/src",
-      "weight": 10
+      "target_module": "c10/util",
+      "weight": 8
     },
     {
       "source_module": "caffe2/serialize",
@@ -199,38 +189,28 @@
     },
     {
       "source_module": "caffe2/serialize",
-      "target_module": "torch/csrc",
-      "weight": 1
+      "target_module": "c10/macros",
+      "weight": 3
     },
     {
       "source_module": "caffe2/serialize",
       "target_module": "c10/core",
-      "weight": 2
-    },
-    {
-      "source_module": "caffe2/serialize",
-      "target_module": "c10/util",
-      "weight": 5
-    },
-    {
-      "source_module": "caffe2/utils",
-      "target_module": "caffe2/core",
-      "weight": 2
-    },
-    {
-      "source_module": "caffe2/utils",
-      "target_module": "c10/util",
       "weight": 6
     },
     {
       "source_module": "caffe2/utils",
-      "target_module": "c10/macros",
-      "weight": 1
+      "target_module": "c10/util",
+      "weight": 7
     },
     {
       "source_module": "caffe2/utils",
-      "target_module": "aten/src",
+      "target_module": "c10/macros",
       "weight": 2
+    },
+    {
+      "source_module": "caffe2/utils",
+      "target_module": "caffe2/core",
+      "weight": 1
     },
     {
       "source_module": "functorch/_src",
@@ -244,43 +224,13 @@
     },
     {
       "source_module": "functorch/dim",
-      "target_module": "torch/_dynamo",
-      "weight": 14
-    },
-    {
-      "source_module": "functorch/dim",
-      "target_module": "torch/testing",
-      "weight": 1
-    },
-    {
-      "source_module": "functorch/dim",
-      "target_module": "torch/distributed",
-      "weight": 9
-    },
-    {
-      "source_module": "functorch/dim",
       "target_module": "torch/utils",
-      "weight": 2
-    },
-    {
-      "source_module": "functorch/einops",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
-      "source_module": "functorch/einops",
-      "target_module": "torch/distributed",
       "weight": 2
     },
     {
       "source_module": "functorch/einops",
       "target_module": "functorch/dim",
       "weight": 1
-    },
-    {
-      "source_module": "functorch/examples",
-      "target_module": "torch/_dynamo",
-      "weight": 26
     },
     {
       "source_module": "functorch/examples",
@@ -309,17 +259,7 @@
     },
     {
       "source_module": "functorch/experimental",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "functorch/experimental",
       "target_module": "torch/_higher_order_ops",
-      "weight": 1
-    },
-    {
-      "source_module": "functorch/experimental",
-      "target_module": "torch/masked",
       "weight": 1
     },
     {
@@ -333,49 +273,9 @@
       "weight": 1
     },
     {
-      "source_module": "functorch/op_analysis",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/alerts",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/alerts",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/amd_build",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
-      "source_module": "tools/autograd",
-      "target_module": "torch/_dynamo",
-      "weight": 5
-    },
-    {
       "source_module": "tools/autograd",
       "target_module": "torchgen/api",
       "weight": 27
-    },
-    {
-      "source_module": "tools/autograd",
-      "target_module": "tools/code_coverage",
-      "weight": 10
-    },
-    {
-      "source_module": "tools/autograd",
-      "target_module": "torch/distributed",
-      "weight": 7
-    },
-    {
-      "source_module": "tools/autograd",
-      "target_module": "tools/setup_helpers",
-      "weight": 5
     },
     {
       "source_module": "tools/autograd",
@@ -385,36 +285,21 @@
     {
       "source_module": "tools/autograd",
       "target_module": "torch/csrc",
-      "weight": 109
+      "weight": 129
     },
     {
       "source_module": "tools/autograd",
       "target_module": "aten/src",
-      "weight": 47
-    },
-    {
-      "source_module": "tools/autograd",
-      "target_module": "c10/macros",
-      "weight": 2
+      "weight": 20
     },
     {
       "source_module": "tools/autograd",
       "target_module": "c10/core",
-      "weight": 7
+      "weight": 6
     },
     {
       "source_module": "tools/autograd",
       "target_module": "c10/util",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/code_analyzer",
-      "target_module": "torch/_dynamo",
-      "weight": 4
-    },
-    {
-      "source_module": "tools/code_analyzer",
-      "target_module": "torch/distributed",
       "weight": 2
     },
     {
@@ -428,34 +313,9 @@
       "weight": 1
     },
     {
-      "source_module": "tools/code_coverage",
-      "target_module": "torch/_dynamo",
-      "weight": 11
-    },
-    {
-      "source_module": "tools/code_coverage",
-      "target_module": "torch/distributed",
-      "weight": 9
-    },
-    {
-      "source_module": "tools/coverage_plugins_package",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/dynamo",
-      "target_module": "torch/_numpy",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/dynamo",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
       "source_module": "tools/dynamo",
       "target_module": "torch/_dynamo",
-      "weight": 9
+      "weight": 2
     },
     {
       "source_module": "tools/dynamo",
@@ -463,84 +323,9 @@
       "weight": 3
     },
     {
-      "source_module": "tools/experimental",
-      "target_module": "torch/_dynamo",
-      "weight": 38
-    },
-    {
-      "source_module": "tools/experimental",
-      "target_module": "torch/_numpy",
-      "weight": 19
-    },
-    {
-      "source_module": "tools/experimental",
-      "target_module": "torch/onnx",
-      "weight": 5
-    },
-    {
-      "source_module": "tools/experimental",
-      "target_module": "aten/src",
-      "weight": 16
-    },
-    {
-      "source_module": "tools/experimental",
-      "target_module": "torch/distributed",
-      "weight": 6
-    },
-    {
-      "source_module": "tools/gdb",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/github",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/github",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/github",
-      "target_module": "torch/_export",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/iwyu",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/jit",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
-      "source_module": "tools/jit",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
       "source_module": "tools/jit",
       "target_module": "torchgen/api",
       "weight": 4
-    },
-    {
-      "source_module": "tools/jit",
-      "target_module": "tools/autograd",
-      "weight": 2
-    },
-    {
-      "source_module": "tools/jit",
-      "target_module": "tools/setup_helpers",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/jit",
-      "target_module": "tools/code_coverage",
-      "weight": 1
     },
     {
       "source_module": "tools/jit",
@@ -554,28 +339,8 @@
     },
     {
       "source_module": "tools/jit",
-      "target_module": "aten/src",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/jit",
       "target_module": "c10/util",
       "weight": 1
-    },
-    {
-      "source_module": "tools/linter",
-      "target_module": "torch/_dynamo",
-      "weight": 81
-    },
-    {
-      "source_module": "tools/linter",
-      "target_module": "torch/distributed",
-      "weight": 39
-    },
-    {
-      "source_module": "tools/linter",
-      "target_module": "torch/_vendor",
-      "weight": 2
     },
     {
       "source_module": "tools/linter",
@@ -584,47 +349,12 @@
     },
     {
       "source_module": "tools/linter",
-      "target_module": "torch/_numpy",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/linter",
       "target_module": "tools/dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/linter",
-      "target_module": "torch/_export",
-      "weight": 2
-    },
-    {
-      "source_module": "tools/lite_interpreter",
-      "target_module": "torch/_dynamo",
       "weight": 1
     },
     {
       "source_module": "tools/lite_interpreter",
       "target_module": "torchgen/selective_build",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/lldb",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/packaging",
-      "target_module": "torch/_dynamo",
-      "weight": 3
-    },
-    {
-      "source_module": "tools/pyi",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/pyi",
-      "target_module": "torch/distributed",
       "weight": 1
     },
     {
@@ -636,31 +366,6 @@
       "source_module": "tools/pyi",
       "target_module": "torchgen/api",
       "weight": 1
-    },
-    {
-      "source_module": "tools/pyi",
-      "target_module": "tools/setup_helpers",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/pyi",
-      "target_module": "tools/code_coverage",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/setup_helpers",
-      "target_module": "torch/_dynamo",
-      "weight": 14
-    },
-    {
-      "source_module": "tools/setup_helpers",
-      "target_module": "torch/_vendor",
-      "weight": 2
-    },
-    {
-      "source_module": "tools/setup_helpers",
-      "target_module": "torch/distributed",
-      "weight": 4
     },
     {
       "source_module": "tools/setup_helpers",
@@ -683,51 +388,6 @@
       "weight": 1
     },
     {
-      "source_module": "tools/shared",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/shared",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/shared",
-      "target_module": "torch/fx",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/stats",
-      "target_module": "torch/_dynamo",
-      "weight": 26
-    },
-    {
-      "source_module": "tools/stats",
-      "target_module": "torch/distributed",
-      "weight": 13
-    },
-    {
-      "source_module": "tools/stats",
-      "target_module": "torch/testing",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/stats",
-      "target_module": "torch/_export",
-      "weight": 1
-    },
-    {
-      "source_module": "tools/testing",
-      "target_module": "torch/_dynamo",
-      "weight": 25
-    },
-    {
-      "source_module": "tools/testing",
-      "target_module": "torch/distributed",
-      "weight": 21
-    },
-    {
       "source_module": "tools/testing",
       "target_module": "tools/stats",
       "weight": 10
@@ -738,49 +398,14 @@
       "weight": 2
     },
     {
-      "source_module": "torch/_awaits",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_awaits",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_custom_op",
-      "target_module": "torch/_dynamo",
-      "weight": 5
-    },
-    {
       "source_module": "torch/_custom_op",
       "target_module": "torch/utils",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_custom_op",
-      "target_module": "torch/distributed",
       "weight": 1
     },
     {
       "source_module": "torch/_custom_op",
       "target_module": "torch/_library",
       "weight": 2
-    },
-    {
-      "source_module": "torch/_decomp",
-      "target_module": "torch/_dynamo",
-      "weight": 15
-    },
-    {
-      "source_module": "torch/_decomp",
-      "target_module": "torch/utils",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/_decomp",
-      "target_module": "torch/distributed",
-      "weight": 3
     },
     {
       "source_module": "torch/_decomp",
@@ -804,13 +429,13 @@
     },
     {
       "source_module": "torch/_decomp",
-      "target_module": "torch/fx",
-      "weight": 10
+      "target_module": "torch/utils",
+      "weight": 3
     },
     {
       "source_module": "torch/_decomp",
-      "target_module": "torch/masked",
-      "weight": 2
+      "target_module": "torch/fx",
+      "weight": 10
     },
     {
       "source_module": "torch/_decomp",
@@ -829,21 +454,6 @@
     },
     {
       "source_module": "torch/_dispatch",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/_dispatch",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_dispatch",
-      "target_module": "torch/masked",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_dispatch",
       "target_module": "torch/utils",
       "weight": 2
     },
@@ -854,13 +464,8 @@
     },
     {
       "source_module": "torch/_dynamo",
-      "target_module": "torch/distributed",
-      "weight": 138
-    },
-    {
-      "source_module": "torch/_dynamo",
       "target_module": "torch/fx",
-      "weight": 97
+      "weight": 95
     },
     {
       "source_module": "torch/_dynamo",
@@ -879,23 +484,13 @@
     },
     {
       "source_module": "torch/_dynamo",
-      "target_module": "tools/code_coverage",
-      "weight": 56
-    },
-    {
-      "source_module": "torch/_dynamo",
       "target_module": "torch/nn",
       "weight": 16
     },
     {
       "source_module": "torch/_dynamo",
       "target_module": "torch/utils",
-      "weight": 108
-    },
-    {
-      "source_module": "torch/_dynamo",
-      "target_module": "tools/experimental",
-      "weight": 86
+      "weight": 107
     },
     {
       "source_module": "torch/_dynamo",
@@ -915,17 +510,7 @@
     {
       "source_module": "torch/_dynamo",
       "target_module": "torch/_inductor",
-      "weight": 58
-    },
-    {
-      "source_module": "torch/_dynamo",
-      "target_module": "aten/src",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/_dynamo",
-      "target_module": "torch/_numpy",
-      "weight": 12
+      "weight": 52
     },
     {
       "source_module": "torch/_dynamo",
@@ -941,6 +526,11 @@
       "source_module": "torch/_dynamo",
       "target_module": "torch/compiler",
       "weight": 4
+    },
+    {
+      "source_module": "torch/_dynamo",
+      "target_module": "torch/distributed",
+      "weight": 24
     },
     {
       "source_module": "torch/_dynamo",
@@ -969,11 +559,6 @@
     },
     {
       "source_module": "torch/_dynamo",
-      "target_module": "tools/linter",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/_dynamo",
       "target_module": "torch/_prims",
       "weight": 1
     },
@@ -984,7 +569,7 @@
     },
     {
       "source_module": "torch/_dynamo",
-      "target_module": "torch/masked",
+      "target_module": "torch/_numpy",
       "weight": 4
     },
     {
@@ -1004,11 +589,6 @@
     },
     {
       "source_module": "torch/_dynamo",
-      "target_module": "torch/accelerator",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_dynamo",
       "target_module": "torch/autograd",
       "weight": 2
     },
@@ -1021,16 +601,6 @@
       "source_module": "torch/_dynamo",
       "target_module": "torch/_refs",
       "weight": 1
-    },
-    {
-      "source_module": "torch/_export",
-      "target_module": "torch/_dynamo",
-      "weight": 117
-    },
-    {
-      "source_module": "torch/_export",
-      "target_module": "torch/distributed",
-      "weight": 28
     },
     {
       "source_module": "torch/_export",
@@ -1049,6 +619,11 @@
     },
     {
       "source_module": "torch/_export",
+      "target_module": "torch/_dynamo",
+      "weight": 6
+    },
+    {
+      "source_module": "torch/_export",
       "target_module": "torch/_library",
       "weight": 6
     },
@@ -1064,6 +639,11 @@
     },
     {
       "source_module": "torch/_export",
+      "target_module": "torch/distributed",
+      "weight": 1
+    },
+    {
+      "source_module": "torch/_export",
       "target_module": "torch/_dispatch",
       "weight": 3
     },
@@ -1074,18 +654,8 @@
     },
     {
       "source_module": "torch/_export",
-      "target_module": "torch/masked",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/_export",
       "target_module": "torch/_decomp",
       "weight": 1
-    },
-    {
-      "source_module": "torch/_export",
-      "target_module": "tools/code_coverage",
-      "weight": 5
     },
     {
       "source_module": "torch/_export",
@@ -1105,12 +675,7 @@
     {
       "source_module": "torch/_functorch",
       "target_module": "torch/_dynamo",
-      "weight": 152
-    },
-    {
-      "source_module": "torch/_functorch",
-      "target_module": "torch/distributed",
-      "weight": 42
+      "weight": 23
     },
     {
       "source_module": "torch/_functorch",
@@ -1135,7 +700,7 @@
     {
       "source_module": "torch/_functorch",
       "target_module": "torch/_inductor",
-      "weight": 33
+      "weight": 31
     },
     {
       "source_module": "torch/_functorch",
@@ -1151,21 +716,6 @@
       "source_module": "torch/_functorch",
       "target_module": "torch/fx",
       "weight": 59
-    },
-    {
-      "source_module": "torch/_functorch",
-      "target_module": "tools/shared",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/_functorch",
-      "target_module": "tools/code_coverage",
-      "weight": 14
-    },
-    {
-      "source_module": "torch/_functorch",
-      "target_module": "torch/masked",
-      "weight": 5
     },
     {
       "source_module": "torch/_functorch",
@@ -1189,11 +739,6 @@
     },
     {
       "source_module": "torch/_functorch",
-      "target_module": "torch/_numpy",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/_functorch",
       "target_module": "functorch/compile",
       "weight": 2
     },
@@ -1206,6 +751,11 @@
       "source_module": "torch/_functorch",
       "target_module": "torch/func",
       "weight": 1
+    },
+    {
+      "source_module": "torch/_functorch",
+      "target_module": "torch/distributed",
+      "weight": 2
     },
     {
       "source_module": "torch/_functorch",
@@ -1229,18 +779,8 @@
     },
     {
       "source_module": "torch/_higher_order_ops",
-      "target_module": "torch/_dynamo",
-      "weight": 96
-    },
-    {
-      "source_module": "torch/_higher_order_ops",
       "target_module": "torch/utils",
       "weight": 49
-    },
-    {
-      "source_module": "torch/_higher_order_ops",
-      "target_module": "torch/masked",
-      "weight": 25
     },
     {
       "source_module": "torch/_higher_order_ops",
@@ -1254,13 +794,13 @@
     },
     {
       "source_module": "torch/_higher_order_ops",
-      "target_module": "torch/distributed",
-      "weight": 23
+      "target_module": "torch/_prims_common",
+      "weight": 6
     },
     {
       "source_module": "torch/_higher_order_ops",
-      "target_module": "torch/_prims_common",
-      "weight": 6
+      "target_module": "torch/_dynamo",
+      "weight": 30
     },
     {
       "source_module": "torch/_higher_order_ops",
@@ -1274,23 +814,13 @@
     },
     {
       "source_module": "torch/_higher_order_ops",
-      "target_module": "torch/_export",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_higher_order_ops",
-      "target_module": "tools/code_coverage",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/_higher_order_ops",
       "target_module": "torch/_functorch",
       "weight": 20
     },
     {
       "source_module": "torch/_higher_order_ops",
       "target_module": "torch/_inductor",
-      "weight": 17
+      "weight": 14
     },
     {
       "source_module": "torch/_higher_order_ops",
@@ -1319,13 +849,8 @@
     },
     {
       "source_module": "torch/_higher_order_ops",
-      "target_module": "tools/experimental",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/_higher_order_ops",
-      "target_module": "torch/accelerator",
-      "weight": 1
+      "target_module": "torch/distributed",
+      "weight": 2
     },
     {
       "source_module": "torch/_higher_order_ops",
@@ -1339,23 +864,18 @@
     },
     {
       "source_module": "torch/_inductor",
-      "target_module": "torch/_dynamo",
-      "weight": 968
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "torch/distributed",
-      "weight": 244
-    },
-    {
-      "source_module": "torch/_inductor",
       "target_module": "torch/_export",
       "weight": 9
     },
     {
       "source_module": "torch/_inductor",
       "target_module": "torch/utils",
-      "weight": 282
+      "weight": 286
+    },
+    {
+      "source_module": "torch/_inductor",
+      "target_module": "torch/_dynamo",
+      "weight": 106
     },
     {
       "source_module": "torch/_inductor",
@@ -1369,23 +889,18 @@
     },
     {
       "source_module": "torch/_inductor",
-      "target_module": "torch/multiprocessing",
-      "weight": 6
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "tools/code_coverage",
-      "weight": 117
-    },
-    {
-      "source_module": "torch/_inductor",
       "target_module": "torch/_library",
       "weight": 23
     },
     {
       "source_module": "torch/_inductor",
+      "target_module": "torch/distributed",
+      "weight": 30
+    },
+    {
+      "source_module": "torch/_inductor",
       "target_module": "torch/_subclasses",
-      "weight": 13
+      "weight": 14
     },
     {
       "source_module": "torch/_inductor",
@@ -1404,6 +919,11 @@
     },
     {
       "source_module": "torch/_inductor",
+      "target_module": "torch/multiprocessing",
+      "weight": 3
+    },
+    {
+      "source_module": "torch/_inductor",
       "target_module": "functorch/compile",
       "weight": 4
     },
@@ -1415,17 +935,12 @@
     {
       "source_module": "torch/_inductor",
       "target_module": "torch/_functorch",
-      "weight": 20
+      "weight": 14
     },
     {
       "source_module": "torch/_inductor",
       "target_module": "torch/monitor",
       "weight": 3
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "torch/masked",
-      "weight": 6
     },
     {
       "source_module": "torch/_inductor",
@@ -1440,7 +955,7 @@
     {
       "source_module": "torch/_inductor",
       "target_module": "torch/_prims_common",
-      "weight": 17
+      "weight": 18
     },
     {
       "source_module": "torch/_inductor",
@@ -1454,28 +969,8 @@
     },
     {
       "source_module": "torch/_inductor",
-      "target_module": "torch/_numpy",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "torch/testing",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "torch/accelerator",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_inductor",
       "target_module": "torchgen/aoti",
       "weight": 1
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "torch/onnx",
-      "weight": 3
     },
     {
       "source_module": "torch/_inductor",
@@ -1489,28 +984,13 @@
     },
     {
       "source_module": "torch/_inductor",
-      "target_module": "functorch/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_inductor",
       "target_module": "torch/csrc",
       "weight": 2
     },
     {
       "source_module": "torch/_inductor",
-      "target_module": "torchgen/static_runtime",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "torch/jit",
+      "target_module": "torch/testing",
       "weight": 1
-    },
-    {
-      "source_module": "torch/_inductor",
-      "target_module": "tools/autograd",
-      "weight": 2
     },
     {
       "source_module": "torch/_inductor",
@@ -1523,39 +1003,9 @@
       "weight": 1
     },
     {
-      "source_module": "torch/_inductor",
-      "target_module": "tools/experimental",
-      "weight": 12
-    },
-    {
-      "source_module": "torch/_lazy",
-      "target_module": "torch/_dynamo",
-      "weight": 7
-    },
-    {
-      "source_module": "torch/_lazy",
-      "target_module": "torch/multiprocessing",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_lazy",
-      "target_module": "torch/distributed",
-      "weight": 2
-    },
-    {
       "source_module": "torch/_lazy",
       "target_module": "torch/utils",
       "weight": 1
-    },
-    {
-      "source_module": "torch/_library",
-      "target_module": "torch/distributed",
-      "weight": 10
-    },
-    {
-      "source_module": "torch/_library",
-      "target_module": "torch/_dynamo",
-      "weight": 28
     },
     {
       "source_module": "torch/_library",
@@ -1564,12 +1014,12 @@
     },
     {
       "source_module": "torch/_library",
-      "target_module": "torch/_higher_order_ops",
-      "weight": 6
+      "target_module": "torch/_functorch",
+      "weight": 4
     },
     {
       "source_module": "torch/_library",
-      "target_module": "torch/_functorch",
+      "target_module": "torch/_higher_order_ops",
       "weight": 4
     },
     {
@@ -1579,13 +1029,13 @@
     },
     {
       "source_module": "torch/_library",
-      "target_module": "torch/fx",
-      "weight": 3
+      "target_module": "torch/distributed",
+      "weight": 1
     },
     {
       "source_module": "torch/_library",
-      "target_module": "tools/code_coverage",
-      "weight": 1
+      "target_module": "torch/fx",
+      "weight": 3
     },
     {
       "source_module": "torch/_library",
@@ -1603,24 +1053,9 @@
       "weight": 1
     },
     {
-      "source_module": "torch/_library",
-      "target_module": "torch/masked",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_logging",
-      "target_module": "torch/distributed",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/_logging",
-      "target_module": "torch/_dynamo",
-      "weight": 10
-    },
-    {
       "source_module": "torch/_logging",
       "target_module": "torch/fx",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "torch/_logging",
@@ -1629,18 +1064,13 @@
     },
     {
       "source_module": "torch/_logging",
-      "target_module": "torch/_vendor",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_native",
-      "target_module": "torch/distributed",
-      "weight": 6
-    },
-    {
-      "source_module": "torch/_native",
       "target_module": "torch/_dynamo",
-      "weight": 16
+      "weight": 2
+    },
+    {
+      "source_module": "torch/_logging",
+      "target_module": "torch/distributed",
+      "weight": 1
     },
     {
       "source_module": "torch/_native",
@@ -1649,48 +1079,18 @@
     },
     {
       "source_module": "torch/_native",
-      "target_module": "tools/experimental",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/_native",
-      "target_module": "torch/fx",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_native",
-      "target_module": "torch/_inductor",
-      "weight": 1
+      "target_module": "torch/backends",
+      "weight": 2
     },
     {
       "source_module": "torch/_numpy",
       "target_module": "torch/_dynamo",
-      "weight": 39
-    },
-    {
-      "source_module": "torch/_numpy",
-      "target_module": "torch/distributed",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "torch/_numpy",
       "target_module": "torch/backends",
       "weight": 1
-    },
-    {
-      "source_module": "torch/_numpy",
-      "target_module": "tools/code_coverage",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_prims",
-      "target_module": "torch/_dynamo",
-      "weight": 12
-    },
-    {
-      "source_module": "torch/_prims",
-      "target_module": "torch/distributed",
-      "weight": 5
     },
     {
       "source_module": "torch/_prims",
@@ -1714,6 +1114,11 @@
     },
     {
       "source_module": "torch/_prims",
+      "target_module": "torch/_dynamo",
+      "weight": 2
+    },
+    {
+      "source_module": "torch/_prims",
       "target_module": "torch/fx",
       "weight": 5
     },
@@ -1724,28 +1129,18 @@
     },
     {
       "source_module": "torch/_prims",
-      "target_module": "torch/masked",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_prims",
       "target_module": "torch/_subclasses",
       "weight": 3
     },
     {
       "source_module": "torch/_prims",
-      "target_module": "torch/_library",
+      "target_module": "torch/distributed",
       "weight": 1
     },
     {
-      "source_module": "torch/_prims_common",
-      "target_module": "torch/_dynamo",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/_prims_common",
-      "target_module": "torch/distributed",
-      "weight": 3
+      "source_module": "torch/_prims",
+      "target_module": "torch/_library",
+      "weight": 1
     },
     {
       "source_module": "torch/_prims_common",
@@ -1761,16 +1156,6 @@
       "source_module": "torch/_prims_common",
       "target_module": "torch/_subclasses",
       "weight": 1
-    },
-    {
-      "source_module": "torch/_refs",
-      "target_module": "torch/distributed",
-      "weight": 6
-    },
-    {
-      "source_module": "torch/_refs",
-      "target_module": "torch/_dynamo",
-      "weight": 16
     },
     {
       "source_module": "torch/_refs",
@@ -1808,26 +1193,6 @@
       "weight": 11
     },
     {
-      "source_module": "torch/_strobelight",
-      "target_module": "torch/_dynamo",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/_strobelight",
-      "target_module": "torch/distributed",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/_subclasses",
-      "target_module": "torch/_dynamo",
-      "weight": 54
-    },
-    {
-      "source_module": "torch/_subclasses",
-      "target_module": "torch/distributed",
-      "weight": 15
-    },
-    {
       "source_module": "torch/_subclasses",
       "target_module": "torch/_custom_op",
       "weight": 1
@@ -1846,11 +1211,6 @@
       "source_module": "torch/_subclasses",
       "target_module": "torch/_dispatch",
       "weight": 2
-    },
-    {
-      "source_module": "torch/_subclasses",
-      "target_module": "torch/masked",
-      "weight": 9
     },
     {
       "source_module": "torch/_subclasses",
@@ -1879,11 +1239,6 @@
     },
     {
       "source_module": "torch/_subclasses",
-      "target_module": "torch/accelerator",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_subclasses",
       "target_module": "torch/multiprocessing",
       "weight": 1
     },
@@ -1891,6 +1246,11 @@
       "source_module": "torch/_subclasses",
       "target_module": "torch/_decomp",
       "weight": 5
+    },
+    {
+      "source_module": "torch/_subclasses",
+      "target_module": "torch/_dynamo",
+      "weight": 10
     },
     {
       "source_module": "torch/_subclasses",
@@ -1923,59 +1283,9 @@
       "weight": 2
     },
     {
-      "source_module": "torch/_vendor",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/_vendor",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/accelerator",
-      "target_module": "torch/distributed",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/accelerator",
-      "target_module": "torch/_dynamo",
-      "weight": 6
-    },
-    {
-      "source_module": "torch/accelerator",
-      "target_module": "torch/_inductor",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/amp",
-      "target_module": "torch/_dynamo",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/amp",
-      "target_module": "torch/distributed",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/ao",
-      "target_module": "torch/distributed",
-      "weight": 66
-    },
-    {
-      "source_module": "torch/ao",
-      "target_module": "torch/_dynamo",
-      "weight": 205
-    },
-    {
       "source_module": "torch/ao",
       "target_module": "torch/nn",
       "weight": 110
-    },
-    {
-      "source_module": "torch/ao",
-      "target_module": "torch/_inductor",
-      "weight": 4
     },
     {
       "source_module": "torch/ao",
@@ -1984,23 +1294,13 @@
     },
     {
       "source_module": "torch/ao",
-      "target_module": "torch/utils",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/ao",
-      "target_module": "tools/code_coverage",
-      "weight": 22
-    },
-    {
-      "source_module": "torch/ao",
-      "target_module": "torch/masked",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/ao",
       "target_module": "torch/fx",
       "weight": 46
+    },
+    {
+      "source_module": "torch/ao",
+      "target_module": "torch/utils",
+      "weight": 2
     },
     {
       "source_module": "torch/ao",
@@ -2024,16 +1324,6 @@
     },
     {
       "source_module": "torch/autograd",
-      "target_module": "torch/_dynamo",
-      "weight": 33
-    },
-    {
-      "source_module": "torch/autograd",
-      "target_module": "torch/distributed",
-      "weight": 7
-    },
-    {
-      "source_module": "torch/autograd",
       "target_module": "torch/_functorch",
       "weight": 6
     },
@@ -2054,11 +1344,6 @@
     },
     {
       "source_module": "torch/autograd",
-      "target_module": "torch/masked",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/autograd",
       "target_module": "torch/cuda",
       "weight": 2
     },
@@ -2074,11 +1359,6 @@
     },
     {
       "source_module": "torch/autograd",
-      "target_module": "torch/_inductor",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/autograd",
       "target_module": "torch/nested",
       "weight": 2
     },
@@ -2086,21 +1366,6 @@
       "source_module": "torch/autograd",
       "target_module": "torch/fx",
       "weight": 1
-    },
-    {
-      "source_module": "torch/autograd",
-      "target_module": "torch/accelerator",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/backends",
-      "target_module": "torch/_dynamo",
-      "weight": 45
-    },
-    {
-      "source_module": "torch/backends",
-      "target_module": "torch/distributed",
-      "weight": 9
     },
     {
       "source_module": "torch/backends",
@@ -2128,9 +1393,9 @@
       "weight": 3
     },
     {
-      "source_module": "torch/compiler",
-      "target_module": "torch/_dynamo",
-      "weight": 25
+      "source_module": "torch/backends",
+      "target_module": "torch/distributed",
+      "weight": 1
     },
     {
       "source_module": "torch/compiler",
@@ -2139,8 +1404,8 @@
     },
     {
       "source_module": "torch/compiler",
-      "target_module": "torch/distributed",
-      "weight": 2
+      "target_module": "torch/_dynamo",
+      "weight": 17
     },
     {
       "source_module": "torch/compiler",
@@ -2163,39 +1428,9 @@
       "weight": 3
     },
     {
-      "source_module": "torch/contrib",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/contrib",
-      "target_module": "torch/fx",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/contrib",
-      "target_module": "torch/utils",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/cpu",
-      "target_module": "torch/_dynamo",
-      "weight": 6
-    },
-    {
-      "source_module": "torch/cpu",
-      "target_module": "torch/distributed",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/cpu",
-      "target_module": "torch/amp",
-      "weight": 2
-    },
-    {
       "source_module": "torch/csrc",
       "target_module": "aten/src",
-      "weight": 1016
+      "weight": 926
     },
     {
       "source_module": "torch/csrc",
@@ -2204,33 +1439,23 @@
     },
     {
       "source_module": "torch/csrc",
-      "target_module": "c10/util",
-      "weight": 427
-    },
-    {
-      "source_module": "torch/csrc",
-      "target_module": "torch/headeronly",
-      "weight": 354
-    },
-    {
-      "source_module": "torch/csrc",
       "target_module": "c10/core",
-      "weight": 88
+      "weight": 237
     },
     {
       "source_module": "torch/csrc",
-      "target_module": "tools/autograd",
-      "weight": 15
+      "target_module": "c10/util",
+      "weight": 711
     },
     {
       "source_module": "torch/csrc",
-      "target_module": "torch/lib",
-      "weight": 4
+      "target_module": "c10/macros",
+      "weight": 79
     },
     {
       "source_module": "torch/csrc",
       "target_module": "torch/nativert",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "torch/csrc",
@@ -2244,18 +1469,13 @@
     },
     {
       "source_module": "torch/csrc",
+      "target_module": "torch/headeronly",
+      "weight": 41
+    },
+    {
+      "source_module": "torch/csrc",
       "target_module": "caffe2/core",
       "weight": 1
-    },
-    {
-      "source_module": "torch/csrc",
-      "target_module": "tools/setup_helpers",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/csrc",
-      "target_module": "torch/_dynamo",
-      "weight": 2
     },
     {
       "source_module": "torch/csrc",
@@ -2279,21 +1499,6 @@
     },
     {
       "source_module": "torch/cuda",
-      "target_module": "torch/_dynamo",
-      "weight": 51
-    },
-    {
-      "source_module": "torch/cuda",
-      "target_module": "torch/distributed",
-      "weight": 11
-    },
-    {
-      "source_module": "torch/cuda",
-      "target_module": "torch/accelerator",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/cuda",
       "target_module": "torch/profiler",
       "weight": 1
     },
@@ -2304,33 +1509,13 @@
     },
     {
       "source_module": "torch/cuda",
-      "target_module": "torch/_inductor",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/cuda",
-      "target_module": "torch/_numpy",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/cuda",
       "target_module": "torch/sparse",
       "weight": 2
     },
     {
       "source_module": "torch/cuda",
-      "target_module": "torch/fx",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/cuda",
       "target_module": "torch/amp",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/distributed",
-      "target_module": "torch/_dynamo",
-      "weight": 587
+      "weight": 1
     },
     {
       "source_module": "torch/distributed",
@@ -2340,17 +1525,12 @@
     {
       "source_module": "torch/distributed",
       "target_module": "torch/utils",
-      "weight": 84
+      "weight": 82
     },
     {
       "source_module": "torch/distributed",
       "target_module": "torch/fx",
-      "weight": 45
-    },
-    {
-      "source_module": "torch/distributed",
-      "target_module": "torch/masked",
-      "weight": 14
+      "weight": 43
     },
     {
       "source_module": "torch/distributed",
@@ -2360,7 +1540,7 @@
     {
       "source_module": "torch/distributed",
       "target_module": "torch/testing",
-      "weight": 14
+      "weight": 7
     },
     {
       "source_module": "torch/distributed",
@@ -2370,27 +1550,12 @@
     {
       "source_module": "torch/distributed",
       "target_module": "torch/nn",
-      "weight": 77
-    },
-    {
-      "source_module": "torch/distributed",
-      "target_module": "torch/accelerator",
-      "weight": 12
+      "weight": 76
     },
     {
       "source_module": "torch/distributed",
       "target_module": "torch/compiler",
       "weight": 1
-    },
-    {
-      "source_module": "torch/distributed",
-      "target_module": "torch/_numpy",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/distributed",
-      "target_module": "torch/_inductor",
-      "weight": 9
     },
     {
       "source_module": "torch/distributed",
@@ -2409,18 +1574,13 @@
     },
     {
       "source_module": "torch/distributed",
-      "target_module": "torch/multiprocessing",
-      "weight": 11
-    },
-    {
-      "source_module": "torch/distributed",
       "target_module": "torch/futures",
       "weight": 6
     },
     {
       "source_module": "torch/distributed",
-      "target_module": "tools/code_coverage",
-      "weight": 13
+      "target_module": "torch/multiprocessing",
+      "weight": 7
     },
     {
       "source_module": "torch/distributed",
@@ -2431,16 +1591,6 @@
       "source_module": "torch/distributed",
       "target_module": "torch/profiler",
       "weight": 3
-    },
-    {
-      "source_module": "torch/distributed",
-      "target_module": "tools/experimental",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/distributed",
-      "target_module": "torch/_higher_order_ops",
-      "weight": 2
     },
     {
       "source_module": "torch/distributed",
@@ -2459,12 +1609,12 @@
     },
     {
       "source_module": "torch/distributed",
-      "target_module": "torch/ao",
+      "target_module": "torch/jit",
       "weight": 1
     },
     {
       "source_module": "torch/distributed",
-      "target_module": "torch/jit",
+      "target_module": "torch/_dynamo",
       "weight": 1
     },
     {
@@ -2489,6 +1639,11 @@
     },
     {
       "source_module": "torch/distributed",
+      "target_module": "torch/_higher_order_ops",
+      "weight": 1
+    },
+    {
+      "source_module": "torch/distributed",
       "target_module": "functorch/compile",
       "weight": 1
     },
@@ -2499,13 +1654,13 @@
     },
     {
       "source_module": "torch/distributed",
-      "target_module": "torch/nested",
+      "target_module": "torch/_inductor",
       "weight": 1
     },
     {
-      "source_module": "torch/distributions",
-      "target_module": "torch/_dynamo",
-      "weight": 119
+      "source_module": "torch/distributed",
+      "target_module": "torch/nested",
+      "weight": 1
     },
     {
       "source_module": "torch/distributions",
@@ -2514,33 +1669,13 @@
     },
     {
       "source_module": "torch/distributions",
-      "target_module": "torch/distributed",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/distributions",
       "target_module": "torch/autograd",
       "weight": 2
     },
     {
       "source_module": "torch/distributions",
-      "target_module": "torch/utils",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/distributions",
-      "target_module": "tools/code_coverage",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/distributions",
       "target_module": "torch/jit",
       "weight": 1
-    },
-    {
-      "source_module": "torch/export",
-      "target_module": "torch/_dynamo",
-      "weight": 71
     },
     {
       "source_module": "torch/export",
@@ -2550,7 +1685,7 @@
     {
       "source_module": "torch/export",
       "target_module": "torch/_export",
-      "weight": 32
+      "weight": 30
     },
     {
       "source_module": "torch/export",
@@ -2559,13 +1694,13 @@
     },
     {
       "source_module": "torch/export",
-      "target_module": "torch/distributed",
-      "weight": 15
+      "target_module": "torch/fx",
+      "weight": 35
     },
     {
       "source_module": "torch/export",
-      "target_module": "torch/fx",
-      "weight": 35
+      "target_module": "torch/_dynamo",
+      "weight": 9
     },
     {
       "source_module": "torch/export",
@@ -2603,44 +1738,14 @@
       "weight": 1
     },
     {
-      "source_module": "torch/fft",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/func",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
       "source_module": "torch/func",
       "target_module": "torch/_functorch",
       "weight": 4
     },
     {
-      "source_module": "torch/futures",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/futures",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/fx",
-      "target_module": "torch/distributed",
-      "weight": 80
-    },
-    {
-      "source_module": "torch/fx",
-      "target_module": "torch/_dynamo",
-      "weight": 237
-    },
-    {
       "source_module": "torch/fx",
       "target_module": "torch/utils",
-      "weight": 79
+      "weight": 78
     },
     {
       "source_module": "torch/fx",
@@ -2649,8 +1754,8 @@
     },
     {
       "source_module": "torch/fx",
-      "target_module": "torch/ao",
-      "weight": 5
+      "target_module": "torch/distributed",
+      "weight": 1
     },
     {
       "source_module": "torch/fx",
@@ -2665,7 +1770,7 @@
     {
       "source_module": "torch/fx",
       "target_module": "torch/_inductor",
-      "weight": 27
+      "weight": 16
     },
     {
       "source_module": "torch/fx",
@@ -2674,13 +1779,13 @@
     },
     {
       "source_module": "torch/fx",
-      "target_module": "torch/masked",
-      "weight": 4
+      "target_module": "torch/_subclasses",
+      "weight": 18
     },
     {
       "source_module": "torch/fx",
-      "target_module": "torch/_subclasses",
-      "weight": 18
+      "target_module": "torch/_dynamo",
+      "weight": 33
     },
     {
       "source_module": "torch/fx",
@@ -2709,53 +1814,18 @@
     },
     {
       "source_module": "torch/fx",
-      "target_module": "tools/code_coverage",
-      "weight": 6
-    },
-    {
-      "source_module": "torch/fx",
-      "target_module": "torch/autograd",
-      "weight": 7
-    },
-    {
-      "source_module": "torch/fx",
       "target_module": "torch/compiler",
       "weight": 1
     },
     {
       "source_module": "torch/fx",
       "target_module": "torch/multiprocessing",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "torch/fx",
       "target_module": "torch/_export",
       "weight": 1
-    },
-    {
-      "source_module": "torch/headeronly",
-      "target_module": "c10/macros",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/headeronly",
-      "target_module": "aten/src",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/jit",
-      "target_module": "torch/_dynamo",
-      "weight": 75
-    },
-    {
-      "source_module": "torch/jit",
-      "target_module": "torch/distributed",
-      "weight": 19
-    },
-    {
-      "source_module": "torch/jit",
-      "target_module": "torch/masked",
-      "weight": 2
     },
     {
       "source_module": "torch/jit",
@@ -2774,17 +1844,12 @@
     },
     {
       "source_module": "torch/jit",
-      "target_module": "tools/experimental",
+      "target_module": "torch/distributed",
       "weight": 1
     },
     {
       "source_module": "torch/jit",
       "target_module": "torch/package",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/jit",
-      "target_module": "torch/_inductor",
       "weight": 1
     },
     {
@@ -2799,8 +1864,8 @@
     },
     {
       "source_module": "torch/lib",
-      "target_module": "torch/csrc",
-      "weight": 2
+      "target_module": "c10/util",
+      "weight": 3
     },
     {
       "source_module": "torch/lib",
@@ -2808,89 +1873,19 @@
       "weight": 2
     },
     {
-      "source_module": "torch/lib",
-      "target_module": "c10/util",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/lib",
-      "target_module": "torch/headeronly",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/masked",
-      "target_module": "torch/distributed",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/masked",
-      "target_module": "torch/_dynamo",
-      "weight": 10
-    },
-    {
       "source_module": "torch/masked",
       "target_module": "torch/_prims_common",
       "weight": 2
     },
     {
-      "source_module": "torch/masked",
-      "target_module": "torch/_inductor",
-      "weight": 7
-    },
-    {
-      "source_module": "torch/monitor",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
       "source_module": "torch/monitor",
       "target_module": "torch/utils",
       "weight": 1
     },
     {
       "source_module": "torch/mps",
-      "target_module": "torch/_dynamo",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/mps",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/mps",
       "target_module": "torch/utils",
       "weight": 1
-    },
-    {
-      "source_module": "torch/mtia",
-      "target_module": "torch/distributed",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/mtia",
-      "target_module": "torch/_dynamo",
-      "weight": 7
-    },
-    {
-      "source_module": "torch/mtia",
-      "target_module": "torch/accelerator",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/mtia",
-      "target_module": "torch/_inductor",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/multiprocessing",
-      "target_module": "torch/fx",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/multiprocessing",
-      "target_module": "torch/_dynamo",
-      "weight": 10
     },
     {
       "source_module": "torch/multiprocessing",
@@ -2903,16 +1898,6 @@
       "weight": 1
     },
     {
-      "source_module": "torch/multiprocessing",
-      "target_module": "torch/testing",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/multiprocessing",
-      "target_module": "torch/masked",
-      "weight": 1
-    },
-    {
       "source_module": "torch/nativert",
       "target_module": "caffe2/serialize",
       "weight": 4
@@ -2920,12 +1905,12 @@
     {
       "source_module": "torch/nativert",
       "target_module": "torch/csrc",
-      "weight": 45
+      "weight": 24
     },
     {
       "source_module": "torch/nativert",
-      "target_module": "torch/_dynamo",
-      "weight": 4
+      "target_module": "c10/macros",
+      "weight": 3
     },
     {
       "source_module": "torch/nativert",
@@ -2939,18 +1924,13 @@
     },
     {
       "source_module": "torch/nativert",
-      "target_module": "torch/headeronly",
-      "weight": 20
-    },
-    {
-      "source_module": "torch/nativert",
       "target_module": "c10/util",
-      "weight": 65
+      "weight": 82
     },
     {
       "source_module": "torch/nativert",
       "target_module": "aten/src",
-      "weight": 90
+      "weight": 86
     },
     {
       "source_module": "torch/nativert",
@@ -2960,22 +1940,12 @@
     {
       "source_module": "torch/nativert",
       "target_module": "c10/core",
-      "weight": 5
+      "weight": 22
     },
     {
       "source_module": "torch/nativert",
       "target_module": "c10/cuda",
       "weight": 1
-    },
-    {
-      "source_module": "torch/nested",
-      "target_module": "torch/distributed",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/nested",
-      "target_module": "torch/_dynamo",
-      "weight": 10
     },
     {
       "source_module": "torch/nested",
@@ -3004,23 +1974,8 @@
     },
     {
       "source_module": "torch/nested",
-      "target_module": "functorch/experimental",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/nested",
       "target_module": "torch/backends",
       "weight": 1
-    },
-    {
-      "source_module": "torch/nn",
-      "target_module": "torch/distributed",
-      "weight": 47
-    },
-    {
-      "source_module": "torch/nn",
-      "target_module": "torch/_dynamo",
-      "weight": 130
     },
     {
       "source_module": "torch/nn",
@@ -3035,7 +1990,7 @@
     {
       "source_module": "torch/nn",
       "target_module": "torch/utils",
-      "weight": 14
+      "weight": 11
     },
     {
       "source_module": "torch/nn",
@@ -3049,13 +2004,13 @@
     },
     {
       "source_module": "torch/nn",
-      "target_module": "torch/ao",
-      "weight": 74
+      "target_module": "torch/_dynamo",
+      "weight": 1
     },
     {
       "source_module": "torch/nn",
-      "target_module": "tools/code_coverage",
-      "weight": 4
+      "target_module": "torch/ao",
+      "weight": 60
     },
     {
       "source_module": "torch/nn",
@@ -3064,18 +2019,13 @@
     },
     {
       "source_module": "torch/nn",
+      "target_module": "torch/distributed",
+      "weight": 11
+    },
+    {
+      "source_module": "torch/nn",
       "target_module": "torch/autograd",
       "weight": 3
-    },
-    {
-      "source_module": "torch/nn",
-      "target_module": "torch/_inductor",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/nn",
-      "target_module": "torch/accelerator",
-      "weight": 6
     },
     {
       "source_module": "torch/nn",
@@ -3098,31 +2048,6 @@
       "weight": 1
     },
     {
-      "source_module": "torch/numa",
-      "target_module": "torch/_dynamo",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/numa",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/onnx",
-      "target_module": "torch/distributed",
-      "weight": 51
-    },
-    {
-      "source_module": "torch/onnx",
-      "target_module": "torch/_dynamo",
-      "weight": 126
-    },
-    {
-      "source_module": "torch/onnx",
-      "target_module": "tools/code_coverage",
-      "weight": 2
-    },
-    {
       "source_module": "torch/onnx",
       "target_module": "torch/_export",
       "weight": 1
@@ -3135,7 +2060,7 @@
     {
       "source_module": "torch/onnx",
       "target_module": "torch/fx",
-      "weight": 9
+      "weight": 8
     },
     {
       "source_module": "torch/onnx",
@@ -3144,23 +2069,13 @@
     },
     {
       "source_module": "torch/onnx",
-      "target_module": "torch/_inductor",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/onnx",
       "target_module": "torch/_subclasses",
       "weight": 4
     },
     {
       "source_module": "torch/onnx",
-      "target_module": "torch/masked",
-      "weight": 3
-    },
-    {
-      "source_module": "torch/onnx",
       "target_module": "torch/utils",
-      "weight": 6
+      "weight": 5
     },
     {
       "source_module": "torch/onnx",
@@ -3179,23 +2094,8 @@
     },
     {
       "source_module": "torch/onnx",
-      "target_module": "tools/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/onnx",
       "target_module": "torch/nn",
       "weight": 3
-    },
-    {
-      "source_module": "torch/optim",
-      "target_module": "torch/distributed",
-      "weight": 14
-    },
-    {
-      "source_module": "torch/optim",
-      "target_module": "torch/_dynamo",
-      "weight": 61
     },
     {
       "source_module": "torch/optim",
@@ -3204,38 +2104,18 @@
     },
     {
       "source_module": "torch/optim",
+      "target_module": "torch/_dynamo",
+      "weight": 1
+    },
+    {
+      "source_module": "torch/optim",
       "target_module": "torch/nn",
       "weight": 1
     },
     {
       "source_module": "torch/package",
-      "target_module": "torch/_dynamo",
-      "weight": 21
-    },
-    {
-      "source_module": "torch/package",
-      "target_module": "torch/distributed",
-      "weight": 6
-    },
-    {
-      "source_module": "torch/package",
-      "target_module": "torch/_inductor",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/package",
       "target_module": "torch/utils",
       "weight": 1
-    },
-    {
-      "source_module": "torch/profiler",
-      "target_module": "torch/distributed",
-      "weight": 7
-    },
-    {
-      "source_module": "torch/profiler",
-      "target_module": "torch/_dynamo",
-      "weight": 16
     },
     {
       "source_module": "torch/profiler",
@@ -3249,17 +2129,17 @@
     },
     {
       "source_module": "torch/profiler",
-      "target_module": "torch/accelerator",
+      "target_module": "torch/distributed",
+      "weight": 1
+    },
+    {
+      "source_module": "torch/profiler",
+      "target_module": "torch/utils",
       "weight": 1
     },
     {
       "source_module": "torch/profiler",
       "target_module": "torch/fx",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/profiler",
-      "target_module": "torch/utils",
       "weight": 1
     },
     {
@@ -3270,32 +2150,12 @@
     {
       "source_module": "torch/quantization",
       "target_module": "torch/ao",
-      "weight": 40
-    },
-    {
-      "source_module": "torch/quantization",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/signal",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/signal",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/sparse",
-      "target_module": "torch/distributed",
-      "weight": 3
+      "weight": 30
     },
     {
       "source_module": "torch/sparse",
       "target_module": "torch/_dynamo",
-      "weight": 14
+      "weight": 1
     },
     {
       "source_module": "torch/sparse",
@@ -3304,28 +2164,13 @@
     },
     {
       "source_module": "torch/sparse",
-      "target_module": "torch/_inductor",
-      "weight": 4
-    },
-    {
-      "source_module": "torch/sparse",
       "target_module": "torch/testing",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/special",
-      "target_module": "torch/_dynamo",
       "weight": 1
     },
     {
       "source_module": "torch/testing",
       "target_module": "torch/distributed",
-      "weight": 131
-    },
-    {
-      "source_module": "torch/testing",
-      "target_module": "torch/_dynamo",
-      "weight": 245
+      "weight": 104
     },
     {
       "source_module": "torch/testing",
@@ -3335,12 +2180,7 @@
     {
       "source_module": "torch/testing",
       "target_module": "torch/_inductor",
-      "weight": 21
-    },
-    {
-      "source_module": "torch/testing",
-      "target_module": "torch/accelerator",
-      "weight": 2
+      "weight": 13
     },
     {
       "source_module": "torch/testing",
@@ -3349,8 +2189,8 @@
     },
     {
       "source_module": "torch/testing",
-      "target_module": "torch/multiprocessing",
-      "weight": 1
+      "target_module": "torch/_dynamo",
+      "weight": 10
     },
     {
       "source_module": "torch/testing",
@@ -3374,11 +2214,6 @@
     },
     {
       "source_module": "torch/testing",
-      "target_module": "torch/_numpy",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/testing",
       "target_module": "torch/_refs",
       "weight": 4
     },
@@ -3396,11 +2231,6 @@
       "source_module": "torch/testing",
       "target_module": "torch/_prims_common",
       "weight": 1
-    },
-    {
-      "source_module": "torch/testing",
-      "target_module": "torch/_native",
-      "weight": 2
     },
     {
       "source_module": "torch/testing",
@@ -3430,12 +2260,17 @@
     {
       "source_module": "torch/testing",
       "target_module": "torch/fx",
-      "weight": 6
+      "weight": 5
     },
     {
       "source_module": "torch/testing",
       "target_module": "torch/onnx",
       "weight": 2
+    },
+    {
+      "source_module": "torch/testing",
+      "target_module": "torch/_native",
+      "weight": 1
     },
     {
       "source_module": "torch/testing",
@@ -3450,7 +2285,7 @@
     {
       "source_module": "torch/testing",
       "target_module": "torch/_subclasses",
-      "weight": 4
+      "weight": 3
     },
     {
       "source_module": "torch/testing",
@@ -3474,11 +2309,6 @@
     },
     {
       "source_module": "torch/testing",
-      "target_module": "tools/code_coverage",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/testing",
       "target_module": "torch/nested",
       "weight": 2
     },
@@ -3493,21 +2323,6 @@
       "weight": 1
     },
     {
-      "source_module": "torch/testing",
-      "target_module": "torch/_functorch",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/utils",
-      "target_module": "torch/_dynamo",
-      "weight": 223
-    },
-    {
-      "source_module": "torch/utils",
-      "target_module": "torch/distributed",
-      "weight": 92
-    },
-    {
       "source_module": "torch/utils",
       "target_module": "torch/jit",
       "weight": 1
@@ -3515,17 +2330,27 @@
     {
       "source_module": "torch/utils",
       "target_module": "torch/fx",
-      "weight": 9
+      "weight": 8
     },
     {
       "source_module": "torch/utils",
       "target_module": "torch/testing",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "torch/utils",
       "target_module": "torch/backends",
       "weight": 1
+    },
+    {
+      "source_module": "torch/utils",
+      "target_module": "torch/_dynamo",
+      "weight": 10
+    },
+    {
+      "source_module": "torch/utils",
+      "target_module": "torch/distributed",
+      "weight": 11
     },
     {
       "source_module": "torch/utils",
@@ -3540,7 +2365,7 @@
     {
       "source_module": "torch/utils",
       "target_module": "torch/autograd",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "torch/utils",
@@ -3554,23 +2379,13 @@
     },
     {
       "source_module": "torch/utils",
-      "target_module": "torch/accelerator",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/utils",
       "target_module": "torch/multiprocessing",
-      "weight": 4
+      "weight": 1
     },
     {
       "source_module": "torch/utils",
       "target_module": "torch/monitor",
       "weight": 1
-    },
-    {
-      "source_module": "torch/utils",
-      "target_module": "torch/masked",
-      "weight": 5
     },
     {
       "source_module": "torch/utils",
@@ -3580,12 +2395,7 @@
     {
       "source_module": "torch/utils",
       "target_module": "torch/_inductor",
-      "weight": 9
-    },
-    {
-      "source_module": "torch/utils",
-      "target_module": "tools/experimental",
-      "weight": 1
+      "weight": 4
     },
     {
       "source_module": "torch/utils",
@@ -3609,18 +2419,8 @@
     },
     {
       "source_module": "torch/utils",
-      "target_module": "tools/code_coverage",
-      "weight": 2
-    },
-    {
-      "source_module": "torch/utils",
-      "target_module": "torch/_numpy",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/utils",
       "target_module": "torch/_vendor",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "torch/utils",
@@ -3638,54 +2438,9 @@
       "weight": 1
     },
     {
-      "source_module": "torch/xpu",
-      "target_module": "torch/distributed",
-      "weight": 5
-    },
-    {
-      "source_module": "torch/xpu",
-      "target_module": "torch/_dynamo",
-      "weight": 15
-    },
-    {
-      "source_module": "torch/xpu",
-      "target_module": "torch/accelerator",
-      "weight": 8
-    },
-    {
-      "source_module": "torch/xpu",
-      "target_module": "torch/_inductor",
-      "weight": 1
-    },
-    {
-      "source_module": "torch/xpu",
-      "target_module": "torch/_numpy",
-      "weight": 1
-    },
-    {
-      "source_module": "torchgen/_autoheuristic",
-      "target_module": "torch/distributed",
-      "weight": 9
-    },
-    {
-      "source_module": "torchgen/_autoheuristic",
-      "target_module": "torch/_numpy",
-      "weight": 5
-    },
-    {
-      "source_module": "torchgen/_autoheuristic",
-      "target_module": "torch/_dynamo",
-      "weight": 24
-    },
-    {
       "source_module": "torchgen/_autoheuristic",
       "target_module": "torch/_inductor",
       "weight": 30
-    },
-    {
-      "source_module": "torchgen/_autoheuristic",
-      "target_module": "torch/_functorch",
-      "weight": 3
     },
     {
       "source_module": "torchgen/_autoheuristic",
@@ -3693,44 +2448,9 @@
       "weight": 1
     },
     {
-      "source_module": "torchgen/api",
-      "target_module": "torch/distributed",
-      "weight": 9
-    },
-    {
-      "source_module": "torchgen/api",
-      "target_module": "tools/code_coverage",
-      "weight": 2
-    },
-    {
-      "source_module": "torchgen/api",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
-      "source_module": "torchgen/api",
-      "target_module": "tools/setup_helpers",
-      "weight": 1
-    },
-    {
-      "source_module": "torchgen/decompositions",
-      "target_module": "torch/_dynamo",
-      "weight": 1
-    },
-    {
       "source_module": "torchgen/decompositions",
       "target_module": "torch/jit",
       "weight": 1
-    },
-    {
-      "source_module": "torchgen/dest",
-      "target_module": "torch/_dynamo",
-      "weight": 2
-    },
-    {
-      "source_module": "torchgen/dest",
-      "target_module": "torch/distributed",
-      "weight": 3
     },
     {
       "source_module": "torchgen/dest",
@@ -3739,22 +2459,7 @@
     },
     {
       "source_module": "torchgen/dest",
-      "target_module": "tools/autograd",
-      "weight": 4
-    },
-    {
-      "source_module": "torchgen/dest",
-      "target_module": "tools/code_coverage",
-      "weight": 3
-    },
-    {
-      "source_module": "torchgen/dest",
       "target_module": "torchgen/selective_build",
-      "weight": 1
-    },
-    {
-      "source_module": "torchgen/fuse",
-      "target_module": "torch/_dynamo",
       "weight": 1
     },
     {
@@ -3764,53 +2469,13 @@
     },
     {
       "source_module": "torchgen/operator_versions",
-      "target_module": "torch/_dynamo",
-      "weight": 3
-    },
-    {
-      "source_module": "torchgen/operator_versions",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torchgen/operator_versions",
       "target_module": "torch/jit",
       "weight": 1
-    },
-    {
-      "source_module": "torchgen/selective_build",
-      "target_module": "torch/distributed",
-      "weight": 1
-    },
-    {
-      "source_module": "torchgen/shape_functions",
-      "target_module": "torch/_dynamo",
-      "weight": 3
-    },
-    {
-      "source_module": "torchgen/shape_functions",
-      "target_module": "torch/fx",
-      "weight": 1
-    },
-    {
-      "source_module": "torchgen/static_runtime",
-      "target_module": "torch/_dynamo",
-      "weight": 3
-    },
-    {
-      "source_module": "torchgen/static_runtime",
-      "target_module": "torch/distributed",
-      "weight": 2
     },
     {
       "source_module": "torchgen/static_runtime",
       "target_module": "torchgen/api",
       "weight": 1
-    },
-    {
-      "source_module": "torchgen/static_runtime",
-      "target_module": "tools/autograd",
-      "weight": 2
     }
   ]
 }

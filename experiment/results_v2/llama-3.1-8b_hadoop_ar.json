@@ -1,0 +1,467 @@
+{
+ "precision_at_5": 0.23157894736842105,
+ "recall_at_5": 0.5789473684210527,
+ "total": 19,
+ "results": [
+  {
+   "source_module": "hadoop-mapreduce-project/hadoop-mapreduce-client",
+   "true_targets": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-yarn-project/hadoop-yarn"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.6,
+   "recall": 1.0,
+   "raw_response": "1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs-client\n3. hadoop-yarn-project/hadoop-yarn\n4. hadoop-hdfs-project/hadoop-hdfs\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-mapreduce-project/hadoop-mapreduce-examples",
+    "hadoop-tools",
+    "hadoop-cloud-storage-project/hadoop-tos"
+   ]
+  },
+  {
+   "source_module": "hadoop-common-project/hadoop-common",
+   "true_targets": [
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "predicted": [
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. hadoop-hdfs-project/hadoop-hdfs\n2. hadoop-mapreduce-project/hadoop-mapreduce-client\n3. hadoop-yarn-project/hadoop-yarn\n4. hadoop-hdfs-project/hadoop-hdfs-client\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+    "hadoop-tools",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-cloud-storage-project/hadoop-tos"
+   ]
+  },
+  {
+   "source_module": "hadoop-hdfs-project/hadoop-hdfs",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-hdfs-project/hadoop-hdfs-rbf",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the architecture of Apache Hadoop, here are the top 5 modules that hadoop-hdfs-project/hadoop-hdfs most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs-client\n3. hadoop-hdfs-project/hadoop-hdfs-rbf\n4. hadoop-hdfs-project/hadoop-hdfs-httpfs\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-mapreduce-project/hadoop-mapreduce-examples",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client"
+   ]
+  },
+  {
+   "source_module": "hadoop-common-project/hadoop-nfs",
+   "true_targets": [
+    "hadoop-common-project/hadoop-common"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-hdfs-project/hadoop-hdfs-nfs"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs\n3. hadoop-hdfs-project/hadoop-hdfs-client\n4. hadoop-common-project/hadoop-auth\n5. hadoop-hdfs-project/hadoop-hdfs-nfs",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-annotations"
+   ]
+  },
+  {
+   "source_module": "hadoop-cloud-storage-project/hadoop-gcp",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-cloud-storage-project/hadoop-cloud-storage",
+    "hadoop-cloud-storage-project/hadoop-tos",
+    "hadoop-cloud-storage-project/hadoop-cos",
+    "hadoop-cloud-storage-project/hadoop-huaweicloud"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the source module and the architecture of Apache Hadoop, here are the top 5 modules that hadoop-cloud-storage-project/hadoop-gcp most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-cloud-storage-project/hadoop-cloud-storage\n3. hadoop-cloud-storage-project/hadoop-tos\n4. hadoop-cloud-storage-project/hadoop-cos\n5. hadoop-cloud-storage-project/hadoop-huaweicloud",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-tools",
+    "hadoop-cloud-storage-project/hadoop-tos"
+   ]
+  },
+  {
+   "source_module": "hadoop-yarn-project/hadoop-yarn",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-registry"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "Based on the typical role of the YARN (Yet Another Resource Negotiator) module in Apache Hadoop, which is a resource management layer for Hadoop, I predict the following top 5 modules that hadoop-yarn-project/hadoop-yarn most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs\n3. hadoop-mapreduce-project/hadoop-mapreduce-client\n4. hadoop-hdfs-project/hadoop-hdfs-client\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-registry",
+    "hadoop-hdfs-project/hadoop-hdfs-rbf",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-mapreduce-project/hadoop-mapreduce-examples",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-cloud-storage-project/hadoop-tos"
+   ]
+  },
+  {
+   "source_module": "hadoop-hdfs-project/hadoop-hdfs-rbf",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-tools"
+   ],
+   "predicted": [
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-yarn-project/hadoop-yarn"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "Based on the typical role of the source module and the architecture of Apache Hadoop, here are the top 5 modules that hadoop-hdfs-project/hadoop-hdfs-rbf most likely depends on:\n\n1. hadoop-hdfs-project/hadoop-hdfs\n2. hadoop-common-project/hadoop-common\n3. hadoop-hdfs-project/hadoop-hdfs-client\n4. hadoop-common-project/hadoop-auth\n5. hadoop-yarn-project/hadoop-yarn",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-tools"
+   ]
+  },
+  {
+   "source_module": "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-hdfs-project/hadoop-hdfs-client"
+   ],
+   "predicted": [
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-hdfs-project/hadoop-hdfs-native-client"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that hadoop-hdfs-project/hadoop-hdfs-httpfs most likely depends on:\n\n1. hadoop-hdfs-project/hadoop-hdfs\n2. hadoop-common-project/hadoop-common\n3. hadoop-hdfs-project/hadoop-hdfs-client\n4. hadoop-common-project/hadoop-auth\n5. hadoop-hdfs-project/hadoop-hdfs-native-client",
+   "true_targets_v1": [
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-tools"
+   ]
+  },
+  {
+   "source_module": "hadoop-mapreduce-project/hadoop-mapreduce-examples",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client"
+   ],
+   "predicted": [
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that hadoop-mapreduce-project/hadoop-mapreduce-examples most likely depends on:\n\n1. hadoop-mapreduce-project/hadoop-mapreduce-client\n2. hadoop-common-project/hadoop-common\n3. hadoop-hdfs-project/hadoop-hdfs\n4. hadoop-yarn-project/hadoop-yarn\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs"
+   ]
+  },
+  {
+   "source_module": "hadoop-cloud-storage-project/hadoop-cos",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations"
+   ],
+   "predicted": [
+    "hadoop-cloud-storage-project/hadoop-cloud-storage",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-cloud-storage-project/hadoop-tos",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the source module and the architecture of Apache Hadoop, here are the top 5 modules that hadoop-cloud-storage-project/hadoop-cos most likely depends on:\n\n1. hadoop-cloud-storage-project/hadoop-cloud-storage\n2. hadoop-common-project/hadoop-common\n3. hadoop-hdfs-project/hadoop-hdfs\n4. hadoop-cloud-storage-project/hadoop-tos\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-tools",
+    "hadoop-cloud-storage-project/hadoop-tos",
+    "hadoop-common-project/hadoop-annotations"
+   ]
+  },
+  {
+   "source_module": "hadoop-cloud-storage-project/hadoop-tos",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client"
+   ],
+   "predicted": [
+    "hadoop-cloud-storage-project/hadoop-cloud-storage",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the typical role of the source module and the architecture of Apache Hadoop, here are the top 5 modules that hadoop-cloud-storage-project/hadoop-tos most likely depends on:\n\n1. hadoop-cloud-storage-project/hadoop-cloud-storage\n2. hadoop-common-project/hadoop-common\n3. hadoop-hdfs-project/hadoop-hdfs\n4. hadoop-mapreduce-project/hadoop-mapreduce-client\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-tools",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-cloud-storage-project/hadoop-cos"
+   ]
+  },
+  {
+   "source_module": "hadoop-cloud-storage-project/hadoop-huaweicloud",
+   "true_targets": [
+    "hadoop-common-project/hadoop-common"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-cloud-storage-project/hadoop-cloud-storage",
+    "hadoop-cloud-storage-project/hadoop-cloud-storage-dist",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the source module and the architecture of Apache Hadoop, here are the top 5 modules that hadoop-cloud-storage-project/hadoop-huaweicloud most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-cloud-storage-project/hadoop-cloud-storage\n3. hadoop-cloud-storage-project/hadoop-cloud-storage-dist\n4. hadoop-hdfs-project/hadoop-hdfs\n5. hadoop-mapreduce-project/hadoop-mapreduce-client",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-cloud-storage-project/hadoop-tos",
+    "hadoop-common-project/hadoop-annotations"
+   ]
+  },
+  {
+   "source_module": "hadoop-hdfs-project/hadoop-hdfs-client",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-hdfs-project/hadoop-hdfs-rbf"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that hadoop-hdfs-project/hadoop-hdfs-client most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs\n3. hadoop-mapreduce-project/hadoop-mapreduce-client\n4. hadoop-common-project/hadoop-auth\n5. hadoop-hdfs-project/hadoop-hdfs-rbf",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-cloud-storage-project/hadoop-cos",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-tools",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-cloud-storage-project/hadoop-tos"
+   ]
+  },
+  {
+   "source_module": "hadoop-common-project/hadoop-kms",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the typical role of the Key Management Service (KMS) in Apache Hadoop, which is to manage and store encryption keys, I predict the following modules that hadoop-common-project/hadoop-kms most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs\n3. hadoop-hdfs-project/hadoop-hdfs-client\n4. hadoop-common-project/hadoop-auth\n5. hadoop-hdfs-project/hadoop-hdfs-httpfs",
+   "true_targets_v1": [
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-common-project/hadoop-auth"
+   ]
+  },
+  {
+   "source_module": "hadoop-tools",
+   "true_targets": [
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-yarn-project/hadoop-yarn"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the typical role of the source module \"hadoop-tools\" and the architecture of Apache Hadoop, here are the top 5 modules that hadoop-tools most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-mapreduce-project/hadoop-mapreduce-client\n3. hadoop-hdfs-project/hadoop-hdfs\n4. hadoop-yarn-project/hadoop-yarn\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-cloud-storage-project/hadoop-gcp",
+    "hadoop-cloud-storage-project/hadoop-tos",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-mapreduce-project/hadoop-mapreduce-examples",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-cloud-storage-project/hadoop-cos"
+   ]
+  },
+  {
+   "source_module": "hadoop-common-project/hadoop-registry",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-common"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the typical role of the source module and the architecture of Apache Hadoop, here are the top 5 modules that hadoop-common-project/hadoop-registry most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs\n3. hadoop-mapreduce-project/hadoop-mapreduce-client\n4. hadoop-yarn-project/hadoop-yarn\n5. hadoop-common-project/hadoop-auth",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-annotations",
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-yarn-project/hadoop-yarn",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client"
+   ]
+  },
+  {
+   "source_module": "hadoop-common-project/hadoop-auth",
+   "true_targets": [
+    "hadoop-common-project/hadoop-annotations"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-registry"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the hadoop-common-project/hadoop-auth module, which is responsible for authentication and authorization in Hadoop, here are the top 5 modules it most likely depends on:\n\n1. hadoop-common-project/hadoop-common\n2. hadoop-hdfs-project/hadoop-hdfs\n3. hadoop-mapreduce-project/hadoop-mapreduce-client\n4. hadoop-hdfs-project/hadoop-hdfs-client\n5. hadoop-common-project/hadoop-registry",
+   "true_targets_v1": [
+    "hadoop-tools",
+    "hadoop-common-project/hadoop-annotations"
+   ]
+  },
+  {
+   "source_module": "hadoop-hdfs-project/hadoop-hdfs-nfs",
+   "true_targets": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-nfs",
+    "hadoop-hdfs-project/hadoop-hdfs"
+   ],
+   "predicted": [
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-nfs",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-hdfs-project/hadoop-hdfs-httpfs"
+   ],
+   "precision": 0.6,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that hadoop-hdfs-project/hadoop-hdfs-nfs most likely depends on:\n\n1. hadoop-hdfs-project/hadoop-hdfs\n2. hadoop-common-project/hadoop-common\n3. hadoop-common-project/hadoop-nfs\n4. hadoop-hdfs-project/hadoop-hdfs-client\n5. hadoop-hdfs-project/hadoop-hdfs-httpfs",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-hdfs-project/hadoop-hdfs-client",
+    "hadoop-common-project/hadoop-nfs",
+    "hadoop-hdfs-project/hadoop-hdfs"
+   ]
+  },
+  {
+   "source_module": "hadoop-common-project/hadoop-auth-examples",
+   "true_targets": [
+    "hadoop-common-project/hadoop-auth"
+   ],
+   "predicted": [
+    "hadoop-common-project/hadoop-auth",
+    "hadoop-common-project/hadoop-common",
+    "hadoop-mapreduce-project/hadoop-mapreduce-client",
+    "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-yarn-project/hadoop-yarn"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that hadoop-common-project/hadoop-auth-examples most likely depends on:\n\n1. hadoop-common-project/hadoop-auth\n2. hadoop-common-project/hadoop-common\n3. hadoop-mapreduce-project/hadoop-mapreduce-client\n4. hadoop-hdfs-project/hadoop-hdfs\n5. hadoop-yarn-project/hadoop-yarn",
+   "true_targets_v1": [
+    "hadoop-common-project/hadoop-common",
+    "hadoop-common-project/hadoop-auth"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_hadoop_ar.json"
+}

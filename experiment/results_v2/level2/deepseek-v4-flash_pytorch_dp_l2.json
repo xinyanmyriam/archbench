@@ -1,0 +1,2625 @@
+{
+  "accuracy": 0.705,
+  "precision": 0.5666666666666667,
+  "recall": 0.2698412698412698,
+  "f1": 0.3655913978494623,
+  "tp": 17,
+  "fp": 13,
+  "tn": 124,
+  "fn": 46,
+  "total": 200,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 39559,
+    "completion_tokens": 93628,
+    "total_tokens": 133187
+  },
+  "results": [
+    {
+      "module_A": "torch/_logging",
+      "module_B": "torch/_dynamo",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 221,
+        "completion_tokens": 65,
+        "total_tokens": 286
+      },
+      "latency_ms": 1288.3
+    },
+    {
+      "module_A": "tools/experimental",
+      "module_B": "torch/nativert",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 143,
+        "completion_tokens": 94,
+        "total_tokens": 237
+      },
+      "latency_ms": 1009.6
+    },
+    {
+      "module_A": "functorch/examples",
+      "module_B": "torch/optim",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 179,
+        "completion_tokens": 201,
+        "total_tokens": 380
+      },
+      "latency_ms": 1485.6
+    },
+    {
+      "module_A": "caffe2/core",
+      "module_B": "torch/compiler",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 121,
+        "total_tokens": 287
+      },
+      "latency_ms": 1394.9
+    },
+    {
+      "module_A": "torch/_subclasses",
+      "module_B": "torch/multiprocessing",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 254,
+        "completion_tokens": 702,
+        "total_tokens": 956
+      },
+      "latency_ms": 3834.8
+    },
+    {
+      "module_A": "functorch/examples",
+      "module_B": "torch/_prims",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 190,
+        "completion_tokens": 191,
+        "total_tokens": 381
+      },
+      "latency_ms": 1215.5
+    },
+    {
+      "module_A": "torchgen/dest",
+      "module_B": "torch/_awaits",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 104,
+        "total_tokens": 255
+      },
+      "latency_ms": 1022.0
+    },
+    {
+      "module_A": "torchgen/api",
+      "module_B": "tools/amd_build",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 142,
+        "completion_tokens": 55,
+        "total_tokens": 197
+      },
+      "latency_ms": 812.6
+    },
+    {
+      "module_A": "torch/_native",
+      "module_B": "torch/nn",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 91,
+        "total_tokens": 308
+      },
+      "latency_ms": 1003.1
+    },
+    {
+      "module_A": "torchgen/static_runtime",
+      "module_B": "tools/autograd",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 74,
+        "total_tokens": 230
+      },
+      "latency_ms": 832.1
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "torch/_export",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 253,
+        "completion_tokens": 326,
+        "total_tokens": 579
+      },
+      "latency_ms": 2111.7
+    },
+    {
+      "module_A": "torchgen/dest",
+      "module_B": "torch/_vendor",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 89,
+        "total_tokens": 244
+      },
+      "latency_ms": 1135.6
+    },
+    {
+      "module_A": "torch/_higher_order_ops",
+      "module_B": "torch/_inductor",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 86,
+        "total_tokens": 370
+      },
+      "latency_ms": 1006.0
+    },
+    {
+      "module_A": "torch/_subclasses",
+      "module_B": "c10/util",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 288,
+        "total_tokens": 571
+      },
+      "latency_ms": 1753.5
+    },
+    {
+      "module_A": "torch/ao",
+      "module_B": "torch/jit",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 202,
+        "completion_tokens": 153,
+        "total_tokens": 355
+      },
+      "latency_ms": 1249.0
+    },
+    {
+      "module_A": "torch/lib",
+      "module_B": "c10/util",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 196,
+        "completion_tokens": 182,
+        "total_tokens": 378
+      },
+      "latency_ms": 1436.4
+    },
+    {
+      "module_A": "tools/github",
+      "module_B": "torch/mtia",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 139,
+        "completion_tokens": 58,
+        "total_tokens": 197
+      },
+      "latency_ms": 1160.1
+    },
+    {
+      "module_A": "torch/utils",
+      "module_B": "torchgen/api",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 93,
+        "total_tokens": 320
+      },
+      "latency_ms": 1235.4
+    },
+    {
+      "module_A": "tools/jit",
+      "module_B": "torch/numa",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 284,
+        "total_tokens": 440
+      },
+      "latency_ms": 1677.3
+    },
+    {
+      "module_A": "torch/contrib",
+      "module_B": "c10/xpu",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 142,
+        "completion_tokens": 131,
+        "total_tokens": 273
+      },
+      "latency_ms": 1040.4
+    },
+    {
+      "module_A": "tools/experimental",
+      "module_B": "functorch/_src",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 60,
+        "total_tokens": 205
+      },
+      "latency_ms": 973.0
+    },
+    {
+      "module_A": "torch/_library",
+      "module_B": "torch/_functorch",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 296,
+        "total_tokens": 539
+      },
+      "latency_ms": 1816.8
+    },
+    {
+      "module_A": "tools/rules_cc",
+      "module_B": "torch/func",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 70,
+        "total_tokens": 232
+      },
+      "latency_ms": 951.7
+    },
+    {
+      "module_A": "c10/util",
+      "module_B": "torch/nativert",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 549,
+        "total_tokens": 712
+      },
+      "latency_ms": 2891.9
+    },
+    {
+      "module_A": "torch/autograd",
+      "module_B": "torch/_numpy",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 181,
+        "completion_tokens": 118,
+        "total_tokens": 299
+      },
+      "latency_ms": 903.2
+    },
+    {
+      "module_A": "functorch/dim",
+      "module_B": "torch/headeronly",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 196,
+        "total_tokens": 358
+      },
+      "latency_ms": 1401.0
+    },
+    {
+      "module_A": "torch/futures",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 216,
+        "completion_tokens": 72,
+        "total_tokens": 288
+      },
+      "latency_ms": 862.5
+    },
+    {
+      "module_A": "tools/amd_build",
+      "module_B": "tools/testing",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 139,
+        "completion_tokens": 93,
+        "total_tokens": 232
+      },
+      "latency_ms": 760.3
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "tools/experimental",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 72,
+        "total_tokens": 289
+      },
+      "latency_ms": 964.0
+    },
+    {
+      "module_A": "tools/autograd",
+      "module_B": "c10/util",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 166,
+        "total_tokens": 386
+      },
+      "latency_ms": 1340.5
+    },
+    {
+      "module_A": "torch/onnx",
+      "module_B": "functorch/op_analysis",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 192,
+        "completion_tokens": 52,
+        "total_tokens": 244
+      },
+      "latency_ms": 908.8
+    },
+    {
+      "module_A": "tools/iwyu",
+      "module_B": "torch/fx",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 216,
+        "completion_tokens": 53,
+        "total_tokens": 269
+      },
+      "latency_ms": 845.8
+    },
+    {
+      "module_A": "torch/_lazy",
+      "module_B": "torch/multiprocessing",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 182,
+        "completion_tokens": 278,
+        "total_tokens": 460
+      },
+      "latency_ms": 1752.1
+    },
+    {
+      "module_A": "torch/backends",
+      "module_B": "torch/_native",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 144,
+        "total_tokens": 302
+      },
+      "latency_ms": 1361.1
+    },
+    {
+      "module_A": "torch/testing",
+      "module_B": "torch/_subclasses",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 500,
+        "total_tokens": 788
+      },
+      "latency_ms": 2410.5
+    },
+    {
+      "module_A": "torch/monitor",
+      "module_B": "torch/nn",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 214,
+        "completion_tokens": 169,
+        "total_tokens": 383
+      },
+      "latency_ms": 1509.6
+    },
+    {
+      "module_A": "torch/nativert",
+      "module_B": "torch/ao",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 197,
+        "completion_tokens": 145,
+        "total_tokens": 342
+      },
+      "latency_ms": 1310.9
+    },
+    {
+      "module_A": "torch/distributions",
+      "module_B": "torch/autograd",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 417,
+        "total_tokens": 618
+      },
+      "latency_ms": 2445.7
+    },
+    {
+      "module_A": "torch/fx",
+      "module_B": "torch/_higher_order_ops",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 189,
+        "total_tokens": 473
+      },
+      "latency_ms": 1740.5
+    },
+    {
+      "module_A": "tools/shared",
+      "module_B": "torch/distributed",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 202,
+        "completion_tokens": 66,
+        "total_tokens": 268
+      },
+      "latency_ms": 1054.0
+    },
+    {
+      "module_A": "torch/_refs",
+      "module_B": "torch/fx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 119,
+        "total_tokens": 359
+      },
+      "latency_ms": 1449.1
+    },
+    {
+      "module_A": "torch/_higher_order_ops",
+      "module_B": "torch/_dispatch",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 256,
+        "completion_tokens": 196,
+        "total_tokens": 452
+      },
+      "latency_ms": 1179.1
+    },
+    {
+      "module_A": "tools/github",
+      "module_B": "torch/_export",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 179,
+        "completion_tokens": 68,
+        "total_tokens": 247
+      },
+      "latency_ms": 969.0
+    },
+    {
+      "module_A": "torch/_subclasses",
+      "module_B": "torch/accelerator",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 313,
+        "total_tokens": 532
+      },
+      "latency_ms": 1980.3
+    },
+    {
+      "module_A": "tools/stats",
+      "module_B": "torch/nativert",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 140,
+        "completion_tokens": 68,
+        "total_tokens": 208
+      },
+      "latency_ms": 1089.1
+    },
+    {
+      "module_A": "torchgen/operator_versions",
+      "module_B": "torch/jit",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 182,
+        "completion_tokens": 57,
+        "total_tokens": 239
+      },
+      "latency_ms": 1225.6
+    },
+    {
+      "module_A": "tools/experimental",
+      "module_B": "aten/src",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 151,
+        "total_tokens": 304
+      },
+      "latency_ms": 1111.7
+    },
+    {
+      "module_A": "torch/testing",
+      "module_B": "torch/_higher_order_ops",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 508,
+        "total_tokens": 792
+      },
+      "latency_ms": 2869.0
+    },
+    {
+      "module_A": "torch/legacy",
+      "module_B": "torch/sparse",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 140,
+        "completion_tokens": 91,
+        "total_tokens": 231
+      },
+      "latency_ms": 1214.5
+    },
+    {
+      "module_A": "torch/utils",
+      "module_B": "torch/futures",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 485,
+        "total_tokens": 703
+      },
+      "latency_ms": 3076.8
+    },
+    {
+      "module_A": "torch/quantization",
+      "module_B": "torch/_refs",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 183,
+        "completion_tokens": 254,
+        "total_tokens": 437
+      },
+      "latency_ms": 1737.4
+    },
+    {
+      "module_A": "tools/pyi",
+      "module_B": "torch/profiler",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 292,
+        "total_tokens": 455
+      },
+      "latency_ms": 1593.1
+    },
+    {
+      "module_A": "torch/csrc",
+      "module_B": "torch/_numpy",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 199,
+        "completion_tokens": 71,
+        "total_tokens": 270
+      },
+      "latency_ms": 1072.9
+    },
+    {
+      "module_A": "tools/lite_interpreter",
+      "module_B": "functorch/experimental",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 167,
+        "completion_tokens": 165,
+        "total_tokens": 332
+      },
+      "latency_ms": 1543.6
+    },
+    {
+      "module_A": "torch/quantization",
+      "module_B": "c10/util",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 207,
+        "completion_tokens": 228,
+        "total_tokens": 435
+      },
+      "latency_ms": 1489.0
+    },
+    {
+      "module_A": "c10/mobile",
+      "module_B": "c10/benchmark",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 126,
+        "total_tokens": 281
+      },
+      "latency_ms": 1545.0
+    },
+    {
+      "module_A": "torch/onnx",
+      "module_B": "torch/nativert",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 184,
+        "completion_tokens": 87,
+        "total_tokens": 271
+      },
+      "latency_ms": 1182.4
+    },
+    {
+      "module_A": "torch/_dispatch",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 240,
+        "total_tokens": 458
+      },
+      "latency_ms": 1818.9
+    },
+    {
+      "module_A": "torch/_awaits",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 216,
+        "completion_tokens": 74,
+        "total_tokens": 290
+      },
+      "latency_ms": 1061.3
+    },
+    {
+      "module_A": "torchgen/_autoheuristic",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 229,
+        "completion_tokens": 666,
+        "total_tokens": 895
+      },
+      "latency_ms": 3643.7
+    },
+    {
+      "module_A": "torch/cuda",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 288,
+        "total_tokens": 518
+      },
+      "latency_ms": 1840.9
+    },
+    {
+      "module_A": "torch/optim",
+      "module_B": "tools/packaging",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 84,
+        "total_tokens": 233
+      },
+      "latency_ms": 985.6
+    },
+    {
+      "module_A": "torchgen/shape_functions",
+      "module_B": "tools/code_analyzer",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 63,
+        "total_tokens": 217
+      },
+      "latency_ms": 1059.9
+    },
+    {
+      "module_A": "torch/onnx",
+      "module_B": "torch/fx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 253,
+        "completion_tokens": 689,
+        "total_tokens": 942
+      },
+      "latency_ms": 3633.0
+    },
+    {
+      "module_A": "c10/util",
+      "module_B": "torch/csrc",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 176,
+        "completion_tokens": 135,
+        "total_tokens": 311
+      },
+      "latency_ms": 1741.4
+    },
+    {
+      "module_A": "tools/gdb",
+      "module_B": "torch/distributed",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 202,
+        "completion_tokens": 60,
+        "total_tokens": 262
+      },
+      "latency_ms": 1018.6
+    },
+    {
+      "module_A": "torch/_strobelight",
+      "module_B": "torch/_dispatch",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 185,
+        "completion_tokens": 72,
+        "total_tokens": 257
+      },
+      "latency_ms": 1015.2
+    },
+    {
+      "module_A": "tools/setup_helpers",
+      "module_B": "c10/mobile",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 206,
+        "total_tokens": 372
+      },
+      "latency_ms": 1646.1
+    },
+    {
+      "module_A": "torch/mtia",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 216,
+        "completion_tokens": 61,
+        "total_tokens": 277
+      },
+      "latency_ms": 1078.6
+    },
+    {
+      "module_A": "functorch/_src",
+      "module_B": "torch/_inductor",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 338,
+        "total_tokens": 555
+      },
+      "latency_ms": 1903.9
+    },
+    {
+      "module_A": "torch/contrib",
+      "module_B": "tools/stats",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 135,
+        "completion_tokens": 66,
+        "total_tokens": 201
+      },
+      "latency_ms": 792.1
+    },
+    {
+      "module_A": "torch/_inductor",
+      "module_B": "torch/_logging",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 255,
+        "completion_tokens": 4728,
+        "total_tokens": 4983
+      },
+      "latency_ms": 20608.4
+    },
+    {
+      "module_A": "torch/compiler",
+      "module_B": "torch/autograd",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 910,
+        "total_tokens": 1130
+      },
+      "latency_ms": 4049.2
+    },
+    {
+      "module_A": "torch/futures",
+      "module_B": "torch/_subclasses",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 59,
+        "total_tokens": 276
+      },
+      "latency_ms": 907.9
+    },
+    {
+      "module_A": "torchgen/shape_functions",
+      "module_B": "tools/github",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 53,
+        "total_tokens": 198
+      },
+      "latency_ms": 980.5
+    },
+    {
+      "module_A": "torch/sparse",
+      "module_B": "torch/xpu",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 2748,
+        "total_tokens": 2893
+      },
+      "latency_ms": 12673.4
+    },
+    {
+      "module_A": "torch/fx",
+      "module_B": "torch/utils",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 1720,
+        "total_tokens": 2006
+      },
+      "latency_ms": 7884.7
+    },
+    {
+      "module_A": "torch/_numpy",
+      "module_B": "torch/compiler",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 172,
+        "completion_tokens": 751,
+        "total_tokens": 923
+      },
+      "latency_ms": 3908.1
+    },
+    {
+      "module_A": "torch/_higher_order_ops",
+      "module_B": "tools/experimental",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 223,
+        "completion_tokens": 74,
+        "total_tokens": 297
+      },
+      "latency_ms": 859.2
+    },
+    {
+      "module_A": "torchgen/selective_build",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 99,
+        "total_tokens": 324
+      },
+      "latency_ms": 1273.4
+    },
+    {
+      "module_A": "torch/_library",
+      "module_B": "torch/_inductor",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 73,
+        "total_tokens": 311
+      },
+      "latency_ms": 862.7
+    },
+    {
+      "module_A": "torch/nested",
+      "module_B": "tools/testing",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 68,
+        "total_tokens": 226
+      },
+      "latency_ms": 1088.8
+    },
+    {
+      "module_A": "torch/_subclasses",
+      "module_B": "torch/_library",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 275,
+        "completion_tokens": 375,
+        "total_tokens": 650
+      },
+      "latency_ms": 2276.9
+    },
+    {
+      "module_A": "c10/mobile",
+      "module_B": "c10/metal",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 97,
+        "total_tokens": 248
+      },
+      "latency_ms": 1252.1
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "torch/_prims",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 2034,
+        "total_tokens": 2274
+      },
+      "latency_ms": 9625.9
+    },
+    {
+      "module_A": "torch/monitor",
+      "module_B": "torch/distributed",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 205,
+        "completion_tokens": 518,
+        "total_tokens": 723
+      },
+      "latency_ms": 3445.7
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "torch/ao",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 535,
+        "total_tokens": 767
+      },
+      "latency_ms": 2572.8
+    },
+    {
+      "module_A": "torch/ao",
+      "module_B": "tools/code_coverage",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 172,
+        "completion_tokens": 113,
+        "total_tokens": 285
+      },
+      "latency_ms": 1338.7
+    },
+    {
+      "module_A": "tools/shared",
+      "module_B": "tools/dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 139,
+        "completion_tokens": 79,
+        "total_tokens": 218
+      },
+      "latency_ms": 879.5
+    },
+    {
+      "module_A": "torch/nativert",
+      "module_B": "c10/core",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 293,
+        "total_tokens": 501
+      },
+      "latency_ms": 1792.5
+    },
+    {
+      "module_A": "torch/_vendor",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 213,
+        "completion_tokens": 90,
+        "total_tokens": 303
+      },
+      "latency_ms": 964.8
+    },
+    {
+      "module_A": "torch/csrc",
+      "module_B": "tools/lite_interpreter",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 202,
+        "completion_tokens": 135,
+        "total_tokens": 337
+      },
+      "latency_ms": 1394.0
+    },
+    {
+      "module_A": "torch/testing",
+      "module_B": "torch/futures",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 6642,
+        "total_tokens": 6862
+      },
+      "latency_ms": 28108.1
+    },
+    {
+      "module_A": "functorch/_src",
+      "module_B": "torch/_prims",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 176,
+        "completion_tokens": 317,
+        "total_tokens": 493
+      },
+      "latency_ms": 2099.2
+    },
+    {
+      "module_A": "torch/cpu",
+      "module_B": "tools/autograd",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 146,
+        "completion_tokens": 79,
+        "total_tokens": 225
+      },
+      "latency_ms": 1046.6
+    },
+    {
+      "module_A": "torch/_subclasses",
+      "module_B": "torch/_higher_order_ops",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 260,
+        "total_tokens": 549
+      },
+      "latency_ms": 1711.9
+    },
+    {
+      "module_A": "functorch/dim",
+      "module_B": "torch/fx",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 258,
+        "total_tokens": 477
+      },
+      "latency_ms": 1747.0
+    },
+    {
+      "module_A": "torch/monitor",
+      "module_B": "torch/export",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 184,
+        "completion_tokens": 130,
+        "total_tokens": 314
+      },
+      "latency_ms": 1024.7
+    },
+    {
+      "module_A": "tools/setup_helpers",
+      "module_B": "torchgen/dest",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 161,
+        "completion_tokens": 175,
+        "total_tokens": 336
+      },
+      "latency_ms": 1357.2
+    },
+    {
+      "module_A": "torch/headeronly",
+      "module_B": "caffe2/perfkernels",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 99,
+        "total_tokens": 249
+      },
+      "latency_ms": 1156.6
+    },
+    {
+      "module_A": "tools/testing",
+      "module_B": "tools/setup_helpers",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 266,
+        "total_tokens": 411
+      },
+      "latency_ms": 1811.1
+    },
+    {
+      "module_A": "torch/_functorch",
+      "module_B": "torch/_dispatch",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 254,
+        "completion_tokens": 5320,
+        "total_tokens": 5574
+      },
+      "latency_ms": 22751.5
+    },
+    {
+      "module_A": "torchgen/fuse",
+      "module_B": "torch/_numpy",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 147,
+        "completion_tokens": 150,
+        "total_tokens": 297
+      },
+      "latency_ms": 1022.3
+    },
+    {
+      "module_A": "torchgen/shape_functions",
+      "module_B": "tools/shared",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 104,
+        "total_tokens": 249
+      },
+      "latency_ms": 1446.9
+    },
+    {
+      "module_A": "torch/_strobelight",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 120,
+        "total_tokens": 339
+      },
+      "latency_ms": 1388.5
+    },
+    {
+      "module_A": "torch/cpu",
+      "module_B": "functorch/op_analysis",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 71,
+        "total_tokens": 219
+      },
+      "latency_ms": 1029.9
+    },
+    {
+      "module_A": "torch/masked",
+      "module_B": "torchgen/operator_versions",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 409,
+        "total_tokens": 558
+      },
+      "latency_ms": 2240.0
+    },
+    {
+      "module_A": "torch/export",
+      "module_B": "torch/_library",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 244,
+        "completion_tokens": 324,
+        "total_tokens": 568
+      },
+      "latency_ms": 2031.2
+    },
+    {
+      "module_A": "torch/_inductor",
+      "module_B": "tools/shared",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 216,
+        "completion_tokens": 81,
+        "total_tokens": 297
+      },
+      "latency_ms": 1143.3
+    },
+    {
+      "module_A": "torch/_native",
+      "module_B": "torch/masked",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 142,
+        "completion_tokens": 84,
+        "total_tokens": 226
+      },
+      "latency_ms": 904.6
+    },
+    {
+      "module_A": "torch/special",
+      "module_B": "torch/cuda",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 175,
+        "completion_tokens": 89,
+        "total_tokens": 264
+      },
+      "latency_ms": 1034.2
+    },
+    {
+      "module_A": "tools/rules_cc",
+      "module_B": "torch/distributed",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 208,
+        "completion_tokens": 81,
+        "total_tokens": 289
+      },
+      "latency_ms": 1041.9
+    },
+    {
+      "module_A": "torch/export",
+      "module_B": "torch/_vendor",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 197,
+        "completion_tokens": 468,
+        "total_tokens": 665
+      },
+      "latency_ms": 2702.9
+    },
+    {
+      "module_A": "torch/nested",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 1711,
+        "total_tokens": 1949
+      },
+      "latency_ms": 7930.1
+    },
+    {
+      "module_A": "torch/export",
+      "module_B": "torch/utils",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 261,
+        "completion_tokens": 9660,
+        "total_tokens": 9921
+      },
+      "latency_ms": 41652.8
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "torch/export",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 255,
+        "completion_tokens": 105,
+        "total_tokens": 360
+      },
+      "latency_ms": 1002.3
+    },
+    {
+      "module_A": "functorch/dim",
+      "module_B": "tools/jit",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 103,
+        "total_tokens": 248
+      },
+      "latency_ms": 858.7
+    },
+    {
+      "module_A": "aten/src",
+      "module_B": "c10/mobile",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 188,
+        "completion_tokens": 227,
+        "total_tokens": 415
+      },
+      "latency_ms": 1624.9
+    },
+    {
+      "module_A": "torch/_logging",
+      "module_B": "torchgen/selective_build",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 192,
+        "completion_tokens": 147,
+        "total_tokens": 339
+      },
+      "latency_ms": 1289.8
+    },
+    {
+      "module_A": "torch/nativert",
+      "module_B": "torch/headeronly",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 199,
+        "completion_tokens": 1448,
+        "total_tokens": 1647
+      },
+      "latency_ms": 6756.7
+    },
+    {
+      "module_A": "tools/coverage_plugins_package",
+      "module_B": "torch/func",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 171,
+        "completion_tokens": 86,
+        "total_tokens": 257
+      },
+      "latency_ms": 815.9
+    },
+    {
+      "module_A": "torch/sparse",
+      "module_B": "torch/testing",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 174,
+        "completion_tokens": 850,
+        "total_tokens": 1024
+      },
+      "latency_ms": 4069.8
+    },
+    {
+      "module_A": "tools/coverage_plugins_package",
+      "module_B": "functorch/compile",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 183,
+        "completion_tokens": 60,
+        "total_tokens": 243
+      },
+      "latency_ms": 694.9
+    },
+    {
+      "module_A": "torch/_export",
+      "module_B": "torch/backends",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 301,
+        "total_tokens": 534
+      },
+      "latency_ms": 2162.3
+    },
+    {
+      "module_A": "functorch/op_analysis",
+      "module_B": "torch/_native",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 95,
+        "total_tokens": 248
+      },
+      "latency_ms": 1174.5
+    },
+    {
+      "module_A": "torch/_dynamo",
+      "module_B": "torch/jit",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 256,
+        "completion_tokens": 402,
+        "total_tokens": 658
+      },
+      "latency_ms": 1992.9
+    },
+    {
+      "module_A": "torch/nn",
+      "module_B": "torch/cuda",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 1272,
+        "total_tokens": 1503
+      },
+      "latency_ms": 5494.2
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "torch/amp",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 228,
+        "completion_tokens": 3174,
+        "total_tokens": 3402
+      },
+      "latency_ms": 13961.6
+    },
+    {
+      "module_A": "torch/ao",
+      "module_B": "torch/_inductor",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 1187,
+        "total_tokens": 1425
+      },
+      "latency_ms": 5947.6
+    },
+    {
+      "module_A": "torch/signal",
+      "module_B": "c10/mobile",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 139,
+        "completion_tokens": 72,
+        "total_tokens": 211
+      },
+      "latency_ms": 877.4
+    },
+    {
+      "module_A": "torchgen/static_runtime",
+      "module_B": "torch/_inductor",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 127,
+        "total_tokens": 345
+      },
+      "latency_ms": 1047.2
+    },
+    {
+      "module_A": "c10/xpu",
+      "module_B": "torch/quantization",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 100,
+        "total_tokens": 253
+      },
+      "latency_ms": 950.2
+    },
+    {
+      "module_A": "torch/accelerator",
+      "module_B": "torch/futures",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 64,
+        "total_tokens": 215
+      },
+      "latency_ms": 754.6
+    },
+    {
+      "module_A": "torch/_higher_order_ops",
+      "module_B": "torch/masked",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 88,
+        "total_tokens": 308
+      },
+      "latency_ms": 1200.4
+    },
+    {
+      "module_A": "c10/mobile",
+      "module_B": "torch/fx",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 226,
+        "completion_tokens": 67,
+        "total_tokens": 293
+      },
+      "latency_ms": 1203.3
+    },
+    {
+      "module_A": "torchgen/shape_functions",
+      "module_B": "torch/fx",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 222,
+        "completion_tokens": 71,
+        "total_tokens": 293
+      },
+      "latency_ms": 835.0
+    },
+    {
+      "module_A": "torchgen/operator_versions",
+      "module_B": "torch/distributions",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 98,
+        "total_tokens": 247
+      },
+      "latency_ms": 698.7
+    },
+    {
+      "module_A": "torch/amp",
+      "module_B": "tools/rules_cc",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 142,
+        "completion_tokens": 55,
+        "total_tokens": 197
+      },
+      "latency_ms": 767.7
+    },
+    {
+      "module_A": "tools/jit",
+      "module_B": "torchgen/api",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 168,
+        "completion_tokens": 175,
+        "total_tokens": 343
+      },
+      "latency_ms": 1489.5
+    },
+    {
+      "module_A": "torchgen/fuse",
+      "module_B": "torch/export",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 186,
+        "completion_tokens": 339,
+        "total_tokens": 525
+      },
+      "latency_ms": 2023.0
+    },
+    {
+      "module_A": "functorch/examples",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 335,
+        "total_tokens": 571
+      },
+      "latency_ms": 1876.8
+    },
+    {
+      "module_A": "torch/csrc",
+      "module_B": "aten/src",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 200,
+        "completion_tokens": 1101,
+        "total_tokens": 1301
+      },
+      "latency_ms": 5417.3
+    },
+    {
+      "module_A": "torch/package",
+      "module_B": "tools/setup_helpers",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 97,
+        "total_tokens": 242
+      },
+      "latency_ms": 916.6
+    },
+    {
+      "module_A": "torchgen/_autoheuristic",
+      "module_B": "torch/fft",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 139,
+        "total_tokens": 294
+      },
+      "latency_ms": 972.6
+    },
+    {
+      "module_A": "tools/rules_cc",
+      "module_B": "c10/macros",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 195,
+        "completion_tokens": 71,
+        "total_tokens": 266
+      },
+      "latency_ms": 974.7
+    },
+    {
+      "module_A": "torch/_dynamo",
+      "module_B": "torch/_higher_order_ops",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 2639,
+        "total_tokens": 2928
+      },
+      "latency_ms": 11026.2
+    },
+    {
+      "module_A": "c10/benchmark",
+      "module_B": "tools/code_coverage",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 67,
+        "total_tokens": 215
+      },
+      "latency_ms": 826.1
+    },
+    {
+      "module_A": "torch/_dynamo",
+      "module_B": "torch/masked",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 59,
+        "total_tokens": 277
+      },
+      "latency_ms": 999.7
+    },
+    {
+      "module_A": "torch/fx",
+      "module_B": "torch/_library",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 270,
+        "completion_tokens": 170,
+        "total_tokens": 440
+      },
+      "latency_ms": 1247.1
+    },
+    {
+      "module_A": "torch/legacy",
+      "module_B": "c10/core",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 180,
+        "total_tokens": 357
+      },
+      "latency_ms": 1457.5
+    },
+    {
+      "module_A": "torch/_dynamo",
+      "module_B": "torch/optim",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 313,
+        "total_tokens": 554
+      },
+      "latency_ms": 1792.1
+    },
+    {
+      "module_A": "torch/_numpy",
+      "module_B": "torch/multiprocessing",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 190,
+        "completion_tokens": 1957,
+        "total_tokens": 2147
+      },
+      "latency_ms": 8232.7
+    },
+    {
+      "module_A": "torch/ao",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 1996,
+        "total_tokens": 2239
+      },
+      "latency_ms": 8937.9
+    },
+    {
+      "module_A": "torch/_decomp",
+      "module_B": "torch/_prims",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 146,
+        "total_tokens": 347
+      },
+      "latency_ms": 937.0
+    },
+    {
+      "module_A": "torchgen/fuse",
+      "module_B": "torch/_inductor",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 206,
+        "completion_tokens": 64,
+        "total_tokens": 270
+      },
+      "latency_ms": 806.5
+    },
+    {
+      "module_A": "torch/mps",
+      "module_B": "torch/utils",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 210,
+        "completion_tokens": 74,
+        "total_tokens": 284
+      },
+      "latency_ms": 1136.2
+    },
+    {
+      "module_A": "torch/_export",
+      "module_B": "torch/_functorch",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 268,
+        "completion_tokens": 514,
+        "total_tokens": 782
+      },
+      "latency_ms": 2491.3
+    },
+    {
+      "module_A": "torch/_logging",
+      "module_B": "torch/_vendor",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 356,
+        "total_tokens": 513
+      },
+      "latency_ms": 1920.1
+    },
+    {
+      "module_A": "torch/nested",
+      "module_B": "torch/nn",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 76,
+        "total_tokens": 308
+      },
+      "latency_ms": 950.7
+    },
+    {
+      "module_A": "torch/backends",
+      "module_B": "torch/_refs",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 195,
+        "completion_tokens": 721,
+        "total_tokens": 916
+      },
+      "latency_ms": 3578.4
+    },
+    {
+      "module_A": "tools/lldb",
+      "module_B": "c10/hip",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 142,
+        "completion_tokens": 167,
+        "total_tokens": 309
+      },
+      "latency_ms": 1397.4
+    },
+    {
+      "module_A": "torch/masked",
+      "module_B": "torch/_prims_common",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 213,
+        "completion_tokens": 3555,
+        "total_tokens": 3768
+      },
+      "latency_ms": 15810.4
+    },
+    {
+      "module_A": "torch/profiler",
+      "module_B": "torch/nn",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 278,
+        "total_tokens": 514
+      },
+      "latency_ms": 2178.7
+    },
+    {
+      "module_A": "c10/cuda",
+      "module_B": "torch/optim",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 178,
+        "completion_tokens": 75,
+        "total_tokens": 253
+      },
+      "latency_ms": 669.3
+    },
+    {
+      "module_A": "functorch/dim",
+      "module_B": "torch/lib",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 139,
+        "completion_tokens": 118,
+        "total_tokens": 257
+      },
+      "latency_ms": 1104.0
+    },
+    {
+      "module_A": "torch/_numpy",
+      "module_B": "torch/_vendor",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 160,
+        "total_tokens": 314
+      },
+      "latency_ms": 1159.9
+    },
+    {
+      "module_A": "caffe2/perfkernels",
+      "module_B": "torch/_refs",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 196,
+        "completion_tokens": 135,
+        "total_tokens": 331
+      },
+      "latency_ms": 978.1
+    },
+    {
+      "module_A": "torch/export",
+      "module_B": "torch/_export",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 128,
+        "total_tokens": 353
+      },
+      "latency_ms": 1269.3
+    },
+    {
+      "module_A": "torch/_logging",
+      "module_B": "torch/fx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 223,
+        "completion_tokens": 310,
+        "total_tokens": 533
+      },
+      "latency_ms": 1822.5
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "torch/_library",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 272,
+        "completion_tokens": 232,
+        "total_tokens": 504
+      },
+      "latency_ms": 1533.6
+    },
+    {
+      "module_A": "tools/testing",
+      "module_B": "torch/jit",
+      "label": 0,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 180,
+        "completion_tokens": 175,
+        "total_tokens": 355
+      },
+      "latency_ms": 1482.2
+    },
+    {
+      "module_A": "torch/_functorch",
+      "module_B": "torch/export",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 256,
+        "completion_tokens": 541,
+        "total_tokens": 797
+      },
+      "latency_ms": 2825.9
+    },
+    {
+      "module_A": "torch/_functorch",
+      "module_B": "torch/fx",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 292,
+        "completion_tokens": 167,
+        "total_tokens": 459
+      },
+      "latency_ms": 1271.2
+    },
+    {
+      "module_A": "torch/cuda",
+      "module_B": "torch/sparse",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 51,
+        "total_tokens": 200
+      },
+      "latency_ms": 891.4
+    },
+    {
+      "module_A": "functorch/experimental",
+      "module_B": "torch/masked",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 154,
+        "total_tokens": 313
+      },
+      "latency_ms": 1418.2
+    },
+    {
+      "module_A": "torch/cuda",
+      "module_B": "torch/compiler",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 178,
+        "completion_tokens": 173,
+        "total_tokens": 351
+      },
+      "latency_ms": 1523.8
+    },
+    {
+      "module_A": "aten/src",
+      "module_B": "c10/xpu",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 184,
+        "completion_tokens": 529,
+        "total_tokens": 713
+      },
+      "latency_ms": 3062.3
+    },
+    {
+      "module_A": "torch/export",
+      "module_B": "torch/distributed",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 256,
+        "completion_tokens": 186,
+        "total_tokens": 442
+      },
+      "latency_ms": 1678.8
+    },
+    {
+      "module_A": "torch/_library",
+      "module_B": "torch/_higher_order_ops",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 402,
+        "total_tokens": 645
+      },
+      "latency_ms": 2598.2
+    },
+    {
+      "module_A": "c10/core",
+      "module_B": "torchgen/fuse",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 80,
+        "total_tokens": 235
+      },
+      "latency_ms": 848.0
+    },
+    {
+      "module_A": "torch/csrc",
+      "module_B": "torch/package",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 198,
+        "completion_tokens": 230,
+        "total_tokens": 428
+      },
+      "latency_ms": 1485.8
+    },
+    {
+      "module_A": "torch/testing",
+      "module_B": "torch/utils",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 1157,
+        "total_tokens": 1442
+      },
+      "latency_ms": 5131.9
+    },
+    {
+      "module_A": "tools/jit",
+      "module_B": "tools/code_coverage",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 104,
+        "total_tokens": 262
+      },
+      "latency_ms": 1224.9
+    },
+    {
+      "module_A": "torchgen/api",
+      "module_B": "torchgen/decompositions",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 142,
+        "completion_tokens": 74,
+        "total_tokens": 216
+      },
+      "latency_ms": 884.2
+    },
+    {
+      "module_A": "torch/_awaits",
+      "module_B": "torch/nested",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 57,
+        "total_tokens": 216
+      },
+      "latency_ms": 1012.1
+    },
+    {
+      "module_A": "torch/nativert",
+      "module_B": "c10/util",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 237,
+        "completion_tokens": 4052,
+        "total_tokens": 4289
+      },
+      "latency_ms": 17399.7
+    },
+    {
+      "module_A": "c10/core",
+      "module_B": "tools/dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 78,
+        "total_tokens": 233
+      },
+      "latency_ms": 936.1
+    },
+    {
+      "module_A": "torch/mps",
+      "module_B": "torchgen/dest",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 142,
+        "completion_tokens": 101,
+        "total_tokens": 243
+      },
+      "latency_ms": 1421.7
+    },
+    {
+      "module_A": "functorch/dim",
+      "module_B": "torch/_dynamo",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 407,
+        "total_tokens": 626
+      },
+      "latency_ms": 2512.5
+    },
+    {
+      "module_A": "torch/distributed",
+      "module_B": "functorch/dim",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 223,
+        "completion_tokens": 136,
+        "total_tokens": 359
+      },
+      "latency_ms": 1357.4
+    },
+    {
+      "module_A": "torch/package",
+      "module_B": "torch/jit",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 180,
+        "completion_tokens": 358,
+        "total_tokens": 538
+      },
+      "latency_ms": 2402.2
+    },
+    {
+      "module_A": "torch/nested",
+      "module_B": "torch/distributed",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 159,
+        "total_tokens": 386
+      },
+      "latency_ms": 1297.9
+    },
+    {
+      "module_A": "caffe2/serialize",
+      "module_B": "torch/_logging",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 104,
+        "total_tokens": 305
+      },
+      "latency_ms": 1241.2
+    },
+    {
+      "module_A": "torch/_lazy",
+      "module_B": "torch/nativert",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 143,
+        "completion_tokens": 85,
+        "total_tokens": 228
+      },
+      "latency_ms": 974.2
+    },
+    {
+      "module_A": "torch/_inductor",
+      "module_B": "torch/_decomp",
+      "label": 1,
+      "predicted": 1,
+      "raw_response": "Yes",
+      "usage": {
+        "prompt_tokens": 262,
+        "completion_tokens": 625,
+        "total_tokens": 887
+      },
+      "latency_ms": 3150.9
+    },
+    {
+      "module_A": "torch/_native",
+      "module_B": "torch/_inductor",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 214,
+        "completion_tokens": 121,
+        "total_tokens": 335
+      },
+      "latency_ms": 1357.1
+    },
+    {
+      "module_A": "torch/fx",
+      "module_B": "torch/_prims_common",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 125,
+        "total_tokens": 411
+      },
+      "latency_ms": 1013.1
+    },
+    {
+      "module_A": "functorch/experimental",
+      "module_B": "torch/func",
+      "label": 1,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 168,
+        "completion_tokens": 229,
+        "total_tokens": 397
+      },
+      "latency_ms": 1312.0
+    },
+    {
+      "module_A": "torch/_C_flatbuffer",
+      "module_B": "c10/cuda",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 78,
+        "total_tokens": 238
+      },
+      "latency_ms": 1184.1
+    },
+    {
+      "module_A": "torch/nested",
+      "module_B": "torch/_numpy",
+      "label": 0,
+      "predicted": 0,
+      "raw_response": "No",
+      "usage": {
+        "prompt_tokens": 167,
+        "completion_tokens": 80,
+        "total_tokens": 247
+      },
+      "latency_ms": 1223.4
+    }
+  ],
+  "timestamp": "2026-10-22T21:46:07.201225",
+  "model": "deepseek-v4-flash",
+  "project": "pytorch",
+  "task": "dp",
+  "level": 2,
+  "manifest_seed": 42
+}

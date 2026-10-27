@@ -1,0 +1,86 @@
+{
+ "precision_at_5": 0.2,
+ "recall_at_5": 1.0,
+ "total": 4,
+ "results": [
+  {
+   "source_module": "utility",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "um",
+    "mds",
+    "mis",
+    "bd",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "To predict which modules the `utility` module most likely depends on, we should consider the typical role of a `utility` module in software systems. Generally, a `utility` module provides a collection of useful functions or classes that can be used across the system, often including helper functions, data structures, or other general-purpose code.\n\nGiven the context of NASTRAN-95, an open-source structural analysis system, the `utility` module likely contains functions or classes that are used by other parts of the system for various tasks such as data manipulation, numerical computations, or file operations.\n\nThe modules available in the system are:\n- `mis`\n- `mds`\n- `bd`\n- `um`\n- `rf`\n\nWithout specific knowledge of what each of these modules does, we can make an educated guess based on common naming conventions and the role of a `utility` module.\n\n1. `um`\n2. `mds`\n3. `mis`\n4. `bd`\n5. `rf`\n\nHere's the list:\n\num\nmds\nmis\nbd\nrf",
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mds",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "utility",
+    "um",
+    "mis",
+    "bd",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. utility\n2. um\n3. mis\n4. bd\n5. rf",
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mis",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "utility",
+    "um",
+    "mds",
+    "bd",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. utility\n2. um\n3. mds\n4. bd\n5. rf",
+   "true_targets_v1": [
+    "mds"
+   ]
+  },
+  {
+   "source_module": "bd",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "utility",
+    "mis",
+    "um",
+    "mds",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. utility\n2. mis\n3. um\n4. mds\n5. rf",
+   "true_targets_v1": [
+    "mds"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-4-maverick_nastran_ar.json"
+}

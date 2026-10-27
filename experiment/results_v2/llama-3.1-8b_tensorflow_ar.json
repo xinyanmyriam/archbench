@@ -1,0 +1,1618 @@
+{
+ "precision_at_5": 0.26461538461538464,
+ "recall_at_5": 0.24800421800421799,
+ "total": 65,
+ "results": [
+  {
+   "source_module": "tensorflow/python/distribute",
+   "true_targets": [
+    "tensorflow/c/eager",
+    "tensorflow/dtensor/python",
+    "tensorflow/python/client",
+    "tensorflow/python/layers",
+    "tensorflow/python/lib",
+    "tensorflow/python/platform",
+    "tensorflow/python/tpu",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/core/distributed_runtime",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. tensorflow/python/ops\n2. tensorflow/core/common_runtime\n3. tensorflow/python/framework\n4. tensorflow/core/distributed_runtime\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/python/autograph",
+    "tensorflow/dtensor/python",
+    "tensorflow/python/module"
+   ]
+  },
+  {
+   "source_module": "tensorflow/lite/toco",
+   "true_targets": [
+    "tensorflow/core/platform",
+    "tensorflow/core/public",
+    "tensorflow/lite/c",
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/python",
+    "tensorflow/lite/schema",
+    "tensorflow/lite/testing",
+    "tensorflow/python/lib"
+   ],
+   "predicted": [
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/delegates",
+    "tensorflow/lite/experimental",
+    "tensorflow/python/ops",
+    "tensorflow/core/kernels"
+   ],
+   "precision": 0.2,
+   "recall": 0.125,
+   "raw_response": "1. tensorflow/lite/kernels\n2. tensorflow/lite/delegates\n3. tensorflow/lite/experimental\n4. tensorflow/python/ops\n5. tensorflow/core/kernels",
+   "true_targets_v1": [
+    "tensorflow/lite/core",
+    "tensorflow/lite/delegates",
+    "tensorflow/core/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/compiler",
+   "true_targets": [
+    "tensorflow/python/distribute",
+    "tensorflow/python/framework",
+    "tensorflow/python/platform",
+    "tensorflow/python/profiler",
+    "tensorflow/python/summary",
+    "tensorflow/python/tpu"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/kernels",
+    "tensorflow/python/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.2,
+   "recall": 0.16666666666666666,
+   "raw_response": "1. tensorflow/python/ops\n2. tensorflow/core/kernels\n3. tensorflow/python/framework\n4. tensorflow/core/common_runtime\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/compiler/tf2xla",
+    "tensorflow/python/platform",
+    "tensorflow/python/saved_model"
+   ]
+  },
+  {
+   "source_module": "tensorflow/c/eager",
+   "true_targets": [
+    "tensorflow/core/config",
+    "tensorflow/core/distributed_runtime",
+    "tensorflow/core/framework",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/profiler"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.2,
+   "recall": 0.16666666666666666,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/c/eager most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/framework\n3. tensorflow/python/framework\n4. tensorflow/core/common_runtime\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/core/distributed_runtime"
+   ]
+  },
+  {
+   "source_module": "tensorflow/compiler/mlir",
+   "true_targets": [
+    "tensorflow/c/eager",
+    "tensorflow/cc/saved_model",
+    "tensorflow/compiler/jit",
+    "tensorflow/compiler/tf2xla",
+    "tensorflow/core/framework",
+    "tensorflow/core/ir",
+    "tensorflow/core/kernels",
+    "tensorflow/core/platform",
+    "tensorflow/core/runtime_fallback",
+    "tensorflow/core/tfrt",
+    "tensorflow/core/transforms",
+    "tensorflow/core/util",
+    "tensorflow/lite/kernels",
+    "tensorflow/python/autograph",
+    "tensorflow/python/platform",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/ir",
+    "tensorflow/compiler/tf2xla",
+    "tensorflow/core/kernels",
+    "tensorflow/python/framework"
+   ],
+   "precision": 0.8,
+   "recall": 0.25,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/compiler/mlir most likely depends on:\n\n1. tensorflow/core/framework\n2. tensorflow/core/ir\n3. tensorflow/compiler/tf2xla\n4. tensorflow/core/kernels\n5. tensorflow/python/framework",
+   "true_targets_v1": [
+    "tensorflow/lite/c",
+    "tensorflow/core/distributed_runtime",
+    "tensorflow/lite/delegates"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/keras",
+   "true_targets": [
+    "tensorflow/python/client",
+    "tensorflow/python/distribute",
+    "tensorflow/python/framework",
+    "tensorflow/python/platform",
+    "tensorflow/python/profiler",
+    "tensorflow/python/trackable",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/python/framework",
+    "tensorflow/python/util",
+    "tensorflow/python/eager",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.2,
+   "recall": 0.14285714285714285,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that tensorflow/python/keras most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/python/framework\n3. tensorflow/python/util\n4. tensorflow/python/eager\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/python/trackable",
+    "tensorflow/python/types"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/data",
+   "true_targets": [
+    "tensorflow/core/platform",
+    "tensorflow/python/client",
+    "tensorflow/python/lib",
+    "tensorflow/python/platform",
+    "tensorflow/python/profiler",
+    "tensorflow/python/training",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/data",
+    "tensorflow/python/framework",
+    "tensorflow/python/util",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.2,
+   "recall": 0.14285714285714285,
+   "raw_response": "1. tensorflow/python/ops\n2. tensorflow/core/data\n3. tensorflow/python/framework\n4. tensorflow/python/util\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/python/checkpoint",
+    "tensorflow/python/framework",
+    "tensorflow/python/compat"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/transforms",
+   "true_targets": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/framework",
+    "tensorflow/core/graph",
+    "tensorflow/core/ir",
+    "tensorflow/core/lib"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/core/ops",
+    "tensorflow/python/ops",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/core/transforms most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/core/framework\n3. tensorflow/core/ops\n4. tensorflow/python/ops\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/core/ir"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/framework",
+   "true_targets": [
+    "tensorflow/c/experimental",
+    "tensorflow/core/config",
+    "tensorflow/core/platform",
+    "tensorflow/core/public",
+    "tensorflow/python/distribute",
+    "tensorflow/python/eager",
+    "tensorflow/python/ops",
+    "tensorflow/python/profiler",
+    "tensorflow/python/saved_model",
+    "tensorflow/python/training",
+    "tensorflow/python/types"
+   ],
+   "predicted": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/ops",
+    "tensorflow/core/kernels",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/graph"
+   ],
+   "precision": 0.2,
+   "recall": 0.09090909090909091,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/framework most likely depends on:\n\n1. tensorflow/core/common_runtime\n2. tensorflow/python/ops\n3. tensorflow/core/kernels\n4. tensorflow/python/kernel_tests\n5. tensorflow/core/graph",
+   "true_targets_v1": [
+    "tensorflow/python/client",
+    "tensorflow/cc/experimental",
+    "tensorflow/python/distribute"
+   ]
+  },
+  {
+   "source_module": "tensorflow/dtensor/python",
+   "true_targets": [
+    "tensorflow/python/distribute",
+    "tensorflow/python/framework",
+    "tensorflow/python/lib",
+    "tensorflow/python/ops",
+    "tensorflow/python/training",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/dtensor/python most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/framework\n3. tensorflow/python/framework\n4. tensorflow/core/kernels\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/python/types",
+    "tensorflow/python/compat"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/graph",
+   "true_targets": [
+    "tensorflow/core/config",
+    "tensorflow/core/framework",
+    "tensorflow/core/grappler",
+    "tensorflow/core/kernels",
+    "tensorflow/core/public",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/ops",
+    "tensorflow/core/ops"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/core/graph most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/core/framework\n3. tensorflow/core/common_runtime\n4. tensorflow/python/ops\n5. tensorflow/core/ops",
+   "true_targets_v1": [
+    "tensorflow/cc/ops"
+   ]
+  },
+  {
+   "source_module": "tensorflow/tools/common",
+   "true_targets": [
+    "tensorflow/python/platform"
+   ],
+   "predicted": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/tools/common most likely depends on:\n\n1. tensorflow/core/common_runtime\n2. tensorflow/python/ops\n3. tensorflow/core/framework\n4. tensorflow/python/framework\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/compiler/mlir"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/tools",
+   "true_targets": [
+    "tensorflow/core/platform",
+    "tensorflow/python/compiler",
+    "tensorflow/python/lib",
+    "tensorflow/python/tpu",
+    "tensorflow/python/trackable",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/python/framework",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/util"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/tools most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/python/framework\n3. tensorflow/python/kernel_tests\n4. tensorflow/core/common_runtime\n5. tensorflow/python/util",
+   "true_targets_v1": [
+    "tensorflow/python/tpu"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/feature_column",
+   "true_targets": [
+    "tensorflow/python/framework",
+    "tensorflow/python/platform",
+    "tensorflow/python/trackable",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/python/framework",
+    "tensorflow/python/util",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/framework"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/feature_column most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/python/framework\n3. tensorflow/python/util\n4. tensorflow/python/kernel_tests\n5. tensorflow/core/framework",
+   "true_targets_v1": [
+    "tensorflow/python/framework",
+    "tensorflow/compiler/mlir"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/ops",
+   "true_targets": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/lib",
+    "tensorflow/core/public",
+    "tensorflow/core/tpu",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.4,
+   "recall": 0.4,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/core/ops most likely depends on:\n\n1. tensorflow/core/framework\n2. tensorflow/core/kernels\n3. tensorflow/python/ops\n4. tensorflow/core/common_runtime\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/core/framework"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/tpu",
+   "true_targets": [
+    "tensorflow/core/tpu",
+    "tensorflow/python/client",
+    "tensorflow/python/compiler",
+    "tensorflow/python/feature_column",
+    "tensorflow/python/framework",
+    "tensorflow/python/lib",
+    "tensorflow/python/ops",
+    "tensorflow/python/trackable"
+   ],
+   "predicted": [
+    "tensorflow/core/tpu",
+    "tensorflow/python/framework",
+    "tensorflow/python/ops",
+    "tensorflow/core/kernels",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.6,
+   "recall": 0.375,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/tpu most likely depends on:\n\n1. tensorflow/core/tpu\n2. tensorflow/python/framework\n3. tensorflow/python/ops\n4. tensorflow/core/kernels\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/python/distribute",
+    "tensorflow/python/feature_column"
+   ]
+  },
+  {
+   "source_module": "tensorflow/lite/python",
+   "true_targets": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/tools",
+    "tensorflow/python/client",
+    "tensorflow/python/framework",
+    "tensorflow/python/lib",
+    "tensorflow/python/ops",
+    "tensorflow/python/saved_model",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/lite/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/lite/delegates",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework"
+   ],
+   "precision": 0.6,
+   "recall": 0.3333333333333333,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/lite/python most likely depends on:\n\n1. tensorflow/lite/kernels\n2. tensorflow/python/ops\n3. tensorflow/lite/delegates\n4. tensorflow/core/common_runtime\n5. tensorflow/python/framework",
+   "true_targets_v1": [
+    "tensorflow/python/client",
+    "tensorflow/python/util"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/grappler",
+   "true_targets": [
+    "tensorflow/cc/framework",
+    "tensorflow/cc/gradients",
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/graph",
+    "tensorflow/core/ir",
+    "tensorflow/core/platform",
+    "tensorflow/core/public",
+    "tensorflow/core/transforms",
+    "tensorflow/tools/graph_transforms"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/kernels",
+    "tensorflow/compiler/mlir",
+    "tensorflow/python/ops"
+   ],
+   "precision": 0.2,
+   "recall": 0.1111111111111111,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/core/grappler most likely depends on:\n\n1. tensorflow/core/framework\n2. tensorflow/core/common_runtime\n3. tensorflow/core/kernels\n4. tensorflow/compiler/mlir\n5. tensorflow/python/ops",
+   "true_targets_v1": [
+    "tensorflow/core/transforms"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/tfrt",
+   "true_targets": [
+    "tensorflow/cc/framework",
+    "tensorflow/cc/saved_model",
+    "tensorflow/compiler/jit",
+    "tensorflow/compiler/mlir",
+    "tensorflow/compiler/tf2xla",
+    "tensorflow/core/kernels",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/profiler",
+    "tensorflow/core/public",
+    "tensorflow/core/runtime_fallback",
+    "tensorflow/python/platform"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/ops",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.2,
+   "recall": 0.08333333333333333,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/core/tfrt most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/core/framework\n3. tensorflow/core/common_runtime\n4. tensorflow/core/ops\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/python/util",
+    "tensorflow/lite/async"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/profiler",
+   "true_targets": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/graph",
+    "tensorflow/core/public",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "1. tensorflow/core/common_runtime\n2. tensorflow/python/ops\n3. tensorflow/core/framework\n4. tensorflow/core/kernels\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/core/common_runtime"
+   ]
+  },
+  {
+   "source_module": "tensorflow/compiler/jit",
+   "true_targets": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/graph",
+    "tensorflow/core/lib",
+    "tensorflow/core/public",
+    "tensorflow/core/tpu",
+    "tensorflow/core/util",
+    "tensorflow/python/framework",
+    "tensorflow/tools/optimization"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/framework",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.4,
+   "recall": 0.2222222222222222,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/compiler/jit most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/compiler/mlir\n3. tensorflow/core/framework\n4. tensorflow/python/ops\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/core/lib"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/summary",
+   "true_targets": [
+    "tensorflow/python/distribute",
+    "tensorflow/python/framework",
+    "tensorflow/python/lib",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/core/framework",
+    "tensorflow/python/util"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. tensorflow/python/ops\n2. tensorflow/core/common_runtime\n3. tensorflow/python/framework\n4. tensorflow/core/framework\n5. tensorflow/python/util",
+   "true_targets_v1": [
+    "tensorflow/python/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/platform",
+   "true_targets": [
+    "tensorflow/core/lib",
+    "tensorflow/python/framework",
+    "tensorflow/python/platform"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/kernels",
+    "tensorflow/core/graph",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/core/platform most likely depends on:\n\n1. tensorflow/core/framework\n2. tensorflow/core/common_runtime\n3. tensorflow/core/kernels\n4. tensorflow/core/graph\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/core/util",
+    "tensorflow/python/lib"
+   ]
+  },
+  {
+   "source_module": "tensorflow/c/experimental",
+   "true_targets": [
+    "tensorflow/cc/saved_model",
+    "tensorflow/compiler/jit",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/lib",
+    "tensorflow/core/tfrt",
+    "tensorflow/python/framework"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/lite/experimental",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.2,
+   "recall": 0.16666666666666666,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/c/experimental most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/lite/experimental\n3. tensorflow/python/ops\n4. tensorflow/core/framework\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/core/tfrt"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/util",
+   "true_targets": [
+    "tensorflow/compiler/tf2xla",
+    "tensorflow/core/graph",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/profiler",
+    "tensorflow/python/framework",
+    "tensorflow/python/ops"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/core/util",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.4,
+   "recall": 0.2857142857142857,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/util most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/common_runtime\n3. tensorflow/python/framework\n4. tensorflow/core/util\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/python/client",
+    "tensorflow/core/profiler"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/kernels",
+   "true_targets": [
+    "tensorflow/c/experimental",
+    "tensorflow/cc/ops",
+    "tensorflow/core/activity_watcher",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/debug",
+    "tensorflow/core/graph",
+    "tensorflow/core/grappler",
+    "tensorflow/core/lib",
+    "tensorflow/core/profiler",
+    "tensorflow/core/summary"
+   ],
+   "predicted": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/core/ops",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.2,
+   "recall": 0.1,
+   "raw_response": "1. tensorflow/core/common_runtime\n2. tensorflow/python/ops\n3. tensorflow/core/framework\n4. tensorflow/core/ops\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/cc/framework"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/platform",
+   "true_targets": [
+    "tensorflow/python/framework",
+    "tensorflow/python/ops",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/core/platform"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/python/platform most likely depends on:\n\n1. tensorflow/core/common_runtime\n2. tensorflow/python/ops\n3. tensorflow/core/framework\n4. tensorflow/python/framework\n5. tensorflow/core/platform",
+   "true_targets_v1": [
+    "tensorflow/python/ops"
+   ]
+  },
+  {
+   "source_module": "tensorflow/tools/proto_splitter",
+   "true_targets": [
+    "tensorflow/core/platform",
+    "tensorflow/python/framework",
+    "tensorflow/python/platform"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "Based on the typical role of the source module `tensorflow/tools/proto_splitter`, I predict the following top 5 modules that it most likely depends on:\n\n1. tensorflow/core/framework\n2. tensorflow/core/common_runtime\n3. tensorflow/python/framework\n4. tensorflow/core/kernels\n5. tensorflow/python/ops",
+   "true_targets_v1": [
+    "tensorflow/lite/experimental",
+    "tensorflow/python/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/function",
+   "true_targets": [
+    "tensorflow/c/eager",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/python/autograph",
+    "tensorflow/python/lib",
+    "tensorflow/python/platform",
+    "tensorflow/python/trackable",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/ops"
+   ],
+   "precision": 0.2,
+   "recall": 0.1111111111111111,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/core/function most likely depends on:\n\n1. tensorflow/core/common_runtime\n2. tensorflow/core/framework\n3. tensorflow/core/kernels\n4. tensorflow/python/ops\n5. tensorflow/core/ops",
+   "true_targets_v1": [
+    "tensorflow/core/graph",
+    "tensorflow/core/lib",
+    "tensorflow/core/common_runtime"
+   ]
+  },
+  {
+   "source_module": "tensorflow/lite/kernels",
+   "true_targets": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/example",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/lite/c",
+    "tensorflow/lite/core",
+    "tensorflow/lite/delegates",
+    "tensorflow/lite/nnapi",
+    "tensorflow/lite/schema"
+   ],
+   "predicted": [
+    "tensorflow/lite/delegates",
+    "tensorflow/core/kernels",
+    "tensorflow/lite/core",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework"
+   ],
+   "precision": 0.4,
+   "recall": 0.2222222222222222,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/lite/kernels most likely depends on:\n\n1. tensorflow/lite/delegates\n2. tensorflow/core/kernels\n3. tensorflow/lite/core\n4. tensorflow/python/ops\n5. tensorflow/core/framework",
+   "true_targets_v1": [
+    "tensorflow/lite/delegates",
+    "tensorflow/core/framework"
+   ]
+  },
+  {
+   "source_module": "tensorflow/lite/tools",
+   "true_targets": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/util",
+    "tensorflow/lite/experimental",
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/profiling",
+    "tensorflow/lite/types",
+    "tensorflow/python/lib",
+    "tensorflow/python/platform",
+    "tensorflow/python/trackable",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/lite/delegates",
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/core",
+    "tensorflow/lite/testing",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.2,
+   "recall": 0.08333333333333333,
+   "raw_response": "1. tensorflow/lite/delegates\n2. tensorflow/lite/kernels\n3. tensorflow/lite/core\n4. tensorflow/lite/testing\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/python/client",
+    "tensorflow/lite/c",
+    "tensorflow/lite/experimental",
+    "tensorflow/lite/delegates",
+    "tensorflow/cc/saved_model"
+   ]
+  },
+  {
+   "source_module": "tensorflow/tools/api",
+   "true_targets": [
+    "tensorflow/core/framework",
+    "tensorflow/python/platform",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/util"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the `tensorflow/tools/api` module, here are the top 5 modules that it most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/framework\n3. tensorflow/python/framework\n4. tensorflow/core/kernels\n5. tensorflow/python/util",
+   "true_targets_v1": [
+    "tensorflow/python/util",
+    "tensorflow/python/lib"
+   ]
+  },
+  {
+   "source_module": "tensorflow/lite/experimental",
+   "true_targets": [
+    "tensorflow/core/framework",
+    "tensorflow/core/platform",
+    "tensorflow/lite/core",
+    "tensorflow/lite/nnapi",
+    "tensorflow/lite/schema",
+    "tensorflow/lite/tools",
+    "tensorflow/python/framework",
+    "tensorflow/python/platform"
+   ],
+   "predicted": [
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/delegates",
+    "tensorflow/lite/tools",
+    "tensorflow/lite/core",
+    "tensorflow/lite/toco"
+   ],
+   "precision": 0.4,
+   "recall": 0.25,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/lite/experimental most likely depends on:\n\n1. tensorflow/lite/kernels\n2. tensorflow/lite/delegates\n3. tensorflow/lite/tools\n4. tensorflow/lite/core\n5. tensorflow/lite/toco",
+   "true_targets_v1": [
+    "tensorflow/compiler/mlir"
+   ]
+  },
+  {
+   "source_module": "tensorflow/compiler/tf2xla",
+   "true_targets": [
+    "tensorflow/cc/framework",
+    "tensorflow/cc/ops",
+    "tensorflow/compiler/jit",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/graph",
+    "tensorflow/core/platform",
+    "tensorflow/core/tpu",
+    "tensorflow/core/util",
+    "tensorflow/python/ops"
+   ],
+   "predicted": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.4,
+   "recall": 0.2222222222222222,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/compiler/tf2xla most likely depends on:\n\n1. tensorflow/compiler/mlir\n2. tensorflow/core/kernels\n3. tensorflow/core/framework\n4. tensorflow/python/ops\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/python/debug",
+    "tensorflow/cc/ops"
+   ]
+  },
+  {
+   "source_module": "tensorflow/dtensor/cc",
+   "true_targets": [
+    "tensorflow/compiler/jit",
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/framework",
+    "tensorflow/core/lib",
+    "tensorflow/core/profiler",
+    "tensorflow/core/public",
+    "tensorflow/dtensor/mlir"
+   ],
+   "predicted": [
+    "tensorflow/dtensor/mlir",
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.4,
+   "recall": 0.2857142857142857,
+   "raw_response": "1. tensorflow/dtensor/mlir\n2. tensorflow/core/kernels\n3. tensorflow/core/framework\n4. tensorflow/python/ops\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/compiler/mlir"
+   ]
+  },
+  {
+   "source_module": "tensorflow/c/kernels",
+   "true_targets": [
+    "tensorflow/core/framework",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/core/ops",
+    "tensorflow/core/util",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. tensorflow/core/kernels\n2. tensorflow/core/framework\n3. tensorflow/core/ops\n4. tensorflow/core/util\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/compiler/jit"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/dlpack",
+   "true_targets": [
+    "tensorflow/python/framework",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/kernels",
+    "tensorflow/python/framework",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. tensorflow/python/ops\n2. tensorflow/core/kernels\n3. tensorflow/python/framework\n4. tensorflow/python/kernel_tests\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/python/framework"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/ops",
+   "true_targets": [
+    "tensorflow/core/config",
+    "tensorflow/dtensor/python",
+    "tensorflow/python/autograph",
+    "tensorflow/python/client",
+    "tensorflow/python/compiler",
+    "tensorflow/python/eager",
+    "tensorflow/python/platform",
+    "tensorflow/python/trackable",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/ops most likely depends on:\n\n1. tensorflow/core/framework\n2. tensorflow/python/framework\n3. tensorflow/core/kernels\n4. tensorflow/python/kernel_tests\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/python/client",
+    "tensorflow/python/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/tpu",
+   "true_targets": [
+    "tensorflow/compiler/jit",
+    "tensorflow/compiler/tf2xla",
+    "tensorflow/core/config",
+    "tensorflow/core/framework",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/profiler",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/python/tpu",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/kernels",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.4,
+   "recall": 0.25,
+   "raw_response": "1. tensorflow/python/tpu\n2. tensorflow/core/framework\n3. tensorflow/core/common_runtime\n4. tensorflow/core/kernels\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/cc/saved_model"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/user_ops",
+   "true_targets": [
+    "tensorflow/core/framework"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/ops"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that tensorflow/core/user_ops most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/python/ops\n3. tensorflow/core/framework\n4. tensorflow/core/common_runtime\n5. tensorflow/core/ops",
+   "true_targets_v1": [
+    "tensorflow/core/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/cc/saved_model",
+   "true_targets": [
+    "tensorflow/c/eager",
+    "tensorflow/core/framework",
+    "tensorflow/core/platform",
+    "tensorflow/python/client",
+    "tensorflow/python/framework",
+    "tensorflow/python/platform",
+    "tensorflow/python/util",
+    "tensorflow/tools/proto_splitter"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/python/saved_model",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops"
+   ],
+   "precision": 0.2,
+   "recall": 0.125,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/cc/saved_model most likely depends on:\n\n1. tensorflow/core/framework\n2. tensorflow/python/saved_model\n3. tensorflow/core/common_runtime\n4. tensorflow/core/kernels\n5. tensorflow/python/ops",
+   "true_targets_v1": [
+    "tensorflow/python/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/training",
+   "true_targets": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/checkpoint",
+    "tensorflow/python/feature_column",
+    "tensorflow/python/layers",
+    "tensorflow/python/lib",
+    "tensorflow/python/summary",
+    "tensorflow/python/types",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/kernels"
+   ],
+   "precision": 0.2,
+   "recall": 0.125,
+   "raw_response": "Based on the typical role of the source module tensorflow/python/training, here are the top 5 modules that it most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/common_runtime\n3. tensorflow/python/framework\n4. tensorflow/python/kernel_tests\n5. tensorflow/core/kernels",
+   "true_targets_v1": [
+    "tensorflow/python/framework"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/data",
+   "true_targets": [
+    "tensorflow/core/framework",
+    "tensorflow/core/graph",
+    "tensorflow/core/grappler",
+    "tensorflow/core/profiler",
+    "tensorflow/core/public",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/kernels",
+    "tensorflow/python/data"
+   ],
+   "precision": 0.2,
+   "recall": 0.16666666666666666,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/core/data most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/framework\n3. tensorflow/core/common_runtime\n4. tensorflow/core/kernels\n5. tensorflow/python/data",
+   "true_targets_v1": [
+    "tensorflow/lite/experimental"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/grappler",
+   "true_targets": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/platform",
+    "tensorflow/python/client",
+    "tensorflow/python/framework",
+    "tensorflow/python/layers",
+    "tensorflow/python/ops",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/core/grappler",
+    "tensorflow/python/ops",
+    "tensorflow/core/kernels",
+    "tensorflow/python/framework",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.6,
+   "recall": 0.42857142857142855,
+   "raw_response": "1. tensorflow/core/grappler\n2. tensorflow/python/ops\n3. tensorflow/core/kernels\n4. tensorflow/python/framework\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/cc/experimental",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/framework"
+   ]
+  },
+  {
+   "source_module": "tensorflow/compiler/tf2tensorrt",
+   "true_targets": [
+    "tensorflow/cc/tools",
+    "tensorflow/compiler/jit",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/framework",
+    "tensorflow/core/graph",
+    "tensorflow/core/grappler",
+    "tensorflow/core/kernels",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/compiler/mlir",
+    "tensorflow/lite/delegates",
+    "tensorflow/core/common_runtime",
+    "tensorflow/lite/kernels"
+   ],
+   "precision": 0.4,
+   "recall": 0.25,
+   "raw_response": "Based on the architecture of TensorFlow and the role of the source module `tensorflow/compiler/tf2tensorrt`, here are the top 5 modules that it most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/compiler/mlir\n3. tensorflow/lite/delegates\n4. tensorflow/core/common_runtime\n5. tensorflow/lite/kernels",
+   "true_targets_v1": [
+    "tensorflow/c/experimental"
+   ]
+  },
+  {
+   "source_module": "tensorflow/compiler/aot",
+   "true_targets": [
+    "tensorflow/core/lib",
+    "tensorflow/python/client",
+    "tensorflow/python/framework",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/compiler/jit"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. tensorflow/compiler/mlir\n2. tensorflow/core/kernels\n3. tensorflow/core/framework\n4. tensorflow/core/common_runtime\n5. tensorflow/compiler/jit",
+   "true_targets_v1": [
+    "tensorflow/lite/delegates"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/profiler",
+   "true_targets": [
+    "tensorflow/python/distribute",
+    "tensorflow/python/lib",
+    "tensorflow/python/platform",
+    "tensorflow/python/training",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/core/profiler",
+    "tensorflow/python/framework",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/util"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/profiler most likely depends on:\n\n1. tensorflow/core/profiler\n2. tensorflow/python/framework\n3. tensorflow/python/ops\n4. tensorflow/core/common_runtime\n5. tensorflow/python/util",
+   "true_targets_v1": [
+    "tensorflow/python/types"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/distributed_runtime",
+   "true_targets": [
+    "tensorflow/cc/ops",
+    "tensorflow/core/activity_watcher",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/lib",
+    "tensorflow/core/nccl",
+    "tensorflow/core/profiler",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/platform"
+   ],
+   "precision": 0.2,
+   "recall": 0.14285714285714285,
+   "raw_response": "1. tensorflow/core/common_runtime\n2. tensorflow/core/framework\n3. tensorflow/core/kernels\n4. tensorflow/python/ops\n5. tensorflow/core/platform",
+   "true_targets_v1": [
+    "tensorflow/core/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/summary",
+   "true_targets": [
+    "tensorflow/core/kernels",
+    "tensorflow/core/platform",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/platform",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/kernels"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "1. tensorflow/core/framework\n2. tensorflow/core/platform\n3. tensorflow/python/ops\n4. tensorflow/core/common_runtime\n5. tensorflow/core/kernels",
+   "true_targets_v1": [
+    "tensorflow/core/platform"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/kernel_tests",
+   "true_targets": [
+    "tensorflow/python/distribute",
+    "tensorflow/python/eager",
+    "tensorflow/python/ops",
+    "tensorflow/python/summary",
+    "tensorflow/python/training",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.2,
+   "recall": 0.16666666666666666,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/kernel_tests most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/python/ops\n3. tensorflow/core/framework\n4. tensorflow/python/framework\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/python/checkpoint"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/lib",
+   "true_targets": [
+    "tensorflow/c/eager",
+    "tensorflow/core/framework",
+    "tensorflow/core/util",
+    "tensorflow/python/framework",
+    "tensorflow/python/platform"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/python/framework",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/python/util",
+    "tensorflow/python/eager"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/python/lib most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/python/framework\n3. tensorflow/python/kernel_tests\n4. tensorflow/python/util\n5. tensorflow/python/eager",
+   "true_targets_v1": [
+    "tensorflow/lite/python"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/framework",
+   "true_targets": [
+    "tensorflow/cc/client",
+    "tensorflow/compiler/jit",
+    "tensorflow/core/activity_watcher",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/graph",
+    "tensorflow/core/kernels",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/python/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/kernels",
+    "tensorflow/core/ops",
+    "tensorflow/core/util"
+   ],
+   "precision": 0.6,
+   "recall": 0.42857142857142855,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/core/framework most likely depends on:\n\n1. tensorflow/python/framework\n2. tensorflow/core/common_runtime\n3. tensorflow/core/kernels\n4. tensorflow/core/ops\n5. tensorflow/core/util",
+   "true_targets_v1": [
+    "tensorflow/cc/client",
+    "tensorflow/core/tfrt"
+   ]
+  },
+  {
+   "source_module": "tensorflow/core/util",
+   "true_targets": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/public"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/graph"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. tensorflow/core/framework\n2. tensorflow/core/kernels\n3. tensorflow/python/ops\n4. tensorflow/core/common_runtime\n5. tensorflow/core/graph",
+   "true_targets_v1": [
+    "tensorflow/core/lib"
+   ]
+  },
+  {
+   "source_module": "tensorflow/distribute/experimental",
+   "true_targets": [
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/distributed_runtime",
+    "tensorflow/core/framework"
+   ],
+   "predicted": [
+    "tensorflow/python/distribute",
+    "tensorflow/core/distributed_runtime",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "Based on the architecture of TensorFlow and the role of the source module, here are the top 5 modules that tensorflow/distribute/experimental most likely depends on:\n\n1. tensorflow/python/distribute\n2. tensorflow/core/distributed_runtime\n3. tensorflow/core/kernels\n4. tensorflow/python/ops\n5. tensorflow/core/framework",
+   "true_targets_v1": [
+    "tensorflow/core/distributed_runtime"
+   ]
+  },
+  {
+   "source_module": "tensorflow/tools/benchmark",
+   "true_targets": [
+    "tensorflow/cc/framework",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the source module and the available modules, here are the top 5 modules that tensorflow/tools/benchmark most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/common_runtime\n3. tensorflow/python/framework\n4. tensorflow/core/kernels\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/c/experimental",
+    "tensorflow/core/graph"
+   ]
+  },
+  {
+   "source_module": "tensorflow/dtensor/mlir",
+   "true_targets": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/platform",
+    "tensorflow/core/public",
+    "tensorflow/core/util"
+   ],
+   "predicted": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/core/ir",
+    "tensorflow/core/graph"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. tensorflow/compiler/mlir\n2. tensorflow/core/kernels\n3. tensorflow/core/framework\n4. tensorflow/core/ir\n5. tensorflow/core/graph",
+   "true_targets_v1": [
+    "tensorflow/lite/experimental"
+   ]
+  },
+  {
+   "source_module": "tensorflow/tools/gcs_test",
+   "true_targets": [
+    "tensorflow/python/lib"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/core/platform",
+    "tensorflow/tools/graph_transforms"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/tools/gcs_test most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/common_runtime\n3. tensorflow/python/framework\n4. tensorflow/core/platform\n5. tensorflow/tools/graph_transforms",
+   "true_targets_v1": [
+    "tensorflow/python/lib"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/client",
+   "true_targets": [
+    "tensorflow/core/distributed_runtime",
+    "tensorflow/core/framework",
+    "tensorflow/core/lib",
+    "tensorflow/core/platform",
+    "tensorflow/core/public",
+    "tensorflow/core/util",
+    "tensorflow/python/platform"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/python/framework",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/eager"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of TensorFlow, here are the top 5 modules that tensorflow/python/client most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/python/framework\n3. tensorflow/python/kernel_tests\n4. tensorflow/core/common_runtime\n5. tensorflow/python/eager",
+   "true_targets_v1": [
+    "tensorflow/compiler/mlir"
+   ]
+  },
+  {
+   "source_module": "tensorflow/compiler/tests",
+   "true_targets": [
+    "tensorflow/compiler/jit",
+    "tensorflow/core/framework",
+    "tensorflow/core/graph",
+    "tensorflow/core/platform",
+    "tensorflow/python/client",
+    "tensorflow/python/compiler",
+    "tensorflow/python/framework",
+    "tensorflow/python/layers",
+    "tensorflow/python/platform",
+    "tensorflow/python/tpu"
+   ],
+   "predicted": [
+    "tensorflow/compiler/mlir",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime"
+   ],
+   "precision": 0.2,
+   "recall": 0.1,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/compiler/tests most likely depends on:\n\n1. tensorflow/compiler/mlir\n2. tensorflow/core/kernels\n3. tensorflow/python/ops\n4. tensorflow/core/framework\n5. tensorflow/core/common_runtime",
+   "true_targets_v1": [
+    "tensorflow/compiler/jit"
+   ]
+  },
+  {
+   "source_module": "tensorflow/cc/ops",
+   "true_targets": [
+    "tensorflow/cc/client",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/graph",
+    "tensorflow/core/platform"
+   ],
+   "predicted": [
+    "tensorflow/core/framework",
+    "tensorflow/core/kernels",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/graph"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "1. tensorflow/core/framework\n2. tensorflow/core/kernels\n3. tensorflow/python/ops\n4. tensorflow/core/common_runtime\n5. tensorflow/core/graph",
+   "true_targets_v1": [
+    "tensorflow/core/graph"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/saved_model",
+   "true_targets": [
+    "tensorflow/cc/saved_model",
+    "tensorflow/core/config",
+    "tensorflow/python/client",
+    "tensorflow/python/ops",
+    "tensorflow/python/platform",
+    "tensorflow/python/trackable",
+    "tensorflow/python/training",
+    "tensorflow/python/util"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/core/framework",
+    "tensorflow/python/framework",
+    "tensorflow/python/util",
+    "tensorflow/python/kernel_tests"
+   ],
+   "precision": 0.4,
+   "recall": 0.25,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/saved_model most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/core/framework\n3. tensorflow/python/framework\n4. tensorflow/python/util\n5. tensorflow/python/kernel_tests",
+   "true_targets_v1": [
+    "tensorflow/python/util"
+   ]
+  },
+  {
+   "source_module": "tensorflow/cc/tools",
+   "true_targets": [
+    "tensorflow/cc/framework",
+    "tensorflow/core/framework",
+    "tensorflow/core/lib",
+    "tensorflow/core/public"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/framework",
+    "tensorflow/core/platform"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "Based on the typical role of the source module `tensorflow/cc/tools`, which is likely related to C++ code generation and compilation, here are the top 5 modules that it most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/core/framework\n3. tensorflow/core/common_runtime\n4. tensorflow/python/framework\n5. tensorflow/core/platform",
+   "true_targets_v1": [
+    "tensorflow/core/public"
+   ]
+  },
+  {
+   "source_module": "tensorflow/cc/gradients",
+   "true_targets": [
+    "tensorflow/cc/client",
+    "tensorflow/cc/framework",
+    "tensorflow/core/lib"
+   ],
+   "predicted": [
+    "tensorflow/core/kernels",
+    "tensorflow/core/framework",
+    "tensorflow/python/ops",
+    "tensorflow/core/common_runtime",
+    "tensorflow/core/ops"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/cc/gradients most likely depends on:\n\n1. tensorflow/core/kernels\n2. tensorflow/core/framework\n3. tensorflow/python/ops\n4. tensorflow/core/common_runtime\n5. tensorflow/core/ops",
+   "true_targets_v1": [
+    "tensorflow/cc/experimental"
+   ]
+  },
+  {
+   "source_module": "tensorflow/python/debug",
+   "true_targets": [
+    "tensorflow/python/framework",
+    "tensorflow/python/ops",
+    "tensorflow/python/platform",
+    "tensorflow/python/training"
+   ],
+   "predicted": [
+    "tensorflow/python/ops",
+    "tensorflow/python/framework",
+    "tensorflow/python/kernel_tests",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/util"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/python/debug most likely depends on:\n\n1. tensorflow/python/ops\n2. tensorflow/python/framework\n3. tensorflow/python/kernel_tests\n4. tensorflow/core/common_runtime\n5. tensorflow/python/util",
+   "true_targets_v1": [
+    "tensorflow/python/ops"
+   ]
+  },
+  {
+   "source_module": "tensorflow/lite/profiling",
+   "true_targets": [
+    "tensorflow/core/util",
+    "tensorflow/lite/delegates",
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/tools"
+   ],
+   "predicted": [
+    "tensorflow/lite/kernels",
+    "tensorflow/lite/delegates",
+    "tensorflow/lite/core",
+    "tensorflow/core/common_runtime",
+    "tensorflow/python/ops"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "Based on the architecture of TensorFlow and the typical role of the source module, here are the top 5 modules that tensorflow/lite/profiling most likely depends on:\n\n1. tensorflow/lite/kernels\n2. tensorflow/lite/delegates\n3. tensorflow/lite/core\n4. tensorflow/core/common_runtime\n5. tensorflow/python/ops",
+   "true_targets_v1": [
+    "tensorflow/lite/tools"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_tensorflow_ar.json"
+}

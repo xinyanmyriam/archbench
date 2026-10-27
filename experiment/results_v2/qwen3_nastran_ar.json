@@ -1,0 +1,86 @@
+{
+ "precision_at_5": 0.2,
+ "recall_at_5": 1.0,
+ "total": 4,
+ "results": [
+  {
+   "source_module": "utility",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "mis",
+    "mds",
+    "bd",
+    "rf",
+    "um"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mis\nmds\nbd\nrf\num",
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mds",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "utility",
+    "bd",
+    "mis",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "utility\nbd\nmis\num\nrf",
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mis",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "mds",
+    "bd",
+    "utility",
+    "rf",
+    "um"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mds\nbd\nutility\nrf\num",
+   "true_targets_v1": [
+    "mds"
+   ]
+  },
+  {
+   "source_module": "bd",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "mds",
+    "mis",
+    "utility",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mds\nmis\nutility\num\nrf",
+   "true_targets_v1": [
+    "mds"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/qwen3_nastran_ar.json"
+}

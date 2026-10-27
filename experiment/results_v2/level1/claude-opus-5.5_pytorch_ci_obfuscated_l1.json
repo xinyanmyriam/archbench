@@ -1,0 +1,3421 @@
+{
+ "accuracy": 0.185,
+ "correct": 37,
+ "total": 200,
+ "n_with_snippet": 200,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 265089,
+  "completion_tokens": 21637,
+  "total_tokens": 286726
+ },
+ "results": [
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_9854.cu",
+   "file_original": "aten/src/ATen/native/cuda/PhiloxKeySplit.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_910c1d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1945,
+    "completion_tokens": 3,
+    "total_tokens": 1948
+   },
+   "latency_ms": 2345.9
+  },
+  {
+   "file": "dir_5810/dir_0075/dir_50e7/file_d585.py",
+   "file_original": "torch/_dynamo/variables/lists.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_901b95",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right. The candidate names are anonymized, and no description of what each module contains was given, so I can't map this file to a specific letter.\n\nThe file itself is clearly identifiable. It is `torch/_dynamo/variables/lists.py`, which defines Dynamo's variable trackers for list-like structures (`BaseListVariable`, `ListVariable`, `TupleVariable`, and so on). It belongs to the **TorchDynamo** module, the bytecode-tracing compiler frontend. If you can share what each candidate module covers, I can pick the matching letter.\n\nIf forced to choose without that information, this is a guess with no evidence behind it:\n\nA",
+   "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 220,
+    "total_tokens": 1620
+   },
+   "latency_ms": 5626.6
+  },
+  {
+   "file": "dir_85d0/dir_6f86/file_0437.py",
+   "file_original": "tools/autograd/gen_autograd_functions.py",
+   "label": "module_0f23d1",
+   "label_original": "tools/autograd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0f23d1",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code. This file is clearly `tools/autograd/gen_autograd_functions.py`, a torchgen-based code generator for autograd Node subclasses. But the candidate names are anonymized and nothing ties any of them to that directory or to torchgen. Any letter I give is a guess, not an inference.\n\nA",
+   "usage": {
+    "prompt_tokens": 1393,
+    "completion_tokens": 110,
+    "total_tokens": 1503
+   },
+   "latency_ms": 3799.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_9991/file_d79a.cpp",
+   "file_original": "aten/src/ATen/native/vulkan/ops/Slice.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8016e4",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to their contents, so this is an educated guess with no real basis for picking one letter over another. The file is the Vulkan backend slice operator, at path `aten/src/ATen/native/vulkan/ops/Slice.cpp`. It belongs to whichever module holds the ATen Vulkan native ops, and I have no evidence tying that to any particular candidate.\n\nA",
+   "usage": {
+    "prompt_tokens": 1478,
+    "completion_tokens": 131,
+    "total_tokens": 1609
+   },
+   "latency_ms": 4394.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_10a0.h",
+   "file_original": "aten/src/ATen/native/TensorAdvancedIndexingUtils.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_cf0ee4",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the candidate names are anonymized and nothing ties them to real modules.\n\nThe file itself is identifiable. It is `aten/src/ATen/native/TensorAdvancedIndexingUtils.h`, part of ATen's native operator implementations. The path depth fits: `dir_196c/dir_1db9/dir_1cf8/dir_4099` matches `aten/src/ATen/native`. The code (`canDispatchToMaskedFill`, `make_info`, the `at::native` namespace) is ATen native advanced-indexing code.\n\nTo get a correct answer I would need the real module names, or a few known file paths for each candidate. Without that, my answer is an arbitrary pick, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1543,
+    "completion_tokens": 245,
+    "total_tokens": 1788
+   },
+   "latency_ms": 6174.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_eb92/file_0a9e.cpp",
+   "file_original": "aten/src/ATen/native/miopen/LossCTC_miopen.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_186b29",
+   "correct": false,
+   "raw_response": "Without module descriptions to go on, this is a guess rather than a derivation. The file is aten/src/ATen/native/miopen/LossCTC_miopen.cpp, part of ATen's native MIOpen operators (AMD ROCm backend). The obfuscated names give no way to tell which candidate corresponds to that module, so I picked one of the four.\n\nA",
+   "usage": {
+    "prompt_tokens": 1665,
+    "completion_tokens": 119,
+    "total_tokens": 1784
+   },
+   "latency_ms": 3992.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_fe0d.h",
+   "file_original": "aten/src/ATen/NestedTensorImpl.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_690d88",
+   "correct": false,
+   "raw_response": "I can't tell which anonymized module this file belongs to. The candidates are given only as hash-like names (module_690d88, module_951a40, module_641259, module_0f23d1), with no description of what each contains. Nothing in the code can be matched to one of them.\n\nWhat the code does show is that this is `aten/src/ATen/NestedTensorImpl.h`, which defines `NestedTensorImpl` in the `at::native` namespace. So it belongs to whichever module represents the ATen core tensor library. With no way to link that to a specific label, my answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1763,
+    "completion_tokens": 187,
+    "total_tokens": 1950
+   },
+   "latency_ms": 4904.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_89ad.cpp",
+   "file_original": "aten/src/ATen/native/Copy.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_868b57",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2177,
+    "completion_tokens": 3,
+    "total_tokens": 2180
+   },
+   "latency_ms": 2715.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/file_33fa.cpp",
+   "file_original": "aten/src/ATen/core/interned_strings.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ca83d9",
+   "correct": false,
+   "raw_response": "The file is aten/src/ATen/core/interned_strings.cpp, part of the ATen core module. The module names are anonymized, so the mapping cannot be checked directly. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1513,
+    "completion_tokens": 68,
+    "total_tokens": 1581
+   },
+   "latency_ms": 3018.1
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_b80f/dir_fcb1/file_af6c.cpp",
+   "file_original": "torch/csrc/api/src/optim/adagrad.cpp",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f59728",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1914,
+    "completion_tokens": 3,
+    "total_tokens": 1917
+   },
+   "latency_ms": 2516.2
+  },
+  {
+   "file": "dir_c19c/dir_8dab/file_901d.h",
+   "file_original": "c10/core/StreamGuard.h",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9fdaef",
+   "correct": true,
+   "raw_response": "I can't identify this without knowing what the modules contain. The file is c10/core/StreamGuard.h, which belongs to the c10 core module, but the candidate names are anonymized and no descriptions were given, so I can't map c10 core to a letter with confidence. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1663,
+    "completion_tokens": 94,
+    "total_tokens": 1757
+   },
+   "latency_ms": 3363.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_2267.cpp",
+   "file_original": "aten/src/ATen/ParallelOpenMP.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_690d88",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 3,
+    "total_tokens": 1454
+   },
+   "latency_ms": 2167.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_be4a.cpp",
+   "file_original": "aten/src/ATen/native/SparseTensorUtils.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6328f3",
+   "correct": false,
+   "raw_response": "I can't determine this from the evidence. The file is clearly `aten/src/ATen/native/SparseTensorUtils.cpp`, which belongs to the ATen native operators module. However, the candidate module names are anonymized and no descriptions were given, so nothing links the code to a specific letter. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1894,
+    "completion_tokens": 107,
+    "total_tokens": 2001
+   },
+   "latency_ms": 3896.8
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_b80f/dir_971b/file_8443.cpp",
+   "file_original": "torch/csrc/api/src/python/init.cpp",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5607dd",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1401,
+    "completion_tokens": 112,
+    "total_tokens": 1513
+   },
+   "latency_ms": 3824.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4658/file_1fdf.cuh",
+   "file_original": "aten/src/ATen/cuda/CUDATensorMethods.cuh",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_808123",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 385,
+    "completion_tokens": 3,
+    "total_tokens": 388
+   },
+   "latency_ms": 2324.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_f47d.cu",
+   "file_original": "aten/src/ATen/native/cuda/SegmentReduce.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "Without module descriptions, I can't tell the candidates apart.\n\nA",
+   "usage": {
+    "prompt_tokens": 1481,
+    "completion_tokens": 24,
+    "total_tokens": 1505
+   },
+   "latency_ms": 2595.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_eadc.cu",
+   "file_original": "aten/src/ATen/native/cuda/MultiMarginLoss.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_656c6f",
+   "correct": false,
+   "raw_response": "I can't identify this from the code alone, because the candidate module names are anonymized and the prompt says nothing about what each one contains. The file itself is clearly `aten/src/ATen/native/cuda/MultiMarginLoss.cu`, part of ATen's native CUDA kernels. Which letter corresponds to that module is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1733,
+    "completion_tokens": 113,
+    "total_tokens": 1846
+   },
+   "latency_ms": 3594.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_c93a/file_6f4d.cpp",
+   "file_original": "aten/src/ATen/functorch/BatchRulesActivation.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c94256",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly `aten/src/ATen/functorch/BatchRulesActivation.cpp`, the functorch vmap batch rules in ATen. But the candidate module names are anonymized and no descriptions were given to map them to functorch or ATen, so any letter is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 109,
+    "total_tokens": 1428
+   },
+   "latency_ms": 3801.5
+  },
+  {
+   "file": "dir_5810/dir_cedd/dir_795b/dir_37d3/file_4e06.py",
+   "file_original": "torch/_export/db/examples/tensor_setattr.py",
+   "label": "module_910c1d",
+   "label_original": "torch/_export",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a8f5c1",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 402,
+    "completion_tokens": 70,
+    "total_tokens": 472
+   },
+   "latency_ms": 3720.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_56fe/file_a264.cpp",
+   "file_original": "aten/src/ATen/native/sparse/SparseTensor.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_014145",
+   "correct": false,
+   "raw_response": "There is no way to tell from the code which anonymized name maps to which module. The content is aten/src/ATen/native/sparse/SparseTensor.cpp, the ATen native sparse module, but the candidate names give no clue to their contents. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2032,
+    "completion_tokens": 88,
+    "total_tokens": 2120
+   },
+   "latency_ms": 3601.7
+  },
+  {
+   "file": "dir_5810/dir_d967/file_3f93.py",
+   "file_original": "torch/_functorch/top_operators_github_usage.py",
+   "label": "module_d99c75",
+   "label_original": "torch/_functorch",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_1f58d3",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1399,
+    "completion_tokens": 3,
+    "total_tokens": 1402
+   },
+   "latency_ms": 3409.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_e75a.h",
+   "file_original": "aten/src/ATen/DLConvertor.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_416965",
+   "correct": false,
+   "raw_response": "I can't tell which module this is. The candidates are only anonymized IDs with no descriptions, so I can't link the code to any of them.\n\nFrom the code alone, this is ATen's DLPack converter header (`aten/src/ATen/DLConvertor.h`). It sits in the core ATen tensor library. If one of the candidates is the core ATen module, that would be the answer, but I have no basis to say which letter that is.\n\nA",
+   "usage": {
+    "prompt_tokens": 1488,
+    "completion_tokens": 137,
+    "total_tokens": 1625
+   },
+   "latency_ms": 4104.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_4d03.cu",
+   "file_original": "aten/src/ATen/native/cuda/bessel_j0.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "No way to tell from the code; the candidate module names are anonymized and nothing else is given. The file is aten/src/ATen/native/cuda/special_bessel_j0.cu, an ATen native CUDA kernel. Picking A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 945,
+    "completion_tokens": 84,
+    "total_tokens": 1029
+   },
+   "latency_ms": 3471.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_e31a/dir_d235/dir_5363/file_dea1.h",
+   "file_original": "aten/src/ATen/cpu/vec/vec512/vec512_int.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a8f5c1",
+   "correct": false,
+   "raw_response": "I can't tell from the code which module this is. The candidate names are anonymized and none of them can be linked to the file's content. The file is clearly `aten/src/ATen/cpu/vec/vec512/vec512_int.h`, the AVX512 integer vectorization header in ATen's CPU vector library. Without knowing which candidate maps to that component, this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 125,
+    "total_tokens": 1607
+   },
+   "latency_ms": 5103.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_a066.cpp",
+   "file_original": "aten/src/ATen/native/Convolution.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_656c6f",
+   "correct": false,
+   "raw_response": "I can't tell which module this is, because the candidate names are anonymized and give no clues. The file itself is clearly PyTorch's `aten/src/ATen/native/Convolution.cpp`, which belongs to the ATen native operators module. Without any mapping from the anonymized labels to real modules, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2017,
+    "completion_tokens": 109,
+    "total_tokens": 2126
+   },
+   "latency_ms": 3773.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_8f0b.cpp",
+   "file_original": "aten/src/ATen/LegacyBatchedFallback.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_901b95",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to real PyTorch components, so this is a guess rather than a derivation.\n\nThe file itself is clearly `aten/src/ATen/LegacyBatchedFallback.cpp`, part of the ATen core library. It implements the fallback for the legacy vmap prototype (`torch._vmap_internals.vmap`), running an operator once per batch slice when no batching rule exists. The path `dir_196c/dir_1db9/dir_1cf8/file_8f0b.cpp` has three directory levels, consistent with `aten/src/ATen/`.\n\nHowever, the candidate list gives no descriptions of modules A–D. Nothing in the code points to one obfuscated label over another, so I am picking A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 2047,
+    "completion_tokens": 249,
+    "total_tokens": 2296
+   },
+   "latency_ms": 5879.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_9991/file_ea16.cpp",
+   "file_original": "aten/src/ATen/native/vulkan/ops/UnaryOp.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3e54b8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1327,
+    "completion_tokens": 3,
+    "total_tokens": 1330
+   },
+   "latency_ms": 2281.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_31f1/file_b698.cpp",
+   "file_original": "aten/src/ATen/native/cpu/PowKernel.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1195b2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1858,
+    "completion_tokens": 3,
+    "total_tokens": 1861
+   },
+   "latency_ms": 2957.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_bd4f/dir_9b8b/file_4108.h",
+   "file_original": "aten/src/ATen/native/mps/operations/BinaryKernel.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61a3c8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 374,
+    "completion_tokens": 138,
+    "total_tokens": 512
+   },
+   "latency_ms": 3739.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_962c/dir_f0ec/file_295c.c",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/wrappers/requantization/fp32-sse2.c",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_864193",
+   "correct": false,
+   "raw_response": "There is no way to tell these modules apart from the code. The file is a QNNPACK requantization wrapper (`#include <requantization/fp32-sse2.c>`, guarded by an x86 check). It sits in PyTorch's `aten/src/ATen/native/quantized/cpu/qnnpack/wrappers/requantization` directory. The candidate modules are only anonymized IDs with no descriptions, so nothing in the file maps it to one of them. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 398,
+    "completion_tokens": 161,
+    "total_tokens": 559
+   },
+   "latency_ms": 4206.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_c8cf/file_9b6d.h",
+   "file_original": "aten/src/ATen/native/hip/ck_gemm_template.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6d4d5c",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code. The file is clearly the composable-kernel GEMM template header under `aten/src/ATen/native/hip/` (it includes `ATen/native/hip/ck_gemm.h` and the `ck/...` headers). Without descriptions of what each candidate module contains, I can't map that location to one of the anonymized names, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1712,
+    "completion_tokens": 128,
+    "total_tokens": 1840
+   },
+   "latency_ms": 3927.8
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/dir_3912/file_0f97.py",
+   "file_original": "torch/_inductor/codegen/rocm/ck_tile_template.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5607dd",
+   "correct": false,
+   "raw_response": "I can't tell which module this is, because the candidate names are anonymized and no description of what each module contains was provided.\n\nWhat the code does show:\n- The file is `torch/_inductor/codegen/rocm/ck_tile_template.py`. It defines `CKTileTemplate`, a subclass of `ROCmTemplate`, which generates code for AMD's Composable Kernel (CK) tile library.\n- It therefore belongs to the Inductor ROCm/CK code-generation module.\n- The obfuscated path depth matches this: `dir_5810/dir_f369/dir_d7bf/dir_3912` corresponds to `torch/_inductor/codegen/rocm`.\n\nWithout a way to map that module to one of the four letters, the choice below is a guess, not an inference.\n\nA",
+   "usage": {
+    "prompt_tokens": 920,
+    "completion_tokens": 256,
+    "total_tokens": 1176
+   },
+   "latency_ms": 5204.6
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d5ba/file_6583.py",
+   "file_original": "torch/_inductor/fx_passes/split_cat.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_93007c",
+   "correct": true,
+   "raw_response": "I can't tell which letter is right, because the candidate module names are anonymized and none of them is described. This file is `torch/_inductor/fx_passes/split_cat.py`. It imports `..pattern_matcher` and `.group_batch_fusion`, and it defines the inductor pre-grad and post-grad split/cat pattern passes. It therefore belongs to the Inductor compiler module (or its FX-passes submodule). Without a mapping from the candidate codes to real modules, the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 170,
+    "total_tokens": 1652
+   },
+   "latency_ms": 5076.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_945b/file_0865.h",
+   "file_original": "aten/src/ATen/native/xnnpack/OpContext.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_649bbf",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly `aten/src/ATen/native/xnnpack/OpContext.h`, part of the ATen native XNNPACK backend. But the candidate names (module_649bbf, module_3ebee1, module_951a40, module_2e0abb) are fully anonymized, and nothing given maps any of them to ATen native code. Any letter would be a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1552,
+    "completion_tokens": 133,
+    "total_tokens": 1685
+   },
+   "latency_ms": 4043.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_d754/file_58e3.cc",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/bench/max-pooling.cc",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1572,
+    "completion_tokens": 3,
+    "total_tokens": 1575
+   },
+   "latency_ms": 2294.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_91d3/dir_6d41/dir_e784/dir_b537/file_9647.cu",
+   "file_original": "aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernels/cutlassB_f32_notaligned_k128_dropout.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a35570",
+   "correct": false,
+   "raw_response": "No identifying signal; the module names are fully anonymized, so this is essentially a guess. The file itself is clearly an auto-generated memory-efficient attention backward kernel under ATen/native/transformers/cuda, but nothing in the code maps to a specific candidate letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 1800,
+    "completion_tokens": 93,
+    "total_tokens": 1893
+   },
+   "latency_ms": 3589.4
+  },
+  {
+   "file": "dir_5810/dir_0075/dir_0115/file_ec74.py",
+   "file_original": "torch/_dynamo/repro/aoti.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_977395",
+   "correct": false,
+   "raw_response": "I can't tell which module this file belongs to. The file is torch/_dynamo/repro/aoti.py, part of the Dynamo/Inductor debugging and repro tooling. But the candidate names are anonymized and no descriptions or mappings are given, so the code offers no basis for picking one letter over another. Any letter I give is an arbitrary guess, not an inference.\n\nA",
+   "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 124,
+    "total_tokens": 1424
+   },
+   "latency_ms": 4249.7
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d5ba/file_7a03.py",
+   "file_original": "torch/_inductor/fx_passes/b2b_gemm.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_93007c",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1733,
+    "completion_tokens": 3,
+    "total_tokens": 1736
+   },
+   "latency_ms": 2194.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_297b.h",
+   "file_original": "aten/src/ATen/TensorNames.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a35570",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 3,
+    "total_tokens": 1261
+   },
+   "latency_ms": 2153.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_7a39/file_4aea.h",
+   "file_original": "aten/src/ATen/native/mkldnn/TensorShape.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 405,
+    "completion_tokens": 111,
+    "total_tokens": 516
+   },
+   "latency_ms": 3486.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_e31a/dir_d235/dir_2848/file_fac9.h",
+   "file_original": "aten/src/ATen/cpu/vec/vec128/vec128_double_neon.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_02dbac",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the candidate module names are anonymized and nothing is given about what each one contains.\n\nWhat the code does show:\n- It is `aten/src/ATen/cpu/vec/vec128/vec128_double_neon.h`, the ARM NEON specialization of `Vectorized<double>`.\n- It uses `float64x2_t`, `vdupq_n_f64` and `vbslq_f64`.\n- So it belongs to whichever module holds ATen's CPU vectorization headers (the ATen core / `cpu/vec` component).\n\nTo map that to a letter I would need to know what the other files in modules A–D contain. Without that, the choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1639,
+    "completion_tokens": 226,
+    "total_tokens": 1865
+   },
+   "latency_ms": 5413.1
+  },
+  {
+   "file": "dir_5810/dir_588a/file_ee85.py",
+   "file_original": "torch/_subclasses/fake_tensor.py",
+   "label": "module_775e91",
+   "label_original": "torch/_subclasses",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9b039f",
+   "correct": false,
+   "raw_response": "I can't map this file to a module with confidence. The candidate names are anonymized, and nothing in the prompt describes what each module covers.\n\nThe content is clear, though. This is `torch/_subclasses/fake_tensor.py`, the fake tensor implementation. It imports `from ._fake_tensor_utils`, uses `MetaConverter` from `torch._subclasses.meta_utils`, and defines `CONSTANT_NUMEL_LIMIT`. So it belongs to whichever candidate corresponds to `torch._subclasses` / fake tensor.\n\nSince I can't tell which letter that is, the choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1492,
+    "completion_tokens": 212,
+    "total_tokens": 1704
+   },
+   "latency_ms": 5154.3
+  },
+  {
+   "file": "dir_5810/dir_f369/file_b04c.py",
+   "file_original": "torch/_inductor/decomposition.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ada6e8",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to their real counterparts, so this is close to a guess. The code itself is clearly torch/_inductor/decomposition.py, which is part of the Inductor module. Nothing in the snippet identifies which candidate letter corresponds to Inductor, so I picked one arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 1478,
+    "completion_tokens": 106,
+    "total_tokens": 1584
+   },
+   "latency_ms": 4301.7
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_e2e9/dir_55c2/dir_5ec9/dir_a2cd/file_2726.h",
+   "file_original": "torch/csrc/api/include/torch/nn/options/rnn.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5f89db",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1880,
+    "completion_tokens": 3,
+    "total_tokens": 1883
+   },
+   "latency_ms": 2843.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_18bd.cpp",
+   "file_original": "aten/src/ATen/native/AveragePool3d.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3150d3",
+   "correct": false,
+   "raw_response": "I can't pick a letter on evidence. The code is clearly PyTorch's `aten/src/ATen/native/AveragePool3d.cpp`, the CPU implementation of the ATen native operators. But the candidate names (module_3150d3, module_c94256, module_951a40, module_452cb7) are anonymized and come with no descriptions. Nothing here connects any of them to ATen native operators.\n\nSince a letter is required, I'm giving A. It is effectively a guess, with roughly a one-in-four chance of being right.\n\nA",
+   "usage": {
+    "prompt_tokens": 2056,
+    "completion_tokens": 176,
+    "total_tokens": 2232
+   },
+   "latency_ms": 5787.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/file_79d2.h",
+   "file_original": "aten/src/ATen/core/PythonFallbackKernel.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8016e4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 868,
+    "completion_tokens": 137,
+    "total_tokens": 1005
+   },
+   "latency_ms": 3680.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_3117.cuh",
+   "file_original": "aten/src/ATen/native/cuda/Math.cuh",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a99b7b",
+   "correct": false,
+   "raw_response": "I can't map the candidates to their real modules, because the names are anonymized and no descriptions were given. From the code itself, this is `aten/src/ATen/native/cuda/Math.cuh`, which belongs to the ATen native CUDA kernels module. With nothing else to go on, A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1469,
+    "completion_tokens": 101,
+    "total_tokens": 1570
+   },
+   "latency_ms": 3773.3
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/file_17ab.py",
+   "file_original": "torch/_inductor/codegen/__init__.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b72b77",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 247,
+    "completion_tokens": 35,
+    "total_tokens": 282
+   },
+   "latency_ms": 4534.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_d2bc/dir_8c25/file_eba8.h",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/src/qnnpack/indirection.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f25616",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 850,
+    "completion_tokens": 3,
+    "total_tokens": 853
+   },
+   "latency_ms": 3132.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/dir_0489/file_433a.h",
+   "file_original": "aten/src/ATen/core/dispatch/OperatorOptions.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_977395",
+   "correct": false,
+   "raw_response": "**B**",
+   "usage": {
+    "prompt_tokens": 725,
+    "completion_tokens": 121,
+    "total_tokens": 846
+   },
+   "latency_ms": 3735.1
+  },
+  {
+   "file": "dir_c19c/dir_8dab/dir_1d9f/file_6edf.h",
+   "file_original": "c10/core/impl/GPUTrace.h",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_19fd51",
+   "correct": false,
+   "raw_response": "I can't tell which module this is. The file is c10/core/impl/GPUTrace.h, in the c10 core library. But the candidate names are anonymized and nothing ties any of them to c10, so this answer is a guess rather than a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 585,
+    "completion_tokens": 82,
+    "total_tokens": 667
+   },
+   "latency_ms": 3293.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_91d3/dir_e213/file_7dbb.h",
+   "file_original": "aten/src/ATen/native/transformers/xpu/sdp_utils.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8c52af",
+   "correct": false,
+   "raw_response": "I can't determine this with confidence. The candidate modules are only anonymized IDs, with no descriptions or sample files, so the code can't be matched to a specific one.\n\nWhat the code does show:\n- It declares the SDP (scaled dot-product attention) dispatch helpers for flash attention on the XPU backend: `is_flash_attention_available`, `can_use_flash_attention`, and `check_flash_attention_hardware_support`.\n- The includes (`ATen/native/transformers/xpu/flash_attn/utils.h`, `ATen/xpu/XPUContext.h`) place it in ATen's native transformer kernels, XPU path. The path is likely something like `aten/src/ATen/native/transformers/xpu/sdp_utils.h`.\n- The six-level obfuscated path is consistent with that depth.\n\nSo the correct answer is whichever module covers ATen native kernels or XPU transformer/attention code. Since nothing distinguishes A–D, any letter is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 496,
+    "completion_tokens": 328,
+    "total_tokens": 824
+   },
+   "latency_ms": 7095.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_d8b6.cpp",
+   "file_original": "aten/src/ATen/native/RNN.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_910c1d",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2084,
+    "completion_tokens": 3,
+    "total_tokens": 2087
+   },
+   "latency_ms": 2321.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_e545.h",
+   "file_original": "aten/src/ATen/native/TopKImpl.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d99c75",
+   "correct": false,
+   "raw_response": "I can't pin this down with real confidence. The candidate module names are anonymized and no descriptions were given, so I can't map any letter to what this file is.\n\nThe file itself is clear. It is `aten/src/ATen/native/cpu/SortingUtils.h` (or the TopK utilities), the CPU top-k kernel in ATen native ops. It would belong to an \"ATen native CPU kernels\" or \"ATen operators\" module. Nothing in the code or path links that to a particular letter, so this is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1793,
+    "completion_tokens": 171,
+    "total_tokens": 1964
+   },
+   "latency_ms": 5386.8
+  },
+  {
+   "file": "dir_5810/dir_0d79/dir_5430/file_17ab.py",
+   "file_original": "torch/backends/cuda/__init__.py",
+   "label": "module_c40eb4",
+   "label_original": "torch/backends",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e91a24",
+   "correct": false,
+   "raw_response": "Without module descriptions, the code itself is the only evidence. This file is torch/backends/cuda/__init__.py, which belongs to a \"torch backends\" module. The four candidate names are obfuscated, so there is no basis to tell which letter corresponds to that module; the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1477,
+    "completion_tokens": 98,
+    "total_tokens": 1575
+   },
+   "latency_ms": 3931.4
+  },
+  {
+   "file": "dir_5810/dir_eb1d/file_3e76.py",
+   "file_original": "torch/_refs/__init__.py",
+   "label": "module_8dfb14",
+   "label_original": "torch/_refs",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_0f23d1",
+   "correct": false,
+   "raw_response": "I can't work out a confident answer from the code itself. The file is clearly `torch/_refs/__init__.py`: it holds the Python reference implementations of PyTorch operations, built on prims (primitive operations). The candidate modules, though, are only anonymized IDs with no descriptions, so nothing links any of them to \"refs/prims/decompositions\". The letter below is a guess.\n\nD",
+   "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 127,
+    "total_tokens": 1313
+   },
+   "latency_ms": 4465.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_4c6b.cu",
+   "file_original": "aten/src/ATen/native/cuda/ForeachBinaryOpScalar.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4108db",
+   "correct": false,
+   "raw_response": "I can't tell from the content alone which module this is. The file is clearly `aten/src/ATen/native/cuda/ForeachBinaryOpScalar.cu`, part of ATen's native CUDA kernels. But the candidate module names are anonymized and come with no descriptions. So I can't reliably map this content to any one of them. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1723,
+    "completion_tokens": 119,
+    "total_tokens": 1842
+   },
+   "latency_ms": 4990.1
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_7383/file_ee95.py",
+   "file_original": "torch/_inductor/runtime/hints.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_350aad",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1495,
+    "completion_tokens": 3,
+    "total_tokens": 1498
+   },
+   "latency_ms": 2417.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_d2bc/dir_6a2e/file_601c.c",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/src/hgemm/8x8-neonfp16arith.c",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ddc410",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 3,
+    "total_tokens": 2034
+   },
+   "latency_ms": 2399.8
+  },
+  {
+   "file": "dir_5810/dir_ac98/file_eecd.py",
+   "file_original": "torch/_library/effects.py",
+   "label": "module_e07ac4",
+   "label_original": "torch/_library",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_649bbf",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to real ones, so this answer is a guess. The code itself points clearly to `torch/_library/effects.py`, in the `torch._library` module. It defines `EffectHolder` and `EffectType` and uses `torch._library.utils.RegistrationHandle`. You gave no description of the candidate modules, so the choice of letter isn't based on anything in the code.\n\nA",
+   "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 132,
+    "total_tokens": 1356
+   },
+   "latency_ms": 4452.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_b2f0.h",
+   "file_original": "aten/src/ATen/FunctionalTensorWrapper.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ed6cd1",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1849,
+    "completion_tokens": 90,
+    "total_tokens": 1939
+   },
+   "latency_ms": 3338.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_bf6e/file_9d3c.cpp",
+   "file_original": "aten/src/ATen/detail/PrivateUse1HooksInterface.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2e0abb",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 683,
+    "completion_tokens": 72,
+    "total_tokens": 755
+   },
+   "latency_ms": 3152.6
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_b1fa/file_232e.h",
+   "file_original": "torch/csrc/autograd/autograd_not_implemented_fallback.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1f3411",
+   "correct": false,
+   "raw_response": "I can't identify this with confidence. The file is torch/csrc/autograd/autograd_not_implemented_fallback.h, part of the autograd module, but the candidate module names are anonymized and nothing ties any of them to autograd. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 718,
+    "completion_tokens": 87,
+    "total_tokens": 805
+   },
+   "latency_ms": 4466.7
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/file_a159.py",
+   "file_original": "torch/_inductor/codegen/cpp_gemm_template.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_93007c",
+   "correct": true,
+   "raw_response": "I can't tell which letter is correct, because the candidate names are anonymized and nothing maps them to real modules.\n\nWhat the code does show: this is `torch/_inductor/codegen/cpp_gemm_template.py`. It uses relative imports such as `.cpp_micro_gemm`, `.cpp_template` and `..select_algorithm`, and contains C++ GEMM template strings. So the file belongs to Inductor's CPU (C++) code generation module, `torch/_inductor/codegen`.\n\nSince the question requires a single letter, the one below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1907,
+    "completion_tokens": 194,
+    "total_tokens": 2101
+   },
+   "latency_ms": 5890.8
+  },
+  {
+   "file": "dir_5810/dir_cedd/dir_795b/dir_37d3/file_9609.py",
+   "file_original": "torch/_export/db/examples/static_for_loop.py",
+   "label": "module_910c1d",
+   "label_original": "torch/_export",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893c28",
+   "correct": false,
+   "raw_response": "Without knowing what each candidate module contains, I can't map this file with certainty. The code is a torch.export example from `torch/_export/db/examples`, which suggests a module covering export or export-db. I can't tell which letter that is, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 403,
+    "completion_tokens": 84,
+    "total_tokens": 487
+   },
+   "latency_ms": 3731.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_21a4.cu",
+   "file_original": "aten/src/ATen/native/cuda/EmbeddingBag.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_085078",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2120,
+    "completion_tokens": 3,
+    "total_tokens": 2123
+   },
+   "latency_ms": 4928.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_d2bc/dir_3f03/file_18a9.c",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/src/q8dwconv/mp8x27-neon.c",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_184e64",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2087,
+    "completion_tokens": 3,
+    "total_tokens": 2090
+   },
+   "latency_ms": 2327.3
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/file_0d68.py",
+   "file_original": "torch/_inductor/codegen/custom_extern_kernel_codegen.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893c28",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly part of TorchInductor's codegen (likely `torch/_inductor/codegen/`, given `from .. import ir`), but the candidate module names are anonymized with no descriptions. Nothing in the code links to any specific option, so this answer is a guess.\n\nD",
+   "usage": {
+    "prompt_tokens": 1447,
+    "completion_tokens": 102,
+    "total_tokens": 1549
+   },
+   "latency_ms": 3786.3
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_b1fa/file_158a.h",
+   "file_original": "torch/csrc/autograd/cpp_hook.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_cf0ee4",
+   "correct": false,
+   "raw_response": "Without descriptions of the candidate modules there is no real basis for choosing; the letter below is an arbitrary guess. The file itself is clearly torch/csrc/autograd/cpp_hook.h, part of the autograd module.\n\nA",
+   "usage": {
+    "prompt_tokens": 669,
+    "completion_tokens": 78,
+    "total_tokens": 747
+   },
+   "latency_ms": 3326.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_56fe/dir_6d41/file_11ed.cu",
+   "file_original": "aten/src/ATen/native/sparse/cuda/SparseCUDATensor.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_059107",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1889,
+    "completion_tokens": 3,
+    "total_tokens": 1892
+   },
+   "latency_ms": 2329.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_8779.h",
+   "file_original": "aten/src/ATen/native/cuda/Distributions.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6ea308",
+   "correct": false,
+   "raw_response": "I can't identify this one from evidence. The file looks like `aten/src/ATen/native/cuda/Distributions.h`, the declarations for ATen's native CUDA distribution kernels. The candidate module names are anonymized and come with no descriptions, so nothing links any of them to that code. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 573,
+    "completion_tokens": 106,
+    "total_tokens": 679
+   },
+   "latency_ms": 4085.0
+  },
+  {
+   "file": "dir_5810/dir_2e70/file_d403.py",
+   "file_original": "torch/_higher_order_ops/flex_attention.py",
+   "label": "module_8649c9",
+   "label_original": "torch/_higher_order_ops",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5607dd",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1515,
+    "completion_tokens": 3,
+    "total_tokens": 1518
+   },
+   "latency_ms": 2510.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_34fa.cpp",
+   "file_original": "aten/src/ATen/ThreadLocalState.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_27dee8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1799,
+    "completion_tokens": 94,
+    "total_tokens": 1893
+   },
+   "latency_ms": 3164.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_368c.h",
+   "file_original": "aten/src/ATen/native/vol2col.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f25616",
+   "correct": false,
+   "raw_response": "I can't determine the module from the code itself, so this is a guess. The file is `aten/src/ATen/native/vol2col.h`, part of ATen's native operators. The candidate names are obfuscated, though, and nothing in the code links any of them to ATen native.\n\nA",
+   "usage": {
+    "prompt_tokens": 1743,
+    "completion_tokens": 88,
+    "total_tokens": 1831
+   },
+   "latency_ms": 3474.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_91d3/dir_6d41/dir_e784/dir_b537/file_1d5d.cu",
+   "file_original": "aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernels/cutlassB_f16_notaligned_k64_dropout.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "No module descriptions were given, so the candidate labels cannot be matched to content with any confidence. This is a guess.\n\nThe file is an auto-generated memory-efficient attention backward kernel (`fmha_cutlassB`). It sits under ATen native, in the transformers CUDA `mem_eff_attention` kernels. Without knowing what each candidate module contains, nothing links it to a specific letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 1889,
+    "completion_tokens": 134,
+    "total_tokens": 2023
+   },
+   "latency_ms": 5459.0
+  },
+  {
+   "file": "dir_5810/dir_d967/dir_dc77/file_17ab.py",
+   "file_original": "torch/_functorch/_aot_autograd/__init__.py",
+   "label": "module_d99c75",
+   "label_original": "torch/_functorch",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1f3411",
+   "correct": false,
+   "raw_response": "**A**\n\nThe file shows only a Meta/Facebook BSD-style license header, with no imports or code. That header style is common in functorch-related files, but no candidate can be tied to it reliably. This answer is a guess.",
+   "usage": {
+    "prompt_tokens": 322,
+    "completion_tokens": 299,
+    "total_tokens": 621
+   },
+   "latency_ms": 5925.5
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/file_c8eb.py",
+   "file_original": "torch/_inductor/codegen/cuda_combined_scheduling.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_351f49",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1900,
+    "completion_tokens": 3,
+    "total_tokens": 1903
+   },
+   "latency_ms": 2259.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4658/file_bf95.cu",
+   "file_original": "aten/src/ATen/cuda/cub-RadixSortPairs-int64-2.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_775e91",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 347,
+    "completion_tokens": 128,
+    "total_tokens": 475
+   },
+   "latency_ms": 3714.4
+  },
+  {
+   "file": "dir_c19c/dir_8dab/file_b28e.h",
+   "file_original": "c10/core/AllocatorConfig.h",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f59728",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1402,
+    "completion_tokens": 3,
+    "total_tokens": 1405
+   },
+   "latency_ms": 2339.6
+  },
+  {
+   "file": "dir_85d0/dir_ce3e/file_6657.py",
+   "file_original": "tools/stats/utilization_stats_lib.py",
+   "label": "module_abf82e",
+   "label_original": "tools/stats",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1195b2",
+   "correct": false,
+   "raw_response": "Without the module descriptions there is no solid basis to choose, so this answer is close to a guess.\n\nThe file is a set of data models for CI usage tracking. In PyTorch this corresponds to `tools/stats/utilization_stats_lib.py`, so it likely belongs to a \"tools\" or \"CI stats\" module. None of the four candidate names reveal which module that is.\n\nA",
+   "usage": {
+    "prompt_tokens": 1386,
+    "completion_tokens": 122,
+    "total_tokens": 1508
+   },
+   "latency_ms": 12050.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_31f1/file_e9da.cpp",
+   "file_original": "aten/src/ATen/native/cpu/FillKernel.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't determine this from the code, because the module names are anonymized and give no clue to their contents. The file is aten/src/ATen/native/cpu/FillKernel.cpp, a CPU native kernel in ATen. Without knowing which candidate corresponds to ATen CPU kernels, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1740,
+    "completion_tokens": 107,
+    "total_tokens": 1847
+   },
+   "latency_ms": 3796.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_b871/file_80a2.h",
+   "file_original": "aten/src/ATen/native/vulkan/api/Allocator.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 87,
+    "total_tokens": 1265
+   },
+   "latency_ms": 4918.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_d2bc/dir_9165/file_235a.c",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/src/q8gemm/4x8-neon.c",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_649bbf",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2233,
+    "completion_tokens": 192,
+    "total_tokens": 2425
+   },
+   "latency_ms": 4772.6
+  },
+  {
+   "file": "dir_5810/dir_0075/file_62e3.py",
+   "file_original": "torch/_dynamo/funcname_cache.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61a3c8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 62,
+    "total_tokens": 1183
+   },
+   "latency_ms": 3246.6
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_b80f/dir_85c4/dir_1f6e/file_33b6.cpp",
+   "file_original": "torch/csrc/api/src/nn/modules/activation.cpp",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5607dd",
+   "correct": true,
+   "raw_response": "I can't identify this with confidence: the module names are anonymized and nothing ties a candidate to this file.\n\nThe file is `torch/csrc/api/src/nn/modules/activation.cpp`, part of the C++ frontend (libtorch API, `torch::nn`). Its path depth matches: `torch/csrc/api/src/nn/modules/activation.cpp` has six directories, as does the obfuscated path. The correct module is whichever candidate represents that C++ frontend, but I can't tell which letter that is, so A below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1410,
+    "completion_tokens": 180,
+    "total_tokens": 1590
+   },
+   "latency_ms": 4960.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_c8cf/file_d570.h",
+   "file_original": "aten/src/ATen/native/hip/ck_types.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_552735",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code. The candidate names are fully anonymized and I have no descriptions of what each module holds, so I can't map the content to a specific letter.\n\nThe file itself is clear. It's `aten/src/ATen/native/hip/ck_types.h`, the ROCm/HIP Composable Kernel (CK) type-mapping header in ATen's native GEMM code. It maps ATen types to CK types and defines row/column layouts.\n\nAny letter I give is a guess, not a deduction.\n\nD",
+   "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 169,
+    "total_tokens": 1182
+   },
+   "latency_ms": 4670.5
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_e2e9/dir_55c2/dir_5ec9/dir_b29b/file_8b2d.h",
+   "file_original": "torch/csrc/api/include/torch/nn/functional/batchnorm.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_61a3c8",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly `torch/csrc/api/include/torch/nn/functional/batchnorm.h`, part of the C++ frontend (libtorch API) `nn` functional layer. However, the module names are anonymized hashes with no descriptions, so nothing in the code links it to one of them. Any letter I give is a guess.\n\nD",
+   "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 120,
+    "total_tokens": 1245
+   },
+   "latency_ms": 4088.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_7a39/file_df0c.cpp",
+   "file_original": "aten/src/ATen/native/mkldnn/BinaryOps.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_19fd51",
+   "correct": false,
+   "raw_response": "I can't tell which anonymized module this is from the code alone. The file is aten/src/ATen/native/mkldnn/BinaryOps.cpp, which would sit in an ATen native ops / mkldnn backend module. The candidate names give no hint, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1659,
+    "completion_tokens": 93,
+    "total_tokens": 1752
+   },
+   "latency_ms": 3520.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_fb17.h",
+   "file_original": "aten/src/ATen/native/ForeachUtils.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e07ac4",
+   "correct": false,
+   "raw_response": "I can't tell which letter this is from the code, because the candidate module names are anonymized and their contents weren't provided. I can only map from what the file is to a guess.\n\nThe file is `aten/src/ATen/native/ForeachUtils.h`. That places it in the ATen native operators module (`aten/src/ATen/native`). The path depth matches: dir_196c is `aten`, dir_1db9 is `src`, dir_1cf8 is `ATen`, and dir_4099 is `native`.\n\nNothing in the code links that module to a particular letter, so the choice below is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1625,
+    "completion_tokens": 195,
+    "total_tokens": 1820
+   },
+   "latency_ms": 6141.0
+  },
+  {
+   "file": "dir_85d0/dir_6f86/dir_ef1e/file_4247.h",
+   "file_original": "tools/autograd/templates/VariableType.h",
+   "label": "module_0f23d1",
+   "label_original": "tools/autograd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8dfb14",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone, because the candidate module names are anonymized and none of them is described.\n\nThe file is the codegen template `tools/autograd/templates/VariableType.h`. The `${generated_comment}` placeholder and the `VariableType` declarations show this. It would belong to the autograd code-generation templates, though it could also be grouped under `torch/csrc/autograd`. Without knowing which candidate maps to which part of the codebase, my answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 157,
+    "total_tokens": 1074
+   },
+   "latency_ms": 5104.0
+  },
+  {
+   "file": "dir_5810/dir_d967/dir_8a4b/file_6fd7.py",
+   "file_original": "torch/_functorch/_activation_checkpointing/ac_logging_utils.py",
+   "label": "module_d99c75",
+   "label_original": "torch/_functorch",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5cf761",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1852,
+    "completion_tokens": 3,
+    "total_tokens": 1855
+   },
+   "latency_ms": 2116.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/file_4f41.h",
+   "file_original": "aten/src/ATen/core/DeprecatedTypeProperties.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1388,
+    "completion_tokens": 3,
+    "total_tokens": 1391
+   },
+   "latency_ms": 2076.4
+  },
+  {
+   "file": "dir_5810/dir_f369/file_4dcc.py",
+   "file_original": "torch/_inductor/await_utils.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9e9315",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1426,
+    "completion_tokens": 256,
+    "total_tokens": 1682
+   },
+   "latency_ms": 6042.0
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_e2e9/dir_55c2/dir_5ec9/dir_b29b/file_4b12.h",
+   "file_original": "torch/csrc/api/include/torch/nn/functional/fold.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61a3c8",
+   "correct": false,
+   "raw_response": "Without module descriptions I can't verify this; it is a guess.\n\nThis file is torch/csrc/api/include/torch/nn/functional/fold.h, which belongs to the C++ frontend API (libtorch's torch::nn). The obfuscated path has 7 directories, matching torch/csrc/api/include/torch/nn/functional. However, the candidate module names are anonymized and no descriptions were given for them. Nothing ties any letter to the C++ frontend, so I picked one arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 1458,
+    "completion_tokens": 168,
+    "total_tokens": 1626
+   },
+   "latency_ms": 4740.7
+  },
+  {
+   "file": "dir_c19c/dir_9ea8/file_fc8a.cpp",
+   "file_original": "c10/cuda/CUDAException.cpp",
+   "label": "module_8c52af",
+   "label_original": "c10/cuda",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8c52af",
+   "correct": true,
+   "raw_response": "I can't tell which letter is correct, because the candidate modules are only anonymized IDs with no descriptions or contents to compare against.\n\nFrom the code itself, this is `c10/cuda/CUDAException.cpp`. It sits in the c10 CUDA core library. It includes `c10/cuda/CUDAException.h` and `CUDADeviceAssertionHost.h` and implements `c10_cuda_check_implementation`. The obfuscated path `dir_c19c/dir_9ea8/file_fc8a.cpp` also has the c10/cuda/file shape, which fits.\n\nThe correct answer is whichever option corresponds to the c10 CUDA module. Without any mapping from the IDs to real modules, I'm picking at random.\n\nA",
+   "usage": {
+    "prompt_tokens": 875,
+    "completion_tokens": 246,
+    "total_tokens": 1121
+   },
+   "latency_ms": 5501.7
+  },
+  {
+   "file": "dir_c19c/dir_8dab/file_15d5.cpp",
+   "file_original": "c10/core/AllocatorConfig.cpp",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_20e0b6",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1872,
+    "completion_tokens": 43,
+    "total_tokens": 1915
+   },
+   "latency_ms": 3466.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_bf6e/file_4f73.h",
+   "file_original": "aten/src/ATen/detail/PrivateUse1HooksInterface.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_416965",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code. The file is clearly `aten/src/ATen/detail/PrivateUse1HooksInterface.h`, part of ATen's device-hooks layer, but the candidate names (module_416965, module_2792be, module_350aad, module_951a40) are opaque and come with no descriptions. Nothing links any of them to ATen. The pick below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1460,
+    "completion_tokens": 136,
+    "total_tokens": 1596
+   },
+   "latency_ms": 4334.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_3968.cu",
+   "file_original": "aten/src/ATen/native/cuda/FusedAdamKernel.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_99c55c",
+   "correct": false,
+   "raw_response": "We can't map the obfuscated names directly. This file is aten/src/ATen/native/cuda/FusedAdamKernel.cu, which would place it in the ATen native CUDA kernels module. With no other information to tell the candidates apart, the choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 91,
+    "total_tokens": 1769
+   },
+   "latency_ms": 5009.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_c446/file_89f0.cpp",
+   "file_original": "aten/src/ATen/native/vulkan/impl/Packing.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_656c6f",
+   "correct": false,
+   "raw_response": "I can't identify the module with confidence. The candidate names are anonymized and I have no mapping between them and real PyTorch components.\n\nWhat the code does show: this is `aten/src/ATen/native/vulkan/impl/Packing.cpp`, part of the ATen Vulkan backend. The path depth also fits: `aten/src/ATen/native/vulkan/impl/Packing.cpp` matches `dir/dir/dir/dir/dir/dir/file`. So the right answer is whichever module covers ATen's native or Vulkan backend code. Nothing in the content points to one of the four labels over the others, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1774,
+    "completion_tokens": 212,
+    "total_tokens": 1986
+   },
+   "latency_ms": 6223.5
+  },
+  {
+   "file": "dir_85d0/dir_33f0/dir_1578/file_c50b.py",
+   "file_original": "tools/experimental/torchfuzz/runner.py",
+   "label": "module_1f58d3",
+   "label_original": "tools/experimental",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_e94af2",
+   "correct": false,
+   "raw_response": "I can't map this to a module with confidence because the candidate names are anonymized and no module descriptions were provided. The answer below is a guess.\n\nThe file is the program runner for PyTorch's fuzzer. In the real repository that is `tools/experimental/torchfuzz/runner.py`, which fits the three-level path `dir_85d0/dir_33f0/dir_1578/`. The file probably belongs to a \"tools\" or \"dev tooling\" module, but nothing in the code links it to any specific letter.\n\nD",
+   "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 166,
+    "total_tokens": 1496
+   },
+   "latency_ms": 8027.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_4980.cu",
+   "file_original": "aten/src/ATen/native/cuda/UpSampleNearest1d.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03c671",
+   "correct": false,
+   "raw_response": "I can't tell which anonymized module this is, because the candidate names (module_03c671, module_951a40, module_99c55c, module_2ca6f5) come with no descriptions. Matching would require knowing what each one contains.\n\nWhat the file shows is clear. It is aten/src/ATen/native/cuda/UpSampleNearest1d.cu, a CUDA kernel inside ATen's native CUDA operators. The path depth fits that: dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418 corresponds to aten/src/ATen/native/cuda. So the right module is whichever candidate represents ATen native CUDA kernels.\n\nWith nothing to separate the options, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1890,
+    "completion_tokens": 244,
+    "total_tokens": 2134
+   },
+   "latency_ms": 5475.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_4dea.cpp",
+   "file_original": "aten/src/ATen/native/verbose_wrapper.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61a3c8",
+   "correct": false,
+   "raw_response": "I can't pin this to a candidate with confidence: the module names are anonymized and give no hints, so this is a best guess.\n\nThe file is `aten/src/ATen/native/verbose_wrapper.cpp`. Its four-level path (`aten/src/ATen/native/`) matches the obfuscated path depth, `dir_196c/dir_1db9/dir_1cf8/dir_4099/file_4dea.cpp`. So it most likely belongs to the ATen native operators module, but nothing in the code links that module to a specific letter. I picked A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 616,
+    "completion_tokens": 190,
+    "total_tokens": 806
+   },
+   "latency_ms": 5091.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/file_f951.cpp",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qembeddingbag.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_363306",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1747,
+    "completion_tokens": 3,
+    "total_tokens": 1750
+   },
+   "latency_ms": 5012.6
+  },
+  {
+   "file": "dir_5810/dir_a926/dir_b126/dir_be6f/file_1d54.py",
+   "file_original": "torch/ao/quantization/fx/match_utils.py",
+   "label": "module_dea72f",
+   "label_original": "torch/ao",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_087e9f",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly `torch/ao/quantization/fx/match_utils.py`, but the candidate names are fully anonymized and I have no mapping from them to real modules. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1563,
+    "completion_tokens": 75,
+    "total_tokens": 1638
+   },
+   "latency_ms": 3216.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/file_1a16.cpp",
+   "file_original": "aten/src/ATen/core/library.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7f9fac",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1637,
+    "completion_tokens": 109,
+    "total_tokens": 1746
+   },
+   "latency_ms": 3738.8
+  },
+  {
+   "file": "dir_5810/dir_a926/dir_8e72/dir_a238/dir_87ba/file_8c85.py",
+   "file_original": "torch/ao/nn/sparse/quantized/utils.py",
+   "label": "module_dea72f",
+   "label_original": "torch/ao",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_452cb7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 3,
+    "total_tokens": 1133
+   },
+   "latency_ms": 2324.0
+  },
+  {
+   "file": "dir_85d0/dir_ce3e/dir_04df/file_9fba.py",
+   "file_original": "tools/stats/upload_utilization_stats/upload_utilization_stats.py",
+   "label": "module_abf82e",
+   "label_original": "tools/stats",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_abf82e",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The file is clearly `tools/stats/upload_utilization_stats/upload_utilization_stats.py`, part of the CI stats and tooling area. But the candidate module names are anonymized and come with no descriptions, so nothing links any letter to that area. This answer is a guess.\n\nC",
+   "usage": {
+    "prompt_tokens": 1574,
+    "completion_tokens": 104,
+    "total_tokens": 1678
+   },
+   "latency_ms": 4064.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_31f1/file_a3e2.cpp",
+   "file_original": "aten/src/ATen/native/cpu/ReduceAllOpsKernel.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't tell which letter is correct, because the candidate module names are anonymized and the question gives no description of what each module contains.\n\nWhat the code itself shows:\n- The file is `aten/src/ATen/native/cpu/ReduceAllOpsKernel.cpp`.\n- It lives in ATen's native CPU kernel layer, alongside the other vectorized CPU operator implementations in `ATen/native/cpu`.\n- The path depth `dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_31f1` fits `aten/src/ATen/native/cpu`.\n\nThe right answer is whichever candidate corresponds to the ATen native CPU kernels module. I have no way to map that to a specific letter, so the pick below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1865,
+    "completion_tokens": 254,
+    "total_tokens": 2119
+   },
+   "latency_ms": 5698.3
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_b1fa/file_7232.h",
+   "file_original": "torch/csrc/autograd/anomaly_mode.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1f3411",
+   "correct": false,
+   "raw_response": "I can't tell these modules apart. The candidate names are anonymized and no descriptions were given, so this is a guess.\n\nThe file itself is clearly `torch/csrc/autograd/anomaly_mode.h`, part of the autograd engine in `torch::autograd`. The correct answer is whichever candidate is the autograd module, but I can't map that to a letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 121,
+    "total_tokens": 1106
+   },
+   "latency_ms": 3911.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4658/dir_b577/file_78a7.h",
+   "file_original": "aten/src/ATen/cuda/tunable/GemmCommon.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f59728",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly `aten/src/ATen/cuda/tunable/GemmCommon.h`, part of ATen's CUDA backend (the tunable GEMM component). But the candidate module names are fully anonymized, and nothing in the prompt links any of A–D to a real module, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1299,
+    "completion_tokens": 115,
+    "total_tokens": 1414
+   },
+   "latency_ms": 3996.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_28f3.cu",
+   "file_original": "aten/src/ATen/native/cuda/BinaryMulKernel.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1f58d3",
+   "correct": false,
+   "raw_response": "There is no basis here for telling the four modules apart. The file is clearly `aten/src/ATen/native/cuda/BinaryMulKernel.cu`, the CUDA kernel for tensor multiplication. But the module names A–D are anonymized and come with no descriptions, so nothing in the code links the file to one candidate over another. The letter below is a guess, not an inference.\n\nA",
+   "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 126,
+    "total_tokens": 1221
+   },
+   "latency_ms": 4298.9
+  },
+  {
+   "file": "dir_85d0/dir_f8b7/dir_24f5/dir_9198/file_058f.py",
+   "file_original": "tools/code_coverage/package/tool/gcc_coverage.py",
+   "label": "module_ed6cd1",
+   "label_original": "tools/code_coverage",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_aba994",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 3,
+    "total_tokens": 988
+   },
+   "latency_ms": 2264.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_56fe/file_eb52.h",
+   "file_original": "aten/src/ATen/native/sparse/Macros.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9b039f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 460,
+    "completion_tokens": 198,
+    "total_tokens": 658
+   },
+   "latency_ms": 4561.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_7a39/file_36c6.cpp",
+   "file_original": "aten/src/ATen/native/mkldnn/Copy.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_363306",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 858,
+    "completion_tokens": 101,
+    "total_tokens": 959
+   },
+   "latency_ms": 3249.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_0522.h",
+   "file_original": "aten/src/ATen/LegacyBatchedFallback.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4108db",
+   "correct": false,
+   "raw_response": "I have no information about what each candidate module contains, so I can't match this file to one with any confidence; the answer below is a guess.\n\nWhat the code shows is clear enough. This is `aten/src/ATen/LegacyBatchedFallback.h`, the vmap batching fallback in ATen's core. It declares `batchedTensorForLoopFallback`, which handles operators that lack a batching rule by slicing each BatchedTensor, running the operator per slice, and stacking the results. So the file belongs to whichever module holds the ATen core sources.\n\nThe candidate names (module_4108db, module_951a40, module_014145, module_dea72f) are anonymized, and nothing in the file links to any of them. I'm picking A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 589,
+    "completion_tokens": 241,
+    "total_tokens": 830
+   },
+   "latency_ms": 5593.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_6fca.cpp",
+   "file_original": "aten/src/ATen/native/LinearAlgebra.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The file is clearly `aten/src/ATen/native/LinearAlgebra.cpp`, the ATen native CPU operators module. But the candidate module names are anonymized hashes, and nothing in the source maps any of them to ATen native. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2240,
+    "completion_tokens": 103,
+    "total_tokens": 2343
+   },
+   "latency_ms": 4047.4
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d5ba/file_5c0d.py",
+   "file_original": "torch/_inductor/fx_passes/graph_view.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e94af2",
+   "correct": false,
+   "raw_response": "I can't pin this to a module with confidence, because the candidate names are anonymized and no descriptions were given. The code itself looks like `torch/fx/traceback.py`-adjacent tooling, or more likely `torch/fx/passes/graph_view.py` (a `GraphView` built from `nn_module_stack`). I can't map that to a specific letter, so A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 127,
+    "total_tokens": 1709
+   },
+   "latency_ms": 6008.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_5800.cu",
+   "file_original": "aten/src/ATen/native/cuda/ReduceMomentKernel.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "There is no basis for choosing between these: the four candidates are only anonymized names, with no descriptions or example files, so the code content can't be matched to any of them.\n\nWhat the code does show is that this is a CUDA reduction kernel file, likely `aten/src/ATen/native/cuda/ReduceMomentKernel.cu`. It belongs to the ATen native CUDA kernels module (`aten/src/ATen/native/cuda`). Any letter I give is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1871,
+    "completion_tokens": 162,
+    "total_tokens": 2033
+   },
+   "latency_ms": 4330.7
+  },
+  {
+   "file": "dir_c19c/dir_5ded/file_833a.h",
+   "file_original": "c10/util/qint8.h",
+   "label": "module_452cb7",
+   "label_original": "c10/util",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a3ded5",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 261,
+    "completion_tokens": 86,
+    "total_tokens": 347
+   },
+   "latency_ms": 3305.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_bf6e/file_1a8b.cpp",
+   "file_original": "aten/src/ATen/detail/IPUHooksInterface.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a3ded5",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 498,
+    "completion_tokens": 114,
+    "total_tokens": 612
+   },
+   "latency_ms": 3381.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_d2bc/dir_8c25/file_e8c9.h",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/src/qnnpack/requantization-stubs.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't determine this from the code, because the candidate module names are anonymized and none of them has a description to match against.\n\nWhat the code does show:\n- The file is `qnnpack/requantization-stubs.h`.\n- It sits in PyTorch's QNNPACK quantized backend, at `aten/src/ATen/native/quantized/cpu/qnnpack/src/qnnpack/`.\n- It includes `qnnpack/params.h` and `pytorch_qnnp_*` symbols.\n\nSo it belongs to whichever module covers the QNNPACK quantized CPU kernels. I can't tell which of A–D that is, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2008,
+    "completion_tokens": 214,
+    "total_tokens": 2222
+   },
+   "latency_ms": 5490.1
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/dir_a078/file_b004.py",
+   "file_original": "torch/_inductor/codegen/xpu/xpu_env.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f7cc49",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 611,
+    "completion_tokens": 3,
+    "total_tokens": 614
+   },
+   "latency_ms": 2819.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_c6bf.cuh",
+   "file_original": "aten/src/ATen/native/cuda/cutlass_common.cuh",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_03c671",
+   "correct": false,
+   "raw_response": "The candidate module names are anonymized, so the code can't be matched to a module with any confidence. The file itself is clear: it is `aten/src/ATen/native/cuda/cutlass_extensions/` or `aten/src/ATen/cuda/detail/` code (CUDA kernel enable guards for CUTLASS in ATen). Nothing in the content links it to a specific letter, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 924,
+    "completion_tokens": 138,
+    "total_tokens": 1062
+   },
+   "latency_ms": 4658.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_3ce0.h",
+   "file_original": "aten/src/ATen/DTensorState.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c94256",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 698,
+    "completion_tokens": 95,
+    "total_tokens": 793
+   },
+   "latency_ms": 3343.2
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_b80f/dir_85c4/dir_f024/file_52d1.cpp",
+   "file_original": "torch/csrc/api/src/nn/options/rnn.cpp",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893c28",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 928,
+    "completion_tokens": 130,
+    "total_tokens": 1058
+   },
+   "latency_ms": 3678.2
+  },
+  {
+   "file": "dir_c19c/dir_5ded/file_7ab7.cpp",
+   "file_original": "c10/util/NetworkFlow.cpp",
+   "label": "module_452cb7",
+   "label_original": "c10/util",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_f25616",
+   "correct": false,
+   "raw_response": "I can't determine this from the evidence given. The file is clearly c10/util/NetworkFlow.cpp: it includes `<c10/util/NetworkFlow.h>` and sits in the `c10` namespace. That places it in PyTorch's core c10 utility library. But the candidate module names are anonymized and come with no descriptions, so nothing links any of A–D to c10. Any letter I pick is a guess, not an inference.\n\nD",
+   "usage": {
+    "prompt_tokens": 1578,
+    "completion_tokens": 144,
+    "total_tokens": 1722
+   },
+   "latency_ms": 4394.8
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/dir_625b/file_9160.py",
+   "file_original": "torch/_inductor/codegen/mtia/__init__.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_93007c",
+   "correct": true,
+   "raw_response": "The source is empty (likely an `__init__.py`), so nothing in the code points to a module, and the candidate names are anonymized. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 254,
+    "completion_tokens": 79,
+    "total_tokens": 333
+   },
+   "latency_ms": 3390.6
+  },
+  {
+   "file": "dir_5810/dir_0075/dir_dd48/file_175d.py",
+   "file_original": "torch/_dynamo/backends/onnxrt.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_184e64",
+   "correct": false,
+   "raw_response": "There is no way to tell the modules apart from their anonymized names. The file itself is `torch/_dynamo/backends/onnxrt.py`, which belongs to the dynamo backends/compiler module, so this is a guess about which letter maps to that module.\n\nA",
+   "usage": {
+    "prompt_tokens": 882,
+    "completion_tokens": 85,
+    "total_tokens": 967
+   },
+   "latency_ms": 3452.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_b871/file_6ab0.cpp",
+   "file_original": "aten/src/ATen/native/vulkan/api/Pipeline.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1459,
+    "completion_tokens": 93,
+    "total_tokens": 1552
+   },
+   "latency_ms": 3414.7
+  },
+  {
+   "file": "dir_5810/dir_0075/file_c643.py",
+   "file_original": "torch/_dynamo/trace_rules.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5607dd",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 69,
+    "total_tokens": 1411
+   },
+   "latency_ms": 3669.2
+  },
+  {
+   "file": "dir_c19c/dir_5ded/file_ea01.h",
+   "file_original": "c10/util/Unroll.h",
+   "label": "module_452cb7",
+   "label_original": "c10/util",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f59728",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct from the information given. The four module names are anonymized and come with no descriptions, so none of them can be matched to the code by content.\n\nThe file itself is identifiable. It is `c10/util/ForcedUnroll.h`, a header-only template utility in the `c10` namespace that includes `c10/macros/Macros.h`. In the real PyTorch tree it belongs to the c10 core utilities module (`c10/util`).\n\nThe choice of A is a guess and could easily be wrong.\n\nA",
+   "usage": {
+    "prompt_tokens": 612,
+    "completion_tokens": 217,
+    "total_tokens": 829
+   },
+   "latency_ms": 5266.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_5d94.cpp",
+   "file_original": "aten/src/ATen/native/DilatedMaxPool3d.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6d132c",
+   "correct": false,
+   "raw_response": "I can't identify which anonymized module ID corresponds to this file. The code is clearly PyTorch's `aten/src/ATen/native/DilatedMaxPool3d.cpp`, part of the ATen native operators. But the candidate names are only hashes, and nothing in the file or question maps any of them to ATen native. Any choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2195,
+    "completion_tokens": 117,
+    "total_tokens": 2312
+   },
+   "latency_ms": 4188.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_e31a/dir_d235/dir_5363/file_6e4b.h",
+   "file_original": "aten/src/ATen/cpu/vec/vec512/vec512_double.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_837a80",
+   "correct": false,
+   "raw_response": "I can't pin this to a module from evidence. This is `aten/src/ATen/cpu/vec/vec512/vec512_double.h`, which belongs to the ATen CPU vectorization module, but the candidate names are hashed and give no clue which one that is. The answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 97,
+    "total_tokens": 1526
+   },
+   "latency_ms": 3411.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_7d0c.cuh",
+   "file_original": "aten/src/ATen/native/cuda/EmbeddingBackwardKernel.cuh",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_030f5f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 527,
+    "completion_tokens": 73,
+    "total_tokens": 600
+   },
+   "latency_ms": 3315.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_9f5e.h",
+   "file_original": "aten/src/ATen/native/EmbeddingBag.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5cf761",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly `aten/src/ATen/native/EmbeddingBag.h`, part of ATen native operators. But the candidate module names are anonymized and come with no descriptions, so nothing links any of them to ATen native. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1531,
+    "completion_tokens": 99,
+    "total_tokens": 1630
+   },
+   "latency_ms": 4112.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_413c/file_b967.cpp",
+   "file_original": "aten/src/ATen/nnapi/nnapi_bind.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_61a3c8",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the candidate names are anonymized and none of them can be traced to real content. The code itself is clear: this is `aten/src/ATen/nnapi/nnapi_bind.cpp`, part of ATen's NNAPI (Android Neural Networks API) backend. The path depth also fits: `dir_196c/dir_1db9/dir_1cf8/dir_413c` matches `aten/src/ATen/nnapi`.\n\nSo the right answer is whichever candidate stands for the ATen NNAPI module, or more broadly ATen. Without that mapping, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1684,
+    "completion_tokens": 207,
+    "total_tokens": 1891
+   },
+   "latency_ms": 36134.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4658/file_f91f.h",
+   "file_original": "aten/src/ATen/cuda/ATenCUDAGeneral.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 352,
+    "completion_tokens": 100,
+    "total_tokens": 452
+   },
+   "latency_ms": 3521.9
+  },
+  {
+   "file": "dir_5810/dir_0075/file_bb5e.py",
+   "file_original": "torch/_dynamo/replay_record.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6328f3",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the candidate names are fully anonymized and the prompt gives no description of what any of them contain.\n\nWhat the code itself shows:\n- This is `torch/_dynamo/replay_record.py`. It defines `ExecutionRecorder`, uses `dill` for serialization, and the assert message mentions `replay_record`.\n- It therefore belongs to TorchDynamo (`torch/_dynamo`).\n- The path `dir_5810/dir_0075/file_bb5e.py` is consistent with `torch/_dynamo/replay_record.py`.\n\nSince I have to pick one, this is a guess with nothing behind it: I'm choosing the first option.\n\nA",
+   "usage": {
+    "prompt_tokens": 1494,
+    "completion_tokens": 228,
+    "total_tokens": 1722
+   },
+   "latency_ms": 5751.9
+  },
+  {
+   "file": "dir_6508/dir_7c7f/dir_3b0d/file_830c.py",
+   "file_original": "functorch/examples/maml_omniglot/maml-omniglot-higher.py",
+   "label": "module_a466dc",
+   "label_original": "functorch/examples",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_552735",
+   "correct": false,
+   "raw_response": "Without knowing what the candidate modules contain, I can't map this file to one of them with confidence. The file is functorch/examples/maml_omniglot/maml-omniglot-higher.py, part of the functorch examples. Since the module names are obfuscated, this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 94,
+    "total_tokens": 1614
+   },
+   "latency_ms": 3480.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_bd4f/file_b3f3.h",
+   "file_original": "aten/src/ATen/native/mps/OperationUtils.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3ff998",
+   "correct": false,
+   "raw_response": "There is no way to identify the right module from the code. The file is `aten/src/ATen/native/mps/OperationUtils.h`, PyTorch's MPS (Apple Metal) native-ops helper header. However, the candidate module names are anonymized and no descriptions were given to map them to real modules. The letter below is a guess, not a derived answer.\n\nA",
+   "usage": {
+    "prompt_tokens": 2193,
+    "completion_tokens": 116,
+    "total_tokens": 2309
+   },
+   "latency_ms": 4061.7
+  },
+  {
+   "file": "dir_5810/dir_ce83/dir_413a/dir_e2e9/dir_55c2/dir_9121/dir_d33b/file_7d21.h",
+   "file_original": "torch/csrc/api/include/torch/data/samplers/random.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d85338",
+   "correct": false,
+   "raw_response": "I can't identify this from the code, because the candidate module names are anonymized and nothing in the file maps to one of them. The file is clearly `torch/csrc/api/include/torch/data/samplers/random.h`, part of the C++ frontend (libtorch API) data-loading utilities. Its seven-directory depth matches that path. Choosing among A–D is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 865,
+    "completion_tokens": 123,
+    "total_tokens": 988
+   },
+   "latency_ms": 4240.1
+  },
+  {
+   "file": "dir_5810/dir_f369/file_e022.py",
+   "file_original": "torch/_inductor/sizevars.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_416965",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly torch/_inductor/sizevars.py: it has relative imports of `.virtualized`, `.runtime.runtime_utils` and `.config`, and defines the `SizeVarAllocator` class. So it belongs to the Inductor module. However, the candidate names are fully anonymized, and nothing in the prompt maps any of them to Inductor. Any letter I pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1368,
+    "completion_tokens": 146,
+    "total_tokens": 1514
+   },
+   "latency_ms": 6950.8
+  },
+  {
+   "file": "dir_85d0/dir_6f86/dir_ef1e/file_f604.cpp",
+   "file_original": "tools/autograd/templates/Functions.cpp",
+   "label": "module_0f23d1",
+   "label_original": "tools/autograd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0f23d1",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 836,
+    "completion_tokens": 121,
+    "total_tokens": 957
+   },
+   "latency_ms": 3438.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/file_0759.h",
+   "file_original": "aten/src/ATen/core/TensorAccessor.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3ebee1",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 3,
+    "total_tokens": 1445
+   },
+   "latency_ms": 2294.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/file_c1c9.h",
+   "file_original": "aten/src/ATen/core/Tensor.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_454bd5",
+   "correct": false,
+   "raw_response": "The file is ATen/core/Tensor.h, which belongs to the ATen core tensor module. The candidate names are anonymized and no descriptions are given, so this choice is a guess rather than a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1394,
+    "completion_tokens": 70,
+    "total_tokens": 1464
+   },
+   "latency_ms": 2754.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/file_3042.h",
+   "file_original": "aten/src/ATen/native/quantized/cpu/EmbeddingPackedParams.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't tell which module this is from the code alone, because the candidate module names are anonymized and none were described. The file itself is easy to identify: it is `aten/src/ATen/native/quantized/cpu/EmbeddingPackedParams.h`, part of ATen's native quantized CPU kernels. The path depth fits: dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5 maps to aten/src/ATen/native/quantized/cpu.\n\nWithout knowing what each candidate module contains, I'm picking one arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 685,
+    "completion_tokens": 200,
+    "total_tokens": 885
+   },
+   "latency_ms": 4566.8
+  },
+  {
+   "file": "dir_85d0/dir_3f6b/file_abf5.py",
+   "file_original": "tools/gdb/pytorch-gdb.py",
+   "label": "module_daa8f9",
+   "label_original": "tools/gdb",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_350aad",
+   "correct": false,
+   "raw_response": "I can't determine this from the code: the module names are anonymized and no descriptions were given for them. The file itself is PyTorch's GDB helper script (`tools/gdb/pytorch-gdb.py`), which belongs to the developer tooling area (`tools/`). With nothing to map that to one of the four candidates, this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1555,
+    "completion_tokens": 112,
+    "total_tokens": 1667
+   },
+   "latency_ms": 3637.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_e01d.cpp",
+   "file_original": "aten/src/ATen/native/Cross.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b570",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly `aten/src/ATen/native/Cross.cpp` in PyTorch's ATen native operators layer. However, the four candidate modules are only anonymized identifiers with no descriptions, so the code gives no way to tell which one is ATen native. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1751,
+    "completion_tokens": 111,
+    "total_tokens": 1862
+   },
+   "latency_ms": 3673.9
+  },
+  {
+   "file": "dir_5810/dir_0075/dir_50e7/file_05c2.py",
+   "file_original": "torch/_dynamo/variables/object_protocol.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_656c6f",
+   "correct": false,
+   "raw_response": "I can't pin down the right module from the evidence here. The file is clearly `torch/_dynamo/variables/object_protocol.py` or similar, part of Dynamo's variable trackers. But the candidate names are fully anonymized, and nothing in the code links any of them to Dynamo. The answer below is a guess, not an inference.\n\nA",
+   "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 111,
+    "total_tokens": 1474
+   },
+   "latency_ms": 3745.8
+  },
+  {
+   "file": "dir_c19c/dir_8dab/file_38cd.cpp",
+   "file_original": "c10/core/SymFloat.cpp",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3ff998",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1584,
+    "completion_tokens": 62,
+    "total_tokens": 1646
+   },
+   "latency_ms": 2549.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4658/file_e3f9.h",
+   "file_original": "aten/src/ATen/cuda/PinnedMemoryAllocator.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 372,
+    "completion_tokens": 100,
+    "total_tokens": 472
+   },
+   "latency_ms": 4077.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_c93a/file_65e9.cpp",
+   "file_original": "aten/src/ATen/functorch/BatchRulesDecompositions.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The file is clearly `aten/src/ATen/functorch/BatchRulesDecompositions.cpp`, part of ATen's functorch batching rules. However, the candidate module names are anonymized and no descriptions are given, so nothing in the code links it to a specific label. The letter below is a guess, not an inference.\n\nA",
+   "usage": {
+    "prompt_tokens": 2390,
+    "completion_tokens": 116,
+    "total_tokens": 2506
+   },
+   "latency_ms": 3769.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_9991/file_d0e8.cpp",
+   "file_original": "aten/src/ATen/native/vulkan/ops/MaskedFill.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1195b2",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right from the code. The file is clearly the Vulkan backend's `masked_fill` op: `aten/src/ATen/native/vulkan/ops/MaskedFill.cpp`. But the four module names are opaque hashes with no descriptions, so nothing in the code links to any of them. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 114,
+    "total_tokens": 1949
+   },
+   "latency_ms": 3517.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_e39d/file_3845.h",
+   "file_original": "aten/src/ATen/native/metal/MetalTensorUtils.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't pick a candidate from evidence. The file is clearly `aten/src/ATen/native/metal/MetalUtils.h`, part of ATen's native Metal backend (it includes `MetalContext.h`, `MetalCommandBuffer.h` and `MetalTensorImpl.h`). But the candidate modules have no descriptions, so nothing links that backend to any letter. The letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1433,
+    "completion_tokens": 140,
+    "total_tokens": 1573
+   },
+   "latency_ms": 4120.4
+  },
+  {
+   "file": "dir_c19c/dir_9b54/file_2c6a.cpp",
+   "file_original": "c10/mobile/CPUProfilingAllocator.cpp",
+   "label": "module_fd95f3",
+   "label_original": "c10/mobile",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2e0abb",
+   "correct": false,
+   "raw_response": "I can't map this file to a module with confidence. The candidate names are anonymized, and no descriptions came with them.\n\nWhat the code shows is clear. This is `c10/mobile/CPUProfilingAllocator.cpp`, part of the c10 core library. That inference comes from the `c10` namespace and its includes of `c10/mobile/CPUProfilingAllocator.h` and `c10/core/impl/alloc_cpu.h`. The correct module is whichever one holds c10 core code. Since I can't tell which candidate that is, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 187,
+    "total_tokens": 1865
+   },
+   "latency_ms": 4854.2
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d7bf/dir_a078/file_2407.py",
+   "file_original": "torch/_inductor/codegen/xpu/compile_utils.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3688d0",
+   "correct": false,
+   "raw_response": "I can't pin down the module from the code alone. The file is torch/_inductor/codegen/xpu/compile_utils.py, which belongs to the Inductor codegen module (likely the XPU backend), but the candidate names are hashed and give no hint. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1745,
+    "completion_tokens": 93,
+    "total_tokens": 1838
+   },
+   "latency_ms": 2962.8
+  },
+  {
+   "file": "dir_5810/dir_f369/file_ce08.py",
+   "file_original": "torch/_inductor/mock_cache.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c40eb4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1301,
+    "completion_tokens": 173,
+    "total_tokens": 1474
+   },
+   "latency_ms": 4116.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_98c1/dir_6d41/file_1739.cu",
+   "file_original": "aten/src/ATen/native/nested/cuda/NestedTensorBinaryOps.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6e6494",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the obfuscated names, since they give no clues. The code is aten/src/ATen/native/nested/cuda/NestedTensorBinaryOps.cu, which would sit in a nested-tensor or ATen native CUDA module, but I can't map that to any of the four labels. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1735,
+    "completion_tokens": 111,
+    "total_tokens": 1846
+   },
+   "latency_ms": 3476.2
+  },
+  {
+   "file": "dir_5810/dir_f369/dir_d5ba/dir_fbef/file_213e.py",
+   "file_original": "torch/_inductor/fx_passes/serialized_patterns/_sfdp_pattern_20.py",
+   "label": "module_93007c",
+   "label_original": "torch/_inductor",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_02dbac",
+   "correct": false,
+   "raw_response": "I can't determine this from the code content. The file is clearly `torch/_inductor/fx_passes/serialized_patterns/_sfdp_pattern_20.py`, an auto-generated serialized pattern used by Inductor's SDPA fusion passes. But the four candidate module names are anonymized and come with no descriptions, so nothing links any letter to the Inductor or fx_passes module. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 3078,
+    "completion_tokens": 140,
+    "total_tokens": 3218
+   },
+   "latency_ms": 3694.6
+  },
+  {
+   "file": "dir_5810/dir_6f86/file_005b.py",
+   "file_original": "torch/autograd/forward_ad.py",
+   "label": "module_416965",
+   "label_original": "torch/autograd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_83b242",
+   "correct": false,
+   "raw_response": "There is no basis to pick one candidate over another. The file itself is clear: it is `torch/autograd/forward_ad.py`, since it imports `.grad_mode` and defines `make_dual`, `unpack_dual` and `dual_level`, so it belongs to the autograd module. But the four module names are anonymised, and nothing in the question links any of them to autograd. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 134,
+    "total_tokens": 1474
+   },
+   "latency_ms": 3568.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_56fe/file_55d4.cpp",
+   "file_original": "aten/src/ATen/native/sparse/SparseTensorMath.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_20e0b6",
+   "correct": false,
+   "raw_response": "I can't confidently map this file to a module, because the module names are fully anonymized and nothing in the code links to them.\n\nThe file itself is clear: it is `aten/src/ATen/native/sparse/SparseTensorMath.cpp`, the sparse tensor math in ATen's native operators. The obfuscated path `dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_56fe` has five levels, matching `aten/src/ATen/native/sparse`.\n\nHowever, the candidate labels (module_20e0b6, module_80b676, module_c1e942, module_951a40) carry no descriptive information. I cannot tell which one corresponds to \"ATen native sparse\" or \"ATen native operators.\" Any choice among them is essentially a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1990,
+    "completion_tokens": 254,
+    "total_tokens": 2244
+   },
+   "latency_ms": 5331.6
+  },
+  {
+   "file": "dir_5810/dir_d967/dir_dc77/file_14b0.py",
+   "file_original": "torch/_functorch/_aot_autograd/logging_utils.py",
+   "label": "module_d99c75",
+   "label_original": "torch/_functorch",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5607dd",
+   "correct": false,
+   "raw_response": "I can't pin this down from the evidence. The file is clearly torch/_functorch/_aot_autograd/logging_utils.py, part of AOTAutograd in functorch. However, the module names are anonymized and I have no descriptions of what each candidate contains, so I can't link any letter to functorch/AOTAutograd. The pick below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1368,
+    "completion_tokens": 118,
+    "total_tokens": 1486
+   },
+   "latency_ms": 3590.0
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_67f5.h",
+   "file_original": "aten/src/ATen/native/TriangularOpsUtils.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b6912a",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 3,
+    "total_tokens": 1117
+   },
+   "latency_ms": 1958.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/file_1eb9.h",
+   "file_original": "aten/src/ATen/ParallelFuture.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 95,
+    "total_tokens": 470
+   },
+   "latency_ms": 3133.6
+  },
+  {
+   "file": "dir_5810/dir_0075/file_3e76.py",
+   "file_original": "torch/_dynamo/__init__.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2b6162",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 47,
+    "total_tokens": 1367
+   },
+   "latency_ms": 2695.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/dir_0f01/dir_d2bc/file_920a.cc",
+   "file_original": "aten/src/ATen/native/quantized/cpu/qnnpack/src/fc-unpack.cc",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_454bd5",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1365,
+    "completion_tokens": 3,
+    "total_tokens": 1368
+   },
+   "latency_ms": 2037.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_87ba/dir_2fc5/file_d74c.cpp",
+   "file_original": "aten/src/ATen/native/quantized/cpu/Pooling.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a35570",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone. The file is clearly `aten/src/ATen/native/quantized/cpu/Pooling.cpp`, the quantized CPU max pooling implementation. However, the candidate module names are anonymized and no description of each module was given. Any choice is therefore a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1671,
+    "completion_tokens": 102,
+    "total_tokens": 1773
+   },
+   "latency_ms": 3299.3
+  },
+  {
+   "file": "dir_5810/dir_d967/file_f959.py",
+   "file_original": "torch/_functorch/config.py",
+   "label": "module_d99c75",
+   "label_original": "torch/_functorch",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d99c75",
+   "correct": true,
+   "raw_response": "This file is torch/_functorch/config.py, the global flag set for AOT autograd, so it belongs to the functorch module. The candidate names are anonymized, so I can't map them to functorch with certainty; A is my best guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1584,
+    "completion_tokens": 77,
+    "total_tokens": 1661
+   },
+   "latency_ms": 2776.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_0c91/dir_8e61/file_635f.h",
+   "file_original": "aten/src/ATen/hip/impl/HIPCachingAllocatorMasqueradingAsCUDA.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_552735",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1572,
+    "completion_tokens": 3,
+    "total_tokens": 1575
+   },
+   "latency_ms": 1920.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_e076.cu",
+   "file_original": "aten/src/ATen/native/cuda/ForeachBinaryOpScalarTensor.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bbb78f",
+   "correct": false,
+   "raw_response": "This file is a CUDA foreach binary-op kernel (`ForeachBinaryOpScalarTensor.cu`) at `aten/src/ATen/native/cuda`, so it belongs to the ATen native CUDA kernels module. The module names are anonymized and no candidate descriptions are given, so I can't match the content to a specific letter with confidence; this choice is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1698,
+    "completion_tokens": 129,
+    "total_tokens": 1827
+   },
+   "latency_ms": 3543.5
+  },
+  {
+   "file": "dir_5810/dir_0d79/dir_353d/file_17ab.py",
+   "file_original": "torch/backends/opt_einsum/__init__.py",
+   "label": "module_c40eb4",
+   "label_original": "torch/backends",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7f9fac",
+   "correct": false,
+   "raw_response": "I can't make a reasoned pick here, because the four candidate modules are only anonymized IDs with no descriptions or member files.\n\nThe file itself is easy to identify. It is `torch/backends/opt_einsum/__init__.py`, part of PyTorch's backends package (`torch.backends`). The evidence:\n- It imports `__allow_nonbracketed_mutation`, `ContextProp` and `PropModule` from `torch.backends`.\n- A comment refers to `torch.backends.opt_einsum.enabled`.\n- It follows the same flag pattern as other backend modules: `set_flags`, a `flags` context manager, and getters and setters for `enabled` and `strategy`.\n\nSo the correct answer is whichever candidate represents `torch.backends`. With nothing distinguishing A–D, my choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1463,
+    "completion_tokens": 276,
+    "total_tokens": 1739
+   },
+   "latency_ms": 5787.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/file_c895.cpp",
+   "file_original": "aten/src/ATen/core/blob.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c94256",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 271,
+    "completion_tokens": 111,
+    "total_tokens": 382
+   },
+   "latency_ms": 3192.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_9991/file_4c95.cpp",
+   "file_original": "aten/src/ATen/native/vulkan/ops/Factory.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c94256",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 140,
+    "total_tokens": 1513
+   },
+   "latency_ms": 3664.5
+  },
+  {
+   "file": "dir_5810/dir_cedd/dir_795b/file_5ab8.py",
+   "file_original": "torch/_export/db/gen_example.py",
+   "label": "module_910c1d",
+   "label_original": "torch/_export",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_363306",
+   "correct": false,
+   "raw_response": "I can't pick a module from the code alone, because the candidate names are anonymized and carry no hints about their contents. The file looks like `torch/_export/db/gen_example.py`, which belongs to the export / exportdb module, but I have no way to tell which candidate letter maps to that module. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 509,
+    "completion_tokens": 103,
+    "total_tokens": 612
+   },
+   "latency_ms": 3598.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_56fe/file_15dd.h",
+   "file_original": "aten/src/ATen/native/sparse/SparseFactories.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_690d88",
+   "correct": false,
+   "raw_response": "There is no information about what the candidate modules contain, so this is a guess rather than a reasoned match. The file declares a dispatch stub for `spdiags`, which would place it at `aten/src/ATen/native/sparse/SparseFactories.h`, part of ATen's native operators.\n\nA",
+   "usage": {
+    "prompt_tokens": 421,
+    "completion_tokens": 95,
+    "total_tokens": 516
+   },
+   "latency_ms": 3533.1
+  },
+  {
+   "file": "dir_c19c/dir_5ded/file_3702.h",
+   "file_original": "c10/util/AbortHandler.h",
+   "label": "module_452cb7",
+   "label_original": "c10/util",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6ea308",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 50,
+    "total_tokens": 1281
+   },
+   "latency_ms": 2739.2
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_8e43.cu",
+   "file_original": "aten/src/ATen/native/cuda/UnaryGeometricSinhKernel.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_059107",
+   "correct": false,
+   "raw_response": "There is no information linking the obfuscated module names to their contents. The file is the CUDA kernel for `sinh` in `aten/src/ATen/native/cuda`, but I cannot tell which candidate corresponds to that directory. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 86,
+    "total_tokens": 1222
+   },
+   "latency_ms": 3017.5
+  },
+  {
+   "file": "dir_c19c/dir_8dab/dir_1d9f/file_921d.cpp",
+   "file_original": "c10/core/impl/GPUTrace.cpp",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9fdaef",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 442,
+    "completion_tokens": 105,
+    "total_tokens": 547
+   },
+   "latency_ms": 3227.3
+  },
+  {
+   "file": "dir_5810/dir_0075/dir_0115/file_17ab.py",
+   "file_original": "torch/_dynamo/repro/__init__.py",
+   "label": "module_690d88",
+   "label_original": "torch/_dynamo",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_690d88",
+   "correct": true,
+   "raw_response": "The source code shown is empty, so there are no imports or content to analyse; the file is probably an empty `__init__.py`. This answer is a guess, not a reasoned match.\n\nA",
+   "usage": {
+    "prompt_tokens": 244,
+    "completion_tokens": 89,
+    "total_tokens": 333
+   },
+   "latency_ms": 3403.9
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_abd6/dir_9991/file_77b1.cpp",
+   "file_original": "aten/src/ATen/native/vulkan/ops/QuantizedTensor.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6328f3",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is clearly the Vulkan backend's quantization ops (`aten/src/ATen/native/vulkan/ops/`). However, the candidate modules are only opaque identifiers with no descriptions, so nothing links any of them to that code. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1422,
+    "completion_tokens": 104,
+    "total_tokens": 1526
+   },
+   "latency_ms": 3610.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_113a.h",
+   "file_original": "aten/src/ATen/native/TensorIterator.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5606bb",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 276,
+    "completion_tokens": 110,
+    "total_tokens": 386
+   },
+   "latency_ms": 3780.4
+  },
+  {
+   "file": "dir_c19c/dir_5ded/file_2a3e.h",
+   "file_original": "c10/util/env.h",
+   "label": "module_452cb7",
+   "label_original": "c10/util",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_68e17d",
+   "correct": false,
+   "raw_response": "I can't determine this from the evidence given. The candidate modules are only anonymized IDs, with no descriptions or sample files to map them to real PyTorch components.\n\nThe file itself is clear. It is c10/util/env.h: it declares `set_env`, `has_env`, `check_env` and `get_env` in the `c10::utils` namespace, uses the `C10_API` export macro, and its path is two directories deep (c10/util/). So it belongs to the c10 core utilities module. Which letter that corresponds to is a guess on my part.\n\nA",
+   "usage": {
+    "prompt_tokens": 568,
+    "completion_tokens": 177,
+    "total_tokens": 745
+   },
+   "latency_ms": 4814.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_e476.h",
+   "file_original": "aten/src/ATen/native/SpectralOpsUtils.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_808123",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1644,
+    "completion_tokens": 3,
+    "total_tokens": 1647
+   },
+   "latency_ms": 1888.9
+  },
+  {
+   "file": "dir_c19c/dir_8dab/dir_1d9f/file_1143.h",
+   "file_original": "c10/core/impl/InlineEvent.h",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6d132c",
+   "correct": false,
+   "raw_response": "I can't tell from the file itself which obfuscated module name matches. The file is `c10/core/impl/InlineEvent.h`, part of PyTorch's c10 core library. But the candidate names are anonymized, and no mapping from names to contents was given, so I can't confirm which one is c10. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1410,
+    "completion_tokens": 107,
+    "total_tokens": 1517
+   },
+   "latency_ms": 3530.3
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_98c1/dir_6d41/file_98be.cpp",
+   "file_original": "aten/src/ATen/native/nested/cuda/NestedTensorTransformerFunctions.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_99c55c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1961,
+    "completion_tokens": 3,
+    "total_tokens": 1964
+   },
+   "latency_ms": 1937.5
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_7a39/file_0d15.cpp",
+   "file_original": "aten/src/ATen/native/mkldnn/Conv.cpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a99b7b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2221,
+    "completion_tokens": 3,
+    "total_tokens": 2224
+   },
+   "latency_ms": 2070.9
+  },
+  {
+   "file": "dir_5810/dir_d967/dir_dc77/file_de33.py",
+   "file_original": "torch/_functorch/_aot_autograd/graph_capture_wrappers.py",
+   "label": "module_d99c75",
+   "label_original": "torch/_functorch",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3ebee1",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1549,
+    "completion_tokens": 69,
+    "total_tokens": 1618
+   },
+   "latency_ms": 3586.6
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_91d3/dir_1bc1/dir_20b7/file_8226.hpp",
+   "file_original": "aten/src/ATen/native/transformers/hip/flash_attn/flash_common_hip.hpp",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 3,
+    "total_tokens": 1206
+   },
+   "latency_ms": 2183.1
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_7614.cu",
+   "file_original": "aten/src/ATen/native/cuda/ReduceLogicKernel.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_c40eb4",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code alone. The file is clearly `aten/src/ATen/native/cuda/ReduceLogicKernel.cu`, PyTorch's ATen native CUDA kernels. But the candidate names are anonymized, and no mapping from them to real modules was given. I'm guessing.\n\nA",
+   "usage": {
+    "prompt_tokens": 878,
+    "completion_tokens": 107,
+    "total_tokens": 985
+   },
+   "latency_ms": 3545.8
+  },
+  {
+   "file": "dir_5810/dir_a926/dir_af93/dir_be6f/file_9160.py",
+   "file_original": "torch/ao/ns/fx/__init__.py",
+   "label": "module_dea72f",
+   "label_original": "torch/ao",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b72b77",
+   "correct": false,
+   "raw_response": "The source code is empty, so there are no imports or code to analyse; this answer is a guess. The file is most likely an empty `__init__.py`.\n\nA",
+   "usage": {
+    "prompt_tokens": 251,
+    "completion_tokens": 75,
+    "total_tokens": 326
+   },
+   "latency_ms": 3012.2
+  },
+  {
+   "file": "dir_5810/dir_4c7e/file_a58b.py",
+   "file_original": "torch/_logging/_internal.py",
+   "label": "module_2ca6f5",
+   "label_original": "torch/_logging",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_087e9f",
+   "correct": false,
+   "raw_response": "I can't tell which candidate module is correct, because the names are anonymized and there is no description of what each one contains. The code itself is clearly `torch/_logging/_internal.py`. It defines `LogRegistry` and the `TORCH_LOGS` and `TORCH_TRACE` environment variables, so it belongs to the `torch._logging` module. I can't map that to one of the four labels, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1695,
+    "completion_tokens": 140,
+    "total_tokens": 1835
+   },
+   "latency_ms": 3790.1
+  },
+  {
+   "file": "dir_c19c/dir_1694/file_c71f.h",
+   "file_original": "c10/xpu/XPUEvent.h",
+   "label": "module_977395",
+   "label_original": "c10/xpu",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1f3411",
+   "correct": false,
+   "raw_response": "Without knowing the candidate mappings, I can't pin this down reliably. The file is `c10/xpu/XPUEvent.h`, which belongs to the c10 core library's XPU backend. That is evident from the `c10::xpu` namespace and its include of `c10/xpu/XPUStream.h`. The obfuscated names give no hint which module is c10, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1334,
+    "completion_tokens": 129,
+    "total_tokens": 1463
+   },
+   "latency_ms": 3615.2
+  },
+  {
+   "file": "dir_5810/dir_ce83/file_05fb.h",
+   "file_original": "torch/csrc/Size.h",
+   "label": "module_5607dd",
+   "label_original": "torch/csrc",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5607dd",
+   "correct": true,
+   "raw_response": "I can't pick a letter with any confidence. The file itself is clearly identifiable: it is `torch/csrc/Size.h`, part of PyTorch's Python C bindings core (`torch/csrc`). However, the candidate labels (module_5607dd, module_ed6cd1, module_452cb7, module_4108db) are anonymized, and no descriptions or example member files were given for them. Nothing in the code maps to any specific label, so any choice would be a guess.\n\nIf you can say what each module contains, the answer would be whichever one corresponds to the `torch/csrc` Python bindings layer.\n\nIf a letter is required regardless, this is an arbitrary guess, not a reasoned answer:\n\nA",
+   "usage": {
+    "prompt_tokens": 485,
+    "completion_tokens": 229,
+    "total_tokens": 714
+   },
+   "latency_ms": 5339.9
+  },
+  {
+   "file": "dir_5810/dir_a926/dir_8e72/dir_735d/dir_a586/file_9cf0.py",
+   "file_original": "torch/ao/nn/quantized/modules/normalization.py",
+   "label": "module_dea72f",
+   "label_original": "torch/ao",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a8f5c1",
+   "correct": false,
+   "raw_response": "I can't pin this to a module with confidence, because the candidate names are anonymized and nothing ties them to their contents.\n\nThe code itself is clear about what the file is. It defines quantized `LayerNorm`, `GroupNorm` and `InstanceNorm` modules. Each uses `torch.ops.quantized.layer_norm` and offers `from_float` / `from_reference` constructors. This matches `torch/ao/nn/quantized/modules/normalization.py`, which would map to the PyTorch quantization module. The path depth also fits: `dir_5810/dir_a926/dir_8e72/dir_735d/dir_a586` lines up with `torch/ao/nn/quantized/modules`.\n\nThat still doesn't tell me which letter is the quantization module. I'm choosing A as a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 267,
+    "total_tokens": 1510
+   },
+   "latency_ms": 6263.1
+  },
+  {
+   "file": "dir_c19c/dir_9ea8/dir_1d9f/file_575d.h",
+   "file_original": "c10/cuda/impl/CUDATest.h",
+   "label": "module_8c52af",
+   "label_original": "c10/cuda",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_864193",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 68,
+    "total_tokens": 378
+   },
+   "latency_ms": 2899.7
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/file_48ae.h",
+   "file_original": "aten/src/ATen/native/FusedAdagrad.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7f9fac",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 474,
+    "completion_tokens": 62,
+    "total_tokens": 536
+   },
+   "latency_ms": 2681.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_b7d2/dir_0489/file_c0dd.h",
+   "file_original": "aten/src/ATen/core/dispatch/CppSignature.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1f58d3",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 3,
+    "total_tokens": 1162
+   },
+   "latency_ms": 2039.8
+  },
+  {
+   "file": "dir_c19c/dir_8dab/file_9d4a.h",
+   "file_original": "c10/core/QScheme.h",
+   "label": "module_9fdaef",
+   "label_original": "c10/core",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b72b77",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 88,
+    "total_tokens": 1249
+   },
+   "latency_ms": 2838.4
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_91d3/dir_6d41/dir_20b7/file_428c.h",
+   "file_original": "aten/src/ATen/native/transformers/cuda/flash_attn/static_switch.h",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code alone, because the candidate names are anonymized and their contents weren't given.\n\nThe file itself is clear. It is FlashAttention's `static_switch.h`. In PyTorch it sits at `aten/src/ATen/native/transformers/cuda/flash_attn/static_switch.h`. The path depth matches the obfuscated path `dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_91d3/dir_6d41/dir_20b7/file_428c.h`. So it belongs to whichever module covers ATen's native CUDA kernels, specifically the transformers/flash-attention code.\n\nWith nothing to tell the four candidates apart, the letter below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1729,
+    "completion_tokens": 249,
+    "total_tokens": 1978
+   },
+   "latency_ms": 5367.8
+  },
+  {
+   "file": "dir_196c/dir_1db9/dir_1cf8/dir_4099/dir_d418/file_4a19.cu",
+   "file_original": "aten/src/ATen/native/cuda/UnaryLogKernels.cu",
+   "label": "module_951a40",
+   "label_original": "aten/src",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_951a40",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2052,
+    "completion_tokens": 95,
+    "total_tokens": 2147
+   },
+   "latency_ms": 3507.5
+  }
+ ],
+ "timestamp": "2026-10-03T03:56:31.839132",
+ "model": "claude-opus-5.5",
+ "project": "pytorch",
+ "task": "ci_obfuscated",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42
+}

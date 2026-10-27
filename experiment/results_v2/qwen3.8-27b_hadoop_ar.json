@@ -1,0 +1,327 @@
+{
+  "precision_at_5": 0.3052631578947369,
+  "recall_at_5": 0.7719298245614035,
+  "total": 19,
+  "results": [
+    {
+      "source_module": "hadoop-mapreduce-project/hadoop-mapreduce-client",
+      "true_targets": [
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-mapreduce-project/hadoop-mapreduce-examples"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-yarn-project/hadoop-yarn\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-annotations\nhadoop-mapreduce-project/hadoop-mapreduce-examples"
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-common",
+      "true_targets": [
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-yarn-project/hadoop-yarn\nhadoop-mapreduce-project/hadoop-mapreduce-client"
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs",
+      "true_targets": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-build-tools"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-build-tools"
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-nfs",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-build-tools"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-annotations\nhadoop-build-tools"
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-gcp",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-cloud-storage-project/hadoop-cloud-storage",
+        "hadoop-build-tools"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-cloud-storage-project/hadoop-cloud-storage\nhadoop-annotations\nhadoop-build-tools"
+    },
+    {
+      "source_module": "hadoop-yarn-project/hadoop-yarn",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-registry"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-auth\nhadoop-mapreduce-project/hadoop-mapreduce-client\nhadoop-common-project/hadoop-annotations"
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-rbf",
+      "true_targets": [
+        "hadoop-tools",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "hadoop-hdfs-project/hadoop-hdfs\nhadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-yarn-project/hadoop-yarn\nhadoop-common-project/hadoop-annotations"
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+      "true_targets": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "predicted": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "hadoop-hdfs-project/hadoop-hdfs\nhadoop-common-project/hadoop-common\nhadoop-yarn-project/hadoop-yarn\nhadoop-mapreduce-project/hadoop-mapreduce-client\nhadoop-hdfs-project/hadoop-hdfs-client"
+    },
+    {
+      "source_module": "hadoop-mapreduce-project/hadoop-mapreduce-examples",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "predicted": [
+        "hadoop-mapreduce-project/hadoop-mapreduce-client",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-mapreduce-project/hadoop-mapreduce-client\nhadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-yarn-project/hadoop-yarn\nhadoop-common-project/hadoop-annotations"
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-cos",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-cloud-storage-project/hadoop-cloud-storage",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-cloud-storage-project/hadoop-cloud-storage\nhadoop-yarn-project/hadoop-yarn\nhadoop-mapreduce-project/hadoop-mapreduce-client"
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-tos",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-cloud-storage-project/hadoop-cloud-storage",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-build-tools"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-cloud-storage-project/hadoop-cloud-storage\nhadoop-common-project/hadoop-annotations\nhadoop-build-tools"
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-huaweicloud",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-cloud-storage-project/hadoop-cloud-storage",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-cloud-storage-project/hadoop-cloud-storage\nhadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-yarn-project/hadoop-yarn\nhadoop-mapreduce-project/hadoop-mapreduce-client"
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-client",
+      "true_targets": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs-native-client",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-build-tools"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-annotations\nhadoop-hdfs-project/hadoop-hdfs-native-client\nhadoop-common-project/hadoop-auth\nhadoop-build-tools"
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-kms",
+      "true_targets": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-yarn-project/hadoop-yarn\nhadoop-mapreduce-project/hadoop-mapreduce-client"
+    },
+    {
+      "source_module": "hadoop-tools",
+      "true_targets": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-cloud-storage-project/hadoop-cloud-storage"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-mapreduce-project/hadoop-mapreduce-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-yarn-project/hadoop-yarn\nhadoop-cloud-storage-project/hadoop-cloud-storage"
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-registry",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-build-tools",
+        "hadoop-maven-plugins"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-common\nhadoop-build-tools\nhadoop-maven-plugins"
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-auth",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-build-tools",
+        "hadoop-common-project/hadoop-minikdc",
+        "hadoop-common-project/hadoop-auth-examples",
+        "hadoop-maven-plugins"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-build-tools\nhadoop-common-project/hadoop-minikdc\nhadoop-common-project/hadoop-auth-examples\nhadoop-maven-plugins"
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-nfs",
+      "true_targets": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-nfs"
+      ],
+      "predicted": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-nfs",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "hadoop-hdfs-project/hadoop-hdfs\nhadoop-common-project/hadoop-nfs\nhadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-annotations"
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-auth-examples",
+      "true_targets": [
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-build-tools"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-common\nhadoop-build-tools\nhadoop-annotations\nhadoop-minikdc"
+    }
+  ],
+  "n_api_errors": 0
+}

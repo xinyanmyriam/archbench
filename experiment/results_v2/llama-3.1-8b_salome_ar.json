@@ -1,0 +1,1529 @@
+{
+ "precision_at_5": 0.1606060606060606,
+ "recall_at_5": 0.2529969040664228,
+ "total": 66,
+ "results": [
+  {
+   "source_module": "smesh/src/StdMeshersGUI",
+   "true_targets": [
+    "geom/src/GEOMBase",
+    "geom/src/GEOMFiltersSelection",
+    "geom/src/GEOM_I",
+    "gui/src/OBJECT",
+    "gui/src/Qtx",
+    "gui/src/SalomeApp",
+    "smesh/src/OBJECT",
+    "smesh/src/SMESH_I"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "smesh/src/StdMeshers",
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS",
+    "smesh/src/SMESH_I"
+   ],
+   "precision": 0.2,
+   "recall": 0.125,
+   "raw_response": "1. smesh/src/SMESH\n2. smesh/src/StdMeshers\n3. geom/src/GEOMImpl\n4. kernel/src/SALOMEDS\n5. smesh/src/SMESH_I",
+   "true_targets_v1": [
+    "geom/src/GEOM_I",
+    "geom/src/GEOMFiltersSelection",
+    "gui/src/OBJECT"
+   ]
+  },
+  {
+   "source_module": "kernel/src/ResourcesManager",
+   "true_targets": [
+    "kernel/src/NamingService"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/DSC",
+    "kernel/src/HDFPersist",
+    "kernel/src/Launcher",
+    "kernel/src/Container"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/DSC\n3. kernel/src/HDFPersist\n4. kernel/src/Launcher\n5. kernel/src/Container",
+   "true_targets_v1": [
+    "kernel/src/NamingService"
+   ]
+  },
+  {
+   "source_module": "geom/src/MeasureGUI",
+   "true_targets": [
+    "geom/src/GEOMBase",
+    "geom/src/GEOMGUI",
+    "geom/src/OBJECT",
+    "gui/src/OCCViewer",
+    "gui/src/Prs",
+    "gui/src/Qtx",
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "kernel/src/SALOMEDS"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/XAO",
+    "geom/src/DlgRef",
+    "geom/src/EntityGUI"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/XAO\n4. geom/src/DlgRef\n5. geom/src/EntityGUI",
+   "true_targets_v1": [
+    "gui/src/SUIT",
+    "geom/src/OBJECT",
+    "gui/src/Qtx"
+   ]
+  },
+  {
+   "source_module": "geom/src/OperationGUI",
+   "true_targets": [
+    "geom/src/GEOMImpl",
+    "gui/src/LightApp",
+    "gui/src/OCCViewer",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/GEOM_I",
+   "true_targets_v1": [
+    "geom/src/GEOMGUI",
+    "geom/src/GEOMBase"
+   ]
+  },
+  {
+   "source_module": "kernel/src/Logger",
+   "true_targets": [
+    "kernel/src/ArgvKeeper",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/SALOMEDSImpl",
+    "kernel/src/DSC",
+    "kernel/src/HDFPersist",
+    "kernel/src/Container"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/SALOMEDSImpl\n3. kernel/src/DSC\n4. kernel/src/HDFPersist\n5. kernel/src/Container",
+   "true_targets_v1": [
+    "kernel/src/KernelHelpers"
+   ]
+  },
+  {
+   "source_module": "gui/src/SVTK",
+   "true_targets": [
+    "gui/src/OpenGLUtils",
+    "gui/src/Prs",
+    "gui/src/VTKViewer",
+    "gui/src/ViewerTools"
+   ],
+   "predicted": [
+    "gui/src/Qtx",
+    "gui/src/SUIT",
+    "gui/src/LightApp",
+    "gui/src/SalomeApp",
+    "gui/src/VTKViewer"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. gui/src/Qtx\n2. gui/src/SUIT\n3. gui/src/LightApp\n4. gui/src/SalomeApp\n5. gui/src/VTKViewer",
+   "true_targets_v1": [
+    "gui/src/SUIT",
+    "gui/src/Prs"
+   ]
+  },
+  {
+   "source_module": "geom/src/AdvancedGUI",
+   "true_targets": [
+    "geom/src/DlgRef",
+    "geom/src/GEOMBase",
+    "geom/src/GEOMGUI",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_SWIG",
+    "geom/src/GEOM_I",
+    "geom/src/MeasureGUI",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_SWIG\n3. geom/src/GEOM_I\n4. geom/src/MeasureGUI\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/SUIT"
+   ]
+  },
+  {
+   "source_module": "smesh/src/DriverGMF",
+   "true_targets": [
+    "smesh/src/Driver",
+    "smesh/src/SMESHDS"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESH_I",
+    "smesh/src/StdMeshers",
+    "smesh/src/SMESHUtils"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. smesh/src/SMESH\n2. geom/src/GEOMImpl\n3. smesh/src/SMESH_I\n4. smesh/src/StdMeshers\n5. smesh/src/SMESHUtils",
+   "true_targets_v1": [
+    "smesh/src/SMESHDS"
+   ]
+  },
+  {
+   "source_module": "gui/src/QtViewer",
+   "true_targets": [
+    "gui/src/SUIT"
+   ],
+   "predicted": [
+    "gui/src/SVTK",
+    "gui/src/SUIT",
+    "gui/src/SalomeApp",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESHGUI"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. gui/src/SVTK\n2. gui/src/SUIT\n3. gui/src/SalomeApp\n4. geom/src/GEOMImpl\n5. smesh/src/SMESHGUI",
+   "true_targets_v1": [
+    "gui/src/SUIT"
+   ]
+  },
+  {
+   "source_module": "geom/src/GroupGUI",
+   "true_targets": [
+    "geom/src/GEOMGUI",
+    "geom/src/GEOMUtils",
+    "geom/src/MeasureGUI",
+    "gui/src/Prs",
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/GEOM_I",
+   "true_targets_v1": [
+    "geom/src/GEOMGUI",
+    "gui/src/OCCViewer"
+   ]
+  },
+  {
+   "source_module": "geom/src/GEOMGUI",
+   "true_targets": [
+    "geom/src/GEOM",
+    "geom/src/GEOMFiltersSelection",
+    "geom/src/Material",
+    "gui/src/GraphicsView",
+    "gui/src/LightApp",
+    "gui/src/PV3DViewer",
+    "gui/src/Prs",
+    "gui/src/SOCC",
+    "gui/src/SPV3D",
+    "gui/src/SUIT",
+    "kernel/src/LifeCycleCORBA",
+    "kernel/src/SALOMEDS"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/MeasureGUI",
+    "geom/src/DlgRef",
+    "geom/src/XAO"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/MeasureGUI\n4. geom/src/DlgRef\n5. geom/src/XAO",
+   "true_targets_v1": [
+    "gui/src/GraphicsView",
+    "geom/src/GEOMImpl",
+    "kernel/src/LifeCycleCORBA"
+   ]
+  },
+  {
+   "source_module": "gui/src/LightApp",
+   "true_targets": [
+    "gui/src/CAM",
+    "gui/src/GLViewer",
+    "gui/src/OBJECT",
+    "gui/src/PV3DViewer",
+    "gui/src/PVViewer",
+    "gui/src/Plot2d",
+    "gui/src/PyViewer",
+    "gui/src/QxScene",
+    "gui/src/SOCC",
+    "gui/src/SPlot2d",
+    "gui/src/SVTK",
+    "gui/src/Style",
+    "gui/src/VTKViewer"
+   ],
+   "predicted": [
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "gui/src/Qtx",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESHGUI"
+   ],
+   "precision": 0.2,
+   "recall": 0.07692307692307693,
+   "raw_response": "1. gui/src/SUIT\n2. gui/src/SVTK\n3. gui/src/Qtx\n4. geom/src/GEOMImpl\n5. smesh/src/SMESHGUI",
+   "true_targets_v1": [
+    "gui/src/PVViewer",
+    "gui/src/SVTK"
+   ]
+  },
+  {
+   "source_module": "smesh/src/SMESH_I",
+   "true_targets": [
+    "geom/src/GEOMClient",
+    "geom/src/GEOM_I",
+    "kernel/src/Container",
+    "kernel/src/GenericObj",
+    "kernel/src/HDFPersist",
+    "kernel/src/ModuleCatalog",
+    "kernel/src/SALOMEDS",
+    "kernel/src/TOOLSDS",
+    "kernel/src/Utils",
+    "smesh/src/SMESH",
+    "smesh/src/SMESHUtils"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "smesh/src/StdMeshers",
+    "smesh/src/SMESHUtils",
+    "geom/src/GEOM_I",
+    "kernel/src/SALOMEDS"
+   ],
+   "precision": 0.8,
+   "recall": 0.36363636363636365,
+   "raw_response": "1. smesh/src/SMESH\n2. smesh/src/StdMeshers\n3. smesh/src/SMESHUtils\n4. geom/src/GEOM_I\n5. kernel/src/SALOMEDS",
+   "true_targets_v1": [
+    "geom/src/GEOMClient",
+    "kernel/src/KernelHelpers",
+    "kernel/src/Utils"
+   ]
+  },
+  {
+   "source_module": "kernel/src/SALOMESDS",
+   "true_targets": [
+    "kernel/src/Container",
+    "kernel/src/NamingService",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDSImpl",
+    "kernel/src/HDFPersist",
+    "kernel/src/Container",
+    "kernel/src/Launcher",
+    "kernel/src/KERNEL_PY"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. kernel/src/SALOMEDSImpl\n2. kernel/src/HDFPersist\n3. kernel/src/Container\n4. kernel/src/Launcher\n5. kernel/src/KERNEL_PY",
+   "true_targets_v1": [
+    "kernel/src/Container",
+    "kernel/src/KernelHelpers"
+   ]
+  },
+  {
+   "source_module": "yacs/src/salomewrap",
+   "true_targets": [
+    "gui/src/CAM",
+    "gui/src/OBJECT",
+    "gui/src/SUIT",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "yacs/src/engine",
+    "yacs/src/runtime",
+    "yacs/src/wrappergen",
+    "yacs/src/genericgui",
+    "yacs/src/yacsloader"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. yacs/src/engine\n2. yacs/src/runtime\n3. yacs/src/wrappergen\n4. yacs/src/genericgui\n5. yacs/src/yacsloader",
+   "true_targets_v1": [
+    "gui/src/OBJECT"
+   ]
+  },
+  {
+   "source_module": "gui/src/SalomeApp",
+   "true_targets": [
+    "gui/src/CAM",
+    "gui/src/LightApp",
+    "gui/src/Prs",
+    "gui/src/STD",
+    "gui/src/TOOLSGUI",
+    "kernel/src/Container",
+    "kernel/src/NamingService",
+    "kernel/src/TOOLSDS",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "gui/src/Qtx",
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "gui/src/LightApp",
+    "gui/src/VTKViewer"
+   ],
+   "precision": 0.2,
+   "recall": 0.1111111111111111,
+   "raw_response": "1. gui/src/Qtx\n2. gui/src/SUIT\n3. gui/src/SVTK\n4. gui/src/LightApp\n5. gui/src/VTKViewer",
+   "true_targets_v1": [
+    "gui/src/SUIT",
+    "kernel/src/Utils"
+   ]
+  },
+  {
+   "source_module": "gui/src/OCCViewer",
+   "true_targets": [
+    "gui/src/OpenGLUtils",
+    "gui/src/Qtx",
+    "gui/src/SUIT"
+   ],
+   "predicted": [
+    "gui/src/SVTK",
+    "gui/src/SUIT",
+    "gui/src/Qtx",
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "1. gui/src/SVTK\n2. gui/src/SUIT\n3. gui/src/Qtx\n4. geom/src/GEOMImpl\n5. kernel/src/SALOMEDS",
+   "true_targets_v1": [
+    "gui/src/ViewerTools"
+   ]
+  },
+  {
+   "source_module": "geom/src/EntityGUI",
+   "true_targets": [
+    "geom/src/CurveCreator",
+    "geom/src/GEOMGUI",
+    "geom/src/OBJECT",
+    "geom/src/SKETCHER",
+    "gui/src/LightApp",
+    "gui/src/OBJECT",
+    "gui/src/Prs",
+    "gui/src/SOCC",
+    "gui/src/SalomeApp",
+    "kernel/src/SALOMEDS"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/LightApp",
+    "gui/src/SVTK",
+    "geom/src/DlgRef"
+   ]
+  },
+  {
+   "source_module": "smesh/src/StdMeshers",
+   "true_targets": [
+    "kernel/src/Utils",
+    "smesh/src/SMDS",
+    "smesh/src/SMESHDS",
+    "smesh/src/SMESHUtils"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "smesh/src/SMESH_I",
+    "smesh/src/SMESHUtils",
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. smesh/src/SMESH\n2. smesh/src/SMESH_I\n3. smesh/src/SMESHUtils\n4. geom/src/GEOMImpl\n5. kernel/src/SALOMEDS",
+   "true_targets_v1": [
+    "geom/src/GEOMUtils",
+    "smesh/src/SMESHUtils"
+   ]
+  },
+  {
+   "source_module": "geom/src/OBJECT",
+   "true_targets": [
+    "geom/src/OCC2VTK",
+    "gui/src/OBJECT",
+    "gui/src/SalomeApp",
+    "gui/src/VTKViewer"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/MeasureGUI",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/MeasureGUI\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/VTKViewer",
+    "geom/src/OCC2VTK"
+   ]
+  },
+  {
+   "source_module": "kernel/src/ParallelContainer",
+   "true_targets": [
+    "kernel/src/ArgvKeeper",
+    "kernel/src/Container",
+    "kernel/src/NamingService",
+    "kernel/src/Registry"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/Container",
+    "kernel/src/Launcher",
+    "kernel/src/HDFPersist",
+    "kernel/src/DSC"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/Container\n3. kernel/src/Launcher\n4. kernel/src/HDFPersist\n5. kernel/src/DSC",
+   "true_targets_v1": [
+    "kernel/src/ArgvKeeper",
+    "kernel/src/Notification"
+   ]
+  },
+  {
+   "source_module": "smesh/src/StdMeshers_I",
+   "true_targets": [
+    "kernel/src/Utils",
+    "smesh/src/SMESH",
+    "smesh/src/SMESH_I"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "smesh/src/StdMeshers",
+    "smesh/src/SMESH_I",
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "1. smesh/src/SMESH\n2. smesh/src/StdMeshers\n3. smesh/src/SMESH_I\n4. geom/src/GEOMImpl\n5. kernel/src/SALOMEDS",
+   "true_targets_v1": [
+    "smesh/src/SMESHUtils"
+   ]
+  },
+  {
+   "source_module": "medcoupling/src/ShapeRecogn",
+   "true_targets": [
+    "medcoupling/src/INTERP_KERNEL",
+    "medcoupling/src/INTERP_KERNELTest"
+   ],
+   "predicted": [
+    "medcoupling/src/MEDCoupling",
+    "medcoupling/src/INTERP_KERNEL",
+    "medcoupling/src/MEDLoader",
+    "kernel/src/SALOMEDS",
+    "geom/src/GEOMImpl"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. medcoupling/src/MEDCoupling\n2. medcoupling/src/INTERP_KERNEL\n3. medcoupling/src/MEDLoader\n4. kernel/src/SALOMEDS\n5. geom/src/GEOMImpl",
+   "true_targets_v1": [
+    "medcoupling/src/MEDCoupling"
+   ]
+  },
+  {
+   "source_module": "yacs/src/ydfx_gui",
+   "true_targets": [
+    "yacs/src/bases",
+    "yacs/src/evalyfx",
+    "yacs/src/runtime"
+   ],
+   "predicted": [
+    "yacs/src/engine",
+    "yacs/src/genericgui",
+    "yacs/src/runtime",
+    "geom/src/GEOMImpl",
+    "gui/src/Qtx"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. yacs/src/engine\n2. yacs/src/genericgui\n3. yacs/src/runtime\n4. geom/src/GEOMImpl\n5. gui/src/Qtx",
+   "true_targets_v1": [
+    "kernel/src/ResourcesManager"
+   ]
+  },
+  {
+   "source_module": "kernel/src/MPIContainer",
+   "true_targets": [
+    "kernel/src/Container",
+    "kernel/src/NamingService"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/Container",
+    "kernel/src/Launcher",
+    "medcoupling/src/INTERP_KERNEL",
+    "geom/src/GEOMImpl"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/Container\n3. kernel/src/Launcher\n4. medcoupling/src/INTERP_KERNEL\n5. geom/src/GEOMImpl",
+   "true_targets_v1": [
+    "kernel/src/Utils"
+   ]
+  },
+  {
+   "source_module": "kernel/src/LifeCycleCORBA",
+   "true_targets": [
+    "kernel/src/Launcher",
+    "kernel/src/NamingService",
+    "kernel/src/SALOMESDS",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/SALOMEDSImpl",
+    "kernel/src/DSC",
+    "kernel/src/HDFPersist",
+    "kernel/src/Container"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/SALOMEDSImpl\n3. kernel/src/DSC\n4. kernel/src/HDFPersist\n5. kernel/src/Container",
+   "true_targets_v1": [
+    "kernel/src/Launcher"
+   ]
+  },
+  {
+   "source_module": "geom/src/GEOMToolsGUI",
+   "true_targets": [
+    "geom/src/DependencyTree",
+    "geom/src/GEOMBase",
+    "geom/src/Material",
+    "gui/src/CAM",
+    "gui/src/Qtx",
+    "gui/src/SOCC",
+    "gui/src/STD",
+    "gui/src/SVTK",
+    "gui/src/SalomeApp",
+    "kernel/src/SALOMEDS",
+    "kernel/src/SALOMEDSClient"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/MeasureGUI",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/MeasureGUI\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/CAM"
+   ]
+  },
+  {
+   "source_module": "smesh/src/OBJECT",
+   "true_targets": [
+    "gui/src/Qtx",
+    "gui/src/SPlot2d",
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "gui/src/SalomeApp",
+    "gui/src/VTKViewer",
+    "smesh/src/SMESHDS"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS",
+    "smesh/src/StdMeshers",
+    "kernel/src/Container"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. smesh/src/SMESH\n2. geom/src/GEOMImpl\n3. kernel/src/SALOMEDS\n4. smesh/src/StdMeshers\n5. kernel/src/Container",
+   "true_targets_v1": [
+    "gui/src/Plot2d",
+    "gui/src/Qtx"
+   ]
+  },
+  {
+   "source_module": "yacs/src/py2yacs",
+   "true_targets": [
+    "yacs/src/engine",
+    "yacs/src/runtime"
+   ],
+   "predicted": [
+    "yacs/src/engine",
+    "yacs/src/runtime",
+    "yacs/src/wrappergen",
+    "yacs/src/bases",
+    "yacs/src/genericgui"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "1. yacs/src/engine\n2. yacs/src/runtime\n3. yacs/src/wrappergen\n4. yacs/src/bases\n5. yacs/src/genericgui",
+   "true_targets_v1": [
+    "yacs/src/bases",
+    "yacs/src/yacsloader"
+   ]
+  },
+  {
+   "source_module": "smesh/src/SMESHGUI",
+   "true_targets": [
+    "geom/src/GEOMBase",
+    "geom/src/GEOMClient",
+    "geom/src/GEOMFiltersSelection",
+    "geom/src/OBJECT",
+    "gui/src/OBJECT",
+    "gui/src/ObjBrowser",
+    "gui/src/PV3DViewer",
+    "gui/src/Plot2d",
+    "gui/src/Qtx",
+    "gui/src/SPV3D",
+    "gui/src/SPlot2d",
+    "gui/src/SUIT",
+    "gui/src/VTKViewer",
+    "kernel/src/LifeCycleCORBA",
+    "kernel/src/SALOMEDS",
+    "smesh/src/OBJECT",
+    "smesh/src/SMESHUtils"
+   ],
+   "predicted": [
+    "smesh/src/StdMeshers",
+    "smesh/src/SMESH",
+    "smesh/src/SMESH_I",
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS"
+   ],
+   "precision": 0.2,
+   "recall": 0.058823529411764705,
+   "raw_response": "1. smesh/src/StdMeshers\n2. smesh/src/SMESH\n3. smesh/src/SMESH_I\n4. geom/src/GEOMImpl\n5. kernel/src/SALOMEDS",
+   "true_targets_v1": [
+    "gui/src/SVTK",
+    "geom/src/GEOMBase",
+    "smesh/src/SMDS",
+    "gui/src/SPlot2d",
+    "geom/src/GEOMClient",
+    "kernel/src/LifeCycleCORBA"
+   ]
+  },
+  {
+   "source_module": "kernel/src/SALOMEDS",
+   "true_targets": [
+    "kernel/src/ArgvKeeper",
+    "kernel/src/GenericObj",
+    "kernel/src/HDFPersist",
+    "kernel/src/KernelHelpers",
+    "kernel/src/SALOMEDSImpl"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDSImpl",
+    "kernel/src/HDFPersist",
+    "kernel/src/Container",
+    "kernel/src/Launcher",
+    "kernel/src/KERNEL_PY"
+   ],
+   "precision": 0.4,
+   "recall": 0.4,
+   "raw_response": "1. kernel/src/SALOMEDSImpl\n2. kernel/src/HDFPersist\n3. kernel/src/Container\n4. kernel/src/Launcher\n5. kernel/src/KERNEL_PY",
+   "true_targets_v1": [
+    "kernel/src/SALOMEDSImpl"
+   ]
+  },
+  {
+   "source_module": "kernel/src/SALOMETraceCollector",
+   "true_targets": [
+    "kernel/src/Logger",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/DSC",
+    "kernel/src/Launcher",
+    "kernel/src/Container",
+    "kernel/src/HDFPersist"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/DSC\n3. kernel/src/Launcher\n4. kernel/src/Container\n5. kernel/src/HDFPersist",
+   "true_targets_v1": [
+    "kernel/src/NamingService",
+    "medcoupling/src/INTERP_KERNELTest",
+    "yacs/src/yacsloader"
+   ]
+  },
+  {
+   "source_module": "geom/src/BuildGUI",
+   "true_targets": [
+    "geom/src/GEOMImpl",
+    "gui/src/LightApp",
+    "gui/src/OBJECT",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/MeasureGUI",
+    "geom/src/XAO"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/MeasureGUI\n5. geom/src/XAO",
+   "true_targets_v1": [
+    "gui/src/SalomeApp",
+    "geom/src/DlgRef"
+   ]
+  },
+  {
+   "source_module": "medcoupling/src/ParaMEDMEM",
+   "true_targets": [
+    "medcoupling/src/ICoCo",
+    "medcoupling/src/INTERP_KERNEL"
+   ],
+   "predicted": [
+    "medcoupling/src/MEDLoader",
+    "medcoupling/src/MEDCoupling",
+    "kernel/src/SALOMEDS",
+    "medcoupling/src/INTERP_KERNEL",
+    "geom/src/GEOMImpl"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. medcoupling/src/MEDLoader\n2. medcoupling/src/MEDCoupling\n3. kernel/src/SALOMEDS\n4. medcoupling/src/INTERP_KERNEL\n5. geom/src/GEOMImpl",
+   "true_targets_v1": [
+    "medcoupling/src/INTERP_KERNEL"
+   ]
+  },
+  {
+   "source_module": "gui/src/SOCC",
+   "true_targets": [
+    "gui/src/OBJECT",
+    "gui/src/OCCViewer",
+    "gui/src/Prs"
+   ],
+   "predicted": [
+    "gui/src/Qtx",
+    "kernel/src/SALOMEDS",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESH",
+    "gui/src/SUIT"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. gui/src/Qtx\n2. kernel/src/SALOMEDS\n3. geom/src/GEOMImpl\n4. smesh/src/SMESH\n5. gui/src/SUIT",
+   "true_targets_v1": [
+    "gui/src/SUIT",
+    "gui/src/OCCViewer"
+   ]
+  },
+  {
+   "source_module": "medcoupling/src/ICoCo",
+   "true_targets": [
+    "medcoupling/src/MEDCoupling"
+   ],
+   "predicted": [
+    "medcoupling/src/MEDCoupling",
+    "medcoupling/src/INTERP_KERNEL",
+    "medcoupling/src/MEDLoader",
+    "medcoupling/src/ParaMEDMEM",
+    "kernel/src/SALOMEDS"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. medcoupling/src/MEDCoupling\n2. medcoupling/src/INTERP_KERNEL\n3. medcoupling/src/MEDLoader\n4. medcoupling/src/ParaMEDMEM\n5. kernel/src/SALOMEDS",
+   "true_targets_v1": [
+    "medcoupling/src/MEDCoupling"
+   ]
+  },
+  {
+   "source_module": "gui/src/SALOME_PY",
+   "true_targets": [
+    "gui/src/Event",
+    "gui/src/LightApp"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESH",
+    "yacs/src/engine",
+    "gui/src/Qtx"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. geom/src/GEOMImpl\n3. smesh/src/SMESH\n4. yacs/src/engine\n5. gui/src/Qtx",
+   "true_targets_v1": [
+    "gui/src/LightApp"
+   ]
+  },
+  {
+   "source_module": "geom/src/DependencyTree",
+   "true_targets": [
+    "gui/src/GraphicsView",
+    "gui/src/OCCViewer",
+    "gui/src/Qtx",
+    "gui/src/SUIT",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/GEOM_I",
+   "true_targets_v1": [
+    "gui/src/Qtx",
+    "gui/src/OCCViewer"
+   ]
+  },
+  {
+   "source_module": "kernel/src/KernelHelpers",
+   "true_targets": [
+    "kernel/src/LifeCycleCORBA",
+    "kernel/src/NamingService"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/DSC",
+    "kernel/src/SALOMEDSImpl",
+    "kernel/src/HDFPersist",
+    "kernel/src/Launcher"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/DSC\n3. kernel/src/SALOMEDSImpl\n4. kernel/src/HDFPersist\n5. kernel/src/Launcher",
+   "true_targets_v1": [
+    "yacs/src/yacsloader"
+   ]
+  },
+  {
+   "source_module": "smesh/src/SMESHFiltersSelection",
+   "true_targets": [
+    "gui/src/LightApp",
+    "gui/src/OBJECT",
+    "gui/src/SalomeApp",
+    "kernel/src/SALOMEDS"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "smesh/src/StdMeshers",
+    "smesh/src/SMESH_I",
+    "smesh/src/SMESHUtils",
+    "geom/src/GEOMImpl"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. smesh/src/SMESH\n2. smesh/src/StdMeshers\n3. smesh/src/SMESH_I\n4. smesh/src/SMESHUtils\n5. geom/src/GEOMImpl",
+   "true_targets_v1": [
+    "kernel/src/SALOMEDS"
+   ]
+  },
+  {
+   "source_module": "gui/src/SUITApp",
+   "true_targets": [
+    "gui/src/SUIT",
+    "gui/src/Style"
+   ],
+   "predicted": [
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "gui/src/LightApp",
+    "gui/src/SalomeApp",
+    "gui/src/Qtx"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. gui/src/SUIT\n2. gui/src/SVTK\n3. gui/src/LightApp\n4. gui/src/SalomeApp\n5. gui/src/Qtx",
+   "true_targets_v1": [
+    "gui/src/Style"
+   ]
+  },
+  {
+   "source_module": "kernel/src/Communication",
+   "true_targets": [
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/SALOMEDSImpl",
+    "kernel/src/DSC",
+    "kernel/src/HDFPersist",
+    "kernel/src/Launcher"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/SALOMEDSImpl\n3. kernel/src/DSC\n4. kernel/src/HDFPersist\n5. kernel/src/Launcher",
+   "true_targets_v1": [
+    "kernel/src/Utils"
+   ]
+  },
+  {
+   "source_module": "geom/src/IGESPlugin",
+   "true_targets": [
+    "geom/src/GEOM",
+    "gui/src/LightApp",
+    "gui/src/OBJECT",
+    "gui/src/SUIT",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/XAO",
+    "geom/src/GEOM_SWIG",
+    "geom/src/MeasureGUI"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/XAO\n4. geom/src/GEOM_SWIG\n5. geom/src/MeasureGUI",
+   "true_targets_v1": [
+    "geom/src/GEOM"
+   ]
+  },
+  {
+   "source_module": "geom/src/GEOMImpl",
+   "true_targets": [
+    "geom/src/GEOM",
+    "geom/src/SKETCHER",
+    "geom/src/ShHealOper"
+   ],
+   "predicted": [
+    "geom/src/GEOM_I",
+    "geom/src/MeasureGUI",
+    "geom/src/XAO",
+    "geom/src/DlgRef",
+    "geom/src/GEOM_SWIG"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOM_I\n2. geom/src/MeasureGUI\n3. geom/src/XAO\n4. geom/src/DlgRef\n5. geom/src/GEOM_SWIG",
+   "true_targets_v1": [
+    "geom/src/ShHealOper"
+   ]
+  },
+  {
+   "source_module": "geom/src/STLPlugin",
+   "true_targets": [
+    "geom/src/GEOMBase",
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/OBJECT",
+    "gui/src/LightApp",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/MeasureGUI",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/MeasureGUI\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "geom/src/GEOMBase"
+   ]
+  },
+  {
+   "source_module": "geom/src/PrimitiveGUI",
+   "true_targets": [
+    "geom/src/DlgRef",
+    "geom/src/GEOMGUI",
+    "geom/src/GEOMImpl",
+    "gui/src/SUIT"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/SUIT",
+    "geom/src/DlgRef"
+   ]
+  },
+  {
+   "source_module": "geom/src/BasicGUI",
+   "true_targets": [
+    "geom/src/DlgRef",
+    "geom/src/GEOMBase",
+    "geom/src/GEOMGUI",
+    "geom/src/GEOMImpl",
+    "gui/src/OCCViewer"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/GEOM_I",
+   "true_targets_v1": [
+    "geom/src/GEOMImpl"
+   ]
+  },
+  {
+   "source_module": "smesh/src/Controls",
+   "true_targets": [
+    "geom/src/GEOMUtils",
+    "smesh/src/SMESHDS"
+   ],
+   "predicted": [
+    "smesh/src/SMESH",
+    "smesh/src/SMESH_I",
+    "smesh/src/StdMeshers",
+    "smesh/src/StdMeshers_I",
+    "smesh/src/SMESHUtils"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. smesh/src/SMESH\n2. smesh/src/SMESH_I\n3. smesh/src/StdMeshers\n4. smesh/src/StdMeshers_I\n5. smesh/src/SMESHUtils",
+   "true_targets_v1": [
+    "smesh/src/SMESHDS"
+   ]
+  },
+  {
+   "source_module": "yacs/src/engine",
+   "true_targets": [
+    "yacs/src/bases"
+   ],
+   "predicted": [
+    "yacs/src/runtime",
+    "yacs/src/genericgui",
+    "yacs/src/wrappergen",
+    "yacs/src/pyqt",
+    "yacs/src/bases"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. yacs/src/runtime\n2. yacs/src/genericgui\n3. yacs/src/wrappergen\n4. yacs/src/pyqt\n5. yacs/src/bases",
+   "true_targets_v1": [
+    "yacs/src/yacsloader"
+   ]
+  },
+  {
+   "source_module": "gui/src/Session",
+   "true_targets": [
+    "gui/src/Event",
+    "gui/src/LightApp",
+    "gui/src/OBJECT",
+    "gui/src/Qtx",
+    "gui/src/SUIT",
+    "gui/src/SalomeApp",
+    "kernel/src/ArgvKeeper",
+    "kernel/src/Container",
+    "kernel/src/Registry"
+   ],
+   "predicted": [
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "gui/src/LightApp",
+    "gui/src/SalomeApp",
+    "gui/src/Qtx"
+   ],
+   "precision": 0.8,
+   "recall": 0.4444444444444444,
+   "raw_response": "1. gui/src/SUIT\n2. gui/src/SVTK\n3. gui/src/LightApp\n4. gui/src/SalomeApp\n5. gui/src/Qtx",
+   "true_targets_v1": [
+    "kernel/src/NamingService"
+   ]
+  },
+  {
+   "source_module": "medcoupling/src/MEDLoader",
+   "true_targets": [
+    "medcoupling/src/INTERP_KERNEL",
+    "medcoupling/src/INTERP_KERNELTest"
+   ],
+   "predicted": [
+    "medcoupling/src/MEDCoupling",
+    "medcoupling/src/INTERP_KERNEL",
+    "kernel/src/SALOMEDS",
+    "smesh/src/SMESH",
+    "kernel/src/SALOMEDSImpl"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. medcoupling/src/MEDCoupling\n2. medcoupling/src/INTERP_KERNEL\n3. kernel/src/SALOMEDS\n4. smesh/src/SMESH\n5. kernel/src/SALOMEDSImpl",
+   "true_targets_v1": [
+    "medcoupling/src/INTERP_KERNELTest"
+   ]
+  },
+  {
+   "source_module": "kernel/src/Container",
+   "true_targets": [
+    "kernel/src/GenericObj",
+    "kernel/src/KernelHelpers",
+    "kernel/src/NamingService",
+    "kernel/src/Notification",
+    "kernel/src/ResourcesManager"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/SALOMEDSImpl",
+    "kernel/src/DSC",
+    "kernel/src/HDFPersist",
+    "kernel/src/Launcher"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/SALOMEDSImpl\n3. kernel/src/DSC\n4. kernel/src/HDFPersist\n5. kernel/src/Launcher",
+   "true_targets_v1": [
+    "kernel/src/ResourcesManager"
+   ]
+  },
+  {
+   "source_module": "yacs/src/genericgui",
+   "true_targets": [
+    "gui/src/Qtx",
+    "kernel/src/LifeCycleCORBA",
+    "kernel/src/ModuleCatalog",
+    "kernel/src/TOOLSDS",
+    "yacs/src/hmi",
+    "yacs/src/salomewrap",
+    "yacs/src/yacsloader"
+   ],
+   "predicted": [
+    "yacs/src/engine",
+    "yacs/src/runtime",
+    "gui/src/Qtx",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESHGUI"
+   ],
+   "precision": 0.2,
+   "recall": 0.14285714285714285,
+   "raw_response": "1. yacs/src/engine\n2. yacs/src/runtime\n3. gui/src/Qtx\n4. geom/src/GEOMImpl\n5. smesh/src/SMESHGUI",
+   "true_targets_v1": [
+    "yacs/src/runtime"
+   ]
+  },
+  {
+   "source_module": "geom/src/VTKPlugin",
+   "true_targets": [
+    "geom/src/GEOM",
+    "geom/src/GEOMBase",
+    "geom/src/GEOMGUI",
+    "geom/src/OBJECT",
+    "gui/src/SalomeApp",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/MeasureGUI",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/MeasureGUI\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/LightApp"
+   ]
+  },
+  {
+   "source_module": "geom/src/DisplayGUI",
+   "true_targets": [
+    "geom/src/OBJECT",
+    "gui/src/LightApp",
+    "gui/src/OBJECT",
+    "gui/src/OCCViewer",
+    "gui/src/SOCC"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/EntityGUI",
+    "geom/src/MeasureGUI"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/EntityGUI\n5. geom/src/MeasureGUI",
+   "true_targets_v1": [
+    "gui/src/OBJECT"
+   ]
+  },
+  {
+   "source_module": "geom/src/BREPPlugin",
+   "true_targets": [
+    "geom/src/GEOM",
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "gui/src/LightApp",
+    "kernel/src/Utils"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/MeasureGUI",
+    "geom/src/XAO"
+   ],
+   "precision": 0.4,
+   "recall": 0.4,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/MeasureGUI\n5. geom/src/XAO",
+   "true_targets_v1": [
+    "geom/src/GEOM_I"
+   ]
+  },
+  {
+   "source_module": "kernel/src/Utils",
+   "true_targets": [
+    "kernel/src/SALOMETraceCollector"
+   ],
+   "predicted": [
+    "kernel/src/SALOMEDS",
+    "kernel/src/DSC",
+    "kernel/src/HDFPersist",
+    "kernel/src/Launcher",
+    "kernel/src/Container"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. kernel/src/SALOMEDS\n2. kernel/src/DSC\n3. kernel/src/HDFPersist\n4. kernel/src/Launcher\n5. kernel/src/Container",
+   "true_targets_v1": [
+    "medcoupling/src/INTERP_KERNELTest"
+   ]
+  },
+  {
+   "source_module": "geom/src/BooleanGUI",
+   "true_targets": [
+    "geom/src/DlgRef",
+    "geom/src/GEOMBase",
+    "gui/src/LightApp",
+    "gui/src/SalomeApp"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.2,
+   "recall": 0.25,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/LightApp"
+   ]
+  },
+  {
+   "source_module": "gui/src/TOOLSGUI",
+   "true_targets": [
+    "gui/src/SUIT",
+    "kernel/src/KernelHelpers",
+    "kernel/src/NamingService"
+   ],
+   "predicted": [
+    "gui/src/SUIT",
+    "gui/src/SVTK",
+    "gui/src/LightApp",
+    "gui/src/SalomeApp",
+    "geom/src/GEOMImpl"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. gui/src/SUIT\n2. gui/src/SVTK\n3. gui/src/LightApp\n4. gui/src/SalomeApp\n5. geom/src/GEOMImpl",
+   "true_targets_v1": [
+    "gui/src/SUIT",
+    "gui/src/Qtx"
+   ]
+  },
+  {
+   "source_module": "geom/src/GEOMBase",
+   "true_targets": [
+    "geom/src/GEOMClient",
+    "geom/src/GEOMGUI",
+    "geom/src/OBJECT",
+    "gui/src/OBJECT",
+    "gui/src/Prs",
+    "gui/src/SUIT"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS",
+    "geom/src/MeasureGUI",
+    "geom/src/XAO",
+    "geom/src/DlgRef"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. geom/src/GEOMImpl\n2. kernel/src/SALOMEDS\n3. geom/src/MeasureGUI\n4. geom/src/XAO\n5. geom/src/DlgRef",
+   "true_targets_v1": [
+    "gui/src/OBJECT"
+   ]
+  },
+  {
+   "source_module": "yacs/src/yacsorb",
+   "true_targets": [
+    "yacs/src/runtime",
+    "yacs/src/yacsloader"
+   ],
+   "predicted": [
+    "yacs/src/engine",
+    "yacs/src/runtime",
+    "yacs/src/wrappergen",
+    "yacs/src/pyqt",
+    "yacs/src/bases"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. yacs/src/engine\n2. yacs/src/runtime\n3. yacs/src/wrappergen\n4. yacs/src/pyqt\n5. yacs/src/bases",
+   "true_targets_v1": [
+    "yacs/src/yacsloader"
+   ]
+  },
+  {
+   "source_module": "gui/src/PV3DViewer",
+   "true_targets": [
+    "gui/src/PVServerService",
+    "gui/src/SUIT"
+   ],
+   "predicted": [
+    "gui/src/SVTK",
+    "gui/src/SUIT",
+    "geom/src/GEOMImpl",
+    "kernel/src/SALOMEDS",
+    "smesh/src/SMESH"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. gui/src/SVTK\n2. gui/src/SUIT\n3. geom/src/GEOMImpl\n4. kernel/src/SALOMEDS\n5. smesh/src/SMESH",
+   "true_targets_v1": [
+    "gui/src/PVViewer"
+   ]
+  },
+  {
+   "source_module": "gui/src/PVViewer",
+   "true_targets": [
+    "gui/src/PVServerService",
+    "gui/src/Qtx"
+   ],
+   "predicted": [
+    "gui/src/SVTK",
+    "gui/src/SUIT",
+    "gui/src/Qtx",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESHGUI"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. gui/src/SVTK\n2. gui/src/SUIT\n3. gui/src/Qtx\n4. geom/src/GEOMImpl\n5. smesh/src/SMESHGUI",
+   "true_targets_v1": [
+    "gui/src/PV3DViewer"
+   ]
+  },
+  {
+   "source_module": "medcoupling/src/MEDCoupling",
+   "true_targets": [
+    "medcoupling/src/INTERP_KERNEL"
+   ],
+   "predicted": [
+    "medcoupling/src/INTERP_KERNEL",
+    "medcoupling/src/MEDLoader",
+    "medcoupling/src/ParaMEDMEM",
+    "kernel/src/SALOMEDS",
+    "kernel/src/SALOMEDSImpl"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "1. medcoupling/src/INTERP_KERNEL\n2. medcoupling/src/MEDLoader\n3. medcoupling/src/ParaMEDMEM\n4. kernel/src/SALOMEDS\n5. kernel/src/SALOMEDSImpl",
+   "true_targets_v1": [
+    "medcoupling/src/INTERP_KERNELTest"
+   ]
+  },
+  {
+   "source_module": "gui/src/SALOME_PYQT",
+   "true_targets": [
+    "gui/src/Event",
+    "gui/src/LogWindow",
+    "gui/src/OCCViewer",
+    "gui/src/PVViewer",
+    "gui/src/Qtx",
+    "gui/src/SUITApp",
+    "gui/src/SVTK",
+    "kernel/src/LifeCycleCORBA"
+   ],
+   "predicted": [
+    "gui/src/Qtx",
+    "yacs/src/pyqt",
+    "geom/src/GEOMImpl",
+    "smesh/src/SMESHGUI",
+    "kernel/src/SALOMEDS"
+   ],
+   "precision": 0.2,
+   "recall": 0.125,
+   "raw_response": "1. gui/src/Qtx\n2. yacs/src/pyqt\n3. geom/src/GEOMImpl\n4. smesh/src/SMESHGUI\n5. kernel/src/SALOMEDS",
+   "true_targets_v1": [
+    "gui/src/CAM"
+   ]
+  },
+  {
+   "source_module": "geom/src/XAOPlugin",
+   "true_targets": [
+    "geom/src/GEOMBase",
+    "geom/src/GEOMGUI",
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "gui/src/LightApp",
+    "kernel/src/SALOMEDS"
+   ],
+   "predicted": [
+    "geom/src/GEOMImpl",
+    "geom/src/GEOM_I",
+    "geom/src/GEOM_SWIG",
+    "geom/src/XAO"
+   ],
+   "precision": 0.4,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. geom/src/GEOMImpl\n2. geom/src/GEOM_I\n3. geom/src/GEOM_SWIG\n4. geom/src/XAO\n5. geom/src/GEOM_SwigImpl",
+   "true_targets_v1": [
+    "geom/src/GEOMImpl"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_salome_ar.json"
+}

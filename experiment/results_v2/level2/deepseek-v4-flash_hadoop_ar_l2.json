@@ -1,0 +1,517 @@
+{
+  "precision_at_5": 0.368421052631579,
+  "recall_at_5": 0.9561403508771931,
+  "total": 19,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 24907,
+    "completion_tokens": 360368,
+    "total_tokens": 385275
+  },
+  "results": [
+    {
+      "source_module": "hadoop-mapreduce-project/hadoop-mapreduce-client",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-yarn-project/hadoop-yarn"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-registry"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-yarn-project/hadoop-yarn\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-registry",
+      "usage": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 11614,
+        "total_tokens": 12908
+      },
+      "latency_ms": 52520.3
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-common",
+      "true_targets": [
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-minikdc",
+        "hadoop-build-tools",
+        "hadoop-maven-plugins",
+        "hadoop-common-project/hadoop-auth-examples"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-minikdc\nhadoop-build-tools\nhadoop-maven-plugins\nhadoop-common-project/hadoop-auth-examples",
+      "usage": {
+        "prompt_tokens": 1325,
+        "completion_tokens": 24730,
+        "total_tokens": 26055
+      },
+      "latency_ms": 101203.1
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-native-client",
+        "hadoop-common-project/hadoop-kms",
+        "hadoop-common-project/hadoop-minikdc"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-native-client\nhadoop-common-project/hadoop-kms\nhadoop-common-project/hadoop-minikdc",
+      "usage": {
+        "prompt_tokens": 1303,
+        "completion_tokens": 16073,
+        "total_tokens": 17376
+      },
+      "latency_ms": 66828.9
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-nfs",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-mapreduce-project/hadoop-mapreduce-client",
+      "usage": {
+        "prompt_tokens": 1324,
+        "completion_tokens": 19678,
+        "total_tokens": 21002
+      },
+      "latency_ms": 84767.3
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-gcp",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-mapreduce-project/hadoop-mapreduce-client",
+      "usage": {
+        "prompt_tokens": 1326,
+        "completion_tokens": 16726,
+        "total_tokens": 18052
+      },
+      "latency_ms": 73345.2
+    },
+    {
+      "source_module": "hadoop-yarn-project/hadoop-yarn",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-registry"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-registry",
+        "hadoop-common-project/hadoop-kms",
+        "hadoop-common-project/hadoop-nfs"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-registry\nhadoop-common-project/hadoop-kms\nhadoop-common-project/hadoop-nfs",
+      "usage": {
+        "prompt_tokens": 1282,
+        "completion_tokens": 20935,
+        "total_tokens": 22217
+      },
+      "latency_ms": 90356.3
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-rbf",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-tools"
+      ],
+      "shown_deps": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-registry",
+        "hadoop-common-project/hadoop-minikdc"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-registry\nhadoop-common-project/hadoop-minikdc",
+      "usage": {
+        "prompt_tokens": 1301,
+        "completion_tokens": 23758,
+        "total_tokens": 25059
+      },
+      "latency_ms": 93549.8
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-httpfs",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-minikdc",
+        "hadoop-common-project/hadoop-kms"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-common-project/hadoop-minikdc\nhadoop-common-project/hadoop-kms",
+      "usage": {
+        "prompt_tokens": 1299,
+        "completion_tokens": 30623,
+        "total_tokens": 31922
+      },
+      "latency_ms": 123602.6
+    },
+    {
+      "source_module": "hadoop-mapreduce-project/hadoop-mapreduce-examples",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-mapreduce-project/hadoop-mapreduce-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-minicluster",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-mapreduce-project/hadoop-mapreduce-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-minicluster\nhadoop-common-project/hadoop-annotations\nhadoop-hdfs-project/hadoop-hdfs-client",
+      "usage": {
+        "prompt_tokens": 1317,
+        "completion_tokens": 27749,
+        "total_tokens": 29066
+      },
+      "latency_ms": 110419.5
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-cos",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-mapreduce-project/hadoop-mapreduce-client",
+      "usage": {
+        "prompt_tokens": 1326,
+        "completion_tokens": 9928,
+        "total_tokens": 11254
+      },
+      "latency_ms": 44052.9
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-tos",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-yarn-project/hadoop-yarn"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-yarn-project/hadoop-yarn",
+      "usage": {
+        "prompt_tokens": 1315,
+        "completion_tokens": 9736,
+        "total_tokens": 11051
+      },
+      "latency_ms": 44651.6
+    },
+    {
+      "source_module": "hadoop-cloud-storage-project/hadoop-huaweicloud",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-mapreduce-project/hadoop-mapreduce-client",
+      "usage": {
+        "prompt_tokens": 1332,
+        "completion_tokens": 9772,
+        "total_tokens": 11104
+      },
+      "latency_ms": 44840.8
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-client",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-registry",
+        "hadoop-common-project/hadoop-nfs",
+        "hadoop-common-project/hadoop-kms"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-registry\nhadoop-common-project/hadoop-nfs\nhadoop-common-project/hadoop-kms",
+      "usage": {
+        "prompt_tokens": 1317,
+        "completion_tokens": 16113,
+        "total_tokens": 17430
+      },
+      "latency_ms": 70900.0
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-kms",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-common"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-auth\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-mapreduce-project/hadoop-mapreduce-client",
+      "usage": {
+        "prompt_tokens": 1315,
+        "completion_tokens": 24082,
+        "total_tokens": 25397
+      },
+      "latency_ms": 100393.8
+    },
+    {
+      "source_module": "hadoop-tools",
+      "true_targets": [
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-yarn-project/hadoop-yarn"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-mapreduce-project/hadoop-mapreduce-client"
+      ],
+      "predicted": [
+        "hadoop-yarn-project/hadoop-yarn",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-registry"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "hadoop-yarn-project/hadoop-yarn\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-registry",
+      "usage": {
+        "prompt_tokens": 1270,
+        "completion_tokens": 14038,
+        "total_tokens": 15308
+      },
+      "latency_ms": 58974.7
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-registry",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-common"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-nfs"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-annotations\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-common-project/hadoop-nfs",
+      "usage": {
+        "prompt_tokens": 1315,
+        "completion_tokens": 27211,
+        "total_tokens": 28526
+      },
+      "latency_ms": 120003.3
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-auth",
+      "true_targets": [
+        "hadoop-common-project/hadoop-annotations"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs-client",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-registry"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs-client\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-common-project/hadoop-registry",
+      "usage": {
+        "prompt_tokens": 1323,
+        "completion_tokens": 20674,
+        "total_tokens": 21997
+      },
+      "latency_ms": 85808.9
+    },
+    {
+      "source_module": "hadoop-hdfs-project/hadoop-hdfs-nfs",
+      "true_targets": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-nfs",
+        "hadoop-hdfs-project/hadoop-hdfs"
+      ],
+      "shown_deps": [
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "predicted": [
+        "hadoop-common-project/hadoop-common",
+        "hadoop-hdfs-project/hadoop-hdfs",
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-nfs",
+        "hadoop-common-project/hadoop-minikdc"
+      ],
+      "precision": 0.6,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-common\nhadoop-hdfs-project/hadoop-hdfs\nhadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-nfs\nhadoop-common-project/hadoop-minikdc",
+      "usage": {
+        "prompt_tokens": 1296,
+        "completion_tokens": 23188,
+        "total_tokens": 24484
+      },
+      "latency_ms": 94998.9
+    },
+    {
+      "source_module": "hadoop-common-project/hadoop-auth-examples",
+      "true_targets": [
+        "hadoop-common-project/hadoop-auth"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "hadoop-common-project/hadoop-auth",
+        "hadoop-common-project/hadoop-common",
+        "hadoop-common-project/hadoop-annotations",
+        "hadoop-common-project/hadoop-minikdc",
+        "hadoop-hdfs-project/hadoop-hdfs-client"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "hadoop-common-project/hadoop-auth\nhadoop-common-project/hadoop-common\nhadoop-common-project/hadoop-annotations\nhadoop-common-project/hadoop-minikdc\nhadoop-hdfs-project/hadoop-hdfs-client",
+      "usage": {
+        "prompt_tokens": 1327,
+        "completion_tokens": 13740,
+        "total_tokens": 15067
+      },
+      "latency_ms": 59725.7
+    }
+  ],
+  "timestamp": "2026-10-22T13:12:06.459365",
+  "model": "deepseek-v4-flash",
+  "project": "hadoop",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

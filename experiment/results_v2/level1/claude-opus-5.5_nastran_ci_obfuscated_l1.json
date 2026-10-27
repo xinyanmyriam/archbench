@@ -1,0 +1,3421 @@
+{
+ "accuracy": 0.23,
+ "correct": 46,
+ "total": 200,
+ "n_with_snippet": 200,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 381219,
+  "completion_tokens": 16428,
+  "total_tokens": 397647
+ },
+ "results": [
+  {
+   "file": "dir_7fdf/file_8a89.f",
+   "file_original": "mds/savpos.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't pin this down with certainty: the module names are anonymized and nothing in the code connects them to the candidates. The code itself is clearly part of the low-level GINO/DSIO direct file I/O layer. It includes `DSIOF.COM`, calls `DSGEFL`, and uses the FCB and `IFLPOS` tables. My choice of letter is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 453,
+    "completion_tokens": 126,
+    "total_tokens": 579
+   },
+   "latency_ms": 5385.6
+  },
+  {
+   "file": "dir_4d66/file_95f2.f",
+   "file_original": "mis/partn2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2265,
+    "completion_tokens": 3,
+    "total_tokens": 2268
+   },
+   "latency_ms": 2174.3
+  },
+  {
+   "file": "dir_4d66/file_eb73.f",
+   "file_original": "mis/sdcin.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1537,
+    "completion_tokens": 3,
+    "total_tokens": 1540
+   },
+   "latency_ms": 2174.5
+  },
+  {
+   "file": "dir_4d66/file_ff8d.f",
+   "file_original": "mis/traile.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't tell which module this file belongs to. The candidate names are anonymized and no description of their contents was given, so there is nothing to match the code against.\n\nThe code itself is a COMPLEX function, TRAILE, that computes PHI along a trailing edge. It uses box length (BOXL) and complex potential arrays, which is typical of NASTRAN's aeroelastic routines, such as the Mach box method used for supersonic unsteady aerodynamics in the AMG/MBOX routines. Without knowing which candidate module holds the aerodynamics code, the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 520,
+    "completion_tokens": 193,
+    "total_tokens": 713
+   },
+   "latency_ms": 4917.7
+  },
+  {
+   "file": "dir_4d66/file_e644.f",
+   "file_original": "mis/psqpl1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2804,
+    "completion_tokens": 3,
+    "total_tokens": 2807
+   },
+   "latency_ms": 4991.1
+  },
+  {
+   "file": "dir_4d66/file_df41.f",
+   "file_original": "mis/dlamg.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1826,
+    "completion_tokens": 3,
+    "total_tokens": 1829
+   },
+   "latency_ms": 2574.9
+  },
+  {
+   "file": "dir_4d66/file_a525.f",
+   "file_original": "mis/alg30.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 888,
+    "completion_tokens": 85,
+    "total_tokens": 973
+   },
+   "latency_ms": 4305.5
+  },
+  {
+   "file": "dir_4d66/file_d582.f",
+   "file_original": "mis/sdhtf2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2128,
+    "completion_tokens": 3,
+    "total_tokens": 2131
+   },
+   "latency_ms": 2152.6
+  },
+  {
+   "file": "dir_4d66/file_ffec.f",
+   "file_original": "mis/step.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 992,
+    "completion_tokens": 3,
+    "total_tokens": 995
+   },
+   "latency_ms": 2586.4
+  },
+  {
+   "file": "dir_4d66/file_8c06.f",
+   "file_original": "mis/fa1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "There is nothing in the code that links it to a specific module. The candidate names are fully anonymized and come with no descriptions, so this is a guess. FA1 is the flutter analysis driver and belongs in the main source directory alongside the other analysis modules. I picked A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 2245,
+    "completion_tokens": 95,
+    "total_tokens": 2340
+   },
+   "latency_ms": 3372.3
+  },
+  {
+   "file": "dir_4d66/file_599a.f",
+   "file_original": "mis/trplmd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2703,
+    "completion_tokens": 3,
+    "total_tokens": 2706
+   },
+   "latency_ms": 2182.0
+  },
+  {
+   "file": "dir_4d66/file_5948.f",
+   "file_original": "mis/sbspl2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2353,
+    "completion_tokens": 97,
+    "total_tokens": 2450
+   },
+   "latency_ms": 3439.5
+  },
+  {
+   "file": "dir_4d66/file_cf0f.f",
+   "file_original": "mis/pktq1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't tell this from the code alone, because the candidate modules are only anonymized names and nothing is given about what each one contains. The file itself is clear: PKTQ1 performs Phase I stress data recovery for PLA4 (piecewise linear analysis) on combination elements, and calls PKTRM1. But that doesn't link it to any specific option, so this answer is a guess.\n\nD",
+   "usage": {
+    "prompt_tokens": 2288,
+    "completion_tokens": 126,
+    "total_tokens": 2414
+   },
+   "latency_ms": 5697.2
+  },
+  {
+   "file": "dir_4d66/file_cbc5.f",
+   "file_original": "mis/t3pl4s.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2622,
+    "completion_tokens": 76,
+    "total_tokens": 2698
+   },
+   "latency_ms": 3441.6
+  },
+  {
+   "file": "dir_4d66/file_6b7d.f",
+   "file_original": "mis/ampb1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I have no information about what code each candidate module contains, so this answer is a guess rather than an inference.\n\nThe code itself is clear about what it does. AMPB1 is part of the aeroelastic matrix (AMP) family of routines and builds a partitioning vector with the packing utilities BLDPK, ZBLPKI and BLDPKN. In the NASTRAN-95 source tree it sits in the mis directory, which is the main collection of miscellaneous routines.\n\nThe four module names are anonymised and none of them comes with any description, so I can't match the file to one with confidence. I'm choosing A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 201,
+    "total_tokens": 872
+   },
+   "latency_ms": 4808.0
+  },
+  {
+   "file": "dir_4d66/file_c724.f",
+   "file_original": "mis/subcc.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't determine this from the code: the candidate module names are fully anonymized, and you didn't give a description or file list for any of them.\n\nWhat the code does show:\n- `SUBCC` (originally `SUBD`) computes unsteady aerodynamics for compressor or turbine cascades.\n- It works in supersonic flow, using the complex kernel functions `AKAPM`, `BLK1`–`BLK4`, gust amplitude and stagger.\n- In NASTRAN-95 this belongs to the unsteady cascade aerodynamics routines (AMG module / Theory 6–7), in the `mis` source directory.\n\nWithout a way to map that functional area to A–D, any letter is a guess. I'd pick A, with low confidence.\n\nA",
+   "usage": {
+    "prompt_tokens": 3103,
+    "completion_tokens": 242,
+    "total_tokens": 3345
+   },
+   "latency_ms": 5857.6
+  },
+  {
+   "file": "dir_4d66/file_3ad0.f",
+   "file_original": "mis/ofpcf2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 439,
+    "completion_tokens": 37,
+    "total_tokens": 476
+   },
+   "latency_ms": 3002.8
+  },
+  {
+   "file": "dir_4d66/file_b582.f",
+   "file_original": "mis/strax2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code. The routine is plainly part of SDR2 stress recovery: it is phase II for an axisymmetric triangular ring element and uses the /SDR2X*/ common blocks. But the four candidate names are anonymized, and there is nothing about what each module contains, so I can't link this content to any of them. The letter below is a guess, not a deduction.\n\nC",
+   "usage": {
+    "prompt_tokens": 2321,
+    "completion_tokens": 125,
+    "total_tokens": 2446
+   },
+   "latency_ms": 4153.0
+  },
+  {
+   "file": "dir_7fdf/file_89f2.f",
+   "file_original": "mds/dshxdp.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 341,
+    "completion_tokens": 76,
+    "total_tokens": 417
+   },
+   "latency_ms": 5396.8
+  },
+  {
+   "file": "dir_4d66/file_42bb.f",
+   "file_original": "mis/frd2b.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1392,
+    "completion_tokens": 3,
+    "total_tokens": 1395
+   },
+   "latency_ms": 4032.1
+  },
+  {
+   "file": "dir_4d66/file_a215.f",
+   "file_original": "mis/mpy3p.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1909,
+    "completion_tokens": 3,
+    "total_tokens": 1912
+   },
+   "latency_ms": 2185.3
+  },
+  {
+   "file": "dir_4d66/file_93ae.f",
+   "file_original": "mis/ifs1p.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2842,
+    "completion_tokens": 50,
+    "total_tokens": 2892
+   },
+   "latency_ms": 2910.0
+  },
+  {
+   "file": "dir_4d66/file_05f0.f",
+   "file_original": "mis/rcovr.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "No module descriptions were given, so this is a guess rather than a reasoned choice. The file is clearly part of the substructuring recover code: RCOVR is the Phase 2 recover driver and calls RCOVA, RCOVB, RCOVC, RCOVO and RCOVE. But the four candidate modules carry only anonymized names, so nothing in the code links it to one of them over the others.\n\nA",
+   "usage": {
+    "prompt_tokens": 2285,
+    "completion_tokens": 131,
+    "total_tokens": 2416
+   },
+   "latency_ms": 5372.0
+  },
+  {
+   "file": "dir_4d66/file_77b7.f",
+   "file_original": "mis/gfsh.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't tell which module this is, because the four candidates are only obfuscated names and I have no description of what each one contains. Any letter I give is a guess.\n\nThe code itself is clear. GFSH is part of NASTRAN's GFS (General Fluid-Structure) interaction routines. It builds the H transformation matrix for the fluid when no SPCs are applied. In the original source tree it would sit in the main source directory alongside many other routines.\n\n**A**",
+   "usage": {
+    "prompt_tokens": 997,
+    "completion_tokens": 146,
+    "total_tokens": 1143
+   },
+   "latency_ms": 4485.3
+  },
+  {
+   "file": "dir_7fdf/file_1f9f.f",
+   "file_original": "mds/mapfns.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 811,
+    "completion_tokens": 71,
+    "total_tokens": 882
+   },
+   "latency_ms": 5166.9
+  },
+  {
+   "file": "dir_4d66/file_075d.f",
+   "file_original": "mis/mma114.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2772,
+    "completion_tokens": 3,
+    "total_tokens": 2775
+   },
+   "latency_ms": 2071.3
+  },
+  {
+   "file": "dir_4d66/file_0b71.f",
+   "file_original": "mis/quad4d.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3186,
+    "completion_tokens": 93,
+    "total_tokens": 3279
+   },
+   "latency_ms": 3432.1
+  },
+  {
+   "file": "dir_4d66/file_c077.f",
+   "file_original": "mis/form2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. FORM2 is a transient-response integration routine: it uses the TRDXX common block and calls MATVEC to change the time step. It sits in NASTRAN-95's mis/ source directory, but the four candidate module names are anonymized, and nothing in the code links any of them to that directory. My pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 636,
+    "completion_tokens": 114,
+    "total_tokens": 750
+   },
+   "latency_ms": 4412.2
+  },
+  {
+   "file": "dir_0279/file_90e5.f",
+   "file_original": "bd/of9pbd.f",
+   "label": "module_fc212c",
+   "label_original": "bd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": true,
+   "raw_response": "I can't tell which module this file belongs to from the code alone. The file is BLOCK DATA OF9PBD, which holds output format data for OFP (the output file processor). Placing it in a module would mean matching it to one of the four candidate names, but those names are anonymized and nothing in the code links to any of them.\n\nIn the original NASTRAN-95 source, OF9PBD sits in the main source directory (mis) alongside all the other BLOCK DATA routines. Because the candidates carry no identifying information, I am choosing one arbitrarily, and this is a guess rather than an inference.\n\nA",
+   "usage": {
+    "prompt_tokens": 2915,
+    "completion_tokens": 192,
+    "total_tokens": 3107
+   },
+   "latency_ms": 4854.2
+  },
+  {
+   "file": "dir_4d66/file_dd50.f",
+   "file_original": "mis/trnsp.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The candidate module names are anonymized, and no description of their contents was given, so nothing in the source maps to a specific letter.\n\nWhat the code does show is that TRNSP is a general matrix-utility routine. It handles out-of-core matrix transpose and calls PACK/UNPACK, CONMSG, SSWTCH and TRNSPS. In NASTRAN-95 such routines sit in the matrix-operations library, which also holds TRANSP, MPYAD and similar code. Without knowing which candidate represents that library, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2555,
+    "completion_tokens": 192,
+    "total_tokens": 2747
+   },
+   "latency_ms": 5055.6
+  },
+  {
+   "file": "dir_4d66/file_1669.f",
+   "file_original": "mis/ifp1pc.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3112,
+    "completion_tokens": 3,
+    "total_tokens": 3115
+   },
+   "latency_ms": 2374.7
+  },
+  {
+   "file": "dir_4d66/file_0463.f",
+   "file_original": "mis/tlodt1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2751,
+    "completion_tokens": 3,
+    "total_tokens": 2754
+   },
+   "latency_ms": 4159.1
+  },
+  {
+   "file": "dir_4d66/file_1f4f.f",
+   "file_original": "mis/mbgeod.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "No module descriptions were given, so I can't map the code to a letter with any confidence; this is close to a guess. The code is Mach box aerodynamics: it uses the MBOXC and MBOXA common blocks and computes wing geometry for an aeroelastic routine. Without knowing which candidate module holds aerodynamics code, I'm picking A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 2486,
+    "completion_tokens": 123,
+    "total_tokens": 2609
+   },
+   "latency_ms": 4098.1
+  },
+  {
+   "file": "dir_4d66/file_5c8d.f",
+   "file_original": "mis/algap.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't determine this from the code itself. The candidate module names are anonymized hashes, and no module descriptions or contents were provided to tell them apart.\n\nWhat the code does show:\n- `ALGAP` is part of the ALG (aerodynamic/compressor blade \"ALG\" module) family of routines in NASTRAN-95. Its name, its `ALGA`/`P` message identifier, and its `AL` continuation characters all point there.\n- It is a modified `TABPCH` that punches DTI cards.\n- In the real source tree, ALG routines sit in the main source directory (e.g. `mis/`) alongside most other subroutines.\n\nWithout knowing which anonymized module corresponds to that directory, any letter is essentially a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2209,
+    "completion_tokens": 241,
+    "total_tokens": 2450
+   },
+   "latency_ms": 5886.8
+  },
+  {
+   "file": "dir_4d66/file_2e27.f",
+   "file_original": "mis/ihexd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3045,
+    "completion_tokens": 153,
+    "total_tokens": 3198
+   },
+   "latency_ms": 4379.2
+  },
+  {
+   "file": "dir_4d66/file_a246.f",
+   "file_original": "mis/fvrst1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3101,
+    "completion_tokens": 3,
+    "total_tokens": 3104
+   },
+   "latency_ms": 2168.7
+  },
+  {
+   "file": "dir_4d66/file_14c2.f",
+   "file_original": "mis/q2bcd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "**A**",
+   "usage": {
+    "prompt_tokens": 1965,
+    "completion_tokens": 131,
+    "total_tokens": 2096
+   },
+   "latency_ms": 5077.3
+  },
+  {
+   "file": "dir_4d66/file_f6e1.f",
+   "file_original": "mis/xsort.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "Without the module descriptions, I can't map this file to a candidate with any confidence, so this is a guess. XSORT belongs to the NASTRAN executive preface, the bulk data sort routines. The anonymized names give no clue to which module that is.\n\nA",
+   "usage": {
+    "prompt_tokens": 2978,
+    "completion_tokens": 83,
+    "total_tokens": 3061
+   },
+   "latency_ms": 3049.8
+  },
+  {
+   "file": "dir_4d66/file_4658.f",
+   "file_original": "mis/totape.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't tell which module this belongs to from the information given. The candidate names are anonymized hashes with no descriptions, so nothing in the code links to any of them.\n\nWhat the code does show: TOTAPE is a utility called by the DPLTST, DPLOT and OFP modules. It copies their GINO input files to a save file (INP9) for interactive NASTRAN runs. In the NASTRAN-95 source tree it most likely sits in the general Fortran source directory (mis), but I can't match that directory to any of the four labels.\n\nMy answer is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 2547,
+    "completion_tokens": 188,
+    "total_tokens": 2735
+   },
+   "latency_ms": 4768.8
+  },
+  {
+   "file": "dir_4d66/file_ac57.f",
+   "file_original": "mis/kompnt.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The routine is part of the BANDIT bandwidth-reduction module, but the candidate module names are anonymized and no descriptions were given, so nothing links any of them to BANDIT. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 998,
+    "completion_tokens": 81,
+    "total_tokens": 1079
+   },
+   "latency_ms": 3285.0
+  },
+  {
+   "file": "dir_4d66/file_a9d8.f",
+   "file_original": "mis/selas2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 980,
+    "completion_tokens": 65,
+    "total_tokens": 1045
+   },
+   "latency_ms": 6839.7
+  },
+  {
+   "file": "dir_4d66/file_9a07.f",
+   "file_original": "mis/bislc2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 798,
+    "completion_tokens": 3,
+    "total_tokens": 801
+   },
+   "latency_ms": 2172.9
+  },
+  {
+   "file": "dir_4d66/file_50de.f",
+   "file_original": "mis/incore.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1683,
+    "completion_tokens": 134,
+    "total_tokens": 1817
+   },
+   "latency_ms": 4222.8
+  },
+  {
+   "file": "dir_4d66/file_cc16.f",
+   "file_original": "mis/cinvp1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1492,
+    "completion_tokens": 3,
+    "total_tokens": 1495
+   },
+   "latency_ms": 2076.4
+  },
+  {
+   "file": "dir_4d66/file_f7a5.f",
+   "file_original": "mis/smc2cs.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2451,
+    "completion_tokens": 3,
+    "total_tokens": 2454
+   },
+   "latency_ms": 2014.4
+  },
+  {
+   "file": "dir_4d66/file_16c5.f",
+   "file_original": "mis/mmarc1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "No basis to distinguish — candidate modules have no descriptions. Guessing A.\n\nA",
+   "usage": {
+    "prompt_tokens": 977,
+    "completion_tokens": 31,
+    "total_tokens": 1008
+   },
+   "latency_ms": 2555.4
+  },
+  {
+   "file": "dir_4d66/file_20a1.f",
+   "file_original": "mis/rand5.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2336,
+    "completion_tokens": 3,
+    "total_tokens": 2339
+   },
+   "latency_ms": 2130.3
+  },
+  {
+   "file": "dir_4d66/file_03dc.f",
+   "file_original": "mis/dumx.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 3,
+    "total_tokens": 1054
+   },
+   "latency_ms": 2209.8
+  },
+  {
+   "file": "dir_4d66/file_3b98.f",
+   "file_original": "mis/plttra.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 3,
+    "total_tokens": 2034
+   },
+   "latency_ms": 2039.8
+  },
+  {
+   "file": "dir_4d66/file_a6d9.f",
+   "file_original": "mis/ta1c.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2381,
+    "completion_tokens": 76,
+    "total_tokens": 2457
+   },
+   "latency_ms": 3230.0
+  },
+  {
+   "file": "dir_4d66/file_1fe5.f",
+   "file_original": "mis/mred1b.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I can't confidently distinguish the candidates: their names are anonymized and no descriptions are given. The code itself is clear. `MRED1B` is part of the MRED1 module, which handles modal reduction in substructuring. In NASTRAN-95 that code sits in the main source library, alongside routines such as the `SOFI/O` substructure utilities. Without any way to link that library to one of the four obfuscated module names, this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2657,
+    "completion_tokens": 145,
+    "total_tokens": 2802
+   },
+   "latency_ms": 4396.5
+  },
+  {
+   "file": "dir_4d66/file_f42b.f",
+   "file_original": "mis/stpaic.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 3,
+    "total_tokens": 1308
+   },
+   "latency_ms": 2068.1
+  },
+  {
+   "file": "dir_4d66/file_8db8.f",
+   "file_original": "mis/matprt.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. It is a matrix utility called by INTPRT, which fits a utility module. The candidate modules are only obfuscated names with no description of their contents, so nothing links the code to any one of them. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 81,
+    "total_tokens": 1313
+   },
+   "latency_ms": 4446.4
+  },
+  {
+   "file": "dir_4d66/file_46fd.f",
+   "file_original": "mis/ktrapr.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2808,
+    "completion_tokens": 3,
+    "total_tokens": 2811
+   },
+   "latency_ms": 2020.2
+  },
+  {
+   "file": "dir_4d66/file_2d09.f",
+   "file_original": "mis/incro.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "Cannot determine from names alone; guessing.\n\nA",
+   "usage": {
+    "prompt_tokens": 2126,
+    "completion_tokens": 19,
+    "total_tokens": 2145
+   },
+   "latency_ms": 2378.9
+  },
+  {
+   "file": "dir_4d66/file_e874.f",
+   "file_original": "mis/tmtogo.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 462,
+    "completion_tokens": 71,
+    "total_tokens": 533
+   },
+   "latency_ms": 2724.8
+  },
+  {
+   "file": "dir_4d66/file_fb2c.f",
+   "file_original": "mis/sma3.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2028,
+    "completion_tokens": 3,
+    "total_tokens": 2031
+   },
+   "latency_ms": 2004.0
+  },
+  {
+   "file": "dir_4d66/file_2201.f",
+   "file_original": "mis/partn3.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't infer this from the code: the module names are anonymized and no descriptions are given for them. All four options are equally plausible from this file alone.\n\nWhat the code does show is that PARTN3 is a matrix partition/merge utility called by PARTN1 and MERGE1. It uses the matrix packing/unpacking calls INTPK and ZNTPKI, and the trailer read RDTRL. That places it with the matrix-operation modules. In NASTRAN-95 those sit in the machine-independent source directory (mis), but I cannot map that directory to any of A–D.\n\nThis answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2316,
+    "completion_tokens": 196,
+    "total_tokens": 2512
+   },
+   "latency_ms": 5050.8
+  },
+  {
+   "file": "dir_4d66/file_02cc.f",
+   "file_original": "mis/dumod3.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "No candidate module is described, so there is nothing in the code to link this file to any one of them. The file is a dummy stub for the DUMMOD3 user module (with siblings like DUMOD1–DUMOD5), which in NASTRAN-95 would sit in the main source directory, but the anonymized names give no basis for picking one. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 674,
+    "completion_tokens": 117,
+    "total_tokens": 791
+   },
+   "latency_ms": 3829.6
+  },
+  {
+   "file": "dir_4d66/file_ccc4.f",
+   "file_original": "mis/fersws.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1989,
+    "completion_tokens": 3,
+    "total_tokens": 1992
+   },
+   "latency_ms": 2044.4
+  },
+  {
+   "file": "dir_4d66/file_b864.f",
+   "file_original": "mis/trttem.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't determine this from evidence. The candidate module names are anonymized, and you've given no description of what each module contains.\n\nFrom the code alone, TRTTEM computes thermal loads for the asymmetric triangular ring element (TRIAAX/TRAPAX family). In NASTRAN-95 such routines usually sit with the other element and load-generation routines, typically the `mis` source directory. I can't tell which of A–D corresponds to that.\n\nMy answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2190,
+    "completion_tokens": 155,
+    "total_tokens": 2345
+   },
+   "latency_ms": 4641.0
+  },
+  {
+   "file": "dir_4d66/file_58dd.f",
+   "file_original": "mis/dmatrs.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3848,
+    "completion_tokens": 69,
+    "total_tokens": 3917
+   },
+   "latency_ms": 3506.0
+  },
+  {
+   "file": "dir_4d66/file_5260.f",
+   "file_original": "mis/ais.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't identify the module with confidence, because the candidate names are anonymized and nothing in the code ties directly to any of them.\n\nThe file contains no import or include statements. It is a single-precision function used in SDR2 (stress data recovery) for axisymmetric solid elements. In NASTRAN-95's source layout, single-precision element routines like this one sit in the main source directory (mis or mds), separate from the double-precision directory.\n\nMy choice is a guess based on which module looks like the largest general-purpose source directory.\n\nB",
+   "usage": {
+    "prompt_tokens": 1715,
+    "completion_tokens": 167,
+    "total_tokens": 1882
+   },
+   "latency_ms": 4573.8
+  },
+  {
+   "file": "dir_4d66/file_eca8.f",
+   "file_original": "mis/elim.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1641,
+    "completion_tokens": 3,
+    "total_tokens": 1644
+   },
+   "latency_ms": 2057.3
+  },
+  {
+   "file": "dir_4d66/file_2f02.f",
+   "file_original": "mis/xparam.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code alone. The candidate names are anonymized and no other files from those modules are shown.\n\nThe code itself is clear: XPARAM belongs to NASTRAN's executive DMAP compiler, the XGPI (General Problem Initialization) routines. Those are XGPI, XPARAM, XSCNDM, XOSGEN and similar.\n\nWithout a mapping from module IDs to contents, any choice among A–D is a guess. I'm picking A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 2628,
+    "completion_tokens": 166,
+    "total_tokens": 2794
+   },
+   "latency_ms": 4605.1
+  },
+  {
+   "file": "dir_4d66/file_d467.f",
+   "file_original": "mis/itmprt.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2017,
+    "completion_tokens": 3,
+    "total_tokens": 2020
+   },
+   "latency_ms": 2197.4
+  },
+  {
+   "file": "dir_4d66/file_6c55.f",
+   "file_original": "mis/dlkapm.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1775,
+    "completion_tokens": 3,
+    "total_tokens": 1778
+   },
+   "latency_ms": 2140.5
+  },
+  {
+   "file": "dir_4d66/file_5375.f",
+   "file_original": "mis/solve.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 3,
+    "total_tokens": 2667
+   },
+   "latency_ms": 2159.8
+  },
+  {
+   "file": "dir_4d66/file_a4e3.f",
+   "file_original": "mis/ktetra.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2487,
+    "completion_tokens": 3,
+    "total_tokens": 2490
+   },
+   "latency_ms": 2014.7
+  },
+  {
+   "file": "dir_4d66/file_63c7.f",
+   "file_original": "mis/ofprf2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 432,
+    "completion_tokens": 52,
+    "total_tokens": 484
+   },
+   "latency_ms": 3022.0
+  },
+  {
+   "file": "dir_4d66/file_12cc.f",
+   "file_original": "mis/plamat.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 873,
+    "completion_tokens": 3,
+    "total_tokens": 876
+   },
+   "latency_ms": 2024.2
+  },
+  {
+   "file": "dir_4d66/file_4867.f",
+   "file_original": "mis/read7.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't tell which module this is: the candidate names are anonymized and nothing in the code links it to any of them.\n\nWhat the code does show:\n- READ7 copies eigenvectors from OPHIA to NPHIA, scaling each one by the square root of the generalized mass. It also writes the eigenvalues to NLAMA.\n- That places it in the real eigenvalue extraction area of NASTRAN-95, probably near the READ module (Givens/Inverse power, FEER) in the mis source directory.\n\nSince there is no distinguishing information to match against the module names, the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1702,
+    "completion_tokens": 193,
+    "total_tokens": 1895
+   },
+   "latency_ms": 4923.3
+  },
+  {
+   "file": "dir_4d66/file_ff6e.f",
+   "file_original": "mis/givens.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2916,
+    "completion_tokens": 3,
+    "total_tokens": 2919
+   },
+   "latency_ms": 2107.9
+  },
+  {
+   "file": "dir_4d66/file_289c.f",
+   "file_original": "mis/fndplt.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "The candidate module names are anonymized and no descriptions were given, so this is a guess, not a determination. FNDPLT is a plotter-recognition routine from NASTRAN's plotting package, which in NASTRAN-95 sits in the `mis` source directory. Without knowing which candidate corresponds to that directory, I cannot tell the options apart.\n\nA",
+   "usage": {
+    "prompt_tokens": 869,
+    "completion_tokens": 118,
+    "total_tokens": 987
+   },
+   "latency_ms": 3488.9
+  },
+  {
+   "file": "dir_7fdf/file_5374.f",
+   "file_original": "mds/dbmint.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_73a3d0",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. DBMINT is an in-memory database and I/O routine (it includes 'DSIOF.COM'), which would place it in a database or I/O module. However, the candidate modules are identified only by anonymized hashes with no descriptions, so nothing links any of them to that role. Any letter I give is a guess.\n\nB",
+   "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 111,
+    "total_tokens": 1789
+   },
+   "latency_ms": 3702.8
+  },
+  {
+   "file": "dir_4d66/file_1e41.f",
+   "file_original": "mis/mce1d.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code. The candidate names are anonymized, and I don't have a description of what each module holds. Any letter I give is a guess.\n\nThe code itself is clear. MCE1D is part of the multipoint constraint elimination step (MCE1 module), and it is a matrix-utility routine. It uses the packing and unpacking calls (INTPK, BLDPK, ZNTPKI, ZBLPKI), the GINO file I/O calls (GOPEN, CLOSE), and trailer handling (RDTRL, WRTTRL). In the original source tree, files like this sit in the main matrix or functional-module group, usually `mis`.\n\nWith no basis to tell the four options apart, I'm picking B arbitrarily.\n\nB",
+   "usage": {
+    "prompt_tokens": 1670,
+    "completion_tokens": 244,
+    "total_tokens": 1914
+   },
+   "latency_ms": 6124.5
+  },
+  {
+   "file": "dir_4d66/file_81f3.f",
+   "file_original": "mis/trplms.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2725,
+    "completion_tokens": 3,
+    "total_tokens": 2728
+   },
+   "latency_ms": 2073.1
+  },
+  {
+   "file": "dir_4d66/file_bf50.f",
+   "file_original": "mis/ffread.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The candidate module names are anonymized and none of their contents were provided, so there is nothing to match the file against. FFREAD is the free-field input reader called by XSORT2. In NASTRAN-95 it sits in the source directory alongside XREAD and the other executive input routines. Mapping that directory to one of these four obfuscated IDs would be a guess, and I'm picking A only because I have to give a letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 3090,
+    "completion_tokens": 145,
+    "total_tokens": 3235
+   },
+   "latency_ms": 4520.6
+  },
+  {
+   "file": "dir_4d66/file_1af0.f",
+   "file_original": "mis/cmdisc.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code. CMDISC is part of the substructuring COMB1 combine routines (the CMB001–CMB004 commons), but the module names are anonymized and I have no information mapping them to source directories. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2058,
+    "completion_tokens": 81,
+    "total_tokens": 2139
+   },
+   "latency_ms": 3798.9
+  },
+  {
+   "file": "dir_4d66/file_10cf.f",
+   "file_original": "mis/mbctr.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "Without any information about the candidate modules, this is a guess. The code is MBCTR, part of the Mach box aerodynamic routines (MBOXA/MBOXC commons), which in NASTRAN-95 sit in the mis/ source directory. Nothing in the code points to a particular candidate.\n\nA",
+   "usage": {
+    "prompt_tokens": 2170,
+    "completion_tokens": 100,
+    "total_tokens": 2270
+   },
+   "latency_ms": 3546.6
+  },
+  {
+   "file": "dir_4d66/file_f439.f",
+   "file_original": "mis/cyct2a.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I have no information about what the candidate modules contain, so this is a guess. The modules are identified only by anonymized hashes, and none of the code features can be matched to any of them.\n\nWhat the code does show: `CYCT2A` is a helper in NASTRAN's cyclic symmetry transformation (the CYCT2 module). It computes matrix triple products using `SSG2B`. In NASTRAN-95 it would sit in the matrix-module source directory (mds), but that doesn't help choose among the four labels.\n\nA",
+   "usage": {
+    "prompt_tokens": 944,
+    "completion_tokens": 166,
+    "total_tokens": 1110
+   },
+   "latency_ms": 4495.2
+  },
+  {
+   "file": "dir_4d66/file_527e.f",
+   "file_original": "mis/frr1a1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't identify the module with confidence: the candidate module names are anonymized, and this file has no include or import statements to link it to any of them.\n\nWhat the code shows is that FRR1A1 is a frequency-response helper in the FRR family. FRRD1 and FRR1A belong to the dynamics and frequency-response area of NASTRAN-95. The routine computes a complex exponential-series term, likely used in transient or frequency analysis. Without a way to map that functional area to a specific anonymized module, the answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 788,
+    "completion_tokens": 172,
+    "total_tokens": 960
+   },
+   "latency_ms": 4966.3
+  },
+  {
+   "file": "dir_4d66/file_d708.f",
+   "file_original": "mis/subpb.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone. The candidate names are anonymized, and I don't know what each one contains.\n\nThe code itself is clear. SUBPB computes elements of the DPP, DPZ and DPY submatrices. It uses the `/AMGMN/` common block and calls SNPDF and INCRO. That makes it part of NASTRAN's aerodynamic matrix generator, specifically the Doublet-Lattice method with bodies.\n\nIn NASTRAN-95 these routines sit under the main source tree (mis/) alongside many other routines, so the module is probably the large generic source module. Which letter that maps to is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1924,
+    "completion_tokens": 210,
+    "total_tokens": 2134
+   },
+   "latency_ms": 5140.5
+  },
+  {
+   "file": "dir_4d66/file_e15b.f",
+   "file_original": "mis/drod.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 2064,
+    "completion_tokens": 3,
+    "total_tokens": 2067
+   },
+   "latency_ms": 2132.2
+  },
+  {
+   "file": "dir_4d66/file_20da.f",
+   "file_original": "mis/form12.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 163,
+    "total_tokens": 1324
+   },
+   "latency_ms": 4692.4
+  },
+  {
+   "file": "dir_4d66/file_be69.f",
+   "file_original": "mis/em1d.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "Cannot determine meaningfully without module descriptions; NASTRAN-95 is typically organized into mis, mds, bd, etc. EM1D likely sits in the \"mis\" directory, but the candidate names are random. I'll guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2362,
+    "completion_tokens": 81,
+    "total_tokens": 2443
+   },
+   "latency_ms": 3171.9
+  },
+  {
+   "file": "dir_4d66/file_46d9.f",
+   "file_original": "mis/xlnkhd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone. XLNKHD is part of the NASTRAN executive (XGPI, the general problem initialization that builds OSCAR entries), but the candidate module names are anonymized and give no hint which one holds the executive routines. Any letter is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2574,
+    "completion_tokens": 95,
+    "total_tokens": 2669
+   },
+   "latency_ms": 3512.9
+  },
+  {
+   "file": "dir_4d66/file_0662.f",
+   "file_original": "mis/piklvl.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2225,
+    "completion_tokens": 77,
+    "total_tokens": 2302
+   },
+   "latency_ms": 3518.2
+  },
+  {
+   "file": "dir_4d66/file_da97.f",
+   "file_original": "mis/sdr2c.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3009,
+    "completion_tokens": 3,
+    "total_tokens": 3012
+   },
+   "latency_ms": 2175.4
+  },
+  {
+   "file": "dir_4d66/file_9089.f",
+   "file_original": "mis/edtl.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2136,
+    "completion_tokens": 3,
+    "total_tokens": 2139
+   },
+   "latency_ms": 2064.3
+  },
+  {
+   "file": "dir_4d66/file_145a.f",
+   "file_original": "mis/mxcids.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 854,
+    "completion_tokens": 3,
+    "total_tokens": 857
+   },
+   "latency_ms": 3685.0
+  },
+  {
+   "file": "dir_0279/file_de10.f",
+   "file_original": "bd/of5pbd.f",
+   "label": "module_fc212c",
+   "label_original": "bd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2468,
+    "completion_tokens": 3,
+    "total_tokens": 2471
+   },
+   "latency_ms": 3397.0
+  },
+  {
+   "file": "dir_4d66/file_07fb.f",
+   "file_original": "mis/mma324.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2842,
+    "completion_tokens": 3,
+    "total_tokens": 2845
+   },
+   "latency_ms": 3604.1
+  },
+  {
+   "file": "dir_4d66/file_6570.f",
+   "file_original": "mis/cnorm1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 854,
+    "completion_tokens": 3,
+    "total_tokens": 857
+   },
+   "latency_ms": 1872.1
+  },
+  {
+   "file": "dir_4d66/file_494f.f",
+   "file_original": "mis/af.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "Without descriptions of the candidate modules, I can't tie this file to one with confidence, so this answer is a guess.\n\nThe code itself is clear about what it does. `AF` is an area-integration utility for triangular plate and shell elements; its comments name TRIM6, TRPLT1 and TRSHL as callers. In NASTRAN-95 that places it in the element or matrix-generation source, probably the \"mis\" or \"mds\" directory.\n\nThe candidate list gives only anonymized names (`module_893505`, `module_fc212c`, `module_305586`, `module_d9b730`), with no contents or descriptions. Nothing in the file links it to any one of them, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 227,
+    "total_tokens": 1417
+   },
+   "latency_ms": 5290.3
+  },
+  {
+   "file": "dir_4d66/file_685b.f",
+   "file_original": "mis/dkl.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1765,
+    "completion_tokens": 3,
+    "total_tokens": 1768
+   },
+   "latency_ms": 2021.2
+  },
+  {
+   "file": "dir_4d66/file_9c09.f",
+   "file_original": "mis/shhmgd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2257,
+    "completion_tokens": 3,
+    "total_tokens": 2260
+   },
+   "latency_ms": 2164.9
+  },
+  {
+   "file": "dir_4d66/file_28a9.f",
+   "file_original": "mis/hdsket.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't tell which module this belongs to from the code alone, because the candidate names are anonymized and nothing in the snippet links to them.\n\nWhat the code does show is that HDSKET is part of NASTRAN-95's hidden-line plotting routines (the HD* family). It works with the HDPTRS and HDSC common blocks, sets pen-lift indicators, and calls HDLIN. In the original source tree these routines live in the main mis (miscellaneous) source directory. Without a description of what each module contains, matching that to one of the four labels is a guess.\n\nD",
+   "usage": {
+    "prompt_tokens": 2175,
+    "completion_tokens": 181,
+    "total_tokens": 2356
+   },
+   "latency_ms": 4408.0
+  },
+  {
+   "file": "dir_4d66/file_8aea.f",
+   "file_original": "mis/mbgae.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The subroutine MBGAE (the Mach Box aerodynamic matrix generator, using COMMON /MBOXC/ and /AMGMN/) belongs to NASTRAN's aerodynamics area. But the candidate module names are anonymized and nothing in the prompt links them to subsystems, so any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2229,
+    "completion_tokens": 124,
+    "total_tokens": 2353
+   },
+   "latency_ms": 12835.8
+  },
+  {
+   "file": "dir_4d66/file_f40c.f",
+   "file_original": "mis/mxcid.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The candidate module names are fully anonymized hashes, and no description or file listing was given for any of them. So nothing in the source can be matched to a particular letter.\n\nWhat the code does show:\n- `MXCID` builds an external ID*10 + component array for the degrees of freedom in a set.\n- It uses standard NASTRAN utilities (`OPEN`, `FREAD`, `GOPEN`, `RDTRL`, `FNAME`) and common blocks (`/SYSTEM/`, `/NAMES/`, `/BITPOS/`, `/TWO/`).\n- It is a utility used by matrix-printing and DMAP modules.\n- In the original NASTRAN-95 tree, files like this sit in the large general source directory (`mis`).\n- No `INCLUDE` statements tie it to a narrower component.\n\nThe answer below is a guess, not an inference. A appears first among the candidates, and the large general-source module is the most likely home for a file like this.\n\nA",
+   "usage": {
+    "prompt_tokens": 2157,
+    "completion_tokens": 326,
+    "total_tokens": 2483
+   },
+   "latency_ms": 6773.5
+  },
+  {
+   "file": "dir_4d66/file_1e77.f",
+   "file_original": "mis/sqrtm.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "There are no import statements and no information about the candidate modules, so this is a guess. The routine does scaled arithmetic: square roots and determinant scaling. That points to the matrix and eigenvalue utility area of the code. Without anything to distinguish the four options, I'm picking one.\n\nA",
+   "usage": {
+    "prompt_tokens": 713,
+    "completion_tokens": 93,
+    "total_tokens": 806
+   },
+   "latency_ms": 3847.2
+  },
+  {
+   "file": "dir_4d66/file_b2a4.f",
+   "file_original": "mis/dki.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "Without more information about the modules, I can't reliably pick one; this is a guess.\n\nThe code is a double-precision function (DKI) that integrates over axisymmetric ring elements in R–Z coordinates. It belongs with the double-precision element routines, but the obfuscated names give no clue which candidate module that is.\n\n**A**",
+   "usage": {
+    "prompt_tokens": 2123,
+    "completion_tokens": 105,
+    "total_tokens": 2228
+   },
+   "latency_ms": 5153.2
+  },
+  {
+   "file": "dir_4d66/file_c921.f",
+   "file_original": "mis/loglog.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1415,
+    "completion_tokens": 66,
+    "total_tokens": 1481
+   },
+   "latency_ms": 6208.7
+  },
+  {
+   "file": "dir_4d66/file_283a.f",
+   "file_original": "mis/qparmd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The module names are anonymized, and I have no information linking any candidate to a particular kind of code.\n\nWhat the code shows is that QPARMD is a DMAP utility module. It performs double-precision parameter arithmetic, references the PARAMR/QPARMR family, and uses executive common blocks (/XVPS/, /ILXXD/, /SYSTEM/) plus the FNDPAR routine. In NASTRAN-95 such routines usually sit with the other DMAP utility modules in the main source library (often the \"mis\" directory). Without a description of what each candidate module contains, I can't tell which letter that is. The answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2815,
+    "completion_tokens": 220,
+    "total_tokens": 3035
+   },
+   "latency_ms": 5096.7
+  },
+  {
+   "file": "dir_4d66/file_17a7.f",
+   "file_original": "mis/setlvl.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right: the candidate modules are only anonymized IDs, and nothing in the prompt says what each one contains.\n\nThe code does show where the file belongs functionally. SETLVL is part of the SOF (Substructure Operating File) management layer used for substructuring. It uses the `/SOF/` common block and calls `CHKOPN`, `FDSUB`, `CRSUB`, `FMDI` and `FDIT`, all SOF directory routines. It also updates the MDI and DIT directory structures. So it belongs with the substructure/SOF utilities.\n\nIf you give me the module contents (even a few file names per module), I can match it properly. Since you asked for a single letter, A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2561,
+    "completion_tokens": 235,
+    "total_tokens": 2796
+   },
+   "latency_ms": 7648.1
+  },
+  {
+   "file": "dir_4d66/file_c7e2.f",
+   "file_original": "mis/mbplot.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1687,
+    "completion_tokens": 3,
+    "total_tokens": 1690
+   },
+   "latency_ms": 2096.6
+  },
+  {
+   "file": "dir_4d66/file_3f0c.f",
+   "file_original": "mis/invpwr.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 3,
+    "total_tokens": 3207
+   },
+   "latency_ms": 2078.1
+  },
+  {
+   "file": "dir_4d66/file_ee44.f",
+   "file_original": "mis/stube1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code. The candidate names are anonymized, and you've given no description of what each one contains, so nothing ties this file to a specific letter.\n\nWhat the code itself shows: STUBE1 is an SDR2 (stress data recovery) Phase I element routine. It uses the `/SDR2X5/` and `/SDR2X6/` commons, rewrites the tube's ECPT to match the rod layout, and calls SROD1. In NASTRAN-95 it would sit in the source directory with the other element stress-recovery and element-matrix routines (`mis`/`mds` style source).\n\n**B** is an unsupported guess, so treat it as such.\n\nB",
+   "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 218,
+    "total_tokens": 1591
+   },
+   "latency_ms": 5503.1
+  },
+  {
+   "file": "dir_0279/file_a7a1.f",
+   "file_original": "bd/sma1bd.f",
+   "label": "module_fc212c",
+   "label_original": "bd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The file is the BLOCK DATA for SMA1, the NASTRAN module that assembles the structural stiffness matrix (KGG). That would place it with the matrix assembly or element routines. But the four candidates are anonymized names with no descriptions or sample contents, so nothing links any one of them to SMA1. The answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 124,
+    "total_tokens": 1229
+   },
+   "latency_ms": 3596.1
+  },
+  {
+   "file": "dir_4d66/file_ed14.f",
+   "file_original": "mis/alg08.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't map this file to a module with confidence: the candidate module names are anonymized and nothing in the prompt describes what each one contains.\n\nWhat the code itself shows:\n- **ALG08** belongs to NASTRAN-95's ALG family of routines (ALG01 through ALG~30).\n- It uses the `/UD300C/` common block, so it is part of the axial-flow compressor aerodynamic analysis.\n- In the real source tree these routines sit in `mis/` together with almost everything else. That makes the target probably the largest, most general module.\n\nWith no information about the four candidates, my answer is close to a guess. I'm going with A.\n\nA",
+   "usage": {
+    "prompt_tokens": 3082,
+    "completion_tokens": 207,
+    "total_tokens": 3289
+   },
+   "latency_ms": 5568.8
+  },
+  {
+   "file": "dir_4d66/file_befd.f",
+   "file_original": "mis/errmkn.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "The four candidate modules are only anonymized names with no descriptions. Nothing in the code can be matched to them, so this answer is a guess rather than a derived result.\n\nWhat the code does show is that this file is an error-message routine for the SOF (Substructure Operating File) utilities. It calls `SOFCLS`, prints \"SOF UTILITY SUBROUTINE\", and lists SOF routines such as `CRSUB`, `DSTROY`, `FDIT`, `FMDI`, `FNXT`, `GETBLK`, `RETBLK` and `EXIO`. In NASTRAN-95 these belong to the substructuring / SOF utility group.\n\nA",
+   "usage": {
+    "prompt_tokens": 1411,
+    "completion_tokens": 220,
+    "total_tokens": 1631
+   },
+   "latency_ms": 8175.0
+  },
+  {
+   "file": "dir_4d66/file_16f0.f",
+   "file_original": "mis/ddr2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't verify which module this belongs to, because no candidate is described beyond its anonymized name, so this is a guess.\n\nThe file is DDR2, the dynamic data recovery routine for mode acceleration. In NASTRAN-95, routines like this usually sit in the main source directory (mis) with the other executable modules, so I'm guessing that corresponds to the first candidate.\n\nA",
+   "usage": {
+    "prompt_tokens": 1916,
+    "completion_tokens": 124,
+    "total_tokens": 2040
+   },
+   "latency_ms": 3788.1
+  },
+  {
+   "file": "dir_4d66/file_2a03.f",
+   "file_original": "mis/hdcoef.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 3,
+    "total_tokens": 1823
+   },
+   "latency_ms": 2325.0
+  },
+  {
+   "file": "dir_4d66/file_fa3e.f",
+   "file_original": "mis/sdcmm.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The candidate modules are only opaque identifiers, with no descriptions, file lists or other code to map them to.\n\nThe file itself is clear. SDCMM is the matrix-conditioning error message writer for symmetric decomposition (SDCOMP) in NASTRAN-95. It calls MXCID and MXCIDS and the I/O routines OPEN and FREAD, and uses the /SDCQ/ common block. So it belongs with the matrix decomposition / numerical utilities code. Without knowing which module that is, any letter is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2374,
+    "completion_tokens": 190,
+    "total_tokens": 2564
+   },
+   "latency_ms": 4762.1
+  },
+  {
+   "file": "dir_4d66/file_a2e1.f",
+   "file_original": "mis/dlbpt2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1898,
+    "completion_tokens": 3,
+    "total_tokens": 1901
+   },
+   "latency_ms": 6204.6
+  },
+  {
+   "file": "dir_4d66/file_bdf6.f",
+   "file_original": "mis/failrs.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1839,
+    "completion_tokens": 3,
+    "total_tokens": 1842
+   },
+   "latency_ms": 3297.0
+  },
+  {
+   "file": "dir_4d66/file_5102.f",
+   "file_original": "mis/rcovuo.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "There is no basis for picking one letter over another. The module names are anonymized and no description of what each candidate module contains was provided. The code shows this is RCOVUO, part of NASTRAN's substructure recovery (RCOV) functionality, but I can't map that to any of the obfuscated labels. My choice of A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2816,
+    "completion_tokens": 108,
+    "total_tokens": 2924
+   },
+   "latency_ms": 3451.3
+  },
+  {
+   "file": "dir_4d66/file_ec2d.f",
+   "file_original": "mis/optpx.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1964,
+    "completion_tokens": 3,
+    "total_tokens": 1967
+   },
+   "latency_ms": 2005.6
+  },
+  {
+   "file": "dir_4d66/file_5fc8.f",
+   "file_original": "mis/gfbs.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2606,
+    "completion_tokens": 3,
+    "total_tokens": 2609
+   },
+   "latency_ms": 2246.5
+  },
+  {
+   "file": "dir_4d66/file_2d33.f",
+   "file_original": "mis/linel.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't determine this reliably. The code shows LINEL is part of the NASTRAN plotting subsystem: it uses COMMON /PLTSCR/, /DRWDAT/ and /XXPARM/, calls OFSPLT, and refers to the PLOT, PLTSET and SUPLT routines. But the candidate module names are anonymized, and nothing here links any of A–D to the plotting code. Any letter I give is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 3228,
+    "completion_tokens": 149,
+    "total_tokens": 3377
+   },
+   "latency_ms": 5953.2
+  },
+  {
+   "file": "dir_4d66/file_0cc3.f",
+   "file_original": "mis/mtrplt.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code: the candidate names are anonymized hashes, and nothing in the file maps to any of them. The file is MTRPLT, a mass-matrix routine for the triangular plate element. It uses the SMA2 common blocks (SMA2IO, SMA2CL, SMA2ET, SMA2DP), which belong to the mass-matrix assembly module, but I don't know which letter corresponds to that module. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2408,
+    "completion_tokens": 153,
+    "total_tokens": 2561
+   },
+   "latency_ms": 5005.2
+  },
+  {
+   "file": "dir_4d66/file_e0fe.f",
+   "file_original": "mis/mpy3dr.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I can't identify this from the code. The module names are anonymized, and no descriptions of the candidate modules are given. Nothing in the source can be matched to \"module_73a3d0\" or the other three labels.\n\nWhat the code does show: MPY3DR is the matrix triple-product driver (MPY3), called by COMB2 and MRED2. In NASTRAN-95's original layout it sits in the `mis` directory, alongside other general utility routines, but I can't tell which anonymized label stands for that directory.\n\nThe answer below is a guess with no real basis.\n\nA",
+   "usage": {
+    "prompt_tokens": 2307,
+    "completion_tokens": 179,
+    "total_tokens": 2486
+   },
+   "latency_ms": 7446.0
+  },
+  {
+   "file": "dir_4d66/file_6859.f",
+   "file_original": "mis/fornum.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 601,
+    "completion_tokens": 143,
+    "total_tokens": 744
+   },
+   "latency_ms": 4428.0
+  },
+  {
+   "file": "dir_4d66/file_2196.f",
+   "file_original": "mis/ifp5.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2657,
+    "completion_tokens": 3,
+    "total_tokens": 2660
+   },
+   "latency_ms": 2143.4
+  },
+  {
+   "file": "dir_4d66/file_bf89.f",
+   "file_original": "mis/sofi.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "No candidate module is described, so this cannot be determined from the code alone; it is a guess. SOFI is a substructuring (SOF) module, but none of the four candidates can be matched to that.\n\nA",
+   "usage": {
+    "prompt_tokens": 2001,
+    "completion_tokens": 64,
+    "total_tokens": 2065
+   },
+   "latency_ms": 2850.0
+  },
+  {
+   "file": "dir_4d66/file_88e5.f",
+   "file_original": "mis/mtimsu.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I have no information about what the candidate modules contain, so this is close to a guess. The code itself is the inverse power eigenvalue solver's mass-times-vector routine (it uses the INVPWX and INVPXX common blocks). Without any basis for mapping that to one of the anonymized modules, I am picking A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 110,
+    "total_tokens": 1115
+   },
+   "latency_ms": 4311.1
+  },
+  {
+   "file": "dir_4d66/file_61ef.f",
+   "file_original": "mis/flface.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The code shows FLFACE is part of the fluid-structure boundary (FLBMG) routines in NASTRAN-95, which use the /FLBPTR/ common block. But the four candidate module names are fully anonymized, and no descriptions or file listings were given for them. Nothing in the source maps to any one of them, so the letter below is a guess.\n\nB",
+   "usage": {
+    "prompt_tokens": 2341,
+    "completion_tokens": 126,
+    "total_tokens": 2467
+   },
+   "latency_ms": 5701.7
+  },
+  {
+   "file": "dir_4d66/file_31d0.f",
+   "file_original": "mis/frlgb.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1509,
+    "completion_tokens": 3,
+    "total_tokens": 1512
+   },
+   "latency_ms": 2192.2
+  },
+  {
+   "file": "dir_4d66/file_05cb.f",
+   "file_original": "mis/sdr3.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "Without descriptions of the candidate modules, I can't make a confident match. The only content-based clue is that SDR3 is an output-stage module that calls OFPDMP (the output file processor). That suggests a module grouping output and data recovery routines, but it doesn't point to any one of the four candidates. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 679,
+    "completion_tokens": 107,
+    "total_tokens": 786
+   },
+   "latency_ms": 4403.7
+  },
+  {
+   "file": "dir_4d66/file_1d31.f",
+   "file_original": "mis/kcone2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3367,
+    "completion_tokens": 3,
+    "total_tokens": 3370
+   },
+   "latency_ms": 3292.5
+  },
+  {
+   "file": "dir_4d66/file_777a.f",
+   "file_original": "mis/dupart.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 884,
+    "completion_tokens": 66,
+    "total_tokens": 950
+   },
+   "latency_ms": 3429.4
+  },
+  {
+   "file": "dir_4d66/file_444a.f",
+   "file_original": "mis/dpd4.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 2612,
+    "completion_tokens": 3,
+    "total_tokens": 2615
+   },
+   "latency_ms": 2059.9
+  },
+  {
+   "file": "dir_4d66/file_c9ce.f",
+   "file_original": "mis/detfbs.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2466,
+    "completion_tokens": 3,
+    "total_tokens": 2469
+   },
+   "latency_ms": 2074.6
+  },
+  {
+   "file": "dir_4d66/file_a26a.f",
+   "file_original": "mis/shsetd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the candidate module names are anonymized and nothing in the prompt says what any of them contain. The file itself is clear enough. `SHSETD` is the double-precision setup routine for the isoparametric shell elements (TRIA3, QUAD4, TRIA6, QUAD8), called by `SHHMGD`. It belongs to the element-matrix or element-routine code of NASTRAN-95. The obfuscated names `module_fc212c`, `module_985728`, `module_893505` and `module_305586` cannot be matched to that description, so any letter I pick is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2598,
+    "completion_tokens": 204,
+    "total_tokens": 2802
+   },
+   "latency_ms": 4781.6
+  },
+  {
+   "file": "dir_4d66/file_56f4.f",
+   "file_original": "mis/com12.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2228,
+    "completion_tokens": 3,
+    "total_tokens": 2231
+   },
+   "latency_ms": 1986.7
+  },
+  {
+   "file": "dir_4d66/file_00ae.f",
+   "file_original": "mis/fdsub.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code itself. FDSUB is a Substructure Operating File (SOF) utility routine, but the candidate module names are anonymized and nothing in the file maps it to one of them. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 77,
+    "total_tokens": 1409
+   },
+   "latency_ms": 3241.4
+  },
+  {
+   "file": "dir_4d66/file_5315.f",
+   "file_original": "mis/amp.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I can't tell this from the code itself. The candidate names are anonymized and no description of each module was given. The file is the aeroelastic AMP module driver, so it would belong to whichever module holds the aero and flutter routines. That would be the same module as AMPA, AMPB and AMPC, likely alongside other aero routines. I can't map that to a letter, so this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2389,
+    "completion_tokens": 124,
+    "total_tokens": 2513
+   },
+   "latency_ms": 4290.1
+  },
+  {
+   "file": "dir_4d66/file_d3d2.f",
+   "file_original": "mis/smp1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1860,
+    "completion_tokens": 88,
+    "total_tokens": 1948
+   },
+   "latency_ms": 3463.4
+  },
+  {
+   "file": "dir_4d66/file_db92.f",
+   "file_original": "mis/mpyl.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "This is a small, general-purpose matrix utility (multiply, transpose multiply, normalize, cross product). The candidate module names are anonymized and no descriptions were given, so the code itself offers nothing that maps it to one of them. The letter below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 93,
+    "total_tokens": 1175
+   },
+   "latency_ms": 3485.5
+  },
+  {
+   "file": "dir_4d66/file_2571.f",
+   "file_original": "mis/ssg1a.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2090,
+    "completion_tokens": 3,
+    "total_tokens": 2093
+   },
+   "latency_ms": 1979.9
+  },
+  {
+   "file": "dir_4d66/file_0d60.f",
+   "file_original": "mis/sd2rhd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't identify the module from the code alone. The candidate names are hashed and come with no descriptions, so nothing links the code's content to any one of them.\n\nWhat the code does show:\n- `SD2RHD` writes the heading for the element precision check in `SDR2E`.\n- It uses `COMMON /SDR2X4/`, which ties it to the SDR2 (stress data recovery) module.\n- In NASTRAN-95 this file would sit in the source directory with most other subroutines, which may be the largest module.\n\nPicking the largest module would be the most likely guess, but I don't know which candidate that is. The letter below is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 207,
+    "total_tokens": 1516
+   },
+   "latency_ms": 4612.6
+  },
+  {
+   "file": "dir_4d66/file_e6c8.f",
+   "file_original": "mis/cmrd2c.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The CMRD2C subroutine is part of the substructuring complex modal reduction module (CMRED2). However, the candidate module names are hashed, and no descriptions were given to link any of them to that functionality. Choosing a letter would be a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2537,
+    "completion_tokens": 93,
+    "total_tokens": 2630
+   },
+   "latency_ms": 4334.6
+  },
+  {
+   "file": "dir_4d66/file_259a.f",
+   "file_original": "mis/cnstdd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1666,
+    "completion_tokens": 91,
+    "total_tokens": 1757
+   },
+   "latency_ms": 4625.3
+  },
+  {
+   "file": "dir_4d66/file_d242.f",
+   "file_original": "mis/dcone.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2819,
+    "completion_tokens": 3,
+    "total_tokens": 2822
+   },
+   "latency_ms": 2022.5
+  },
+  {
+   "file": "dir_4d66/file_3a63.f",
+   "file_original": "mis/smcomp.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1433,
+    "completion_tokens": 3,
+    "total_tokens": 1436
+   },
+   "latency_ms": 2075.6
+  },
+  {
+   "file": "dir_4d66/file_71bf.f",
+   "file_original": "mis/matvc2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 1405,
+    "completion_tokens": 3,
+    "total_tokens": 1408
+   },
+   "latency_ms": 3475.7
+  },
+  {
+   "file": "dir_4d66/file_30ee.f",
+   "file_original": "mis/egnvct.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "I can't tell this from the code itself. The candidate module names are anonymized, and no descriptions of their contents were given. The file has no import or include statements to link it to a module.\n\nWhat the code does show is that EGNVCT computes an eigenvector for a known eigenvalue of a complex non-symmetric matrix. In NASTRAN-95 that work belongs to flutter or aeroelastic analysis (the Cunningham method reference fits). It would sit with routines like the flutter K-method solver or the eigenvalue extraction utilities, but nothing here says which of A to D holds those.\n\nGuessing:\n\nA",
+   "usage": {
+    "prompt_tokens": 1742,
+    "completion_tokens": 197,
+    "total_tokens": 1939
+   },
+   "latency_ms": 5694.3
+  },
+  {
+   "file": "dir_4d66/file_5c90.f",
+   "file_original": "mis/shxtrs.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "No candidate has a description, so this is a guess. The code is a shell-element stress extrapolation routine (SHXTRS). I can't tell which anonymized module holds the element routines, so I pick A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 1416,
+    "completion_tokens": 74,
+    "total_tokens": 1490
+   },
+   "latency_ms": 3376.3
+  },
+  {
+   "file": "dir_4d66/file_3d9c.f",
+   "file_original": "mis/pakcol.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the evidence. The candidate modules are only obfuscated IDs, and I have no descriptions or example contents for them. Whichever letter I give is close to a guess.\n\nWhat the code does show: PAKCOL packs a column of the AF or DKGG matrix. AF is the fluid area matrix used in hydroelastic coupling, and DKGG is the differential stiffness matrix. The routine sorts terms by scalar index (SIL) and adds duplicates before writing them out through the ZBLPKX packing interface. This suggests it belongs to a matrix-assembly module, possibly one tied to fluid–structure coupling or differential stiffness. In NASTRAN-95 that would sit within the main source tree rather than utilities.\n\nNone of that links to any specific candidate, so the answer below is a low-confidence guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1619,
+    "completion_tokens": 275,
+    "total_tokens": 1894
+   },
+   "latency_ms": 7574.9
+  },
+  {
+   "file": "dir_4d66/file_4f2c.f",
+   "file_original": "mis/srod2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "There is no information about what the candidate modules contain, so this is a guess. The file is SROD2, phase II of stress data recovery for the rod element, part of SDR2. Any of the four modules could hold it.\n\nA",
+   "usage": {
+    "prompt_tokens": 2171,
+    "completion_tokens": 69,
+    "total_tokens": 2240
+   },
+   "latency_ms": 5285.9
+  },
+  {
+   "file": "dir_4d66/file_6178.f",
+   "file_original": "mis/mmarm3.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1862,
+    "completion_tokens": 3,
+    "total_tokens": 1865
+   },
+   "latency_ms": 3416.2
+  },
+  {
+   "file": "dir_4d66/file_2c84.f",
+   "file_original": "mis/pkqad1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1624,
+    "completion_tokens": 3,
+    "total_tokens": 1627
+   },
+   "latency_ms": 2014.8
+  },
+  {
+   "file": "dir_4d66/file_c2ea.f",
+   "file_original": "mis/emadtq.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2485,
+    "completion_tokens": 3,
+    "total_tokens": 2488
+   },
+   "latency_ms": 2129.6
+  },
+  {
+   "file": "dir_4d66/file_91e7.f",
+   "file_original": "mis/alg26.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't identify the module from evidence. Only the obfuscated module names are given, with no description of what each one contains. So I can't tie this file to a letter with confidence.\n\nWhat the code does show: ALG26 uses the `/UD300C/` common block and calls ALG01. This is the ALG family of routines, NASTRAN's axial-flow turbomachine aerodynamic analysis (streamline curvature). In NASTRAN-95 those routines sit in the `mis` directory, but nothing here links `mis` to any of the four candidates.\n\nMy answer below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 3063,
+    "completion_tokens": 193,
+    "total_tokens": 3256
+   },
+   "latency_ms": 4867.6
+  },
+  {
+   "file": "dir_4d66/file_87a2.f",
+   "file_original": "mis/trapad.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't tell from the code alone which anonymized module this file belongs to, because the candidates are only hashed names with no descriptions.\n\nThe code itself is clear about what it does. TRAPAD is the double-precision version of the EMG (element matrix generator) routine for the TRAPAX element. It uses the /EMGPRM/, /EMGDIC/ and /EMGEST/ common blocks. In NASTRAN-95 such routines sit in the `mds` source directory, which holds the double-precision machine-dependent routines.\n\nNothing links that directory to module_893505, module_985728, module_d9b730 or module_305586. Any letter I give is therefore a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 2863,
+    "completion_tokens": 227,
+    "total_tokens": 3090
+   },
+   "latency_ms": 5639.6
+  },
+  {
+   "file": "dir_4d66/file_c3f5.f",
+   "file_original": "mis/combin.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2052,
+    "completion_tokens": 3,
+    "total_tokens": 2055
+   },
+   "latency_ms": 2054.1
+  },
+  {
+   "file": "dir_4d66/file_594b.f",
+   "file_original": "mis/etrbmd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2532,
+    "completion_tokens": 3,
+    "total_tokens": 2535
+   },
+   "latency_ms": 2105.6
+  },
+  {
+   "file": "dir_4d66/file_2dae.f",
+   "file_original": "mis/delkls.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1756,
+    "completion_tokens": 3,
+    "total_tokens": 1759
+   },
+   "latency_ms": 2853.5
+  },
+  {
+   "file": "dir_4d66/file_71f6.f",
+   "file_original": "mis/fvrs1e.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 81,
+    "total_tokens": 1322
+   },
+   "latency_ms": 3220.8
+  },
+  {
+   "file": "dir_4d66/file_516f.f",
+   "file_original": "mis/cmcase.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't tell which module this is from the code. The file is CMCASE, a substructuring routine for the COMB1 combine operation (it uses the CMB001–CMB004 commons). But all four candidate module names are anonymized and none of them is described, so nothing in the file links to any letter. The pick below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2276,
+    "completion_tokens": 104,
+    "total_tokens": 2380
+   },
+   "latency_ms": 3928.2
+  },
+  {
+   "file": "dir_4d66/file_dc1f.f",
+   "file_original": "mis/fa1ke.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The candidate modules are identified only by anonymized names, and no description of their contents was given. FA1KE is the K-method flutter routine in NASTRAN's aeroelastic flutter analysis (FA1). It likely sits in an aeroelastic/flutter module, or in a general module of executable subroutines. However, I can't tell which of A–D that is. The answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1717,
+    "completion_tokens": 137,
+    "total_tokens": 1854
+   },
+   "latency_ms": 3934.2
+  },
+  {
+   "file": "dir_0279/file_71cd.f",
+   "file_original": "bd/ofsnbd.f",
+   "label": "module_fc212c",
+   "label_original": "bd",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 578,
+    "completion_tokens": 3,
+    "total_tokens": 581
+   },
+   "latency_ms": 2090.9
+  },
+  {
+   "file": "dir_4d66/file_f5cb.f",
+   "file_original": "mis/selbo2.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2320,
+    "completion_tokens": 3,
+    "total_tokens": 2323
+   },
+   "latency_ms": 2090.4
+  },
+  {
+   "file": "dir_4d66/file_368c.f",
+   "file_original": "mis/mpya3d.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1731,
+    "completion_tokens": 3,
+    "total_tokens": 1734
+   },
+   "latency_ms": 1942.0
+  },
+  {
+   "file": "dir_4d66/file_43b6.f",
+   "file_original": "mis/apd12.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2094,
+    "completion_tokens": 3,
+    "total_tokens": 2097
+   },
+   "latency_ms": 2197.9
+  },
+  {
+   "file": "dir_4d66/file_3244.f",
+   "file_original": "mis/eadd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't determine this from the evidence. The candidate modules are only anonymized IDs, and no description of their contents was given.\n\nThe code itself is clear. EADD is part of NASTRAN's real eigenvalue analysis (REIGL/READ, using the /REGEAN/ common block). It forms the matrix sum K + λM through the SADD routine. In the original source tree this kind of file lives in the main executable source directory, typically `mis`.\n\nWithout knowing what each anonymized module holds, this is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 855,
+    "completion_tokens": 174,
+    "total_tokens": 1029
+   },
+   "latency_ms": 4946.8
+  },
+  {
+   "file": "dir_7fdf/file_fbd1.f",
+   "file_original": "mds/dsocff.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 3,
+    "total_tokens": 1047
+   },
+   "latency_ms": 2090.5
+  },
+  {
+   "file": "dir_7fdf/file_f160.f",
+   "file_original": "mds/dswrnb.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 424,
+    "completion_tokens": 83,
+    "total_tokens": 507
+   },
+   "latency_ms": 3747.1
+  },
+  {
+   "file": "dir_4d66/file_31fb.f",
+   "file_original": "mis/eqmcks.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2246,
+    "completion_tokens": 3,
+    "total_tokens": 2249
+   },
+   "latency_ms": 25599.5
+  },
+  {
+   "file": "dir_4d66/file_15ac.f",
+   "file_original": "mis/sdhtff.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2177,
+    "completion_tokens": 3,
+    "total_tokens": 2180
+   },
+   "latency_ms": 2511.4
+  },
+  {
+   "file": "dir_4d66/file_985b.f",
+   "file_original": "mis/apd1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. APD1 is part of NASTRAN-95's aerodynamic pool distributor, which generates aerodynamic boxes and strips. But the candidate module names are hashed, so nothing in the code links APD1 to any particular one. My answer is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2496,
+    "completion_tokens": 99,
+    "total_tokens": 2595
+   },
+   "latency_ms": 4723.2
+  },
+  {
+   "file": "dir_4d66/file_b5e6.f",
+   "file_original": "mis/q4bmgs.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2564,
+    "completion_tokens": 3,
+    "total_tokens": 2567
+   },
+   "latency_ms": 2521.6
+  },
+  {
+   "file": "dir_4d66/file_0989.f",
+   "file_original": "mis/wavey.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone. The routine is clearly part of the BANDIT bandwidth and wavefront reduction code: it uses COMMON /BANDS/ and calls BUNPAK. However, the candidate module names are anonymized and no other information links them to their contents, so this is a guess.\n\nB",
+   "usage": {
+    "prompt_tokens": 2093,
+    "completion_tokens": 102,
+    "total_tokens": 2195
+   },
+   "latency_ms": 3141.4
+  },
+  {
+   "file": "dir_4d66/file_cec6.f",
+   "file_original": "mis/sorti.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't tell which module this belongs to: the candidate names are anonymized and nothing describes what each module contains.\n\nSORTI is a general utility routine. It handles in-core and file sorting and uses the /SETUP/, /SYSTEM/ and /TWO/ common blocks. In NASTRAN-95 such routines usually sit in a general utilities source directory (e.g. \"mds\" or \"mis\"). Without knowing which candidate is that utilities module, any letter is a guess, and I've picked A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 2321,
+    "completion_tokens": 173,
+    "total_tokens": 2494
+   },
+   "latency_ms": 4646.3
+  },
+  {
+   "file": "dir_4d66/file_6445.f",
+   "file_original": "mis/alg5.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 323,
+    "completion_tokens": 66,
+    "total_tokens": 389
+   },
+   "latency_ms": 5418.9
+  },
+  {
+   "file": "dir_4d66/file_52a5.f",
+   "file_original": "mis/xclean.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't verify this, because the candidate module names are anonymized and none of their contents are given. My choice of A is a guess, not something derived from the code.\n\nWhat the code does show is that this file is part of NASTRAN's executive layer. XCLEAN cleans up the file allocation table (FIAT) during DMAP execution. It uses the `/XFIAT/`, `/XDPL/` and `/XSFA1/` common blocks, and it calls XPOLCK, the routine that checks the data pool. The file therefore belongs with the other executive, file-management and DMAP-sequencing routines (XSFA, XPURGE, XPOLCK and similar), not with element, matrix or solver code.\n\nA",
+   "usage": {
+    "prompt_tokens": 2740,
+    "completion_tokens": 227,
+    "total_tokens": 2967
+   },
+   "latency_ms": 6503.8
+  },
+  {
+   "file": "dir_4d66/file_0666.f",
+   "file_original": "mis/oldel1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 744,
+    "completion_tokens": 3,
+    "total_tokens": 747
+   },
+   "latency_ms": 2251.9
+  },
+  {
+   "file": "dir_4d66/file_3d4f.f",
+   "file_original": "mis/emg.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2221,
+    "completion_tokens": 69,
+    "total_tokens": 2290
+   },
+   "latency_ms": 5691.2
+  },
+  {
+   "file": "dir_4d66/file_dd3e.f",
+   "file_original": "mis/ktrplt.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2415,
+    "completion_tokens": 3,
+    "total_tokens": 2418
+   },
+   "latency_ms": 2133.7
+  },
+  {
+   "file": "dir_4d66/file_b982.f",
+   "file_original": "mis/magpha.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 569,
+    "completion_tokens": 3,
+    "total_tokens": 572
+   },
+   "latency_ms": 2062.2
+  },
+  {
+   "file": "dir_4d66/file_79c8.f",
+   "file_original": "mis/insert.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1635,
+    "completion_tokens": 68,
+    "total_tokens": 1703
+   },
+   "latency_ms": 3119.2
+  },
+  {
+   "file": "dir_4d66/file_11be.f",
+   "file_original": "mis/cmrd2a.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "The candidate module names are anonymized and the code gives no direct mapping, so this is a best guess rather than a derivation. The file is CMRD2A, part of the CMRED2 substructuring module: it partitions the stiffness matrix and saves the partition vector to the SOF. It would sit in the source directory with the other substructuring routines, but I can't link that directory to any of the four labels.\n\nA",
+   "usage": {
+    "prompt_tokens": 2190,
+    "completion_tokens": 128,
+    "total_tokens": 2318
+   },
+   "latency_ms": 4330.0
+  },
+  {
+   "file": "dir_7fdf/file_ce14.f",
+   "file_original": "mds/dsskfb.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't tell from the code which candidate this is: the module names are anonymised and you haven't described what each one contains. This is a guess.\n\nWhat the code does show: DSSKFB is part of the GINO I/O layer. It is a DS* routine that includes DSIOF.COM and calls DSBRC1, which backspaces a record. It skips files backward. So it belongs to whichever module holds the DS* I/O utilities, and I've assumed that is A.\n\nA",
+   "usage": {
+    "prompt_tokens": 494,
+    "completion_tokens": 148,
+    "total_tokens": 642
+   },
+   "latency_ms": 4399.2
+  },
+  {
+   "file": "dir_4d66/file_e8f9.f",
+   "file_original": "mis/dplot.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I can't determine this reliably from the code alone. The file is DPLOT, the plot module driver, which would belong to a plotting or utility module. But the candidate module names are anonymized and nothing in the code links to any of them, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2271,
+    "completion_tokens": 83,
+    "total_tokens": 2354
+   },
+   "latency_ms": 3213.5
+  },
+  {
+   "file": "dir_4d66/file_4753.f",
+   "file_original": "mis/umfzdd.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The candidate module names are anonymized and no descriptions of them were given, so nothing in the source links it to one label. UMFZDD initializes COMMON /UMFZZZ/ for UMFEDT, which belongs to the User Master File (UMF) handling in NASTRAN's executive/preface utilities. This answer is a guess, not a derivation.\n\nA",
+   "usage": {
+    "prompt_tokens": 510,
+    "completion_tokens": 128,
+    "total_tokens": 638
+   },
+   "latency_ms": 108671.6
+  },
+  {
+   "file": "dir_4d66/file_90d3.f",
+   "file_original": "mis/machck.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code alone, because no candidate module descriptions are provided, only anonymized IDs. The code suggests MACHCK belongs to the machine-independent source (mis) or the executive/link1 area. Without any mapping from IDs to contents, the choice below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2196,
+    "completion_tokens": 97,
+    "total_tokens": 2293
+   },
+   "latency_ms": 3586.6
+  },
+  {
+   "file": "dir_4d66/file_dfa7.f",
+   "file_original": "mis/amgrod.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I cannot determine this from the code itself: the modules are given only as anonymous IDs, with no description of their contents. The code places the file firmly in NASTRAN-95's aerodynamic matrix generator area. AMGROD and DZYMAT are part of the AMG doublet-lattice-with-bodies code, using the /DLBDY/ common block. A source-tree split would put this in the main MIS directory, but nothing links any of the four IDs to that area. My answer is therefore a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 163,
+    "total_tokens": 1474
+   },
+   "latency_ms": 6661.9
+  },
+  {
+   "file": "dir_4d66/file_c83a.f",
+   "file_original": "mis/tlodsl.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3560,
+    "completion_tokens": 3,
+    "total_tokens": 3563
+   },
+   "latency_ms": 4972.0
+  },
+  {
+   "file": "dir_7fdf/file_6482.f",
+   "file_original": "mds/ibmopn.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 857,
+    "completion_tokens": 3,
+    "total_tokens": 860
+   },
+   "latency_ms": 2360.8
+  },
+  {
+   "file": "dir_4d66/file_9f41.f",
+   "file_original": "mis/gust1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_985728",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1956,
+    "completion_tokens": 3,
+    "total_tokens": 1959
+   },
+   "latency_ms": 2841.4
+  },
+  {
+   "file": "dir_4d66/file_cfd5.f",
+   "file_original": "mis/mbreg.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The candidate module names are fully anonymized, and no descriptions or file listings come with them. So the content can't be mapped to a specific label.\n\nWhat the code does show:\n- `MBREG` is part of the Mach Box aerodynamic method, using the `/MBOXA/` and `/MBOXC/` common blocks.\n- That method is used in NASTRAN's aeroelastic and unsteady-aerodynamics routines.\n- In the NASTRAN-95 source tree these routines sit in the main subroutine library, most likely `mis/`, alongside most other analysis routines.\n\nIf the module labels match directory names, the large general library (`mis`) is the most likely home. Without knowing which anonymized label stands for that directory, my answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 2104,
+    "completion_tokens": 254,
+    "total_tokens": 2358
+   },
+   "latency_ms": 7229.0
+  },
+  {
+   "file": "dir_7fdf/file_3d9b.f",
+   "file_original": "mds/read.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't identify the module with any real confidence. The code itself is clear about what it does, but the module names are anonymized and no information links any of them to that role.\n\n- **What the file is:** This is the GINO I/O `READ` routine. It includes `DSIOF.COM` and `GINOX.COM` and calls the `DS*` helpers (`DSGEFL`, `DSRDNB`, `DSSKRC`, `DSSDCB`). In NASTRAN-95 this belongs to the machine-independent GINO/DSIO file-handling layer, usually in the `mis` or `bd` source directories.\n- **Why that doesn't settle it:** I have no description of what module_fc212c, module_d9b730, module_73a3d0 or module_305586 contain. So I can't map this layer to one of the four letters.\n\nMy answer is a guess:\n\nA",
+   "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 277,
+    "total_tokens": 1396
+   },
+   "latency_ms": 6315.8
+  },
+  {
+   "file": "dir_4d66/file_6584.f",
+   "file_original": "mis/opt2a.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73a3d0",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 3,
+    "total_tokens": 2034
+   },
+   "latency_ms": 2475.1
+  },
+  {
+   "file": "dir_4d66/file_1da8.f",
+   "file_original": "mis/pstq1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_305586",
+   "correct": false,
+   "raw_response": "I can't tie this file to a specific option with confidence, so treat the answer below as a guess. The candidate modules come with no descriptions, so I can't match the code's content to any of them.\n\nThe code places the file clearly: it is the phase I stress recovery routine for the PLA3 piecewise-linear analysis, handling the combination elements (TRIA1, TRIA2, QUAD1, QUAD2). In NASTRAN-95 such routines usually sit in the main source directory. That tells me what kind of module it belongs to, not which of the four anonymized labels that is.\n\nA",
+   "usage": {
+    "prompt_tokens": 2330,
+    "completion_tokens": 187,
+    "total_tokens": 2517
+   },
+   "latency_ms": 4551.9
+  },
+  {
+   "file": "dir_4d66/file_0a03.f",
+   "file_original": "mis/scan.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_893505",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 3225,
+    "completion_tokens": 3,
+    "total_tokens": 3228
+   },
+   "latency_ms": 2215.3
+  },
+  {
+   "file": "dir_7fdf/file_d309.f",
+   "file_original": "mds/dsupkc.f",
+   "label": "module_73a3d0",
+   "label_original": "mds",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1612,
+    "completion_tokens": 3,
+    "total_tokens": 1615
+   },
+   "latency_ms": 2335.7
+  },
+  {
+   "file": "dir_4d66/file_8e84.f",
+   "file_original": "mis/bint.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 82,
+    "total_tokens": 1116
+   },
+   "latency_ms": 3283.1
+  },
+  {
+   "file": "dir_4d66/file_e181.f",
+   "file_original": "mis/bdat05.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "I can't pin this down from the code. The candidate names are anonymized, and no module descriptions were given. The code shows the routine is BDAT05, part of the substructure COMB1 bulk-data processing (common blocks CMB001–CMB004). In NASTRAN-95 that would sit in a module holding the substructuring files (BDAT, CMB, and similar). I have nothing that ties any of the four labels to that module, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 150,
+    "total_tokens": 1085
+   },
+   "latency_ms": 4305.0
+  },
+  {
+   "file": "dir_4d66/file_eca5.f",
+   "file_original": "mis/tabfmt.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d9b730",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 2128,
+    "completion_tokens": 3,
+    "total_tokens": 2131
+   },
+   "latency_ms": 3555.4
+  },
+  {
+   "file": "dir_4d66/file_d0e1.f",
+   "file_original": "mis/ofp1.f",
+   "label": "module_893505",
+   "label_original": "mis",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc212c",
+   "correct": false,
+   "raw_response": "I can't determine this from the code. The only candidate information given is the four anonymized module names (module_fc212c, module_985728, module_73a3d0, module_893505). Nothing describes what each module contains, so there is nothing to match the code against.\n\nWhat the code does show is that OFP1 is part of NASTRAN's Output File Processor (OFP). It prints page headings and dispatches to OFP1A, OFP1B and OFP1C. In NASTRAN-95 those routines sit in the main source library alongside many other utility and functional-module routines. It has no INCLUDE or import statements, only COMMON blocks (/SYSTEM/, /ZZZZZZ/) that are used throughout the codebase.\n\nThe letter below is a guess with roughly a 1-in-4 chance of being right.\n\nA",
+   "usage": {
+    "prompt_tokens": 918,
+    "completion_tokens": 260,
+    "total_tokens": 1178
+   },
+   "latency_ms": 5492.6
+  }
+ ],
+ "timestamp": "2026-10-02T13:48:30.226464",
+ "model": "claude-opus-5.5",
+ "project": "nastran",
+ "task": "ci_obfuscated",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42
+}

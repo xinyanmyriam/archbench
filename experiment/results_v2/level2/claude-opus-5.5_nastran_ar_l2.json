@@ -1,0 +1,111 @@
+{
+  "precision_at_5": 0.2,
+  "recall_at_5": 1.0,
+  "total": 4,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 872,
+    "completion_tokens": 333,
+    "total_tokens": 1205
+  },
+  "results": [
+    {
+      "source_module": "utility",
+      "true_targets": [
+        "mis"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "mds",
+        "mis",
+        "bd",
+        "um",
+        "rf"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "mds\nmis\nbd\num\nrf",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 15,
+        "total_tokens": 233
+      },
+      "latency_ms": 4000.3
+    },
+    {
+      "source_module": "mds",
+      "true_targets": [
+        "mis"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "mis",
+        "utility",
+        "bd",
+        "rf",
+        "um"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "mis\nutility\nbd\nrf\num",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 146,
+        "total_tokens": 364
+      },
+      "latency_ms": 6083.5
+    },
+    {
+      "source_module": "mis",
+      "true_targets": [
+        "mds"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "mds",
+        "bd",
+        "utility",
+        "rf",
+        "um"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "mds\nbd\nutility\nrf\num",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 157,
+        "total_tokens": 375
+      },
+      "latency_ms": 5407.7
+    },
+    {
+      "source_module": "bd",
+      "true_targets": [
+        "mds"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "mis",
+        "mds",
+        "utility",
+        "um",
+        "rf"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "mis\nmds\nutility\num\nrf",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 15,
+        "total_tokens": 233
+      },
+      "latency_ms": 4455.1
+    }
+  ],
+  "timestamp": "2026-10-21T13:46:49.988368",
+  "model": "claude-opus-5.5",
+  "project": "nastran",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

@@ -1,0 +1,2107 @@
+{
+  "precision_at_5": 0.2787878787878787,
+  "recall_at_5": 0.37023922799323866,
+  "total": 66,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 105011,
+    "completion_tokens": 1482472,
+    "total_tokens": 1587483
+  },
+  "results": [
+    {
+      "source_module": "smesh/src/StdMeshersGUI",
+      "true_targets": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMFiltersSelection",
+        "geom/src/GEOM_I",
+        "gui/src/OBJECT",
+        "gui/src/Qtx",
+        "gui/src/SalomeApp",
+        "smesh/src/OBJECT",
+        "smesh/src/SMESH_I"
+      ],
+      "shown_deps": [
+        "geom/src/OBJECT",
+        "gui/src/LightApp",
+        "gui/src/Plot2d",
+        "gui/src/SUIT",
+        "gui/src/SVTK",
+        "kernel/src/SALOMEDSClient",
+        "smesh/src/SMESHFiltersSelection",
+        "smesh/src/SMESHGUI"
+      ],
+      "predicted": [
+        "smesh/src/StdMeshers",
+        "smesh/src/StdMeshers_I",
+        "smesh/src/SMESH",
+        "smesh/src/SMESH_I",
+        "smesh/src/SMESHUtils"
+      ],
+      "precision": 0.2,
+      "recall": 0.125,
+      "raw_response": "smesh/src/StdMeshers\nsmesh/src/StdMeshers_I\nsmesh/src/SMESH\nsmesh/src/SMESH_I\nsmesh/src/SMESHUtils",
+      "usage": {
+        "prompt_tokens": 1634,
+        "completion_tokens": 2169,
+        "total_tokens": 3803
+      },
+      "latency_ms": 13852.8
+    },
+    {
+      "source_module": "kernel/src/ResourcesManager",
+      "true_targets": [
+        "kernel/src/NamingService"
+      ],
+      "shown_deps": [
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/Launcher",
+        "kernel/src/DSC",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSImpl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "kernel/src/Container\nkernel/src/Launcher\nkernel/src/DSC\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSImpl",
+      "usage": {
+        "prompt_tokens": 1562,
+        "completion_tokens": 24949,
+        "total_tokens": 26511
+      },
+      "latency_ms": 113382.6
+    },
+    {
+      "source_module": "geom/src/MeasureGUI",
+      "true_targets": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "geom/src/OBJECT",
+        "gui/src/OCCViewer",
+        "gui/src/Prs",
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "gui/src/SVTK",
+        "kernel/src/SALOMEDS"
+      ],
+      "shown_deps": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOMUtils",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/Plot2d",
+        "gui/src/SOCC",
+        "gui/src/SalomeApp"
+      ],
+      "predicted": [
+        "geom/src/GEOMGUI",
+        "geom/src/GEOM_I",
+        "gui/src/SUIT",
+        "gui/src/Qtx",
+        "gui/src/OCCViewer"
+      ],
+      "precision": 0.8,
+      "recall": 0.4444444444444444,
+      "raw_response": "geom/src/GEOMGUI\ngeom/src/GEOM_I\ngui/src/SUIT\ngui/src/Qtx\ngui/src/OCCViewer",
+      "usage": {
+        "prompt_tokens": 1620,
+        "completion_tokens": 24418,
+        "total_tokens": 26038
+      },
+      "latency_ms": 103778.4
+    },
+    {
+      "source_module": "geom/src/OperationGUI",
+      "true_targets": [
+        "geom/src/GEOMImpl",
+        "gui/src/LightApp",
+        "gui/src/OCCViewer",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "geom/src/GEOMImpl",
+        "gui/src/Qtx",
+        "geom/src/XAO",
+        "geom/src/EntityGUI"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "geom/src/GEOM_I\ngeom/src/GEOMImpl\ngui/src/Qtx\ngeom/src/XAO\ngeom/src/EntityGUI",
+      "usage": {
+        "prompt_tokens": 1591,
+        "completion_tokens": 19237,
+        "total_tokens": 20828
+      },
+      "latency_ms": 91327.8
+    },
+    {
+      "source_module": "kernel/src/Logger",
+      "true_targets": [
+        "kernel/src/ArgvKeeper",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "kernel/src/KernelHelpers"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/Launcher",
+        "kernel/src/HDFPersist",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDSImpl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "kernel/src/Container\nkernel/src/Launcher\nkernel/src/HDFPersist\nkernel/src/SALOMEDSClient\nkernel/src/SALOMEDSImpl",
+      "usage": {
+        "prompt_tokens": 1559,
+        "completion_tokens": 19985,
+        "total_tokens": 21544
+      },
+      "latency_ms": 88527.8
+    },
+    {
+      "source_module": "gui/src/SVTK",
+      "true_targets": [
+        "gui/src/OpenGLUtils",
+        "gui/src/Prs",
+        "gui/src/VTKViewer",
+        "gui/src/ViewerTools"
+      ],
+      "shown_deps": [
+        "gui/src/OBJECT",
+        "gui/src/Qtx",
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "gui/src/VTKViewer",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/KERNEL_PY",
+        "gui/src/GLViewer"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "gui/src/VTKViewer\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSClient\nkernel/src/KERNEL_PY\ngui/src/GLViewer",
+      "usage": {
+        "prompt_tokens": 1567,
+        "completion_tokens": 43800,
+        "total_tokens": 45367
+      },
+      "latency_ms": 183124.6
+    },
+    {
+      "source_module": "geom/src/AdvancedGUI",
+      "true_targets": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMImpl",
+        "gui/src/LightApp",
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "geom/src/GEOMGUI",
+        "geom/src/GEOM_I",
+        "geom/src/EntityGUI",
+        "geom/src/DlgRef",
+        "geom/src/XAO"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "geom/src/GEOMGUI\ngeom/src/GEOM_I\ngeom/src/EntityGUI\ngeom/src/DlgRef\ngeom/src/XAO",
+      "usage": {
+        "prompt_tokens": 1584,
+        "completion_tokens": 7701,
+        "total_tokens": 9285
+      },
+      "latency_ms": 36036.6
+    },
+    {
+      "source_module": "smesh/src/DriverGMF",
+      "true_targets": [
+        "smesh/src/Driver",
+        "smesh/src/SMESHDS"
+      ],
+      "shown_deps": [
+        "smesh/src/SMDS",
+        "smesh/src/SMESHUtils"
+      ],
+      "predicted": [
+        "smesh/src/SMESH",
+        "kernel/src/SALOMEDS",
+        "smesh/src/SMESH_I",
+        "smesh/src/StdMeshers",
+        "smesh/src/Tools"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "smesh/src/SMESH\nkernel/src/SALOMEDS\nsmesh/src/SMESH_I\nsmesh/src/StdMeshers\nsmesh/src/Tools",
+      "usage": {
+        "prompt_tokens": 1585,
+        "completion_tokens": 17770,
+        "total_tokens": 19355
+      },
+      "latency_ms": 81190.8
+    },
+    {
+      "source_module": "gui/src/QtViewer",
+      "true_targets": [
+        "gui/src/SUIT"
+      ],
+      "shown_deps": [
+        "gui/src/Qtx"
+      ],
+      "predicted": [
+        "gui/src/SUIT",
+        "gui/src/VTKViewer",
+        "gui/src/OCCViewer",
+        "gui/src/SVTK",
+        "gui/src/GLViewer"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "gui/src/SUIT\ngui/src/VTKViewer\ngui/src/OCCViewer\ngui/src/SVTK\ngui/src/GLViewer",
+      "usage": {
+        "prompt_tokens": 1573,
+        "completion_tokens": 26648,
+        "total_tokens": 28221
+      },
+      "latency_ms": 106916.6
+    },
+    {
+      "source_module": "geom/src/GroupGUI",
+      "true_targets": [
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMUtils",
+        "geom/src/MeasureGUI",
+        "gui/src/Prs",
+        "gui/src/SUIT",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMBase",
+        "geom/src/GEOMImpl",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/OCCViewer"
+      ],
+      "predicted": [
+        "geom/src/GEOMGUI",
+        "geom/src/GEOM_I",
+        "gui/src/SUIT",
+        "gui/src/Qtx",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "geom/src/GEOMGUI\ngeom/src/GEOM_I\ngui/src/SUIT\ngui/src/Qtx\nkernel/src/SALOMEDSClient",
+      "usage": {
+        "prompt_tokens": 1604,
+        "completion_tokens": 16158,
+        "total_tokens": 17762
+      },
+      "latency_ms": 71830.3
+    },
+    {
+      "source_module": "geom/src/GEOMGUI",
+      "true_targets": [
+        "geom/src/GEOM",
+        "geom/src/GEOMFiltersSelection",
+        "geom/src/Material",
+        "gui/src/GraphicsView",
+        "gui/src/LightApp",
+        "gui/src/PV3DViewer",
+        "gui/src/Prs",
+        "gui/src/SOCC",
+        "gui/src/SPV3D",
+        "gui/src/SUIT",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/SALOMEDS"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMClient",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOMUtils",
+        "geom/src/OBJECT",
+        "gui/src/OBJECT",
+        "gui/src/OCCViewer",
+        "gui/src/Qtx",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp",
+        "kernel/src/KernelHelpers",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDSImpl"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "geom/src/EntityGUI",
+        "geom/src/DlgRef",
+        "geom/src/XAO",
+        "gui/src/SUIT"
+      ],
+      "precision": 0.2,
+      "recall": 0.08333333333333333,
+      "raw_response": "geom/src/GEOM_I\ngeom/src/EntityGUI\ngeom/src/DlgRef\ngeom/src/XAO\ngui/src/SUIT",
+      "usage": {
+        "prompt_tokens": 1651,
+        "completion_tokens": 23870,
+        "total_tokens": 25521
+      },
+      "latency_ms": 100141.0
+    },
+    {
+      "source_module": "gui/src/LightApp",
+      "true_targets": [
+        "gui/src/CAM",
+        "gui/src/GLViewer",
+        "gui/src/OBJECT",
+        "gui/src/PV3DViewer",
+        "gui/src/PVViewer",
+        "gui/src/Plot2d",
+        "gui/src/PyViewer",
+        "gui/src/QxScene",
+        "gui/src/SOCC",
+        "gui/src/SPlot2d",
+        "gui/src/SVTK",
+        "gui/src/Style",
+        "gui/src/VTKViewer"
+      ],
+      "shown_deps": [
+        "gui/src/Event",
+        "gui/src/GraphicsView",
+        "gui/src/LogWindow",
+        "gui/src/OCCViewer",
+        "gui/src/Prs",
+        "gui/src/QtViewer",
+        "gui/src/Qtx",
+        "gui/src/SPV3D",
+        "gui/src/STD",
+        "gui/src/SUIT",
+        "gui/src/SalomeApprc_utils",
+        "kernel/src/HDFPersist"
+      ],
+      "predicted": [
+        "gui/src/VTKViewer",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/Container",
+        "kernel/src/Launcher"
+      ],
+      "precision": 0.2,
+      "recall": 0.07692307692307693,
+      "raw_response": "gui/src/VTKViewer\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSClient\nkernel/src/Container\nkernel/src/Launcher",
+      "usage": {
+        "prompt_tokens": 1616,
+        "completion_tokens": 6346,
+        "total_tokens": 7962
+      },
+      "latency_ms": 29147.9
+    },
+    {
+      "source_module": "smesh/src/SMESH_I",
+      "true_targets": [
+        "geom/src/GEOMClient",
+        "geom/src/GEOM_I",
+        "kernel/src/Container",
+        "kernel/src/GenericObj",
+        "kernel/src/HDFPersist",
+        "kernel/src/ModuleCatalog",
+        "kernel/src/SALOMEDS",
+        "kernel/src/TOOLSDS",
+        "kernel/src/Utils",
+        "smesh/src/SMESH",
+        "smesh/src/SMESHUtils"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMImpl",
+        "kernel/src/KernelHelpers",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/NamingService",
+        "smesh/src/Controls",
+        "smesh/src/DriverCGNS",
+        "smesh/src/DriverMED",
+        "smesh/src/MEDWrapper",
+        "smesh/src/SMDS",
+        "smesh/src/SMESHDS"
+      ],
+      "predicted": [
+        "smesh/src/SMESH",
+        "smesh/src/SMESHUtils",
+        "kernel/src/SALOMEDS",
+        "kernel/src/Container",
+        "kernel/src/Launcher"
+      ],
+      "precision": 0.8,
+      "recall": 0.36363636363636365,
+      "raw_response": "smesh/src/SMESH\nsmesh/src/SMESHUtils\nkernel/src/SALOMEDS\nkernel/src/Container\nkernel/src/Launcher",
+      "usage": {
+        "prompt_tokens": 1640,
+        "completion_tokens": 25920,
+        "total_tokens": 27560
+      },
+      "latency_ms": 116951.2
+    },
+    {
+      "source_module": "kernel/src/SALOMESDS",
+      "true_targets": [
+        "kernel/src/Container",
+        "kernel/src/NamingService",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "kernel/src/ArgvKeeper",
+        "kernel/src/KernelHelpers"
+      ],
+      "predicted": [
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/HDFPersist",
+        "kernel/src/Container"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "kernel/src/SALOMEDS\nkernel/src/SALOMEDSImpl\nkernel/src/SALOMEDSClient\nkernel/src/HDFPersist\nkernel/src/Container",
+      "usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 6144,
+        "total_tokens": 7724
+      },
+      "latency_ms": 26797.9
+    },
+    {
+      "source_module": "yacs/src/salomewrap",
+      "true_targets": [
+        "gui/src/CAM",
+        "gui/src/OBJECT",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "gui/src/LightApp",
+        "gui/src/Qtx",
+        "gui/src/QxScene",
+        "yacs/src/bases"
+      ],
+      "predicted": [
+        "yacs/src/genericgui",
+        "yacs/src/engine",
+        "gui/src/SUIT",
+        "kernel/src/Container",
+        "yacs/src/yacsloader"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "yacs/src/genericgui\nyacs/src/engine\ngui/src/SUIT\nkernel/src/Container\nyacs/src/yacsloader",
+      "usage": {
+        "prompt_tokens": 1599,
+        "completion_tokens": 26653,
+        "total_tokens": 28252
+      },
+      "latency_ms": 120709.2
+    },
+    {
+      "source_module": "gui/src/SalomeApp",
+      "true_targets": [
+        "gui/src/CAM",
+        "gui/src/LightApp",
+        "gui/src/Prs",
+        "gui/src/STD",
+        "gui/src/TOOLSGUI",
+        "kernel/src/Container",
+        "kernel/src/NamingService",
+        "kernel/src/TOOLSDS",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "gui/src/Event",
+        "gui/src/OBJECT",
+        "gui/src/ObjBrowser",
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "kernel/src/ArgvKeeper",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "predicted": [
+        "gui/src/LightApp",
+        "gui/src/OCCViewer",
+        "gui/src/SVTK",
+        "gui/src/Plot2d",
+        "gui/src/GraphicsView"
+      ],
+      "precision": 0.2,
+      "recall": 0.1111111111111111,
+      "raw_response": "gui/src/LightApp\ngui/src/OCCViewer\ngui/src/SVTK\ngui/src/Plot2d\ngui/src/GraphicsView",
+      "usage": {
+        "prompt_tokens": 1625,
+        "completion_tokens": 30587,
+        "total_tokens": 32212
+      },
+      "latency_ms": 126624.5
+    },
+    {
+      "source_module": "gui/src/OCCViewer",
+      "true_targets": [
+        "gui/src/OpenGLUtils",
+        "gui/src/Qtx",
+        "gui/src/SUIT"
+      ],
+      "shown_deps": [
+        "gui/src/ViewerData",
+        "gui/src/ViewerTools"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "gui/src/GLViewer",
+        "gui/src/VTKViewer",
+        "gui/src/SVTK"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "gui/src/Qtx\ngui/src/SUIT\ngui/src/GLViewer\ngui/src/VTKViewer\ngui/src/SVTK",
+      "usage": {
+        "prompt_tokens": 1574,
+        "completion_tokens": 12570,
+        "total_tokens": 14144
+      },
+      "latency_ms": 52759.9
+    },
+    {
+      "source_module": "geom/src/EntityGUI",
+      "true_targets": [
+        "geom/src/CurveCreator",
+        "geom/src/GEOMGUI",
+        "geom/src/OBJECT",
+        "geom/src/SKETCHER",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/Prs",
+        "gui/src/SOCC",
+        "gui/src/SalomeApp",
+        "kernel/src/SALOMEDS"
+      ],
+      "shown_deps": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMBase",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOMUtils",
+        "geom/src/MeasureGUI",
+        "geom/src/ShapeRecognition",
+        "gui/src/OCCViewer",
+        "gui/src/SUIT",
+        "gui/src/SVTK",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "geom/src/OBJECT",
+        "geom/src/GEOM_I",
+        "geom/src/RepairGUI",
+        "gui/src/LightApp"
+      ],
+      "precision": 0.4,
+      "recall": 0.2,
+      "raw_response": "gui/src/Qtx\ngeom/src/OBJECT\ngeom/src/GEOM_I\ngeom/src/RepairGUI\ngui/src/LightApp",
+      "usage": {
+        "prompt_tokens": 1636,
+        "completion_tokens": 27244,
+        "total_tokens": 28880
+      },
+      "latency_ms": 125578.2
+    },
+    {
+      "source_module": "smesh/src/StdMeshers",
+      "true_targets": [
+        "kernel/src/Utils",
+        "smesh/src/SMDS",
+        "smesh/src/SMESHDS",
+        "smesh/src/SMESHUtils"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMUtils",
+        "smesh/src/Controls",
+        "smesh/src/SMESH"
+      ],
+      "predicted": [
+        "smesh/src/SMDS",
+        "smesh/src/SMESHUtils",
+        "kernel/src/SALOMEDS",
+        "geom/src/GEOMImpl",
+        "kernel/src/Container"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "smesh/src/SMDS\nsmesh/src/SMESHUtils\nkernel/src/SALOMEDS\ngeom/src/GEOMImpl\nkernel/src/Container",
+      "usage": {
+        "prompt_tokens": 1572,
+        "completion_tokens": 27102,
+        "total_tokens": 28674
+      },
+      "latency_ms": 116616.2
+    },
+    {
+      "source_module": "geom/src/OBJECT",
+      "true_targets": [
+        "geom/src/OCC2VTK",
+        "gui/src/OBJECT",
+        "gui/src/SalomeApp",
+        "gui/src/VTKViewer"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMUtils",
+        "gui/src/SUIT",
+        "gui/src/SVTK"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "geom/src/GEOM_I",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDS",
+        "geom/src/XAO"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "gui/src/Qtx\ngeom/src/GEOM_I\nkernel/src/SALOMEDSClient\nkernel/src/SALOMEDS\ngeom/src/XAO",
+      "usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 34671,
+        "total_tokens": 36251
+      },
+      "latency_ms": 154141.3
+    },
+    {
+      "source_module": "kernel/src/ParallelContainer",
+      "true_targets": [
+        "kernel/src/ArgvKeeper",
+        "kernel/src/Container",
+        "kernel/src/NamingService",
+        "kernel/src/Registry"
+      ],
+      "shown_deps": [
+        "kernel/src/Notification",
+        "kernel/src/SALOMETraceCollector",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/HDFPersist",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "kernel/src/Container\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSImpl\nkernel/src/HDFPersist\nkernel/src/SALOMEDSClient",
+      "usage": {
+        "prompt_tokens": 1577,
+        "completion_tokens": 18790,
+        "total_tokens": 20367
+      },
+      "latency_ms": 85358.9
+    },
+    {
+      "source_module": "smesh/src/StdMeshers_I",
+      "true_targets": [
+        "kernel/src/Utils",
+        "smesh/src/SMESH",
+        "smesh/src/SMESH_I"
+      ],
+      "shown_deps": [
+        "kernel/src/SALOMEDS",
+        "smesh/src/SMESHUtils",
+        "smesh/src/StdMeshers"
+      ],
+      "predicted": [
+        "smesh/src/SMESH_I",
+        "smesh/src/SMESH",
+        "smesh/src/SMDS",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "smesh/src/SMESH_I\nsmesh/src/SMESH\nsmesh/src/SMDS\nkernel/src/SALOMEDSImpl\nkernel/src/SALOMEDSClient",
+      "usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 30674,
+        "total_tokens": 32254
+      },
+      "latency_ms": 135339.7
+    },
+    {
+      "source_module": "medcoupling/src/ShapeRecogn",
+      "true_targets": [
+        "medcoupling/src/INTERP_KERNEL",
+        "medcoupling/src/INTERP_KERNELTest"
+      ],
+      "shown_deps": [
+        "medcoupling/src/MEDCoupling",
+        "medcoupling/src/MEDLoader"
+      ],
+      "predicted": [
+        "medcoupling/src/INTERP_KERNEL",
+        "medcoupling/src/INTERP_KERNELTest",
+        "medcoupling/src/MEDCoupling_Swig",
+        "medcoupling/src/MEDPartitioner",
+        "medcoupling/src/ParaMEDMEM"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "medcoupling/src/INTERP_KERNEL\nmedcoupling/src/INTERP_KERNELTest\nmedcoupling/src/MEDCoupling_Swig\nmedcoupling/src/MEDPartitioner\nmedcoupling/src/ParaMEDMEM",
+      "usage": {
+        "prompt_tokens": 1584,
+        "completion_tokens": 8958,
+        "total_tokens": 10542
+      },
+      "latency_ms": 40556.8
+    },
+    {
+      "source_module": "yacs/src/ydfx_gui",
+      "true_targets": [
+        "yacs/src/bases",
+        "yacs/src/evalyfx",
+        "yacs/src/runtime"
+      ],
+      "shown_deps": [
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/ResourcesManager"
+      ],
+      "predicted": [
+        "yacs/src/bases",
+        "yacs/src/engine",
+        "yacs/src/genericgui",
+        "gui/src/Qtx",
+        "kernel/src/Launcher"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "yacs/src/bases\nyacs/src/engine\nyacs/src/genericgui\ngui/src/Qtx\nkernel/src/Launcher",
+      "usage": {
+        "prompt_tokens": 1579,
+        "completion_tokens": 25068,
+        "total_tokens": 26647
+      },
+      "latency_ms": 111909.9
+    },
+    {
+      "source_module": "kernel/src/MPIContainer",
+      "true_targets": [
+        "kernel/src/Container",
+        "kernel/src/NamingService"
+      ],
+      "shown_deps": [
+        "kernel/src/ArgvKeeper",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/HDFPersist"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "kernel/src/Container\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSImpl\nkernel/src/SALOMEDSClient\nkernel/src/HDFPersist",
+      "usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 14500,
+        "total_tokens": 16078
+      },
+      "latency_ms": 64196.7
+    },
+    {
+      "source_module": "kernel/src/LifeCycleCORBA",
+      "true_targets": [
+        "kernel/src/Launcher",
+        "kernel/src/NamingService",
+        "kernel/src/SALOMESDS",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "kernel/src/ArgvKeeper",
+        "kernel/src/Container",
+        "kernel/src/ResourcesManager",
+        "kernel/src/SALOMETraceCollector"
+      ],
+      "predicted": [
+        "kernel/src/Launcher",
+        "kernel/src/DSC",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/HDFPersist"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "kernel/src/Launcher\nkernel/src/DSC\nkernel/src/SALOMEDSClient\nkernel/src/SALOMEDSImpl\nkernel/src/HDFPersist",
+      "usage": {
+        "prompt_tokens": 1598,
+        "completion_tokens": 16876,
+        "total_tokens": 18474
+      },
+      "latency_ms": 72250.8
+    },
+    {
+      "source_module": "geom/src/GEOMToolsGUI",
+      "true_targets": [
+        "geom/src/DependencyTree",
+        "geom/src/GEOMBase",
+        "geom/src/Material",
+        "gui/src/CAM",
+        "gui/src/Qtx",
+        "gui/src/SOCC",
+        "gui/src/STD",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "shown_deps": [
+        "geom/src/GEOM",
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOMUtils",
+        "geom/src/OBJECT",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/OCCViewer",
+        "gui/src/Prs",
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "geom/src/DlgRef",
+        "geom/src/EntityGUI",
+        "gui/src/Qtx",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDS"
+      ],
+      "precision": 0.6,
+      "recall": 0.2727272727272727,
+      "raw_response": "geom/src/DlgRef\ngeom/src/EntityGUI\ngui/src/Qtx\nkernel/src/SALOMEDSClient\nkernel/src/SALOMEDS",
+      "usage": {
+        "prompt_tokens": 1637,
+        "completion_tokens": 15232,
+        "total_tokens": 16869
+      },
+      "latency_ms": 67306.4
+    },
+    {
+      "source_module": "smesh/src/OBJECT",
+      "true_targets": [
+        "gui/src/Qtx",
+        "gui/src/SPlot2d",
+        "gui/src/SUIT",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp",
+        "gui/src/VTKViewer",
+        "smesh/src/SMESHDS"
+      ],
+      "shown_deps": [
+        "geom/src/OBJECT",
+        "gui/src/OBJECT",
+        "gui/src/Plot2d",
+        "smesh/src/Controls",
+        "smesh/src/SMDS",
+        "smesh/src/SMESHClient"
+      ],
+      "predicted": [
+        "smesh/src/SMESH",
+        "kernel/src/SALOMEDS",
+        "gui/src/SUIT",
+        "gui/src/Qtx",
+        "smesh/src/SMESHUtils"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "smesh/src/SMESH\nkernel/src/SALOMEDS\ngui/src/SUIT\ngui/src/Qtx\nsmesh/src/SMESHUtils",
+      "usage": {
+        "prompt_tokens": 1602,
+        "completion_tokens": 35502,
+        "total_tokens": 37104
+      },
+      "latency_ms": 157292.0
+    },
+    {
+      "source_module": "yacs/src/py2yacs",
+      "true_targets": [
+        "yacs/src/engine",
+        "yacs/src/runtime"
+      ],
+      "shown_deps": [
+        "yacs/src/yacsloader"
+      ],
+      "predicted": [
+        "yacs/src/bases",
+        "yacs/src/engine",
+        "yacs/src/runtime",
+        "yacs/src/pmml",
+        "kernel/src/Container"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "yacs/src/bases\nyacs/src/engine\nyacs/src/runtime\nyacs/src/pmml\nkernel/src/Container",
+      "usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 11905,
+        "total_tokens": 13483
+      },
+      "latency_ms": 53946.5
+    },
+    {
+      "source_module": "smesh/src/SMESHGUI",
+      "true_targets": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMClient",
+        "geom/src/GEOMFiltersSelection",
+        "geom/src/OBJECT",
+        "gui/src/OBJECT",
+        "gui/src/ObjBrowser",
+        "gui/src/PV3DViewer",
+        "gui/src/Plot2d",
+        "gui/src/Qtx",
+        "gui/src/SPV3D",
+        "gui/src/SPlot2d",
+        "gui/src/SUIT",
+        "gui/src/VTKViewer",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/SALOMEDS",
+        "smesh/src/OBJECT",
+        "smesh/src/SMESHUtils"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOM_I",
+        "gui/src/LightApp",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp",
+        "kernel/src/GenericObj",
+        "kernel/src/SALOMEDSClient",
+        "smesh/src/Controls",
+        "smesh/src/MEDWrapper",
+        "smesh/src/SMDS",
+        "smesh/src/SMESH",
+        "smesh/src/SMESHClient",
+        "smesh/src/SMESHDS",
+        "smesh/src/SMESHFiltersSelection",
+        "smesh/src/SMESH_I"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "smesh/src/SMESHUtils",
+        "geom/src/DlgRef",
+        "geom/src/EntityGUI"
+      ],
+      "precision": 0.6,
+      "recall": 0.17647058823529413,
+      "raw_response": "gui/src/Qtx\ngui/src/SUIT\nsmesh/src/SMESHUtils\ngeom/src/DlgRef\ngeom/src/EntityGUI",
+      "usage": {
+        "prompt_tokens": 1651,
+        "completion_tokens": 35969,
+        "total_tokens": 37620
+      },
+      "latency_ms": 152352.3
+    },
+    {
+      "source_module": "kernel/src/SALOMEDS",
+      "true_targets": [
+        "kernel/src/ArgvKeeper",
+        "kernel/src/GenericObj",
+        "kernel/src/HDFPersist",
+        "kernel/src/KernelHelpers",
+        "kernel/src/SALOMEDSImpl"
+      ],
+      "shown_deps": [
+        "kernel/src/DF",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/NamingService",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/HDFPersist",
+        "kernel/src/Container",
+        "kernel/src/SALOMESDS",
+        "kernel/src/Launcher"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "kernel/src/SALOMEDSImpl\nkernel/src/HDFPersist\nkernel/src/Container\nkernel/src/SALOMESDS\nkernel/src/Launcher",
+      "usage": {
+        "prompt_tokens": 1562,
+        "completion_tokens": 9234,
+        "total_tokens": 10796
+      },
+      "latency_ms": 42258.3
+    },
+    {
+      "source_module": "kernel/src/SALOMETraceCollector",
+      "true_targets": [
+        "kernel/src/Logger",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "kernel/src/NamingService"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/Launcher",
+        "kernel/src/HDFPersist",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDSImpl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "kernel/src/Container\nkernel/src/Launcher\nkernel/src/HDFPersist\nkernel/src/SALOMEDSClient\nkernel/src/SALOMEDSImpl",
+      "usage": {
+        "prompt_tokens": 1579,
+        "completion_tokens": 20252,
+        "total_tokens": 21831
+      },
+      "latency_ms": 89691.0
+    },
+    {
+      "source_module": "geom/src/BuildGUI",
+      "true_targets": [
+        "geom/src/GEOMImpl",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "geom/src/GEOM_I",
+        "geom/src/GEOMImpl",
+        "gui/src/LightApp",
+        "gui/src/SalomeApp"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "gui/src/Qtx\ngeom/src/GEOM_I\ngeom/src/GEOMImpl\ngui/src/LightApp\ngui/src/SalomeApp",
+      "usage": {
+        "prompt_tokens": 1591,
+        "completion_tokens": 20896,
+        "total_tokens": 22487
+      },
+      "latency_ms": 94253.5
+    },
+    {
+      "source_module": "medcoupling/src/ParaMEDMEM",
+      "true_targets": [
+        "medcoupling/src/ICoCo",
+        "medcoupling/src/INTERP_KERNEL"
+      ],
+      "shown_deps": [
+        "medcoupling/src/MEDCoupling"
+      ],
+      "predicted": [
+        "medcoupling/src/INTERP_KERNEL",
+        "medcoupling/src/INTERP_KERNELTest",
+        "medcoupling/src/MEDLoader",
+        "medcoupling/src/MEDPartitioner",
+        "medcoupling/src/ShapeRecogn"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "medcoupling/src/INTERP_KERNEL\nmedcoupling/src/INTERP_KERNELTest\nmedcoupling/src/MEDLoader\nmedcoupling/src/MEDPartitioner\nmedcoupling/src/ShapeRecogn",
+      "usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 13711,
+        "total_tokens": 15291
+      },
+      "latency_ms": 60707.1
+    },
+    {
+      "source_module": "gui/src/SOCC",
+      "true_targets": [
+        "gui/src/OBJECT",
+        "gui/src/OCCViewer",
+        "gui/src/Prs"
+      ],
+      "shown_deps": [
+        "gui/src/SUIT",
+        "gui/src/TOOLSGUI"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/OCCViewer",
+        "gui/src/VTKViewer",
+        "gui/src/SVTK",
+        "gui/src/LightApp"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "gui/src/Qtx\ngui/src/OCCViewer\ngui/src/VTKViewer\ngui/src/SVTK\ngui/src/LightApp",
+      "usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 28503,
+        "total_tokens": 30081
+      },
+      "latency_ms": 122228.5
+    },
+    {
+      "source_module": "medcoupling/src/ICoCo",
+      "true_targets": [
+        "medcoupling/src/MEDCoupling"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "medcoupling/src/MEDCoupling",
+        "medcoupling/src/INTERP_KERNEL",
+        "medcoupling/src/MEDLoader",
+        "medcoupling/src/ParaMEDMEM",
+        "medcoupling/src/MEDPartitioner"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "medcoupling/src/MEDCoupling\nmedcoupling/src/INTERP_KERNEL\nmedcoupling/src/MEDLoader\nmedcoupling/src/ParaMEDMEM\nmedcoupling/src/MEDPartitioner",
+      "usage": {
+        "prompt_tokens": 1559,
+        "completion_tokens": 9667,
+        "total_tokens": 11226
+      },
+      "latency_ms": 42780.5
+    },
+    {
+      "source_module": "gui/src/SALOME_PY",
+      "true_targets": [
+        "gui/src/Event",
+        "gui/src/LightApp"
+      ],
+      "shown_deps": [
+        "gui/src/SUIT",
+        "gui/src/SVTK"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/VTKViewer",
+        "gui/src/OCCViewer",
+        "gui/src/LightApp",
+        "gui/src/SalomeApp"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "gui/src/Qtx\ngui/src/VTKViewer\ngui/src/OCCViewer\ngui/src/LightApp\ngui/src/SalomeApp",
+      "usage": {
+        "prompt_tokens": 1588,
+        "completion_tokens": 13107,
+        "total_tokens": 14695
+      },
+      "latency_ms": 56628.0
+    },
+    {
+      "source_module": "geom/src/DependencyTree",
+      "true_targets": [
+        "gui/src/GraphicsView",
+        "gui/src/OCCViewer",
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMUtils",
+        "gui/src/LightApp",
+        "gui/src/OBJECT"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "geom/src/GEOMImpl",
+        "gui/src/SUIT",
+        "gui/src/Qtx",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "geom/src/GEOM_I\ngeom/src/GEOMImpl\ngui/src/SUIT\ngui/src/Qtx\nkernel/src/SALOMEDSClient",
+      "usage": {
+        "prompt_tokens": 1593,
+        "completion_tokens": 29406,
+        "total_tokens": 30999
+      },
+      "latency_ms": 120976.5
+    },
+    {
+      "source_module": "kernel/src/KernelHelpers",
+      "true_targets": [
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/NamingService"
+      ],
+      "shown_deps": [
+        "kernel/src/Container",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "kernel/src/DSC",
+        "kernel/src/Launcher",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/HDFPersist",
+        "kernel/src/SALOMEDSImpl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "kernel/src/DSC\nkernel/src/Launcher\nkernel/src/SALOMEDSClient\nkernel/src/HDFPersist\nkernel/src/SALOMEDSImpl",
+      "usage": {
+        "prompt_tokens": 1571,
+        "completion_tokens": 25855,
+        "total_tokens": 27426
+      },
+      "latency_ms": 107278.4
+    },
+    {
+      "source_module": "smesh/src/SMESHFiltersSelection",
+      "true_targets": [
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/SalomeApp",
+        "kernel/src/SALOMEDS"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMClient",
+        "gui/src/SUIT",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "predicted": [
+        "smesh/src/SMESH",
+        "smesh/src/SMESH_I",
+        "smesh/src/SMESHUtils",
+        "gui/src/Qtx",
+        "kernel/src/SALOMEDS"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "smesh/src/SMESH\nsmesh/src/SMESH_I\nsmesh/src/SMESHUtils\ngui/src/Qtx\nkernel/src/SALOMEDS",
+      "usage": {
+        "prompt_tokens": 1608,
+        "completion_tokens": 27866,
+        "total_tokens": 29474
+      },
+      "latency_ms": 118147.6
+    },
+    {
+      "source_module": "gui/src/SUITApp",
+      "true_targets": [
+        "gui/src/SUIT",
+        "gui/src/Style"
+      ],
+      "shown_deps": [
+        "gui/src/Qtx"
+      ],
+      "predicted": [
+        "gui/src/SUIT",
+        "gui/src/OCCViewer",
+        "gui/src/VTKViewer",
+        "gui/src/Plot2d",
+        "gui/src/GLViewer"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "gui/src/SUIT\ngui/src/OCCViewer\ngui/src/VTKViewer\ngui/src/Plot2d\ngui/src/GLViewer",
+      "usage": {
+        "prompt_tokens": 1573,
+        "completion_tokens": 23008,
+        "total_tokens": 24581
+      },
+      "latency_ms": 100508.2
+    },
+    {
+      "source_module": "kernel/src/Communication",
+      "true_targets": [
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "kernel/src/GenericObj"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/Launcher",
+        "kernel/src/HDFPersist",
+        "kernel/src/DSC",
+        "kernel/src/SALOMEDS"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "kernel/src/Container\nkernel/src/Launcher\nkernel/src/HDFPersist\nkernel/src/DSC\nkernel/src/SALOMEDS",
+      "usage": {
+        "prompt_tokens": 1559,
+        "completion_tokens": 38778,
+        "total_tokens": 40337
+      },
+      "latency_ms": 169350.9
+    },
+    {
+      "source_module": "geom/src/IGESPlugin",
+      "true_targets": [
+        "geom/src/GEOM",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOM_I",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSImpl",
+        "gui/src/SUIT",
+        "kernel/src/SALOMEDSClient",
+        "gui/src/Qtx"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "kernel/src/SALOMEDS\nkernel/src/SALOMEDSImpl\ngui/src/SUIT\nkernel/src/SALOMEDSClient\ngui/src/Qtx",
+      "usage": {
+        "prompt_tokens": 1600,
+        "completion_tokens": 25712,
+        "total_tokens": 27312
+      },
+      "latency_ms": 114882.7
+    },
+    {
+      "source_module": "geom/src/GEOMImpl",
+      "true_targets": [
+        "geom/src/GEOM",
+        "geom/src/SKETCHER",
+        "geom/src/ShHealOper"
+      ],
+      "shown_deps": [
+        "geom/src/ARCHIMEDE",
+        "geom/src/GEOMUtils",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "geom/src/XAO",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/HDFPersist"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "geom/src/XAO\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSImpl\nkernel/src/SALOMEDSClient\nkernel/src/HDFPersist",
+      "usage": {
+        "prompt_tokens": 1572,
+        "completion_tokens": 13218,
+        "total_tokens": 14790
+      },
+      "latency_ms": 58874.0
+    },
+    {
+      "source_module": "geom/src/STLPlugin",
+      "true_targets": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOM_I",
+        "geom/src/OBJECT",
+        "gui/src/LightApp",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "geom/src/GEOM",
+        "geom/src/GEOMGUI",
+        "gui/src/OBJECT",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "gui/src/Qtx",
+        "geom/src/GEOMImpl",
+        "geom/src/DlgRef",
+        "gui/src/LightApp"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "geom/src/GEOM_I\ngui/src/Qtx\ngeom/src/GEOMImpl\ngeom/src/DlgRef\ngui/src/LightApp",
+      "usage": {
+        "prompt_tokens": 1600,
+        "completion_tokens": 28647,
+        "total_tokens": 30247
+      },
+      "latency_ms": 125691.7
+    },
+    {
+      "source_module": "geom/src/PrimitiveGUI",
+      "true_targets": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMImpl",
+        "gui/src/SUIT"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMBase",
+        "gui/src/LightApp",
+        "gui/src/SalomeApp"
+      ],
+      "predicted": [
+        "geom/src/DlgRef",
+        "geom/src/GEOM_I",
+        "geom/src/GEOMImpl",
+        "gui/src/Qtx",
+        "gui/src/SUIT"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "geom/src/DlgRef\ngeom/src/GEOM_I\ngeom/src/GEOMImpl\ngui/src/Qtx\ngui/src/SUIT",
+      "usage": {
+        "prompt_tokens": 1588,
+        "completion_tokens": 5209,
+        "total_tokens": 6797
+      },
+      "latency_ms": 24426.9
+    },
+    {
+      "source_module": "geom/src/BasicGUI",
+      "true_targets": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMImpl",
+        "gui/src/OCCViewer"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMUtils",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "geom/src/GEOM_I",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDS",
+        "geom/src/GEOMImpl"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "gui/src/Qtx\ngeom/src/GEOM_I\nkernel/src/SALOMEDSClient\nkernel/src/SALOMEDS\ngeom/src/GEOMImpl",
+      "usage": {
+        "prompt_tokens": 1597,
+        "completion_tokens": 54134,
+        "total_tokens": 55731
+      },
+      "latency_ms": 216814.6
+    },
+    {
+      "source_module": "smesh/src/Controls",
+      "true_targets": [
+        "geom/src/GEOMUtils",
+        "smesh/src/SMESHDS"
+      ],
+      "shown_deps": [
+        "smesh/src/SMDS",
+        "smesh/src/SMESHUtils"
+      ],
+      "predicted": [
+        "smesh/src/SMESH",
+        "smesh/src/SMESH_I",
+        "kernel/src/SALOMEDS",
+        "kernel/src/Container",
+        "kernel/src/NamingService"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "smesh/src/SMESH\nsmesh/src/SMESH_I\nkernel/src/SALOMEDS\nkernel/src/Container\nkernel/src/NamingService",
+      "usage": {
+        "prompt_tokens": 1577,
+        "completion_tokens": 32453,
+        "total_tokens": 34030
+      },
+      "latency_ms": 151594.4
+    },
+    {
+      "source_module": "yacs/src/engine",
+      "true_targets": [
+        "yacs/src/bases"
+      ],
+      "shown_deps": [
+        "yacs/src/workloadmanager"
+      ],
+      "predicted": [
+        "yacs/src/bases",
+        "kernel/src/Container",
+        "kernel/src/Launcher",
+        "yacs/src/pmml",
+        "kernel/src/DSC"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "yacs/src/bases\nkernel/src/Container\nkernel/src/Launcher\nyacs/src/pmml\nkernel/src/DSC",
+      "usage": {
+        "prompt_tokens": 1586,
+        "completion_tokens": 16073,
+        "total_tokens": 17659
+      },
+      "latency_ms": 77879.1
+    },
+    {
+      "source_module": "gui/src/Session",
+      "true_targets": [
+        "gui/src/Event",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp",
+        "kernel/src/ArgvKeeper",
+        "kernel/src/Container",
+        "kernel/src/Registry"
+      ],
+      "shown_deps": [
+        "gui/src/Style",
+        "kernel/src/KernelHelpers",
+        "kernel/src/Launcher",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/ModuleCatalog",
+        "kernel/src/NamingService",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "kernel/src/Container",
+        "kernel/src/DSC",
+        "kernel/src/KERNEL_PY"
+      ],
+      "precision": 0.6,
+      "recall": 0.3333333333333333,
+      "raw_response": "gui/src/Qtx\ngui/src/SUIT\nkernel/src/Container\nkernel/src/DSC\nkernel/src/KERNEL_PY",
+      "usage": {
+        "prompt_tokens": 1613,
+        "completion_tokens": 41682,
+        "total_tokens": 43295
+      },
+      "latency_ms": 182001.8
+    },
+    {
+      "source_module": "medcoupling/src/MEDLoader",
+      "true_targets": [
+        "medcoupling/src/INTERP_KERNEL",
+        "medcoupling/src/INTERP_KERNELTest"
+      ],
+      "shown_deps": [
+        "medcoupling/src/MEDCoupling"
+      ],
+      "predicted": [
+        "medcoupling/src/INTERP_KERNEL",
+        "medcoupling/src/INTERP_KERNELTest",
+        "medcoupling/src/ParaMEDMEM",
+        "medcoupling/src/MEDCoupling_Swig",
+        "medcoupling/src/MEDPartitioner"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "medcoupling/src/INTERP_KERNEL\nmedcoupling/src/INTERP_KERNELTest\nmedcoupling/src/ParaMEDMEM\nmedcoupling/src/MEDCoupling_Swig\nmedcoupling/src/MEDPartitioner",
+      "usage": {
+        "prompt_tokens": 1575,
+        "completion_tokens": 18961,
+        "total_tokens": 20536
+      },
+      "latency_ms": 84119.3
+    },
+    {
+      "source_module": "kernel/src/Container",
+      "true_targets": [
+        "kernel/src/GenericObj",
+        "kernel/src/KernelHelpers",
+        "kernel/src/NamingService",
+        "kernel/src/Notification",
+        "kernel/src/ResourcesManager"
+      ],
+      "shown_deps": [
+        "kernel/src/ArgvKeeper",
+        "kernel/src/HDFPersist",
+        "kernel/src/Registry",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "kernel/src/Launcher",
+        "kernel/src/SALOMESDS",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/SALOMEDS"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "kernel/src/Launcher\nkernel/src/SALOMESDS\nkernel/src/SALOMEDSImpl\nkernel/src/SALOMEDSClient\nkernel/src/SALOMEDS",
+      "usage": {
+        "prompt_tokens": 1586,
+        "completion_tokens": 11995,
+        "total_tokens": 13581
+      },
+      "latency_ms": 54154.0
+    },
+    {
+      "source_module": "yacs/src/genericgui",
+      "true_targets": [
+        "gui/src/Qtx",
+        "kernel/src/LifeCycleCORBA",
+        "kernel/src/ModuleCatalog",
+        "kernel/src/TOOLSDS",
+        "yacs/src/hmi",
+        "yacs/src/salomewrap",
+        "yacs/src/yacsloader"
+      ],
+      "shown_deps": [
+        "kernel/src/Launcher",
+        "kernel/src/NamingService",
+        "kernel/src/ResourcesManager",
+        "yacs/src/bases",
+        "yacs/src/engine",
+        "yacs/src/runtime"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "yacs/src/yacsloader",
+        "gui/src/LightApp"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "kernel/src/Container\ngui/src/Qtx\ngui/src/SUIT\nyacs/src/yacsloader\ngui/src/LightApp",
+      "usage": {
+        "prompt_tokens": 1577,
+        "completion_tokens": 32001,
+        "total_tokens": 33578
+      },
+      "latency_ms": 151133.4
+    },
+    {
+      "source_module": "geom/src/VTKPlugin",
+      "true_targets": [
+        "geom/src/GEOM",
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "geom/src/OBJECT",
+        "gui/src/SalomeApp",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMImpl",
+        "geom/src/GEOM_I",
+        "geom/src/OCC2VTK",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "geom/src/GEOMGUI",
+        "gui/src/Qtx",
+        "gui/src/VTKViewer",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "geom/src/GEOMGUI\ngui/src/Qtx\ngui/src/VTKViewer\ngui/src/SVTK\ngui/src/SalomeApp",
+      "usage": {
+        "prompt_tokens": 1605,
+        "completion_tokens": 34887,
+        "total_tokens": 36492
+      },
+      "latency_ms": 144570.0
+    },
+    {
+      "source_module": "geom/src/DisplayGUI",
+      "true_targets": [
+        "geom/src/OBJECT",
+        "gui/src/LightApp",
+        "gui/src/OBJECT",
+        "gui/src/OCCViewer",
+        "gui/src/SOCC"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMGUI",
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "geom/src/GEOMImpl",
+        "geom/src/XAO",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "geom/src/GEOM_I\ngeom/src/GEOMImpl\ngeom/src/XAO\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSClient",
+      "usage": {
+        "prompt_tokens": 1598,
+        "completion_tokens": 23972,
+        "total_tokens": 25570
+      },
+      "latency_ms": 102874.3
+    },
+    {
+      "source_module": "geom/src/BREPPlugin",
+      "true_targets": [
+        "geom/src/GEOM",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOM_I",
+        "gui/src/LightApp",
+        "kernel/src/Utils"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "gui/src/OBJECT",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "gui/src/Qtx",
+        "geom/src/DlgRef",
+        "geom/src/EntityGUI",
+        "geom/src/GEOMImpl"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "geom/src/GEOM_I\ngui/src/Qtx\ngeom/src/DlgRef\ngeom/src/EntityGUI\ngeom/src/GEOMImpl",
+      "usage": {
+        "prompt_tokens": 1601,
+        "completion_tokens": 9645,
+        "total_tokens": 11246
+      },
+      "latency_ms": 43495.0
+    },
+    {
+      "source_module": "kernel/src/Utils",
+      "true_targets": [
+        "kernel/src/SALOMETraceCollector"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/HDFPersist",
+        "kernel/src/SALOMEDSImpl",
+        "kernel/src/Launcher"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "kernel/src/Container\nkernel/src/SALOMEDSClient\nkernel/src/HDFPersist\nkernel/src/SALOMEDSImpl\nkernel/src/Launcher",
+      "usage": {
+        "prompt_tokens": 1547,
+        "completion_tokens": 31729,
+        "total_tokens": 33276
+      },
+      "latency_ms": 132912.3
+    },
+    {
+      "source_module": "geom/src/BooleanGUI",
+      "true_targets": [
+        "geom/src/DlgRef",
+        "geom/src/GEOMBase",
+        "gui/src/LightApp",
+        "gui/src/SalomeApp"
+      ],
+      "shown_deps": [
+        "geom/src/GEOMGUI",
+        "gui/src/OBJECT",
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "geom/src/DlgRef",
+        "geom/src/EntityGUI",
+        "gui/src/Qtx",
+        "geom/src/GEOMImpl"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "geom/src/GEOM_I\ngeom/src/DlgRef\ngeom/src/EntityGUI\ngui/src/Qtx\ngeom/src/GEOMImpl",
+      "usage": {
+        "prompt_tokens": 1579,
+        "completion_tokens": 16227,
+        "total_tokens": 17806
+      },
+      "latency_ms": 75079.7
+    },
+    {
+      "source_module": "gui/src/TOOLSGUI",
+      "true_targets": [
+        "gui/src/SUIT",
+        "kernel/src/KernelHelpers",
+        "kernel/src/NamingService"
+      ],
+      "shown_deps": [
+        "gui/src/Qtx",
+        "kernel/src/SALOMEDSClient",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "gui/src/SUIT",
+        "kernel/src/Container",
+        "kernel/src/Launcher",
+        "gui/src/OCCViewer",
+        "gui/src/VTKViewer"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "gui/src/SUIT\nkernel/src/Container\nkernel/src/Launcher\ngui/src/OCCViewer\ngui/src/VTKViewer",
+      "usage": {
+        "prompt_tokens": 1593,
+        "completion_tokens": 35331,
+        "total_tokens": 36924
+      },
+      "latency_ms": 142219.4
+    },
+    {
+      "source_module": "geom/src/GEOMBase",
+      "true_targets": [
+        "geom/src/GEOMClient",
+        "geom/src/GEOMGUI",
+        "geom/src/OBJECT",
+        "gui/src/OBJECT",
+        "gui/src/Prs",
+        "gui/src/SUIT"
+      ],
+      "shown_deps": [
+        "geom/src/DlgRef",
+        "gui/src/LightApp",
+        "gui/src/OCCViewer",
+        "gui/src/SOCC",
+        "gui/src/SVTK",
+        "gui/src/SalomeApp"
+      ],
+      "predicted": [
+        "geom/src/GEOM_I",
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "kernel/src/SALOMEDS",
+        "kernel/src/SALOMEDSClient"
+      ],
+      "precision": 0.2,
+      "recall": 0.16666666666666666,
+      "raw_response": "geom/src/GEOM_I\ngui/src/Qtx\ngui/src/SUIT\nkernel/src/SALOMEDS\nkernel/src/SALOMEDSClient",
+      "usage": {
+        "prompt_tokens": 1609,
+        "completion_tokens": 9633,
+        "total_tokens": 11242
+      },
+      "latency_ms": 44335.8
+    },
+    {
+      "source_module": "yacs/src/yacsorb",
+      "true_targets": [
+        "yacs/src/runtime",
+        "yacs/src/yacsloader"
+      ],
+      "shown_deps": [
+        "yacs/src/bases",
+        "yacs/src/engine"
+      ],
+      "predicted": [
+        "kernel/src/Container",
+        "kernel/src/Launcher",
+        "yacs/src/runtime",
+        "yacs/src/yacsloader",
+        "kernel/src/DSC"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "kernel/src/Container\nkernel/src/Launcher\nyacs/src/runtime\nyacs/src/yacsloader\nkernel/src/DSC",
+      "usage": {
+        "prompt_tokens": 1581,
+        "completion_tokens": 35123,
+        "total_tokens": 36704
+      },
+      "latency_ms": 161670.0
+    },
+    {
+      "source_module": "gui/src/PV3DViewer",
+      "true_targets": [
+        "gui/src/PVServerService",
+        "gui/src/SUIT"
+      ],
+      "shown_deps": [
+        "gui/src/PVViewer"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/SUIT",
+        "gui/src/VTKViewer",
+        "gui/src/SVTK",
+        "gui/src/Plot2d"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "gui/src/Qtx\ngui/src/SUIT\ngui/src/VTKViewer\ngui/src/SVTK\ngui/src/Plot2d",
+      "usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 30288,
+        "total_tokens": 31868
+      },
+      "latency_ms": 125544.1
+    },
+    {
+      "source_module": "gui/src/PVViewer",
+      "true_targets": [
+        "gui/src/PVServerService",
+        "gui/src/Qtx"
+      ],
+      "shown_deps": [
+        "gui/src/SUIT"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/VTKViewer",
+        "gui/src/SVTK",
+        "gui/src/GLViewer",
+        "gui/src/OCCViewer"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "gui/src/Qtx\ngui/src/VTKViewer\ngui/src/SVTK\ngui/src/GLViewer\ngui/src/OCCViewer",
+      "usage": {
+        "prompt_tokens": 1573,
+        "completion_tokens": 13068,
+        "total_tokens": 14641
+      },
+      "latency_ms": 56813.7
+    },
+    {
+      "source_module": "medcoupling/src/MEDCoupling",
+      "true_targets": [
+        "medcoupling/src/INTERP_KERNEL"
+      ],
+      "shown_deps": [
+        "medcoupling/src/INTERP_KERNELTest"
+      ],
+      "predicted": [
+        "medcoupling/src/INTERP_KERNEL",
+        "medcoupling/src/MEDCoupling_Swig",
+        "medcoupling/src/MEDLoader",
+        "medcoupling/src/ParaMEDMEM",
+        "medcoupling/src/ShapeRecogn"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "medcoupling/src/INTERP_KERNEL\nmedcoupling/src/MEDCoupling_Swig\nmedcoupling/src/MEDLoader\nmedcoupling/src/ParaMEDMEM\nmedcoupling/src/ShapeRecogn",
+      "usage": {
+        "prompt_tokens": 1586,
+        "completion_tokens": 21675,
+        "total_tokens": 23261
+      },
+      "latency_ms": 98161.0
+    },
+    {
+      "source_module": "gui/src/SALOME_PYQT",
+      "true_targets": [
+        "gui/src/Event",
+        "gui/src/LogWindow",
+        "gui/src/OCCViewer",
+        "gui/src/PVViewer",
+        "gui/src/Qtx",
+        "gui/src/SUITApp",
+        "gui/src/SVTK",
+        "kernel/src/LifeCycleCORBA"
+      ],
+      "shown_deps": [
+        "gui/src/CAM",
+        "gui/src/LightApp",
+        "gui/src/PV3DViewer",
+        "gui/src/Plot2d",
+        "gui/src/STD",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp",
+        "kernel/src/Container"
+      ],
+      "predicted": [
+        "gui/src/Qtx",
+        "gui/src/OCCViewer",
+        "gui/src/SVTK",
+        "gui/src/VTKViewer",
+        "gui/src/GLViewer"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "gui/src/Qtx\ngui/src/OCCViewer\ngui/src/SVTK\ngui/src/VTKViewer\ngui/src/GLViewer",
+      "usage": {
+        "prompt_tokens": 1636,
+        "completion_tokens": 11751,
+        "total_tokens": 13387
+      },
+      "latency_ms": 50145.9
+    },
+    {
+      "source_module": "geom/src/XAOPlugin",
+      "true_targets": [
+        "geom/src/GEOMBase",
+        "geom/src/GEOMGUI",
+        "geom/src/GEOMImpl",
+        "geom/src/GEOM_I",
+        "gui/src/LightApp",
+        "kernel/src/SALOMEDS"
+      ],
+      "shown_deps": [
+        "geom/src/GEOM",
+        "geom/src/XAO",
+        "gui/src/SUIT",
+        "gui/src/SalomeApp",
+        "kernel/src/Utils"
+      ],
+      "predicted": [
+        "geom/src/GEOMGUI",
+        "geom/src/GEOM_I",
+        "geom/src/DlgRef",
+        "geom/src/EntityGUI",
+        "geom/src/GEOMImpl"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "geom/src/GEOMGUI\ngeom/src/GEOM_I\ngeom/src/DlgRef\ngeom/src/EntityGUI\ngeom/src/GEOMImpl",
+      "usage": {
+        "prompt_tokens": 1595,
+        "completion_tokens": 31359,
+        "total_tokens": 32954
+      },
+      "latency_ms": 135766.9
+    }
+  ],
+  "timestamp": "2026-10-22T00:51:19.209055",
+  "model": "deepseek-v4-flash",
+  "project": "salome",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

@@ -1,0 +1,3421 @@
+{
+ "accuracy": 0.24,
+ "correct": 48,
+ "total": 200,
+ "n_with_snippet": 200,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 182783,
+  "completion_tokens": 30292,
+  "total_tokens": 213075
+ },
+ "results": [
+  {
+   "file": "dir_357b/dir_1a9c/dir_8b7c/dir_2f0d/file_d711.H",
+   "file_original": "applications/test/00-dummy/library/dummyLib.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b6ffb6",
+   "correct": false,
+   "raw_response": "**A**\n\nThis is a guess: the candidate module names are anonymized and none of their contents were given, so I cannot match the file to a module from evidence.\n\nWhat the file shows is that it is OpenFOAM's `dummyLib.H`. It is a pure C++ placeholder library used to test the wmake build and packaging setup, and it includes no OpenFOAM headers. Its four-level path fits a location like `applications/test/00-dummy/dummyLib/dummyLib.H`, so it most likely sits in a test or applications module.",
+   "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 395,
+    "total_tokens": 1824
+   },
+   "latency_ms": 7451.0
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_7916/dir_1e5b/dir_7d42/dir_808d/file_2a84.C",
+   "file_original": "applications/utilities/preProcessing/createViewFactors/viewFactorModels/raySearchEngine/raySearchEngine/raySearchEngineNew.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bfb099",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 282,
+    "total_tokens": 1316
+   },
+   "latency_ms": 5266.1
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_9b24/dir_c9e8/file_f071.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/smoothAlignmentSolver/smoothAlignmentSolver.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7a1878",
+   "correct": false,
+   "raw_response": "I can't map the anonymized module names to real ones without more information about the candidates. The code itself points to foamyMesh's conformalVoronoiMesh library. That library lives at applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/smoothAlignmentSolver. It has 8 directory levels, which matches the obfuscated path. The choice below is effectively a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1407,
+    "completion_tokens": 145,
+    "total_tokens": 1552
+   },
+   "latency_ms": 4420.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_3aa3/dir_fbdd/dir_0ef0/file_8c26",
+   "file_original": "applications/test/fieldMapping/pipe1D/constant/transportProperties",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2efb5c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 564,
+    "completion_tokens": 194,
+    "total_tokens": 758
+   },
+   "latency_ms": 4541.8
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_e67f/dir_91c4/dir_83d8/file_f024",
+   "file_original": "applications/solvers/incompressible/adjointOptimisationFoam/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't determine this from the code alone. The file is a Make/options file for an application that uses adjointOptimisation, probably applications/solvers/incompressible/adjointOptimisationFoam or a utility such as cumulativeDisplacement. The candidate module names are hashed, though, and nothing in the file maps any of them to that application. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 119,
+    "total_tokens": 774
+   },
+   "latency_ms": 4018.5
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_59f1/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/constantFields/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_54a144",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 353,
+    "completion_tokens": 172,
+    "total_tokens": 525
+   },
+   "latency_ms": 4464.3
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_27d2/dir_5cb7/dir_1785/dir_b07c/file_084e",
+   "file_original": "applications/test/multiWorld/solidFoam/solid1_solid2/constant/regionProperties",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 557,
+    "completion_tokens": 297,
+    "total_tokens": 854
+   },
+   "latency_ms": 5604.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_5e50/dir_cc98/file_363b.H",
+   "file_original": "applications/solvers/lagrangian/sprayFoam/rhoEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_598122",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 827,
+    "completion_tokens": 3,
+    "total_tokens": 830
+   },
+   "latency_ms": 2310.7
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_e582/file_41e7.cxx",
+   "file_original": "applications/test/PackedList1/Test-PackedList1.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7d0b46",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 54,
+    "total_tokens": 1344
+   },
+   "latency_ms": 3334.4
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6908/dir_ce1a/dir_83d8/file_f024",
+   "file_original": "applications/solvers/basic/laplacianFoam/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8533b7",
+   "correct": false,
+   "raw_response": "**A** (low confidence; this is close to a guess).\n\nThis file is an OpenFOAM `Make/options` build file. It includes only `finiteVolume` and `meshTools`, and links `finiteVolume`, `fvOptions` and `meshTools`. That dependency set fits a simple application, most likely a basic solver such as `scalarTransportFoam` or `potentialFoam`. The path depth also fits a pattern like `applications/solvers/basic/<solver>/Make/options`.\n\nHowever, nothing given describes the four candidate modules, so I cannot tie this evidence to any one letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 369,
+    "completion_tokens": 339,
+    "total_tokens": 708
+   },
+   "latency_ms": 6314.0
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_80b4/dir_7c67/file_fd97.C",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/conformalVoronoiMesh/indexedCell/indexedCellEnum.C",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6f4f71",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 203,
+    "total_tokens": 1209
+   },
+   "latency_ms": 4443.4
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2ecf/dir_ffdf/dir_83d8/file_f024",
+   "file_original": "applications/utilities/parallelProcessing/decomposePar/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b6ffb6",
+   "correct": false,
+   "raw_response": "I can't tell these modules apart from the code. The obfuscated module names carry no information, and no descriptions of the candidates were provided.\n\nThe file itself is an OpenFOAM `Make/options` file for a parallel decomposition utility, most likely `decomposePar` under `applications/utilities/parallelProcessing/decomposePar/Make/options`. Its includes and libraries (finiteArea, lagrangian, decompositionMethods, decompose, faDecompose, and the dummy kahip/metis/scotch links) are typical of that utility. The path depth fits too: `dir_357b/dir_8271/dir_2ecf/dir_ffdf/dir_83d8/file_f024` maps to `applications/utilities/parallelProcessing/decomposePar/Make/options`.\n\nBecause nothing links that location to a particular candidate, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 716,
+    "completion_tokens": 288,
+    "total_tokens": 1004
+   },
+   "latency_ms": 6904.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_6a7a/dir_b7cb/file_12e0",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/VoFphaseCompressibleTurbulenceModels/Make/files",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_870a71",
+   "correct": false,
+   "raw_response": "This is a Make/files snippet that builds the library `libVoFphaseCompressibleTurbulenceModels`. That points to the compressibleInterFoam / VoF solver area, but the module names are anonymized, so the code gives no direct link to any specific candidate. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 353,
+    "completion_tokens": 98,
+    "total_tokens": 451
+   },
+   "latency_ms": 3552.7
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2ecf/dir_ffdf/file_e3c3.C",
+   "file_original": "applications/utilities/parallelProcessing/decomposePar/domainDecomposition.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1446,
+    "completion_tokens": 137,
+    "total_tokens": 1583
+   },
+   "latency_ms": 3486.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_1fc6/dir_d36d/dir_83d8/file_d311",
+   "file_original": "applications/solvers/stressAnalysis/solidEquilibriumDisplacementFoam/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b52dd6",
+   "correct": false,
+   "raw_response": "This is an OpenFOAM `Make/files` build file. It compiles `solidEquilibriumDisplacementFoam`, which is a stress-analysis solver. The module names are anonymized and no other information about them is given, so the content cannot be matched to a specific candidate. The answer below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 358,
+    "completion_tokens": 107,
+    "total_tokens": 465
+   },
+   "latency_ms": 3874.2
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_fdf7/file_29cf.C",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/foamyHexMeshSurfaceSimplify/foamyHexMeshSurfaceSimplify.C",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2efb5c",
+   "correct": true,
+   "raw_response": "I can't reliably tell these candidates apart, because no module descriptions or sample files were provided. This answer is a guess.\n\nWhat the file is: the header names it as the `foamyHexMeshSurfaceSimplify` application. It includes `conformationSurfaces.H` and Lewiner's MarchingCubes headers (`opt_octree.h`, `cube.h`). That places it at `applications/utilities/mesh/generation/foamyMesh/foamyHexMeshSurfaceSimplify/`, and the six-level obfuscated path fits this. So it should belong to whichever module covers the foamyMesh mesh-generation utilities, but I can't say which letter that is.\n\nB",
+   "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 423,
+    "total_tokens": 1734
+   },
+   "latency_ms": 7224.9
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_2c7a/file_ac09.C",
+   "file_original": "applications/test/readDir/Test-readDir.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fcc6ad",
+   "correct": false,
+   "raw_response": "I can't tell from the code which module this is; the candidate names are anonymized and nothing in the file maps to any of them.\n\nThe file is a test program for `Foam::readDir`. It would sit in OpenFOAM's `applications/test` tree, probably at a path like `applications/test/readDir/Test-readDir.C`. The obfuscated path `dir_357b/dir_1a9c/dir_2c7a/file_ac09.C` has three directory levels, which fits `applications/test/readDir/`. So the module is most likely whichever one holds the test applications, but I can't identify which letter that is. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 205,
+    "total_tokens": 1257
+   },
+   "latency_ms": 5710.5
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_44a8/dir_83d8/file_d311",
+   "file_original": "applications/utilities/preProcessing/applyBoundaryLayer/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6f4f71",
+   "correct": false,
+   "raw_response": "Without any module descriptions, I can't tell which of the anonymized modules this file belongs to, so this is a guess.\n\nWhat the content does show:\n- This is a `Make/files` build file for the `applyBoundaryLayer` application.\n- In the real OpenFOAM tree it lives at `applications/utilities/preProcessing/applyBoundaryLayer/Make/files`.\n- So it belongs to whichever module covers the preprocessing utilities.\n\nThe candidate modules are identified only by anonymized IDs, with nothing describing their contents. I have no basis for mapping \"preprocessing utilities\" to any one of A–D. I'm picking A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 220,
+    "total_tokens": 522
+   },
+   "latency_ms": 5099.5
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_4415/file_7bec.H",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/compressibleInterIsoFoam/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_b52dd6",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right from what's given. This file is the pEqn.H of a compressible two-phase VOF solver, most likely compressibleInterFoam: it uses `mixture.thermo1()` and `thermo2()`, separate `psi1`/`psi2` compressibility terms, surface tension, and `Uf`/`mesh.moving()` handling. In OpenFOAM that places it under applications/solvers/multiphase. But the candidate modules are anonymized hashes with no descriptions, so nothing links any letter to that location. The letter below is a guess.\n\nD",
+   "usage": {
+    "prompt_tokens": 1729,
+    "completion_tokens": 191,
+    "total_tokens": 1920
+   },
+   "latency_ms": 4811.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_f9ef/file_7bc6.cxx",
+   "file_original": "applications/test/regex1/Test-regex1.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9a0d27",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code alone. The file is a test application (`Test-regex1.cxx`, under `applications/test/regex1`) and would belong to the \"test applications\" module. The four candidate names are opaque hashes with no descriptions, so I can't map that onto a letter with any confidence. This is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 107,
+    "total_tokens": 1397
+   },
+   "latency_ms": 3935.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_3f03/dir_4cd7/dir_e162/file_9634.C",
+   "file_original": "applications/solvers/multiphase/multiphaseInterFoam/multiphaseMixture/phase/phase.C",
+   "label": "module_63f16b",
+   "label_original": "applications/solvers/multiphase/multiphaseInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7ecbd8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 3,
+    "total_tokens": 1291
+   },
+   "latency_ms": 3372.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_0268/dir_61aa/file_fa58.H",
+   "file_original": "applications/solvers/heatTransfer/chtMultiRegionFoam/solid/solidRegionDiffusionNo.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_5d7e73",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 595,
+    "completion_tokens": 3,
+    "total_tokens": 598
+   },
+   "latency_ms": 3407.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_83d8/file_f024",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/Make/options",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4929db",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 850,
+    "completion_tokens": 139,
+    "total_tokens": 989
+   },
+   "latency_ms": 4899.1
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_f6a2/file_5b61.H",
+   "file_original": "applications/utilities/mesh/generation/blockMesh/blockMeshOBJ.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e23ffa",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 898,
+    "completion_tokens": 141,
+    "total_tokens": 1039
+   },
+   "latency_ms": 4132.0
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_6aef/dir_d8c0/file_5d39",
+   "file_original": "applications/test/cpuInfo/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_669e56",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 99,
+    "total_tokens": 400
+   },
+   "latency_ms": 3489.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_9662/dir_9c04/dir_83d8/file_d311",
+   "file_original": "applications/utilities/thermophysical/equilibriumCO/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4929db",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 82,
+    "total_tokens": 378
+   },
+   "latency_ms": 3521.0
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_9b24/dir_ca5a/dir_e286/file_cedb.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e23ffa",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 237,
+    "total_tokens": 1529
+   },
+   "latency_ms": 4721.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_ea9e/dir_a6bc/file_f066.C",
+   "file_original": "applications/utilities/mesh/conversion/foamToStarMesh/foamToStarMesh.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6f4f71",
+   "correct": false,
+   "raw_response": "I can't determine this from the code itself. The file is the `foamToStarMesh` application, which in OpenFOAM lives at `applications/utilities/mesh/conversion/foamToStarMesh/foamToStarMesh.C`. That fits the obfuscated path depth (dir_357b/dir_8271/dir_0b03/dir_ea9e/dir_a6bc/file_f066.C). Its natural module would be something like \"mesh conversion utilities\" or \"applications\".\n\nThe problem is that the candidate module names (module_6f4f71, module_1b1967, module_b6ffb6, module_69bd00) are fully anonymized. Nothing in the source links any of them to that location. Choosing one would be a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1457,
+    "completion_tokens": 239,
+    "total_tokens": 1696
+   },
+   "latency_ms": 5333.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_c170/file_8716.C",
+   "file_original": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/icoReactingMultiphaseInterFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_96e1bd",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the code alone. The module names are anonymized and I have no description of what each one contains.\n\nThe file itself is clear. It is the main source of the `icoReactingMultiphaseInterFoam` application, which sits under `applications/solvers/multiphase/icoReactingMultiphaseInterFoam/`. It would most likely belong to a module covering multiphase solver applications. Without a mapping from module names to their contents, picking a letter is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1489,
+    "completion_tokens": 156,
+    "total_tokens": 1645
+   },
+   "latency_ms": 4682.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_5e50/dir_0384/dir_2e2c/file_7bec.H",
+   "file_original": "applications/solvers/lagrangian/reactingParcelFoam/simpleReactingParcelFoam/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6614e",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 899,
+    "completion_tokens": 3,
+    "total_tokens": 902
+   },
+   "latency_ms": 2320.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_76da/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/Hashing2/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4929db",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 286,
+    "completion_tokens": 429,
+    "total_tokens": 715
+   },
+   "latency_ms": 8691.2
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_0707/file_0dd8.C",
+   "file_original": "applications/utilities/preProcessing/boxTurb/boxTurb.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 65,
+    "total_tokens": 1320
+   },
+   "latency_ms": 3177.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_5e50/dir_cc98/dir_99c1/file_7bec.H",
+   "file_original": "applications/solvers/lagrangian/sprayFoam/sprayDyMFoam/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1399,
+    "completion_tokens": 3,
+    "total_tokens": 1402
+   },
+   "latency_ms": 2349.7
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_493b/file_2545.H",
+   "file_original": "applications/test/surface-sampling/mydebugSurfaceWriter.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 198,
+    "total_tokens": 1514
+   },
+   "latency_ms": 5109.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_80b4/dir_7c67/file_4491.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/conformalVoronoiMesh/indexedCell/indexedCellChecks.H",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b8f460",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code alone: the four candidate names are anonymized and nothing ties any of them to this content. The file is indexedCellChecks.H, in the foamyHexMesh conformalVoronoiMesh library (applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/conformalVoronoiMesh/indexedCell/). The deep path, eight directory levels, fits that location. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 155,
+    "total_tokens": 1399
+   },
+   "latency_ms": 4684.5
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_6365/file_077e.C",
+   "file_original": "applications/utilities/preProcessing/mapFields/mapLagrangian.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't tell which module this is. The obfuscated module names come with no description or file list, so I'm only guessing.\n\nThe code itself is clear. The file is `mapLagrangian.C` from the `mapFields` utility, which uses `meshToMesh0`. It lives at `applications/utilities/preProcessing/mapFields/mapLagrangian.C`, a 4-level path that matches `dir_357b/dir_8271/dir_a447/dir_6365/file_077e.C`. Nothing in the candidate labels links any of them to that utility, so the choice of A is arbitrary.\n\nA",
+   "usage": {
+    "prompt_tokens": 1491,
+    "completion_tokens": 195,
+    "total_tokens": 1686
+   },
+   "latency_ms": 4627.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_dab1/file_7494.cpp",
+   "file_original": "applications/test/00-openmp/Test-openmp.cpp",
+   "label": "module_f55731",
+   "label_original": "applications/test/00-openmp",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_201d5f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 100,
+    "total_tokens": 1245
+   },
+   "latency_ms": 3468.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_0968/dir_2e05/dir_83d8/file_f024",
+   "file_original": "applications/test/speed/vectorSpeed/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 285,
+    "completion_tokens": 240,
+    "total_tokens": 525
+   },
+   "latency_ms": 5216.9
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_8b7c/dir_2f0d/file_b027",
+   "file_original": "applications/test/00-dummy/library/Allwmake-mpi",
+   "label": "module_5b49d7",
+   "label_original": "applications/test/00-dummy/library",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7ecbd8",
+   "correct": false,
+   "raw_response": "I can't tell the module from the code. The script is an Allwmake-mpi build helper that calls `wmakeLibMpi mpi`, and in OpenFOAM that pattern appears in places like `src/Pstream/Allwmake-mpi` and `src/parallel/...`. The candidate module names are anonymized and nothing links any of them to these locations, so this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 506,
+    "completion_tokens": 129,
+    "total_tokens": 635
+   },
+   "latency_ms": 5193.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_c2a1/dir_d820/file_8edd.H",
+   "file_original": "applications/solvers/acoustic/acousticFoam/createFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4d2b64",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 358,
+    "completion_tokens": 261,
+    "total_tokens": 619
+   },
+   "latency_ms": 6153.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_ea9e/dir_a49a/dir_a6fa/dir_a5d2/file_1854",
+   "file_original": "applications/utilities/mesh/conversion/ccm/ccmToFoam/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't pin this down from the evidence. This file is a Make/options file for a utility that links against the ccm conversion library, most likely ccmToFoam or foamToCcm under applications/utilities/mesh/conversion/ccm. Its path depth matches: applications/utilities/mesh/conversion/ccm/ccmToFoam/Make/options. It most likely belongs to a \"mesh conversion utilities\" module. However, the candidate module names are anonymized and nothing in the code points to one of them, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 486,
+    "completion_tokens": 177,
+    "total_tokens": 663
+   },
+   "latency_ms": 5984.3
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_e8a4/file_0f17.C",
+   "file_original": "applications/test/error/Test-error.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 111,
+    "total_tokens": 1481
+   },
+   "latency_ms": 3421.3
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_4317/dir_b84e/dir_83d8/file_f024",
+   "file_original": "applications/test/polynomialEqns/linearEqn/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1c8623",
+   "correct": false,
+   "raw_response": "There is little evidence to go on. The file is an OpenFOAM `Make/options` file with empty `EXE_INC` and `EXE_LIBS`, and the module names are anonymized, so neither the code nor the names point to a particular module. The answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 286,
+    "completion_tokens": 90,
+    "total_tokens": 376
+   },
+   "latency_ms": 3327.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d126/dir_8762/file_b4d7.C",
+   "file_original": "applications/solvers/combustion/PDRFoam/PDRFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't verify any mapping between the anonymized module names and real modules. This file is PDRFoam.C, the main source of the PDRFoam solver, located under applications/solvers/combustion/PDRFoam. The candidates are opaque identifiers with no descriptions, so this is a guess rather than a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1646,
+    "completion_tokens": 105,
+    "total_tokens": 1751
+   },
+   "latency_ms": 4104.8
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_e67f/dir_3dce/file_a985.C",
+   "file_original": "applications/solvers/incompressible/adjointShapeOptimizationFoam/adjointShapeOptimizationFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ae1fde",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 3,
+    "total_tokens": 1519
+   },
+   "latency_ms": 2188.4
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_58d1/dir_d0fe/file_a272.C",
+   "file_original": "applications/utilities/mesh/generation/extrude/extrudeMesh/extrudeMesh.C",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2efb5c",
+   "correct": true,
+   "raw_response": "I can't verify this from the code. Nothing in the file links to any of the anonymized module names. The file is the `extrudeMesh` application, located at `applications/utilities/mesh/generation/extrude/extrudeMesh/extrudeMesh.C`, so it belongs to whatever module covers mesh generation utilities. That mapping is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1443,
+    "completion_tokens": 118,
+    "total_tokens": 1561
+   },
+   "latency_ms": 3800.9
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_e9ad/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/gatherValues1/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fb2b70",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 286,
+    "completion_tokens": 62,
+    "total_tokens": 348
+   },
+   "latency_ms": 3020.4
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_3f09/dir_77f8/file_b05b.H",
+   "file_original": "applications/solvers/multiphase/compressibleMultiphaseInterFoam/multiphaseMixtureThermo/multiphaseMixtureThermo.H",
+   "label": "module_283308",
+   "label_original": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8d7941",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 3,
+    "total_tokens": 1336
+   },
+   "latency_ms": 2150.8
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2970/dir_b5cb/dir_7729/file_0aa1.C",
+   "file_original": "applications/utilities/surface/surfacePatch/searchableSurfaceModifier/autoPatch.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1499,
+    "completion_tokens": 266,
+    "total_tokens": 1765
+   },
+   "latency_ms": 5114.8
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_30ad/dir_dbd6/dir_0b6e/file_21e2.C",
+   "file_original": "applications/utilities/preProcessing/wallFunctionTable/tabulatedWallFunction/general/general.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "**A**\n\nThe candidate modules are anonymized and no descriptions were given, so this is a best guess, not a deduction. The file itself is identifiable: it defines the `general` tabulated wall function inside `Foam::tabulatedWallFunctions`. It is most likely `general.C` from OpenFOAM's `applications/utilities/preProcessing/wallFunctionTable` utility, and the seven-level obfuscated path matches that depth. That points to a pre-processing utilities module, but nothing links any of A–D to it.",
+   "usage": {
+    "prompt_tokens": 1423,
+    "completion_tokens": 349,
+    "total_tokens": 1772
+   },
+   "latency_ms": 6972.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_49cc/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/dictionary/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9a0d27",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 268,
+    "completion_tokens": 44,
+    "total_tokens": 312
+   },
+   "latency_ms": 2860.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_3f03/dir_4cd7/dir_b7cb/file_12e0",
+   "file_original": "applications/solvers/multiphase/multiphaseInterFoam/multiphaseMixture/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 352,
+    "completion_tokens": 80,
+    "total_tokens": 432
+   },
+   "latency_ms": 3179.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_405e/dir_a095/file_7bec.H",
+   "file_original": "applications/solvers/compressible/rhoSimpleFoam/overRhoSimpleFoam/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_f55731",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right without knowing what each anonymized module contains. Picking one would be a blind guess, so I'm not giving a letter.\n\nWhat the code itself shows:\n- **Steady, compressible solver.** It uses SIMPLE (`simple.correctNonOrthogonal()`, `simple.transonic()`, `pressureControl`), density and compressibility (`rho`, `psi`), and a transonic branch with `phid`.\n- **Overset mesh.** It uses `cellMask`, `faceMask` from `localMin<scalar>`, `oversetAdjustPhi` and `adjustFringe`.\n- **Likely file.** This matches the pressure equation (`pEqn.H`) of `rhoSimpleFoam` in its overset variant, `overRhoSimpleFoam`. It would sit under `applications/solvers/compressible/rhoSimpleFoam/overRhoSimpleFoam/`.\n\nSo the answer is whichever candidate module covers compressible solvers, specifically the rhoSimpleFoam/overset solver directory. If you can say what code each of A–D contains, I can map this to the right letter.",
+   "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 380,
+    "total_tokens": 1721
+   },
+   "latency_ms": 6720.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_1b84/file_fa53.C",
+   "file_original": "applications/solvers/multiphase/potentialFreeSurfaceFoam/potentialFreeSurfaceFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8cb1eb",
+   "correct": false,
+   "raw_response": "I can't determine this from evidence. The file is clearly the main source of potentialFreeSurfaceFoam, which sits at applications/solvers/multiphase/potentialFreeSurfaceFoam. The path has four directory levels (dir_357b/dir_2fbd/dir_6f35/dir_1b84), which is consistent with that location. However, the candidate module names are anonymized and no descriptions were given, so I can't link any of them to the multiphase solvers. My answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 165,
+    "total_tokens": 1594
+   },
+   "latency_ms": 4515.1
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_3f09/dir_83d8/file_d311",
+   "file_original": "applications/solvers/multiphase/compressibleMultiphaseInterFoam/Make/files",
+   "label": "module_283308",
+   "label_original": "applications/solvers/multiphase/compressibleMultiphaseInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_283308",
+   "correct": true,
+   "raw_response": "No information distinguishes these four modules, so this is a guess. The file is the Make/files build script for the compressibleMultiphaseInterFoam solver, but the candidate module names are anonymized and none of their contents were provided.\n\nA",
+   "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 75,
+    "total_tokens": 388
+   },
+   "latency_ms": 2976.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_2f6c/dir_d8c0/file_5d39",
+   "file_original": "applications/test/vector/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0fd9a6",
+   "correct": false,
+   "raw_response": "I can't determine this from the content. The four module names are anonymized, and no information is given about what each one contains. The answer below is a guess.\n\nThe file is a standard OpenFOAM `Make/files` build file. It compiles `Test-vector.cxx` into an executable in `$(FOAM_USER_APPBIN)`. The path depth fits `applications/test/vector/Make/files`, so it most likely belongs to the module covering OpenFOAM's test applications. Which letter that corresponds to is unknown.\n\nA",
+   "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 299,
+    "total_tokens": 600
+   },
+   "latency_ms": 5711.1
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_9bee/dir_46e3/dir_d5b3/file_e09d.C",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellSizeControlSurfaces/surfaceCellSizeFunction/nonUniformField/nonUniformField.C",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2efb5c",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1499,
+    "completion_tokens": 263,
+    "total_tokens": 1762
+   },
+   "latency_ms": 4838.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_f9e5/dir_7d40/dir_83d8/file_f024",
+   "file_original": "applications/solvers/finiteArea/liquidFilmFoam/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f0970f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 425,
+    "completion_tokens": 3,
+    "total_tokens": 428
+   },
+   "latency_ms": 2246.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_f91b/file_ec00.H",
+   "file_original": "applications/solvers/heatTransfer/buoyantPimpleFoam/createFieldRefs.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73c9b2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 276,
+    "completion_tokens": 103,
+    "total_tokens": 379
+   },
+   "latency_ms": 20738.3
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_07fb/dir_792c/dir_ce43/file_097f.H",
+   "file_original": "applications/utilities/postProcessing/dataConversion/foamToEnsight/convertLagrangian.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73c9b2",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1395,
+    "completion_tokens": 168,
+    "total_tokens": 1563
+   },
+   "latency_ms": 4435.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_b4aa/file_3564.C",
+   "file_original": "applications/test/polyMeshGeom-speed1/Test-polyMeshGeom-speed1.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b6ffb6",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1401,
+    "completion_tokens": 3,
+    "total_tokens": 1404
+   },
+   "latency_ms": 2173.4
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2970/dir_e922/dir_0c51/file_1889.hxx",
+   "file_original": "applications/utilities/surface/surfaceCoarsen/bunnylod/progmesh.hxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't tell from the code alone which module this is, because the candidate names are anonymized and none of them is described. The file is Stan Melax's progressive-mesh polygon reduction code. In OpenFOAM it ships as a third-party component under applications/utilities/surface/surfaceCoarsen/bunnylod (files such as progmesh.h, vector.h and list.h). That points to the surface utilities module, specifically surfaceCoarsen. Without any way to match that to a candidate, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 734,
+    "completion_tokens": 171,
+    "total_tokens": 905
+   },
+   "latency_ms": 5009.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_8626/dir_f700/file_6f11.H",
+   "file_original": "applications/solvers/DNS/dnsFoam/globalProperties.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f55731",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 426,
+    "completion_tokens": 78,
+    "total_tokens": 504
+   },
+   "latency_ms": 3265.0
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_07fb/dir_7073/file_498b.C",
+   "file_original": "applications/utilities/postProcessing/postProcess/postProcess.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_493e59",
+   "correct": false,
+   "raw_response": "There is no basis for preferring one candidate over another. The file is clearly the `postProcess` utility, which lives under `applications/utilities/postProcessing/postProcess`, so it most likely belongs to an applications/utilities module. But the candidate module names are anonymized and come with no descriptions, so I can't tell which one that is. This answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1496,
+    "completion_tokens": 118,
+    "total_tokens": 1614
+   },
+   "latency_ms": 3603.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_0b7c/dir_d8c0/file_5d39",
+   "file_original": "applications/test/spline/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 294,
+    "completion_tokens": 102,
+    "total_tokens": 396
+   },
+   "latency_ms": 3699.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_9177/file_beef.C",
+   "file_original": "applications/utilities/preProcessing/createExternalCoupledPatchGeometry/createExternalCoupledPatchGeometry.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1ec191",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1397,
+    "completion_tokens": 150,
+    "total_tokens": 1547
+   },
+   "latency_ms": 3448.1
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_e67f/dir_671e/file_18a3.H",
+   "file_original": "applications/solvers/incompressible/shallowWaterFoam/readGravitationalAcceleration.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d6fc2b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 557,
+    "completion_tokens": 104,
+    "total_tokens": 661
+   },
+   "latency_ms": 4241.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_e67f/dir_431e/dir_3fe8/file_5153.H",
+   "file_original": "applications/solvers/incompressible/simpleFoam/overSimpleFoam/continuityErrs.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_316328",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 3,
+    "total_tokens": 1013
+   },
+   "latency_ms": 2125.2
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_93de/dir_2857/file_dd50.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/faceAreaWeightModel/piecewiseLinearRamp/piecewiseLinearRamp.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7d0b46",
+   "correct": false,
+   "raw_response": "**A**",
+   "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 292,
+    "total_tokens": 1632
+   },
+   "latency_ms": 5280.6
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_f46c/file_6da6.cxx",
+   "file_original": "applications/test/partition-sort/Test-partition-sort.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9d9de8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1361,
+    "completion_tokens": 68,
+    "total_tokens": 1429
+   },
+   "latency_ms": 3358.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_1b2e/dir_ef02/dir_89f8/file_6b28",
+   "file_original": "applications/test/syncTools/missing_cell/system/createPatchDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6f4f71",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 787,
+    "completion_tokens": 3,
+    "total_tokens": 790
+   },
+   "latency_ms": 2637.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_70f8/file_5839.H",
+   "file_original": "applications/solvers/multiphase/cavitatingFoam/CourantNo.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 3,
+    "total_tokens": 1106
+   },
+   "latency_ms": 2245.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_8b7c/file_fabc",
+   "file_original": "applications/test/00-dummy/Allwmake",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_db6eb9",
+   "correct": false,
+   "raw_response": "**A**\n\nThe candidate names are anonymized and come with no descriptions, so this choice is a guess rather than a reasoned match.\n\nThe script itself is recognizable. It builds the wmake toolchain, runs `library/Allwmake`, then calls `wmake -no-openfoam`. That matches the build script for a small test application, most likely `applications/test/00-dummy`. The three-level obfuscated path fits `applications/test/<test-dir>`, so the file probably belongs to whichever module covers the test applications. Nothing given links that module to any particular letter.",
+   "usage": {
+    "prompt_tokens": 406,
+    "completion_tokens": 379,
+    "total_tokens": 785
+   },
+   "latency_ms": 7775.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_8316/file_00b8.C",
+   "file_original": "applications/test/span/Test-stdFoam-span.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_870a71",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 3,
+    "total_tokens": 1296
+   },
+   "latency_ms": 2003.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_a4d6/dir_b7cb/file_a2cd",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/overCompressibleInterDyMFoam/Make/options",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 3,
+    "total_tokens": 1081
+   },
+   "latency_ms": 2124.8
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_ea9e/dir_8e40/dir_b7cb/file_a2cd",
+   "file_original": "applications/utilities/mesh/conversion/fluentMeshToFoam/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1dfd8b",
+   "correct": false,
+   "raw_response": "AThis is a `Make/options` build file for an application that links `meshTools` and `dynamicMesh`. Its path depth fits something like `applications/utilities/mesh/manipulation/<tool>/Make/options`. The candidate names are anonymized and give no further clues, so this choice is a guess rather than a firm deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 371,
+    "completion_tokens": 264,
+    "total_tokens": 635
+   },
+   "latency_ms": 5266.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_27d2/dir_d4dd/dir_557e/dir_c6d0/file_243b",
+   "file_original": "applications/test/multiWorld/chtMultiRegionSimpleFoam/fluid/system/controlDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8533b7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 783,
+    "completion_tokens": 3,
+    "total_tokens": 786
+   },
+   "latency_ms": 2074.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_086c/dir_ecd8/file_ac3a.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/initialPointsMethod/uniformGrid/uniformGrid.H",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2efb5c",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1331,
+    "completion_tokens": 224,
+    "total_tokens": 1555
+   },
+   "latency_ms": 4660.8
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_b662/file_3740.C",
+   "file_original": "applications/solvers/multiphase/interFoam/interFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't tell which letter is right, because the candidate names (module_69bd00, module_f971c8, and so on) are anonymised and nothing here links them to their contents. What the code does show is that this is `interFoam.C`, the interFoam solver application. It sits at `applications/solvers/multiphase/interFoam/interFoam.C`, which fits the four-level obfuscated path `dir_357b/dir_2fbd/dir_6f35/dir_b662`. Its module is therefore most likely the multiphase solvers or applications group. Without a mapping from letters to modules, the letter below is essentially a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1546,
+    "completion_tokens": 204,
+    "total_tokens": 1750
+   },
+   "latency_ms": 4953.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_58d1/dir_d0fe/file_891b.H",
+   "file_original": "applications/utilities/mesh/generation/extrude/extrudeMesh/createTimeExtruded.H",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1a4293",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 337,
+    "completion_tokens": 204,
+    "total_tokens": 541
+   },
+   "latency_ms": 5469.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_493b/file_e03a.cxx",
+   "file_original": "applications/test/surface-sampling/mydebugSurfaceWriter.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_63f16b",
+   "correct": false,
+   "raw_response": "C",
+   "usage": {
+    "prompt_tokens": 1384,
+    "completion_tokens": 3,
+    "total_tokens": 1387
+   },
+   "latency_ms": 2244.4
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_07fb/dir_a149/dir_14ea/file_0f6b.H",
+   "file_original": "applications/utilities/postProcessing/miscellaneous/postChannel/readFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_5b49d7",
+   "correct": false,
+   "raw_response": "I can't tell the module from these names. The candidates are anonymized and come with no descriptions or sample files, so nothing links any of A–D to this code.\n\nWhat the code does show: this is `readFields.H` from the postChannel utility. In OpenFOAM it lives at `applications/utilities/postProcessing/miscellaneous/postChannel/readFields.H`. It reads UMean, UPrime2Mean and pPrime2Mean to average channel-flow statistics. That would map to a postProcessing utilities module, but I have no basis for matching that to a letter.\n\nIf forced to answer, the letter below is a guess.\n\nC",
+   "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 203,
+    "total_tokens": 1273
+   },
+   "latency_ms": 5318.7
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_07fb/dir_792c/dir_f505/file_117d.H",
+   "file_original": "applications/utilities/postProcessing/dataConversion/foamDataToFluent/writeFluentFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 3,
+    "total_tokens": 1294
+   },
+   "latency_ms": 2051.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_f31d/dir_71f7/dir_b7cb/file_12e0",
+   "file_original": "applications/utilities/mesh/manipulation/mergeOrSplitBaffles/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bfb099",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 317,
+    "completion_tokens": 58,
+    "total_tokens": 375
+   },
+   "latency_ms": 2944.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_c170/dir_0686/dir_f0d2/file_d2a8.H",
+   "file_original": "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/laserDTRM/DTRMParticle/DTRMParticle.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f564db",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1296,
+    "completion_tokens": 370,
+    "total_tokens": 1666
+   },
+   "latency_ms": 7044.7
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_4923/dir_1a69/dir_97a1/dir_afc4/file_249d.H",
+   "file_original": "applications/utilities/miscellaneous/foamHelp/helpTypes/helpSolver/helpSolver.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f55731",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 193,
+    "total_tokens": 1442
+   },
+   "latency_ms": 5767.7
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_c453/dir_d8c0/file_5d39",
+   "file_original": "applications/test/dictionaryTokens/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fec6db",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 319,
+    "completion_tokens": 126,
+    "total_tokens": 445
+   },
+   "latency_ms": 3693.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_d44d/file_6786.C",
+   "file_original": "applications/test/ListOps2/Test-ListOps2.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_2efb5c",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 3,
+    "total_tokens": 1275
+   },
+   "latency_ms": 3122.1
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_95d5/file_5fa8.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/foamyQuadMesh/CGALTriangulation2DKernel.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_870a71",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 214,
+    "total_tokens": 1509
+   },
+   "latency_ms": 4603.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_80b4/file_8c14.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/conformalVoronoiMesh/pointConversion.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_e9e47b",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the candidate module names are anonymised and you haven't said what any of them contain. A guess between A, B, C and D would be arbitrary.\n\nWhat the code does show:\n- The file is `pointConversion.H`, which converts between `Foam::point` and CGAL's `Point`.\n- It specialises for `CGAL::indexedVertex`.\n- In OpenFOAM, this file is part of the `foamyMesh` utility, under `applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/`.\n- The obfuscated path is seven directories deep, which fits that deep location in the utilities tree rather than the core library.\n\nSo the right module is whichever candidate holds the `foamyMesh` / `conformalVoronoiMesh` mesh-generation code. If you tell me what each of A–D contains, I can pick the matching letter.",
+   "usage": {
+    "prompt_tokens": 1397,
+    "completion_tokens": 294,
+    "total_tokens": 1691
+   },
+   "latency_ms": 7068.7
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_76da/file_2905.cxx",
+   "file_original": "applications/test/Hashing2/Test-Hashing2.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't tell which module this is from the code alone, because the module names are anonymized and I have no description of what each candidate contains.\n\nThe file itself is clear: it is the `Test-Hashing2` application, which lives under OpenFOAM's `applications/test` tree. A reasonable guess is that the test applications form one module. Without a mapping from the candidate names to their contents, picking a letter is a guess, and I've picked A.\n\nA",
+   "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 138,
+    "total_tokens": 1414
+   },
+   "latency_ms": 4156.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_27d2/dir_5cb7/dir_1785/dir_c6d0/dir_9fdd/file_c7e2",
+   "file_original": "applications/test/multiWorld/solidFoam/solid1_solid2/system/solid2/fvSolution",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f0970f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 801,
+    "completion_tokens": 3,
+    "total_tokens": 804
+   },
+   "latency_ms": 2729.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_e88e/dir_2b8a/dir_b7cb/file_12e0",
+   "file_original": "applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/Make/files",
+   "label": "module_73c9b2",
+   "label_original": "applications/solvers/multiphase/interCondensatingEvaporatingFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_73c9b2",
+   "correct": true,
+   "raw_response": "I can't identify this from the code alone. The file is clearly a `Make/files` for `libphaseTemperatureChangeTwoPhaseMixtures`, which in OpenFOAM lives in `applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/Make/files`. The candidate module names are anonymized and none of the content links to a specific one, so this is a guess. The likely parent is the multiphase solvers module.\n\nA",
+   "usage": {
+    "prompt_tokens": 521,
+    "completion_tokens": 172,
+    "total_tokens": 693
+   },
+   "latency_ms": 5223.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_f51d/file_7dbd.C",
+   "file_original": "applications/test/searchableSphere/Test-searchableSphere.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8cb1eb",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1455,
+    "completion_tokens": 3,
+    "total_tokens": 1458
+   },
+   "latency_ms": 2823.6
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_92af/file_da3b.cxx",
+   "file_original": "applications/test/OStringStream/Test-OStringStream.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e9e47b",
+   "correct": false,
+   "raw_response": "The code clearly comes from a standalone test program in `applications/test` (e.g. `Test-OStringStream`). It has its own `main()`, includes only core stream headers (`IOstreams.H`, `SpanStream.H`, `StringStream.H`) and prints \"Begin test OStringStream\".\n\nHowever, the module names are fully anonymized and nothing in the code links any of them to the test-applications module. This answer is therefore a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 264,
+    "total_tokens": 1341
+   },
+   "latency_ms": 6350.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_e67f/dir_13ba/dir_e57d/file_09ae.C",
+   "file_original": "applications/solvers/incompressible/pimpleFoam/overPimpleDyMFoam/overPimpleDyMFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc4059",
+   "correct": false,
+   "raw_response": "I can't tell which module this is from the evidence. The file is the overPimpleDyMFoam solver, at applications/solvers/incompressible/pimpleFoam/overPimpleDyMFoam/overPimpleDyMFoam.C. It likely belongs to an \"incompressible solvers\" or \"applications/solvers\" module. However, the candidate names are anonymized, so nothing in the code links it to a specific letter. The answer below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 150,
+    "total_tokens": 1632
+   },
+   "latency_ms": 4062.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_2771/file_5cb8.H",
+   "file_original": "applications/solvers/multiphase/reactingTwoPhaseEulerFoam/YEqns.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5d2bd4",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 707,
+    "completion_tokens": 3,
+    "total_tokens": 710
+   },
+   "latency_ms": 2263.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_2b4b/dir_6031/file_7bec.H",
+   "file_original": "applications/solvers/multiphase/interPhaseChangeFoam/interPhaseChangeDyMFoam/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9270f8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 3,
+    "total_tokens": 1298
+   },
+   "latency_ms": 3104.8
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_1efa/dir_b715/file_9a4c.H",
+   "file_original": "applications/solvers/compressible/sonicFoam/sonicLiquidFoam/readTransportProperties.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 420,
+    "completion_tokens": 219,
+    "total_tokens": 639
+   },
+   "latency_ms": 4725.7
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_371a/file_2f1f.C",
+   "file_original": "applications/test/FieldFields2/Test-FieldFields2.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9a0d27",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 134,
+    "total_tokens": 1464
+   },
+   "latency_ms": 3657.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d126/dir_8762/file_e9db.H",
+   "file_original": "applications/solvers/combustion/PDRFoam/UEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b6ffb6",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 539,
+    "completion_tokens": 3,
+    "total_tokens": 542
+   },
+   "latency_ms": 2279.0
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_f9e5/dir_ca5b/dir_83d8/file_f024",
+   "file_original": "applications/utilities/finiteArea/makeFaMesh/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fcc6ad",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 528,
+    "completion_tokens": 133,
+    "total_tokens": 661
+   },
+   "latency_ms": 4057.5
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_1a6f/dir_5bdd/file_95ab.C",
+   "file_original": "applications/test/testFunctionObjects/fakeError/fakeErrorFunctionObject.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_669e56",
+   "correct": false,
+   "raw_response": "I can't place this file with confidence, so treat this as a guess.\n\nThe code is OpenFOAM's `fakeErrorFunctionObject`. It is a function object that deliberately raises errors during construction, execution or writing, to test error handling. It derives from `timeFunctionObject`, which ties it to the function-object infrastructure. However, I don't remember whether it ships in the core function-object utilities library or in a tutorial or test directory. The four-level obfuscated path fits either location, and the candidate module names give no clues.\n\nA",
+   "usage": {
+    "prompt_tokens": 1317,
+    "completion_tokens": 431,
+    "total_tokens": 1748
+   },
+   "latency_ms": 8935.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_e74d/file_ba13",
+   "file_original": "applications/solvers/multiphase/MPPICInterFoam/Allwclean",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1dfd8b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 350,
+    "completion_tokens": 103,
+    "total_tokens": 453
+   },
+   "latency_ms": 3285.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_1c19/dir_de7c/file_c627.C",
+   "file_original": "applications/utilities/mesh/advanced/collapseEdges/collapseEdges.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1465,
+    "completion_tokens": 140,
+    "total_tokens": 1605
+   },
+   "latency_ms": 3642.5
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_b54b/file_26d0.C",
+   "file_original": "applications/solvers/multiphase/interIsoFoam/interIsoFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e23ffa",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1677,
+    "completion_tokens": 3,
+    "total_tokens": 1680
+   },
+   "latency_ms": 2174.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6908/dir_c31c/file_8edd.H",
+   "file_original": "applications/solvers/basic/scalarTransportFoam/createFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a729c3",
+   "correct": false,
+   "raw_response": "This is `createFields.H` for scalarTransportFoam: it reads a scalar field T, a velocity field U and a diffusivity DT. It belongs to the applications/solvers module. The module names are anonymized, so I cannot map that to a specific letter with any certainty, and this answer is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 640,
+    "completion_tokens": 101,
+    "total_tokens": 741
+   },
+   "latency_ms": 3830.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_9b49/file_9391.H",
+   "file_original": "applications/solvers/electromagnetics/electromagneticsSolversDoc.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7a1878",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 744,
+    "completion_tokens": 82,
+    "total_tokens": 826
+   },
+   "latency_ms": 3393.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_4923/dir_de22/dir_83d8/file_f024",
+   "file_original": "applications/utilities/miscellaneous/foamDictionary/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_3ade84",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 60,
+    "total_tokens": 344
+   },
+   "latency_ms": 3130.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_0081/dir_25de/dir_29a3/file_fc5a.H",
+   "file_original": "applications/utilities/mesh/generation/extrude2DMesh/extrude2DMesh/extrude2DMesh/extrude2DMesh.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 328,
+    "total_tokens": 1619
+   },
+   "latency_ms": 5638.1
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_405e/dir_2ef1/file_5814.H",
+   "file_original": "applications/solvers/compressible/rhoSimpleFoam/rhoPorousSimpleFoam/createZones.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6df28",
+   "correct": false,
+   "raw_response": "I can't identify the module with confidence, because the candidate names are anonymized and give no clue to their contents. My answer is a best guess.\n\nWhat the code does show is that this is application-level solver code, not library code. It builds a list of porosity zones from the mesh (`IOporosityModelList pZones(mesh)`). It also reads `nUCorrectors` from the SIMPLE solution dictionary to choose between pressure-implicit and pressure-explicit porosity.\n\nThat matches `createZones.H` in OpenFOAM's `porousSimpleFoam` solver. The five-level path also fits the usual layout: `applications/solvers/incompressible/simpleFoam/porousSimpleFoam/createZones.H`.\n\nSo the file most likely belongs to the solver-applications module. Since none of the candidates can be matched to that module from their names, I'm picking one.\n\nA",
+   "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 430,
+    "total_tokens": 923
+   },
+   "latency_ms": 7509.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_2b4b/dir_d00e/dir_0d00/file_a569.C",
+   "file_original": "applications/solvers/multiphase/interPhaseChangeFoam/phaseChangeTwoPhaseMixtures/phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1c8623",
+   "correct": false,
+   "raw_response": "I can't identify the module from the code. The file implements `phaseChangeTwoPhaseMixture`, the base class for cavitation models. In OpenFOAM it lives at `applications/solvers/multiphase/interPhaseChangeFoam/phaseChangeTwoPhaseMixtures/phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.C`. That would make the module the `interPhaseChangeFoam` solver, or more broadly the multiphase solvers.\n\nThe candidates are given only as opaque IDs with no description, so there is nothing to tie any of them to that solver. My answer below is a guess, not a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1619,
+    "completion_tokens": 227,
+    "total_tokens": 1846
+   },
+   "latency_ms": 6061.4
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_a1b8/dir_041d/dir_4c49/file_d1e0.C",
+   "file_original": "applications/solvers/discreteMethods/molecularDynamics/mdFoam/mdFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d1e7bb",
+   "correct": false,
+   "raw_response": "There is no reliable basis for picking a letter here. The candidate modules are only anonymous identifiers with no descriptions, so nothing in the code can be matched to any of A–D.\n\nWhat the file itself shows:\n- It is the `mdFoam` application, a molecular dynamics solver.\n- Its path in OpenFOAM is `applications/solvers/discreteMethods/molecularDynamics/mdFoam/mdFoam.C`.\n- That fits the obfuscated path depth: `dir_357b/dir_2fbd/dir_a1b8/dir_041d/dir_4c49/file_d1e0.C`.\n- So it belongs to the solvers module, most likely the discrete-methods solver group.\n\nWhich letter stands for that module can't be inferred from the information given. The A below is a guess with roughly a one-in-four chance of being right.\n\nA",
+   "usage": {
+    "prompt_tokens": 1222,
+    "completion_tokens": 280,
+    "total_tokens": 1502
+   },
+   "latency_ms": 6979.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_2b4b/dir_83d8/file_f024",
+   "file_original": "applications/solvers/multiphase/interPhaseChangeFoam/Make/options",
+   "label": "module_8cb1eb",
+   "label_original": "applications/solvers/multiphase/interPhaseChangeFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d6fc2b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 732,
+    "completion_tokens": 3,
+    "total_tokens": 735
+   },
+   "latency_ms": 3980.5
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d126/dir_8762/dir_8462/dir_caac/file_0ae7.C",
+   "file_original": "applications/solvers/combustion/PDRFoam/XiModels/XiModel/XiModelNew.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4d2b64",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right. The module names are anonymized and nothing in the code links to any of them.\n\nThe file is `XiModelNew.C`. In OpenFOAM it lives at `applications/solvers/combustion/PDRFoam/XiModels/XiModel/XiModelNew.C`, so it belongs to the PDRFoam solver.\n\nThe path depth matches that location. Six directories down maps to `applications/solvers/combustion/PDRFoam/XiModels/XiModel`.\n\nI have no way to map \"PDRFoam\" to module_4d2b64, module_69bd00, module_1ec191 or module_8533b7, so the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 222,
+    "total_tokens": 1359
+   },
+   "latency_ms": 5438.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_e74d/dir_b7e6/file_98fb.C",
+   "file_original": "applications/solvers/multiphase/MPPICInterFoam/compressibleTwoPhaseMixtureTurbulenceModels/compressibleTwoPhaseMixtureTurbulenceModels.C",
+   "label": "module_243c2f",
+   "label_original": "applications/solvers/multiphase/MPPICInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f55731",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1524,
+    "completion_tokens": 432,
+    "total_tokens": 1956
+   },
+   "latency_ms": 7431.7
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_4283/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/extendedStencil/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bbe03b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 354,
+    "completion_tokens": 176,
+    "total_tokens": 530
+   },
+   "latency_ms": 4111.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_8e0c/file_4421.H",
+   "file_original": "applications/test/router/router.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 356,
+    "total_tokens": 1614
+   },
+   "latency_ms": 6868.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_3f03/dir_83d8/file_d311",
+   "file_original": "applications/solvers/multiphase/multiphaseInterFoam/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "**A**\n\nThe file is clearly the `Make/files` build file for the `multiphaseInterFoam` solver, likely at `applications/solvers/multiphase/multiphaseInterFoam/Make/files`. However, nothing in the code or the anonymized module names links it to a particular candidate, so this choice is a guess.",
+   "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 271,
+    "total_tokens": 577
+   },
+   "latency_ms": 8490.6
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_1c1d/file_e29c.C",
+   "file_original": "applications/test/boolVector/Test-boolVector.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a729c3",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 140,
+    "total_tokens": 1377
+   },
+   "latency_ms": 3779.4
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_35bc/dir_a5d2/file_2f3d",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/foamyHexMesh/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f564db",
+   "correct": false,
+   "raw_response": "**A**\n\nThe code is a `Make/files` build file for the `foamyHexMesh` mesh-generation utility. In OpenFOAM it sits at roughly `applications/utilities/mesh/generation/foamyMesh/foamyHexMesh/Make/files`, which matches the obfuscated path depth. The candidate modules come with no descriptions, so nothing links this file to a specific option. This answer is a guess, not a deduction.",
+   "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 322,
+    "total_tokens": 635
+   },
+   "latency_ms": 6074.3
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_a412/dir_d8c0/file_5d39",
+   "file_original": "applications/test/pointField/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f55731",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 295,
+    "completion_tokens": 50,
+    "total_tokens": 345
+   },
+   "latency_ms": 2836.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_b662/dir_439b/dir_ccc1/file_3c3e.H",
+   "file_original": "applications/solvers/multiphase/interFoam/interMixingFoam/immiscibleIncompressibleThreePhaseMixture/immiscibleIncompressibleThreePhaseMixture.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_348c35",
+   "correct": false,
+   "raw_response": "This file belongs to the interFoam family of solvers. In OpenFOAM it lives at applications/solvers/multiphase/interFoam/interMixingFoam/immiscibleIncompressibleThreePhaseMixture/. Path depth 6 matches: dir_357b = applications, dir_2fbd = solvers, dir_6f35 = multiphase, dir_b662 = interFoam, dir_439b = interMixingFoam, dir_ccc1 = immiscibleIncompressibleThreePhaseMixture.\n\nThe candidate module names are anonymized and the code gives no way to tell them apart. My answer is therefore close to a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 219,
+    "total_tokens": 1588
+   },
+   "latency_ms": 5823.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_e67f/dir_431e/dir_ebe8/file_603d.H",
+   "file_original": "applications/solvers/incompressible/simpleFoam/SRFSimpleFoam/createFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e23ffa",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 927,
+    "completion_tokens": 3,
+    "total_tokens": 930
+   },
+   "latency_ms": 2136.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2ecf/dir_b7cf/dir_83d8/file_d311",
+   "file_original": "applications/utilities/parallelProcessing/reconstructParMesh/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1ec191",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 147,
+    "total_tokens": 451
+   },
+   "latency_ms": 4728.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_472c/dir_ac67/file_392b.C",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7d0b46",
+   "correct": false,
+   "raw_response": "This file is part of the 2D conformal Voronoi mesh generator, cv2DControls. In OpenFOAM it sits at applications/utilities/mesh/generation/foamyMesh/foamyQuadMesh/, which matches the seven directory levels in the obfuscated path. The candidate modules are anonymized and nothing in the code maps to a specific label, so the choice below is a guess rather than a deduction.\n\nA",
+   "usage": {
+    "prompt_tokens": 1477,
+    "completion_tokens": 140,
+    "total_tokens": 1617
+   },
+   "latency_ms": 4372.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_6d2f/file_5616.H",
+   "file_original": "applications/solvers/multiphase/driftFluxFoam/pEqn.H",
+   "label": "module_40727e",
+   "label_original": "applications/solvers/multiphase/driftFluxFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f4b4ea",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 3,
+    "total_tokens": 1038
+   },
+   "latency_ms": 3063.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_8231/dir_e6e4/dir_89f8/file_a5ee",
+   "file_original": "applications/test/volField/cavity/system/fvSolution",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_6f4f71",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 215,
+    "total_tokens": 863
+   },
+   "latency_ms": 4874.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_850c/file_e681.C",
+   "file_original": "applications/test/wallDistDyM/Test-wallDistDyM.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b6ffb6",
+   "correct": false,
+   "raw_response": "I can't tell which letter is right, because the candidate module names are anonymized and nothing here maps them to their real contents.\n\nWhat the code does show:\n- It has a `main()` and includes `argList.H`, `setRootCase.H`, `createTime.H` and `createDynamicFvMesh.H`. That makes it a standalone utility, not library code.\n- It updates a dynamic (moving) mesh and writes the wall-distance and wall-normal fields.\n- The comment \"Calculate and write the distance-to-wall field for a moving mesh\" plus the path depth `dir/dir/dir/file.C` matches OpenFOAM's `test/` tree. It looks like `applications/test/wallDistDyM/Test-wallDistDyM.C`, a test application rather than a solver or library.\n\nSo the file most likely belongs to the test-applications module. If any candidate corresponds to that, it is the answer. Without that mapping, the letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 312,
+    "total_tokens": 1444
+   },
+   "latency_ms": 6374.0
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_bfe4/dir_3e0d/dir_89f8/file_17bc",
+   "file_original": "applications/test/parallelOverset/heatTransfer/system/controlDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_d6fc2b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 752,
+    "completion_tokens": 3,
+    "total_tokens": 755
+   },
+   "latency_ms": 2247.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_dc93/file_5839.H",
+   "file_original": "applications/solvers/multiphase/reactingMultiphaseEulerFoam/CourantNo.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1036,
+    "completion_tokens": 3,
+    "total_tokens": 1039
+   },
+   "latency_ms": 2222.0
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_e154/dir_b70d/dir_b7cb/file_12e0",
+   "file_original": "applications/utilities/preProcessing/optimisation/writeMorpherCPs/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f564db",
+   "correct": false,
+   "raw_response": "I can't determine this reliably. The candidate modules are only anonymized names with no descriptions. The file content is just a build file, so nothing in it maps to a specific module.\n\nThe file is an OpenFOAM `Make/files` build file. It compiles `writeMorpherCPs.C` into the `writeMorpherCPs` application in `$(FOAM_APPBIN)`. This is the utility that writes morpher control points for adjoint shape optimisation. Its likely real path is `applications/utilities/postProcessing/optimisation/writeMorpherCPs/Make/files`, and the seven-level obfuscated path fits that depth. It most plausibly belongs to an applications/utilities (post-processing) module, but none of A–D can be identified as that module.\n\nThe letter below is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 488,
+    "total_tokens": 796
+   },
+   "latency_ms": 8089.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_bfe4/dir_3e0d/dir_89f8/file_f448",
+   "file_original": "applications/test/parallelOverset/heatTransfer/system/decomposeParDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f55731",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 654,
+    "completion_tokens": 144,
+    "total_tokens": 798
+   },
+   "latency_ms": 3655.5
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_30ad/dir_dbd6/dir_b7cb/file_a2cd",
+   "file_original": "applications/utilities/preProcessing/wallFunctionTable/tabulatedWallFunction/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_d6fc2b",
+   "correct": false,
+   "raw_response": "I can't determine this from the file content. The candidate modules are given only as anonymized IDs, with no descriptions or sample files, so nothing links any of A–D to this code.\n\nWhat the file shows is this:\n- It is an OpenFOAM `Make/options` file.\n- It includes the incompressible RAS turbulence model headers and `transportModels`.\n- It links only `-lfiniteVolume`.\n\nThat pattern fits a small library or utility built on incompressible RAS turbulence models. Examples would be a custom wall function or a boundary condition library, possibly inside a tutorial or a user-contributed directory. The path is six levels deep, which suggests something nested inside tutorials or applications.\n\nNone of that maps to a specific module ID, so the letter below is a guess, not a deduction.\n\nC",
+   "usage": {
+    "prompt_tokens": 413,
+    "completion_tokens": 256,
+    "total_tokens": 669
+   },
+   "latency_ms": 6416.0
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_197f/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/mappedPatch/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fc4059",
+   "correct": false,
+   "raw_response": "The include lines show this is an OpenFOAM `Make/options` build file. It adds the `meshTools` and `finiteVolume` headers and links against `-lfiniteVolume` and `-lmeshTools`. The path depth fits an application directory, something like `applications/utilities/<category>/<tool>/Make/options`, rather than a library.\n\nHowever, none of the candidate modules come with a description, and these two libraries are used by many utilities and solvers. Nothing here distinguishes one candidate from another, so A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 351,
+    "completion_tokens": 322,
+    "total_tokens": 673
+   },
+   "latency_ms": 6319.1
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_6d2f/file_d36e.H",
+   "file_original": "applications/solvers/multiphase/driftFluxFoam/alphaEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_46d442",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1312,
+    "completion_tokens": 182,
+    "total_tokens": 1494
+   },
+   "latency_ms": 4100.8
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_0268/dir_918f/dir_b69b/file_a732.H",
+   "file_original": "applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionSimpleFoam/fluid/setRegionFluidFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_0fd9a6",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 708,
+    "completion_tokens": 3,
+    "total_tokens": 711
+   },
+   "latency_ms": 2224.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_0268/dir_546b/dir_b69b/file_ee78.H",
+   "file_original": "applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionTwoPhaseEulerFoam/fluid/createFluidFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1472,
+    "completion_tokens": 3,
+    "total_tokens": 1475
+   },
+   "latency_ms": 2310.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_93de/dir_f23e/file_67cd.C",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/faceAreaWeightModel/faceAreaWeightModel/faceAreaWeightModel.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7a1878",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 156,
+    "total_tokens": 1488
+   },
+   "latency_ms": 6039.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_27d2/dir_5cb7/dir_cce3/dir_c6d0/file_d083",
+   "file_original": "applications/test/multiWorld/solidFoam/solid1/system/blockMeshDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 3,
+    "total_tokens": 1031
+   },
+   "latency_ms": 2228.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_6462/file_f1e4.cxx",
+   "file_original": "applications/test/foamToEnsight-check/foamToEnsight-check.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fec6db",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1453,
+    "completion_tokens": 147,
+    "total_tokens": 1600
+   },
+   "latency_ms": 4429.5
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_27d2/dir_d4dd/dir_557e/dir_c6d0/file_fdd2",
+   "file_original": "applications/test/multiWorld/chtMultiRegionSimpleFoam/fluid/system/decomposeParDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6df28",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 727,
+    "completion_tokens": 3,
+    "total_tokens": 730
+   },
+   "latency_ms": 2130.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_9c0a/dir_f503/file_08c2.cxx",
+   "file_original": "applications/test/matrices/RectangularMatrix/Test-RectangularMatrix.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_493e59",
+   "correct": false,
+   "raw_response": "I can't determine this from the code itself, so this is a guess. The file is the Test-RectangularMatrix application, which in OpenFOAM lives at `applications/test/matrices/RectangularMatrix/Test-RectangularMatrix.cxx`. That path is four directories deep, matching the obfuscated path (`dir_357b/dir_1a9c/dir_9c0a/dir_f503/file_08c2.cxx`). So it most likely belongs to the \"applications/test\" module. Nothing in the code or the anonymized module names shows which of the four candidates that is, so the letter below is not a derived answer.\n\nA",
+   "usage": {
+    "prompt_tokens": 1643,
+    "completion_tokens": 205,
+    "total_tokens": 1848
+   },
+   "latency_ms": 6879.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_dd66/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/parallel-file-write1/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e9e47b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 283,
+    "completion_tokens": 85,
+    "total_tokens": 368
+   },
+   "latency_ms": 3265.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_ddcf/file_f7de.H",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/compressibleInterDyMFoam/correctPhi.H",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_201d5f",
+   "correct": true,
+   "raw_response": "I can't determine this reliably, so the answer below is a guess. The code is a multiphase solver's `correctPhi.H` (likely from interFoam or a related solver). That conclusion rests on the `CorrectPhi` call with `rAUf` scaled by `rho.dimensions()`, the `divU` and `pimple` arguments, and the `//***HGW` comment. However, the candidate module names carry no descriptive information, so I have no basis for matching the file to a specific letter.\n\nA",
+   "usage": {
+    "prompt_tokens": 366,
+    "completion_tokens": 347,
+    "total_tokens": 713
+   },
+   "latency_ms": 21512.8
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2ecf/dir_e5e6/dir_83d8/file_f024",
+   "file_original": "applications/utilities/parallelProcessing/redistributePar/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 767,
+    "completion_tokens": 428,
+    "total_tokens": 1195
+   },
+   "latency_ms": 7080.1
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_83fb/dir_8a1e/file_7bec.H",
+   "file_original": "applications/solvers/compressible/rhoPimpleFoam/overRhoPimpleDyMFoam/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9d9de8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 3,
+    "total_tokens": 1454
+   },
+   "latency_ms": 2803.8
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_95d5/file_158a.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/foamyQuadMesh/indexedFaceI.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_598122",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 185,
+    "total_tokens": 1603
+   },
+   "latency_ms": 4526.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_80b4/dir_7c67/file_9185.C",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/conformalVoronoiMesh/indexedCell/indexedCellOpsTemplates.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8533b7",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 116,
+    "total_tokens": 1380
+   },
+   "latency_ms": 3727.5
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_9bee/dir_46e3/dir_3eda/file_ff9c.C",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellSizeControlSurfaces/surfaceCellSizeFunction/surfaceCellSizeFunction/surfaceCellSizeFunction.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6614e",
+   "correct": false,
+   "raw_response": "Without module descriptions, I can't map this file to a candidate on evidence. The file is `surfaceCellSizeFunction.C`. In OpenFOAM it sits at `applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellSizeControlSurfaces/surfaceCellSizeFunction/`, so it belongs to the conformalVoronoiMesh library used by foamyMesh. The candidate list gives only obfuscated names, with nothing to link any of them to conformalVoronoiMesh. The letter below is therefore a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1537,
+    "completion_tokens": 199,
+    "total_tokens": 1736
+   },
+   "latency_ms": 4921.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_0268/dir_546b/dir_b7cb/file_12e0",
+   "file_original": "applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionTwoPhaseEulerFoam/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_db6eb9",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 423,
+    "completion_tokens": 209,
+    "total_tokens": 632
+   },
+   "latency_ms": 4466.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_1efa/file_8edd.H",
+   "file_original": "applications/solvers/compressible/sonicFoam/createFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 676,
+    "completion_tokens": 168,
+    "total_tokens": 844
+   },
+   "latency_ms": 4636.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_de96/dir_e6e4/dir_4c68/file_fc8e",
+   "file_original": "applications/test/mapDistributePolyMesh/cavity/0/U",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8d7941",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 3,
+    "total_tokens": 664
+   },
+   "latency_ms": 2225.6
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2ecf/dir_e5e6/file_d8c5.H",
+   "file_original": "applications/utilities/parallelProcessing/redistributePar/redistributeLagrangian.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1513,
+    "completion_tokens": 3,
+    "total_tokens": 1516
+   },
+   "latency_ms": 2197.6
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_3aa3/dir_d8c0/file_5d39",
+   "file_original": "applications/test/fieldMapping/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 215,
+    "total_tokens": 546
+   },
+   "latency_ms": 4384.0
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_94aa/file_126b",
+   "file_original": "applications/utilities/preProcessing/setExprFields/setExprFieldsDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't tell which module this belongs to with any confidence. The file is a setExprFieldsDict tutorial case dictionary, with path depth matching tutorials/<category>/<solver>/<case>/system/... or similar. There are no includes, and the module names are anonymized, so nothing in the code links it to a specific candidate. Choosing A is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 743,
+    "completion_tokens": 119,
+    "total_tokens": 862
+   },
+   "latency_ms": 3649.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/file_4ea4.H",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/compressibleAlphaEqnSubCycle.H",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_201d5f",
+   "correct": true,
+   "raw_response": "I can't tell which letter is correct, because the module names are anonymized and nothing links the code to any one of them. I have to guess.\n\nThe code itself is clear. It is `alphaEqnSubCycle.H` from `compressibleInterFoam`, a compressible two-phase solver that uses `twoPhaseMixtureThermo` (the `mixture.thermo1().rho()` calls). The path `dir_357b/dir_2fbd/dir_6f35/dir_a099` fits `applications/solvers/multiphase/compressibleInterFoam`. The likely module is therefore \"multiphase solvers\" or \"compressibleInterFoam\".\n\nA",
+   "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 215,
+    "total_tokens": 1208
+   },
+   "latency_ms": 4811.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_96ba/file_8edd.H",
+   "file_original": "applications/solvers/heatTransfer/thermoFoam/createFields.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e9e47b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 849,
+    "completion_tokens": 290,
+    "total_tokens": 1139
+   },
+   "latency_ms": 5891.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_2771/dir_e515/file_7bec.H",
+   "file_original": "applications/solvers/multiphase/reactingTwoPhaseEulerFoam/pU/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_b8f460",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 3,
+    "total_tokens": 1453
+   },
+   "latency_ms": 3464.6
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_6d2f/file_5616.H",
+   "file_original": "applications/solvers/multiphase/driftFluxFoam/pEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1ec191",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 3,
+    "total_tokens": 1038
+   },
+   "latency_ms": 2218.1
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_b81f/file_1938.cxx",
+   "file_original": "applications/test/stringList/Test-stringList.cxx",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6614e",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1402,
+    "completion_tokens": 3,
+    "total_tokens": 1405
+   },
+   "latency_ms": 2205.3
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_cb22/file_d823.C",
+   "file_original": "applications/test/ODE/Test-ODE.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1426,
+    "completion_tokens": 124,
+    "total_tokens": 1550
+   },
+   "latency_ms": 3746.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_5e50/dir_2c87/dir_f37e/dir_1b9f/file_86b2.C",
+   "file_original": "applications/solvers/lagrangian/DPMFoam/DPMDyMFoam/MPPICDyMFoam/MPPICDyMFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f4b4ea",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 871,
+    "completion_tokens": 3,
+    "total_tokens": 874
+   },
+   "latency_ms": 2088.9
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_27d2/dir_d4dd/dir_557e/dir_b07c/file_616b",
+   "file_original": "applications/test/multiWorld/chtMultiRegionSimpleFoam/fluid/constant/g",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_e9e47b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 567,
+    "completion_tokens": 3,
+    "total_tokens": 570
+   },
+   "latency_ms": 2417.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_7820/dir_b7cb/file_a2cd",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/twoPhaseMixtureThermo/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_4d2b64",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 526,
+    "completion_tokens": 192,
+    "total_tokens": 718
+   },
+   "latency_ms": 4759.5
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_a353/dir_5bba/dir_89f8/file_17bc",
+   "file_original": "applications/test/parallel-comm1/twoBlocks_cyclicAMI/system/controlDict",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f971c8",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 3,
+    "total_tokens": 1045
+   },
+   "latency_ms": 2684.8
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_8fe3/file_5afb.H",
+   "file_original": "applications/solvers/multiphase/twoLiquidMixingFoam/alphaControls.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9d9de8",
+   "correct": false,
+   "raw_response": "I can't identify the module from evidence. The candidate names are anonymized and no descriptions were given. The code snippet (reading `nAlphaSubCycles` from `mesh.solverDict(alpha1.name())`) is a typical `alphaControls.H` file. That file is found in OpenFOAM's multiphase solvers, such as interFoam or the VoF-based solvers under `applications/solvers/multiphase`. Without knowing which candidate corresponds to that solver group, this is a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 328,
+    "completion_tokens": 167,
+    "total_tokens": 495
+   },
+   "latency_ms": 4561.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_7820/dir_b7cb/file_a2cd",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/twoPhaseMixtureThermo/Make/options",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_201d5f",
+   "correct": true,
+   "raw_response": "I can't determine this from the code. The four module names are obfuscated and no descriptions of their contents were given, so this answer is essentially a guess.\n\nThe file itself is identifiable. It is a `Make/options` build file. It includes and links compressible transport models, fluid thermophysical models, `twoPhaseMixture`, `interfaceProperties` and `finiteVolume`. That combination matches the `twoPhaseMixtureThermo` library used by the `compressibleInterFoam` multiphase solver. The path depth also fits: `applications/solvers/multiphase/compressibleInterFoam/twoPhaseMixtureThermo/Make/options`.\n\nA",
+   "usage": {
+    "prompt_tokens": 528,
+    "completion_tokens": 400,
+    "total_tokens": 928
+   },
+   "latency_ms": 6288.9
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_9305/file_fabc",
+   "file_original": "applications/test/fft/Allwmake",
+   "label": "module_db6eb9",
+   "label_original": "applications/test/fft",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_46d442",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 430,
+    "completion_tokens": 99,
+    "total_tokens": 529
+   },
+   "latency_ms": 5225.7
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_56f6/file_1756.H",
+   "file_original": "applications/solvers/financial/financialSolversDoc.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bbe03b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 731,
+    "completion_tokens": 102,
+    "total_tokens": 833
+   },
+   "latency_ms": 4963.5
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_460d/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/NamedEnum/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_283308",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 279,
+    "completion_tokens": 37,
+    "total_tokens": 316
+   },
+   "latency_ms": 3158.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_a447/dir_30ad/dir_dbd6/dir_5a4a/file_812e.H",
+   "file_original": "applications/utilities/preProcessing/wallFunctionTable/tabulatedWallFunction/SpaldingsLaw/SpaldingsLaw.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_5d7e73",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 194,
+    "total_tokens": 1534
+   },
+   "latency_ms": 5471.4
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/file_afee.H",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/alphaSuSp.H",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7d0b46",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 189,
+    "total_tokens": 870
+   },
+   "latency_ms": 4388.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_5e50/dir_2c87/dir_83d8/file_d311",
+   "file_original": "applications/solvers/lagrangian/DPMFoam/Make/files",
+   "label": "module_a729c3",
+   "label_original": "applications/solvers/lagrangian/DPMFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_a6df28",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 295,
+    "completion_tokens": 88,
+    "total_tokens": 383
+   },
+   "latency_ms": 4118.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_1b2e/dir_ef02/dir_89f8/file_a5ee",
+   "file_original": "applications/test/syncTools/missing_cell/system/fvSolution",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_493e59",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 728,
+    "completion_tokens": 3,
+    "total_tokens": 731
+   },
+   "latency_ms": 2564.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_0268/dir_546b/dir_b69b/file_b98d.H",
+   "file_original": "applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionTwoPhaseEulerFoam/fluid/solveFluid.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "C",
+   "predicted_module": "module_8cb1eb",
+   "correct": false,
+   "raw_response": "I'm guessing here. The candidate modules come with no descriptions, so the code can't be tied to a specific letter.\n\nThe code itself is recognisable. It uses `frozenFlow`, `fluid.solve()` and `fluid.correctKinematics()`, and it switches between the `pU` and `pUf` equation sets depending on `faceMomentum`. That pattern is the `solveFluid.H` file of `chtMultiRegionTwoPhaseEulerFoam`, a conjugate heat-transfer, multi-region, two-phase Euler solver. It would sit at `applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionTwoPhaseEulerFoam/fluid/solveFluid.H`. That path is six directories deep, which matches the obfuscated path.\n\nC",
+   "usage": {
+    "prompt_tokens": 546,
+    "completion_tokens": 545,
+    "total_tokens": 1091
+   },
+   "latency_ms": 8855.2
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_83fb/file_ec00.H",
+   "file_original": "applications/solvers/compressible/rhoPimpleFoam/createFieldRefs.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 279,
+    "completion_tokens": 66,
+    "total_tokens": 345
+   },
+   "latency_ms": 3195.3
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_80b4/dir_7c67/file_4491.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/conformalVoronoiMesh/indexedCell/indexedCellChecks.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "I can't determine this from the code alone. The file is clearly `indexedCellChecks.H` from foamyHexMesh, located at roughly `applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/conformalVoronoiMesh/indexedCell/`. But the candidate module names are anonymized and come with no descriptions, so nothing links any of them to foamyHexMesh or conformalVoronoiMesh. My answer is therefore a guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 165,
+    "total_tokens": 1411
+   },
+   "latency_ms": 4220.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_70ee/dir_d8c0/file_5d39",
+   "file_original": "applications/test/surfaceIntersection/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 62,
+    "total_tokens": 366
+   },
+   "latency_ms": 4236.8
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_2970/dir_669b/file_00f6.C",
+   "file_original": "applications/utilities/surface/surfaceSplitByTopology/surfaceSplitByTopology.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0fd9a6",
+   "correct": false,
+   "raw_response": "I can't tell which letter is correct, because the module names are anonymized and nothing in the file maps to any of them.\n\nWhat the code does show:\n- It is the `surfaceSplitByTopology` application, in the `grpSurfaceUtilities` group.\n- In OpenFOAM's source tree that would sit at `applications/utilities/surface/surfaceSplitByTopology/surfaceSplitByTopology.C`.\n- The obfuscated path `dir_357b/dir_8271/dir_2970/dir_669b/file_00f6.C` has the same depth, which fits applications → utilities → surface → surfaceSplitByTopology.\n\nSo it belongs to whichever module covers the surface utilities applications. Without descriptions or sample contents for modules A–D, I can't say which letter that is. If I must pick, A is a pure guess.\n\nA",
+   "usage": {
+    "prompt_tokens": 1411,
+    "completion_tokens": 277,
+    "total_tokens": 1688
+   },
+   "latency_ms": 5776.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d126/dir_a956/file_d518.H",
+   "file_original": "applications/solvers/combustion/fireFoam/createPyrolysisModel.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_08dd03",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 168,
+    "total_tokens": 481
+   },
+   "latency_ms": 4275.3
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_5a30/dir_36c3/dir_e753/file_1686.H",
+   "file_original": "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/searchableSurfaceFeatures/searchableSurfaceFeatures.H",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_fcc6ad",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 208,
+    "total_tokens": 1532
+   },
+   "latency_ms": 4515.1
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_db14/dir_0268/dir_918f/dir_b69b/file_a345.H",
+   "file_original": "applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionSimpleFoam/fluid/EEqn.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 3,
+    "total_tokens": 651
+   },
+   "latency_ms": 2400.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_0b03/dir_70bd/dir_f6a2/file_59a7.C",
+   "file_original": "applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+   "label": "module_2efb5c",
+   "label_original": "applications/utilities/mesh/generation",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1dfd8b",
+   "correct": false,
+   "raw_response": "I can't tell which letter this is from the code alone. The module names are fully anonymized, and the question gives no description of what each candidate module contains.\n\nWhat the code does show:\n- The file is the `blockMesh` application, i.e. `applications/utilities/mesh/generation/blockMesh/blockMesh.C`.\n- The path `dir_357b/dir_8271/dir_0b03/dir_70bd/dir_f6a2/file_59a7.C` has five levels, which fits `applications/utilities/mesh/generation/blockMesh`.\n- So it most likely belongs to a module covering mesh generation utilities, or more broadly to the applications/utilities module.\n\nNothing links that to a particular letter among `module_1dfd8b`, `module_96e1bd`, `module_1a4293` and `module_2efb5c`. The answer below is a guess with about a 25% chance of being right.\n\nA",
+   "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 294,
+    "total_tokens": 1714
+   },
+   "latency_ms": 5936.9
+  },
+  {
+   "file": "dir_357b/dir_8271/dir_07fb/dir_a149/dir_57fa/dir_b7cb/file_a2cd",
+   "file_original": "applications/utilities/postProcessing/miscellaneous/pdfPlot/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_8cb1eb",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 444,
+    "completion_tokens": 239,
+    "total_tokens": 683
+   },
+   "latency_ms": 5390.3
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_ed55/dir_e9a5/dir_2fc6/file_9f00.C",
+   "file_original": "applications/solvers/compressible/rhoCentralFoam/BCs/rho/fixedRhoFvPatchScalarField.C",
+   "label": "module_b6ffb6",
+   "label_original": "applications/solvers/compressible/rhoCentralFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_f55731",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1650,
+    "completion_tokens": 240,
+    "total_tokens": 1890
+   },
+   "latency_ms": 4709.5
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_2e33/dir_83d8/file_d311",
+   "file_original": "applications/solvers/multiphase/multiphaseEulerFoam/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1ec191",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 104,
+    "total_tokens": 410
+   },
+   "latency_ms": 3295.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_70f8/file_84e2.H",
+   "file_original": "applications/solvers/multiphase/cavitatingFoam/readThermodynamicProperties.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "D",
+   "predicted_module": "module_c95638",
+   "correct": false,
+   "raw_response": "D",
+   "usage": {
+    "prompt_tokens": 615,
+    "completion_tokens": 3,
+    "total_tokens": 618
+   },
+   "latency_ms": 2440.0
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_de96/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/mapDistributePolyMesh/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_bfb099",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 394,
+    "completion_tokens": 193,
+    "total_tokens": 587
+   },
+   "latency_ms": 4642.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_a412/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/pointField/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_69bd00",
+   "correct": true,
+   "raw_response": "**A** — this is a low-confidence guess.\n\nThe file is an OpenFOAM `Make/options` build file. It links only against the core `finiteVolume` and `meshTools` libraries, which fits a small application or test program. The path depth matches something like `applications/<category>/<name>/Make/options`.\n\nHowever, no information about the candidate modules was given, and nothing in the code singles one out.",
+   "usage": {
+    "prompt_tokens": 351,
+    "completion_tokens": 359,
+    "total_tokens": 710
+   },
+   "latency_ms": 7116.4
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_2e40/file_c17f.C",
+   "file_original": "applications/test/PatchTools/Test-PatchTools.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "B",
+   "predicted_module": "module_9d9de8",
+   "correct": false,
+   "raw_response": "I can't tell which letter is the test applications module, because the candidate names are obfuscated and no mapping was given. The file itself is clear: it is `Test-PatchTools`, a test application, so it belongs to OpenFOAM's `applications/test` module. My choice of B is a guess with no evidence behind it.\n\nB",
+   "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 104,
+    "total_tokens": 1703
+   },
+   "latency_ms": 3711.9
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_b662/dir_439b/file_1a72.C",
+   "file_original": "applications/solvers/multiphase/interFoam/interMixingFoam/interMixingFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_201d5f",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1493,
+    "completion_tokens": 3,
+    "total_tokens": 1496
+   },
+   "latency_ms": 2162.5
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_a099/dir_ddcf/dir_b7cb/file_a2cd",
+   "file_original": "applications/solvers/multiphase/compressibleInterFoam/compressibleInterDyMFoam/Make/options",
+   "label": "module_201d5f",
+   "label_original": "applications/solvers/multiphase/compressibleInterFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_be3020",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 955,
+    "completion_tokens": 3,
+    "total_tokens": 958
+   },
+   "latency_ms": 2228.9
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_f1d3/dir_d8c0/file_5d39",
+   "file_original": "applications/test/Map/Make/files",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_9a0d27",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 125,
+    "total_tokens": 421
+   },
+   "latency_ms": 4322.8
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_2b4b/file_d36e.H",
+   "file_original": "applications/solvers/multiphase/interPhaseChangeFoam/alphaEqn.H",
+   "label": "module_8cb1eb",
+   "label_original": "applications/solvers/multiphase/interPhaseChangeFoam",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_7a1878",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1391,
+    "completion_tokens": 3,
+    "total_tokens": 1394
+   },
+   "latency_ms": 2302.4
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_d2c9/dir_405e/dir_a095/dir_b7cb/file_a2cd",
+   "file_original": "applications/solvers/compressible/rhoSimpleFoam/overRhoSimpleFoam/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_0fd9a6",
+   "correct": false,
+   "raw_response": "I can't determine this with confidence; the candidate names are obfuscated and come with no descriptions, so the letter below is a guess.\n\nThe file content itself is clear. It is a `Make/options` file for a compressible overset solver, such as `overRhoPimpleDyMFoam` or `overBuoyantPimpleDyMFoam`. Three things point to this:\n- `-I..` means it sits one level below a parent solver, as a solver variant would.\n- It links `-loverset` and `-ldynamicFvMesh`.\n- It links compressible thermo and turbulence libraries.\n\nThat places it in the applications/solvers area: `applications/solvers/compressible/rhoPimpleFoam/overRhoPimpleDyMFoam/Make/options`. Its path has seven segments: `dir_357b/dir_2fbd/dir_d2c9/dir_405e/dir_a095/dir_b7cb/file_a2cd`. That fits applications/solvers/compressible/rhoPimpleFoam/overRhoPimpleDyMFoam/Make/options.\n\nI have no information linking module_0fd9a6, module_b52dd6, module_bfb099 or module_69bd00 to that area. Nothing in the evidence favours one letter over another, so I am picking A arbitrarily.\n\nA",
+   "usage": {
+    "prompt_tokens": 781,
+    "completion_tokens": 428,
+    "total_tokens": 1209
+   },
+   "latency_ms": 7682.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6f35/dir_70f8/file_2d27.C",
+   "file_original": "applications/solvers/multiphase/cavitatingFoam/cavitatingFoam.C",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_1dfd8b",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 1462,
+    "completion_tokens": 68,
+    "total_tokens": 1530
+   },
+   "latency_ms": 4320.2
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_02a1/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/HashTable4/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_08dd03",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 124,
+    "total_tokens": 440
+   },
+   "latency_ms": 3695.0
+  },
+  {
+   "file": "dir_357b/dir_2fbd/dir_6908/file_fb7d.H",
+   "file_original": "applications/solvers/basic/basicSolversDoc.H",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_870a71",
+   "correct": false,
+   "raw_response": "A",
+   "usage": {
+    "prompt_tokens": 729,
+    "completion_tokens": 120,
+    "total_tokens": 849
+   },
+   "latency_ms": 4970.8
+  },
+  {
+   "file": "dir_357b/dir_1a9c/dir_6d63/dir_d8c0/file_0f8b",
+   "file_original": "applications/test/ISLList/Make/options",
+   "label": "module_69bd00",
+   "label_original": "applications",
+   "has_snippet": true,
+   "predicted_letter": "A",
+   "predicted_module": "module_ae1fde",
+   "correct": false,
+   "raw_response": "**A**\n\nThe file is only an empty build-options stub: two commented-out lines for `EXE_INC` and `EXE_LIBS`. It has no includes, library links or code, so it gives no real evidence of which module it belongs to. Stubs like this appear in many OpenFOAM directories, such as test applications. This answer is an essentially arbitrary guess, not a reasoned attribution.",
+   "usage": {
+    "prompt_tokens": 280,
+    "completion_tokens": 285,
+    "total_tokens": 565
+   },
+   "latency_ms": 6387.9
+  }
+ ],
+ "timestamp": "2026-10-02T20:23:39.574604",
+ "model": "claude-opus-5.5",
+ "project": "openfoam",
+ "task": "ci_obfuscated",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42
+}

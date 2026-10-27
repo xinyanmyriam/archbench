@@ -1,0 +1,1055 @@
+{
+ "precision_at_5": 0.19090909090909092,
+ "recall_at_5": 0.2694633018496655,
+ "total": 44,
+ "results": [
+  {
+   "source_module": "torch/distributed",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_functorch",
+    "torch/_higher_order_ops",
+    "torch/_inductor",
+    "torch/_library",
+    "torch/_prims",
+    "torch/_prims_common",
+    "torch/cuda",
+    "torch/export",
+    "torch/jit",
+    "torch/monitor",
+    "torch/multiprocessing",
+    "torch/nn",
+    "torch/optim",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/core",
+    "c10/util",
+    "torch/cuda",
+    "torch/utils",
+    "c10/cuda"
+   ],
+   "precision": 0.4,
+   "recall": 0.13333333333333333,
+   "raw_response": "c10/core  \nc10/util  \ntorch/cuda  \ntorch/utils  \nc10/cuda",
+   "true_targets_v1": [
+    "torch/_export",
+    "torch/_prims_common",
+    "torch/profiler",
+    "torch/fx"
+   ]
+  },
+  {
+   "source_module": "torch/nn",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/backends",
+    "torch/cuda",
+    "torch/fx",
+    "torch/jit",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/autograd",
+    "torch/optim",
+    "torch/distributed",
+    "torch/jit",
+    "torch/utils"
+   ],
+   "precision": 0.4,
+   "recall": 0.2857142857142857,
+   "raw_response": "torch/autograd  \ntorch/optim  \ntorch/distributed  \ntorch/jit  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/_library",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "c10/core",
+   "true_targets": [
+    "c10/macros",
+    "c10/util"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/cuda",
+    "c10/xpu",
+    "c10/metal",
+    "torch/cuda"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "c10/util  \nc10/cuda  \nc10/xpu  \nc10/metal  \ntorch/cuda",
+   "true_targets_v1": [
+    "c10/metal"
+   ]
+  },
+  {
+   "source_module": "torch/lib",
+   "true_targets": [
+    "c10/util"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/csrc",
+    "c10/util",
+    "torch/utils"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "aten/src  \nc10/core  \ntorch/csrc  \nc10/util  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/headeronly"
+   ]
+  },
+  {
+   "source_module": "torchgen/static_runtime",
+   "true_targets": [
+    "torchgen/api"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/_inductor",
+    "torch/_dynamo",
+    "torch/csrc"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \nc10/core  \ntorch/_inductor  \ntorch/_dynamo  \ntorch/csrc",
+   "true_targets_v1": [
+    "torchgen/api",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "tools/autograd",
+   "true_targets": [
+    "aten/src",
+    "c10/util",
+    "torchgen/selective_build"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/nn",
+    "torch/cuda",
+    "torch/utils"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "aten/src  \nc10/core  \ntorch/nn  \ntorch/cuda  \ntorch/utils",
+   "true_targets_v1": [
+    "tools/setup_helpers",
+    "torch/_dynamo",
+    "torchgen/selective_build",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "aten/src",
+   "true_targets": [
+    "c10/core",
+    "c10/cuda",
+    "c10/metal",
+    "c10/xpu",
+    "caffe2/utils",
+    "torch/csrc"
+   ],
+   "predicted": [
+    "c10/core",
+    "c10/cuda",
+    "c10/util",
+    "c10/xpu",
+    "c10/metal"
+   ],
+   "precision": 0.8,
+   "recall": 0.6666666666666666,
+   "raw_response": "c10/core  \nc10/cuda  \nc10/util  \nc10/xpu  \nc10/metal",
+   "true_targets_v1": [
+    "c10/core",
+    "torch/csrc",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/_higher_order_ops",
+   "true_targets": [
+    "torch/_functorch",
+    "torch/_logging",
+    "torch/_prims_common",
+    "torch/_subclasses",
+    "torch/autograd",
+    "torch/cuda",
+    "torch/fx",
+    "torch/multiprocessing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "aten/src",
+    "torch/autograd",
+    "c10/core",
+    "torch/csrc",
+    "torch/utils"
+   ],
+   "precision": 0.4,
+   "recall": 0.2222222222222222,
+   "raw_response": "aten/src  \ntorch/autograd  \nc10/core  \ntorch/csrc  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/autograd",
+    "torch/_functorch",
+    "torch/_inductor",
+    "tools/code_coverage"
+   ]
+  },
+  {
+   "source_module": "torch/testing",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/_lazy",
+    "torch/_library",
+    "torch/_prims_common",
+    "torch/_refs",
+    "torch/autograd",
+    "torch/backends",
+    "torch/distributed",
+    "torch/futures",
+    "torch/fx",
+    "torch/nested",
+    "torch/optim",
+    "torch/utils",
+    "torch/xpu"
+   ],
+   "predicted": [
+    "torch/utils",
+    "c10/util",
+    "torch/autograd",
+    "torch/nn",
+    "tools/testing"
+   ],
+   "precision": 0.4,
+   "recall": 0.125,
+   "raw_response": "torch/utils  \nc10/util  \ntorch/autograd  \ntorch/nn  \ntools/testing",
+   "true_targets_v1": [
+    "torch/_export",
+    "torch/_prims_common",
+    "torch/_logging",
+    "torch/_higher_order_ops"
+   ]
+  },
+  {
+   "source_module": "torch/_functorch",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/_library",
+    "torch/_logging",
+    "torch/_prims_common",
+    "torch/export",
+    "torch/func",
+    "torch/fx",
+    "torch/multiprocessing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/autograd",
+    "c10/core",
+    "torch/_higher_order_ops",
+    "aten/src",
+    "torch/csrc"
+   ],
+   "precision": 0.2,
+   "recall": 0.09090909090909091,
+   "raw_response": "torch/autograd  \nc10/core  \ntorch/_higher_order_ops  \naten/src  \ntorch/csrc",
+   "true_targets_v1": [
+    "torch/utils",
+    "torch/distributed",
+    "torch/masked"
+   ]
+  },
+  {
+   "source_module": "torch/_library",
+   "true_targets": [
+    "torch/_export",
+    "torch/_subclasses",
+    "torch/distributed",
+    "torch/export",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/core",
+    "c10/util",
+    "aten/src",
+    "torch/csrc",
+    "torch/utils"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "c10/core  \nc10/util  \naten/src  \ntorch/csrc  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/_subclasses",
+    "torch/masked"
+   ]
+  },
+  {
+   "source_module": "torch/_subclasses",
+   "true_targets": [
+    "torch/_custom_op",
+    "torch/_dynamo",
+    "torch/_export",
+    "torch/_functorch",
+    "torch/_higher_order_ops",
+    "torch/_inductor",
+    "torch/_prims",
+    "torch/multiprocessing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/nn",
+    "c10/core",
+    "torch/csrc",
+    "torch/_inductor",
+    "torch/utils"
+   ],
+   "precision": 0.4,
+   "recall": 0.2222222222222222,
+   "raw_response": "torch/nn  \nc10/core  \ntorch/csrc  \ntorch/_inductor  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/_refs",
+    "torch/_library",
+    "torch/_inductor",
+    "torch/fx"
+   ]
+  },
+  {
+   "source_module": "torch/_dynamo",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dispatch",
+    "torch/_export",
+    "torch/_library",
+    "torch/_numpy",
+    "torch/_prims",
+    "torch/_prims_common",
+    "torch/_refs",
+    "torch/_subclasses",
+    "torch/compiler",
+    "torch/monitor",
+    "torch/multiprocessing",
+    "torch/optim",
+    "torch/utils"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/jit",
+    "torch/csrc",
+    "torch/_inductor"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \nc10/core  \ntorch/jit  \ntorch/csrc  \ntorch/_inductor",
+   "true_targets_v1": [
+    "torch/_refs",
+    "torch/_functorch",
+    "torch/_inductor",
+    "torch/_higher_order_ops"
+   ]
+  },
+  {
+   "source_module": "torch/cuda",
+   "true_targets": [
+    "torch/amp",
+    "torch/profiler",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/cuda",
+    "aten/src",
+    "c10/core",
+    "torch/autograd",
+    "torch/utils"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "c10/cuda  \naten/src  \nc10/core  \ntorch/autograd  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/_inductor"
+   ]
+  },
+  {
+   "source_module": "tools/dynamo",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/_dynamo",
+    "aten/src",
+    "c10/core",
+    "torch/fx",
+    "torch/jit"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "torch/_dynamo  \naten/src  \nc10/core  \ntorch/fx  \ntorch/jit",
+   "true_targets_v1": [
+    "torch/_dynamo",
+    "torch/_numpy"
+   ]
+  },
+  {
+   "source_module": "torchgen/dest",
+   "true_targets": [
+    "torchgen/api"
+   ],
+   "predicted": [
+    "aten/src",
+    "torch/csrc",
+    "torch/_inductor",
+    "c10/core",
+    "c10/util"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \ntorch/csrc  \ntorch/_inductor  \nc10/core  \nc10/util",
+   "true_targets_v1": [
+    "torchgen/selective_build"
+   ]
+  },
+  {
+   "source_module": "torch/autograd",
+   "true_targets": [
+    "torch/_decomp",
+    "torch/_functorch",
+    "torch/fx",
+    "torch/profiler",
+    "torch/testing"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/csrc",
+    "c10/util",
+    "torch/utils"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \nc10/core  \ntorch/csrc  \nc10/util  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torch/_inductor",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dispatch",
+    "torch/_library",
+    "torch/_refs",
+    "torch/ao",
+    "torch/compiler",
+    "torch/csrc",
+    "torch/func",
+    "torch/fx",
+    "torch/monitor",
+    "torch/nn",
+    "torch/optim",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/csrc",
+    "torch/_dynamo",
+    "torch/cuda"
+   ],
+   "precision": 0.2,
+   "recall": 0.07142857142857142,
+   "raw_response": "aten/src  \nc10/core  \ntorch/csrc  \ntorch/_dynamo  \ntorch/cuda",
+   "true_targets_v1": [
+    "torch/testing",
+    "torch/_functorch",
+    "torch/_refs",
+    "torch/ao",
+    "torch/_library",
+    "torch/_higher_order_ops",
+    "torch/onnx",
+    "torch/multiprocessing",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/_dispatch",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/core",
+    "c10/util",
+    "aten/src",
+    "torch/csrc",
+    "torch/_dynamo"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "c10/core  \nc10/util  \naten/src  \ntorch/csrc  \ntorch/_dynamo",
+   "true_targets_v1": [
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torch/_numpy",
+   "true_targets": [
+    "torch/_dynamo"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "c10/util",
+    "torch/cuda",
+    "torch/nn"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \nc10/core  \nc10/util  \ntorch/cuda  \ntorch/nn",
+   "true_targets_v1": [
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torch/optim",
+   "true_targets": [
+    "torch/nn",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/nn",
+    "torch/autograd",
+    "c10/core",
+    "torch/cuda",
+    "torch/utils"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "torch/nn  \ntorch/autograd  \nc10/core  \ntorch/cuda  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/fx",
+   "true_targets": [
+    "torch/_dispatch",
+    "torch/_dynamo",
+    "torch/_library",
+    "torch/_prims_common",
+    "torch/_subclasses",
+    "torch/distributed",
+    "torch/multiprocessing",
+    "torch/package",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/nn",
+    "torch/jit",
+    "torch/_dynamo",
+    "c10/core",
+    "torch/utils"
+   ],
+   "precision": 0.4,
+   "recall": 0.2222222222222222,
+   "raw_response": "torch/nn  \ntorch/jit  \ntorch/_dynamo  \nc10/core  \ntorch/utils",
+   "true_targets_v1": [
+    "torch/autograd",
+    "torch/_subclasses"
+   ]
+  },
+  {
+   "source_module": "torch/onnx",
+   "true_targets": [
+    "torch/_refs",
+    "torch/export",
+    "torch/fx",
+    "torch/nn",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/nn",
+    "torch/jit",
+    "c10/core",
+    "torch/utils",
+    "torch/_export"
+   ],
+   "precision": 0.4,
+   "recall": 0.4,
+   "raw_response": "torch/nn  \ntorch/jit  \nc10/core  \ntorch/utils  \ntorch/_export",
+   "true_targets_v1": [
+    "torch/utils",
+    "torch/export"
+   ]
+  },
+  {
+   "source_module": "torch/_export",
+   "true_targets": [
+    "functorch/experimental",
+    "torch/_decomp",
+    "torch/_higher_order_ops",
+    "torch/_library",
+    "torch/ao",
+    "torch/distributed",
+    "torch/export"
+   ],
+   "predicted": [
+    "torch/onnx",
+    "torch/jit",
+    "torch/fx",
+    "aten/src",
+    "torch/_dynamo"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "torch/onnx  \ntorch/jit  \ntorch/fx  \naten/src  \ntorch/_dynamo",
+   "true_targets_v1": [
+    "torch/_subclasses",
+    "torch/_dispatch"
+   ]
+  },
+  {
+   "source_module": "torch/utils",
+   "true_targets": [
+    "c10/util",
+    "torch/_dynamo",
+    "torch/_inductor",
+    "torch/_library",
+    "torch/_prims",
+    "torch/_subclasses",
+    "torch/_vendor",
+    "torch/autograd",
+    "torch/backends",
+    "torch/distributed",
+    "torch/fft",
+    "torch/jit"
+   ],
+   "predicted": [
+    "c10/util",
+    "torch/cuda",
+    "c10/core",
+    "torch/nn",
+    "torch/testing"
+   ],
+   "precision": 0.2,
+   "recall": 0.08333333333333333,
+   "raw_response": "c10/util  \ntorch/cuda  \nc10/core  \ntorch/nn  \ntorch/testing",
+   "true_targets_v1": [
+    "torch/_subclasses",
+    "torch/_library",
+    "c10/util"
+   ]
+  },
+  {
+   "source_module": "torch/masked",
+   "true_targets": [
+    "torch/_prims_common"
+   ],
+   "predicted": [
+    "aten/src",
+    "torch/nn",
+    "c10/core",
+    "torch/utils",
+    "torch/csrc"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \ntorch/nn  \nc10/core  \ntorch/utils  \ntorch/csrc",
+   "true_targets_v1": [
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/export",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/_inductor",
+    "torch/_logging",
+    "torch/_subclasses",
+    "torch/fx"
+   ],
+   "predicted": [
+    "torch/onnx",
+    "torch/jit",
+    "torch/utils",
+    "torch/nn",
+    "c10/core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "torch/onnx  \ntorch/jit  \ntorch/utils  \ntorch/nn  \nc10/core",
+   "true_targets_v1": [
+    "torch/_subclasses",
+    "torch/_dynamo",
+    "torch/_logging"
+   ]
+  },
+  {
+   "source_module": "torch/ao",
+   "true_targets": [
+    "torch/_subclasses",
+    "torch/jit",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/quantization",
+    "torch/nn",
+    "torch/optim",
+    "torch/autograd",
+    "torch/distributed"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "torch/quantization  \ntorch/nn  \ntorch/optim  \ntorch/autograd  \ntorch/distributed",
+   "true_targets_v1": [
+    "torch/jit",
+    "torch/masked"
+   ]
+  },
+  {
+   "source_module": "torch/_refs",
+   "true_targets": [
+    "torch/_decomp",
+    "torch/_prims_common",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/util",
+    "torch/utils",
+    "torch/csrc",
+    "aten/src",
+    "torch/testing"
+   ],
+   "precision": 0.4,
+   "recall": 0.5,
+   "raw_response": "c10/util  \ntorch/utils  \ntorch/csrc  \naten/src  \ntorch/testing",
+   "true_targets_v1": [
+    "torch/_prims"
+   ]
+  },
+  {
+   "source_module": "c10/cuda",
+   "true_targets": [
+    "c10/macros",
+    "c10/util"
+   ],
+   "predicted": [
+    "c10/core",
+    "c10/util",
+    "aten/src",
+    "torch/cuda",
+    "c10/xpu"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "c10/core  \nc10/util  \naten/src  \ntorch/cuda  \nc10/xpu",
+   "true_targets_v1": [
+    "c10/util"
+   ]
+  },
+  {
+   "source_module": "torch/distributions",
+   "true_targets": [
+    "torch/autograd",
+    "torch/nn"
+   ],
+   "predicted": [
+    "torch/nn",
+    "c10/core",
+    "torch/autograd",
+    "torch/utils",
+    "torch/cuda"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "torch/nn  \nc10/core  \ntorch/autograd  \ntorch/utils  \ntorch/cuda",
+   "true_targets_v1": [
+    "torch/utils",
+    "torch/jit"
+   ]
+  },
+  {
+   "source_module": "c10/mobile",
+   "true_targets": [
+    "c10/macros",
+    "c10/util"
+   ],
+   "predicted": [
+    "c10/core",
+    "c10/util",
+    "c10/cuda",
+    "c10/metal",
+    "torch/cuda"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "c10/core  \nc10/util  \nc10/cuda  \nc10/metal  \ntorch/cuda",
+   "true_targets_v1": [
+    "c10/core"
+   ]
+  },
+  {
+   "source_module": "torch/_logging",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/distributed"
+   ],
+   "predicted": [
+    "torch/utils",
+    "c10/util",
+    "torch/nn",
+    "c10/core",
+    "torch/cuda"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "torch/utils  \nc10/util  \ntorch/nn  \nc10/core  \ntorch/cuda",
+   "true_targets_v1": [
+    "torch/utils"
+   ]
+  },
+  {
+   "source_module": "torch/monitor",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/cuda",
+    "torch/distributed",
+    "c10/core",
+    "torch/utils",
+    "torch/autograd"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "torch/cuda  \ntorch/distributed  \nc10/core  \ntorch/utils  \ntorch/autograd",
+   "true_targets_v1": [
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/jit",
+   "true_targets": [
+    "torch/autograd",
+    "torch/package",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/csrc",
+    "torch/_dynamo",
+    "torch/_export"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \nc10/core  \ntorch/csrc  \ntorch/_dynamo  \ntorch/_export",
+   "true_targets_v1": [
+    "torch/autograd"
+   ]
+  },
+  {
+   "source_module": "torch/nativert",
+   "true_targets": [
+    "aten/src",
+    "c10/util",
+    "torch/csrc",
+    "torch/export",
+    "torch/utils"
+   ],
+   "predicted": [
+    "aten/src",
+    "c10/core",
+    "torch/csrc",
+    "torch/_native",
+    "c10/util"
+   ],
+   "precision": 0.6,
+   "recall": 0.6,
+   "raw_response": "aten/src  \nc10/core  \ntorch/csrc  \ntorch/_native  \nc10/util",
+   "true_targets_v1": [
+    "torch/headeronly"
+   ]
+  },
+  {
+   "source_module": "torch/_decomp",
+   "true_targets": [
+    "torch/_prims",
+    "torch/_refs",
+    "torch/fx",
+    "torch/nn",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/core",
+    "torch/_dynamo",
+    "c10/util",
+    "torch/_inductor",
+    "torch/nn"
+   ],
+   "precision": 0.2,
+   "recall": 0.2,
+   "raw_response": "c10/core  \ntorch/_dynamo  \nc10/util  \ntorch/_inductor  \ntorch/nn",
+   "true_targets_v1": [
+    "torch/utils"
+   ]
+  },
+  {
+   "source_module": "tools/testing",
+   "true_targets": [
+    "torch/testing"
+   ],
+   "predicted": [
+    "torch/testing",
+    "torch/utils",
+    "c10/util",
+    "torch/nn",
+    "torch/autograd"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "torch/testing  \ntorch/utils  \nc10/util  \ntorch/nn  \ntorch/autograd",
+   "true_targets_v1": [
+    "tools/stats"
+   ]
+  },
+  {
+   "source_module": "tools/code_analyzer",
+   "true_targets": [
+    "tools/lite_interpreter"
+   ],
+   "predicted": [
+    "tools/linter",
+    "tools/experimental",
+    "tools/stats",
+    "tools/code_coverage",
+    "tools/setup_helpers"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "tools/linter  \ntools/experimental  \ntools/stats  \ntools/code_coverage  \ntools/setup_helpers",
+   "true_targets_v1": [
+    "torch/_dynamo",
+    "torchgen/selective_build"
+   ]
+  },
+  {
+   "source_module": "tools/linter",
+   "true_targets": [
+    "tools/dynamo"
+   ],
+   "predicted": [
+    "tools/testing",
+    "tools/code_coverage",
+    "torch/utils",
+    "c10/util",
+    "tools/setup_helpers"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "tools/testing  \ntools/code_coverage  \ntorch/utils  \nc10/util  \ntools/setup_helpers",
+   "true_targets_v1": [
+    "torch/_export",
+    "tools/setup_helpers"
+   ]
+  },
+  {
+   "source_module": "tools/pyi",
+   "true_targets": [
+    "tools/autograd"
+   ],
+   "predicted": [
+    "torch/utils",
+    "c10/util",
+    "torch/jit",
+    "tools/setup_helpers",
+    "torch/export"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "torch/utils  \nc10/util  \ntorch/jit  \ntools/setup_helpers  \ntorch/export",
+   "true_targets_v1": [
+    "torchgen/api"
+   ]
+  },
+  {
+   "source_module": "tools/jit",
+   "true_targets": [
+    "torchgen/api",
+    "torchgen/selective_build"
+   ],
+   "predicted": [
+    "aten/src",
+    "torch/jit",
+    "torch/_dynamo",
+    "c10/core",
+    "torch/csrc"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "aten/src  \ntorch/jit  \ntorch/_dynamo  \nc10/core  \ntorch/csrc",
+   "true_targets_v1": [
+    "torchgen/selective_build"
+   ]
+  },
+  {
+   "source_module": "torch/mps",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/metal",
+    "aten/src",
+    "c10/core",
+    "torch/cuda",
+    "torch/nn"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "c10/metal  \naten/src  \nc10/core  \ntorch/cuda  \ntorch/nn",
+   "true_targets_v1": [
+    "torch/utils"
+   ]
+  },
+  {
+   "source_module": "torch/compiler",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_inductor",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/core",
+    "aten/src",
+    "torch/_dynamo",
+    "torch/_inductor",
+    "torch/csrc"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "c10/core  \naten/src  \ntorch/_dynamo  \ntorch/_inductor  \ntorch/csrc",
+   "true_targets_v1": [
+    "torch/_functorch"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/qwen3-8b_pytorch_ar.json"
+}

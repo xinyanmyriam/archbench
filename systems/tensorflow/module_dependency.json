@@ -1,46 +1,26 @@
 {
   "system": "tensorflow",
-  "total": 1476,
+  "total": 1050,
   "dependencies": [
     {
       "source_module": "tensorflow/c/eager",
       "target_module": "tensorflow/core/platform",
-      "weight": 51
-    },
-    {
-      "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/core/lib",
-      "weight": 47
-    },
-    {
-      "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 21
-    },
-    {
-      "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 9
+      "weight": 102
     },
     {
       "source_module": "tensorflow/c/eager",
       "target_module": "tensorflow/core/framework",
-      "weight": 29
+      "weight": 34
     },
     {
       "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 12
+      "target_module": "tensorflow/core/lib",
+      "weight": 22
     },
     {
       "source_module": "tensorflow/c/eager",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 28
-    },
-    {
-      "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 24
+      "weight": 31
     },
     {
       "source_module": "tensorflow/c/eager",
@@ -49,8 +29,13 @@
     },
     {
       "source_module": "tensorflow/c/eager",
+      "target_module": "tensorflow/core/public",
+      "weight": 1
+    },
+    {
+      "source_module": "tensorflow/c/eager",
       "target_module": "tensorflow/core/distributed_runtime",
-      "weight": 9
+      "weight": 10
     },
     {
       "source_module": "tensorflow/c/eager",
@@ -59,93 +44,48 @@
     },
     {
       "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/core/data",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/eager",
       "target_module": "tensorflow/core/util",
       "weight": 4
     },
     {
       "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 1
+      "target_module": "tensorflow/c/experimental",
+      "weight": 9
     },
     {
       "source_module": "tensorflow/c/eager",
       "target_module": "tensorflow/core/config",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/eager",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/core/lib",
-      "weight": 97
+      "weight": 2
     },
     {
       "source_module": "tensorflow/c/experimental",
       "target_module": "tensorflow/core/platform",
-      "weight": 83
+      "weight": 214
     },
     {
       "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 121
+      "target_module": "tensorflow/core/lib",
+      "weight": 28
     },
     {
       "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 70
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 13
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 3
+      "target_module": "tensorflow/core/util",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/c/experimental",
       "target_module": "tensorflow/c/eager",
-      "weight": 155
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 39
+      "weight": 159
     },
     {
       "source_module": "tensorflow/c/experimental",
       "target_module": "tensorflow/core/framework",
-      "weight": 42
+      "weight": 45
     },
     {
       "source_module": "tensorflow/c/experimental",
       "target_module": "tensorflow/core/grappler",
       "weight": 9
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/c/experimental",
@@ -155,17 +95,12 @@
     {
       "source_module": "tensorflow/c/experimental",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 11
+      "weight": 20
     },
     {
       "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 1
+      "target_module": "tensorflow/core/tfrt",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/c/experimental",
@@ -179,33 +114,8 @@
     },
     {
       "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/python/compat",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
       "target_module": "tensorflow/python/framework",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/python/module",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/experimental",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/kernels",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/c/kernels",
-      "target_module": "tensorflow/cc/framework",
-      "weight": 5
+      "weight": 3
     },
     {
       "source_module": "tensorflow/c/kernels",
@@ -214,28 +124,13 @@
     },
     {
       "source_module": "tensorflow/c/kernels",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/c/kernels",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 15
+      "target_module": "tensorflow/core/platform",
+      "weight": 38
     },
     {
       "source_module": "tensorflow/c/kernels",
       "target_module": "tensorflow/core/lib",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/c/kernels",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/c/kernels",
-      "target_module": "tensorflow/core/platform",
-      "weight": 13
+      "weight": 3
     },
     {
       "source_module": "tensorflow/c/kernels",
@@ -245,11 +140,6 @@
     {
       "source_module": "tensorflow/c/kernels",
       "target_module": "tensorflow/core/graph",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/c/kernels",
-      "target_module": "tensorflow/compiler/tf2xla",
       "weight": 1
     },
     {
@@ -294,13 +184,8 @@
     },
     {
       "source_module": "tensorflow/cc/experimental",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/cc/experimental",
       "target_module": "tensorflow/core/platform",
-      "weight": 10
+      "weight": 15
     },
     {
       "source_module": "tensorflow/cc/experimental",
@@ -309,13 +194,13 @@
     },
     {
       "source_module": "tensorflow/cc/experimental",
-      "target_module": "tensorflow/core/lib",
-      "weight": 5
+      "target_module": "tensorflow/core/util",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/cc/experimental",
-      "target_module": "tensorflow/core/util",
-      "weight": 2
+      "target_module": "tensorflow/core/lib",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/cc/framework",
@@ -330,31 +215,21 @@
     {
       "source_module": "tensorflow/cc/framework",
       "target_module": "tensorflow/core/framework",
-      "weight": 34
+      "weight": 39
     },
     {
       "source_module": "tensorflow/cc/framework",
       "target_module": "tensorflow/core/lib",
-      "weight": 34
+      "weight": 25
     },
     {
       "source_module": "tensorflow/cc/framework",
       "target_module": "tensorflow/core/platform",
-      "weight": 16
+      "weight": 33
     },
     {
       "source_module": "tensorflow/cc/framework",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/cc/framework",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 10
-    },
-    {
-      "source_module": "tensorflow/cc/framework",
-      "target_module": "tensorflow/lite/experimental",
+      "target_module": "tensorflow/core/public",
       "weight": 2
     },
     {
@@ -371,21 +246,6 @@
       "source_module": "tensorflow/cc/framework",
       "target_module": "tensorflow/core/util",
       "weight": 2
-    },
-    {
-      "source_module": "tensorflow/cc/framework",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/framework",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/gradients",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 11
     },
     {
       "source_module": "tensorflow/cc/gradients",
@@ -400,27 +260,12 @@
     {
       "source_module": "tensorflow/cc/gradients",
       "target_module": "tensorflow/core/lib",
-      "weight": 10
+      "weight": 13
     },
     {
       "source_module": "tensorflow/cc/gradients",
       "target_module": "tensorflow/core/framework",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/cc/gradients",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/cc/gradients",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/cc/gradients",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 1
+      "weight": 9
     },
     {
       "source_module": "tensorflow/cc/gradients",
@@ -428,14 +273,9 @@
       "weight": 3
     },
     {
-      "source_module": "tensorflow/cc/gradients",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 1
-    },
-    {
       "source_module": "tensorflow/cc/ops",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 1
+      "target_module": "tensorflow/core/framework",
+      "weight": 4
     },
     {
       "source_module": "tensorflow/cc/ops",
@@ -449,11 +289,6 @@
     },
     {
       "source_module": "tensorflow/cc/ops",
-      "target_module": "tensorflow/core/framework",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/cc/ops",
       "target_module": "tensorflow/core/lib",
       "weight": 2
     },
@@ -461,16 +296,6 @@
       "source_module": "tensorflow/cc/ops",
       "target_module": "tensorflow/core/platform",
       "weight": 2
-    },
-    {
-      "source_module": "tensorflow/cc/ops",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/cc/ops",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 5
     },
     {
       "source_module": "tensorflow/cc/ops",
@@ -484,23 +309,8 @@
     },
     {
       "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 28
-    },
-    {
-      "source_module": "tensorflow/cc/saved_model",
       "target_module": "tensorflow/core/platform",
-      "weight": 58
-    },
-    {
-      "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/core/lib",
-      "weight": 53
+      "weight": 55
     },
     {
       "source_module": "tensorflow/cc/saved_model",
@@ -509,28 +319,18 @@
     },
     {
       "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 1
+      "target_module": "tensorflow/core/lib",
+      "weight": 33
     },
     {
       "source_module": "tensorflow/cc/saved_model",
       "target_module": "tensorflow/core/graph",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
+      "weight": 2
     },
     {
       "source_module": "tensorflow/cc/saved_model",
       "target_module": "tensorflow/tools/proto_splitter",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 1
+      "weight": 7
     },
     {
       "source_module": "tensorflow/cc/saved_model",
@@ -540,7 +340,7 @@
     {
       "source_module": "tensorflow/cc/saved_model",
       "target_module": "tensorflow/core/framework",
-      "weight": 3
+      "weight": 4
     },
     {
       "source_module": "tensorflow/cc/saved_model",
@@ -549,28 +349,23 @@
     },
     {
       "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/python/compat",
-      "weight": 2
+      "target_module": "tensorflow/c/experimental",
+      "weight": 6
+    },
+    {
+      "source_module": "tensorflow/cc/saved_model",
+      "target_module": "tensorflow/cc/experimental",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/cc/saved_model",
       "target_module": "tensorflow/python/framework",
-      "weight": 7
+      "weight": 4
     },
     {
       "source_module": "tensorflow/cc/saved_model",
       "target_module": "tensorflow/python/lib",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/python/module",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/cc/saved_model",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 5
     },
     {
       "source_module": "tensorflow/cc/saved_model",
@@ -594,93 +389,53 @@
     },
     {
       "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
       "target_module": "tensorflow/cc/saved_model",
       "weight": 3
     },
     {
       "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/core/lib",
+      "target_module": "tensorflow/core/framework",
       "weight": 4
     },
     {
       "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/core/platform",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/core/public",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/cc/framework",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/cc/ops",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/tools",
-      "target_module": "tensorflow/core/framework",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/training",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/cc/training",
-      "target_module": "tensorflow/core/platform",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/cc/training",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/cc/training",
       "target_module": "tensorflow/core/lib",
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/cc/tools",
+      "target_module": "tensorflow/core/platform",
       "weight": 7
     },
     {
-      "source_module": "tensorflow/cc/training",
-      "target_module": "tensorflow/lite/experimental",
+      "source_module": "tensorflow/cc/tools",
+      "target_module": "tensorflow/core/public",
+      "weight": 3
+    },
+    {
+      "source_module": "tensorflow/cc/tools",
+      "target_module": "tensorflow/cc/framework",
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/cc/tools",
+      "target_module": "tensorflow/cc/ops",
       "weight": 1
     },
     {
       "source_module": "tensorflow/cc/training",
+      "target_module": "tensorflow/core/platform",
+      "weight": 21
+    },
+    {
+      "source_module": "tensorflow/cc/training",
+      "target_module": "tensorflow/core/lib",
+      "weight": 3
+    },
+    {
+      "source_module": "tensorflow/cc/training",
       "target_module": "tensorflow/core/framework",
-      "weight": 2
+      "weight": 3
     },
     {
       "source_module": "tensorflow/cc/training",
@@ -695,61 +450,31 @@
     {
       "source_module": "tensorflow/cc/training",
       "target_module": "tensorflow/cc/ops",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/cc/training",
-      "target_module": "tensorflow/c/experimental",
       "weight": 1
     },
     {
       "source_module": "tensorflow/compiler/aot",
       "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 16
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/core/platform",
-      "weight": 32
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/compiler/aot",
-      "target_module": "tensorflow/core/lib",
       "weight": 11
     },
     {
       "source_module": "tensorflow/compiler/aot",
       "target_module": "tensorflow/core/framework",
+      "weight": 1
+    },
+    {
+      "source_module": "tensorflow/compiler/aot",
+      "target_module": "tensorflow/core/platform",
+      "weight": 26
+    },
+    {
+      "source_module": "tensorflow/compiler/aot",
+      "target_module": "tensorflow/core/lib",
+      "weight": 7
+    },
+    {
+      "source_module": "tensorflow/compiler/aot",
+      "target_module": "tensorflow/core/util",
       "weight": 2
     },
     {
@@ -760,7 +485,7 @@
     {
       "source_module": "tensorflow/compiler/aot",
       "target_module": "tensorflow/python/framework",
-      "weight": 15
+      "weight": 4
     },
     {
       "source_module": "tensorflow/compiler/aot",
@@ -774,97 +499,62 @@
     },
     {
       "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 46
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/cc/ops",
       "weight": 19
     },
     {
       "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 37
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 133
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 24
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 117
+      "weight": 114
     },
     {
       "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 115
+      "weight": 96
     },
     {
       "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/core/framework",
-      "weight": 184
+      "weight": 304
     },
     {
       "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/core/graph",
-      "weight": 72
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 86
+      "weight": 77
     },
     {
       "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/core/lib",
-      "weight": 119
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/core/platform",
-      "weight": 123
+      "weight": 79
     },
     {
       "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/core/public",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 13
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 47
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/compiler/tf2tensorrt",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/cc/saved_model",
-      "weight": 2
+      "weight": 31
     },
     {
       "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/core/util",
-      "weight": 14
+      "weight": 25
     },
     {
       "source_module": "tensorflow/compiler/jit",
-      "target_module": "tensorflow/lite/profiling",
+      "target_module": "tensorflow/core/platform",
+      "weight": 128
+    },
+    {
+      "source_module": "tensorflow/compiler/jit",
+      "target_module": "tensorflow/core/kernels",
+      "weight": 17
+    },
+    {
+      "source_module": "tensorflow/compiler/jit",
+      "target_module": "tensorflow/core/tfrt",
+      "weight": 19
+    },
+    {
+      "source_module": "tensorflow/compiler/jit",
+      "target_module": "tensorflow/compiler/mlir",
       "weight": 1
     },
     {
@@ -874,8 +564,13 @@
     },
     {
       "source_module": "tensorflow/compiler/jit",
+      "target_module": "tensorflow/c/experimental",
+      "weight": 1
+    },
+    {
+      "source_module": "tensorflow/compiler/jit",
       "target_module": "tensorflow/core/profiler",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "tensorflow/compiler/jit",
@@ -890,37 +585,27 @@
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/core/platform",
-      "weight": 447
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 109
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 357
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/core/lib",
-      "weight": 268
+      "weight": 306
     },
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 63
+      "weight": 58
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/cc/saved_model",
-      "weight": 26
+      "target_module": "tensorflow/core/framework",
+      "weight": 271
     },
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/core/graph",
-      "weight": 49
+      "weight": 50
+    },
+    {
+      "source_module": "tensorflow/compiler/mlir",
+      "target_module": "tensorflow/core/lib",
+      "weight": 85
     },
     {
       "source_module": "tensorflow/compiler/mlir",
@@ -930,32 +615,17 @@
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/core/util",
-      "weight": 60
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/core/framework",
-      "weight": 203
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/lite/core",
-      "weight": 14
+      "weight": 70
     },
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/core/ir",
-      "weight": 20
+      "weight": 24
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 99
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 44
+      "target_module": "tensorflow/cc/saved_model",
+      "weight": 21
     },
     {
       "source_module": "tensorflow/compiler/mlir",
@@ -964,23 +634,18 @@
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/python/lib",
       "weight": 15
     },
     {
       "source_module": "tensorflow/compiler/mlir",
+      "target_module": "tensorflow/core/kernels",
+      "weight": 5
+    },
+    {
+      "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/c/eager",
-      "weight": 13
+      "weight": 12
     },
     {
       "source_module": "tensorflow/compiler/mlir",
@@ -990,47 +655,22 @@
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 88
+      "weight": 74
     },
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/core/tpu",
-      "weight": 25
+      "weight": 23
     },
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/python/framework",
-      "weight": 65
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/python/module",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 28
+      "weight": 36
     },
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/python/types",
       "weight": 7
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/python/compiler",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/lite/python",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 5
     },
     {
       "source_module": "tensorflow/compiler/mlir",
@@ -1049,33 +689,28 @@
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/python/debug",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/python/training",
       "weight": 2
     },
     {
       "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/python/ops",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/cc/framework",
-      "weight": 5
+      "target_module": "tensorflow/core/tfrt",
+      "weight": 72
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 11
+      "target_module": "tensorflow/core/transforms",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/core/distributed_runtime",
-      "weight": 5
+      "target_module": "tensorflow/compiler/jit",
+      "weight": 12
     },
     {
       "source_module": "tensorflow/compiler/mlir",
@@ -1084,8 +719,8 @@
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 2
+      "target_module": "tensorflow/cc/framework",
+      "weight": 4
     },
     {
       "source_module": "tensorflow/compiler/mlir",
@@ -1099,18 +734,13 @@
     },
     {
       "source_module": "tensorflow/compiler/mlir",
-      "target_module": "tensorflow/core/profiler",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/compiler/mlir",
       "target_module": "tensorflow/lite/kernels",
-      "weight": 1
+      "weight": 4
     },
     {
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/python/framework",
-      "weight": 547
+      "weight": 239
     },
     {
       "source_module": "tensorflow/compiler/tests",
@@ -1121,11 +751,6 @@
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/python/training",
       "weight": 15
-    },
-    {
-      "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 29
     },
     {
       "source_module": "tensorflow/compiler/tests",
@@ -1145,7 +770,7 @@
     {
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/python/ops",
-      "weight": 7
+      "weight": 6
     },
     {
       "source_module": "tensorflow/compiler/tests",
@@ -1159,43 +784,18 @@
     },
     {
       "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/compiler/jit",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/core/lib",
-      "weight": 4
+      "weight": 3
     },
     {
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 4
+      "weight": 1
     },
     {
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/core/framework",
-      "weight": 14
+      "weight": 21
     },
     {
       "source_module": "tensorflow/compiler/tests",
@@ -1205,7 +805,7 @@
     {
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/core/platform",
-      "weight": 2
+      "weight": 4
     },
     {
       "source_module": "tensorflow/compiler/tests",
@@ -1215,17 +815,12 @@
     {
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/core/util",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/python/compat",
-      "weight": 1
+      "weight": 5
     },
     {
       "source_module": "tensorflow/compiler/tests",
       "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "tensorflow/compiler/tests",
@@ -1238,24 +833,9 @@
       "weight": 2
     },
     {
-      "source_module": "tensorflow/compiler/tests",
-      "target_module": "tensorflow/python/debug",
-      "weight": 1
-    },
-    {
       "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/platform",
-      "weight": 40
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2tensorrt",
-      "target_module": "tensorflow/core/framework",
-      "weight": 77
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2tensorrt",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 12
+      "weight": 88
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
@@ -1265,27 +845,27 @@
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 26
+      "weight": 24
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/grappler",
-      "weight": 33
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2tensorrt",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 41
+      "weight": 39
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/lib",
-      "weight": 68
+      "weight": 79
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/public",
-      "weight": 6
+      "weight": 8
+    },
+    {
+      "source_module": "tensorflow/compiler/tf2tensorrt",
+      "target_module": "tensorflow/core/framework",
+      "weight": 86
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
@@ -1299,18 +879,13 @@
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 25
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/profiler",
       "weight": 8
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/util",
-      "weight": 11
+      "weight": 14
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
@@ -1329,68 +904,38 @@
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
-      "target_module": "tensorflow/core/distributed_runtime",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/core/kernels",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2tensorrt",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2tensorrt",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 2
+      "weight": 3
     },
     {
       "source_module": "tensorflow/compiler/tf2tensorrt",
       "target_module": "tensorflow/compiler/jit",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/core/platform",
-      "weight": 152
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 51
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 90
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 260
+      "weight": 1
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/core/framework",
-      "weight": 445
+      "weight": 539
+    },
+    {
+      "source_module": "tensorflow/compiler/tf2xla",
+      "target_module": "tensorflow/core/platform",
+      "weight": 234
+    },
+    {
+      "source_module": "tensorflow/compiler/tf2xla",
+      "target_module": "tensorflow/core/common_runtime",
+      "weight": 64
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/core/graph",
-      "weight": 54
+      "weight": 57
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/core/lib",
-      "weight": 200
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 156
+      "weight": 85
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
@@ -1399,58 +944,28 @@
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 16
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/cc/ops",
       "weight": 8
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/compiler/jit",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 56
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 30
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 16
-    },
-    {
-      "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/compiler/tf2tensorrt",
-      "weight": 2
+      "weight": 12
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/core/public",
-      "weight": 8
+      "weight": 19
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/core/util",
-      "weight": 34
+      "weight": 50
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
       "target_module": "tensorflow/python/framework",
-      "weight": 17
+      "weight": 5
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
@@ -1459,8 +974,8 @@
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/cc/saved_model",
-      "weight": 2
+      "target_module": "tensorflow/compiler/mlir",
+      "weight": 33
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
@@ -1469,17 +984,17 @@
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/lite/profiling",
+      "target_module": "tensorflow/compiler/aot",
       "weight": 1
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/core/ir",
-      "weight": 1
+      "target_module": "tensorflow/core/kernels",
+      "weight": 8
     },
     {
       "source_module": "tensorflow/compiler/tf2xla",
-      "target_module": "tensorflow/python/debug",
+      "target_module": "tensorflow/core/tfrt",
       "weight": 1
     },
     {
@@ -1489,18 +1004,13 @@
     },
     {
       "source_module": "tensorflow/core/activity_watcher",
-      "target_module": "tensorflow/core/platform",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/activity_watcher",
       "target_module": "tensorflow/core/framework",
-      "weight": 4
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/api_def",
       "target_module": "tensorflow/core/framework",
-      "weight": 8
+      "weight": 6
     },
     {
       "source_module": "tensorflow/core/api_def",
@@ -1510,7 +1020,7 @@
     {
       "source_module": "tensorflow/core/api_def",
       "target_module": "tensorflow/core/platform",
-      "weight": 10
+      "weight": 12
     },
     {
       "source_module": "tensorflow/core/api_def",
@@ -1519,38 +1029,38 @@
     },
     {
       "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/core/framework",
-      "weight": 726
-    },
-    {
-      "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/core/graph",
-      "weight": 193
+      "weight": 196
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/core/platform",
-      "weight": 393
+      "weight": 550
+    },
+    {
+      "source_module": "tensorflow/core/common_runtime",
+      "target_module": "tensorflow/core/framework",
+      "weight": 685
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/core/lib",
-      "weight": 768
+      "weight": 428
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/cc/framework",
-      "weight": 12
+      "weight": 23
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/core/config",
-      "weight": 12
+      "weight": 18
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/core/profiler",
-      "weight": 37
+      "weight": 35
     },
     {
       "source_module": "tensorflow/core/common_runtime",
@@ -1569,28 +1079,13 @@
     },
     {
       "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 18
-    },
-    {
-      "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 23
-    },
-    {
-      "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/cc/ops",
       "weight": 20
     },
     {
       "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 18
-    },
-    {
-      "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/core/ir",
-      "weight": 11
+      "target_module": "tensorflow/core/kernels",
+      "weight": 4
     },
     {
       "source_module": "tensorflow/core/common_runtime",
@@ -1599,13 +1094,8 @@
     },
     {
       "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 27
-    },
-    {
-      "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/common_runtime",
@@ -1619,52 +1109,42 @@
     },
     {
       "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 34
-    },
-    {
-      "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/c/eager",
-      "weight": 33
+      "weight": 24
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/core/distributed_runtime",
-      "weight": 28
+      "weight": 27
     },
     {
       "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/core/data",
-      "weight": 2
+      "target_module": "tensorflow/core/tfrt",
+      "weight": 6
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/compiler/jit",
-      "weight": 9
+      "weight": 11
     },
     {
       "source_module": "tensorflow/core/common_runtime",
       "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 7
+      "weight": 6
     },
     {
       "source_module": "tensorflow/core/common_runtime",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/config",
-      "target_module": "tensorflow/core/lib",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/config",
-      "target_module": "tensorflow/core/util",
-      "weight": 1
+      "target_module": "tensorflow/c/experimental",
+      "weight": 12
     },
     {
       "source_module": "tensorflow/core/config",
       "target_module": "tensorflow/core/platform",
+      "weight": 3
+    },
+    {
+      "source_module": "tensorflow/core/config",
+      "target_module": "tensorflow/core/util",
       "weight": 1
     },
     {
@@ -1674,38 +1154,33 @@
     },
     {
       "source_module": "tensorflow/core/data",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/core/data",
-      "target_module": "tensorflow/core/lib",
-      "weight": 397
-    },
-    {
-      "source_module": "tensorflow/core/data",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 69
+      "weight": 38
     },
     {
       "source_module": "tensorflow/core/data",
       "target_module": "tensorflow/core/framework",
-      "weight": 313
+      "weight": 315
     },
     {
       "source_module": "tensorflow/core/data",
-      "target_module": "tensorflow/core/profiler",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/core/data",
-      "target_module": "tensorflow/core/grappler",
-      "weight": 19
+      "target_module": "tensorflow/core/lib",
+      "weight": 92
     },
     {
       "source_module": "tensorflow/core/data",
       "target_module": "tensorflow/core/platform",
-      "weight": 405
+      "weight": 366
+    },
+    {
+      "source_module": "tensorflow/core/data",
+      "target_module": "tensorflow/core/profiler",
+      "weight": 5
+    },
+    {
+      "source_module": "tensorflow/core/data",
+      "target_module": "tensorflow/core/grappler",
+      "weight": 20
     },
     {
       "source_module": "tensorflow/core/data",
@@ -1720,27 +1195,22 @@
     {
       "source_module": "tensorflow/core/data",
       "target_module": "tensorflow/core/util",
-      "weight": 9
+      "weight": 10
     },
     {
       "source_module": "tensorflow/core/data",
       "target_module": "tensorflow/core/kernels",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "tensorflow/core/data",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 31
-    },
-    {
-      "source_module": "tensorflow/core/data",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 1
+      "target_module": "tensorflow/core/distributed_runtime",
+      "weight": 5
     },
     {
       "source_module": "tensorflow/core/debug",
       "target_module": "tensorflow/core/platform",
-      "weight": 17
+      "weight": 21
     },
     {
       "source_module": "tensorflow/core/debug",
@@ -1755,17 +1225,17 @@
     {
       "source_module": "tensorflow/core/debug",
       "target_module": "tensorflow/core/framework",
-      "weight": 12
-    },
-    {
-      "source_module": "tensorflow/core/debug",
-      "target_module": "tensorflow/core/lib",
-      "weight": 34
+      "weight": 9
     },
     {
       "source_module": "tensorflow/core/debug",
       "target_module": "tensorflow/core/graph",
       "weight": 6
+    },
+    {
+      "source_module": "tensorflow/core/debug",
+      "target_module": "tensorflow/core/lib",
+      "weight": 30
     },
     {
       "source_module": "tensorflow/core/debug",
@@ -1779,48 +1249,38 @@
     },
     {
       "source_module": "tensorflow/core/distributed_runtime",
-      "target_module": "tensorflow/core/lib",
-      "weight": 239
-    },
-    {
-      "source_module": "tensorflow/core/distributed_runtime",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 136
+      "weight": 126
     },
     {
       "source_module": "tensorflow/core/distributed_runtime",
       "target_module": "tensorflow/core/framework",
-      "weight": 137
+      "weight": 100
     },
     {
       "source_module": "tensorflow/core/distributed_runtime",
       "target_module": "tensorflow/core/platform",
-      "weight": 131
+      "weight": 222
     },
     {
       "source_module": "tensorflow/core/distributed_runtime",
       "target_module": "tensorflow/core/profiler",
-      "weight": 15
-    },
-    {
-      "source_module": "tensorflow/core/distributed_runtime",
-      "target_module": "tensorflow/core/util",
-      "weight": 26
-    },
-    {
-      "source_module": "tensorflow/core/distributed_runtime",
-      "target_module": "tensorflow/core/graph",
-      "weight": 15
-    },
-    {
-      "source_module": "tensorflow/core/distributed_runtime",
-      "target_module": "tensorflow/lite/experimental",
       "weight": 9
     },
     {
       "source_module": "tensorflow/core/distributed_runtime",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 7
+      "target_module": "tensorflow/core/lib",
+      "weight": 132
+    },
+    {
+      "source_module": "tensorflow/core/distributed_runtime",
+      "target_module": "tensorflow/core/util",
+      "weight": 25
+    },
+    {
+      "source_module": "tensorflow/core/distributed_runtime",
+      "target_module": "tensorflow/core/graph",
+      "weight": 13
     },
     {
       "source_module": "tensorflow/core/distributed_runtime",
@@ -1850,32 +1310,22 @@
     {
       "source_module": "tensorflow/core/distributed_runtime",
       "target_module": "tensorflow/c/eager",
-      "weight": 30
-    },
-    {
-      "source_module": "tensorflow/core/distributed_runtime",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/distributed_runtime",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
+      "weight": 25
     },
     {
       "source_module": "tensorflow/core/example",
       "target_module": "tensorflow/core/framework",
-      "weight": 9
+      "weight": 6
     },
     {
       "source_module": "tensorflow/core/example",
       "target_module": "tensorflow/core/lib",
-      "weight": 5
+      "weight": 4
     },
     {
       "source_module": "tensorflow/core/example",
       "target_module": "tensorflow/core/platform",
-      "weight": 5
+      "weight": 9
     },
     {
       "source_module": "tensorflow/core/example",
@@ -1888,39 +1338,24 @@
       "weight": 3
     },
     {
-      "source_module": "tensorflow/core/example",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 2
-    },
-    {
       "source_module": "tensorflow/core/framework",
       "target_module": "tensorflow/core/platform",
-      "weight": 209
+      "weight": 357
     },
     {
       "source_module": "tensorflow/core/framework",
       "target_module": "tensorflow/core/profiler",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 2
+      "weight": 7
     },
     {
       "source_module": "tensorflow/core/framework",
       "target_module": "tensorflow/core/lib",
-      "weight": 393
-    },
-    {
-      "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 3
+      "weight": 295
     },
     {
       "source_module": "tensorflow/core/framework",
       "target_module": "tensorflow/core/util",
-      "weight": 31
+      "weight": 30
     },
     {
       "source_module": "tensorflow/core/framework",
@@ -1930,7 +1365,7 @@
     {
       "source_module": "tensorflow/core/framework",
       "target_module": "tensorflow/core/graph",
-      "weight": 23
+      "weight": 24
     },
     {
       "source_module": "tensorflow/core/framework",
@@ -1939,13 +1374,13 @@
     },
     {
       "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/core/ir",
-      "weight": 2
+      "target_module": "tensorflow/core/kernels",
+      "weight": 4
     },
     {
       "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 4
+      "target_module": "tensorflow/cc/framework",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/core/framework",
@@ -1955,7 +1390,7 @@
     {
       "source_module": "tensorflow/core/framework",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/framework",
@@ -1964,53 +1399,18 @@
     },
     {
       "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/core/distributed_runtime",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/core/framework",
       "target_module": "tensorflow/cc/client",
       "weight": 1
     },
     {
-      "source_module": "tensorflow/core/framework",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/python/compat",
-      "weight": 2
-    },
-    {
       "source_module": "tensorflow/core/function",
       "target_module": "tensorflow/python/framework",
-      "weight": 40
+      "weight": 25
     },
     {
       "source_module": "tensorflow/core/function",
       "target_module": "tensorflow/python/platform",
       "weight": 12
-    },
-    {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/python/eager",
-      "weight": 6
     },
     {
       "source_module": "tensorflow/core/function",
@@ -2034,13 +1434,13 @@
     },
     {
       "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 4
+      "target_module": "tensorflow/c/eager",
+      "weight": 8
     },
     {
       "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/c/eager",
-      "weight": 8
+      "target_module": "tensorflow/compiler/mlir",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/core/function",
@@ -2050,21 +1450,6 @@
     {
       "source_module": "tensorflow/core/function",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/core/ir",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/core/lib",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/core/platform",
       "weight": 6
     },
     {
@@ -2074,13 +1459,18 @@
     },
     {
       "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/core/public",
-      "weight": 1
+      "target_module": "tensorflow/core/ir",
+      "weight": 8
     },
     {
       "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/python/debug",
-      "weight": 4
+      "target_module": "tensorflow/core/platform",
+      "weight": 14
+    },
+    {
+      "source_module": "tensorflow/core/function",
+      "target_module": "tensorflow/core/public",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/function",
@@ -2089,38 +1479,38 @@
     },
     {
       "source_module": "tensorflow/core/function",
+      "target_module": "tensorflow/core/lib",
+      "weight": 1
+    },
+    {
+      "source_module": "tensorflow/core/function",
       "target_module": "tensorflow/python/ops",
       "weight": 1
     },
     {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/python/module",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/function",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 2
-    },
-    {
       "source_module": "tensorflow/core/graph",
-      "target_module": "tensorflow/core/framework",
-      "weight": 62
+      "target_module": "tensorflow/core/platform",
+      "weight": 72
     },
     {
       "source_module": "tensorflow/core/graph",
       "target_module": "tensorflow/core/lib",
-      "weight": 83
+      "weight": 69
     },
     {
       "source_module": "tensorflow/core/graph",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 22
+      "weight": 14
     },
     {
       "source_module": "tensorflow/core/graph",
-      "target_module": "tensorflow/core/platform",
-      "weight": 49
+      "target_module": "tensorflow/core/kernels",
+      "weight": 8
+    },
+    {
+      "source_module": "tensorflow/core/graph",
+      "target_module": "tensorflow/core/framework",
+      "weight": 53
     },
     {
       "source_module": "tensorflow/core/graph",
@@ -2135,7 +1525,7 @@
     {
       "source_module": "tensorflow/core/graph",
       "target_module": "tensorflow/core/util",
-      "weight": 6
+      "weight": 7
     },
     {
       "source_module": "tensorflow/core/graph",
@@ -2144,23 +1534,8 @@
     },
     {
       "source_module": "tensorflow/core/graph",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/graph",
       "target_module": "tensorflow/core/config",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/graph",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/graph",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/core/graph",
@@ -2169,33 +1544,23 @@
     },
     {
       "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/core/grappler",
       "target_module": "tensorflow/core/platform",
-      "weight": 158
+      "weight": 226
     },
     {
       "source_module": "tensorflow/core/grappler",
       "target_module": "tensorflow/core/lib",
-      "weight": 336
-    },
-    {
-      "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/core/framework",
-      "weight": 251
-    },
-    {
-      "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 14
+      "weight": 231
     },
     {
       "source_module": "tensorflow/core/grappler",
       "target_module": "tensorflow/core/graph",
-      "weight": 38
+      "weight": 34
+    },
+    {
+      "source_module": "tensorflow/core/grappler",
+      "target_module": "tensorflow/core/framework",
+      "weight": 274
     },
     {
       "source_module": "tensorflow/core/grappler",
@@ -2205,12 +1570,12 @@
     {
       "source_module": "tensorflow/core/grappler",
       "target_module": "tensorflow/core/util",
-      "weight": 35
+      "weight": 43
     },
     {
       "source_module": "tensorflow/core/grappler",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 105
+      "weight": 43
     },
     {
       "source_module": "tensorflow/core/grappler",
@@ -2219,13 +1584,13 @@
     },
     {
       "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/cc/gradients",
-      "weight": 1
+      "target_module": "tensorflow/cc/framework",
+      "weight": 8
     },
     {
       "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 2
+      "target_module": "tensorflow/cc/gradients",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/grappler",
@@ -2234,27 +1599,7 @@
     },
     {
       "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/cc/framework",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/core/grappler",
       "target_module": "tensorflow/core/kernels",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/core/ir",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 13
-    },
-    {
-      "source_module": "tensorflow/core/grappler",
-      "target_module": "tensorflow/core/distributed_runtime",
       "weight": 4
     },
     {
@@ -2266,6 +1611,11 @@
       "source_module": "tensorflow/core/grappler",
       "target_module": "tensorflow/compiler/mlir",
       "weight": 1
+    },
+    {
+      "source_module": "tensorflow/core/grappler",
+      "target_module": "tensorflow/core/ir",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/core/grappler",
@@ -2285,27 +1635,17 @@
     {
       "source_module": "tensorflow/core/ir",
       "target_module": "tensorflow/core/platform",
-      "weight": 30
+      "weight": 53
     },
     {
       "source_module": "tensorflow/core/ir",
       "target_module": "tensorflow/core/framework",
-      "weight": 27
+      "weight": 32
     },
     {
       "source_module": "tensorflow/core/ir",
       "target_module": "tensorflow/core/lib",
-      "weight": 36
-    },
-    {
-      "source_module": "tensorflow/core/ir",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/ir",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 8
+      "weight": 11
     },
     {
       "source_module": "tensorflow/core/ir",
@@ -2314,13 +1654,13 @@
     },
     {
       "source_module": "tensorflow/core/ir",
-      "target_module": "tensorflow/lite/experimental",
+      "target_module": "tensorflow/compiler/mlir",
       "weight": 2
     },
     {
       "source_module": "tensorflow/core/ir",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 3
+      "target_module": "tensorflow/core/common_runtime",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/ir",
@@ -2330,27 +1670,27 @@
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/framework",
-      "weight": 4270
+      "weight": 3846
     },
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/lib",
-      "weight": 1341
+      "weight": 958
     },
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/platform",
-      "weight": 800
+      "weight": 1346
     },
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/util",
-      "weight": 520
+      "weight": 555
     },
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 299
+      "weight": 247
     },
     {
       "source_module": "tensorflow/core/kernels",
@@ -2360,17 +1700,12 @@
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/profiler",
-      "weight": 63
+      "weight": 54
     },
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/graph",
-      "weight": 127
-    },
-    {
-      "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 20
+      "weight": 108
     },
     {
       "source_module": "tensorflow/core/kernels",
@@ -2384,28 +1719,13 @@
     },
     {
       "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/cc/client",
       "weight": 10
     },
     {
       "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/core/ir",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/cc/framework",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 37
+      "weight": 16
     },
     {
       "source_module": "tensorflow/core/kernels",
@@ -2414,28 +1734,13 @@
     },
     {
       "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/lite/kernels",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/debug",
       "weight": 3
     },
     {
       "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/grappler",
-      "weight": 2
+      "weight": 3
     },
     {
       "source_module": "tensorflow/core/kernels",
@@ -2444,48 +1749,23 @@
     },
     {
       "source_module": "tensorflow/core/kernels",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 16
+      "target_module": "tensorflow/c/experimental",
+      "weight": 3
     },
     {
       "source_module": "tensorflow/core/kernels",
       "target_module": "tensorflow/core/data",
-      "weight": 274
+      "weight": 278
     },
     {
-      "source_module": "tensorflow/core/lib",
-      "target_module": "tensorflow/core/framework",
-      "weight": 22
+      "source_module": "tensorflow/core/kernels",
+      "target_module": "tensorflow/compiler/mlir",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/lib",
       "target_module": "tensorflow/core/platform",
-      "weight": 124
-    },
-    {
-      "source_module": "tensorflow/core/lib",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/lib",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/lib",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/core/lib",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/lib",
-      "target_module": "tensorflow/core/util",
-      "weight": 2
+      "weight": 236
     },
     {
       "source_module": "tensorflow/core/nccl",
@@ -2500,7 +1780,7 @@
     {
       "source_module": "tensorflow/core/nccl",
       "target_module": "tensorflow/core/lib",
-      "weight": 6
+      "weight": 4
     },
     {
       "source_module": "tensorflow/core/nccl",
@@ -2514,33 +1794,23 @@
     },
     {
       "source_module": "tensorflow/core/nccl",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/nccl",
       "target_module": "tensorflow/core/graph",
       "weight": 1
     },
     {
       "source_module": "tensorflow/core/ops",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 78
+      "target_module": "tensorflow/core/framework",
+      "weight": 352
     },
     {
       "source_module": "tensorflow/core/ops",
       "target_module": "tensorflow/core/lib",
-      "weight": 72
-    },
-    {
-      "source_module": "tensorflow/core/ops",
-      "target_module": "tensorflow/core/framework",
-      "weight": 280
+      "weight": 57
     },
     {
       "source_module": "tensorflow/core/ops",
       "target_module": "tensorflow/core/platform",
-      "weight": 37
+      "weight": 49
     },
     {
       "source_module": "tensorflow/core/ops",
@@ -2550,12 +1820,12 @@
     {
       "source_module": "tensorflow/core/ops",
       "target_module": "tensorflow/core/util",
-      "weight": 18
+      "weight": 20
     },
     {
       "source_module": "tensorflow/core/ops",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 3
+      "target_module": "tensorflow/core/common_runtime",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/core/ops",
@@ -2568,6 +1838,11 @@
       "weight": 2
     },
     {
+      "source_module": "tensorflow/core/ops",
+      "target_module": "tensorflow/core/kernels",
+      "weight": 1
+    },
+    {
       "source_module": "tensorflow/core/platform",
       "target_module": "tensorflow/core/util",
       "weight": 2
@@ -2575,17 +1850,7 @@
     {
       "source_module": "tensorflow/core/platform",
       "target_module": "tensorflow/core/lib",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/core/platform",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/platform",
-      "target_module": "tensorflow/python/compat",
-      "weight": 1
+      "weight": 6
     },
     {
       "source_module": "tensorflow/core/platform",
@@ -2599,43 +1864,28 @@
     },
     {
       "source_module": "tensorflow/core/platform",
-      "target_module": "tensorflow/python/module",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/platform",
       "target_module": "tensorflow/python/platform",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/platform",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/platform",
-      "target_module": "tensorflow/core/tfrt",
       "weight": 2
     },
     {
       "source_module": "tensorflow/core/profiler",
       "target_module": "tensorflow/core/platform",
-      "weight": 49
-    },
-    {
-      "source_module": "tensorflow/core/profiler",
-      "target_module": "tensorflow/core/lib",
-      "weight": 34
-    },
-    {
-      "source_module": "tensorflow/core/profiler",
-      "target_module": "tensorflow/core/framework",
-      "weight": 11
+      "weight": 40
     },
     {
       "source_module": "tensorflow/core/profiler",
       "target_module": "tensorflow/core/util",
       "weight": 2
+    },
+    {
+      "source_module": "tensorflow/core/profiler",
+      "target_module": "tensorflow/core/framework",
+      "weight": 5
+    },
+    {
+      "source_module": "tensorflow/core/profiler",
+      "target_module": "tensorflow/core/lib",
+      "weight": 23
     },
     {
       "source_module": "tensorflow/core/profiler",
@@ -2649,18 +1899,13 @@
     },
     {
       "source_module": "tensorflow/core/profiler",
-      "target_module": "tensorflow/core/public",
+      "target_module": "tensorflow/core/kernels",
       "weight": 1
     },
     {
       "source_module": "tensorflow/core/profiler",
-      "target_module": "tensorflow/lite/experimental",
+      "target_module": "tensorflow/core/public",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/public",
-      "target_module": "tensorflow/core/lib",
-      "weight": 4
     },
     {
       "source_module": "tensorflow/core/public",
@@ -2669,38 +1914,33 @@
     },
     {
       "source_module": "tensorflow/core/public",
+      "target_module": "tensorflow/core/lib",
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/core/public",
       "target_module": "tensorflow/core/platform",
-      "weight": 1
+      "weight": 2
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/core/platform",
-      "weight": 27
+      "weight": 69
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/core/tfrt",
-      "weight": 43
-    },
-    {
-      "source_module": "tensorflow/core/runtime_fallback",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 22
-    },
-    {
-      "source_module": "tensorflow/core/runtime_fallback",
-      "target_module": "tensorflow/core/lib",
-      "weight": 67
+      "weight": 35
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 49
+      "weight": 23
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/core/framework",
-      "weight": 78
+      "weight": 56
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
@@ -2709,23 +1949,18 @@
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
+      "target_module": "tensorflow/core/lib",
+      "weight": 7
+    },
+    {
+      "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/core/profiler",
       "weight": 2
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
-      "target_module": "tensorflow/python/util",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/core/kernels",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/core/runtime_fallback",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 3
+      "weight": 12
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
@@ -2736,11 +1971,6 @@
       "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/c/eager",
       "weight": 9
-    },
-    {
-      "source_module": "tensorflow/core/runtime_fallback",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
@@ -2750,12 +1980,7 @@
     {
       "source_module": "tensorflow/core/runtime_fallback",
       "target_module": "tensorflow/python/framework",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/core/runtime_fallback",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 5
+      "weight": 2
     },
     {
       "source_module": "tensorflow/core/runtime_fallback",
@@ -2764,18 +1989,13 @@
     },
     {
       "source_module": "tensorflow/core/summary",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/core/summary",
       "target_module": "tensorflow/core/lib",
-      "weight": 38
+      "weight": 26
     },
     {
       "source_module": "tensorflow/core/summary",
       "target_module": "tensorflow/core/platform",
-      "weight": 9
+      "weight": 10
     },
     {
       "source_module": "tensorflow/core/summary",
@@ -2785,7 +2005,7 @@
     {
       "source_module": "tensorflow/core/summary",
       "target_module": "tensorflow/core/framework",
-      "weight": 9
+      "weight": 8
     },
     {
       "source_module": "tensorflow/core/summary",
@@ -2795,32 +2015,17 @@
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/core/framework",
-      "weight": 219
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/core/lib",
-      "weight": 298
+      "weight": 236
     },
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/core/platform",
-      "weight": 278
+      "weight": 165
     },
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 19
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 105
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 43
+      "weight": 15
     },
     {
       "source_module": "tensorflow/core/tfrt",
@@ -2830,7 +2035,12 @@
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 89
+      "weight": 59
+    },
+    {
+      "source_module": "tensorflow/core/tfrt",
+      "target_module": "tensorflow/core/graph",
+      "weight": 16
     },
     {
       "source_module": "tensorflow/core/tfrt",
@@ -2840,17 +2050,12 @@
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/core/tpu",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/core/ir",
-      "weight": 5
+      "weight": 4
     },
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/cc/framework",
-      "weight": 8
+      "weight": 13
     },
     {
       "source_module": "tensorflow/core/tfrt",
@@ -2859,58 +2064,28 @@
     },
     {
       "source_module": "tensorflow/core/tfrt",
+      "target_module": "tensorflow/core/lib",
+      "weight": 28
+    },
+    {
+      "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/core/runtime_fallback",
       "weight": 19
     },
     {
       "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/python/util",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/compiler/jit",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 16
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/core/profiler",
-      "weight": 19
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/core/graph",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/core/data",
       "weight": 13
     },
     {
       "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/lite/async",
-      "weight": 2
+      "target_module": "tensorflow/compiler/mlir",
+      "weight": 92
     },
     {
       "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 21
+      "target_module": "tensorflow/core/profiler",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/core/tfrt",
@@ -2919,38 +2094,23 @@
     },
     {
       "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/python/compat",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/python/eager",
+      "target_module": "tensorflow/core/kernels",
       "weight": 3
     },
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/python/framework",
-      "weight": 79
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/python/module",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/core/tfrt",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 67
+      "weight": 37
     },
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/cc/saved_model",
       "weight": 9
+    },
+    {
+      "source_module": "tensorflow/core/tfrt",
+      "target_module": "tensorflow/python/eager",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/core/tfrt",
@@ -2970,67 +2130,52 @@
     {
       "source_module": "tensorflow/core/tfrt",
       "target_module": "tensorflow/core/grappler",
-      "weight": 2
+      "weight": 4
     },
     {
       "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/framework",
-      "weight": 326
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/lib",
-      "weight": 304
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/platform",
-      "weight": 128
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 22
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/tfrt",
+      "target_module": "tensorflow/compiler/jit",
       "weight": 33
     },
     {
       "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 119
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
       "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 89
+      "weight": 71
     },
     {
       "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/runtime_fallback",
-      "weight": 3
+      "target_module": "tensorflow/core/common_runtime",
+      "weight": 64
     },
     {
       "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 38
+      "target_module": "tensorflow/core/framework",
+      "weight": 308
     },
     {
       "source_module": "tensorflow/core/tpu",
       "target_module": "tensorflow/core/graph",
-      "weight": 61
+      "weight": 52
+    },
+    {
+      "source_module": "tensorflow/core/tpu",
+      "target_module": "tensorflow/core/platform",
+      "weight": 186
+    },
+    {
+      "source_module": "tensorflow/core/tpu",
+      "target_module": "tensorflow/core/lib",
+      "weight": 18
     },
     {
       "source_module": "tensorflow/core/tpu",
       "target_module": "tensorflow/core/profiler",
-      "weight": 14
+      "weight": 13
     },
     {
       "source_module": "tensorflow/core/tpu",
       "target_module": "tensorflow/cc/framework",
-      "weight": 1
+      "weight": 2
     },
     {
       "source_module": "tensorflow/core/tpu",
@@ -3040,22 +2185,12 @@
     {
       "source_module": "tensorflow/core/tpu",
       "target_module": "tensorflow/core/util",
-      "weight": 22
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/compiler/jit",
       "weight": 21
     },
     {
       "source_module": "tensorflow/core/tpu",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/distributed_runtime",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/tpu",
@@ -3064,43 +2199,23 @@
     },
     {
       "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/cc/saved_model",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
       "target_module": "tensorflow/core/kernels",
       "weight": 1
     },
     {
       "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/data",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/tpu",
-      "target_module": "tensorflow/core/ir",
+      "target_module": "tensorflow/core/distributed_runtime",
       "weight": 1
     },
     {
       "source_module": "tensorflow/core/transforms",
-      "target_module": "tensorflow/core/lib",
-      "weight": 23
-    },
-    {
-      "source_module": "tensorflow/core/transforms",
-      "target_module": "tensorflow/core/tfrt",
+      "target_module": "tensorflow/compiler/mlir",
       "weight": 1
     },
     {
       "source_module": "tensorflow/core/transforms",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 4
+      "weight": 3
     },
     {
       "source_module": "tensorflow/core/transforms",
@@ -3115,22 +2230,17 @@
     {
       "source_module": "tensorflow/core/transforms",
       "target_module": "tensorflow/core/platform",
-      "weight": 5
+      "weight": 15
     },
     {
       "source_module": "tensorflow/core/transforms",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/transforms",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 3
+      "target_module": "tensorflow/core/lib",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/core/transforms",
       "target_module": "tensorflow/core/framework",
-      "weight": 24
+      "weight": 22
     },
     {
       "source_module": "tensorflow/core/transforms",
@@ -3154,28 +2264,23 @@
     },
     {
       "source_module": "tensorflow/core/util",
-      "target_module": "tensorflow/core/lib",
-      "weight": 260
+      "target_module": "tensorflow/core/framework",
+      "weight": 136
     },
     {
       "source_module": "tensorflow/core/util",
-      "target_module": "tensorflow/core/framework",
-      "weight": 205
+      "target_module": "tensorflow/core/lib",
+      "weight": 199
     },
     {
       "source_module": "tensorflow/core/util",
       "target_module": "tensorflow/core/platform",
-      "weight": 191
+      "weight": 268
     },
     {
       "source_module": "tensorflow/core/util",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/core/util",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 2
+      "weight": 4
     },
     {
       "source_module": "tensorflow/core/util",
@@ -3189,47 +2294,12 @@
     },
     {
       "source_module": "tensorflow/core/util",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/util",
       "target_module": "tensorflow/core/kernels",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/core/util",
-      "target_module": "tensorflow/core/profiler",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/core/util",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/core/util",
-      "target_module": "tensorflow/core/tfrt",
       "weight": 3
     },
     {
       "source_module": "tensorflow/distribute/experimental",
       "target_module": "tensorflow/core/framework",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/distribute/experimental",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/distribute/experimental",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/distribute/experimental",
-      "target_module": "tensorflow/core/lib",
       "weight": 8
     },
     {
@@ -3240,72 +2310,47 @@
     {
       "source_module": "tensorflow/distribute/experimental",
       "target_module": "tensorflow/core/data",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/distribute/experimental",
       "target_module": "tensorflow/core/distributed_runtime",
-      "weight": 2
+      "weight": 3
     },
     {
       "source_module": "tensorflow/distribute/experimental",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/distribute/experimental",
-      "target_module": "tensorflow/core/platform",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/distribute/experimental",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/core/platform",
-      "weight": 20
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/core/framework",
-      "weight": 33
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
       "target_module": "tensorflow/core/lib",
-      "weight": 15
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/distribute/experimental",
+      "target_module": "tensorflow/core/platform",
+      "weight": 12
     },
     {
       "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 10
+      "target_module": "tensorflow/core/platform",
+      "weight": 32
     },
     {
       "source_module": "tensorflow/dtensor/cc",
       "target_module": "tensorflow/c/eager",
-      "weight": 20
+      "weight": 19
     },
     {
       "source_module": "tensorflow/dtensor/cc",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 23
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/core/util",
-      "weight": 7
+      "weight": 10
     },
     {
       "source_module": "tensorflow/dtensor/cc",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 10
+      "weight": 12
+    },
+    {
+      "source_module": "tensorflow/dtensor/cc",
+      "target_module": "tensorflow/core/framework",
+      "weight": 38
     },
     {
       "source_module": "tensorflow/dtensor/cc",
@@ -3314,8 +2359,18 @@
     },
     {
       "source_module": "tensorflow/dtensor/cc",
+      "target_module": "tensorflow/core/lib",
+      "weight": 4
+    },
+    {
+      "source_module": "tensorflow/dtensor/cc",
       "target_module": "tensorflow/core/profiler",
       "weight": 1
+    },
+    {
+      "source_module": "tensorflow/dtensor/cc",
+      "target_module": "tensorflow/core/util",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/dtensor/cc",
@@ -3324,28 +2379,13 @@
     },
     {
       "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 3
+      "target_module": "tensorflow/core/public",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/dtensor/cc",
       "target_module": "tensorflow/compiler/jit",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/compiler/aot",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/dtensor/cc",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/dtensor/cc",
@@ -3355,7 +2395,7 @@
     {
       "source_module": "tensorflow/dtensor/mlir",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 205
+      "weight": 179
     },
     {
       "source_module": "tensorflow/dtensor/mlir",
@@ -3364,33 +2404,18 @@
     },
     {
       "source_module": "tensorflow/dtensor/mlir",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 7
+      "target_module": "tensorflow/core/platform",
+      "weight": 88
     },
     {
       "source_module": "tensorflow/dtensor/mlir",
       "target_module": "tensorflow/core/lib",
-      "weight": 53
-    },
-    {
-      "source_module": "tensorflow/dtensor/mlir",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 54
-    },
-    {
-      "source_module": "tensorflow/dtensor/mlir",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/dtensor/mlir",
-      "target_module": "tensorflow/core/platform",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "tensorflow/dtensor/mlir",
       "target_module": "tensorflow/core/util",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "tensorflow/dtensor/mlir",
@@ -3399,13 +2424,13 @@
     },
     {
       "source_module": "tensorflow/dtensor/mlir",
-      "target_module": "tensorflow/compiler/jit",
+      "target_module": "tensorflow/core/public",
       "weight": 1
     },
     {
       "source_module": "tensorflow/dtensor/python",
       "target_module": "tensorflow/python/framework",
-      "weight": 243
+      "weight": 107
     },
     {
       "source_module": "tensorflow/dtensor/python",
@@ -3419,16 +2444,6 @@
     },
     {
       "source_module": "tensorflow/dtensor/python",
-      "target_module": "tensorflow/python/debug",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/dtensor/python",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/dtensor/python",
       "target_module": "tensorflow/python/trackable",
       "weight": 3
     },
@@ -3436,11 +2451,6 @@
       "source_module": "tensorflow/dtensor/python",
       "target_module": "tensorflow/python/training",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/dtensor/python",
-      "target_module": "tensorflow/python/keras",
-      "weight": 3
     },
     {
       "source_module": "tensorflow/dtensor/python",
@@ -3454,18 +2464,8 @@
     },
     {
       "source_module": "tensorflow/dtensor/python",
-      "target_module": "tensorflow/python/eager",
-      "weight": 19
-    },
-    {
-      "source_module": "tensorflow/dtensor/python",
       "target_module": "tensorflow/python/tpu",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/dtensor/python",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 18
+      "weight": 2
     },
     {
       "source_module": "tensorflow/dtensor/python",
@@ -3483,16 +2483,6 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/dtensor/python",
-      "target_module": "tensorflow/python/module",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/dtensor/python",
-      "target_module": "tensorflow/python/compat",
-      "weight": 1
-    },
-    {
       "source_module": "tensorflow/dtensor/tests",
       "target_module": "tensorflow/dtensor/cc",
       "weight": 13
@@ -3505,17 +2495,7 @@
     {
       "source_module": "tensorflow/dtensor/tests",
       "target_module": "tensorflow/core/platform",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/dtensor/tests",
-      "target_module": "tensorflow/core/lib",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/dtensor/tests",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 1
+      "weight": 6
     },
     {
       "source_module": "tensorflow/dtensor/tests",
@@ -3525,17 +2505,22 @@
     {
       "source_module": "tensorflow/dtensor/tests",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
+      "weight": 1
+    },
+    {
+      "source_module": "tensorflow/lite/acceleration",
+      "target_module": "tensorflow/lite/core",
+      "weight": 12
     },
     {
       "source_module": "tensorflow/lite/acceleration",
       "target_module": "tensorflow/lite/delegates",
-      "weight": 7
+      "weight": 6
     },
     {
       "source_module": "tensorflow/lite/acceleration",
       "target_module": "tensorflow/lite/c",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "tensorflow/lite/acceleration",
@@ -3550,22 +2535,27 @@
     {
       "source_module": "tensorflow/lite/async",
       "target_module": "tensorflow/lite/core",
-      "weight": 1
+      "weight": 9
     },
     {
       "source_module": "tensorflow/lite/c",
       "target_module": "tensorflow/lite/core",
-      "weight": 16
+      "weight": 30
     },
     {
-      "source_module": "tensorflow/lite/core",
-      "target_module": "tensorflow/core/platform",
-      "weight": 8
+      "source_module": "tensorflow/lite/c",
+      "target_module": "tensorflow/lite/profiling",
+      "weight": 1
+    },
+    {
+      "source_module": "tensorflow/lite/c",
+      "target_module": "tensorflow/lite/kernels",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/lite/core",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 19
+      "weight": 26
     },
     {
       "source_module": "tensorflow/lite/core",
@@ -3575,12 +2565,7 @@
     {
       "source_module": "tensorflow/lite/core",
       "target_module": "tensorflow/lite/profiling",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/lite/core",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 44
+      "weight": 14
     },
     {
       "source_module": "tensorflow/lite/core",
@@ -3590,32 +2575,32 @@
     {
       "source_module": "tensorflow/lite/core",
       "target_module": "tensorflow/lite/schema",
-      "weight": 31
-    },
-    {
-      "source_module": "tensorflow/lite/core",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/core",
-      "target_module": "tensorflow/lite/testing",
-      "weight": 3
+      "weight": 25
     },
     {
       "source_module": "tensorflow/lite/core",
       "target_module": "tensorflow/lite/c",
-      "weight": 13
+      "weight": 43
     },
     {
       "source_module": "tensorflow/lite/core",
       "target_module": "tensorflow/lite/kernels",
-      "weight": 6
+      "weight": 9
+    },
+    {
+      "source_module": "tensorflow/lite/core",
+      "target_module": "tensorflow/lite/testing",
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/core",
       "target_module": "tensorflow/lite/acceleration",
-      "weight": 15
+      "weight": 20
+    },
+    {
+      "source_module": "tensorflow/lite/core",
+      "target_module": "tensorflow/lite/delegates",
+      "weight": 17
     },
     {
       "source_module": "tensorflow/lite/core",
@@ -3623,39 +2608,54 @@
       "weight": 4
     },
     {
+      "source_module": "tensorflow/lite/core",
+      "target_module": "tensorflow/lite/async",
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/lite/core",
+      "target_module": "tensorflow/core/platform",
+      "weight": 1
+    },
+    {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 60
-    },
-    {
-      "source_module": "tensorflow/lite/delegates",
-      "target_module": "tensorflow/lite/schema",
-      "weight": 192
-    },
-    {
-      "source_module": "tensorflow/lite/delegates",
-      "target_module": "tensorflow/lite/c",
-      "weight": 195
+      "weight": 40
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/lite/core",
-      "weight": 214
+      "weight": 344
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/lite/kernels",
-      "weight": 104
+      "weight": 165
     },
     {
       "source_module": "tensorflow/lite/delegates",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 11
+      "target_module": "tensorflow/lite/schema",
+      "weight": 158
+    },
+    {
+      "source_module": "tensorflow/lite/delegates",
+      "target_module": "tensorflow/lite/c",
+      "weight": 179
+    },
+    {
+      "source_module": "tensorflow/lite/delegates",
+      "target_module": "tensorflow/lite/testing",
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/lite/acceleration",
       "weight": 18
+    },
+    {
+      "source_module": "tensorflow/lite/delegates",
+      "target_module": "tensorflow/lite/profiling",
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/delegates",
@@ -3665,27 +2665,22 @@
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/core/framework",
-      "weight": 21
-    },
-    {
-      "source_module": "tensorflow/lite/delegates",
-      "target_module": "tensorflow/lite/testing",
-      "weight": 7
+      "weight": 37
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/core/platform",
-      "weight": 13
+      "weight": 19
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/core/public",
-      "weight": 2
+      "weight": 3
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 1
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/delegates",
@@ -3695,32 +2690,32 @@
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/core/lib",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/lite/delegates",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 1
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/core/tfrt",
-      "weight": 35
+      "weight": 2
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/lite/async",
-      "weight": 7
+      "weight": 6
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/lite/experimental",
-      "weight": 5
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/delegates",
       "target_module": "tensorflow/lite/tools",
       "weight": 12
+    },
+    {
+      "source_module": "tensorflow/lite/delegates",
+      "target_module": "tensorflow/core/util",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/delegates",
@@ -3729,8 +2724,13 @@
     },
     {
       "source_module": "tensorflow/lite/experimental",
+      "target_module": "tensorflow/lite/testing",
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/lite/experimental",
       "target_module": "tensorflow/lite/delegates",
-      "weight": 107
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/experimental",
@@ -3739,43 +2739,28 @@
     },
     {
       "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/lite/c",
-      "weight": 61
+      "target_module": "tensorflow/lite/acceleration",
+      "weight": 45
     },
     {
       "source_module": "tensorflow/lite/experimental",
       "target_module": "tensorflow/lite/core",
-      "weight": 44
+      "weight": 101
     },
     {
       "source_module": "tensorflow/lite/experimental",
       "target_module": "tensorflow/lite/kernels",
-      "weight": 42
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/lite/testing",
-      "weight": 10
+      "weight": 55
     },
     {
       "source_module": "tensorflow/lite/experimental",
       "target_module": "tensorflow/lite/schema",
-      "weight": 18
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/lite/async",
-      "weight": 9
+      "weight": 13
     },
     {
       "source_module": "tensorflow/lite/experimental",
       "target_module": "tensorflow/core/platform",
-      "weight": 12
+      "weight": 2
     },
     {
       "source_module": "tensorflow/lite/experimental",
@@ -3784,38 +2769,23 @@
     },
     {
       "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/core/lib",
-      "weight": 10
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/python/keras",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 17
+      "target_module": "tensorflow/lite/c",
+      "weight": 11
     },
     {
       "source_module": "tensorflow/lite/experimental",
       "target_module": "tensorflow/core/framework",
+      "weight": 5
+    },
+    {
+      "source_module": "tensorflow/lite/experimental",
+      "target_module": "tensorflow/core/lib",
       "weight": 2
     },
     {
       "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
       "target_module": "tensorflow/python/framework",
-      "weight": 7
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/experimental",
@@ -3828,44 +2798,19 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/lite/experimental",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/lite/ios",
-      "target_module": "tensorflow/python/data",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/ios",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
-    },
-    {
       "source_module": "tensorflow/lite/ios",
       "target_module": "tensorflow/python/platform",
       "weight": 2
     },
     {
       "source_module": "tensorflow/lite/ios",
-      "target_module": "tensorflow/lite/async",
+      "target_module": "tensorflow/compiler/mlir",
       "weight": 1
     },
     {
       "source_module": "tensorflow/lite/ios",
-      "target_module": "tensorflow/lite/c",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/lite/ios",
       "target_module": "tensorflow/lite/core",
-      "weight": 2
+      "weight": 7
     },
     {
       "source_module": "tensorflow/lite/ios",
@@ -3873,14 +2818,14 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/lite/c",
-      "weight": 161
+      "source_module": "tensorflow/lite/ios",
+      "target_module": "tensorflow/lite/profiling",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/kernels",
       "target_module": "tensorflow/lite/core",
-      "weight": 105
+      "weight": 461
     },
     {
       "source_module": "tensorflow/lite/kernels",
@@ -3895,52 +2840,32 @@
     {
       "source_module": "tensorflow/lite/kernels",
       "target_module": "tensorflow/lite/experimental",
+      "weight": 9
+    },
+    {
+      "source_module": "tensorflow/lite/kernels",
+      "target_module": "tensorflow/lite/testing",
+      "weight": 13
+    },
+    {
+      "source_module": "tensorflow/lite/kernels",
+      "target_module": "tensorflow/lite/c",
+      "weight": 61
+    },
+    {
+      "source_module": "tensorflow/lite/kernels",
+      "target_module": "tensorflow/lite/tools",
       "weight": 11
     },
     {
       "source_module": "tensorflow/lite/kernels",
       "target_module": "tensorflow/lite/delegates",
-      "weight": 65
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 24
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/lite/testing",
-      "weight": 19
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/lite/tools",
-      "weight": 16
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/kernels",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/core/lib",
-      "weight": 12
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/core/platform",
-      "weight": 26
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/kernels",
@@ -3955,12 +2880,22 @@
     {
       "source_module": "tensorflow/lite/kernels",
       "target_module": "tensorflow/core/framework",
-      "weight": 15
+      "weight": 29
+    },
+    {
+      "source_module": "tensorflow/lite/kernels",
+      "target_module": "tensorflow/core/lib",
+      "weight": 4
+    },
+    {
+      "source_module": "tensorflow/lite/kernels",
+      "target_module": "tensorflow/core/platform",
+      "weight": 17
     },
     {
       "source_module": "tensorflow/lite/kernels",
       "target_module": "tensorflow/core/util",
-      "weight": 3
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/kernels",
@@ -3969,18 +2904,8 @@
     },
     {
       "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
       "target_module": "tensorflow/core/kernels",
       "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/kernels",
-      "target_module": "tensorflow/python/framework",
-      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/kernels",
@@ -3989,12 +2914,7 @@
     },
     {
       "source_module": "tensorflow/lite/nnapi",
-      "target_module": "tensorflow/lite/tools",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/lite/nnapi",
-      "target_module": "tensorflow/lite/delegates",
+      "target_module": "tensorflow/core/platform",
       "weight": 1
     },
     {
@@ -4004,8 +2924,8 @@
     },
     {
       "source_module": "tensorflow/lite/profiling",
-      "target_module": "tensorflow/core/platform",
-      "weight": 4
+      "target_module": "tensorflow/lite/core",
+      "weight": 36
     },
     {
       "source_module": "tensorflow/lite/profiling",
@@ -4014,18 +2934,8 @@
     },
     {
       "source_module": "tensorflow/lite/profiling",
-      "target_module": "tensorflow/core/lib",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/lite/profiling",
       "target_module": "tensorflow/lite/c",
-      "weight": 18
-    },
-    {
-      "source_module": "tensorflow/lite/profiling",
-      "target_module": "tensorflow/lite/core",
-      "weight": 11
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/profiling",
@@ -4039,13 +2949,13 @@
     },
     {
       "source_module": "tensorflow/lite/profiling",
-      "target_module": "tensorflow/core/util",
-      "weight": 8
+      "target_module": "tensorflow/lite/kernels",
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/profiling",
-      "target_module": "tensorflow/lite/kernels",
-      "weight": 3
+      "target_module": "tensorflow/core/util",
+      "weight": 8
     },
     {
       "source_module": "tensorflow/lite/python",
@@ -4054,13 +2964,8 @@
     },
     {
       "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/python/data",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/lite/python",
       "target_module": "tensorflow/python/framework",
-      "weight": 109
+      "weight": 78
     },
     {
       "source_module": "tensorflow/lite/python",
@@ -4074,28 +2979,8 @@
     },
     {
       "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/python/keras",
-      "weight": 15
-    },
-    {
-      "source_module": "tensorflow/lite/python",
       "target_module": "tensorflow/python/client",
       "weight": 9
-    },
-    {
-      "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 21
-    },
-    {
-      "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 16
-    },
-    {
-      "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/python/debug",
-      "weight": 7
     },
     {
       "source_module": "tensorflow/lite/python",
@@ -4104,8 +2989,13 @@
     },
     {
       "source_module": "tensorflow/lite/python",
+      "target_module": "tensorflow/python/saved_model",
+      "weight": 3
+    },
+    {
+      "source_module": "tensorflow/lite/python",
       "target_module": "tensorflow/python/ops",
-      "weight": 4
+      "weight": 3
     },
     {
       "source_module": "tensorflow/lite/python",
@@ -4119,8 +3009,8 @@
     },
     {
       "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/lite/schema",
-      "weight": 3
+      "target_module": "tensorflow/compiler/mlir",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/lite/python",
@@ -4130,37 +3020,32 @@
     {
       "source_module": "tensorflow/lite/python",
       "target_module": "tensorflow/lite/core",
-      "weight": 12
+      "weight": 18
     },
     {
       "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/lite/c",
-      "weight": 6
+      "target_module": "tensorflow/lite/schema",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/python",
       "target_module": "tensorflow/lite/delegates",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/python",
       "target_module": "tensorflow/lite/kernels",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/lite/testing",
-      "weight": 3
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/python",
       "target_module": "tensorflow/core/framework",
-      "weight": 1
+      "weight": 3
     },
     {
-      "source_module": "tensorflow/lite/python",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 1
+      "source_module": "tensorflow/lite/schema",
+      "target_module": "tensorflow/compiler/mlir",
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/schema",
@@ -4174,38 +3059,18 @@
     },
     {
       "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 7
+      "target_module": "tensorflow/core/framework",
+      "weight": 9
     },
     {
       "source_module": "tensorflow/lite/testing",
       "target_module": "tensorflow/core/platform",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/lite/tools",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/lite/async",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/core/tfrt",
       "weight": 4
     },
     {
       "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/lite/c",
-      "weight": 16
+      "target_module": "tensorflow/lite/core",
+      "weight": 25
     },
     {
       "source_module": "tensorflow/lite/testing",
@@ -4219,13 +3084,8 @@
     },
     {
       "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/python/saved_model",
+      "target_module": "tensorflow/lite/c",
       "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/lite/core",
-      "weight": 21
     },
     {
       "source_module": "tensorflow/lite/testing",
@@ -4244,28 +3104,28 @@
     },
     {
       "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/core/framework",
+      "target_module": "tensorflow/core/util",
       "weight": 3
+    },
+    {
+      "source_module": "tensorflow/lite/testing",
+      "target_module": "tensorflow/lite/tools",
+      "weight": 3
+    },
+    {
+      "source_module": "tensorflow/lite/testing",
+      "target_module": "tensorflow/lite/delegates",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/testing",
       "target_module": "tensorflow/core/public",
       "weight": 3
-    },
-    {
-      "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/compiler/aot",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/lite/testing",
-      "target_module": "tensorflow/python/data",
-      "weight": 1
     },
     {
       "source_module": "tensorflow/lite/testing",
       "target_module": "tensorflow/python/framework",
-      "weight": 17
+      "weight": 6
     },
     {
       "source_module": "tensorflow/lite/testing",
@@ -4274,33 +3134,23 @@
     },
     {
       "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/lite/tools",
-      "weight": 96
-    },
-    {
-      "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/core/lib",
-      "weight": 17
+      "target_module": "tensorflow/core/platform",
+      "weight": 194
     },
     {
       "source_module": "tensorflow/lite/toco",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 3
+      "weight": 4
     },
     {
       "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 233
+      "target_module": "tensorflow/core/lib",
+      "weight": 20
     },
     {
       "source_module": "tensorflow/lite/toco",
       "target_module": "tensorflow/core/public",
-      "weight": 1
+      "weight": 2
     },
     {
       "source_module": "tensorflow/lite/toco",
@@ -4309,33 +3159,18 @@
     },
     {
       "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 41
+      "target_module": "tensorflow/lite/testing",
+      "weight": 6
     },
     {
       "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/core/platform",
+      "target_module": "tensorflow/core/util",
       "weight": 3
     },
     {
       "source_module": "tensorflow/lite/toco",
       "target_module": "tensorflow/lite/kernels",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/core/util",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/python/data",
-      "weight": 1
+      "weight": 9
     },
     {
       "source_module": "tensorflow/lite/toco",
@@ -4354,18 +3189,18 @@
     },
     {
       "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/lite/toco",
       "target_module": "tensorflow/lite/python",
       "weight": 1
     },
     {
       "source_module": "tensorflow/lite/toco",
       "target_module": "tensorflow/lite/schema",
-      "weight": 17
+      "weight": 13
+    },
+    {
+      "source_module": "tensorflow/lite/toco",
+      "target_module": "tensorflow/compiler/mlir",
+      "weight": 12
     },
     {
       "source_module": "tensorflow/lite/toco",
@@ -4375,11 +3210,6 @@
     {
       "source_module": "tensorflow/lite/toco",
       "target_module": "tensorflow/lite/c",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/toco",
-      "target_module": "tensorflow/lite/testing",
       "weight": 1
     },
     {
@@ -4390,7 +3220,7 @@
     {
       "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/python/framework",
-      "weight": 11
+      "weight": 9
     },
     {
       "source_module": "tensorflow/lite/tools",
@@ -4400,57 +3230,37 @@
     {
       "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/lite/core",
-      "weight": 121
+      "weight": 130
     },
     {
       "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/lite/schema",
-      "weight": 60
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 69
+      "weight": 53
     },
     {
       "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/core/framework",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/lite/kernels",
-      "weight": 24
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/core/util",
-      "weight": 8
+      "weight": 3
     },
     {
       "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/core/platform",
-      "weight": 11
+      "weight": 28
+    },
+    {
+      "source_module": "tensorflow/lite/tools",
+      "target_module": "tensorflow/core/util",
+      "weight": 7
+    },
+    {
+      "source_module": "tensorflow/lite/tools",
+      "target_module": "tensorflow/lite/kernels",
+      "weight": 36
     },
     {
       "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/lite/c",
-      "weight": 101
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/core/lib",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 4
+      "weight": 41
     },
     {
       "source_module": "tensorflow/lite/tools",
@@ -4459,13 +3269,13 @@
     },
     {
       "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/lite/async",
-      "weight": 6
+      "target_module": "tensorflow/lite/profiling",
+      "weight": 18
     },
     {
       "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 17
+      "target_module": "tensorflow/lite/delegates",
+      "weight": 27
     },
     {
       "source_module": "tensorflow/lite/tools",
@@ -4475,12 +3285,7 @@
     {
       "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/lite/testing",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/core/graph",
-      "weight": 1
+      "weight": 5
     },
     {
       "source_module": "tensorflow/lite/tools",
@@ -4489,18 +3294,18 @@
     },
     {
       "source_module": "tensorflow/lite/tools",
+      "target_module": "tensorflow/lite/experimental",
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/lite/tools",
+      "target_module": "tensorflow/core/lib",
+      "weight": 5
+    },
+    {
+      "source_module": "tensorflow/lite/tools",
       "target_module": "tensorflow/compiler/mlir",
       "weight": 14
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/python/data",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/lite/tools",
-      "target_module": "tensorflow/python/keras",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/lite/tools",
@@ -4529,23 +3334,13 @@
     },
     {
       "source_module": "tensorflow/python/autograph",
-      "target_module": "tensorflow/python/eager",
-      "weight": 51
-    },
-    {
-      "source_module": "tensorflow/python/autograph",
       "target_module": "tensorflow/python/framework",
-      "weight": 155
+      "weight": 94
     },
     {
       "source_module": "tensorflow/python/autograph",
       "target_module": "tensorflow/python/platform",
       "weight": 57
-    },
-    {
-      "source_module": "tensorflow/python/autograph",
-      "target_module": "tensorflow/python/data",
-      "weight": 7
     },
     {
       "source_module": "tensorflow/python/autograph",
@@ -4558,11 +3353,6 @@
       "weight": 2
     },
     {
-      "source_module": "tensorflow/python/autograph",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 14
-    },
-    {
       "source_module": "tensorflow/python/checkpoint",
       "target_module": "tensorflow/python/distribute",
       "weight": 1
@@ -4570,7 +3360,7 @@
     {
       "source_module": "tensorflow/python/checkpoint",
       "target_module": "tensorflow/python/framework",
-      "weight": 115
+      "weight": 62
     },
     {
       "source_module": "tensorflow/python/checkpoint",
@@ -4581,11 +3371,6 @@
       "source_module": "tensorflow/python/checkpoint",
       "target_module": "tensorflow/python/util",
       "weight": 26
-    },
-    {
-      "source_module": "tensorflow/python/checkpoint",
-      "target_module": "tensorflow/python/module",
-      "weight": 6
     },
     {
       "source_module": "tensorflow/python/checkpoint",
@@ -4609,48 +3394,18 @@
     },
     {
       "source_module": "tensorflow/python/checkpoint",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/python/checkpoint",
-      "target_module": "tensorflow/python/keras",
-      "weight": 18
-    },
-    {
-      "source_module": "tensorflow/python/checkpoint",
-      "target_module": "tensorflow/python/debug",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/checkpoint",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/checkpoint",
       "target_module": "tensorflow/python/types",
       "weight": 2
     },
     {
-      "source_module": "tensorflow/python/checkpoint",
-      "target_module": "tensorflow/python/compat",
-      "weight": 1
-    },
-    {
       "source_module": "tensorflow/python/client",
       "target_module": "tensorflow/python/framework",
-      "weight": 77
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 10
+      "weight": 48
     },
     {
       "source_module": "tensorflow/python/client",
       "target_module": "tensorflow/core/lib",
-      "weight": 8
+      "weight": 11
     },
     {
       "source_module": "tensorflow/python/client",
@@ -4661,11 +3416,6 @@
       "source_module": "tensorflow/python/client",
       "target_module": "tensorflow/python/lib",
       "weight": 15
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/python/debug",
-      "weight": 4
     },
     {
       "source_module": "tensorflow/python/client",
@@ -4680,12 +3430,7 @@
     {
       "source_module": "tensorflow/python/client",
       "target_module": "tensorflow/core/public",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/core/function",
-      "weight": 1
+      "weight": 5
     },
     {
       "source_module": "tensorflow/python/client",
@@ -4699,28 +3444,13 @@
     },
     {
       "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/client",
       "target_module": "tensorflow/core/platform",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/python/eager",
-      "weight": 1
+      "weight": 4
     },
     {
       "source_module": "tensorflow/python/client",
       "target_module": "tensorflow/core/framework",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/c/eager",
-      "weight": 6
+      "weight": 4
     },
     {
       "source_module": "tensorflow/python/client",
@@ -4729,22 +3459,7 @@
     },
     {
       "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/lite/python",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/client",
-      "target_module": "tensorflow/core/data",
+      "target_module": "tensorflow/core/distributed_runtime",
       "weight": 1
     },
     {
@@ -4760,7 +3475,7 @@
     {
       "source_module": "tensorflow/python/compat",
       "target_module": "tensorflow/python/framework",
-      "weight": 8
+      "weight": 6
     },
     {
       "source_module": "tensorflow/python/compiler",
@@ -4770,7 +3485,7 @@
     {
       "source_module": "tensorflow/python/compiler",
       "target_module": "tensorflow/python/framework",
-      "weight": 254
+      "weight": 124
     },
     {
       "source_module": "tensorflow/python/compiler",
@@ -4779,18 +3494,8 @@
     },
     {
       "source_module": "tensorflow/python/compiler",
-      "target_module": "tensorflow/python/debug",
-      "weight": 10
-    },
-    {
-      "source_module": "tensorflow/python/compiler",
       "target_module": "tensorflow/python/client",
       "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/compiler",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 47
     },
     {
       "source_module": "tensorflow/python/compiler",
@@ -4804,27 +3509,12 @@
     },
     {
       "source_module": "tensorflow/python/compiler",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/compiler",
-      "target_module": "tensorflow/python/eager",
-      "weight": 31
-    },
-    {
-      "source_module": "tensorflow/python/compiler",
       "target_module": "tensorflow/python/lib",
       "weight": 1
     },
     {
       "source_module": "tensorflow/python/compiler",
       "target_module": "tensorflow/python/profiler",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/compiler",
-      "target_module": "tensorflow/python/module",
       "weight": 1
     },
     {
@@ -4839,28 +3529,18 @@
     },
     {
       "source_module": "tensorflow/python/compiler",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/compiler",
       "target_module": "tensorflow/python/summary",
       "weight": 1
     },
     {
       "source_module": "tensorflow/python/data",
       "target_module": "tensorflow/python/framework",
-      "weight": 1621
+      "weight": 698
     },
     {
       "source_module": "tensorflow/python/data",
       "target_module": "tensorflow/python/client",
       "weight": 8
-    },
-    {
-      "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 103
     },
     {
       "source_module": "tensorflow/python/data",
@@ -4871,11 +3551,6 @@
       "source_module": "tensorflow/python/data",
       "target_module": "tensorflow/python/util",
       "weight": 94
-    },
-    {
-      "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 136
     },
     {
       "source_module": "tensorflow/python/data",
@@ -4894,27 +3569,12 @@
     },
     {
       "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/python/compat",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/python/data",
       "target_module": "tensorflow/python/distribute",
       "weight": 1
     },
     {
       "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/python/data",
       "target_module": "tensorflow/python/types",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/python/debug",
       "weight": 11
     },
     {
@@ -4924,28 +3584,13 @@
     },
     {
       "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/data",
       "target_module": "tensorflow/core/data",
-      "weight": 4
+      "weight": 5
     },
     {
       "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/core/lib",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/compiler/tf2tensorrt",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/data",
-      "target_module": "tensorflow/python/eager",
-      "weight": 3
+      "target_module": "tensorflow/core/platform",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/data",
@@ -4970,7 +3615,7 @@
     {
       "source_module": "tensorflow/python/debug",
       "target_module": "tensorflow/python/framework",
-      "weight": 195
+      "weight": 110
     },
     {
       "source_module": "tensorflow/python/debug",
@@ -4984,23 +3629,13 @@
     },
     {
       "source_module": "tensorflow/python/debug",
-      "target_module": "tensorflow/core/function",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/python/debug",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/debug",
       "target_module": "tensorflow/python/training",
       "weight": 11
     },
     {
       "source_module": "tensorflow/python/debug",
       "target_module": "tensorflow/python/ops",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/debug",
@@ -5014,18 +3649,8 @@
     },
     {
       "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 50
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 26
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
       "target_module": "tensorflow/python/framework",
-      "weight": 749
+      "weight": 378
     },
     {
       "source_module": "tensorflow/python/distribute",
@@ -5035,7 +3660,7 @@
     {
       "source_module": "tensorflow/python/distribute",
       "target_module": "tensorflow/python/training",
-      "weight": 85
+      "weight": 59
     },
     {
       "source_module": "tensorflow/python/distribute",
@@ -5049,43 +3674,18 @@
     },
     {
       "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/lite/testing",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
       "target_module": "tensorflow/python/types",
       "weight": 12
     },
     {
       "source_module": "tensorflow/python/distribute",
       "target_module": "tensorflow/python/ops",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/tpu",
-      "weight": 21
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/compat",
-      "weight": 12
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/module",
       "weight": 8
     },
     {
       "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 31
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/eager",
-      "weight": 6
+      "target_module": "tensorflow/python/tpu",
+      "weight": 17
     },
     {
       "source_module": "tensorflow/python/distribute",
@@ -5095,7 +3695,7 @@
     {
       "source_module": "tensorflow/python/distribute",
       "target_module": "tensorflow/python/data",
-      "weight": 5
+      "weight": 4
     },
     {
       "source_module": "tensorflow/python/distribute",
@@ -5104,23 +3704,8 @@
     },
     {
       "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/keras",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
       "target_module": "tensorflow/python/layers",
       "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/core/function",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/distribute",
-      "target_module": "tensorflow/python/debug",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/python/distribute",
@@ -5139,13 +3724,8 @@
     },
     {
       "source_module": "tensorflow/python/dlpack",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/dlpack",
       "target_module": "tensorflow/python/framework",
-      "weight": 5
+      "weight": 4
     },
     {
       "source_module": "tensorflow/python/dlpack",
@@ -5155,7 +3735,7 @@
     {
       "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/python/framework",
-      "weight": 481
+      "weight": 258
     },
     {
       "source_module": "tensorflow/python/eager",
@@ -5174,27 +3754,12 @@
     },
     {
       "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 24
-    },
-    {
-      "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/python/training",
       "weight": 10
     },
     {
       "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/core/config",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/python/debug",
-      "weight": 13
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/python/compat",
       "weight": 1
     },
     {
@@ -5210,7 +3775,7 @@
     {
       "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/c/eager",
-      "weight": 22
+      "weight": 19
     },
     {
       "source_module": "tensorflow/python/eager",
@@ -5225,12 +3790,7 @@
     {
       "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/python/distribute",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/python/module",
-      "weight": 3
+      "weight": 5
     },
     {
       "source_module": "tensorflow/python/eager",
@@ -5240,17 +3800,7 @@
     {
       "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/core/lib",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/lite/python",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 5
+      "weight": 15
     },
     {
       "source_module": "tensorflow/python/eager",
@@ -5260,7 +3810,7 @@
     {
       "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/core/platform",
-      "weight": 4
+      "weight": 8
     },
     {
       "source_module": "tensorflow/python/eager",
@@ -5269,18 +3819,8 @@
     },
     {
       "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/core/profiler",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/eager",
@@ -5294,23 +3834,8 @@
     },
     {
       "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/core/function",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/python/eager",
       "target_module": "tensorflow/python/trackable",
       "weight": 5
-    },
-    {
-      "source_module": "tensorflow/python/eager",
-      "target_module": "tensorflow/lite/testing",
-      "weight": 1
     },
     {
       "source_module": "tensorflow/python/eager",
@@ -5318,9 +3843,14 @@
       "weight": 1
     },
     {
+      "source_module": "tensorflow/python/eager",
+      "target_module": "tensorflow/python/saved_model",
+      "weight": 4
+    },
+    {
       "source_module": "tensorflow/python/feature_column",
       "target_module": "tensorflow/python/framework",
-      "weight": 86
+      "weight": 30
     },
     {
       "source_module": "tensorflow/python/feature_column",
@@ -5344,11 +3874,6 @@
     },
     {
       "source_module": "tensorflow/python/feature_column",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/feature_column",
       "target_module": "tensorflow/python/client",
       "weight": 3
     },
@@ -5356,11 +3881,6 @@
       "source_module": "tensorflow/python/feature_column",
       "target_module": "tensorflow/python/trackable",
       "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/python/debug",
-      "weight": 81
     },
     {
       "source_module": "tensorflow/python/framework",
@@ -5379,11 +3899,6 @@
     },
     {
       "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 41
-    },
-    {
-      "source_module": "tensorflow/python/framework",
       "target_module": "tensorflow/python/ops",
       "weight": 20
     },
@@ -5391,11 +3906,6 @@
       "source_module": "tensorflow/python/framework",
       "target_module": "tensorflow/python/profiler",
       "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 17
     },
     {
       "source_module": "tensorflow/python/framework",
@@ -5409,8 +3919,18 @@
     },
     {
       "source_module": "tensorflow/python/framework",
+      "target_module": "tensorflow/python/saved_model",
+      "weight": 4
+    },
+    {
+      "source_module": "tensorflow/python/framework",
       "target_module": "tensorflow/python/trackable",
       "weight": 1
+    },
+    {
+      "source_module": "tensorflow/python/framework",
+      "target_module": "tensorflow/core/framework",
+      "weight": 24
     },
     {
       "source_module": "tensorflow/python/framework",
@@ -5419,18 +3939,8 @@
     },
     {
       "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/python/eager",
-      "weight": 20
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/python/framework",
       "target_module": "tensorflow/core/platform",
-      "weight": 16
+      "weight": 30
     },
     {
       "source_module": "tensorflow/python/framework",
@@ -5439,38 +3949,18 @@
     },
     {
       "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/python/module",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/python/data",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/core/lib",
-      "weight": 24
-    },
-    {
-      "source_module": "tensorflow/python/framework",
       "target_module": "tensorflow/core/config",
       "weight": 3
     },
     {
       "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
+      "target_module": "tensorflow/core/lib",
+      "weight": 13
     },
     {
       "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/core/framework",
-      "weight": 22
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 8
+      "target_module": "tensorflow/python/eager",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/python/framework",
@@ -5479,17 +3969,7 @@
     },
     {
       "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/core/function",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/cc/saved_model",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/framework",
-      "target_module": "tensorflow/lite/profiling",
+      "target_module": "tensorflow/core/public",
       "weight": 1
     },
     {
@@ -5500,7 +3980,7 @@
     {
       "source_module": "tensorflow/python/framework",
       "target_module": "tensorflow/python/compat",
-      "weight": 4
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/framework",
@@ -5509,28 +3989,18 @@
     },
     {
       "source_module": "tensorflow/python/grappler",
-      "target_module": "tensorflow/python/framework",
-      "weight": 113
-    },
-    {
-      "source_module": "tensorflow/python/grappler",
       "target_module": "tensorflow/python/platform",
       "weight": 15
     },
     {
       "source_module": "tensorflow/python/grappler",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/python/grappler",
-      "target_module": "tensorflow/python/debug",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/grappler",
       "target_module": "tensorflow/python/client",
       "weight": 4
+    },
+    {
+      "source_module": "tensorflow/python/grappler",
+      "target_module": "tensorflow/python/framework",
+      "weight": 53
     },
     {
       "source_module": "tensorflow/python/grappler",
@@ -5554,18 +4024,18 @@
     },
     {
       "source_module": "tensorflow/python/grappler",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/python/grappler",
-      "target_module": "tensorflow/core/common_runtime",
-      "weight": 3
+      "target_module": "tensorflow/core/framework",
+      "weight": 6
     },
     {
       "source_module": "tensorflow/python/grappler",
       "target_module": "tensorflow/core/grappler",
-      "weight": 28
+      "weight": 34
+    },
+    {
+      "source_module": "tensorflow/python/grappler",
+      "target_module": "tensorflow/core/platform",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/grappler",
@@ -5574,23 +4044,18 @@
     },
     {
       "source_module": "tensorflow/python/grappler",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
+      "target_module": "tensorflow/core/lib",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/grappler",
-      "target_module": "tensorflow/core/framework",
-      "weight": 5
+      "target_module": "tensorflow/core/common_runtime",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/grappler",
       "target_module": "tensorflow/core/public",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/python/framework",
-      "weight": 497
     },
     {
       "source_module": "tensorflow/python/keras",
@@ -5610,7 +4075,12 @@
     {
       "source_module": "tensorflow/python/keras",
       "target_module": "tensorflow/python/eager",
-      "weight": 6
+      "weight": 2
+    },
+    {
+      "source_module": "tensorflow/python/keras",
+      "target_module": "tensorflow/python/framework",
+      "weight": 241
     },
     {
       "source_module": "tensorflow/python/keras",
@@ -5625,22 +4095,7 @@
     {
       "source_module": "tensorflow/python/keras",
       "target_module": "tensorflow/python/training",
-      "weight": 15
-    },
-    {
-      "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/python/debug",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 7
+      "weight": 13
     },
     {
       "source_module": "tensorflow/python/keras",
@@ -5654,13 +4109,8 @@
     },
     {
       "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 60
-    },
-    {
-      "source_module": "tensorflow/python/keras",
       "target_module": "tensorflow/python/summary",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/keras",
@@ -5669,38 +4119,13 @@
     },
     {
       "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/python/module",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/keras",
       "target_module": "tensorflow/python/types",
       "weight": 9
     },
     {
       "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/python/data",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/lite/testing",
+      "target_module": "tensorflow/python/saved_model",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/core/function",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/keras",
-      "target_module": "tensorflow/python/compat",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/core/function",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
@@ -5710,7 +4135,7 @@
     {
       "source_module": "tensorflow/python/kernel_tests",
       "target_module": "tensorflow/python/framework",
-      "weight": 2388
+      "weight": 1232
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
@@ -5720,22 +4145,12 @@
     {
       "source_module": "tensorflow/python/kernel_tests",
       "target_module": "tensorflow/python/ops",
-      "weight": 204
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 71
+      "weight": 197
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
       "target_module": "tensorflow/python/distribute",
       "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/compat",
-      "weight": 4
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
@@ -5749,33 +4164,8 @@
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/debug",
-      "weight": 19
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/tpu",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/module",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 10
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
       "target_module": "tensorflow/core/framework",
       "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 5
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
@@ -5784,18 +4174,13 @@
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/data",
-      "weight": 2
+      "target_module": "tensorflow/python/lib",
+      "weight": 3
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
       "target_module": "tensorflow/python/eager",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/kernel_tests",
-      "target_module": "tensorflow/python/lib",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/kernel_tests",
@@ -5815,7 +4200,7 @@
     {
       "source_module": "tensorflow/python/layers",
       "target_module": "tensorflow/python/framework",
-      "weight": 6
+      "weight": 3
     },
     {
       "source_module": "tensorflow/python/layers",
@@ -5824,23 +4209,18 @@
     },
     {
       "source_module": "tensorflow/python/lib",
-      "target_module": "tensorflow/lite/python",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/python/lib",
       "target_module": "tensorflow/c/eager",
-      "weight": 10
+      "weight": 7
     },
     {
       "source_module": "tensorflow/python/lib",
       "target_module": "tensorflow/core/lib",
-      "weight": 23
+      "weight": 22
     },
     {
       "source_module": "tensorflow/python/lib",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 10
+      "target_module": "tensorflow/core/platform",
+      "weight": 24
     },
     {
       "source_module": "tensorflow/python/lib",
@@ -5849,28 +4229,13 @@
     },
     {
       "source_module": "tensorflow/python/lib",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/python/lib",
-      "target_module": "tensorflow/core/platform",
-      "weight": 10
-    },
-    {
-      "source_module": "tensorflow/python/lib",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/lib",
       "target_module": "tensorflow/core/framework",
-      "weight": 3
+      "weight": 6
     },
     {
       "source_module": "tensorflow/python/lib",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 1
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/lib",
@@ -5905,7 +4270,7 @@
     {
       "source_module": "tensorflow/python/module",
       "target_module": "tensorflow/python/framework",
-      "weight": 8
+      "weight": 6
     },
     {
       "source_module": "tensorflow/python/module",
@@ -5916,11 +4281,6 @@
       "source_module": "tensorflow/python/module",
       "target_module": "tensorflow/python/util",
       "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/module",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 1
     },
     {
       "source_module": "tensorflow/python/module",
@@ -5940,7 +4300,7 @@
     {
       "source_module": "tensorflow/python/ops",
       "target_module": "tensorflow/python/framework",
-      "weight": 2856
+      "weight": 1355
     },
     {
       "source_module": "tensorflow/python/ops",
@@ -5950,7 +4310,7 @@
     {
       "source_module": "tensorflow/python/ops",
       "target_module": "tensorflow/core/config",
-      "weight": 7
+      "weight": 5
     },
     {
       "source_module": "tensorflow/python/ops",
@@ -5974,11 +4334,6 @@
     },
     {
       "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 93
-    },
-    {
-      "source_module": "tensorflow/python/ops",
       "target_module": "tensorflow/python/training",
       "weight": 5
     },
@@ -5989,28 +4344,13 @@
     },
     {
       "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/python/eager",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/python/debug",
-      "weight": 23
-    },
-    {
-      "source_module": "tensorflow/python/ops",
       "target_module": "tensorflow/python/lib",
       "weight": 3
     },
     {
       "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/python/compat",
-      "weight": 7
+      "target_module": "tensorflow/python/eager",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/ops",
@@ -6019,18 +4359,8 @@
     },
     {
       "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/python/ops",
       "target_module": "tensorflow/python/trackable",
       "weight": 10
-    },
-    {
-      "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/python/tpu",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/python/ops",
@@ -6044,18 +4374,13 @@
     },
     {
       "source_module": "tensorflow/python/ops",
-      "target_module": "tensorflow/python/module",
-      "weight": 3
+      "target_module": "tensorflow/python/tpu",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/platform",
       "target_module": "tensorflow/python/util",
       "weight": 14
-    },
-    {
-      "source_module": "tensorflow/python/platform",
-      "target_module": "tensorflow/core/function",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/python/platform",
@@ -6074,33 +4399,23 @@
     },
     {
       "source_module": "tensorflow/python/platform",
-      "target_module": "tensorflow/core/config",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/platform",
       "target_module": "tensorflow/python/lib",
       "weight": 14
     },
     {
       "source_module": "tensorflow/python/platform",
       "target_module": "tensorflow/python/ops",
-      "weight": 3
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/profiler",
       "target_module": "tensorflow/python/framework",
-      "weight": 63
+      "weight": 33
     },
     {
       "source_module": "tensorflow/python/profiler",
       "target_module": "tensorflow/python/util",
       "weight": 13
-    },
-    {
-      "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/python/data",
-      "weight": 1
     },
     {
       "source_module": "tensorflow/python/profiler",
@@ -6114,16 +4429,6 @@
     },
     {
       "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/python/types",
-      "weight": 10
-    },
-    {
-      "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/python/debug",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/profiler",
       "target_module": "tensorflow/python/distribute",
       "weight": 2
     },
@@ -6134,28 +4439,13 @@
     },
     {
       "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/core/lib",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/compiler/mlir",
+      "target_module": "tensorflow/core/platform",
       "weight": 4
     },
     {
       "source_module": "tensorflow/python/profiler",
       "target_module": "tensorflow/core/profiler",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/core/framework",
-      "weight": 1
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/profiler",
@@ -6163,24 +4453,9 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/profiler",
-      "target_module": "tensorflow/core/platform",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/python/debug",
-      "weight": 24
-    },
-    {
       "source_module": "tensorflow/python/saved_model",
       "target_module": "tensorflow/python/framework",
-      "weight": 211
+      "weight": 125
     },
     {
       "source_module": "tensorflow/python/saved_model",
@@ -6214,43 +4489,13 @@
     },
     {
       "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/python/eager",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
       "target_module": "tensorflow/python/distribute",
       "weight": 4
     },
     {
       "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/python/keras",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
       "target_module": "tensorflow/python/client",
       "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/python/data",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/python/module",
-      "weight": 3
     },
     {
       "source_module": "tensorflow/python/saved_model",
@@ -6265,7 +4510,7 @@
     {
       "source_module": "tensorflow/python/saved_model",
       "target_module": "tensorflow/cc/experimental",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "tensorflow/python/saved_model",
@@ -6274,33 +4519,18 @@
     },
     {
       "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/core/platform",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
       "target_module": "tensorflow/core/common_runtime",
       "weight": 1
     },
     {
       "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/core/lib",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/saved_model",
-      "target_module": "tensorflow/lite/delegates",
+      "target_module": "tensorflow/core/platform",
       "weight": 1
     },
     {
       "source_module": "tensorflow/python/summary",
       "target_module": "tensorflow/python/framework",
-      "weight": 42
+      "weight": 30
     },
     {
       "source_module": "tensorflow/python/summary",
@@ -6324,18 +4554,8 @@
     },
     {
       "source_module": "tensorflow/python/summary",
-      "target_module": "tensorflow/core/function",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/summary",
       "target_module": "tensorflow/python/lib",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/summary",
-      "target_module": "tensorflow/python/debug",
-      "weight": 6
     },
     {
       "source_module": "tensorflow/python/summary",
@@ -6344,23 +4564,8 @@
     },
     {
       "source_module": "tensorflow/python/tools",
-      "target_module": "tensorflow/core/framework",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/tools",
       "target_module": "tensorflow/core/platform",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/tools",
-      "target_module": "tensorflow/python/debug",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/python/tools",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 1
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/tools",
@@ -6370,7 +4575,7 @@
     {
       "source_module": "tensorflow/python/tools",
       "target_module": "tensorflow/python/framework",
-      "weight": 69
+      "weight": 43
     },
     {
       "source_module": "tensorflow/python/tools",
@@ -6379,17 +4584,7 @@
     },
     {
       "source_module": "tensorflow/python/tools",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 17
-    },
-    {
-      "source_module": "tensorflow/python/tools",
       "target_module": "tensorflow/python/training",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/tools",
-      "target_module": "tensorflow/compiler/mlir",
       "weight": 6
     },
     {
@@ -6409,11 +4604,6 @@
     },
     {
       "source_module": "tensorflow/python/tools",
-      "target_module": "tensorflow/core/config",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/tools",
       "target_module": "tensorflow/python/tpu",
       "weight": 1
     },
@@ -6428,16 +4618,6 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/python/tools",
-      "target_module": "tensorflow/python/data",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/core/function",
-      "weight": 3
-    },
-    {
       "source_module": "tensorflow/python/tpu",
       "target_module": "tensorflow/python/client",
       "weight": 6
@@ -6445,7 +4625,7 @@
     {
       "source_module": "tensorflow/python/tpu",
       "target_module": "tensorflow/python/framework",
-      "weight": 322
+      "weight": 150
     },
     {
       "source_module": "tensorflow/python/tpu",
@@ -6456,16 +4636,6 @@
       "source_module": "tensorflow/python/tpu",
       "target_module": "tensorflow/python/training",
       "weight": 15
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/python/debug",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/python/compat",
-      "weight": 32
     },
     {
       "source_module": "tensorflow/python/tpu",
@@ -6499,16 +4669,6 @@
     },
     {
       "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 30
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
       "target_module": "tensorflow/core/tpu",
       "weight": 2
     },
@@ -6529,48 +4689,23 @@
     },
     {
       "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/python/keras",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
       "target_module": "tensorflow/python/layers",
       "weight": 1
     },
     {
       "source_module": "tensorflow/python/tpu",
       "target_module": "tensorflow/python/profiler",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/tpu",
-      "target_module": "tensorflow/python/module",
-      "weight": 1
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/trackable",
       "target_module": "tensorflow/python/framework",
-      "weight": 33
+      "weight": 21
     },
     {
       "source_module": "tensorflow/python/trackable",
       "target_module": "tensorflow/python/lib",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/trackable",
-      "target_module": "tensorflow/python/saved_model",
-      "weight": 3
     },
     {
       "source_module": "tensorflow/python/trackable",
@@ -6584,38 +4719,8 @@
     },
     {
       "source_module": "tensorflow/python/trackable",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/python/trackable",
       "target_module": "tensorflow/python/platform",
       "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/trackable",
-      "target_module": "tensorflow/python/keras",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/trackable",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/trackable",
-      "target_module": "tensorflow/python/eager",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/trackable",
-      "target_module": "tensorflow/python/module",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/trackable",
-      "target_module": "tensorflow/python/data",
-      "weight": 2
     },
     {
       "source_module": "tensorflow/python/trackable",
@@ -6625,7 +4730,7 @@
     {
       "source_module": "tensorflow/python/training",
       "target_module": "tensorflow/python/framework",
-      "weight": 553
+      "weight": 252
     },
     {
       "source_module": "tensorflow/python/training",
@@ -6650,12 +4755,7 @@
     {
       "source_module": "tensorflow/python/training",
       "target_module": "tensorflow/python/summary",
-      "weight": 14
-    },
-    {
-      "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/python/checkpoint",
-      "weight": 25
+      "weight": 11
     },
     {
       "source_module": "tensorflow/python/training",
@@ -6664,22 +4764,7 @@
     },
     {
       "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/python/keras",
-      "weight": 11
-    },
-    {
-      "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/python/debug",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/training",
       "target_module": "tensorflow/python/layers",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/python/saved_model",
       "weight": 2
     },
     {
@@ -6694,13 +4779,8 @@
     },
     {
       "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/core/lib",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
+      "target_module": "tensorflow/core/platform",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/python/training",
@@ -6709,13 +4789,8 @@
     },
     {
       "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/compiler/tf2xla",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/training",
-      "target_module": "tensorflow/core/function",
-      "weight": 1
+      "target_module": "tensorflow/python/checkpoint",
+      "weight": 8
     },
     {
       "source_module": "tensorflow/python/training",
@@ -6734,11 +4809,6 @@
     },
     {
       "source_module": "tensorflow/python/user_ops",
-      "target_module": "tensorflow/python/framework",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/user_ops",
       "target_module": "tensorflow/python/util",
       "weight": 1
     },
@@ -6750,7 +4820,7 @@
     {
       "source_module": "tensorflow/python/util",
       "target_module": "tensorflow/python/framework",
-      "weight": 56
+      "weight": 37
     },
     {
       "source_module": "tensorflow/python/util",
@@ -6774,18 +4844,8 @@
     },
     {
       "source_module": "tensorflow/python/util",
-      "target_module": "tensorflow/core/framework",
-      "weight": 9
-    },
-    {
-      "source_module": "tensorflow/python/util",
-      "target_module": "tensorflow/core/tfrt",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/python/util",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 11
+      "target_module": "tensorflow/core/platform",
+      "weight": 19
     },
     {
       "source_module": "tensorflow/python/util",
@@ -6794,23 +4854,13 @@
     },
     {
       "source_module": "tensorflow/python/util",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 1
+      "target_module": "tensorflow/core/framework",
+      "weight": 7
     },
     {
       "source_module": "tensorflow/python/util",
       "target_module": "tensorflow/core/lib",
-      "weight": 8
-    },
-    {
-      "source_module": "tensorflow/python/util",
-      "target_module": "tensorflow/cc/experimental",
       "weight": 3
-    },
-    {
-      "source_module": "tensorflow/python/util",
-      "target_module": "tensorflow/core/platform",
-      "weight": 10
     },
     {
       "source_module": "tensorflow/python/util",
@@ -6829,11 +4879,6 @@
     },
     {
       "source_module": "tensorflow/python/util",
-      "target_module": "tensorflow/python/debug",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/python/util",
       "target_module": "tensorflow/tools/graph_transforms",
       "weight": 1
     },
@@ -6845,22 +4890,12 @@
     {
       "source_module": "tensorflow/tools/android",
       "target_module": "tensorflow/core/platform",
-      "weight": 3
+      "weight": 4
     },
     {
       "source_module": "tensorflow/tools/android",
       "target_module": "tensorflow/core/util",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/tools/android",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/tools/android",
-      "target_module": "tensorflow/lite/profiling",
-      "weight": 3
+      "weight": 1
     },
     {
       "source_module": "tensorflow/tools/api",
@@ -6879,16 +4914,6 @@
     },
     {
       "source_module": "tensorflow/tools/api",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/tools/api",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/api",
       "target_module": "tensorflow/core/framework",
       "weight": 1
     },
@@ -6904,23 +4929,8 @@
     },
     {
       "source_module": "tensorflow/tools/benchmark",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/tools/benchmark",
-      "target_module": "tensorflow/core/lib",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/tools/benchmark",
       "target_module": "tensorflow/core/framework",
-      "weight": 5
-    },
-    {
-      "source_module": "tensorflow/tools/benchmark",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 5
+      "weight": 8
     },
     {
       "source_module": "tensorflow/tools/benchmark",
@@ -6929,13 +4939,13 @@
     },
     {
       "source_module": "tensorflow/tools/benchmark",
-      "target_module": "tensorflow/core/platform",
-      "weight": 5
+      "target_module": "tensorflow/core/lib",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/tools/benchmark",
-      "target_module": "tensorflow/tools/android",
-      "weight": 1
+      "target_module": "tensorflow/core/platform",
+      "weight": 13
     },
     {
       "source_module": "tensorflow/tools/benchmark",
@@ -6945,7 +4955,7 @@
     {
       "source_module": "tensorflow/tools/benchmark",
       "target_module": "tensorflow/core/util",
-      "weight": 6
+      "weight": 7
     },
     {
       "source_module": "tensorflow/tools/benchmark",
@@ -6953,28 +4963,13 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/tools/benchmark",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 2
-    },
-    {
       "source_module": "tensorflow/tools/ci_build",
       "target_module": "tensorflow/core/framework",
-      "weight": 4
+      "weight": 5
     },
     {
       "source_module": "tensorflow/tools/ci_build",
       "target_module": "tensorflow/core/util",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/ci_build",
-      "target_module": "tensorflow/compiler/jit",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/ci_build",
-      "target_module": "tensorflow/compiler/mlir",
       "weight": 1
     },
     {
@@ -6984,13 +4979,8 @@
     },
     {
       "source_module": "tensorflow/tools/ci_build",
-      "target_module": "tensorflow/python/compat",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/ci_build",
       "target_module": "tensorflow/python/framework",
-      "weight": 23
+      "weight": 8
     },
     {
       "source_module": "tensorflow/tools/ci_build",
@@ -7018,11 +5008,6 @@
       "weight": 2
     },
     {
-      "source_module": "tensorflow/tools/common",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 5
-    },
-    {
       "source_module": "tensorflow/tools/compatibility",
       "target_module": "tensorflow/python/framework",
       "weight": 7
@@ -7030,16 +5015,6 @@
     {
       "source_module": "tensorflow/tools/compatibility",
       "target_module": "tensorflow/python/platform",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/tools/compatibility",
-      "target_module": "tensorflow/python/data",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/tools/compatibility",
-      "target_module": "tensorflow/compiler/mlir",
       "weight": 7
     },
     {
@@ -7054,13 +5029,8 @@
     },
     {
       "source_module": "tensorflow/tools/docs",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 6
-    },
-    {
-      "source_module": "tensorflow/tools/docs",
       "target_module": "tensorflow/python/framework",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "tensorflow/tools/docs",
@@ -7084,13 +5054,8 @@
     },
     {
       "source_module": "tensorflow/tools/graph_transforms",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 28
-    },
-    {
-      "source_module": "tensorflow/tools/graph_transforms",
       "target_module": "tensorflow/core/framework",
-      "weight": 29
+      "weight": 33
     },
     {
       "source_module": "tensorflow/tools/graph_transforms",
@@ -7099,23 +5064,13 @@
     },
     {
       "source_module": "tensorflow/tools/graph_transforms",
-      "target_module": "tensorflow/core/kernels",
-      "weight": 46
-    },
-    {
-      "source_module": "tensorflow/tools/graph_transforms",
-      "target_module": "tensorflow/c/experimental",
-      "weight": 27
-    },
-    {
-      "source_module": "tensorflow/tools/graph_transforms",
       "target_module": "tensorflow/core/lib",
-      "weight": 48
+      "weight": 52
     },
     {
       "source_module": "tensorflow/tools/graph_transforms",
       "target_module": "tensorflow/core/platform",
-      "weight": 82
+      "weight": 86
     },
     {
       "source_module": "tensorflow/tools/graph_transforms",
@@ -7130,27 +5085,17 @@
     {
       "source_module": "tensorflow/tools/graph_transforms",
       "target_module": "tensorflow/core/graph",
-      "weight": 20
-    },
-    {
-      "source_module": "tensorflow/tools/graph_transforms",
-      "target_module": "tensorflow/tools/android",
-      "weight": 4
+      "weight": 39
     },
     {
       "source_module": "tensorflow/tools/graph_transforms",
       "target_module": "tensorflow/core/util",
+      "weight": 8
+    },
+    {
+      "source_module": "tensorflow/tools/graph_transforms",
+      "target_module": "tensorflow/core/kernels",
       "weight": 4
-    },
-    {
-      "source_module": "tensorflow/tools/graph_transforms",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 7
-    },
-    {
-      "source_module": "tensorflow/tools/graph_transforms",
-      "target_module": "tensorflow/python/debug",
-      "weight": 3
     },
     {
       "source_module": "tensorflow/tools/graph_transforms",
@@ -7168,16 +5113,6 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/tools/lib_package",
-      "target_module": "tensorflow/c/eager",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/mlpbtxt",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 4
-    },
-    {
       "source_module": "tensorflow/tools/mlpbtxt",
       "target_module": "tensorflow/core/framework",
       "weight": 2
@@ -7185,22 +5120,17 @@
     {
       "source_module": "tensorflow/tools/mlpbtxt",
       "target_module": "tensorflow/core/platform",
-      "weight": 4
+      "weight": 8
     },
     {
       "source_module": "tensorflow/tools/mlpbtxt",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
+      "target_module": "tensorflow/core/util",
+      "weight": 2
     },
     {
       "source_module": "tensorflow/tools/mlpbtxt",
       "target_module": "tensorflow/core/lib",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/optimization",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 7
     },
     {
       "source_module": "tensorflow/tools/optimization",
@@ -7210,22 +5140,22 @@
     {
       "source_module": "tensorflow/tools/optimization",
       "target_module": "tensorflow/core/platform",
-      "weight": 2
+      "weight": 5
     },
     {
       "source_module": "tensorflow/tools/optimization",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 6
+      "target_module": "tensorflow/core/util",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/tools/optimization",
       "target_module": "tensorflow/core/common_runtime",
-      "weight": 6
+      "weight": 5
     },
     {
       "source_module": "tensorflow/tools/optimization",
       "target_module": "tensorflow/core/framework",
-      "weight": 1
+      "weight": 5
     },
     {
       "source_module": "tensorflow/tools/optimization",
@@ -7238,44 +5168,14 @@
       "weight": 1
     },
     {
-      "source_module": "tensorflow/tools/pip_package",
-      "target_module": "tensorflow/python/ops",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/proto_splitter",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/tools/proto_splitter",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 16
-    },
-    {
-      "source_module": "tensorflow/tools/proto_splitter",
-      "target_module": "tensorflow/lite/delegates",
-      "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/proto_splitter",
-      "target_module": "tensorflow/core/lib",
-      "weight": 26
-    },
-    {
       "source_module": "tensorflow/tools/proto_splitter",
       "target_module": "tensorflow/core/platform",
-      "weight": 58
+      "weight": 21
     },
     {
       "source_module": "tensorflow/tools/proto_splitter",
       "target_module": "tensorflow/python/lib",
       "weight": 5
-    },
-    {
-      "source_module": "tensorflow/tools/proto_splitter",
-      "target_module": "tensorflow/python/debug",
-      "weight": 6
     },
     {
       "source_module": "tensorflow/tools/proto_splitter",
@@ -7289,23 +5189,13 @@
     },
     {
       "source_module": "tensorflow/tools/proto_splitter",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/tools/proto_text",
-      "target_module": "tensorflow/tools/android",
-      "weight": 2
+      "target_module": "tensorflow/core/framework",
+      "weight": 1
     },
     {
       "source_module": "tensorflow/tools/proto_text",
       "target_module": "tensorflow/core/platform",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/tools/proto_text",
-      "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
+      "weight": 10
     },
     {
       "source_module": "tensorflow/tools/proto_text",
@@ -7321,11 +5211,6 @@
       "source_module": "tensorflow/tools/tensorflow_builder",
       "target_module": "tensorflow/python/util",
       "weight": 1
-    },
-    {
-      "source_module": "tensorflow/tools/test",
-      "target_module": "tensorflow/core/function",
-      "weight": 4
     },
     {
       "source_module": "tensorflow/tools/test",
@@ -7344,23 +5229,8 @@
     },
     {
       "source_module": "tensorflow/tools/tfg_graph_transforms",
-      "target_module": "tensorflow/lite/experimental",
-      "weight": 2
-    },
-    {
-      "source_module": "tensorflow/tools/tfg_graph_transforms",
-      "target_module": "tensorflow/core/platform",
-      "weight": 3
-    },
-    {
-      "source_module": "tensorflow/tools/tfg_graph_transforms",
       "target_module": "tensorflow/compiler/mlir",
-      "weight": 4
-    },
-    {
-      "source_module": "tensorflow/tools/tfg_graph_transforms",
-      "target_module": "tensorflow/core/lib",
-      "weight": 9
+      "weight": 3
     },
     {
       "source_module": "tensorflow/tools/tfg_graph_transforms",
@@ -7369,8 +5239,8 @@
     },
     {
       "source_module": "tensorflow/tools/tfg_graph_transforms",
-      "target_module": "tensorflow/cc/experimental",
-      "weight": 5
+      "target_module": "tensorflow/core/platform",
+      "weight": 11
     },
     {
       "source_module": "tensorflow/tools/tfg_graph_transforms",

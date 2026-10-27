@@ -1,0 +1,123 @@
+{
+ "precision_at_5": 0.2,
+ "recall_at_5": 1.0,
+ "total": 4,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 1772,
+  "completion_tokens": 60,
+  "total_tokens": 1832
+ },
+ "results": [
+  {
+   "source_module": "utility",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "mis",
+    "mds",
+    "bd",
+    "rf",
+    "um"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mis\nmds\nbd\nrf\num",
+   "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 15,
+    "total_tokens": 320
+   },
+   "latency_ms": 3469.1,
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mds",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "mis",
+    "utility",
+    "bd",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mis\nutility\nbd\num\nrf",
+   "usage": {
+    "prompt_tokens": 572,
+    "completion_tokens": 15,
+    "total_tokens": 587
+   },
+   "latency_ms": 1999.7,
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mis",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "mds",
+    "bd",
+    "utility",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mds\nbd\nutility\num\nrf",
+   "usage": {
+    "prompt_tokens": 532,
+    "completion_tokens": 15,
+    "total_tokens": 547
+   },
+   "latency_ms": 2200.8,
+   "true_targets_v1": [
+    "mds"
+   ]
+  },
+  {
+   "source_module": "bd",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "mds",
+    "mis",
+    "utility",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mds\nmis\nutility\num\nrf",
+   "usage": {
+    "prompt_tokens": 363,
+    "completion_tokens": 15,
+    "total_tokens": 378
+   },
+   "latency_ms": 1984.8,
+   "true_targets_v1": [
+    "mds"
+   ]
+  }
+ ],
+ "timestamp": "2026-10-02T13:49:07.557068",
+ "model": "claude-opus-5.5",
+ "project": "nastran",
+ "task": "ar",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42,
+ "import_source": "dependency_raw",
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/level1/claude-opus-5.5_nastran_ar_l1.json"
+}

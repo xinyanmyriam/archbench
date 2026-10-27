@@ -1,0 +1,1053 @@
+{
+ "precision_at_5": 0.12272727272727273,
+ "recall_at_5": 0.20360381411517775,
+ "total": 44,
+ "results": [
+  {
+   "source_module": "torch/distributed",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_functorch",
+    "torch/_higher_order_ops",
+    "torch/_inductor",
+    "torch/_library",
+    "torch/_prims",
+    "torch/_prims_common",
+    "torch/cuda",
+    "torch/export",
+    "torch/jit",
+    "torch/monitor",
+    "torch/multiprocessing",
+    "torch/nn",
+    "torch/optim",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/util",
+    "torch/utils",
+    "torch/nn",
+    "c10/core",
+    "torch/_lazy"
+   ],
+   "precision": 0.4,
+   "recall": 0.13333333333333333,
+   "raw_response": "1. c10/util\n2. torch/utils\n3. torch/nn\n4. c10/core\n5. torch/_lazy",
+   "true_targets_v1": [
+    "torch/_prims_common",
+    "torch/profiler",
+    "torch/_export",
+    "torch/fx"
+   ]
+  },
+  {
+   "source_module": "torch/nn",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/backends",
+    "torch/cuda",
+    "torch/fx",
+    "torch/jit",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/core",
+    "torch/utils",
+    "torch/_lazy",
+    "torch/autograd",
+    "c10/util"
+   ],
+   "precision": 0.2,
+   "recall": 0.14285714285714285,
+   "raw_response": "1. c10/core\n2. torch/utils\n3. torch/_lazy\n4. torch/autograd\n5. c10/util",
+   "true_targets_v1": [
+    "torch/_library",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "c10/core",
+   "true_targets": [
+    "c10/macros",
+    "c10/util"
+   ],
+   "predicted": [
+    "c10/util",
+    "aten/src",
+    "torch/csrc",
+    "torch/_lazy",
+    "torch/autograd"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that c10/core most likely depends on:\n\n1. c10/util\n2. aten/src\n3. torch/csrc\n4. torch/_lazy\n5. torch/autograd",
+   "true_targets_v1": [
+    "c10/metal"
+   ]
+  },
+  {
+   "source_module": "torch/lib",
+   "true_targets": [
+    "c10/util"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy",
+    "torch/_library"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/lib most likely depends on:\n\n1. c10/util\n2. c10/core\n3. torch/autograd\n4. torch/_lazy\n5. torch/_library",
+   "true_targets_v1": [
+    "torch/headeronly"
+   ]
+  },
+  {
+   "source_module": "torchgen/static_runtime",
+   "true_targets": [
+    "torchgen/api"
+   ],
+   "predicted": [
+    "torchgen/api",
+    "torch/_library",
+    "torch/_native",
+    "torch/_lazy",
+    "c10/util"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the architecture of PyTorch, here are the top 5 modules that torchgen/static_runtime most likely depends on:\n\n1. torchgen/api\n2. torch/_library\n3. torch/_native\n4. torch/_lazy\n5. c10/util",
+   "true_targets_v1": [
+    "torchgen/api",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "tools/autograd",
+   "true_targets": [
+    "aten/src",
+    "c10/util",
+    "torchgen/selective_build"
+   ],
+   "predicted": [
+    "torch/autograd",
+    "c10/util",
+    "torch/_lazy",
+    "c10/core",
+    "torch/_library"
+   ],
+   "precision": 0.2,
+   "recall": 0.3333333333333333,
+   "raw_response": "1. torch/autograd\n2. c10/util\n3. torch/_lazy\n4. c10/core\n5. torch/_library",
+   "true_targets_v1": [
+    "tools/setup_helpers",
+    "torch/_dynamo",
+    "torchgen/selective_build",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "aten/src",
+   "true_targets": [
+    "c10/core",
+    "c10/cuda",
+    "c10/metal",
+    "c10/xpu",
+    "caffe2/utils",
+    "torch/csrc"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/nn",
+    "torch/_lazy",
+    "torch/_library"
+   ],
+   "precision": 0.2,
+   "recall": 0.16666666666666666,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that aten/src most likely depends on:\n\n1. c10/util\n2. c10/core\n3. torch/nn\n4. torch/_lazy\n5. torch/_library",
+   "true_targets_v1": [
+    "torch/csrc",
+    "c10/core",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/_higher_order_ops",
+   "true_targets": [
+    "torch/_functorch",
+    "torch/_logging",
+    "torch/_prims_common",
+    "torch/_subclasses",
+    "torch/autograd",
+    "torch/cuda",
+    "torch/fx",
+    "torch/multiprocessing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "torch/autograd",
+    "torch/_lazy",
+    "c10/core"
+   ],
+   "precision": 0.2,
+   "recall": 0.1111111111111111,
+   "raw_response": "1. torch/csrc\n2. c10/util\n3. torch/autograd\n4. torch/_lazy\n5. c10/core",
+   "true_targets_v1": [
+    "torch/autograd",
+    "torch/_inductor",
+    "tools/code_coverage",
+    "torch/_functorch"
+   ]
+  },
+  {
+   "source_module": "torch/testing",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/_lazy",
+    "torch/_library",
+    "torch/_prims_common",
+    "torch/_refs",
+    "torch/autograd",
+    "torch/backends",
+    "torch/distributed",
+    "torch/futures",
+    "torch/fx",
+    "torch/nested",
+    "torch/optim",
+    "torch/utils",
+    "torch/xpu"
+   ],
+   "predicted": [
+    "torch/utils",
+    "c10/util",
+    "torch/autograd",
+    "torch/_lazy",
+    "tools/linter"
+   ],
+   "precision": 0.6,
+   "recall": 0.1875,
+   "raw_response": "1. torch/utils\n2. c10/util\n3. torch/autograd\n4. torch/_lazy\n5. tools/linter",
+   "true_targets_v1": [
+    "torch/_higher_order_ops",
+    "torch/_logging",
+    "torch/_prims_common",
+    "torch/_export"
+   ]
+  },
+  {
+   "source_module": "torch/_functorch",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/_library",
+    "torch/_logging",
+    "torch/_prims_common",
+    "torch/export",
+    "torch/func",
+    "torch/fx",
+    "torch/multiprocessing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/fx"
+   ],
+   "precision": 0.2,
+   "recall": 0.09090909090909091,
+   "raw_response": "1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/fx",
+   "true_targets_v1": [
+    "torch/masked",
+    "torch/utils",
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/_library",
+   "true_targets": [
+    "torch/_export",
+    "torch/_subclasses",
+    "torch/distributed",
+    "torch/export",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/nn"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that torch/_library most likely depends on:\n\n1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/nn\n5. torch/_autograd",
+   "true_targets_v1": [
+    "torch/masked",
+    "torch/_subclasses"
+   ]
+  },
+  {
+   "source_module": "torch/_subclasses",
+   "true_targets": [
+    "torch/_custom_op",
+    "torch/_dynamo",
+    "torch/_export",
+    "torch/_functorch",
+    "torch/_higher_order_ops",
+    "torch/_inductor",
+    "torch/_prims",
+    "torch/multiprocessing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/core",
+    "torch/nn",
+    "torch/_lazy",
+    "c10/util"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/_subclasses most likely depends on:\n\n1. torch/csrc\n2. c10/core\n3. torch/nn\n4. torch/_lazy\n5. c10/util",
+   "true_targets_v1": [
+    "torch/_library",
+    "torch/_inductor",
+    "torch/_refs",
+    "torch/fx"
+   ]
+  },
+  {
+   "source_module": "torch/_dynamo",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dispatch",
+    "torch/_export",
+    "torch/_library",
+    "torch/_numpy",
+    "torch/_prims",
+    "torch/_prims_common",
+    "torch/_refs",
+    "torch/_subclasses",
+    "torch/compiler",
+    "torch/monitor",
+    "torch/multiprocessing",
+    "torch/optim",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/jit"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/jit",
+   "true_targets_v1": [
+    "torch/_inductor",
+    "torch/_refs",
+    "torch/_higher_order_ops",
+    "torch/_functorch"
+   ]
+  },
+  {
+   "source_module": "torch/cuda",
+   "true_targets": [
+    "torch/amp",
+    "torch/profiler",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/cuda",
+    "torch/csrc",
+    "aten/src",
+    "c10/util",
+    "torch/_library"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the architecture of PyTorch, here are the top 5 modules that torch/cuda most likely depends on:\n\n1. c10/cuda\n2. torch/csrc\n3. aten/src\n4. c10/util\n5. torch/_library",
+   "true_targets_v1": [
+    "torch/_inductor"
+   ]
+  },
+  {
+   "source_module": "tools/dynamo",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/_dynamo",
+    "torch/fx",
+    "torch/autograd",
+    "c10/util",
+    "torch/jit"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/_dynamo\n2. torch/fx\n3. torch/autograd\n4. c10/util\n5. torch/jit",
+   "true_targets_v1": [
+    "torch/_numpy",
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torchgen/dest",
+   "true_targets": [
+    "torchgen/api"
+   ],
+   "predicted": [
+    "torchgen/api",
+    "torch/_library",
+    "c10/util",
+    "torch/utils"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the source module `torchgen/dest`, I predict the following top 5 modules it most likely depends on:\n\n1. torchgen/api\n2. torch/_autoheuristic\n3. torch/_library\n4. c10/util\n5. torch/utils",
+   "true_targets_v1": [
+    "torchgen/selective_build"
+   ]
+  },
+  {
+   "source_module": "torch/autograd",
+   "true_targets": [
+    "torch/_decomp",
+    "torch/_functorch",
+    "torch/fx",
+    "torch/profiler",
+    "torch/testing"
+   ],
+   "predicted": [
+    "c10/core",
+    "torch/_lazy",
+    "torch/nn",
+    "c10/util",
+    "torch/utils"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. c10/core\n2. torch/_lazy\n3. torch/nn\n4. c10/util\n5. torch/utils",
+   "true_targets_v1": [
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torch/_inductor",
+   "true_targets": [
+    "functorch/compile",
+    "torch/_dispatch",
+    "torch/_library",
+    "torch/_refs",
+    "torch/ao",
+    "torch/compiler",
+    "torch/csrc",
+    "torch/func",
+    "torch/fx",
+    "torch/monitor",
+    "torch/nn",
+    "torch/optim",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "torch/nn",
+    "c10/core",
+    "torch/_dynamo"
+   ],
+   "precision": 0.4,
+   "recall": 0.14285714285714285,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/_inductor most likely depends on:\n\n1. torch/csrc\n2. c10/util\n3. torch/nn\n4. c10/core\n5. torch/_dynamo",
+   "true_targets_v1": [
+    "torch/_library",
+    "torch/_higher_order_ops",
+    "torch/onnx",
+    "torch/testing",
+    "torch/_functorch",
+    "torch/distributed",
+    "torch/_refs",
+    "torch/ao",
+    "torch/multiprocessing"
+   ]
+  },
+  {
+   "source_module": "torch/_dispatch",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/_lazy",
+   "true_targets_v1": [
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torch/_numpy",
+   "true_targets": [
+    "torch/_dynamo"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy",
+    "torch/_library"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. c10/util\n2. c10/core\n3. torch/autograd\n4. torch/_lazy\n5. torch/_library",
+   "true_targets_v1": [
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torch/optim",
+   "true_targets": [
+    "torch/nn",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/autograd",
+    "c10/core",
+    "torch/nativert",
+    "torch/_lazy",
+    "torch/utils"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. torch/autograd\n2. c10/core\n3. torch/nativert\n4. torch/_lazy\n5. torch/utils",
+   "true_targets_v1": [
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/fx",
+   "true_targets": [
+    "torch/_dispatch",
+    "torch/_dynamo",
+    "torch/_library",
+    "torch/_prims_common",
+    "torch/_subclasses",
+    "torch/distributed",
+    "torch/multiprocessing",
+    "torch/package",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy",
+    "c10/util"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/fx most likely depends on:\n\n1. torch/csrc\n2. c10/core\n3. torch/autograd\n4. torch/_lazy\n5. c10/util",
+   "true_targets_v1": [
+    "torch/autograd",
+    "torch/_subclasses"
+   ]
+  },
+  {
+   "source_module": "torch/onnx",
+   "true_targets": [
+    "torch/_refs",
+    "torch/export",
+    "torch/fx",
+    "torch/nn",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/core",
+    "torch/_export",
+    "torch/jit",
+    "c10/util"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/onnx most likely depends on:\n\n1. torch/csrc\n2. c10/core\n3. torch/_export\n4. torch/jit\n5. c10/util",
+   "true_targets_v1": [
+    "torch/utils",
+    "torch/export"
+   ]
+  },
+  {
+   "source_module": "torch/_export",
+   "true_targets": [
+    "functorch/experimental",
+    "torch/_decomp",
+    "torch/_higher_order_ops",
+    "torch/_library",
+    "torch/ao",
+    "torch/distributed",
+    "torch/export"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "torch/nn",
+    "torch/_dynamo",
+    "c10/core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/_export most likely depends on:\n\n1. torch/csrc\n2. c10/util\n3. torch/nn\n4. torch/_dynamo\n5. c10/core",
+   "true_targets_v1": [
+    "torch/_dispatch",
+    "torch/_subclasses"
+   ]
+  },
+  {
+   "source_module": "torch/utils",
+   "true_targets": [
+    "c10/util",
+    "torch/_dynamo",
+    "torch/_inductor",
+    "torch/_library",
+    "torch/_prims",
+    "torch/_subclasses",
+    "torch/_vendor",
+    "torch/autograd",
+    "torch/backends",
+    "torch/distributed",
+    "torch/fft",
+    "torch/jit"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy",
+    "torch/_library"
+   ],
+   "precision": 0.6,
+   "recall": 0.25,
+   "raw_response": "Based on the typical role of the `torch/utils` module, which is a utility module that provides various helper functions and classes, I predict the following top 5 modules that it most likely depends on:\n\n1. c10/util\n2. c10/core\n3. torch/autograd\n4. torch/_lazy\n5. torch/_library",
+   "true_targets_v1": [
+    "torch/_library",
+    "torch/_subclasses",
+    "c10/util"
+   ]
+  },
+  {
+   "source_module": "torch/masked",
+   "true_targets": [
+    "torch/_prims_common"
+   ],
+   "predicted": [
+    "torch/autograd",
+    "c10/util",
+    "torch/_lazy",
+    "torch/csrc",
+    "c10/core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/masked most likely depends on:\n\n1. torch/autograd\n2. c10/util\n3. torch/_lazy\n4. torch/csrc\n5. c10/core",
+   "true_targets_v1": [
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/export",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_higher_order_ops",
+    "torch/_inductor",
+    "torch/_logging",
+    "torch/_subclasses",
+    "torch/fx"
+   ],
+   "predicted": [
+    "torch/_lazy",
+    "c10/util",
+    "torch/nn",
+    "torch/jit",
+    "c10/core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/_lazy\n2. c10/util\n3. torch/nn\n4. torch/jit\n5. c10/core",
+   "true_targets_v1": [
+    "torch/_subclasses",
+    "torch/_logging",
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "torch/ao",
+   "true_targets": [
+    "torch/_subclasses",
+    "torch/jit",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy",
+    "torch/_library"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/ao most likely depends on:\n\n1. c10/util\n2. c10/core\n3. torch/autograd\n4. torch/_lazy\n5. torch/_library",
+   "true_targets_v1": [
+    "torch/masked",
+    "torch/jit"
+   ]
+  },
+  {
+   "source_module": "torch/_refs",
+   "true_targets": [
+    "torch/_decomp",
+    "torch/_prims_common",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/_library",
+    "torch/_lazy",
+    "torch/_native"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/_refs most likely depends on:\n\n1. c10/util\n2. c10/core\n3. torch/_library\n4. torch/_lazy\n5. torch/_native",
+   "true_targets_v1": [
+    "torch/_prims"
+   ]
+  },
+  {
+   "source_module": "c10/cuda",
+   "true_targets": [
+    "c10/macros",
+    "c10/util"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/csrc",
+    "torch/_library",
+    "aten/src"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "1. c10/util\n2. c10/core\n3. torch/csrc\n4. torch/_library\n5. aten/src",
+   "true_targets_v1": [
+    "c10/util"
+   ]
+  },
+  {
+   "source_module": "torch/distributions",
+   "true_targets": [
+    "torch/autograd",
+    "torch/nn"
+   ],
+   "predicted": [
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy",
+    "torch/nn",
+    "c10/util"
+   ],
+   "precision": 0.4,
+   "recall": 1.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/distributions most likely depends on:\n\n1. c10/core\n2. torch/autograd\n3. torch/_lazy\n4. torch/nn\n5. c10/util",
+   "true_targets_v1": [
+    "torch/jit",
+    "torch/utils"
+   ]
+  },
+  {
+   "source_module": "c10/mobile",
+   "true_targets": [
+    "c10/macros",
+    "c10/util"
+   ],
+   "predicted": [
+    "c10/util",
+    "c10/core",
+    "torch/csrc",
+    "aten/src",
+    "torch/_inductor"
+   ],
+   "precision": 0.2,
+   "recall": 0.5,
+   "raw_response": "Based on the architecture of PyTorch, here are the top 5 modules that c10/mobile most likely depends on:\n\n1. c10/util\n2. c10/core\n3. torch/csrc\n4. aten/src\n5. torch/_inductor",
+   "true_targets_v1": [
+    "c10/core"
+   ]
+  },
+  {
+   "source_module": "torch/_logging",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/distributed"
+   ],
+   "predicted": [
+    "c10/util",
+    "torch/utils",
+    "torch/_inductor",
+    "torch/nn",
+    "c10/core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that torch/_logging most likely depends on:\n\n1. c10/util\n2. torch/utils\n3. torch/_inductor\n4. torch/nn\n5. c10/core",
+   "true_targets_v1": [
+    "torch/utils"
+   ]
+  },
+  {
+   "source_module": "torch/monitor",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/utils",
+    "c10/util",
+    "torch/autograd",
+    "torch/_lazy",
+    "c10/core"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "Based on the typical role of the source module, here are the top 5 modules that torch/monitor most likely depends on:\n\n1. torch/utils\n2. c10/util\n3. torch/autograd\n4. torch/_lazy\n5. c10/core",
+   "true_targets_v1": [
+    "torch/distributed"
+   ]
+  },
+  {
+   "source_module": "torch/jit",
+   "true_targets": [
+    "torch/autograd",
+    "torch/package",
+    "torch/testing",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/nn",
+    "torch/_export"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/nn\n5. torch/_export",
+   "true_targets_v1": [
+    "torch/autograd"
+   ]
+  },
+  {
+   "source_module": "torch/nativert",
+   "true_targets": [
+    "aten/src",
+    "c10/util",
+    "torch/csrc",
+    "torch/export",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy"
+   ],
+   "precision": 0.4,
+   "recall": 0.4,
+   "raw_response": "Based on the architecture of PyTorch, here are the top 5 modules that torch/nativert most likely depends on:\n\n1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/_lazy",
+   "true_targets_v1": [
+    "torch/headeronly"
+   ]
+  },
+  {
+   "source_module": "torch/_decomp",
+   "true_targets": [
+    "torch/_prims",
+    "torch/_refs",
+    "torch/fx",
+    "torch/nn",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that torch/_decomp most likely depends on:\n\n1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/_lazy",
+   "true_targets_v1": [
+    "torch/utils"
+   ]
+  },
+  {
+   "source_module": "tools/testing",
+   "true_targets": [
+    "torch/testing"
+   ],
+   "predicted": [
+    "torch/autograd",
+    "c10/util",
+    "torch/utils",
+    "torch/_lazy",
+    "torch/_library"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/autograd\n2. c10/util\n3. torch/utils\n4. torch/_lazy\n5. torch/_library",
+   "true_targets_v1": [
+    "tools/stats"
+   ]
+  },
+  {
+   "source_module": "tools/code_analyzer",
+   "true_targets": [
+    "tools/lite_interpreter"
+   ],
+   "predicted": [
+    "tools/linter",
+    "tools/autograd",
+    "tools/experimental",
+    "tools/stats",
+    "tools/setup_helpers"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the typical role of the source module `tools/code_analyzer`, here are the top 5 modules that it most likely depends on:\n\n1. tools/linter\n2. tools/autograd\n3. tools/experimental\n4. tools/stats\n5. tools/setup_helpers",
+   "true_targets_v1": [
+    "torchgen/selective_build",
+    "torch/_dynamo"
+   ]
+  },
+  {
+   "source_module": "tools/linter",
+   "true_targets": [
+    "tools/dynamo"
+   ],
+   "predicted": [
+    "c10/util",
+    "torch/utils",
+    "torch/autograd",
+    "torch/_lazy",
+    "c10/core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. c10/util\n2. torch/utils\n3. torch/autograd\n4. torch/_lazy\n5. c10/core",
+   "true_targets_v1": [
+    "tools/setup_helpers",
+    "torch/_export"
+   ]
+  },
+  {
+   "source_module": "tools/pyi",
+   "true_targets": [
+    "tools/autograd"
+   ],
+   "predicted": [
+    "torch/utils",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_library"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the PyTorch architecture, here are the top 5 modules that tools/pyi most likely depends on:\n\n1. torch/utils\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/_library",
+   "true_targets_v1": [
+    "torchgen/api"
+   ]
+  },
+  {
+   "source_module": "tools/jit",
+   "true_targets": [
+    "torchgen/api",
+    "torchgen/selective_build"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "torch/autograd",
+    "torch/_lazy",
+    "c10/core"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/csrc\n2. c10/util\n3. torch/autograd\n4. torch/_lazy\n5. c10/core",
+   "true_targets_v1": [
+    "torchgen/selective_build"
+   ]
+  },
+  {
+   "source_module": "torch/mps",
+   "true_targets": [
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "Based on the source code and architecture of PyTorch, here are the top 5 modules that torch/mps most likely depends on:\n\n1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/_lazy",
+   "true_targets_v1": [
+    "torch/utils"
+   ]
+  },
+  {
+   "source_module": "torch/compiler",
+   "true_targets": [
+    "torch/_dynamo",
+    "torch/_inductor",
+    "torch/utils"
+   ],
+   "predicted": [
+    "torch/csrc",
+    "c10/util",
+    "c10/core",
+    "torch/autograd",
+    "torch/_lazy"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "1. torch/csrc\n2. c10/util\n3. c10/core\n4. torch/autograd\n5. torch/_lazy",
+   "true_targets_v1": [
+    "torch/_functorch"
+   ]
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/llama-3.1-8b_pytorch_ar.json"
+}

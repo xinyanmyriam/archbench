@@ -1,0 +1,859 @@
+{
+ "v1_source": "results_rerun\\baselines_fixed.json",
+ "v2_source": "results_v2\\baselines_fixed.json",
+ "v1_manifest": "samples/manifest_seed42.json",
+ "v2_manifest": "samples/manifest_v2.json",
+ "macro_compare": [
+  {
+   "task": "ci",
+   "baseline": "random",
+   "metric": "accuracy",
+   "label": "CI  Random",
+   "v1": 0.2496,
+   "v2": 0.2496,
+   "delta": 0.0
+  },
+  {
+   "task": "ci",
+   "baseline": "frequency",
+   "metric": "accuracy",
+   "label": "CI  Frequency",
+   "v1": 0.7871,
+   "v2": 0.7871,
+   "delta": 0.0
+  },
+  {
+   "task": "ci",
+   "baseline": "path_heuristic",
+   "metric": "accuracy",
+   "label": "CI  Path Heuristic",
+   "v1": 0.9483,
+   "v2": 0.9483,
+   "delta": 0.0
+  },
+  {
+   "task": "ci_hard",
+   "baseline": "random",
+   "metric": "accuracy",
+   "label": "CI-Hard  Random",
+   "v1": 0.2517,
+   "v2": 0.2517,
+   "delta": 0.0
+  },
+  {
+   "task": "ci_hard",
+   "baseline": "frequency",
+   "metric": "accuracy",
+   "label": "CI-Hard  Frequency",
+   "v1": 0.7842,
+   "v2": 0.7842,
+   "delta": 0.0
+  },
+  {
+   "task": "ci_hard",
+   "baseline": "path_heuristic",
+   "metric": "accuracy",
+   "label": "CI-Hard  Path Heuristic",
+   "v1": 0.2517,
+   "v2": 0.2517,
+   "delta": 0.0
+  },
+  {
+   "task": "dp",
+   "baseline": "random",
+   "metric": "f1",
+   "label": "DP  Random  F1",
+   "v1": 0.4454,
+   "v2": 0.4022,
+   "delta": -0.0432
+  },
+  {
+   "task": "dp",
+   "baseline": "frequency",
+   "metric": "f1",
+   "label": "DP  Frequency  F1",
+   "v1": 0.6109,
+   "v2": 0.5253,
+   "delta": -0.0855
+  },
+  {
+   "task": "dp",
+   "baseline": "graph_neighbor",
+   "metric": "f1",
+   "label": "DP  Graph Neighbor  F1",
+   "v1": 0.6255,
+   "v2": 0.4995,
+   "delta": -0.126
+  },
+  {
+   "task": "ar",
+   "baseline": "random",
+   "metric": "precision_at_5",
+   "label": "AR  Random  P@5",
+   "v1": 0.0657,
+   "v2": 0.0579,
+   "delta": -0.0078
+  },
+  {
+   "task": "ar",
+   "baseline": "random",
+   "metric": "recall_at_5",
+   "label": "AR  Random  R@5",
+   "v1": 0.1467,
+   "v2": 0.1727,
+   "delta": 0.026
+  },
+  {
+   "task": "ar",
+   "baseline": "frequency",
+   "metric": "precision_at_5",
+   "label": "AR  Frequency  P@5",
+   "v1": 0.1768,
+   "v2": 0.1536,
+   "delta": -0.0232
+  },
+  {
+   "task": "ar",
+   "baseline": "frequency",
+   "metric": "recall_at_5",
+   "label": "AR  Frequency  R@5",
+   "v1": 0.3751,
+   "v2": 0.3989,
+   "delta": 0.0239
+  },
+  {
+   "task": "ar",
+   "baseline": "graph_two_hop",
+   "metric": "precision_at_5",
+   "label": "AR  Graph Two-Hop  P@5",
+   "v1": 0.2829,
+   "v2": 0.3719,
+   "delta": 0.0889
+  },
+  {
+   "task": "ar",
+   "baseline": "graph_two_hop",
+   "metric": "recall_at_5",
+   "label": "AR  Graph Two-Hop  R@5",
+   "v1": 0.6406,
+   "v2": 0.7155,
+   "delta": 0.075
+  },
+  {
+   "task": "ar",
+   "baseline": "graph_neighbor",
+   "metric": "precision_at_5",
+   "label": "AR  Graph Neighbor  P@5",
+   "v1": 0.0,
+   "v2": 0.0,
+   "delta": 0.0
+  },
+  {
+   "task": "ar",
+   "baseline": "graph_neighbor",
+   "metric": "recall_at_5",
+   "label": "AR  Graph Neighbor  R@5",
+   "v1": 0.0,
+   "v2": 0.0,
+   "delta": 0.0
+  }
+ ],
+ "per_system_v2": {
+  "openfoam": {
+   "dp": {
+    "random": {
+     "accuracy": 0.515,
+     "precision": 0.4368,
+     "recall": 0.4419,
+     "f1": 0.4393
+    },
+    "frequency": {
+     "accuracy": 0.58,
+     "precision": 0.5192,
+     "recall": 0.314,
+     "f1": 0.3913
+    },
+    "graph_neighbor": {
+     "accuracy": 0.55,
+     "precision": 0.4873,
+     "recall": 0.8953,
+     "f1": 0.6311
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.67,
+     "precision": 0.6429,
+     "recall": 0.5233,
+     "f1": 0.5769
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.595,
+     "precision": 0.515,
+     "recall": 1.0,
+     "f1": 0.6798
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0217,
+     "recall_at_5": 0.0529
+    },
+    "frequency": {
+     "precision_at_5": 0.2,
+     "recall_at_5": 0.596
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.2783,
+     "recall_at_5": 0.7507
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.3348,
+     "recall_at_5": 0.9609
+    }
+   },
+   "_v1_dp_f1_gn": 0.6875,
+   "_v1_ar_p5_2hop": 0.2696
+  },
+  "nastran": {
+   "dp": {
+    "random": {
+     "accuracy": 0.625,
+     "precision": 1.0,
+     "recall": 0.25,
+     "f1": 0.4
+    },
+    "frequency": {
+     "accuracy": 0.5,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "graph_neighbor": {
+     "accuracy": 0.375,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.5,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.875,
+     "precision": 0.8,
+     "recall": 1.0,
+     "f1": 0.8889
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.2,
+     "recall_at_5": 1.0
+    },
+    "frequency": {
+     "precision_at_5": 0.2,
+     "recall_at_5": 1.0
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.2,
+     "recall_at_5": 1.0
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.2,
+     "recall_at_5": 1.0
+    }
+   },
+   "_v1_dp_f1_gn": 0.0,
+   "_v1_ar_p5_2hop": 0.2
+  },
+  "salome": {
+   "dp": {
+    "random": {
+     "accuracy": 0.505,
+     "precision": 0.4253,
+     "recall": 0.4302,
+     "f1": 0.4277
+    },
+    "frequency": {
+     "accuracy": 0.65,
+     "precision": 0.5702,
+     "recall": 0.7558,
+     "f1": 0.65
+    },
+    "graph_neighbor": {
+     "accuracy": 0.69,
+     "precision": 0.6714,
+     "recall": 0.5465,
+     "f1": 0.6026
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.69,
+     "precision": 0.5984,
+     "recall": 0.8488,
+     "f1": 0.7019
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.885,
+     "precision": 0.789,
+     "recall": 1.0,
+     "f1": 0.8821
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0091,
+     "recall_at_5": 0.0051
+    },
+    "frequency": {
+     "precision_at_5": 0.0576,
+     "recall_at_5": 0.0748
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.3152,
+     "recall_at_5": 0.3874
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.4455,
+     "recall_at_5": 0.68
+    }
+   },
+   "_v1_dp_f1_gn": 0.6228,
+   "_v1_ar_p5_2hop": 0.1522
+  },
+  "paraview": {
+   "dp": {
+    "random": {
+     "accuracy": 0.515,
+     "precision": 0.5172,
+     "recall": 0.45,
+     "f1": 0.4813
+    },
+    "frequency": {
+     "accuracy": 0.655,
+     "precision": 0.6742,
+     "recall": 0.6,
+     "f1": 0.6349
+    },
+    "graph_neighbor": {
+     "accuracy": 0.665,
+     "precision": 0.6737,
+     "recall": 0.64,
+     "f1": 0.6564
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.74,
+     "precision": 0.7264,
+     "recall": 0.77,
+     "f1": 0.7476
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.845,
+     "precision": 0.7634,
+     "recall": 1.0,
+     "f1": 0.8658
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0286,
+     "recall_at_5": 0.0459
+    },
+    "frequency": {
+     "precision_at_5": 0.1796,
+     "recall_at_5": 0.3324
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.3224,
+     "recall_at_5": 0.6103
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.4327,
+     "recall_at_5": 0.8744
+    }
+   },
+   "_v1_dp_f1_gn": 0.6531,
+   "_v1_ar_p5_2hop": 0.276
+  },
+  "kubernetes": {
+   "dp": {
+    "random": {
+     "accuracy": 0.515,
+     "precision": 0.2989,
+     "recall": 0.4194,
+     "f1": 0.349
+    },
+    "frequency": {
+     "accuracy": 0.625,
+     "precision": 0.4381,
+     "recall": 0.7419,
+     "f1": 0.5509
+    },
+    "graph_neighbor": {
+     "accuracy": 0.685,
+     "precision": 0.494,
+     "recall": 0.6613,
+     "f1": 0.5655
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.65,
+     "precision": 0.4636,
+     "recall": 0.8226,
+     "f1": 0.593
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.79,
+     "precision": 0.5962,
+     "recall": 1.0,
+     "f1": 0.747
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.037,
+     "recall_at_5": 0.0687
+    },
+    "frequency": {
+     "precision_at_5": 0.1667,
+     "recall_at_5": 0.3169
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.3926,
+     "recall_at_5": 0.6931
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.4407,
+     "recall_at_5": 0.8441
+    }
+   },
+   "_v1_dp_f1_gn": 0.57,
+   "_v1_ar_p5_2hop": 0.0143
+  },
+  "linux": {
+   "dp": {
+    "random": {
+     "accuracy": 0.5,
+     "precision": 0.5172,
+     "recall": 0.4369,
+     "f1": 0.4737
+    },
+    "frequency": {
+     "accuracy": 0.61,
+     "precision": 0.6126,
+     "recall": 0.6602,
+     "f1": 0.6355
+    },
+    "graph_neighbor": {
+     "accuracy": 0.485,
+     "precision": 0.5,
+     "recall": 0.0583,
+     "f1": 0.1043
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.665,
+     "precision": 0.6475,
+     "recall": 0.767,
+     "f1": 0.7022
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.97,
+     "precision": 0.945,
+     "recall": 1.0,
+     "f1": 0.9717
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0136,
+     "recall_at_5": 0.0177
+    },
+    "frequency": {
+     "precision_at_5": 0.1023,
+     "recall_at_5": 0.2418
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.375,
+     "recall_at_5": 0.6753
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.4341,
+     "recall_at_5": 0.832
+    }
+   },
+   "_v1_dp_f1_gn": 0.7138,
+   "_v1_ar_p5_2hop": 0.15
+  },
+  "hadoop": {
+   "dp": {
+    "random": {
+     "accuracy": 0.605,
+     "precision": 0.2989,
+     "recall": 0.5909,
+     "f1": 0.3969
+    },
+    "frequency": {
+     "accuracy": 0.685,
+     "precision": 0.3538,
+     "recall": 0.5227,
+     "f1": 0.422
+    },
+    "graph_neighbor": {
+     "accuracy": 0.51,
+     "precision": 0.2632,
+     "recall": 0.6818,
+     "f1": 0.3797
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.705,
+     "precision": 0.3913,
+     "recall": 0.6136,
+     "f1": 0.4779
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.58,
+     "precision": 0.3438,
+     "recall": 1.0,
+     "f1": 0.5116
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0421,
+     "recall_at_5": 0.114
+    },
+    "frequency": {
+     "precision_at_5": 0.1789,
+     "recall_at_5": 0.3947
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.3684,
+     "recall_at_5": 0.9649
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.3789,
+     "recall_at_5": 0.9825
+    }
+   },
+   "_v1_dp_f1_gn": 0.7788,
+   "_v1_ar_p5_2hop": 0.6571
+  },
+  "spring": {
+   "dp": {
+    "random": {
+     "accuracy": 0.48,
+     "precision": 0.3103,
+     "recall": 0.3803,
+     "f1": 0.3418
+    },
+    "frequency": {
+     "accuracy": 0.53,
+     "precision": 0.4094,
+     "recall": 0.7324,
+     "f1": 0.5253
+    },
+    "graph_neighbor": {
+     "accuracy": 0.385,
+     "precision": 0.3354,
+     "recall": 0.7465,
+     "f1": 0.4629
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.585,
+     "precision": 0.4565,
+     "recall": 0.8873,
+     "f1": 0.6029
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.475,
+     "precision": 0.4034,
+     "recall": 1.0,
+     "f1": 0.5749
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.1474,
+     "recall_at_5": 0.3904
+    },
+    "frequency": {
+     "precision_at_5": 0.2947,
+     "recall_at_5": 0.7061
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.3789,
+     "recall_at_5": 0.8509
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.4211,
+     "recall_at_5": 0.9298
+    }
+   },
+   "_v1_dp_f1_gn": 0.7014,
+   "_v1_ar_p5_2hop": 0.58
+  },
+  "codeaster": {
+   "dp": {
+    "random": {
+     "accuracy": 0.45,
+     "precision": 0.4023,
+     "recall": 0.3763,
+     "f1": 0.3889
+    },
+    "frequency": {
+     "accuracy": 0.7,
+     "precision": 0.6241,
+     "recall": 0.8925,
+     "f1": 0.7345
+    },
+    "graph_neighbor": {
+     "accuracy": 0.875,
+     "precision": 0.8469,
+     "recall": 0.8925,
+     "f1": 0.8691
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.715,
+     "precision": 0.6324,
+     "recall": 0.9247,
+     "f1": 0.7511
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.925,
+     "precision": 0.8611,
+     "recall": 1.0,
+     "f1": 0.9254
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0588,
+     "recall_at_5": 0.0554
+    },
+    "frequency": {
+     "precision_at_5": 0.0176,
+     "recall_at_5": 0.0198
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.5941,
+     "recall_at_5": 0.6823
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.5,
+     "recall_at_5": 0.651
+    }
+   },
+   "_v1_dp_f1_gn": 0.8542,
+   "_v1_ar_p5_2hop": 0.3941
+  },
+  "openmodelica": {
+   "dp": {
+    "random": {
+     "accuracy": 0.5,
+     "precision": 0.4444,
+     "recall": 0.3478,
+     "f1": 0.3902
+    },
+    "frequency": {
+     "accuracy": 0.66,
+     "precision": 0.7143,
+     "recall": 0.4348,
+     "f1": 0.5405
+    },
+    "graph_neighbor": {
+     "accuracy": 0.52,
+     "precision": 0.4737,
+     "recall": 0.3913,
+     "f1": 0.4286
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.66,
+     "precision": 0.7143,
+     "recall": 0.4348,
+     "f1": 0.5405
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.8,
+     "precision": 0.697,
+     "recall": 1.0,
+     "f1": 0.8214
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0727,
+     "recall_at_5": 0.2424
+    },
+    "frequency": {
+     "precision_at_5": 0.2364,
+     "recall_at_5": 0.9394
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.2727,
+     "recall_at_5": 1.0
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.2727,
+     "recall_at_5": 1.0
+    }
+   },
+   "_v1_dp_f1_gn": 0.4444,
+   "_v1_ar_p5_2hop": 0.35
+  },
+  "tensorflow": {
+   "dp": {
+    "random": {
+     "accuracy": 0.54,
+     "precision": 0.3793,
+     "recall": 0.4648,
+     "f1": 0.4177
+    },
+    "frequency": {
+     "accuracy": 0.485,
+     "precision": 0.4048,
+     "recall": 0.9577,
+     "f1": 0.569
+    },
+    "graph_neighbor": {
+     "accuracy": 0.535,
+     "precision": 0.4321,
+     "recall": 0.9859,
+     "f1": 0.6009
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.49,
+     "precision": 0.4083,
+     "recall": 0.9718,
+     "f1": 0.575
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.54,
+     "precision": 0.4356,
+     "recall": 1.0,
+     "f1": 0.6068
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0369,
+     "recall_at_5": 0.0304
+    },
+    "frequency": {
+     "precision_at_5": 0.1138,
+     "recall_at_5": 0.0873
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.5785,
+     "recall_at_5": 0.5085
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.4769,
+     "recall_at_5": 0.4898
+    }
+   },
+   "_v1_dp_f1_gn": 0.7566,
+   "_v1_ar_p5_2hop": 0.1446
+  },
+  "pytorch": {
+   "dp": {
+    "random": {
+     "accuracy": 0.49,
+     "precision": 0.2759,
+     "recall": 0.381,
+     "f1": 0.32
+    },
+    "frequency": {
+     "accuracy": 0.725,
+     "precision": 0.5426,
+     "recall": 0.8095,
+     "f1": 0.6497
+    },
+    "graph_neighbor": {
+     "accuracy": 0.765,
+     "precision": 0.5889,
+     "recall": 0.8413,
+     "f1": 0.6928
+    },
+    "frequency_unmasked": {
+     "accuracy": 0.745,
+     "precision": 0.5612,
+     "recall": 0.873,
+     "f1": 0.6832
+    },
+    "graph_neighbor_unmasked": {
+     "accuracy": 0.815,
+     "precision": 0.63,
+     "recall": 1.0,
+     "f1": 0.773
+    }
+   },
+   "ar": {
+    "random": {
+     "precision_at_5": 0.0273,
+     "recall_at_5": 0.0494
+    },
+    "frequency": {
+     "precision_at_5": 0.0955,
+     "recall_at_5": 0.0781
+    },
+    "graph_neighbor": {
+     "precision_at_5": 0.0,
+     "recall_at_5": 0.0
+    },
+    "graph_two_hop": {
+     "precision_at_5": 0.3864,
+     "recall_at_5": 0.4628
+    },
+    "graph_neighbor_unmasked": {
+     "precision_at_5": 0.4136,
+     "recall_at_5": 0.6989
+    }
+   },
+   "_v1_dp_f1_gn": 0.7239,
+   "_v1_ar_p5_2hop": 0.2073
+  }
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "precision_at_5": 0.2181818181818182,
+ "recall_at_5": 0.8484848484848485,
+ "total": 11,
+ "n_api_errors": 0,
+ "usage_total": {
+  "prompt_tokens": 9215,
+  "completion_tokens": 763,
+  "total_tokens": 9978
+ },
+ "results": [
+  {
+   "source_module": "OMNotebook/OMNotebook",
+   "true_targets": [
+    "OMPlot/OMPlot",
+    "OMPlot/qwt",
+    "OMShell/OMShell"
+   ],
+   "predicted": [
+    "OMPlot/OMPlot",
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/qwt",
+    "OMCompiler/Compiler",
+    "OMCompiler/3rdParty"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "OMPlot/OMPlot\nOMCompiler/SimulationRuntime\nOMPlot/qwt\nOMCompiler/Compiler\nOMCompiler/3rdParty",
+   "usage": {
+    "prompt_tokens": 853,
+    "completion_tokens": 64,
+    "total_tokens": 917
+   },
+   "latency_ms": 2831.8,
+   "true_targets_v1": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/tools",
+    "OMPlot/OMPlot",
+    "OMPlot/qwt",
+    "OMShell/OMShell"
+   ]
+  },
+  {
+   "source_module": "OMCompiler/Parser",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Compiler",
+    "OMParser/3rdParty",
+    "OMCompiler/toJulia"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMCompiler/Compiler\nOMParser/3rdParty\nOMCompiler/toJulia",
+   "usage": {
+    "prompt_tokens": 772,
+    "completion_tokens": 65,
+    "total_tokens": 837
+   },
+   "latency_ms": 2791.3,
+   "true_targets_v1": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMShell/OMShell",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Compiler",
+    "OMShell/mosh",
+    "OMNotebook/OMNotebook"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMCompiler/Compiler\nOMShell/mosh\nOMNotebook/OMNotebook",
+   "usage": {
+    "prompt_tokens": 704,
+    "completion_tokens": 65,
+    "total_tokens": 769
+   },
+   "latency_ms": 2928.1,
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMEdit/OMEditLIB",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime",
+    "OMParser/3rdParty",
+    "OMPlot/qwt"
+   ],
+   "predicted": [
+    "OMPlot/OMPlot",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMPlot/qwt",
+    "OMCompiler/Compiler"
+   ],
+   "precision": 0.4,
+   "recall": 0.6666666666666666,
+   "raw_response": "OMPlot/OMPlot\nOMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMPlot/qwt\nOMCompiler/Compiler",
+   "usage": {
+    "prompt_tokens": 896,
+    "completion_tokens": 64,
+    "total_tokens": 960
+   },
+   "latency_ms": 2881.7,
+   "true_targets_v1": [
+    "OMCompiler/Compiler",
+    "OMCompiler/SimulationRuntime",
+    "OMParser/3rdParty",
+    "OMPlot/OMPlot",
+    "OMPlot/qwt"
+   ]
+  },
+  {
+   "source_module": "OMPlot/OMPlot",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMPlot/qwt",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Compiler",
+    "OMEdit/OMEditLIB"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMPlot/qwt\nOMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMCompiler/Compiler\nOMEdit/OMEditLIB",
+   "usage": {
+    "prompt_tokens": 891,
+    "completion_tokens": 66,
+    "total_tokens": 957
+   },
+   "latency_ms": 2782.2,
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/qwt"
+   ]
+  },
+  {
+   "source_module": "OMParser/test",
+   "true_targets": [
+    "OMParser/3rdParty"
+   ],
+   "predicted": [
+    "OMParser/3rdParty",
+    "OMCompiler/Parser",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Compiler",
+    "OMCompiler/tools"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMParser/3rdParty\nOMCompiler/Parser\nOMCompiler/3rdParty\nOMCompiler/Compiler\nOMCompiler/tools",
+   "usage": {
+    "prompt_tokens": 491,
+    "completion_tokens": 58,
+    "total_tokens": 549
+   },
+   "latency_ms": 2935.4,
+   "true_targets_v1": [
+    "OMParser/3rdParty"
+   ]
+  },
+  {
+   "source_module": "OMEdit/OMEditGUI",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMEdit/OMEditLIB",
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Compiler",
+    "OMPlot/OMPlot"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMEdit/OMEditLIB\nOMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMCompiler/Compiler\nOMPlot/OMPlot",
+   "usage": {
+    "prompt_tokens": 535,
+    "completion_tokens": 68,
+    "total_tokens": 603
+   },
+   "latency_ms": 3929.4,
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime",
+    "OMEdit/OMEditLIB"
+   ]
+  },
+  {
+   "source_module": "OMShell/mosh",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Compiler",
+    "OMShell/OMShell",
+    "OMEdit/OMEditLIB"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMCompiler/Compiler\nOMShell/OMShell\nOMEdit/OMEditLIB",
+   "usage": {
+    "prompt_tokens": 684,
+    "completion_tokens": 66,
+    "total_tokens": 750
+   },
+   "latency_ms": 2727.4,
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMParser/3rdParty",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/3rdParty",
+    "OMParser/test",
+    "OMCompiler/Parser",
+    "OMCompiler/Compiler",
+    "OMEdit/OMEditLIB"
+   ],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "OMCompiler/3rdParty\nOMParser/test\nOMCompiler/Parser\nOMCompiler/Compiler\nOMEdit/OMEditLIB",
+   "usage": {
+    "prompt_tokens": 839,
+    "completion_tokens": 58,
+    "total_tokens": 897
+   },
+   "latency_ms": 2620.5,
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  },
+  {
+   "source_module": "OMEdit/Testsuite",
+   "true_targets": [
+    "OMEdit/OMEditLIB"
+   ],
+   "predicted": [
+    "OMEdit/OMEditLIB",
+    "OMCompiler/SimulationRuntime",
+    "OMPlot/OMPlot",
+    "OMCompiler/Compiler",
+    "OMEdit/OMEditGUI"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMEdit/OMEditLIB\nOMCompiler/SimulationRuntime\nOMPlot/OMPlot\nOMCompiler/Compiler\nOMEdit/OMEditGUI",
+   "usage": {
+    "prompt_tokens": 819,
+    "completion_tokens": 69,
+    "total_tokens": 888
+   },
+   "latency_ms": 2766.0,
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime",
+    "OMEdit/OMEditLIB"
+   ]
+  },
+  {
+   "source_module": "OMCompiler/Compiler",
+   "true_targets": [
+    "OMCompiler/SimulationRuntime"
+   ],
+   "predicted": [
+    "OMCompiler/SimulationRuntime",
+    "OMCompiler/3rdParty",
+    "OMCompiler/Parser",
+    "OMParser/3rdParty",
+    "OMCompiler/tools"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "OMCompiler/SimulationRuntime\nOMCompiler/3rdParty\nOMCompiler/Parser\nOMParser/3rdParty\nOMCompiler/tools",
+   "usage": {
+    "prompt_tokens": 845,
+    "completion_tokens": 62,
+    "total_tokens": 907
+   },
+   "latency_ms": 2609.9,
+   "true_targets_v1": [
+    "OMCompiler/SimulationRuntime"
+   ]
+  }
+ ],
+ "timestamp": "2026-10-03T02:53:52.415507",
+ "model": "claude-opus-5.5",
+ "project": "openmodelica",
+ "task": "ar",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42,
+ "import_source": "dependency_raw",
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/level1/claude-opus-5.5_openmodelica_ar_l1.json"
+}

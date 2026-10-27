@@ -1,0 +1,2545 @@
+{
+  "precision_at_5": 0.25227272727272704,
+  "recall_at_5": 0.46725739538239547,
+  "total": 88,
+  "n_api_errors": 0,
+  "usage_total": {
+    "prompt_tokens": 109021,
+    "completion_tokens": 3047416,
+    "total_tokens": 3156437
+  },
+  "results": [
+    {
+      "source_module": "lib/lzo",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ninclude/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1221,
+        "completion_tokens": 22122,
+        "total_tokens": 23343
+      },
+      "latency_ms": 91576.6
+    },
+    {
+      "source_module": "drivers/thermal",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/linux",
+        "include/net",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/acpi",
+        "include/soc",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/x86"
+      ],
+      "precision": 0.8,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ninclude/net\narch/x86",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 31154,
+        "total_tokens": 32393
+      },
+      "latency_ms": 135270.7
+    },
+    {
+      "source_module": "arch/powerpc",
+      "true_targets": [
+        "drivers/pci",
+        "include/linux",
+        "include/math-emu",
+        "include/misc",
+        "include/scsi",
+        "include/soc",
+        "include/uapi",
+        "include/vdso"
+      ],
+      "shown_deps": [
+        "include/asm-generic",
+        "include/crypto",
+        "include/dt-bindings",
+        "include/kunit",
+        "include/kvm",
+        "include/pcmcia",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "include/sound",
+        "arch/sh"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\ninclude/sound\narch/sh",
+      "usage": {
+        "prompt_tokens": 1250,
+        "completion_tokens": 24116,
+        "total_tokens": 25366
+      },
+      "latency_ms": 98358.4
+    },
+    {
+      "source_module": "drivers/bus",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/linux",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/soc",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "arch/mips",
+        "include/net",
+        "arch/arm"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/dt-bindings\narch/mips\ninclude/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 61084,
+        "total_tokens": 62320
+      },
+      "latency_ms": 249564.0
+    },
+    {
+      "source_module": "net/xfrm",
+      "true_targets": [
+        "include/crypto",
+        "include/linux",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/net",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/sound",
+        "drivers/net",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/sound\ndrivers/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 32226,
+        "total_tokens": 33465
+      },
+      "latency_ms": 124278.1
+    },
+    {
+      "source_module": "drivers/android",
+      "true_targets": [
+        "include/kunit",
+        "include/linux",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/net",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/dt-bindings",
+        "drivers/net",
+        "drivers/media"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/dt-bindings\ndrivers/net\ndrivers/media",
+      "usage": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 9270,
+        "total_tokens": 10502
+      },
+      "latency_ms": 37396.6
+    },
+    {
+      "source_module": "drivers/ata",
+      "true_targets": [
+        "include/pcmcia",
+        "include/scsi",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "drivers/scsi",
+        "include/linux",
+        "include/soc"
+      ],
+      "predicted": [
+        "include/uapi",
+        "arch/mips",
+        "arch/arm",
+        "arch/powerpc",
+        "drivers/dma"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/uapi\narch/mips\narch/arm\narch/powerpc\ndrivers/dma",
+      "usage": {
+        "prompt_tokens": 1240,
+        "completion_tokens": 48523,
+        "total_tokens": 49763
+      },
+      "latency_ms": 202381.4
+    },
+    {
+      "source_module": "drivers/rpmsg",
+      "true_targets": [
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/uapi\ninclude/dt-bindings\ninclude/net\narch/sh\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 39636,
+        "total_tokens": 40872
+      },
+      "latency_ms": 166864.9
+    },
+    {
+      "source_module": "kernel/trace",
+      "true_targets": [
+        "include/asm-generic",
+        "include/rv",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/net",
+        "include/uapi"
+      ],
+      "predicted": [
+        "drivers/net",
+        "include/dt-bindings",
+        "include/sound",
+        "drivers/dma",
+        "drivers/media"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/net\ninclude/dt-bindings\ninclude/sound\ndrivers/dma\ndrivers/media",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 35321,
+        "total_tokens": 36560
+      },
+      "latency_ms": 134072.5
+    },
+    {
+      "source_module": "drivers/staging",
+      "true_targets": [
+        "include/crypto",
+        "include/linux",
+        "include/net",
+        "include/soc",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "drivers/media",
+        "include/media",
+        "include/sound",
+        "include/uapi",
+        "include/video"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/net\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1247,
+        "completion_tokens": 17422,
+        "total_tokens": 18669
+      },
+      "latency_ms": 67298.0
+    },
+    {
+      "source_module": "net/shaper",
+      "true_targets": [
+        "include/net",
+        "net/core"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/net",
+        "include/sound",
+        "drivers/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/dt-bindings\ninclude/net\ninclude/sound\ndrivers/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 19402,
+        "total_tokens": 20641
+      },
+      "latency_ms": 71695.9
+    },
+    {
+      "source_module": "drivers/soc",
+      "true_targets": [
+        "arch/powerpc",
+        "include/acpi",
+        "include/dt-bindings",
+        "include/net",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/clocksource",
+        "include/drm",
+        "include/linux",
+        "include/soc",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/sound",
+        "include/net",
+        "arch/sh"
+      ],
+      "precision": 0.6,
+      "recall": 0.6,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/sound\ninclude/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1249,
+        "completion_tokens": 63263,
+        "total_tokens": 64512
+      },
+      "latency_ms": 243956.2
+    },
+    {
+      "source_module": "drivers/dax",
+      "true_targets": [
+        "drivers/cxl",
+        "include/linux"
+      ],
+      "shown_deps": [
+        "drivers/nvdimm",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/firmware",
+        "include/dt-bindings",
+        "include/net",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ndrivers/firmware\ninclude/dt-bindings\ninclude/net\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1237,
+        "completion_tokens": 35392,
+        "total_tokens": 36629
+      },
+      "latency_ms": 151745.9
+    },
+    {
+      "source_module": "fs/smb",
+      "true_targets": [
+        "include/keys",
+        "include/kunit",
+        "include/linux",
+        "include/rdma",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "fs/nls",
+        "include/crypto",
+        "include/net",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/sound",
+        "drivers/net",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/sound\ndrivers/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1243,
+        "completion_tokens": 25635,
+        "total_tokens": 26878
+      },
+      "latency_ms": 100274.0
+    },
+    {
+      "source_module": "drivers/gpu",
+      "true_targets": [
+        "include/crypto",
+        "include/drm",
+        "include/dt-bindings",
+        "include/kunit",
+        "include/linux",
+        "include/media",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/acpi",
+        "include/asm-generic",
+        "include/net",
+        "include/soc",
+        "include/sound",
+        "include/video",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.6,
+      "recall": 0.375,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1253,
+        "completion_tokens": 23304,
+        "total_tokens": 24557
+      },
+      "latency_ms": 99181.8
+    },
+    {
+      "source_module": "drivers/cpufreq",
+      "true_targets": [
+        "arch/arm",
+        "include/acpi",
+        "include/linux",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "arch/powerpc",
+        "include/dt-bindings",
+        "include/soc",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm",
+        "arch/mips",
+        "arch/sparc"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "include/linux\narch/x86\narch/arm\narch/mips\narch/sparc",
+      "usage": {
+        "prompt_tokens": 1252,
+        "completion_tokens": 52839,
+        "total_tokens": 54091
+      },
+      "latency_ms": 215913.4
+    },
+    {
+      "source_module": "security/landlock",
+      "true_targets": [
+        "include/kunit",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/net"
+      ],
+      "predicted": [
+        "include/uapi",
+        "include/dt-bindings",
+        "drivers/net",
+        "include/sound",
+        "arch/mips"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/uapi\ninclude/dt-bindings\ndrivers/net\ninclude/sound\narch/mips",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 24926,
+        "total_tokens": 26165
+      },
+      "latency_ms": 100423.4
+    },
+    {
+      "source_module": "net/handshake",
+      "true_targets": [
+        "include/linux",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/kunit",
+        "include/net"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "drivers/net",
+        "arch/mips"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ndrivers/net\narch/mips",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 32778,
+        "total_tokens": 34017
+      },
+      "latency_ms": 127513.3
+    },
+    {
+      "source_module": "fs/overlayfs",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/dt-bindings",
+        "drivers/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/net\ninclude/dt-bindings\ndrivers/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 21737,
+        "total_tokens": 22976
+      },
+      "latency_ms": 85978.6
+    },
+    {
+      "source_module": "mm/kfence",
+      "true_targets": [
+        "include/kunit",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/x86",
+        "arch/arm64",
+        "arch/riscv",
+        "arch/s390",
+        "arch/powerpc"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "arch/x86\narch/arm64\narch/riscv\narch/s390\narch/powerpc",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 14567,
+        "total_tokens": 15802
+      },
+      "latency_ms": 63166.9
+    },
+    {
+      "source_module": "drivers/hwmon",
+      "true_targets": [
+        "include/acpi",
+        "include/dt-bindings",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/scsi",
+        "include/soc"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/net",
+        "include/uapi",
+        "include/sound",
+        "drivers/net"
+      ],
+      "precision": 0.4,
+      "recall": 0.5,
+      "raw_response": "include/dt-bindings\ninclude/net\ninclude/uapi\ninclude/sound\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1243,
+        "completion_tokens": 38163,
+        "total_tokens": 39406
+      },
+      "latency_ms": 153319.4
+    },
+    {
+      "source_module": "drivers/hte",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "drivers/clk"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ninclude/net\ndrivers/clk",
+      "usage": {
+        "prompt_tokens": 1222,
+        "completion_tokens": 43151,
+        "total_tokens": 44373
+      },
+      "latency_ms": 181746.0
+    },
+    {
+      "source_module": "drivers/watchdog",
+      "true_targets": [
+        "arch/powerpc",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/dt-bindings",
+        "include/linux",
+        "include/xen"
+      ],
+      "predicted": [
+        "arch/arm",
+        "arch/mips",
+        "arch/powerpc",
+        "arch/sh",
+        "include/uapi"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "arch/arm\narch/mips\narch/powerpc\narch/sh\ninclude/uapi",
+      "usage": {
+        "prompt_tokens": 1240,
+        "completion_tokens": 49126,
+        "total_tokens": 50366
+      },
+      "latency_ms": 201815.1
+    },
+    {
+      "source_module": "security/keys",
+      "true_targets": [
+        "include/crypto",
+        "include/keys",
+        "include/net"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/soc"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "arch/mips"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\narch/sh\narch/mips",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 35646,
+        "total_tokens": 36881
+      },
+      "latency_ms": 139319.4
+    },
+    {
+      "source_module": "arch/x86",
+      "true_targets": [
+        "arch/um",
+        "include/acpi",
+        "include/asm-generic",
+        "include/crypto",
+        "include/uapi",
+        "include/vdso",
+        "lib/vdso"
+      ],
+      "shown_deps": [
+        "include/clocksource",
+        "include/drm",
+        "include/hyperv",
+        "include/kvm",
+        "include/linux",
+        "include/trace",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "include/sound",
+        "drivers/pci"
+      ],
+      "precision": 0.2,
+      "recall": 0.14285714285714285,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\ninclude/sound\ndrivers/pci",
+      "usage": {
+        "prompt_tokens": 1250,
+        "completion_tokens": 43721,
+        "total_tokens": 44971
+      },
+      "latency_ms": 190060.4
+    },
+    {
+      "source_module": "net/mctp",
+      "true_targets": [
+        "include/kunit",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/net"
+      ],
+      "predicted": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/sound",
+        "drivers/net",
+        "arch/mips"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/uapi\ninclude/dt-bindings\ninclude/sound\ndrivers/net\narch/mips",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 21834,
+        "total_tokens": 23073
+      },
+      "latency_ms": 84614.2
+    },
+    {
+      "source_module": "drivers/infiniband",
+      "true_targets": [
+        "include/net",
+        "include/rdma",
+        "include/target",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "drivers/net",
+        "include/linux",
+        "include/scsi",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/net",
+        "drivers/pci",
+        "drivers/scsi",
+        "arch/x86",
+        "drivers/dma"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/net\ndrivers/pci\ndrivers/scsi\narch/x86\ndrivers/dma",
+      "usage": {
+        "prompt_tokens": 1254,
+        "completion_tokens": 30666,
+        "total_tokens": 31920
+      },
+      "latency_ms": 131909.9
+    },
+    {
+      "source_module": "arch/arm",
+      "true_targets": [
+        "include/asm-generic",
+        "include/sound",
+        "include/trace",
+        "include/uapi",
+        "include/vdso",
+        "include/video",
+        "lib/fonts",
+        "lib/zlib_inflate"
+      ],
+      "shown_deps": [
+        "include/clocksource",
+        "include/crypto",
+        "include/dt-bindings",
+        "include/linux",
+        "include/media",
+        "include/soc",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/net",
+        "include/uapi",
+        "include/sound",
+        "arch/sh",
+        "arch/mips"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "include/net\ninclude/uapi\ninclude/sound\narch/sh\narch/mips",
+      "usage": {
+        "prompt_tokens": 1248,
+        "completion_tokens": 41708,
+        "total_tokens": 42956
+      },
+      "latency_ms": 167191.7
+    },
+    {
+      "source_module": "mm/kmsan",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ninclude/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 42483,
+        "total_tokens": 43717
+      },
+      "latency_ms": 182158.9
+    },
+    {
+      "source_module": "drivers/hid",
+      "true_targets": [
+        "arch/openrisc",
+        "include/drm",
+        "include/kunit",
+        "include/media",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/asm-generic",
+        "include/dt-bindings",
+        "include/linux",
+        "include/sound",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/net",
+        "arch/sh",
+        "arch/arm",
+        "arch/powerpc",
+        "drivers/net"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/net\narch/sh\narch/arm\narch/powerpc\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1251,
+        "completion_tokens": 40849,
+        "total_tokens": 42100
+      },
+      "latency_ms": 168292.6
+    },
+    {
+      "source_module": "drivers/nubus",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "include/linux",
+        "arch/m68k",
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\narch/m68k\ninclude/uapi\ninclude/dt-bindings\ninclude/net",
+      "usage": {
+        "prompt_tokens": 1225,
+        "completion_tokens": 36165,
+        "total_tokens": 37390
+      },
+      "latency_ms": 154495.3
+    },
+    {
+      "source_module": "security/yama",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/trace",
+        "include/dt-bindings",
+        "include/soc",
+        "include/net"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/trace\ninclude/dt-bindings\ninclude/soc\ninclude/net",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 13413,
+        "total_tokens": 14644
+      },
+      "latency_ms": 53461.0
+    },
+    {
+      "source_module": "drivers/mtd",
+      "true_targets": [
+        "include/memory",
+        "include/soc",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/pcmcia",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/uapi",
+        "include/net",
+        "include/dt-bindings",
+        "include/sound",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/uapi\ninclude/net\ninclude/dt-bindings\ninclude/sound\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1241,
+        "completion_tokens": 15855,
+        "total_tokens": 17096
+      },
+      "latency_ms": 64375.7
+    },
+    {
+      "source_module": "lib/zlib_inflate",
+      "true_targets": [
+        "lib/zlib_dfltcc"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/soc",
+        "include/trace",
+        "include/kunit",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/dt-bindings\ninclude/soc\ninclude/trace\ninclude/kunit\ninclude/uapi",
+      "usage": {
+        "prompt_tokens": 1243,
+        "completion_tokens": 11545,
+        "total_tokens": 12788
+      },
+      "latency_ms": 43986.6
+    },
+    {
+      "source_module": "drivers/perf",
+      "true_targets": [
+        "include/acpi",
+        "include/asm-generic",
+        "include/clocksource"
+      ],
+      "shown_deps": [
+        "drivers/cxl",
+        "include/linux",
+        "include/soc"
+      ],
+      "predicted": [
+        "arch/arm64",
+        "include/kunit",
+        "include/acpi",
+        "arch/riscv",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "arch/arm64\ninclude/kunit\ninclude/acpi\narch/riscv\narch/arm",
+      "usage": {
+        "prompt_tokens": 1240,
+        "completion_tokens": 33036,
+        "total_tokens": 34276
+      },
+      "latency_ms": 139560.2
+    },
+    {
+      "source_module": "crypto/asymmetric_keys",
+      "true_targets": [
+        "include/keys",
+        "include/linux"
+      ],
+      "shown_deps": [
+        "include/crypto"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/net",
+        "include/uapi",
+        "arch/mips"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/net\ninclude/uapi\narch/mips",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 22281,
+        "total_tokens": 23516
+      },
+      "latency_ms": 88098.5
+    },
+    {
+      "source_module": "net/xdp",
+      "true_targets": [
+        "include/net",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "net/core"
+      ],
+      "predicted": [
+        "include/net",
+        "include/uapi",
+        "drivers/dma",
+        "net/netfilter",
+        "drivers/net"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/net\ninclude/uapi\ndrivers/dma\nnet/netfilter\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 58121,
+        "total_tokens": 59355
+      },
+      "latency_ms": 223504.5
+    },
+    {
+      "source_module": "rust/bindings",
+      "true_targets": [
+        "drivers/android",
+        "drivers/base",
+        "include/drm"
+      ],
+      "shown_deps": [
+        "include/kunit",
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1243,
+        "completion_tokens": 21981,
+        "total_tokens": 23224
+      },
+      "latency_ms": 86197.6
+    },
+    {
+      "source_module": "drivers/media",
+      "true_targets": [
+        "include/acpi",
+        "include/dt-bindings",
+        "include/media",
+        "include/misc",
+        "include/net",
+        "include/sound"
+      ],
+      "shown_deps": [
+        "include/drm",
+        "include/linux",
+        "include/soc",
+        "include/trace",
+        "include/uapi",
+        "include/video"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/net",
+        "include/sound",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "include/dt-bindings\ninclude/net\ninclude/sound\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1247,
+        "completion_tokens": 47302,
+        "total_tokens": 48549
+      },
+      "latency_ms": 192462.8
+    },
+    {
+      "source_module": "drivers/ufs",
+      "true_targets": [
+        "include/scsi",
+        "include/soc",
+        "include/ufs"
+      ],
+      "shown_deps": [
+        "include/crypto",
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "drivers/scsi",
+        "lib/crypto",
+        "drivers/soc"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ndrivers/scsi\nlib/crypto\ndrivers/soc",
+      "usage": {
+        "prompt_tokens": 1244,
+        "completion_tokens": 64074,
+        "total_tokens": 65318
+      },
+      "latency_ms": 267739.3
+    },
+    {
+      "source_module": "drivers/firewire",
+      "true_targets": [
+        "include/kunit",
+        "include/linux",
+        "include/scsi"
+      ],
+      "shown_deps": [
+        "include/net",
+        "include/trace",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/scsi",
+        "drivers/pci",
+        "include/dt-bindings",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ndrivers/scsi\ndrivers/pci\ninclude/dt-bindings\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1244,
+        "completion_tokens": 33318,
+        "total_tokens": 34562
+      },
+      "latency_ms": 132389.9
+    },
+    {
+      "source_module": "drivers/input",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/kunit",
+        "include/media",
+        "include/sound",
+        "include/trace",
+        "include/xen"
+      ],
+      "shown_deps": [
+        "arch/arm",
+        "arch/sh",
+        "include/linux",
+        "include/soc",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/net",
+        "include/sound",
+        "arch/powerpc",
+        "arch/mips"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/dt-bindings\ninclude/net\ninclude/sound\narch/powerpc\narch/mips",
+      "usage": {
+        "prompt_tokens": 1246,
+        "completion_tokens": 31542,
+        "total_tokens": 32788
+      },
+      "latency_ms": 133027.9
+    },
+    {
+      "source_module": "drivers/nfc",
+      "true_targets": [
+        "include/net",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/crypto",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/net",
+        "include/dt-bindings",
+        "include/uapi",
+        "arch/mips",
+        "arch/sh"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/net\ninclude/dt-bindings\ninclude/uapi\narch/mips\narch/sh",
+      "usage": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 27895,
+        "total_tokens": 29131
+      },
+      "latency_ms": 111493.1
+    },
+    {
+      "source_module": "drivers/scsi",
+      "true_targets": [
+        "drivers/net",
+        "drivers/parisc",
+        "include/kunit",
+        "include/linux",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/net",
+        "include/pcmcia",
+        "include/scsi",
+        "include/target",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/pci",
+        "drivers/net",
+        "arch/arm"
+      ],
+      "precision": 0.6,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/pci\ndrivers/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1246,
+        "completion_tokens": 50573,
+        "total_tokens": 51819
+      },
+      "latency_ms": 216748.7
+    },
+    {
+      "source_module": "drivers/usb",
+      "true_targets": [
+        "include/drm",
+        "include/pcmcia",
+        "include/soc",
+        "include/sound",
+        "include/target",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "arch/mips",
+        "drivers/scsi",
+        "include/linux",
+        "include/media",
+        "include/net",
+        "include/scsi",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/sound",
+        "drivers/net",
+        "arch/arm"
+      ],
+      "precision": 0.4,
+      "recall": 0.2857142857142857,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/sound\ndrivers/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1254,
+        "completion_tokens": 47663,
+        "total_tokens": 48917
+      },
+      "latency_ms": 194342.8
+    },
+    {
+      "source_module": "lib/test_fortify",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ninclude/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 23574,
+        "total_tokens": 24801
+      },
+      "latency_ms": 105236.5
+    },
+    {
+      "source_module": "kernel/bpf",
+      "true_targets": [
+        "include/crypto",
+        "include/trace",
+        "kernel/cgroup",
+        "kernel/locking"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/net",
+        "include/uapi"
+      ],
+      "predicted": [
+        "drivers/net",
+        "include/dt-bindings",
+        "include/sound",
+        "drivers/media",
+        "drivers/dma"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/net\ninclude/dt-bindings\ninclude/sound\ndrivers/media\ndrivers/dma",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 29639,
+        "total_tokens": 30878
+      },
+      "latency_ms": 107923.4
+    },
+    {
+      "source_module": "mm/damon",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ninclude/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 16367,
+        "total_tokens": 17597
+      },
+      "latency_ms": 67334.9
+    },
+    {
+      "source_module": "fs/ext4",
+      "true_targets": [
+        "include/linux",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/kunit",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/dt-bindings\ninclude/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 43503,
+        "total_tokens": 44737
+      },
+      "latency_ms": 169418.6
+    },
+    {
+      "source_module": "drivers/mcb",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "arch/x86",
+        "include/dt-bindings",
+        "include/soc"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ndrivers/pci\narch/x86\ninclude/dt-bindings\ninclude/soc",
+      "usage": {
+        "prompt_tokens": 1222,
+        "completion_tokens": 36547,
+        "total_tokens": 37769
+      },
+      "latency_ms": 156713.3
+    },
+    {
+      "source_module": "fs/udf",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/dt-bindings",
+        "drivers/net",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/net\ninclude/dt-bindings\ndrivers/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 25259,
+        "total_tokens": 26494
+      },
+      "latency_ms": 101730.4
+    },
+    {
+      "source_module": "fs/resctrl",
+      "true_targets": [
+        "include/linux",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "arch/arm64",
+        "drivers/acpi"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\narch/x86\narch/arm64\ndrivers/acpi",
+      "usage": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 42134,
+        "total_tokens": 43364
+      },
+      "latency_ms": 176363.7
+    },
+    {
+      "source_module": "mm/kasan",
+      "true_targets": [
+        "include/kunit",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/x86",
+        "arch/arm64",
+        "arch/riscv",
+        "arch/s390",
+        "arch/powerpc"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "arch/x86\narch/arm64\narch/riscv\narch/s390\narch/powerpc",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 39032,
+        "total_tokens": 40263
+      },
+      "latency_ms": 157006.6
+    },
+    {
+      "source_module": "fs/unicode",
+      "true_targets": [
+        "include/kunit"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "drivers/net"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\narch/sh\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 16310,
+        "total_tokens": 17541
+      },
+      "latency_ms": 65929.3
+    },
+    {
+      "source_module": "kernel/power",
+      "true_targets": [
+        "include/linux",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/crypto",
+        "include/net"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "drivers/net",
+        "arch/mips"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ndrivers/net\narch/mips",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 57094,
+        "total_tokens": 58329
+      },
+      "latency_ms": 216863.3
+    },
+    {
+      "source_module": "arch/riscv",
+      "true_targets": [
+        "include/asm-generic",
+        "include/kvm",
+        "include/linux",
+        "include/net",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/clocksource",
+        "include/crypto",
+        "include/kunit",
+        "include/uapi",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/net",
+        "include/sound",
+        "arch/sh"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/net\ninclude/sound\narch/sh",
+      "usage": {
+        "prompt_tokens": 1252,
+        "completion_tokens": 35642,
+        "total_tokens": 36894
+      },
+      "latency_ms": 143704.6
+    },
+    {
+      "source_module": "drivers/net",
+      "true_targets": [
+        "arch/arm",
+        "arch/mips",
+        "include/kunit",
+        "include/linux",
+        "include/net",
+        "include/pcmcia",
+        "include/scsi",
+        "include/uapi",
+        "include/xen"
+      ],
+      "shown_deps": [
+        "arch/powerpc",
+        "drivers/crypto",
+        "drivers/scsi",
+        "include/crypto",
+        "include/dt-bindings",
+        "include/rdma",
+        "include/soc",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/uapi",
+        "arch/arm",
+        "arch/mips"
+      ],
+      "precision": 1.0,
+      "recall": 0.5555555555555556,
+      "raw_response": "include/linux\ninclude/net\ninclude/uapi\narch/arm\narch/mips",
+      "usage": {
+        "prompt_tokens": 1255,
+        "completion_tokens": 36938,
+        "total_tokens": 38193
+      },
+      "latency_ms": 152087.1
+    },
+    {
+      "source_module": "net/netfilter",
+      "true_targets": [
+        "include/uapi",
+        "net/bridge"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/net"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/sound",
+        "drivers/net",
+        "arch/mips"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/sound\ndrivers/net\narch/mips",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 48189,
+        "total_tokens": 49424
+      },
+      "latency_ms": 173781.1
+    },
+    {
+      "source_module": "kernel/unwind",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "arch/powerpc",
+        "arch/riscv"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\narch/x86\narch/arm64\narch/powerpc\narch/riscv",
+      "usage": {
+        "prompt_tokens": 1221,
+        "completion_tokens": 40039,
+        "total_tokens": 41260
+      },
+      "latency_ms": 164417.6
+    },
+    {
+      "source_module": "drivers/pnp",
+      "true_targets": [
+        "include/linux"
+      ],
+      "shown_deps": [],
+      "predicted": [
+        "include/linux",
+        "drivers/acpi",
+        "arch/x86",
+        "include/uapi",
+        "include/dt-bindings"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ndrivers/acpi\narch/x86\ninclude/uapi\ninclude/dt-bindings",
+      "usage": {
+        "prompt_tokens": 1222,
+        "completion_tokens": 53980,
+        "total_tokens": 55202
+      },
+      "latency_ms": 245917.7
+    },
+    {
+      "source_module": "kernel/kcsan",
+      "true_targets": [
+        "include/kunit",
+        "include/linux"
+      ],
+      "shown_deps": [
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/dt-bindings\ninclude/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 21285,
+        "total_tokens": 22519
+      },
+      "latency_ms": 82372.8
+    },
+    {
+      "source_module": "drivers/virtio",
+      "true_targets": [
+        "include/uapi",
+        "include/xen"
+      ],
+      "shown_deps": [
+        "include/acpi",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1240,
+        "completion_tokens": 52791,
+        "total_tokens": 54031
+      },
+      "latency_ms": 204541.1
+    },
+    {
+      "source_module": "drivers/power",
+      "true_targets": [
+        "arch/arm",
+        "include/linux",
+        "include/soc",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "drivers/w1",
+        "include/acpi",
+        "include/dt-bindings"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.6,
+      "recall": 0.75,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/net\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1240,
+        "completion_tokens": 41278,
+        "total_tokens": 42518
+      },
+      "latency_ms": 179207.2
+    },
+    {
+      "source_module": "drivers/target",
+      "true_targets": [
+        "drivers/net",
+        "include/crypto",
+        "include/scsi",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/net",
+        "include/target",
+        "include/uapi"
+      ],
+      "predicted": [
+        "drivers/scsi",
+        "drivers/infiniband",
+        "drivers/crypto",
+        "drivers/staging",
+        "arch/mips"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/scsi\ndrivers/infiniband\ndrivers/crypto\ndrivers/staging\narch/mips",
+      "usage": {
+        "prompt_tokens": 1244,
+        "completion_tokens": 29150,
+        "total_tokens": 30394
+      },
+      "latency_ms": 126343.2
+    },
+    {
+      "source_module": "drivers/mmc",
+      "true_targets": [
+        "include/kunit",
+        "include/linux",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/pcmcia",
+        "include/soc",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "include/dt-bindings",
+        "arch/arm",
+        "arch/mips"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/uapi\ninclude/dt-bindings\narch/arm\narch/mips",
+      "usage": {
+        "prompt_tokens": 1240,
+        "completion_tokens": 38667,
+        "total_tokens": 39907
+      },
+      "latency_ms": 164618.9
+    },
+    {
+      "source_module": "drivers/iio",
+      "true_targets": [
+        "include/kunit",
+        "include/linux",
+        "include/soc",
+        "include/vdso"
+      ],
+      "shown_deps": [
+        "include/dt-bindings",
+        "include/trace",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/gpio",
+        "drivers/regulator",
+        "drivers/mfd",
+        "drivers/dma"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/linux\ndrivers/gpio\ndrivers/regulator\ndrivers/mfd\ndrivers/dma",
+      "usage": {
+        "prompt_tokens": 1246,
+        "completion_tokens": 58573,
+        "total_tokens": 59819
+      },
+      "latency_ms": 251257.9
+    },
+    {
+      "source_module": "sound/arm",
+      "true_targets": [
+        "include/sound"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/arm",
+        "include/dt-bindings",
+        "include/uapi",
+        "drivers/clk",
+        "drivers/dma"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "arch/arm\ninclude/dt-bindings\ninclude/uapi\ndrivers/clk\ndrivers/dma",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 26633,
+        "total_tokens": 27864
+      },
+      "latency_ms": 113519.6
+    },
+    {
+      "source_module": "sound/hda",
+      "true_targets": [
+        "include/acpi",
+        "include/sound",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/kunit",
+        "include/linux",
+        "include/video"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 13230,
+        "total_tokens": 14469
+      },
+      "latency_ms": 49008.0
+    },
+    {
+      "source_module": "drivers/gpio",
+      "true_targets": [
+        "drivers/media",
+        "include/linux",
+        "include/soc",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "arch/arm",
+        "arch/powerpc",
+        "drivers/pinctrl",
+        "include/dt-bindings"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "drivers/mfd",
+        "drivers/i2c",
+        "drivers/pci"
+      ],
+      "precision": 0.4,
+      "recall": 0.4,
+      "raw_response": "include/linux\ninclude/uapi\ndrivers/mfd\ndrivers/i2c\ndrivers/pci",
+      "usage": {
+        "prompt_tokens": 1248,
+        "completion_tokens": 54091,
+        "total_tokens": 55339
+      },
+      "latency_ms": 228960.9
+    },
+    {
+      "source_module": "sound/i2c",
+      "true_targets": [
+        "include/sound"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "drivers/net"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\narch/sh\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 24277,
+        "total_tokens": 25512
+      },
+      "latency_ms": 108362.0
+    },
+    {
+      "source_module": "drivers/parisc",
+      "true_targets": [
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "arch/sh",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/dt-bindings\ninclude/uapi\ninclude/net\narch/sh\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 34674,
+        "total_tokens": 35910
+      },
+      "latency_ms": 149334.8
+    },
+    {
+      "source_module": "drivers/spi",
+      "true_targets": [
+        "arch/powerpc",
+        "include/soc",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/memory",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "arch/arm",
+        "arch/mips",
+        "arch/powerpc",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/dt-bindings\narch/arm\narch/mips\narch/powerpc\narch/sh",
+      "usage": {
+        "prompt_tokens": 1240,
+        "completion_tokens": 46603,
+        "total_tokens": 47843
+      },
+      "latency_ms": 194535.4
+    },
+    {
+      "source_module": "net/kcm",
+      "true_targets": [
+        "include/net",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/net",
+        "include/uapi",
+        "include/dt-bindings",
+        "drivers/net",
+        "drivers/media"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/net\ninclude/uapi\ninclude/dt-bindings\ndrivers/net\ndrivers/media",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 31374,
+        "total_tokens": 32609
+      },
+      "latency_ms": 123705.5
+    },
+    {
+      "source_module": "fs/ecryptfs",
+      "true_targets": [
+        "include/keys",
+        "include/linux"
+      ],
+      "shown_deps": [
+        "include/crypto",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "include/dt-bindings",
+        "drivers/net",
+        "drivers/dma"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/net\ninclude/dt-bindings\ndrivers/net\ndrivers/dma",
+      "usage": {
+        "prompt_tokens": 1243,
+        "completion_tokens": 40030,
+        "total_tokens": 41273
+      },
+      "latency_ms": 159214.2
+    },
+    {
+      "source_module": "drivers/video",
+      "true_targets": [
+        "arch/arm",
+        "arch/powerpc",
+        "include/acpi",
+        "include/drm",
+        "include/video",
+        "include/xen"
+      ],
+      "shown_deps": [
+        "arch/sh",
+        "include/dt-bindings",
+        "include/linux",
+        "include/sound",
+        "include/uapi"
+      ],
+      "predicted": [
+        "arch/arm",
+        "arch/mips",
+        "arch/powerpc",
+        "arch/sparc",
+        "arch/m68k"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "arch/arm\narch/mips\narch/powerpc\narch/sparc\narch/m68k",
+      "usage": {
+        "prompt_tokens": 1244,
+        "completion_tokens": 52124,
+        "total_tokens": 53368
+      },
+      "latency_ms": 236808.5
+    },
+    {
+      "source_module": "drivers/block",
+      "true_targets": [
+        "include/crypto",
+        "include/net",
+        "include/rdma",
+        "include/scsi",
+        "include/xen"
+      ],
+      "shown_deps": [
+        "drivers/infiniband",
+        "include/linux",
+        "include/trace",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/net",
+        "arch/x86",
+        "arch/powerpc",
+        "arch/m68k",
+        "arch/sparc"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "include/net\narch/x86\narch/powerpc\narch/m68k\narch/sparc",
+      "usage": {
+        "prompt_tokens": 1244,
+        "completion_tokens": 29976,
+        "total_tokens": 31220
+      },
+      "latency_ms": 130021.2
+    },
+    {
+      "source_module": "kernel/irq",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/kunit",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/net\narch/sh\narch/arm",
+      "usage": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 35923,
+        "total_tokens": 37162
+      },
+      "latency_ms": 141734.7
+    },
+    {
+      "source_module": "drivers/platform",
+      "true_targets": [
+        "drivers/misc",
+        "include/acpi",
+        "include/crypto",
+        "include/drm",
+        "include/dt-bindings",
+        "include/media",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "arch/mips",
+        "include/kunit",
+        "include/linux",
+        "include/soc",
+        "include/sound",
+        "include/uapi",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh",
+        "arch/arm",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.14285714285714285,
+      "raw_response": "include/dt-bindings\ninclude/net\narch/sh\narch/arm\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1251,
+        "completion_tokens": 26248,
+        "total_tokens": 27499
+      },
+      "latency_ms": 107923.4
+    },
+    {
+      "source_module": "kernel/time",
+      "true_targets": [
+        "include/kunit",
+        "include/uapi",
+        "include/vdso"
+      ],
+      "shown_deps": [
+        "include/linux",
+        "include/trace"
+      ],
+      "predicted": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net",
+        "drivers/net",
+        "arch/sh"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/uapi\ninclude/dt-bindings\ninclude/net\ndrivers/net\narch/sh",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 26536,
+        "total_tokens": 27767
+      },
+      "latency_ms": 102104.4
+    },
+    {
+      "source_module": "drivers/tty",
+      "true_targets": [
+        "arch/powerpc",
+        "include/net",
+        "include/soc",
+        "include/xen"
+      ],
+      "shown_deps": [
+        "include/dt-bindings",
+        "include/linux",
+        "include/pcmcia",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/net",
+        "include/sound",
+        "arch/sh",
+        "arch/arm",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "include/net\ninclude/sound\narch/sh\narch/arm\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1245,
+        "completion_tokens": 17752,
+        "total_tokens": 18997
+      },
+      "latency_ms": 74395.8
+    },
+    {
+      "source_module": "drivers/vhost",
+      "true_targets": [
+        "include/linux",
+        "include/scsi",
+        "include/target"
+      ],
+      "shown_deps": [
+        "include/net",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/sound",
+        "drivers/net",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/sound\ndrivers/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 34475,
+        "total_tokens": 35711
+      },
+      "latency_ms": 137497.8
+    },
+    {
+      "source_module": "drivers/uio",
+      "true_targets": [
+        "drivers/hv"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/powerpc",
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net",
+        "arch/arm"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "arch/powerpc\ninclude/uapi\ninclude/dt-bindings\ninclude/net\narch/arm",
+      "usage": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 38183,
+        "total_tokens": 39415
+      },
+      "latency_ms": 159349.0
+    },
+    {
+      "source_module": "drivers/remoteproc",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/clocksource",
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/arm",
+        "arch/arm64",
+        "drivers/firmware",
+        "drivers/soc",
+        "arch/mips"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "arch/arm\narch/arm64\ndrivers/firmware\ndrivers/soc\narch/mips",
+      "usage": {
+        "prompt_tokens": 1249,
+        "completion_tokens": 42946,
+        "total_tokens": 44195
+      },
+      "latency_ms": 173739.0
+    },
+    {
+      "source_module": "drivers/idle",
+      "true_targets": [
+        "include/linux",
+        "include/trace"
+      ],
+      "shown_deps": [
+        "include/acpi"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/net\narch/sh\ninclude/uapi",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 37185,
+        "total_tokens": 38416
+      },
+      "latency_ms": 131531.9
+    },
+    {
+      "source_module": "arch/um",
+      "true_targets": [
+        "include/linux",
+        "include/trace",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "arch/x86",
+        "include/asm-generic"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/dt-bindings",
+        "include/uapi",
+        "include/net",
+        "drivers/pci"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ninclude/dt-bindings\ninclude/uapi\ninclude/net\ndrivers/pci",
+      "usage": {
+        "prompt_tokens": 1237,
+        "completion_tokens": 11991,
+        "total_tokens": 13228
+      },
+      "latency_ms": 50555.6
+    },
+    {
+      "source_module": "fs/hfs",
+      "true_targets": [
+        "include/kunit"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh",
+        "drivers/net"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/uapi\ninclude/dt-bindings\ninclude/net\narch/sh\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 20896,
+        "total_tokens": 22127
+      },
+      "latency_ms": 85636.8
+    },
+    {
+      "source_module": "drivers/bluetooth",
+      "true_targets": [
+        "include/acpi",
+        "include/linux",
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/net",
+        "include/pcmcia"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/usb",
+        "drivers/tty",
+        "drivers/gpio",
+        "drivers/regulator"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/linux\ndrivers/usb\ndrivers/tty\ndrivers/gpio\ndrivers/regulator",
+      "usage": {
+        "prompt_tokens": 1237,
+        "completion_tokens": 55425,
+        "total_tokens": 56662
+      },
+      "latency_ms": 243622.7
+    },
+    {
+      "source_module": "fs/kernfs",
+      "true_targets": [
+        "include/uapi"
+      ],
+      "shown_deps": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/uapi",
+        "include/dt-bindings",
+        "include/net",
+        "arch/sh",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/uapi\ninclude/dt-bindings\ninclude/net\narch/sh\ndrivers/net",
+      "usage": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 24025,
+        "total_tokens": 25260
+      },
+      "latency_ms": 100594.6
+    }
+  ],
+  "timestamp": "2026-10-22T08:29:55.601313",
+  "model": "deepseek-v4-flash",
+  "project": "linux",
+  "task": "ar",
+  "level": 2,
+  "manifest_seed": 42
+}

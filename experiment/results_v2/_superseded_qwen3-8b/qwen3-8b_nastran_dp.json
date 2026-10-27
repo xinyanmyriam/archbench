@@ -1,0 +1,80 @@
+{
+ "accuracy": 0.625,
+ "precision": 0.6,
+ "recall": 0.75,
+ "f1": 0.6666666666666665,
+ "tp": 3,
+ "fp": 2,
+ "tn": 2,
+ "fn": 1,
+ "total": 8,
+ "results": [
+  {
+   "module_A": "bd",
+   "module_B": "mds",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "utility",
+   "module_B": "mis",
+   "label": 1,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 1
+  },
+  {
+   "module_A": "mds",
+   "module_B": "mis",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "mis",
+   "module_B": "mds",
+   "label": 1,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 1
+  },
+  {
+   "module_A": "bd",
+   "module_B": "utility",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "utility",
+   "module_B": "rf",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  },
+  {
+   "module_A": "utility",
+   "module_B": "mds",
+   "label": 0,
+   "predicted": 1,
+   "raw_response": "Yes",
+   "label_v1": 0
+  },
+  {
+   "module_A": "bd",
+   "module_B": "rf",
+   "label": 0,
+   "predicted": 0,
+   "raw_response": "No",
+   "label_v1": 0
+  }
+ ],
+ "n_api_errors": 0,
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/qwen3-8b_nastran_dp.json"
+}

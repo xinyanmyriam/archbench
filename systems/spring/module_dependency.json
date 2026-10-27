@@ -1,21 +1,16 @@
 {
   "system": "spring-framework",
-  "total": 119,
+  "total": 82,
   "dependencies": [
     {
       "source_module": "spring-aop",
       "target_module": "spring-core",
-      "weight": 350
+      "weight": 222
     },
     {
       "source_module": "spring-aop",
       "target_module": "spring-beans",
       "weight": 170
-    },
-    {
-      "source_module": "spring-aop",
-      "target_module": "spring-expression",
-      "weight": 1
     },
     {
       "source_module": "spring-aspects",
@@ -40,32 +35,7 @@
     {
       "source_module": "spring-beans",
       "target_module": "spring-core",
-      "weight": 893
-    },
-    {
-      "source_module": "spring-beans",
-      "target_module": "spring-r2dbc",
-      "weight": 3
-    },
-    {
-      "source_module": "spring-beans",
-      "target_module": "spring-context",
-      "weight": 3
-    },
-    {
-      "source_module": "spring-beans",
-      "target_module": "spring-aop",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-beans",
-      "target_module": "spring-expression",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-context",
-      "target_module": "spring-core",
-      "weight": 1351
+      "weight": 655
     },
     {
       "source_module": "spring-context",
@@ -74,13 +44,18 @@
     },
     {
       "source_module": "spring-context",
+      "target_module": "spring-core",
+      "weight": 1011
+    },
+    {
+      "source_module": "spring-context",
       "target_module": "spring-aop",
-      "weight": 109
+      "weight": 106
     },
     {
       "source_module": "spring-context",
       "target_module": "spring-expression",
-      "weight": 46
+      "weight": 38
     },
     {
       "source_module": "spring-context",
@@ -88,24 +63,14 @@
       "weight": 2
     },
     {
-      "source_module": "spring-context",
-      "target_module": "spring-jdbc",
-      "weight": 2
-    },
-    {
-      "source_module": "spring-context",
-      "target_module": "spring-r2dbc",
-      "weight": 3
+      "source_module": "spring-context-support",
+      "target_module": "spring-context",
+      "weight": 99
     },
     {
       "source_module": "spring-context-support",
       "target_module": "spring-core",
-      "weight": 144
-    },
-    {
-      "source_module": "spring-context-support",
-      "target_module": "spring-context",
-      "weight": 111
+      "weight": 88
     },
     {
       "source_module": "spring-context-support",
@@ -124,68 +89,18 @@
     },
     {
       "source_module": "spring-context-support",
-      "target_module": "spring-messaging",
-      "weight": 5
-    },
-    {
-      "source_module": "spring-context-support",
-      "target_module": "spring-websocket",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-context-support",
-      "target_module": "spring-web",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-context-support",
-      "target_module": "spring-expression",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-context-support",
       "target_module": "spring-jdbc",
       "weight": 3
     },
     {
-      "source_module": "spring-core",
-      "target_module": "spring-r2dbc",
-      "weight": 6
-    },
-    {
-      "source_module": "spring-core",
-      "target_module": "spring-context",
-      "weight": 9
-    },
-    {
-      "source_module": "spring-core",
-      "target_module": "spring-expression",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-core",
-      "target_module": "spring-beans",
-      "weight": 5
-    },
-    {
       "source_module": "spring-core-test",
       "target_module": "spring-core",
-      "weight": 35
+      "weight": 26
     },
     {
       "source_module": "spring-expression",
       "target_module": "spring-core",
-      "weight": 269
-    },
-    {
-      "source_module": "spring-expression",
-      "target_module": "spring-beans",
-      "weight": 28
-    },
-    {
-      "source_module": "spring-jdbc",
-      "target_module": "spring-core",
-      "weight": 291
+      "weight": 191
     },
     {
       "source_module": "spring-jdbc",
@@ -199,18 +114,23 @@
     },
     {
       "source_module": "spring-jdbc",
+      "target_module": "spring-core",
+      "weight": 140
+    },
+    {
+      "source_module": "spring-jdbc",
       "target_module": "spring-context",
       "weight": 2
     },
     {
       "source_module": "spring-jms",
       "target_module": "spring-core",
-      "weight": 156
+      "weight": 86
     },
     {
       "source_module": "spring-jms",
       "target_module": "spring-context",
-      "weight": 16
+      "weight": 15
     },
     {
       "source_module": "spring-jms",
@@ -220,7 +140,7 @@
     {
       "source_module": "spring-jms",
       "target_module": "spring-messaging",
-      "weight": 61
+      "weight": 48
     },
     {
       "source_module": "spring-jms",
@@ -234,37 +154,22 @@
     },
     {
       "source_module": "spring-jms",
-      "target_module": "spring-websocket",
-      "weight": 4
-    },
-    {
-      "source_module": "spring-jms",
       "target_module": "spring-oxm",
       "weight": 3
     },
     {
       "source_module": "spring-messaging",
       "target_module": "spring-core",
-      "weight": 650
+      "weight": 471
     },
     {
       "source_module": "spring-messaging",
       "target_module": "spring-beans",
-      "weight": 39
+      "weight": 38
     },
     {
       "source_module": "spring-messaging",
       "target_module": "spring-oxm",
-      "weight": 2
-    },
-    {
-      "source_module": "spring-messaging",
-      "target_module": "spring-jms",
-      "weight": 27
-    },
-    {
-      "source_module": "spring-messaging",
-      "target_module": "spring-r2dbc",
       "weight": 2
     },
     {
@@ -275,27 +180,27 @@
     {
       "source_module": "spring-messaging",
       "target_module": "spring-aop",
-      "weight": 6
+      "weight": 5
     },
     {
       "source_module": "spring-messaging",
       "target_module": "spring-expression",
-      "weight": 7
-    },
-    {
-      "source_module": "spring-orm",
-      "target_module": "spring-core",
-      "weight": 210
+      "weight": 8
     },
     {
       "source_module": "spring-orm",
       "target_module": "spring-tx",
-      "weight": 98
+      "weight": 90
     },
     {
       "source_module": "spring-orm",
       "target_module": "spring-beans",
-      "weight": 75
+      "weight": 76
+    },
+    {
+      "source_module": "spring-orm",
+      "target_module": "spring-core",
+      "weight": 146
     },
     {
       "source_module": "spring-orm",
@@ -305,12 +210,7 @@
     {
       "source_module": "spring-orm",
       "target_module": "spring-context",
-      "weight": 19
-    },
-    {
-      "source_module": "spring-orm",
-      "target_module": "spring-aop",
-      "weight": 2
+      "weight": 16
     },
     {
       "source_module": "spring-orm",
@@ -320,7 +220,7 @@
     {
       "source_module": "spring-oxm",
       "target_module": "spring-core",
-      "weight": 49
+      "weight": 32
     },
     {
       "source_module": "spring-oxm",
@@ -329,18 +229,13 @@
     },
     {
       "source_module": "spring-r2dbc",
-      "target_module": "spring-core",
-      "weight": 104
-    },
-    {
-      "source_module": "spring-r2dbc",
       "target_module": "spring-tx",
       "weight": 27
     },
     {
       "source_module": "spring-r2dbc",
-      "target_module": "spring-jdbc",
-      "weight": 1
+      "target_module": "spring-core",
+      "weight": 62
     },
     {
       "source_module": "spring-r2dbc",
@@ -348,24 +243,14 @@
       "weight": 14
     },
     {
-      "source_module": "spring-r2dbc",
-      "target_module": "spring-jms",
-      "weight": 2
-    },
-    {
       "source_module": "spring-test",
       "target_module": "spring-core",
-      "weight": 103
-    },
-    {
-      "source_module": "spring-test",
-      "target_module": "spring-context",
-      "weight": 3
+      "weight": 77
     },
     {
       "source_module": "spring-test",
       "target_module": "spring-web",
-      "weight": 77
+      "weight": 73
     },
     {
       "source_module": "spring-test",
@@ -374,18 +259,18 @@
     },
     {
       "source_module": "spring-test",
-      "target_module": "spring-expression",
-      "weight": 2
+      "target_module": "spring-webflux",
+      "weight": 4
     },
     {
       "source_module": "spring-test",
-      "target_module": "spring-webflux",
-      "weight": 3
+      "target_module": "spring-context",
+      "weight": 1
     },
     {
       "source_module": "spring-tx",
       "target_module": "spring-core",
-      "weight": 210
+      "weight": 118
     },
     {
       "source_module": "spring-tx",
@@ -405,72 +290,52 @@
     {
       "source_module": "spring-web",
       "target_module": "spring-core",
-      "weight": 2018
-    },
-    {
-      "source_module": "spring-web",
-      "target_module": "spring-messaging",
-      "weight": 32
+      "weight": 1457
     },
     {
       "source_module": "spring-web",
       "target_module": "spring-beans",
-      "weight": 140
+      "weight": 135
     },
     {
       "source_module": "spring-web",
       "target_module": "spring-context",
-      "weight": 139
+      "weight": 138
     },
     {
       "source_module": "spring-web",
       "target_module": "spring-oxm",
-      "weight": 11
-    },
-    {
-      "source_module": "spring-web",
-      "target_module": "spring-r2dbc",
       "weight": 2
     },
     {
       "source_module": "spring-web",
-      "target_module": "spring-expression",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-web",
       "target_module": "spring-aop",
-      "weight": 7
-    },
-    {
-      "source_module": "spring-webflux",
-      "target_module": "spring-core",
-      "weight": 802
+      "weight": 6
     },
     {
       "source_module": "spring-webflux",
       "target_module": "spring-beans",
-      "weight": 53
+      "weight": 51
+    },
+    {
+      "source_module": "spring-webflux",
+      "target_module": "spring-core",
+      "weight": 581
     },
     {
       "source_module": "spring-webflux",
       "target_module": "spring-context",
-      "weight": 120
+      "weight": 117
     },
     {
       "source_module": "spring-webflux",
       "target_module": "spring-web",
-      "weight": 819
-    },
-    {
-      "source_module": "spring-webflux",
-      "target_module": "spring-messaging",
-      "weight": 36
+      "weight": 814
     },
     {
       "source_module": "spring-webflux",
       "target_module": "spring-aop",
-      "weight": 2
+      "weight": 1
     },
     {
       "source_module": "spring-webflux",
@@ -478,78 +343,38 @@
       "weight": 1
     },
     {
-      "source_module": "spring-webflux",
-      "target_module": "spring-expression",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-webflux",
-      "target_module": "spring-r2dbc",
-      "weight": 2
-    },
-    {
-      "source_module": "spring-webflux",
-      "target_module": "spring-jdbc",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-webflux",
-      "target_module": "spring-websocket",
-      "weight": 1
-    },
-    {
       "source_module": "spring-webmvc",
-      "target_module": "spring-messaging",
-      "weight": 69
-    },
-    {
-      "source_module": "spring-webmvc",
-      "target_module": "spring-core",
-      "weight": 942
+      "target_module": "spring-web",
+      "weight": 1049
     },
     {
       "source_module": "spring-webmvc",
       "target_module": "spring-beans",
-      "weight": 163
+      "weight": 162
     },
     {
       "source_module": "spring-webmvc",
       "target_module": "spring-context",
-      "weight": 167
+      "weight": 160
     },
     {
       "source_module": "spring-webmvc",
-      "target_module": "spring-web",
-      "weight": 987
-    },
-    {
-      "source_module": "spring-webmvc",
-      "target_module": "spring-webflux",
-      "weight": 190
+      "target_module": "spring-core",
+      "weight": 629
     },
     {
       "source_module": "spring-webmvc",
       "target_module": "spring-aop",
-      "weight": 3
-    },
-    {
-      "source_module": "spring-webmvc",
-      "target_module": "spring-expression",
-      "weight": 9
-    },
-    {
-      "source_module": "spring-webmvc",
-      "target_module": "spring-context-support",
-      "weight": 1
-    },
-    {
-      "source_module": "spring-webmvc",
-      "target_module": "spring-r2dbc",
       "weight": 2
     },
     {
       "source_module": "spring-webmvc",
-      "target_module": "spring-jdbc",
+      "target_module": "spring-expression",
+      "weight": 10
+    },
+    {
+      "source_module": "spring-webmvc",
+      "target_module": "spring-context-support",
       "weight": 1
     },
     {
@@ -560,42 +385,32 @@
     {
       "source_module": "spring-websocket",
       "target_module": "spring-core",
-      "weight": 257
+      "weight": 153
     },
     {
       "source_module": "spring-websocket",
       "target_module": "spring-web",
-      "weight": 177
-    },
-    {
-      "source_module": "spring-websocket",
-      "target_module": "spring-webflux",
-      "weight": 175
+      "weight": 176
     },
     {
       "source_module": "spring-websocket",
       "target_module": "spring-beans",
-      "weight": 62
+      "weight": 60
     },
     {
       "source_module": "spring-websocket",
       "target_module": "spring-context",
-      "weight": 56
+      "weight": 57
     },
     {
       "source_module": "spring-websocket",
       "target_module": "spring-messaging",
-      "weight": 101
-    },
-    {
-      "source_module": "spring-websocket",
-      "target_module": "spring-jms",
-      "weight": 4
+      "weight": 104
     },
     {
       "source_module": "spring-websocket",
       "target_module": "spring-webmvc",
-      "weight": 1
+      "weight": 9
     }
   ]
 }

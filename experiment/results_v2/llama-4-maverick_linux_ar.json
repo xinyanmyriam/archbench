@@ -1,0 +1,1598 @@
+{
+  "precision_at_5": 0.13181818181818175,
+  "recall_at_5": 0.3180555555555555,
+  "total": 88,
+  "results": [
+    {
+      "source_module": "lib/lzo",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "lib/crypto",
+        "drivers/staging",
+        "drivers/mtd",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "1. include/linux\n2. lib/crypto\n3. drivers/staging\n4. drivers/mtd\n5. include/uapi"
+    },
+    {
+      "source_module": "drivers/thermal",
+      "true_targets": [
+        "include/uapi",
+        "include/net",
+        "include/linux",
+        "include/dt-bindings"
+      ],
+      "predicted": [
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "drivers/regulator",
+        "drivers/clk",
+        "include/dt-bindings"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "1. drivers/pinctrl\n2. drivers/gpio\n3. drivers/regulator\n4. drivers/clk\n5. drivers/of (not available, but likely to be related to include/dt-bindings or other arch/*, so the next best guess is) include/dt-bindings \n\nRevised to:\n1. include/dt-bindings\n2. drivers/pinctrl\n3. drivers/gpio\n4. drivers/regulator\n5. drivers/clk"
+    },
+    {
+      "source_module": "arch/powerpc",
+      "true_targets": [
+        "drivers/pci",
+        "include/soc",
+        "include/misc",
+        "include/linux",
+        "include/scsi",
+        "include/uapi",
+        "include/math-emu",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "include/dt-bindings",
+        "drivers/clk"
+      ],
+      "precision": 0.4,
+      "recall": 0.25,
+      "raw_response": "1. include/linux\n2. drivers/pci\n3. drivers/of (not available, but likely to be related to include/dt-bindings)\n4. include/dt-bindings\n5. drivers/clk"
+    },
+    {
+      "source_module": "drivers/bus",
+      "true_targets": [
+        "include/trace",
+        "include/linux",
+        "include/dt-bindings"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "arch/arm",
+        "include/dt-bindings",
+        "drivers/platform"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "1. include/linux\n2. drivers/pci\n3. drivers/of (not available, but likely to be related to include/dt-bindings)\n4. arch/arm\n5. drivers/base (not available, but likely to be related to drivers/platform or drivers/soc)\n\nGiven the available modules, the best answer is:\n1. include/linux\n2. drivers/pci\n3. include/dt-bindings\n4. arch/arm\n5. drivers/platform"
+    },
+    {
+      "source_module": "net/xfrm",
+      "true_targets": [
+        "include/trace",
+        "include/crypto",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/net",
+        "net/netfilter",
+        "include/linux",
+        "include/uapi",
+        "drivers/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "include/net\nnet/netfilter\ninclude/linux\ninclude/uapi\ndrivers/net"
+    },
+    {
+      "source_module": "drivers/android",
+      "true_targets": [
+        "include/kunit",
+        "include/uapi",
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "drivers/usb",
+        "drivers/clk",
+        "drivers/soc"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/pinctrl\ndrivers/gpio\ndrivers/usb\ndrivers/clk\ndrivers/soc"
+    },
+    {
+      "source_module": "drivers/ata",
+      "true_targets": [
+        "include/pcmcia",
+        "include/scsi",
+        "include/trace",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/scsi",
+        "arch/x86",
+        "drivers/pci",
+        "lib/crypto"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/scsi\n3. arch/x86\n4. drivers/pci\n5. lib/crypto"
+    },
+    {
+      "source_module": "drivers/rpmsg",
+      "true_targets": [
+        "include/trace",
+        "include/uapi"
+      ],
+      "predicted": [
+        "drivers/platform",
+        "include/linux",
+        "drivers/soc",
+        "include/dt-bindings"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/platform\n2. include/linux\n3. drivers/remoteproc (not available, but based on the available modules, the next best is) drivers/firmware\n4. drivers/soc\n5. include/dt-bindings"
+    },
+    {
+      "source_module": "kernel/trace",
+      "true_targets": [
+        "include/trace",
+        "include/asm-generic",
+        "include/rv"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "drivers/input",
+        "drivers/pci",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. drivers/input\n4. kernel/trace is less likely to directly depend on drivers, so a more likely candidate is: include/uapi \n   Replaced with: arch/arm64\n5. drivers/pci \n\nRevising the list based on the role of kernel/trace and its likely dependencies:\n1. include/linux\n2. include/uapi\n3. arch/x86\n4. arch/arm64\n5. drivers/input \n\nRe-evaluating, a more plausible list is:\n1. include/linux\n2. include/uapi\n3. arch/x86\n4. arch/arm\n5. arch/arm64\n\nThe final answer is:\n1. include/linux\n2. include/uapi\n3. arch/x86\n4. arch/arm64\n5. arch/arm"
+    },
+    {
+      "source_module": "drivers/staging",
+      "true_targets": [
+        "include/soc",
+        "include/trace",
+        "include/crypto",
+        "include/linux",
+        "include/net"
+      ],
+      "predicted": [
+        "drivers/usb",
+        "drivers/net",
+        "drivers/gpio",
+        "drivers/pinctrl",
+        "drivers/clk"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/usb\ndrivers/net\ndrivers/gpio\ndrivers/pinctrl\ndrivers/clk"
+    },
+    {
+      "source_module": "net/shaper",
+      "true_targets": [
+        "net/core",
+        "include/net"
+      ],
+      "predicted": [
+        "include/net",
+        "net/netfilter",
+        "drivers/net",
+        "include/linux",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/net\nnet/netfilter\ndrivers/net\ninclude/linux\ninclude/uapi"
+    },
+    {
+      "source_module": "drivers/soc",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/acpi",
+        "include/uapi",
+        "include/net",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "drivers/pinctrl",
+        "drivers/clk",
+        "drivers/regulator",
+        "include/linux",
+        "drivers/gpio"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/pinctrl\n2. drivers/clk\n3. drivers/regulator\n4. include/linux\n5. drivers/gpio"
+    },
+    {
+      "source_module": "drivers/dax",
+      "true_targets": [
+        "drivers/cxl",
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/pci",
+        "include/linux",
+        "arch/x86",
+        "drivers/acpi",
+        "fs/xfs"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "1. drivers/pci\n2. include/linux\n3. arch/x86\n4. drivers/acpi\n5. fs/xfs"
+    },
+    {
+      "source_module": "fs/smb",
+      "true_targets": [
+        "include/trace",
+        "include/kunit",
+        "include/rdma",
+        "include/linux",
+        "include/keys"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/net",
+        "include/net",
+        "lib/crypto",
+        "net/netfilter"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "include/linux\ndrivers/net\ninclude/net\nlib/crypto\nnet/netfilter"
+    },
+    {
+      "source_module": "drivers/gpu",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/drm",
+        "include/trace",
+        "include/kunit",
+        "include/crypto",
+        "include/linux",
+        "include/uapi",
+        "include/media"
+      ],
+      "predicted": [
+        "drivers/pci",
+        "drivers/clk",
+        "drivers/pinctrl",
+        "drivers/regulator",
+        "drivers/dma"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/pci\n2. drivers/clk\n3. drivers/pinctrl\n4. drivers/regulator\n5. drivers/dma"
+    },
+    {
+      "source_module": "drivers/cpufreq",
+      "true_targets": [
+        "include/trace",
+        "include/acpi",
+        "arch/arm",
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/clk",
+        "drivers/regulator",
+        "arch/x86",
+        "drivers/acpi",
+        "include/linux"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "1. drivers/clk\n2. drivers/regulator\n3. arch/x86\n4. drivers/acpi\n5. include/linux"
+    },
+    {
+      "source_module": "security/landlock",
+      "true_targets": [
+        "include/kunit",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "fs/xfs",
+        "include/uapi",
+        "arch/x86",
+        "include/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\nfs/xfs\ninclude/uapi\narch/x86\ninclude/net"
+    },
+    {
+      "source_module": "net/handshake",
+      "true_targets": [
+        "include/trace",
+        "include/uapi",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/net",
+        "net/netfilter",
+        "include/linux",
+        "drivers/net",
+        "include/uapi"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/net\nnet/netfilter\ninclude/linux\ndrivers/net\ninclude/uapi"
+    },
+    {
+      "source_module": "fs/overlayfs",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "fs/xfs",
+        "arch/x86",
+        "include/uapi",
+        "drivers/pinctrl"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\nfs/xfs\narch/x86\ninclude/uapi\ndrivers/pinctrl"
+    },
+    {
+      "source_module": "mm/kfence",
+      "true_targets": [
+        "include/trace",
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "lib/crypto",
+        "arch/arm64"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. mm (is not available, but a closely related module is drivers/misc)\n   Replacing with: drivers/misc\n4. lib/crypto\n   Replacing with: include/uapi\n5. arch/arm64"
+    },
+    {
+      "source_module": "drivers/hwmon",
+      "true_targets": [
+        "include/trace",
+        "include/uapi",
+        "include/acpi",
+        "include/dt-bindings"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/iio",
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "drivers/regulator"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/iio\n3. drivers/pinctrl\n4. drivers/gpio\n5. drivers/regulator"
+    },
+    {
+      "source_module": "drivers/hte",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/gpio",
+        "arch/arm64",
+        "drivers/pinctrl",
+        "include/dt-bindings"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "To predict which modules `drivers/hte` is most likely to depend on, we need to understand the role of `drivers/hte` within the Linux Kernel. `drivers/hte` is related to Hardware Timestamping Engine (HTE) support, which is a feature that allows for precise timestamping of events.\n\n1. The first step is to identify the general category of `drivers/hte`. It falls under the \"drivers\" category, which suggests it's related to a specific hardware component or functionality.\n\n2. Given its relation to hardware timestamping, it's likely to interact with other drivers or core kernel components that deal with hardware management, timing, or related functionalities.\n\n3. The Linux Kernel is highly modular, with a strong dependency on header files for definitions and interfaces. Thus, modules under \"include/\" are crucial as they provide the necessary definitions and interfaces that various drivers and kernel components use.\n\n4. Architecture-specific code (under \"arch/\") is also a critical dependency for many drivers since they need to interact with hardware, which is often architecture-specific.\n\n5. Considering the specific role of `drivers/hte`, it is likely to depend on:\n   - Header files that define interfaces or provide necessary definitions for its operation.\n   - Other drivers or kernel components that it interacts with directly, such as those related to timing, GPIO, or other hardware management.\n\nGiven these considerations and the list of available modules:\n\n1. include/linux\n2. drivers/gpio\n3. arch/arm64\n4. drivers/pinctrl\n5. include/dt-bindings\n\nHere's the list:\n\ninclude/linux\ndrivers/gpio\narch/arm64\ndrivers/pinctrl\ninclude/dt-bindings"
+    },
+    {
+      "source_module": "drivers/watchdog",
+      "true_targets": [
+        "include/trace",
+        "include/uapi",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "drivers/platform",
+        "drivers/gpio",
+        "drivers/pinctrl",
+        "include/linux",
+        "arch/arm64"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/platform\n2. drivers/gpio\n3. drivers/pinctrl\n4. include/linux\n5. arch/arm64"
+    },
+    {
+      "source_module": "security/keys",
+      "true_targets": [
+        "include/crypto",
+        "include/net",
+        "include/keys"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/crypto",
+        "lib/crypto",
+        "include/uapi",
+        "fs/xfs"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/crypto\nlib/crypto\ninclude/uapi\nfs/xfs"
+    },
+    {
+      "source_module": "arch/x86",
+      "true_targets": [
+        "include/asm-generic",
+        "lib/vdso",
+        "include/acpi",
+        "include/crypto",
+        "arch/um",
+        "include/uapi",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "drivers/acpi",
+        "drivers/input",
+        "drivers/char"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/pci\n3. drivers/acpi\n4. drivers/input\n5. drivers/char"
+    },
+    {
+      "source_module": "net/mctp",
+      "true_targets": [
+        "include/trace",
+        "include/kunit",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/net",
+        "drivers/net",
+        "include/linux",
+        "net/netfilter",
+        "drivers/pci"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/net\ndrivers/net\ninclude/linux\nnet/netfilter\ndrivers/pci"
+    },
+    {
+      "source_module": "drivers/infiniband",
+      "true_targets": [
+        "include/trace",
+        "include/target",
+        "include/rdma",
+        "include/net"
+      ],
+      "predicted": [
+        "drivers/pci",
+        "include/linux",
+        "arch/x86",
+        "drivers/scsi",
+        "include/net"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "1. drivers/pci\n2. include/linux\n3. arch/x86\n4. drivers/scsi\n5. include/net"
+    },
+    {
+      "source_module": "arch/arm",
+      "true_targets": [
+        "include/asm-generic",
+        "lib/fonts",
+        "include/video",
+        "include/trace",
+        "include/sound",
+        "include/uapi",
+        "include/vdso",
+        "lib/zlib_inflate"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/clk",
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "drivers/platform"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/clk\n3. drivers/pinctrl\n4. drivers/gpio\n5. drivers/irqchip (not available, closest alternative: drivers/platform) \n\nSince drivers/irqchip is not available, the closest alternative is used.\n\n1. include/linux\n2. drivers/clk\n3. drivers/pinctrl\n4. drivers/gpio\n5. drivers/platform"
+    },
+    {
+      "source_module": "mm/kmsan",
+      "true_targets": [
+        "include/trace",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "arch/arm",
+        "drivers/misc"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "To predict which modules `mm/kmsan` is most likely to depend on, we need to understand the role of `mm/kmsan` within the Linux Kernel. `mm/kmsan` is related to the Kernel Memory Sanitizer (KMSAN), a tool designed to detect uses of uninitialized memory. It is part of the memory management (`mm`) subsystem.\n\n1. The first step is to identify the primary function of `mm/kmsan`. As it's related to memory management and specifically to detecting the use of uninitialized memory, it's likely to interact closely with other parts of the memory management subsystem and potentially with architecture-specific code.\n\n2. The Linux Kernel is highly modular, with different subsystems and components interacting through well-defined interfaces. The `mm` subsystem is responsible for managing virtual memory, and tools like KMSAN are integrated into this subsystem to provide debugging and error detection capabilities.\n\n3. Given that `mm/kmsan` is a part of `mm`, we should consider other modules that are closely related to memory management or that could be impacted by or interact with memory management. This includes architecture-specific code (`arch/*`) since memory management can be architecture-dependent.\n\n4. The `include/linux` directory contains header files that provide common Linux kernel functionality and interfaces. It's likely that `mm/kmsan` includes headers from this directory for general kernel functionality.\n\n5. Other `mm` components or closely related subsystems could be relevant, but since the exact list of `mm` components isn't provided, we look at the broader architecture and related subsystems.\n\n6. Architecture-specific directories like `arch/x86`, `arch/arm64`, etc., are crucial because KMSAN's implementation might need to be tailored or interact with architecture-specific memory management.\n\nGiven these considerations and the list of available modules:\n\n1. include/linux\n2. arch/x86\n3. arch/arm64\n4. arch/arm\n5. drivers/misc\n\nLet's directly provide the answer as per the required format:\n\ninclude/linux\narch/x86\narch/arm64\narch/arm\ndrivers/misc"
+    },
+    {
+      "source_module": "drivers/hid",
+      "true_targets": [
+        "include/drm",
+        "include/trace",
+        "include/kunit",
+        "arch/openrisc",
+        "include/media"
+      ],
+      "predicted": [
+        "drivers/input",
+        "drivers/usb",
+        "include/linux",
+        "drivers/tty",
+        "drivers/char"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/input\ndrivers/usb\ninclude/linux\ndrivers/tty\ndrivers/char"
+    },
+    {
+      "source_module": "drivers/nubus",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/m68k",
+        "include/linux",
+        "drivers/pci",
+        "drivers/platform",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "To solve this task, we need to understand the role of the `drivers/nubus` module within the Linux Kernel and its likely dependencies based on the kernel's architecture.\n\n1. **Understanding `drivers/nubus`**: The `drivers/nubus` module is related to NuBus, a bus technology used in older Macintosh computers. Given its classification under `drivers`, it's a device driver, likely responsible for managing or interacting with NuBus devices.\n\n2. **Linux Kernel Architecture**: The Linux Kernel is modular, with various subsystems and drivers. Drivers often depend on other drivers, architecture-specific code (`arch/*`), and include files (`include/*`) for definitions and interfaces.\n\n3. **Analyzing Potential Dependencies**:\n   - **Architecture-specific code (`arch/*`)**: Since NuBus is associated with Macintosh computers, which historically used Motorola 68000 series processors (found in `arch/m68k`), a dependency on `arch/m68k` is plausible.\n   - **Other Drivers (`drivers/*`)**: Depending on the functionality of NuBus drivers, they might depend on other drivers or core kernel functionalities.\n   - **Include Files (`include/*`)**: Drivers often include header files from `include/linux` for general kernel definitions and possibly from other `include` subdirectories for specific definitions.\n\n4. **Predicting Dependencies**:\n   - The `drivers/nubus` module is likely to depend on architecture-specific code related to the platforms it supports. NuBus was used in Macs, which were based on m68k processors, making `arch/m68k` a likely dependency.\n   - General kernel definitions and interfaces are typically found in `include/linux`, making it a probable dependency.\n   - Other dependencies could include other drivers or subsystems that NuBus devices interact with.\n\n5. **Ranking Likely Dependencies**:\n   - Given the historical context of NuBus and its association with m68k-based Macs, `arch/m68k` is a strong candidate.\n   - `include/linux` is generally a fundamental dependency for most kernel modules due to its core definitions.\n   - Other potential dependencies could be related to how NuBus devices are managed or interact with the system.\n\nBased on this analysis, here are the top 5 modules that `drivers/nubus` most likely depends on:\n\n1. arch/m68k\n2. include/linux\n3. drivers/pci\n4. drivers/platform\n5. include/uapi"
+    },
+    {
+      "source_module": "security/yama",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "drivers/char",
+        "fs/xfs"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\ninclude/uapi\nsecurity (not listed, but it's a parent directory, so let's consider other security-related or general kernel modules)\nfs (not listed, but file systems are related; however, a specific fs module is not directly related, let's consider a more general module)\nlib (not listed directly, but some modules under lib are)\n\nGiven the available options, here are the top 5 most likely modules:\n\n1. include/linux\n2. include/uapi\n3. arch/x86\n4. drivers/char\n5. fs/xfs \n\nLet's replace fs/xfs with a more general or related module. Since \"security\" is not directly available and assuming it refers to general kernel or related security functionality, and given the available modules:\n\n1. include/linux\n2. include/uapi\n3. arch/x86\n4. lib/crypto\n5. drivers/char \n\nRevising based on relevance and likelihood, and directly available options:\n\n1. include/linux\n2. include/uapi\n3. arch/x86\n4. lib/crypto\n5. security is not available, so the next closest is net/netfilter\n\nThe final answer is:\ninclude/linux\ninclude/uapi\nnet/netfilter\nlib/crypto\narch/x86"
+    },
+    {
+      "source_module": "drivers/mtd",
+      "true_targets": [
+        "include/uapi",
+        "include/soc",
+        "include/memory"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/mfd",
+        "drivers/gpio",
+        "arch/arm",
+        "drivers/pinctrl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/mfd\n3. drivers/gpio\n4. arch/arm\n5. drivers/pinctrl"
+    },
+    {
+      "source_module": "lib/zlib_inflate",
+      "true_targets": [
+        "lib/zlib_dfltcc"
+      ],
+      "predicted": [
+        "include/linux",
+        "lib/crypto",
+        "arch/x86",
+        "include/uapi",
+        "drivers/infiniband"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. lib/crypto\n3. arch/x86\n4. include/uapi\n5. drivers/infiniband"
+    },
+    {
+      "source_module": "drivers/perf",
+      "true_targets": [
+        "include/asm-generic",
+        "include/acpi",
+        "include/clocksource"
+      ],
+      "predicted": [
+        "arch/x86",
+        "include/linux",
+        "drivers/pci",
+        "arch/arm64",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. arch/x86\n2. include/linux\n3. drivers/pci\n4. arch/arm64\n5. include/uapi"
+    },
+    {
+      "source_module": "crypto/asymmetric_keys",
+      "true_targets": [
+        "include/linux",
+        "include/keys"
+      ],
+      "predicted": [
+        "include/linux",
+        "lib/crypto",
+        "drivers/crypto",
+        "arch/x86",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "1. include/linux\n2. lib/crypto\n3. drivers/crypto\n4. arch/x86\n5. include/uapi"
+    },
+    {
+      "source_module": "net/xdp",
+      "true_targets": [
+        "include/uapi",
+        "include/net"
+      ],
+      "predicted": [
+        "include/net",
+        "drivers/net",
+        "include/linux",
+        "arch/x86",
+        "include/uapi"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/net\ndrivers/net\ninclude/linux\narch/x86\ninclude/uapi"
+    },
+    {
+      "source_module": "rust/bindings",
+      "true_targets": [
+        "include/drm",
+        "drivers/android",
+        "drivers/base"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/uapi",
+        "arch/x86",
+        "include/net",
+        "include/dt-bindings"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "To solve this task, we need to understand the role of the `rust/bindings` module within the Linux Kernel and how it interacts with other modules. The Linux Kernel is a complex system with various components, including drivers for hardware, architecture-specific code, and core kernel functionality.\n\n1. **Understanding `rust/bindings`**: The `rust/bindings` module is related to the integration of Rust code into the Linux Kernel. The Linux Kernel is primarily written in C, but there's an ongoing effort to incorporate Rust as a second language for writing kernel modules and potentially other kernel components. The `rust/bindings` module likely contains the necessary bindings or interfaces that allow Rust code to interact with the C code base of the Linux Kernel.\n\n2. **Identifying Dependencies**: To predict which modules `rust/bindings` is likely to depend on, we need to consider what it needs to interface with the existing C code base. The Linux Kernel's architecture is modular, with different directories containing code for different functionalities (e.g., drivers, architecture-specific code, include files for various interfaces).\n\n3. **Analyzing Available Modules**: \n   - The `include/linux` directory contains header files that define the Linux Kernel's internal APIs. These are crucial for any kernel code, including Rust code, as they provide the interface to the kernel's core functionality.\n   - Other `include` directories like `include/uapi`, `include/net`, and `include/dt-bindings` contain headers for user-space API, networking, and device tree bindings, respectively. These could be relevant depending on what aspects of the kernel the Rust code interacts with.\n   - Architecture-specific directories (`arch/*`) contain code specific to particular CPU architectures. While Rust code might eventually be used here, the bindings are more likely to depend on generic kernel interfaces rather than architecture-specific code directly.\n\n4. **Reasoning**: \n   - `rust/bindings` is likely to depend heavily on header files that define the kernel's internal and external interfaces. \n   - The most relevant `include` directories are likely to be those that contain widely used kernel interfaces.\n\nBased on this reasoning, here are the top 5 modules that `rust/bindings` most likely depends on:\n\n1. include/linux\n2. include/uapi\n3. arch/x86\n4. include/net\n5. include/dt-bindings"
+    },
+    {
+      "source_module": "drivers/media",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/acpi",
+        "include/misc",
+        "include/sound",
+        "include/media",
+        "include/net"
+      ],
+      "predicted": [
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "include/linux",
+        "drivers/usb",
+        "drivers/iio"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/pinctrl\n2. drivers/gpio\n3. include/linux\n4. drivers/usb\n5. drivers/iio"
+    },
+    {
+      "source_module": "drivers/ufs",
+      "true_targets": [
+        "include/scsi",
+        "include/ufs",
+        "include/soc"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/scsi",
+        "arch/arm64",
+        "drivers/pinctrl",
+        "drivers/clk"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/scsi\n3. arch/arm64\n4. drivers/pinctrl\n5. drivers/clk"
+    },
+    {
+      "source_module": "drivers/firewire",
+      "true_targets": [
+        "include/scsi",
+        "include/kunit",
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/scsi",
+        "drivers/usb",
+        "include/linux",
+        "drivers/pci",
+        "lib/crypto"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "1. drivers/scsi\n2. drivers/usb\n3. include/linux\n4. drivers/pci\n5. lib/crypto"
+    },
+    {
+      "source_module": "drivers/input",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/trace",
+        "include/xen",
+        "include/kunit",
+        "include/sound",
+        "include/media"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/usb",
+        "drivers/hid",
+        "arch/x86",
+        "drivers/pinctrl"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/usb\n3. drivers/hid\n4. arch/x86\n5. drivers/pinctrl"
+    },
+    {
+      "source_module": "drivers/nfc",
+      "true_targets": [
+        "include/uapi",
+        "include/net"
+      ],
+      "predicted": [
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "include/linux",
+        "drivers/regulator",
+        "drivers/platform"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/pinctrl\n2. drivers/gpio\n3. include/linux\n4. drivers/regulator\n5. drivers/platform"
+    },
+    {
+      "source_module": "drivers/scsi",
+      "true_targets": [
+        "drivers/net",
+        "include/trace",
+        "include/kunit",
+        "include/linux",
+        "include/uapi",
+        "drivers/parisc"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "arch/x86",
+        "arch/arm",
+        "include/uapi"
+      ],
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "raw_response": "1. include/linux\n2. drivers/pci\n3. arch/x86\n4. drivers/scsi is less likely to directly depend on other 'drivers' subdirectories, but among them, a likely candidate is: drivers/usb\n   However, a more likely candidate is: lib/crypto is not directly related, but include/linux is. Another 'arch' directory is also likely. So, the next is: arch/arm\n5. drivers/ata is not available, but another likely 'arch' or a more general 'include' is. So, the next is: include/uapi\n\nRevising the list based on the available options and typical dependencies:\n1. include/linux\n2. drivers/pci\n3. arch/x86\n4. arch/arm\n5. include/uapi"
+    },
+    {
+      "source_module": "drivers/usb",
+      "true_targets": [
+        "include/target",
+        "include/soc",
+        "include/drm",
+        "include/pcmcia",
+        "include/trace",
+        "include/sound",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/phy",
+        "drivers/pinctrl",
+        "drivers/dma",
+        "drivers/hid"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/phy\n3. drivers/pinctrl\n4. drivers/dma\n5. drivers/hid"
+    },
+    {
+      "source_module": "lib/test_fortify",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "lib/crypto",
+        "arch/x86",
+        "include/uapi",
+        "drivers/misc"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "1. include/linux\n2. lib/crypto\n3. arch/x86\n4. include/uapi\n5. drivers/misc"
+    },
+    {
+      "source_module": "kernel/bpf",
+      "true_targets": [
+        "include/trace",
+        "include/crypto",
+        "kernel/locking",
+        "kernel/cgroup"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "include/net",
+        "net/netfilter",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. include/net\n4. net/netfilter\n5. include/uapi"
+    },
+    {
+      "source_module": "mm/damon",
+      "true_targets": [
+        "include/trace",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. mm (is not given, but it is likely, however, we can consider other modules)\n   Let's consider: drivers/misc \n   or other arch modules like arch/arm64\n4. arch/arm64\n5. include/uapi"
+    },
+    {
+      "source_module": "fs/ext4",
+      "true_targets": [
+        "include/uapi",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "drivers/md",
+        "include/uapi",
+        "lib/crypto"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/linux\narch/x86\ndrivers/md\ninclude/uapi\nlib/crypto"
+    },
+    {
+      "source_module": "drivers/mcb",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "drivers/pinctrl",
+        "arch/x86",
+        "drivers/platform"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "To predict which modules `drivers/mcb` is most likely to depend on, we need to understand the role of `drivers/mcb` within the Linux Kernel. `drivers/mcb` is related to the MEN Chameleon Bus (MCB), a bus system used in certain industrial and embedded systems. Drivers in the Linux Kernel typically interact with hardware components or other kernel subsystems.\n\n1. Understanding `drivers/mcb`: The MEN Chameleon Bus is a carrier for pluggable FPGA (Field-Programmable Gate Array) devices. Drivers for such a bus would likely interact with other parts of the kernel related to hardware management, device control, or other bus systems.\n\n2. Analyzing Potential Dependencies:\n   - `drivers/mcb` is a driver, so it likely depends on other drivers or core kernel components that manage hardware or provide necessary functionalities for its operation.\n   - It could depend on architecture-specific code (`arch/*`) if it needs to interact with specific hardware features.\n   - It might depend on include directories (`include/*`) for header files that define necessary constants, macros, or function prototypes.\n   - Other drivers or kernel subsystems that provide related functionalities could be dependencies.\n\n3. Evaluating the Given Modules:\n   - `drivers/*` modules are other drivers that could be related or provide necessary functionalities.\n   - `include/*` directories contain header files that could be necessary for `drivers/mcb`.\n   - `arch/*` directories contain architecture-specific code.\n\nGiven these considerations, here are the top 5 modules that `drivers/mcb` is likely to depend on, based on the typical structure and dependencies within the Linux Kernel:\n\n1. `include/linux`\n2. `drivers/pci`\n3. `drivers/base` is not listed, but a likely alternative is `drivers/pinctrl` or other closely related drivers; let's consider `drivers/pinctrl`\n4. `arch/x86`\n5. `drivers/platform`\n\nHowever, since `drivers/base` is not available and we need to choose from the given list, and considering that `drivers/mcb` is a driver and likely interacts with core kernel or other drivers, the closest alternatives are considered.\n\nThe final answer is:\n1. include/linux\n2. drivers/pci\n3. drivers/pinctrl\n4. arch/x86\n5. drivers/platform \n\nLet's correct to follow the format and available options:\ndrivers/pinctrl \ninclude/linux\narch/x86\ndrivers/platform\ndrivers/pci"
+    },
+    {
+      "source_module": "fs/udf",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "fs/xfs",
+        "drivers/scsi",
+        "drivers/mtd",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\nfs/xfs\ndrivers/scsi\ndrivers/mtd\ninclude/uapi"
+    },
+    {
+      "source_module": "fs/resctrl",
+      "true_targets": [
+        "include/uapi",
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/x86",
+        "include/linux",
+        "include/uapi",
+        "drivers/platform",
+        "fs/xfs"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "To predict which modules `fs/resctrl` is most likely to depend on, we need to understand the role of `fs/resctrl` within the Linux Kernel. `fs/resctrl` is related to the resource control filesystem, which is part of the kernel's mechanism for managing and controlling resource allocation, particularly related to Intel's Resource Director Technology (RDT) and other similar features. This involves managing cache and other resources.\n\n1. `arch/x86`\n2. `include/linux`\n3. `drivers/platform`\n4. `fs/xfs`\n5. `include/uapi`\n\nThese predictions are based on the understanding that `fs/resctrl` is likely to be closely related to architecture-specific code (especially for x86, given the historical context of RDT), kernel headers (`include/linux`), platform-specific drivers that might interact with resource control, other filesystem code (`fs/xfs`), and user API headers (`include/uapi`) for interface definitions.\n\nThe final answer is:\n```\narch/x86\ninclude/linux\ninclude/uapi\ndrivers/platform\nfs/xfs\n```"
+    },
+    {
+      "source_module": "mm/kasan",
+      "true_targets": [
+        "include/trace",
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. arch/arm64\n4. mm \n(not available, so the 4th is) lib\n(However, 'lib' is not available, and 'mm' is the parent directory of 'mm/kasan', so a more suitable 4th is) arch/arm\n5. include/uapi"
+    },
+    {
+      "source_module": "fs/unicode",
+      "true_targets": [
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "fs/xfs",
+        "include/uapi",
+        "lib/crypto",
+        "arch/x86"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\nfs/xfs\ninclude/uapi\nlib/crypto\narch/x86"
+    },
+    {
+      "source_module": "kernel/power",
+      "true_targets": [
+        "include/trace",
+        "include/uapi",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "drivers/acpi",
+        "drivers/base",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. drivers/acpi\n4. drivers/base\n wait, drivers/base is not in the list\n5. arch/arm \n\nLet me re-evaluate: \n1. include/linux\n2. arch/x86\n3. drivers/acpi\n4. arch/arm\n5. drivers/pci \n\nSo the answer is:\ninclude/linux\narch/x86\ndrivers/acpi\narch/arm\ndrivers/pci"
+    },
+    {
+      "source_module": "arch/riscv",
+      "true_targets": [
+        "include/asm-generic",
+        "include/trace",
+        "include/kvm",
+        "include/linux",
+        "include/net"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pinctrl",
+        "drivers/clk",
+        "drivers/platform",
+        "include/dt-bindings"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "1. include/linux\n2. drivers/pinctrl\n3. drivers/clk\n4. drivers/platform\n5. include/dt-bindings"
+    },
+    {
+      "source_module": "drivers/net",
+      "true_targets": [
+        "include/pcmcia",
+        "include/xen",
+        "arch/mips",
+        "include/kunit",
+        "arch/arm",
+        "include/linux",
+        "include/scsi",
+        "include/uapi",
+        "include/net"
+      ],
+      "predicted": [
+        "include/linux",
+        "include/net",
+        "arch/x86",
+        "drivers/pci",
+        "net/netfilter"
+      ],
+      "precision": 0.4,
+      "recall": 0.2222222222222222,
+      "raw_response": "1. include/linux\n2. include/net\n3. arch/x86\n4. drivers/pci\n5. net/netfilter"
+    },
+    {
+      "source_module": "net/netfilter",
+      "true_targets": [
+        "net/bridge",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/net",
+        "include/linux",
+        "drivers/net",
+        "include/uapi",
+        "arch/x86"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/net\ninclude/linux\ndrivers/net\ninclude/uapi\narch/x86"
+    },
+    {
+      "source_module": "kernel/unwind",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/x86",
+        "include/linux",
+        "arch/arm64",
+        "arch/arm",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "1. arch/x86\n2. include/linux\n3. arch/arm64\n4. arch/arm\n5. include/uapi"
+    },
+    {
+      "source_module": "drivers/pnp",
+      "true_targets": [
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/pci",
+        "drivers/acpi",
+        "include/linux",
+        "arch/x86",
+        "drivers/platform"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "1. drivers/pci\n2. drivers/acpi\n3. include/linux\n4. arch/x86\n5. drivers/pci is closely related to pnp, and acpi is also related, so include/linux is a likely dependency as it contains core kernel headers; x86 is a common architecture where PNP is used. \n\nRevised to just the list:\n1. drivers/pci\n2. drivers/acpi\n3. include/linux\n4. arch/x86\n5. drivers/base is not in the list, so the next most likely is drivers/firmware or another arch, but since drivers/base is not available, the closest is \narch/x86 \n\nRevised to:\n1. drivers/pci\n2. drivers/acpi\n3. include/linux\n4. arch/x86\n5. drivers/platform \n\nLet's correct that to:\n1. drivers/pci\n2. drivers/acpi\n3. include/linux\n4. arch/x86\n5. drivers/firmware \n\nRevised to the final answer:\n1. drivers/pci\n2. drivers/acpi\n3. include/linux\n4. arch/x86\n5. drivers/platform \n\nThe final answer is:\ndrivers/pci\ndrivers/acpi\ninclude/linux\narch/x86\ndrivers/platform"
+    },
+    {
+      "source_module": "kernel/kcsan",
+      "true_targets": [
+        "include/kunit",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm64",
+        "include/uapi",
+        "arch/arm"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "To predict which modules `kernel/kcsan` is most likely to depend on, we need to understand the role of `kernel/kcsan` within the Linux Kernel. `kernel/kcsan` is related to the Kernel Concurrency Sanitizer, a tool designed to detect concurrency bugs in the kernel. Given its purpose, it is likely to be closely related to core kernel functionality, particularly aspects dealing with concurrency, synchronization, and possibly architecture-specific code due to the nature of concurrency being highly dependent on the underlying hardware architecture.\n\n1. `include/linux`\n2. `arch/x86`\n3. `arch/arm64`\n4. `include/uapi`\n5. `lib/crypto` is less likely compared to other architecture-specific modules or core kernel includes, but still a possibility. However, a more likely candidate could be another core kernel or include module.\n\nUpon further consideration, given that `kernel/kcsan` is a kernel module concerned with concurrency, it is reasonable to expect it to depend heavily on core kernel headers and possibly architecture-specific code. The top dependencies are likely to be related to core kernel functionality and architecture-specific implementations.\n\n1. `include/linux`\n2. `arch/x86`\n3. `arch/arm64`\n4. `include/uapi`\n5. `arch/arm`\n\nLet's directly provide the list as per the instructions:\n\ninclude/linux\narch/x86\narch/arm64\ninclude/uapi\narch/arm"
+    },
+    {
+      "source_module": "drivers/virtio",
+      "true_targets": [
+        "include/uapi",
+        "include/xen"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "drivers/scsi",
+        "drivers/net",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "1. include/linux\n2. drivers/pci\n3. drivers/scsi\n4. drivers/net\n5. include/uapi"
+    },
+    {
+      "source_module": "drivers/power",
+      "true_targets": [
+        "include/uapi",
+        "include/soc",
+        "arch/arm",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/regulator",
+        "drivers/gpio",
+        "drivers/pinctrl",
+        "drivers/platform"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "1. include/linux\n2. drivers/regulator\n3. drivers/gpio\n4. drivers/pinctrl\n5. drivers/platform"
+    },
+    {
+      "source_module": "drivers/target",
+      "true_targets": [
+        "include/trace",
+        "include/scsi",
+        "include/crypto",
+        "drivers/net"
+      ],
+      "predicted": [
+        "drivers/scsi",
+        "drivers/usb",
+        "include/linux",
+        "drivers/pci",
+        "drivers/md"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "drivers/scsi\ndrivers/usb\ninclude/linux\ndrivers/pci\ndrivers/md"
+    },
+    {
+      "source_module": "drivers/mmc",
+      "true_targets": [
+        "include/kunit",
+        "include/uapi",
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/pinctrl",
+        "drivers/dma",
+        "include/linux",
+        "drivers/gpio",
+        "arch/arm64"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "1. drivers/pinctrl\n2. drivers/dma\n3. include/linux\n4. drivers/gpio\n5. arch/arm64"
+    },
+    {
+      "source_module": "drivers/iio",
+      "true_targets": [
+        "include/kunit",
+        "include/vdso",
+        "include/soc",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "drivers/regulator",
+        "drivers/clk"
+      ],
+      "precision": 0.2,
+      "recall": 0.25,
+      "raw_response": "1. include/linux\n2. drivers/pinctrl\n3. drivers/gpio\n4. drivers/regulator\n5. drivers/clk"
+    },
+    {
+      "source_module": "sound/arm",
+      "true_targets": [
+        "include/sound"
+      ],
+      "predicted": [
+        "arch/arm",
+        "include/linux",
+        "sound/soc",
+        "drivers/clk",
+        "include/dt-bindings"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. arch/arm\n2. include/linux\n3. sound/soc\n4. drivers/clk\n5. include/dt-bindings"
+    },
+    {
+      "source_module": "sound/hda",
+      "true_targets": [
+        "include/trace",
+        "include/acpi",
+        "include/sound"
+      ],
+      "predicted": [
+        "include/linux",
+        "sound/pci",
+        "drivers/pci",
+        "arch/x86",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. sound/pci\n3. drivers/pci\n4. arch/x86\n5. include/uapi"
+    },
+    {
+      "source_module": "drivers/gpio",
+      "true_targets": [
+        "include/soc",
+        "include/trace",
+        "include/linux",
+        "drivers/media",
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pinctrl",
+        "arch/arm",
+        "arch/arm64",
+        "arch/x86"
+      ],
+      "precision": 0.2,
+      "recall": 0.2,
+      "raw_response": "1. include/linux\n2. drivers/pinctrl\n3. arch/arm\n4. arch/arm64\n5. drivers/pinctrl is closely related, but another likely candidate is arch/x86, so the final answer is: \n   drivers/pinctrl \nbecomes \n1. include/linux\n2. arch/arm\n3. arch/arm64\n4. arch/x86\n5. drivers/pinctrl \n\nSo the final answer is:\n1. include/linux\n2. arch/arm\n3. arch/arm64\n4. arch/x86\n5. drivers/pinctrl\n\nLet's reformat it as requested:\ninclude/linux\narch/arm\narch/arm64\narch/x86\ndrivers/pinctrl"
+    },
+    {
+      "source_module": "sound/i2c",
+      "true_targets": [
+        "include/sound"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/i2c",
+        "sound/core",
+        "drivers/base",
+        "drivers/gpio"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/i2c\n3. sound/core\n   (Not available, but likely to be a dependency)\n   Replacing with: sound/soc\n4. drivers/base\n   (Not available, but related to include/linux)\n   Replacing with: drivers/pinctrl\n   (Not directly related, but a possible dependency)\n   Replacing with: include/uapi\n5. drivers/gpio \n\nRevised to:\n1. include/linux\n2. sound/soc\n3. include/uapi\n4. drivers/i2c\n5. drivers/gpio"
+    },
+    {
+      "source_module": "drivers/parisc",
+      "true_targets": [
+        "include/uapi"
+      ],
+      "predicted": [
+        "arch/parisc",
+        "drivers/pci",
+        "include/linux",
+        "drivers/input",
+        "drivers/char"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. arch/parisc\n2. drivers/pci\n3. include/linux\n4. drivers/input\n5. drivers/char"
+    },
+    {
+      "source_module": "drivers/spi",
+      "true_targets": [
+        "include/trace",
+        "include/soc",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "drivers/gpio",
+        "include/linux",
+        "drivers/pinctrl",
+        "drivers/clk",
+        "drivers/regulator"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/gpio\n2. include/linux\n3. drivers/pinctrl\n4. drivers/clk\n5. drivers/regulator"
+    },
+    {
+      "source_module": "net/kcm",
+      "true_targets": [
+        "include/uapi",
+        "include/net"
+      ],
+      "predicted": [
+        "include/net",
+        "net/netfilter",
+        "drivers/net",
+        "include/linux",
+        "include/uapi"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "raw_response": "include/net\nnet/netfilter\ndrivers/net\ninclude/linux\ninclude/uapi"
+    },
+    {
+      "source_module": "fs/ecryptfs",
+      "true_targets": [
+        "include/linux",
+        "include/keys"
+      ],
+      "predicted": [
+        "include/linux",
+        "fs/xfs",
+        "drivers/crypto",
+        "lib/crypto",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "include/linux\nfs/xfs\ndrivers/crypto\nlib/crypto\ninclude/uapi"
+    },
+    {
+      "source_module": "drivers/video",
+      "true_targets": [
+        "include/video",
+        "include/drm",
+        "include/acpi",
+        "include/xen",
+        "arch/arm",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "drivers/gpu",
+        "include/linux",
+        "drivers/pinctrl",
+        "drivers/clk",
+        "drivers/pci"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/gpu\n2. include/linux\n3. drivers/pinctrl\n4. drivers/clk\n5. drivers/pci"
+    },
+    {
+      "source_module": "drivers/block",
+      "true_targets": [
+        "include/xen",
+        "include/crypto",
+        "include/rdma",
+        "include/scsi",
+        "include/net"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/scsi",
+        "arch/x86",
+        "drivers/md",
+        "lib/crypto"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/scsi\n3. arch/x86\n4. drivers/md\n5. lib/crypto"
+    },
+    {
+      "source_module": "kernel/irq",
+      "true_targets": [
+        "include/trace",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "arch/arm",
+        "arch/arm64",
+        "drivers/pci"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. arch/arm\n4. arch/arm64\n5. drivers/pci"
+    },
+    {
+      "source_module": "drivers/platform",
+      "true_targets": [
+        "include/dt-bindings",
+        "include/drm",
+        "include/trace",
+        "include/acpi",
+        "drivers/misc",
+        "include/crypto",
+        "include/media"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/soc",
+        "drivers/pinctrl",
+        "drivers/gpio",
+        "arch/arm64"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. include/linux\n2. drivers/soc\n3. drivers/pinctrl\n4. drivers/gpio\n5. arch/arm64"
+    },
+    {
+      "source_module": "kernel/time",
+      "true_targets": [
+        "include/kunit",
+        "include/uapi",
+        "include/vdso"
+      ],
+      "predicted": [
+        "include/linux",
+        "arch/x86",
+        "drivers/clk",
+        "include/uapi",
+        "arch/arm64"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "1. include/linux\n2. arch/x86\n3. drivers/clk\n4. include/uapi\n5. arch/arm64"
+    },
+    {
+      "source_module": "drivers/tty",
+      "true_targets": [
+        "include/xen",
+        "include/soc",
+        "include/net",
+        "arch/powerpc"
+      ],
+      "predicted": [
+        "drivers/char",
+        "include/linux",
+        "arch/x86",
+        "drivers/pinctrl",
+        "drivers/gpio"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/char\n2. include/linux\n3. arch/x86\n4. drivers/pinctrl\n5. drivers/gpio"
+    },
+    {
+      "source_module": "drivers/vhost",
+      "true_targets": [
+        "include/scsi",
+        "include/target",
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/net",
+        "include/linux",
+        "include/uapi",
+        "drivers/char",
+        "drivers/misc"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "1. drivers/net\n2. include/linux\n3. drivers/virtio is not available, but a related module is drivers/char\n4. include/uapi\n5. drivers/virtio is not available, a possible alternative is drivers/misc \n\nRevised response:\n1. drivers/net\n2. include/linux\n3. drivers/char\n4. include/uapi\n5. drivers/misc"
+    },
+    {
+      "source_module": "drivers/uio",
+      "true_targets": [
+        "drivers/hv"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/pci",
+        "drivers/platform",
+        "arch/x86",
+        "drivers/gpio"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\ndrivers/pci\ndrivers/platform\narch/x86\ndrivers/gpio"
+    },
+    {
+      "source_module": "drivers/remoteproc",
+      "true_targets": [
+        "include/uapi",
+        "include/dt-bindings"
+      ],
+      "predicted": [
+        "drivers/firmware",
+        "drivers/soc",
+        "drivers/pinctrl",
+        "drivers/clk",
+        "drivers/platform"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "1. drivers/firmware\n2. drivers/soc\n3. drivers/pinctrl\n4. drivers/clk\n5. drivers/platform"
+    },
+    {
+      "source_module": "drivers/idle",
+      "true_targets": [
+        "include/trace",
+        "include/linux"
+      ],
+      "predicted": [
+        "arch/x86",
+        "arch/arm",
+        "arch/arm64",
+        "include/linux",
+        "drivers/platform"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "raw_response": "1. arch/x86\n2. arch/arm\n3. arch/arm64\n4. drivers/cpuidle (not available, but likely)\n   Replacing with: drivers/base (not available, but a close alternative is) drivers/platform\n5. include/linux \n\nRevised to fit available modules:\n1. arch/x86\n2. arch/arm\n3. arch/arm64\n4. drivers/platform\n5. include/linux"
+    },
+    {
+      "source_module": "arch/um",
+      "true_targets": [
+        "include/trace",
+        "include/uapi",
+        "include/linux"
+      ],
+      "predicted": [
+        "include/linux",
+        "drivers/char",
+        "drivers/input",
+        "drivers/tty",
+        "include/uapi"
+      ],
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "raw_response": "include/linux\ndrivers/char\ndrivers/input\ndrivers/tty\ninclude/uapi"
+    },
+    {
+      "source_module": "fs/hfs",
+      "true_targets": [
+        "include/kunit"
+      ],
+      "predicted": [
+        "include/linux",
+        "fs/xfs",
+        "arch/arm",
+        "drivers/scsi",
+        "include/uapi"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "raw_response": "include/linux\nfs/xfs\narch/arm\ndrivers/scsi\ninclude/uapi"
+    },
+    {
+      "source_module": "drivers/bluetooth",
+      "true_targets": [
+        "include/uapi",
+        "include/acpi",
+        "include/linux"
+      ],
+      "predicted": [
+        "drivers/usb",
+        "include/linux",
+        "drivers/tty",
+        "drivers/hid",
+        "drivers/pinctrl"
+      ],
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "raw_response": "drivers/usb\ninclude/linux\ndrivers/tty\ndrivers/hid\ndrivers/pinctrl"
+    },
+    {
+      "source_module": "fs/kernfs",
+      "true_targets": [
+        "include/uapi"
+      ],
+      "predicted": [
+        "include/linux",
+        "fs/xfs",
+        "drivers/base",
+        "include/uapi"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "raw_response": "include/linux\nfs/xfs\ndrivers/base\ninclude/uapi\nlib/kobject"
+    }
+  ],
+  "n_api_errors": 0
+}

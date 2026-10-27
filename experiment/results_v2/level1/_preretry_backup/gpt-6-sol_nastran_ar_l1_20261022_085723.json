@@ -1,0 +1,117 @@
+{
+ "precision_at_5": 0.15000000000000002,
+ "recall_at_5": 0.75,
+ "total": 4,
+ "n_api_errors": 1,
+ "usage_total": {
+  "prompt_tokens": 848,
+  "completion_tokens": 823,
+  "total_tokens": 1671
+ },
+ "results": [
+  {
+   "source_module": "utility",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "mis",
+    "um",
+    "mds",
+    "bd",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "mis\num\nmds\nbd\nrf",
+   "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 276,
+    "total_tokens": 481
+   },
+   "latency_ms": 4947.3,
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mds",
+   "true_targets": [
+    "mis"
+   ],
+   "predicted": [
+    "utility",
+    "mis",
+    "um",
+    "bd",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "utility\nmis\num\nbd\nrf",
+   "usage": {
+    "prompt_tokens": 393,
+    "completion_tokens": 203,
+    "total_tokens": 596
+   },
+   "latency_ms": 10109.2,
+   "true_targets_v1": [
+    "mis"
+   ]
+  },
+  {
+   "source_module": "mis",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [],
+   "precision": 0.0,
+   "recall": 0.0,
+   "raw_response": "ERROR: Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected by the content safety policy. Please revise the input and try again.', 'request_id': '640c1922-f795-42e1-bbef-e56bcaf97c6e', 'type': 'invalid_request_error'}}",
+   "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+   },
+   "latency_ms": 0,
+   "true_targets_v1": [
+    "mds"
+   ]
+  },
+  {
+   "source_module": "bd",
+   "true_targets": [
+    "mds"
+   ],
+   "predicted": [
+    "utility",
+    "mis",
+    "mds",
+    "um",
+    "rf"
+   ],
+   "precision": 0.2,
+   "recall": 1.0,
+   "raw_response": "utility\nmis\nmds\num\nrf",
+   "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 344,
+    "total_tokens": 594
+   },
+   "latency_ms": 13326.3,
+   "true_targets_v1": [
+    "mds"
+   ]
+  }
+ ],
+ "timestamp": "2026-10-05T15:00:42.766521",
+ "model": "gpt-6-sol",
+ "project": "nastran",
+ "task": "ar",
+ "level": 1,
+ "code_snippet_lines": 100,
+ "manifest_seed": 42,
+ "import_source": "dependency_raw",
+ "manifest_version": "akg_v2",
+ "rescored_from": "results_rerun/level1/gpt-6-sol_nastran_ar_l1.json"
+}
